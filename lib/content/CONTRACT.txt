@@ -1,0 +1,151 @@
+English beta content contract, version 1.0
+
+Files
+
+public-content.json: public editorial answers and reference metadata. This is the
+only content export intended for a browser/static asset directory. It does not
+contain the original context_text or source paragraph text.
+
+evidence-packets.json: SERVER ONLY. Keep outside the application's public/static
+directory and do not expose it through a file-serving or debugging route. It
+contains bounded primary-source contexts for answer generation, not the whole
+archive. Its inclusion in the app does not authorize serving those contexts in
+full to public clients.
+
+content.json: manifest describing both files, byte hashes, counts and mechanical
+validation. It is not a third copy of the answer content.
+
+export.py: Python standard-library-only deterministic exporter. Run it from any
+working directory. It reads the three fixed source inputs and writes only beside
+itself. It makes no network or model calls and does not bind any provider.
+
+Shared top-level keys
+
+version, bundle_hash, language, topic, scope, source_input_hashes,
+schema_version, content_hash.
+
+bundle_hash identifies the exporter content version plus hashes of answer-map,
+evidence and independent-review. source_input_hashes contains basenames, not
+local file paths. content_hash is SHA-256 of the object's JSON after omitting
+content_hash, with sort_keys=True, ensure_ascii=False and separators=(',', ':').
+The manifest also provides SHA-256 of each complete output file's exact bytes.
+
+public-content.json
+
+Additional top-level keys:
+distribution, review, questions, references, timeline, guide, guide_kind.
+
+questions is an array of six objects copied unchanged from the reviewed answer
+map. All fields, strings, punctuation, citation markers, arrays and nulls are
+preserved; no fields are renamed or synthesized. Each object has:
+
+slug, number, title, short, deck, lead, origin, sections, prompt, prompt_refs,
+next, next_reason, reference_keys, answer_kind, current_company_assessment.
+
+Three questions additionally have origin_ref. sections is an ordered array of
+[heading, body] pairs, not an array of objects. A body may have multiple
+paragraphs separated by two newlines. prompt is the already-reviewed editorial
+research prompt; prompt_refs supplies its references. There are no synthesized
+practice or boundaries fields. Qualifications remain in their reviewed text.
+next is the next question slug, or null for the final question. Preserve that
+terminal null. Treat answer_kind and current_company_assessment as data, not as
+an endorsement of a contemporary investment.
+
+Render [[REF]] markers using references[REF]. All 45 inline markers resolve.
+Do not substitute paragraph IDs for REF keys or re-number the source data.
+reference_keys enumerates the references used by a question; prompt_refs and
+optional origin_ref are separately available for their particular labels.
+All 30 references are used somewhere in the exported reviewed content.
+
+references is an object keyed by the original REF key (e.g. L96-circle). Each
+value retains original context_id, paragraph_ids and label, and adds:
+
+source_id, context_title, publisher_url, publisher_reading_url,
+date, date_kind, event_date, signature_date, publication_date, report_year,
+date_basis, speakers, paragraphs.
+
+publisher_url is the exact publisher source_url. publisher_reading_url may be
+null; it is an alternative publisher URL when already recorded. date chooses
+the known event_date for a meeting, or signature_date for a letter. date_kind
+states that choice. Report year, signature date and publication date are kept
+distinct. In particular, the 2013 letter is signed in 2014; the 2019 event date
+is 2019-05-04, not the /2019/05/06/ date embedded in the video URL. Unknown
+publication dates remain null. date_basis preserves the source's verification
+metadata except its local_path. Do not turn unknown publication dates into the
+report-year date or infer a date from a URL.
+
+speakers is the ordered list of distinct paragraph speaker values; null is
+retained if present, rather than silently assigning an author. paragraphs is
+an ordered array of metadata objects: id, unit_id, speaker, speaker_basis,
+locator (when present in the source). It contains no text/reading_text.
+The locator retains source-specific paragraph/page/chapter/timestamp data.
+locator.json_path is a path inside a publisher JSON structure, not a local
+filesystem path. Timestamp status is retained; do not present it as audio
+verification. Publisher links are not guaranteed deep links to an exact
+paragraph, so show the locator alongside the link.
+
+timeline is unchanged: each row is
+[date_label, role_label, title, explanation, reference_keys].
+guide is unchanged: each row is
+[id, situation, instruction, explanation, question_slug, reference_keys].
+guide_kind is the reviewed description of that guide's editorial status.
+
+review is a scoped summary copied from the existing independent review:
+status, recommendation, reviewed_at_utc, independent_of_author, review_scope,
+conclusion, remaining_limits, blocking_findings_open, material_findings_open.
+It does not imply fresh semantic review of a new generated answer, current
+publisher checks, market-data verification, or observed human user testing.
+
+evidence-packets.json
+
+Additional top-level keys:
+distribution, contexts, references, question_context_ids,
+source_research_claims, source_research_relationships,
+source_evidence_review_status.
+
+contexts is an ordered array of the eight source contexts. Each retains all
+225 original paragraph objects, in order, and exact context_text. The exporter
+copies date_metadata onto each context for explicit inherited dating. Each
+paragraph preserves its source speaker, attribution basis, locator, original
+text and reading layer, including all existing verification flags. Original
+paragraph objects are exactly equal to the reviewed input, not newly rewritten
+or translated. Contexts are not shortened to only the cited paragraph IDs.
+
+Other context metadata is copied by an allowlist in CONTEXT_FIELDS in export.py:
+context and source IDs; titles/title qualifications; publisher URLs; source
+hashes; event/signature/report/publication dates; boundary and verification
+scope; chapters; original question IDs and topic-answer start; signatures;
+encoding/normalization and embedded quotation notes; original-change/review
+status. Local archive paths and rendered-image paths are not exported.
+
+The complete 2002 audience turn spans chapters 16, 17 and 18 because Buffett
+answers its three questions in reverse order. Preserve these context boundaries
+when passing that packet to a model; reference paragraph selection alone is not
+a replacement for the full question and qualifications. Likewise, both Buffett
+and Munger turns remain in the 2019 packets.
+
+references is the original minimal map, unchanged: REF -> context_id,
+paragraph_ids, label. To resolve a reference, find contexts[] by context_id,
+then its paragraphs[] by id. Some paragraph IDs (e.g. p12-3) are only unique
+within their context; use (context_id, paragraph_id) as the compound key.
+
+question_context_ids maps each exact question slug to its deduplicated context
+IDs in reference order, suitable for fetching whole bounded packets. It does
+not claim that all those contexts are needed for every new user question.
+
+source_research_claims and source_research_relationships are copied unchanged
+from the evidence file. Individual source-worker draft labels remain intact.
+They are research aids; do not relabel them as separately reviewed final
+answers or use them instead of the original context. Speaker distinctions,
+conditions and prohibited inferences remain available.
+
+Validation actually performed
+
+The exporter checks that answer-map.json and evidence.json match the SHA-256
+values recorded by the independent review, and that no blocking/material
+findings remain open in that review. It validates every reference-to-context
+and reference-to-paragraph target, question/guide/timeline references, the next
+question links, exact editorial objects, exact original paragraph objects and
+context_text, absence of local paths in public content, and absence of full
+source text in public reference metadata. Inputs are checked unchanged after
+export. These are export-integrity checks, not a new semantic source review.

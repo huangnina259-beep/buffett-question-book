@@ -1,0 +1,54 @@
+{
+  "version": "english-beta-competence-content-1.0",
+  "bundle_hash": "bd2bce863a1fbdf78454a88486cf318947969f27d3f8ab9a87a4fa5c0f9acdab",
+  "language": "en",
+  "topic": "circle-of-competence",
+  "scope": "Selected primary contexts for one topic; original files unchanged; not complete corpus coverage.",
+  "source_input_hashes": {
+    "answer-map.json": "b3a3fbba1a05569a90999581b3f3f5af44be45f37c72382c52720723250d6a91",
+    "evidence.json": "2a3a3b848609921cf7f14e43bea7c88ec24ec5ddc03431253fd329116b2047a6",
+    "independent-review.json": "4adb7e30000ead57d4e4d1f3e5ecd960e2f9e69b0238e134b97405e60eface40"
+  },
+  "schema_version": "competence-content-manifest-1.0",
+  "files": {
+    "public-content.json": {
+      "sha256": "524b609e1eef2e6fc15eb1d01bd68af115245b03fe386bcdc946bd131ba0f4a9",
+      "bytes": 138015,
+      "content_hash": "ecbccb716c1b9950ee2e8513a9846d131e9112e0537a91c2886f7e853c1fa037",
+      "distribution": "public"
+    },
+    "evidence-packets.json": {
+      "sha256": "bbad99a1058cbc817094e899add9b8256f5c6669483d331de8cc6625f6205368",
+      "bytes": 672583,
+      "content_hash": "544ce247b3279b5d631119b6ab8fcc07fe1e8e6cfeb5481edb086b4436dd153b",
+      "distribution": "server_only_do_not_serve_as_static_asset"
+    }
+  },
+  "counts": {
+    "questions": 6,
+    "references": 30,
+    "used_references": 30,
+    "inline_citation_markers": 45,
+    "contexts": 8,
+    "unique_source_ids": 7,
+    "original_paragraphs": 225,
+    "timeline_entries": 8,
+    "guide_entries": 6,
+    "source_research_claims": 31,
+    "source_research_relationships": 9
+  },
+  "validation": {
+    "inputs_match_independently_reviewed_hashes": true,
+    "question_fields_exact": true,
+    "paragraph_objects_exact": true,
+    "context_text_exact": true,
+    "all_citations_resolve": true,
+    "all_next_links_resolve": true,
+    "public_reference_metadata_has_no_source_excerpt_text": true,
+    "public_has_no_internal_file_paths": true,
+    "original_files_unchanged": true,
+    "new_semantic_review_performed": false,
+    "network_or_model_calls": 0
+  },
+  "content_hash": "c91b11e9154d6cccd6e1c577c0218d535d695a42e0bfdc4802eb488a58acbd88"
+}

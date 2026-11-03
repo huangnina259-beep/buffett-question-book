@@ -1,0 +1,3641 @@
+{
+  "version": "english-beta-competence-content-1.0",
+  "bundle_hash": "bd2bce863a1fbdf78454a88486cf318947969f27d3f8ab9a87a4fa5c0f9acdab",
+  "language": "en",
+  "topic": "circle-of-competence",
+  "scope": "Selected primary contexts for one topic; original files unchanged; not complete corpus coverage.",
+  "source_input_hashes": {
+    "answer-map.json": "b3a3fbba1a05569a90999581b3f3f5af44be45f37c72382c52720723250d6a91",
+    "evidence.json": "2a3a3b848609921cf7f14e43bea7c88ec24ec5ddc03431253fd329116b2047a6",
+    "independent-review.json": "4adb7e30000ead57d4e4d1f3e5ecd960e2f9e69b0238e134b97405e60eface40"
+  },
+  "schema_version": "competence-public-content-1.0",
+  "distribution": "public",
+  "review": {
+    "status": "agent_reviewed_content_and_static_delivery",
+    "recommendation": "agent_reviewed",
+    "reviewed_at_utc": "2026-11-03T07:26:03.708678+00:00",
+    "independent_of_author": true,
+    "review_scope": "Six actual answer HTML pages, entry, research guide, thematic timeline, eight original-context HTML pages, source index, evidence statements/relationships and reference map. One minor timeline ambiguity repaired and rechecked. Final administrative review page and final static delivery rechecked. Browser appearance and interaction remain outside this independent reviewer's performed scope.",
+    "conclusion": "No blocking support, attribution, scope or practical-guidance defect found in the reviewed topic. The deliverable makes concrete explanatory gains over the old pilot through real cases and explicit unknowns. This is a scoped independent agent assessment; it does not establish human usefulness, personal competence, complete corpus coverage or current investment suitability.",
+    "remaining_limits": [
+      "No audio verification or fresh live publisher check. Archived primary documents and source-specific context are the review basis.",
+      "No browser interaction, desktop/mobile render or visual accessibility test by this reviewer. The author's separate browser-check.json reports sampled checks; those are not independent browser review.",
+      "2013 source pages19–20 were independently read as fresh PDF extraction but not visually rendered by this reviewer; visual checks covered physical pages16–18.",
+      "No full-corpus omission search, frequency measurement or assertion that these are all relevant competence statements.",
+      "The seven reader tests are agent simulations, not observed human use. The user's assessment of explanatory usefulness remains open."
+    ],
+    "blocking_findings_open": 0,
+    "material_findings_open": 0
+  },
+  "questions": [
+    {
+      "slug": "understand-a-business",
+      "number": "01",
+      "title": "What does it mean to understand a business?",
+      "short": "I know the product. Do I understand the business?",
+      "deck": "See’s Candy: what changed, what Buffett thought would endure, and why the distinction matters.",
+      "lead": "Knowing a company’s products is a starting point. The understanding Buffett needs for an investment concerns the economics behind its future earnings—and the limits of his ability to judge them.",
+      "origin": "An editorial question connecting the 1992 and 1996 letters with the 2002 audience discussion.",
+      "sections": [
+        [
+          "The understanding has a job to do",
+          "In the 1992 letter, Buffett connects business understanding to the difficult part of valuation: estimating the future cash a business will produce. He says the arithmetic is comparatively easy; even an intelligent, experienced analyst can get the future wrong. Berkshire tries to reduce that problem by staying with businesses it believes are relatively simple and stable. That describes its own limits, rather than proving that other kinds of businesses are worthless. [[L92-forecast]]"
+        ],
+        [
+          "See’s: changing operations, persistent buying reasons",
+          "In the 1996 letter, Buffett says See’s had changed its candy assortment, machinery and distribution channels since Berkshire bought it. Yet he believed the reasons people bought boxed chocolates—and bought them from See’s—had barely changed. His confidence concerned an enduring part of demand, despite changes in the way the business operated. [[L96-sees]]\n\nThe useful distinction is between identifying a change and judging whether it alters the economics you rely on. This is our interpretation of his example: recognizing the brand tells you much less than explaining why customers choose it and which changes could undermine that choice. Buffett’s long-term expectation in this passage was a forecast made at the time, not a verified description of See’s today. [[L96-sees]]\n\nHe also warns that leadership alone creates no certainty, citing earlier shocks at General Motors, IBM and Sears. A famous name or large market share cannot substitute for the reasoning about durability. [[L96-leadership]]"
+        ],
+        [
+          "Understanding does not settle the stock price",
+          "At the 2002 meeting, Buffett separates understanding General Motors or Walmart in a general way from being able to value the business or decide what the stock should cost. The distinction matters: “I can explain what the company does” and “I can support an earnings estimate” are different claims, and neither by itself establishes an attractive purchase price. [[M02-general]]\n\nThe 1996 letter likewise makes individual-stock selection conditional on evaluating selected businesses; it does not require understanding every company. The boundary matters more than the size of the circle. [[L96-circle]]"
+        ]
+      ],
+      "prompt": "Write down the economic relationship you think you understand, the evidence behind it, and the change that would make it unreliable. Use the See’s passage as a model of the distinction, not as a checklist that proves competence.",
+      "prompt_refs": [
+        "L96-sees",
+        "M19-change"
+      ],
+      "next": "parts-and-whole",
+      "next_reason": "A clear explanation of the product can still leave a critical dependency unexplained.",
+      "reference_keys": [
+        "L92-forecast",
+        "L96-sees",
+        "L96-leadership",
+        "M02-general",
+        "L96-circle",
+        "M19-change"
+      ],
+      "answer_kind": "editorial_synthesis_of_selected_originals",
+      "current_company_assessment": false
+    },
+    {
+      "slug": "parts-and-whole",
+      "number": "02",
+      "title": "How can I find the boundary of what I understand?",
+      "short": "I understand the pieces. What might I still be missing?",
+      "deck": "An unnamed finance company exposed a gap between understanding each transaction and understanding the enterprise.",
+      "lead": "One revealing question is whether your explanation covers the dependencies that let the whole business keep operating. Buffett’s 2002 finance-company example shows why understanding its individual transactions may still be insufficient.",
+      "origin": "Adapted from the young audience member’s question about defining and developing competence in 2002. The original question is in chapter 16; the competence answer follows in chapter 18.",
+      "origin_ref": "M02-question",
+      "sections": [
+        [
+          "The missing link was continuing funding",
+          "Buffett describes a very large finance company he had recently considered. He could understand every individual transaction it did, but did not understand its overall operation well enough. In particular, he was unsure whether it could continually obtain funding without relying on Berkshire’s credit. He therefore did not regard the enterprise, taken as a whole, as necessarily within his circle. He does not name the company. [[M02-finance]]\n\nThe gap was not another definition of a financial product. It was a dependency of the entire business. Knowing how an individual transaction works did not answer whether the enterprise could keep financing its activity on a standalone basis. This connection is an editorial explanation of the example, not an additional fact about the unnamed company. [[M02-finance]]"
+        ],
+        [
+          "Familiarity and confidence are incomplete evidence",
+          "In the same answer, Buffett favors staying well inside one’s boundary and warns against being drawn toward its edge by a friend buying or by promises of large profits. But this warning cannot safely be reversed into “if I feel certain, I am competent.” [[M02-boundary]]\n\nThe reason is visible in his later admissions. In 2014, Buffett says retail looked understandable to him, yet he repeatedly crossed his boundary there. He also says he cannot give the best method for developing accurate self-knowledge. He suggests that friends who know you well may help, and points to Munger’s challenges to his own decisions. This is a possible aid, not a certification method. [[M14-retail]] [[M14-calibration]]"
+        ],
+        [
+          "Make the unresolved dependency explicit",
+          "Our synthesis is to distinguish an explanation you can support from an important part you are merely assuming. In the finance-company case, the unresolved question was continuing funding. In another business it may be different; the passage does not supply a universal list or a numerical threshold. If an essential dependency remains unexplained, that gap should remain visible in the research rather than disappear inside a confident valuation. [[M02-finance]] [[L00-range]]"
+        ]
+      ],
+      "prompt": "Name one essential dependency your explanation currently assumes. State what you know about it and what remains unknown. If you cannot identify the gap yet, use the complete finance-company discussion to distinguish a transaction from the enterprise that sustains it.",
+      "prompt_refs": [
+        "M02-finance",
+        "M14-calibration"
+      ],
+      "next": "investor-and-operator",
+      "next_reason": "A knowledge gap raises another question: how much operating expertise must an investor personally possess?",
+      "reference_keys": [
+        "M02-finance",
+        "M02-boundary",
+        "M14-retail",
+        "M14-calibration",
+        "L00-range",
+        "M02-question"
+      ],
+      "answer_kind": "editorial_synthesis_of_selected_originals",
+      "current_company_assessment": false
+    },
+    {
+      "slug": "investor-and-operator",
+      "number": "03",
+      "title": "Must I know how to run the business myself?",
+      "short": "Can I understand an investment without being its operator?",
+      "deck": "The farm Buffett bought in 1986 separates operating skill from a reasoned view of productive economics.",
+      "lead": "Buffett’s farm example shows that he did not equate investing competence with personally running the operation. What mattered in his account was a reasoned estimate of production and costs, informed by someone who knew farming.",
+      "origin": "An editorial question drawn from “Some Thoughts About Investing” in the 2013 letter, signed February 28, 2014, and the 2019 energy discussion.",
+      "sections": [
+        [
+          "What he knew—and how he learned it",
+          "Buffett writes that he bought a 400-acre farm near Omaha from the FDIC in 1986 for $280,000. He knew nothing about operating a farm. His son, who loved farming, helped him understand the corn and soybean production it could support and the operating expenses. From those estimates Buffett calculated a normalized return of about 10% at his purchase price. [[F13-farm]]\n\nThe chain of reasoning is specific: expected output and operating costs informed an estimate of productive earnings, which he considered against the price. He also expected improving productivity and higher crop prices. Those were his assumptions about this purchase; the letter is not a universal farm-valuation formula. [[F13-farm]]"
+        ],
+        [
+          "He allowed for bad years",
+          "Buffett acknowledges that crops would sometimes be poor and prices disappointing, alongside better years. He also says he would not be under pressure to sell. These details explain how he thought about the investment through variable outcomes rather than requiring every year to go well. [[F13-bad-years]]\n\nHis retrospective language about having no downside expresses his judgment of that particular purchase. It does not establish that farms are risk-free. Nor does the roughly 10% normalized return establish a universal required return or a present buying opportunity. The subsequent growth in earnings and value is an outcome he reported, not a substitute for examining the reasoning available before purchase. [[F13-farm]] [[F13-bad-years]]"
+        ],
+        [
+          "Expert help does not transfer all expertise",
+          "In 2019, Buffett says learning from Walter Scott and Greg Abel had increased his understanding of energy, while explicitly placing his own competence below theirs. Learning from an operator and becoming equally expert are different things. [[M19-energy]]\n\nRead together, the farm and energy accounts support a bounded conclusion: an investor can learn economically important facts from knowledgeable people without claiming their full operating skill. They do not show that borrowed confidence is enough. The 2013 letter separately says to move on if you cannot comfortably make a rough estimate of an asset’s future earnings. [[F13-productivity]]"
+        ]
+      ],
+      "prompt": "Separate what the operator knows from what you need to understand to judge the asset’s economics. Record the explanation you obtained and the uncertainty that remains; another person’s expertise is not your automatic competence certificate.",
+      "prompt_refs": [
+        "F13-farm",
+        "F13-productivity",
+        "M19-energy"
+      ],
+      "next": "learning-and-expansion",
+      "next_reason": "The farm explains one way to learn; the next question is how to expand without forcing the result.",
+      "reference_keys": [
+        "F13-farm",
+        "F13-bad-years",
+        "M19-energy",
+        "F13-productivity"
+      ],
+      "answer_kind": "editorial_synthesis_of_selected_originals",
+      "current_company_assessment": false
+    },
+    {
+      "slug": "learning-and-expansion",
+      "number": "04",
+      "title": "How can I expand my circle without fooling myself?",
+      "short": "Should I broaden my knowledge or specialize?",
+      "deck": "GEICO, primary records, Munger’s specialization advice, and the important words “if you can.”",
+      "lead": "Buffett describes broad reading and sustained investigation. Munger favors specialization for most people. Their 2019 discussion makes expansion conditional: learning more need not end with a larger set of businesses you should act on.",
+      "origin": "Two actual 2019 audience questions: broad versus narrow competence, and whether changing industries require continual expansion.",
+      "origin_ref": "M19-learning-question",
+      "sections": [
+        [
+          "Learning was more than exposure",
+          "Buffett recalls meeting GEICO’s Lorimer Davidson in January 1951 and finding the insurance business intelligible. The conversation lasted three or four hours; he then says he dug into the business. He also recalls consulting insurance-department records and the Standard & Poor’s library. The account supports reading, investigating and learning from someone knowledgeable—not mastering an industry in one afternoon. [[M19-geico]] [[M19-records]]\n\nHis contrast is instructive: working in a grocery store had not taught him much about retailing. Mere contact with an industry did not have the same result. He describes searching for important understanding and being realistic about what remained outside his reach. [[M19-geico]] [[M19-reading]]"
+        ],
+        [
+          "Buffett and Munger emphasize different routes",
+          "Buffett describes reading across many businesses. In the same exchange, Munger says the ordinary route to success is narrow specialization and that their own generalist path is not one they can recommend as the normal way for others. They also acknowledge differences between their early opportunities and the more competitive setting of the question. These are distinct emphases, not a joint instruction that everyone should become a generalist. [[M19-reading]] [[M19-specialize]]"
+        ],
+        [
+          "Expansion has an honest stopping point",
+          "Later that afternoon, Buffett begins by saying you should expand your circle. Munger immediately adds “if you can”; Buffett repeats and accepts the condition. Buffett says expansion cannot be forced. Sometimes research teaches him that he is incompetent in an area, which he regards as a useful result. [[M19-conditional]] [[M19-incompetence]]\n\nHe also says changes inside an existing circle must be understood. Prior competence is not a permanent pass. And his energy example retains a boundary even after substantial learning: he knows more than before, but not as much as Scott or Abel. [[M19-change]] [[M19-energy]]"
+        ]
+      ],
+      "prompt": "Choose a question you are trying to understand more clearly. After studying it, record whether you gained a supported explanation, discovered a specific limit, or still cannot tell. These are editorial reflection prompts; the sources prescribe no fixed reading quota, timetable or mastery test.",
+      "prompt_refs": [
+        "M19-reading",
+        "M19-conditional",
+        "M19-incompetence"
+      ],
+      "next": "confidence-and-mistakes",
+      "next_reason": "Learning can increase confidence. Buffett’s mistakes show why that confidence still needs challenge.",
+      "reference_keys": [
+        "M19-geico",
+        "M19-records",
+        "M19-reading",
+        "M19-specialize",
+        "M19-conditional",
+        "M19-incompetence",
+        "M19-change",
+        "M19-energy",
+        "M19-learning-question"
+      ],
+      "answer_kind": "editorial_synthesis_of_selected_originals",
+      "current_company_assessment": false
+    },
+    {
+      "slug": "confidence-and-mistakes",
+      "number": "05",
+      "title": "Why can an experienced investor still misjudge competence?",
+      "short": "If a decision worked out, was the reasoning sound?",
+      "deck": "Retail mistakes, the purchase of Berkshire, and Mrs. B’s refusal of stock separate judgment from outcome.",
+      "lead": "Buffett’s own admissions prevent the circle of competence from becoming a slogan for self-confidence. He describes errors in businesses he thought he understood, and even a decision that worked out despite being poorly judged.",
+      "origin": "Adapted from the 2014 audience question asking how to figure out the circle of competence; compared with the 2000 letter and 2002 answer.",
+      "origin_ref": "M14-question",
+      "sections": [
+        [
+          "Retail looked understandable",
+          "In 2014, Buffett says retail had been the most common area in which he crossed his own boundary. He mentions buying a department store in Baltimore and thinking he understood it when he did not. The lesson is specific: the appearance of a familiar business can coexist with an inadequate judgment of its economics. [[M14-retail]]\n\nThis was not his first public acknowledgment. In the 2000 letter, after explaining his preference for conservative estimates, he lists trading stamps, textiles, shoes and second-tier department stores among the economics he had thought he understood. Staying within a perceived circle reduced neither uncertainty nor error to zero. [[L00-errors]]"
+        ],
+        [
+          "A good outcome cannot settle the earlier judgment",
+          "Buffett distinguishes buying Berkshire shares with the intention of reselling them from later deciding to take control. In the 2014 discussion he calls the latter probably beyond his circle and describes it as a dumb decision that worked out. His own assessment separates the eventual outcome from the quality of the original decision. [[M14-berkshire]]\n\nHe then praises Mrs. B for declining Berkshire stock in their transaction. In his account she understood retail, real estate and what to do with cash, while recognizing she did not know stocks. He praises her knowledge of that boundary. This is not a claim that cash always outperforms Berkshire shares, or that business operators should never own stocks. [[M14-mrsb]]"
+        ],
+        [
+          "There is no easy self-certification method here",
+          "In 2002, Buffett and Munger speak strongly about recognizing one’s boundary. The 2014 admissions add an essential caution: investors can misidentify that boundary. Reading the two together, we cannot treat subjective certainty as sufficient proof. That is our synthesis of the two contexts, not a new test supplied by either speaker. [[M02-boundary]] [[M14-retail]]\n\nWhen asked how to develop accurate self-assessment, Buffett explicitly says he cannot tell the best way. He suggests that people who know you well may help and describes Munger challenging him. The suggestion gives a reason to seek challenge; it does not guarantee that a second opinion will expose every error. [[M14-calibration]]"
+        ]
+      ],
+      "prompt": "Keep the reasoning available at the time separate from the later outcome. As a reading exercise, compare Buffett’s Berkshire admission with his praise for Mrs. B: what does he evaluate in each case besides the eventual investment result?",
+      "prompt_refs": [
+        "M14-berkshire",
+        "M14-mrsb",
+        "M14-calibration"
+      ],
+      "next": "when-you-do-not-know",
+      "next_reason": "The practical question is what to do with a material uncertainty once you have recognized it.",
+      "reference_keys": [
+        "M14-retail",
+        "L00-errors",
+        "M14-berkshire",
+        "M14-mrsb",
+        "M02-boundary",
+        "M14-calibration",
+        "M14-question"
+      ],
+      "answer_kind": "editorial_synthesis_of_selected_originals",
+      "current_company_assessment": false
+    },
+    {
+      "slug": "when-you-do-not-know",
+      "number": "06",
+      "title": "What if an important part remains unknowable to me?",
+      "short": "When should the research stop short of a valuation?",
+      "deck": "Some uncertainty fits a useful range. Some makes the range too wide to support a conclusion.",
+      "lead": "Buffett does not require exact forecasts. But he distinguishes a defensible estimate from uncertainty so wide that it cannot support a useful conclusion. More calculations do not automatically bridge that difference.",
+      "origin": "An editorial question connecting the 2000 and 2013 letters with the 2019 discussion of learning one’s limits.",
+      "sections": [
+        [
+          "A range can be honest and still be unusable",
+          "The 2000 letter favors ranges over precise-looking estimates of future cash. It then adds a qualification that is easy to miss: usually the range has to be so wide that no useful conclusion can be reached. Occasionally even conservative estimates reveal an attractive price. The distinction is between uncertainty compatible with a reasoned decision and uncertainty that defeats it—not between a precise number and any range whatsoever. [[L00-range]]\n\nThis explains why merely adding optimistic, base and pessimistic columns would not establish competence. That is an editorial inference from the passage: a range is only as useful as the understanding behind it. Buffett supplies no numerical width or confidence threshold that this website can turn into a pass mark. [[L00-range]]"
+        ],
+        [
+          "Moving on can be the supported conclusion",
+          "In the 2013 letter, Buffett says that when he and Munger consider stocks, they first ask whether they can sensibly estimate an earnings range five years out or more. If they cannot—which he says is usually the case—they move on. When they can, price is then judged in relation to the lower end of their estimate. This is their described process, not a universal five-year valuation formula. [[F13-range]]\n\nThe same section says to move on if you cannot comfortably make a rough estimate of future earnings. In 2019, Buffett calls discovering his own incompetence in an area a positive result of learning. Research can therefore clarify a limit without producing an investment candidate. [[F13-productivity]] [[M19-incompetence]]"
+        ],
+        [
+          "Keep the next question separate",
+          "Outside your circle does not mean the business is bad. In 1996, Buffett expressly acknowledges the large opportunities that fast-changing industries can offer, even as he explains why they do not meet the certainty he and Munger seek. [[L96-innovation]]\n\nInside your circle does not mean the stock is attractively priced. In 1992, Buffett treats a margin of safety in price as a separate requirement, and in 2002 he distinguishes general understanding from the ability to value a company. This topic can help identify the research you still need. It cannot establish the value, suitability or current price attractiveness of a business you have not investigated. [[L92-price]] [[M02-general]]"
+        ]
+      ],
+      "prompt": "Write the unresolved question plainly. If it concerns an essential earnings driver, keep the investment conclusion open. You can investigate further or set the candidate aside; completing these pages does not resolve the underlying uncertainty.",
+      "prompt_refs": [
+        "F13-range",
+        "F13-productivity",
+        "M19-incompetence"
+      ],
+      "next": null,
+      "next_reason": "Bring one real uncertainty to the research guide and choose the source that speaks to it.",
+      "reference_keys": [
+        "L00-range",
+        "F13-range",
+        "F13-productivity",
+        "M19-incompetence",
+        "L96-innovation",
+        "L92-price",
+        "M02-general"
+      ],
+      "answer_kind": "editorial_synthesis_of_selected_originals",
+      "current_company_assessment": false
+    }
+  ],
+  "references": {
+    "L92-forecast": {
+      "context_id": "letter-1992-0074-0085",
+      "paragraph_ids": [
+        "berkshire-letter-1992:u0081",
+        "berkshire-letter-1992:u0084"
+      ],
+      "label": "1992 letter · estimating future cash",
+      "source_id": "berkshire-letter-1992",
+      "context_title": "Valuation, knowability and margin of safety",
+      "publisher_url": "https://www.berkshirehathaway.com/letters/1992.html",
+      "publisher_reading_url": null,
+      "date": "1993-03-01",
+      "date_kind": "signature_date",
+      "event_date": null,
+      "signature_date": "1993-03-01",
+      "publication_date": null,
+      "report_year": 1992,
+      "date_basis": null,
+      "speakers": [
+        "Warren Buffett"
+      ],
+      "paragraphs": [
+        {
+          "id": "berkshire-letter-1992:u0081",
+          "unit_id": "berkshire-letter-1992:u0081",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Signed shareholder-letter authorship; embedded quotations retain their original introduction.",
+          "locator": {
+            "type": "html_text_block",
+            "paragraph": 81,
+            "html_line_start": 759,
+            "html_line_end": 773,
+            "extracted_text_character_start": 40903,
+            "extracted_text_character_end": 41834
+          }
+        },
+        {
+          "id": "berkshire-letter-1992:u0084",
+          "unit_id": "berkshire-letter-1992:u0084",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Signed shareholder-letter authorship; embedded quotations retain their original introduction.",
+          "locator": {
+            "type": "html_text_block",
+            "paragraph": 84,
+            "html_line_start": 796,
+            "html_line_end": 808,
+            "extracted_text_character_start": 43006,
+            "extracted_text_character_end": 43793
+          }
+        }
+      ]
+    },
+    "L92-price": {
+      "context_id": "letter-1992-0074-0085",
+      "paragraph_ids": [
+        "berkshire-letter-1992:u0085"
+      ],
+      "label": "1992 letter · the separate price requirement",
+      "source_id": "berkshire-letter-1992",
+      "context_title": "Valuation, knowability and margin of safety",
+      "publisher_url": "https://www.berkshirehathaway.com/letters/1992.html",
+      "publisher_reading_url": null,
+      "date": "1993-03-01",
+      "date_kind": "signature_date",
+      "event_date": null,
+      "signature_date": "1993-03-01",
+      "publication_date": null,
+      "report_year": 1992,
+      "date_basis": null,
+      "speakers": [
+        "Warren Buffett"
+      ],
+      "paragraphs": [
+        {
+          "id": "berkshire-letter-1992:u0085",
+          "unit_id": "berkshire-letter-1992:u0085",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Signed shareholder-letter authorship; embedded quotations retain their original introduction.",
+          "locator": {
+            "type": "html_text_block",
+            "paragraph": 85,
+            "html_line_start": 810,
+            "html_line_end": 815,
+            "extracted_text_character_start": 43800,
+            "extracted_text_character_end": 44138
+          }
+        }
+      ]
+    },
+    "L96-sees": {
+      "context_id": "letter-1996-0098-0118",
+      "paragraph_ids": [
+        "berkshire-letter-1996:u0103"
+      ],
+      "label": "1996 letter · See’s and change",
+      "source_id": "berkshire-letter-1996",
+      "context_title": "Common Stock Investments: durable economics and the limits of competence",
+      "publisher_url": "https://www.berkshirehathaway.com/letters/1996.html",
+      "publisher_reading_url": null,
+      "date": "1997-02-28",
+      "date_kind": "signature_date",
+      "event_date": null,
+      "signature_date": "1997-02-28",
+      "publication_date": null,
+      "report_year": 1996,
+      "date_basis": null,
+      "speakers": [
+        "Warren Buffett"
+      ],
+      "paragraphs": [
+        {
+          "id": "berkshire-letter-1996:u0103",
+          "unit_id": "berkshire-letter-1996:u0103",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Signed shareholder-letter authorship; embedded quotations retain their original introduction.",
+          "locator": {
+            "type": "html_text_block",
+            "paragraph": 103,
+            "html_line_start": 874,
+            "html_line_end": 881,
+            "extracted_text_character_start": 50112,
+            "extracted_text_character_end": 50684
+          }
+        }
+      ]
+    },
+    "L96-leadership": {
+      "context_id": "letter-1996-0098-0118",
+      "paragraph_ids": [
+        "berkshire-letter-1996:u0109"
+      ],
+      "label": "1996 letter · leadership is not certainty",
+      "source_id": "berkshire-letter-1996",
+      "context_title": "Common Stock Investments: durable economics and the limits of competence",
+      "publisher_url": "https://www.berkshirehathaway.com/letters/1996.html",
+      "publisher_reading_url": null,
+      "date": "1997-02-28",
+      "date_kind": "signature_date",
+      "event_date": null,
+      "signature_date": "1997-02-28",
+      "publication_date": null,
+      "report_year": 1996,
+      "date_basis": null,
+      "speakers": [
+        "Warren Buffett"
+      ],
+      "paragraphs": [
+        {
+          "id": "berkshire-letter-1996:u0109",
+          "unit_id": "berkshire-letter-1996:u0109",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Signed shareholder-letter authorship; embedded quotations retain their original introduction.",
+          "locator": {
+            "type": "html_text_block",
+            "paragraph": 109,
+            "html_line_start": 931,
+            "html_line_end": 943,
+            "extracted_text_character_start": 53566,
+            "extracted_text_character_end": 54442
+          }
+        }
+      ]
+    },
+    "L96-circle": {
+      "context_id": "letter-1996-0098-0118",
+      "paragraph_ids": [
+        "berkshire-letter-1996:u0113",
+        "berkshire-letter-1996:u0114"
+      ],
+      "label": "1996 letter · the circle and its boundary",
+      "source_id": "berkshire-letter-1996",
+      "context_title": "Common Stock Investments: durable economics and the limits of competence",
+      "publisher_url": "https://www.berkshirehathaway.com/letters/1996.html",
+      "publisher_reading_url": null,
+      "date": "1997-02-28",
+      "date_kind": "signature_date",
+      "event_date": null,
+      "signature_date": "1997-02-28",
+      "publication_date": null,
+      "report_year": 1996,
+      "date_basis": null,
+      "speakers": [
+        "Warren Buffett"
+      ],
+      "paragraphs": [
+        {
+          "id": "berkshire-letter-1996:u0113",
+          "unit_id": "berkshire-letter-1996:u0113",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Signed shareholder-letter authorship; embedded quotations retain their original introduction.",
+          "locator": {
+            "type": "html_text_block",
+            "paragraph": 113,
+            "html_line_start": 967,
+            "html_line_end": 972,
+            "extracted_text_character_start": 55777,
+            "extracted_text_character_end": 56134
+          }
+        },
+        {
+          "id": "berkshire-letter-1996:u0114",
+          "unit_id": "berkshire-letter-1996:u0114",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Signed shareholder-letter authorship; embedded quotations retain their original introduction.",
+          "locator": {
+            "type": "html_text_block",
+            "paragraph": 114,
+            "html_line_start": 974,
+            "html_line_end": 981,
+            "extracted_text_character_start": 56141,
+            "extracted_text_character_end": 56685
+          }
+        }
+      ]
+    },
+    "L96-innovation": {
+      "context_id": "letter-1996-0098-0118",
+      "paragraph_ids": [
+        "berkshire-letter-1996:u0101",
+        "berkshire-letter-1996:u0102"
+      ],
+      "label": "1996 letter · opportunities beyond their circle",
+      "source_id": "berkshire-letter-1996",
+      "context_title": "Common Stock Investments: durable economics and the limits of competence",
+      "publisher_url": "https://www.berkshirehathaway.com/letters/1996.html",
+      "publisher_reading_url": null,
+      "date": "1997-02-28",
+      "date_kind": "signature_date",
+      "event_date": null,
+      "signature_date": "1997-02-28",
+      "publication_date": null,
+      "report_year": 1996,
+      "date_basis": null,
+      "speakers": [
+        "Warren Buffett"
+      ],
+      "paragraphs": [
+        {
+          "id": "berkshire-letter-1996:u0101",
+          "unit_id": "berkshire-letter-1996:u0101",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Signed shareholder-letter authorship; embedded quotations retain their original introduction.",
+          "locator": {
+            "type": "html_text_block",
+            "paragraph": 101,
+            "html_line_start": 858,
+            "html_line_end": 865,
+            "extracted_text_character_start": 49219,
+            "extracted_text_character_end": 49724
+          }
+        },
+        {
+          "id": "berkshire-letter-1996:u0102",
+          "unit_id": "berkshire-letter-1996:u0102",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Signed shareholder-letter authorship; embedded quotations retain their original introduction.",
+          "locator": {
+            "type": "html_text_block",
+            "paragraph": 102,
+            "html_line_start": 867,
+            "html_line_end": 872,
+            "extracted_text_character_start": 49731,
+            "extracted_text_character_end": 50105
+          }
+        }
+      ]
+    },
+    "L00-range": {
+      "context_id": "letter-2000-pdf-p12-p3-through-p13-p9",
+      "paragraph_ids": [
+        "p12-7",
+        "p12-8",
+        "p12-9"
+      ],
+      "label": "2000 letter · when a range is too wide",
+      "source_id": "berkshire-letter-2000",
+      "context_title": "Cash-flow uncertainty, useful ranges, and errors despite confidence",
+      "publisher_url": "https://www.berkshirehathaway.com/letters/2000pdf.pdf",
+      "publisher_reading_url": "https://www.berkshirehathaway.com/2000ar/2000letter.html",
+      "date": "2001-02-28",
+      "date_kind": "signature_date",
+      "event_date": null,
+      "signature_date": "2001-02-28",
+      "publication_date": null,
+      "report_year": 2000,
+      "date_basis": null,
+      "speakers": [
+        "Warren Buffett"
+      ],
+      "paragraphs": [
+        {
+          "id": "p12-7",
+          "unit_id": "berkshire-letter-2000:p12-7",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Signed shareholder letter; Aesop is explicitly introduced as a quoted proverb.",
+          "locator": {
+            "type": "pdf_paragraph_reading_layer",
+            "physical_pdf_page": 12,
+            "printed_page": 13,
+            "paragraph_on_page": 7
+          }
+        },
+        {
+          "id": "p12-8",
+          "unit_id": "berkshire-letter-2000:p12-8",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Signed shareholder letter; Aesop is explicitly introduced as a quoted proverb.",
+          "locator": {
+            "type": "pdf_paragraph_reading_layer",
+            "physical_pdf_page": 12,
+            "printed_page": 13,
+            "paragraph_on_page": 8
+          }
+        },
+        {
+          "id": "p12-9",
+          "unit_id": "berkshire-letter-2000:p12-9",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Signed shareholder letter; Aesop is explicitly introduced as a quoted proverb.",
+          "locator": {
+            "type": "pdf_paragraph_reading_layer",
+            "physical_pdf_page": 12,
+            "printed_page": 13,
+            "paragraph_on_page": 9
+          }
+        }
+      ]
+    },
+    "L00-errors": {
+      "context_id": "letter-2000-pdf-p12-p3-through-p13-p9",
+      "paragraph_ids": [
+        "p13-8"
+      ],
+      "label": "2000 letter · acknowledged mistakes",
+      "source_id": "berkshire-letter-2000",
+      "context_title": "Cash-flow uncertainty, useful ranges, and errors despite confidence",
+      "publisher_url": "https://www.berkshirehathaway.com/letters/2000pdf.pdf",
+      "publisher_reading_url": "https://www.berkshirehathaway.com/2000ar/2000letter.html",
+      "date": "2001-02-28",
+      "date_kind": "signature_date",
+      "event_date": null,
+      "signature_date": "2001-02-28",
+      "publication_date": null,
+      "report_year": 2000,
+      "date_basis": null,
+      "speakers": [
+        "Warren Buffett"
+      ],
+      "paragraphs": [
+        {
+          "id": "p13-8",
+          "unit_id": "berkshire-letter-2000:p13-8",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Signed shareholder letter; Aesop is explicitly introduced as a quoted proverb.",
+          "locator": {
+            "type": "pdf_paragraph_reading_layer",
+            "physical_pdf_page": 13,
+            "printed_page": 14,
+            "paragraph_on_page": 8
+          }
+        }
+      ]
+    },
+    "M02-question": {
+      "context_id": "meeting-2002-boundary",
+      "paragraph_ids": [
+        "cnbc-meeting-2002-afternoon-ch16-p004",
+        "cnbc-meeting-2002-afternoon-ch16-p005",
+        "cnbc-meeting-2002-afternoon-ch16-p006",
+        "cnbc-meeting-2002-afternoon-ch16-p007",
+        "cnbc-meeting-2002-afternoon-ch16-p008",
+        "cnbc-meeting-2002-afternoon-ch16-p009",
+        "cnbc-meeting-2002-afternoon-ch16-p010"
+      ],
+      "label": "2002 question · original three-part question",
+      "source_id": "cnbc-meeting-2002-afternoon",
+      "context_title": "Understanding transactions is not understanding the whole enterprise",
+      "publisher_url": "https://buffett.cnbc.com/video/2002/05/04/afternoon-session---2002-berkshire-hathaway-annual-meeting.html",
+      "publisher_reading_url": null,
+      "date": "2002-05-04",
+      "date_kind": "event_date",
+      "event_date": "2002-05-04",
+      "signature_date": null,
+      "publication_date": null,
+      "report_year": null,
+      "date_basis": {
+        "kind": "publisher_event_landing_description",
+        "anchor": "(May 4, 2002)",
+        "source_url": "https://buffett.cnbc.com/2002-berkshire-hathaway-annual-meeting/",
+        "source_raw_sha256": "996de24dbd9a067f0daa1fc9346124828342844f37ff9fed7dbcbe8de1a4db28",
+        "hash_and_anchor_rechecked": true
+      },
+      "speakers": [
+        "Audience member",
+        "Warren Buffett"
+      ],
+      "paragraphs": [
+        {
+          "id": "cnbc-meeting-2002-afternoon-ch16-p004",
+          "unit_id": "cnbc-meeting-2002-afternoon-ch16-p004",
+          "speaker": "Audience member",
+          "speaker_basis": "Continuation after preceding explicit label in this chapter; selected full sequence read by source researcher",
+          "locator": {
+            "chapter_number": 16,
+            "paragraph_index": 4,
+            "json_path": [
+              "window.__s_data",
+              "page",
+              "page",
+              "layout",
+              0,
+              "columns",
+              0,
+              "modules",
+              0,
+              "data",
+              "transcript",
+              "chapters",
+              15,
+              "transcript",
+              3,
+              "title"
+            ],
+            "timestamp_seconds": 3097.96,
+            "timestamp_status": "publisher_metadata_not_audio_verified"
+          }
+        },
+        {
+          "id": "cnbc-meeting-2002-afternoon-ch16-p005",
+          "unit_id": "cnbc-meeting-2002-afternoon-ch16-p005",
+          "speaker": "Audience member",
+          "speaker_basis": "Continuation after preceding explicit label in this chapter; selected full sequence read by source researcher",
+          "locator": {
+            "chapter_number": 16,
+            "paragraph_index": 5,
+            "json_path": [
+              "window.__s_data",
+              "page",
+              "page",
+              "layout",
+              0,
+              "columns",
+              0,
+              "modules",
+              0,
+              "data",
+              "transcript",
+              "chapters",
+              15,
+              "transcript",
+              4,
+              "title"
+            ],
+            "timestamp_seconds": 3106.31,
+            "timestamp_status": "publisher_metadata_not_audio_verified"
+          }
+        },
+        {
+          "id": "cnbc-meeting-2002-afternoon-ch16-p006",
+          "unit_id": "cnbc-meeting-2002-afternoon-ch16-p006",
+          "speaker": "Audience member",
+          "speaker_basis": "Continuation after preceding explicit label in this chapter; selected full sequence read by source researcher",
+          "locator": {
+            "chapter_number": 16,
+            "paragraph_index": 6,
+            "json_path": [
+              "window.__s_data",
+              "page",
+              "page",
+              "layout",
+              0,
+              "columns",
+              0,
+              "modules",
+              0,
+              "data",
+              "transcript",
+              "chapters",
+              15,
+              "transcript",
+              5,
+              "title"
+            ],
+            "timestamp_seconds": 3121.69,
+            "timestamp_status": "publisher_metadata_not_audio_verified"
+          }
+        },
+        {
+          "id": "cnbc-meeting-2002-afternoon-ch16-p007",
+          "unit_id": "cnbc-meeting-2002-afternoon-ch16-p007",
+          "speaker": "Audience member",
+          "speaker_basis": "Continuation after preceding explicit label in this chapter; selected full sequence read by source researcher",
+          "locator": {
+            "chapter_number": 16,
+            "paragraph_index": 7,
+            "json_path": [
+              "window.__s_data",
+              "page",
+              "page",
+              "layout",
+              0,
+              "columns",
+              0,
+              "modules",
+              0,
+              "data",
+              "transcript",
+              "chapters",
+              15,
+              "transcript",
+              6,
+              "title"
+            ],
+            "timestamp_seconds": 3131.32,
+            "timestamp_status": "publisher_metadata_not_audio_verified"
+          }
+        },
+        {
+          "id": "cnbc-meeting-2002-afternoon-ch16-p008",
+          "unit_id": "cnbc-meeting-2002-afternoon-ch16-p008",
+          "speaker": "Audience member",
+          "speaker_basis": "Continuation after preceding explicit label in this chapter; selected full sequence read by source researcher",
+          "locator": {
+            "chapter_number": 16,
+            "paragraph_index": 8,
+            "json_path": [
+              "window.__s_data",
+              "page",
+              "page",
+              "layout",
+              0,
+              "columns",
+              0,
+              "modules",
+              0,
+              "data",
+              "transcript",
+              "chapters",
+              15,
+              "transcript",
+              7,
+              "title"
+            ],
+            "timestamp_seconds": 3150.07,
+            "timestamp_status": "publisher_metadata_not_audio_verified"
+          }
+        },
+        {
+          "id": "cnbc-meeting-2002-afternoon-ch16-p009",
+          "unit_id": "cnbc-meeting-2002-afternoon-ch16-p009",
+          "speaker": "Audience member",
+          "speaker_basis": "Continuation after preceding explicit label in this chapter; selected full sequence read by source researcher",
+          "locator": {
+            "chapter_number": 16,
+            "paragraph_index": 9,
+            "json_path": [
+              "window.__s_data",
+              "page",
+              "page",
+              "layout",
+              0,
+              "columns",
+              0,
+              "modules",
+              0,
+              "data",
+              "transcript",
+              "chapters",
+              15,
+              "transcript",
+              8,
+              "title"
+            ],
+            "timestamp_seconds": 3162.23,
+            "timestamp_status": "publisher_metadata_not_audio_verified"
+          }
+        },
+        {
+          "id": "cnbc-meeting-2002-afternoon-ch16-p010",
+          "unit_id": "cnbc-meeting-2002-afternoon-ch16-p010",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Explicit speaker label",
+          "locator": {
+            "chapter_number": 16,
+            "paragraph_index": 10,
+            "json_path": [
+              "window.__s_data",
+              "page",
+              "page",
+              "layout",
+              0,
+              "columns",
+              0,
+              "modules",
+              0,
+              "data",
+              "transcript",
+              "chapters",
+              15,
+              "transcript",
+              9,
+              "title"
+            ],
+            "timestamp_seconds": 3182.59,
+            "timestamp_status": "publisher_metadata_not_audio_verified"
+          }
+        }
+      ]
+    },
+    "M02-general": {
+      "context_id": "meeting-2002-boundary",
+      "paragraph_ids": [
+        "cnbc-meeting-2002-afternoon-ch18-p004",
+        "cnbc-meeting-2002-afternoon-ch18-p005",
+        "cnbc-meeting-2002-afternoon-ch18-p006"
+      ],
+      "label": "2002 · Buffett on understanding versus valuation",
+      "source_id": "cnbc-meeting-2002-afternoon",
+      "context_title": "Understanding transactions is not understanding the whole enterprise",
+      "publisher_url": "https://buffett.cnbc.com/video/2002/05/04/afternoon-session---2002-berkshire-hathaway-annual-meeting.html",
+      "publisher_reading_url": null,
+      "date": "2002-05-04",
+      "date_kind": "event_date",
+      "event_date": "2002-05-04",
+      "signature_date": null,
+      "publication_date": null,
+      "report_year": null,
+      "date_basis": {
+        "kind": "publisher_event_landing_description",
+        "anchor": "(May 4, 2002)",
+        "source_url": "https://buffett.cnbc.com/2002-berkshire-hathaway-annual-meeting/",
+        "source_raw_sha256": "996de24dbd9a067f0daa1fc9346124828342844f37ff9fed7dbcbe8de1a4db28",
+        "hash_and_anchor_rechecked": true
+      },
+      "speakers": [
+        "Warren Buffett"
+      ],
+      "paragraphs": [
+        {
+          "id": "cnbc-meeting-2002-afternoon-ch18-p004",
+          "unit_id": "cnbc-meeting-2002-afternoon-ch18-p004",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Continuation after preceding explicit label in this chapter; selected full sequence read by source researcher",
+          "locator": {
+            "chapter_number": 18,
+            "paragraph_index": 4,
+            "json_path": [
+              "window.__s_data",
+              "page",
+              "page",
+              "layout",
+              0,
+              "columns",
+              0,
+              "modules",
+              0,
+              "data",
+              "transcript",
+              "chapters",
+              17,
+              "transcript",
+              3,
+              "title"
+            ],
+            "timestamp_seconds": 3758.35,
+            "timestamp_status": "publisher_metadata_not_audio_verified"
+          }
+        },
+        {
+          "id": "cnbc-meeting-2002-afternoon-ch18-p005",
+          "unit_id": "cnbc-meeting-2002-afternoon-ch18-p005",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Continuation after preceding explicit label in this chapter; selected full sequence read by source researcher",
+          "locator": {
+            "chapter_number": 18,
+            "paragraph_index": 5,
+            "json_path": [
+              "window.__s_data",
+              "page",
+              "page",
+              "layout",
+              0,
+              "columns",
+              0,
+              "modules",
+              0,
+              "data",
+              "transcript",
+              "chapters",
+              17,
+              "transcript",
+              4,
+              "title"
+            ],
+            "timestamp_seconds": 3771.5,
+            "timestamp_status": "publisher_metadata_not_audio_verified"
+          }
+        },
+        {
+          "id": "cnbc-meeting-2002-afternoon-ch18-p006",
+          "unit_id": "cnbc-meeting-2002-afternoon-ch18-p006",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Continuation after preceding explicit label in this chapter; selected full sequence read by source researcher",
+          "locator": {
+            "chapter_number": 18,
+            "paragraph_index": 6,
+            "json_path": [
+              "window.__s_data",
+              "page",
+              "page",
+              "layout",
+              0,
+              "columns",
+              0,
+              "modules",
+              0,
+              "data",
+              "transcript",
+              "chapters",
+              17,
+              "transcript",
+              5,
+              "title"
+            ],
+            "timestamp_seconds": 3776.19,
+            "timestamp_status": "publisher_metadata_not_audio_verified"
+          }
+        }
+      ]
+    },
+    "M02-finance": {
+      "context_id": "meeting-2002-boundary",
+      "paragraph_ids": [
+        "cnbc-meeting-2002-afternoon-ch18-p010",
+        "cnbc-meeting-2002-afternoon-ch18-p011",
+        "cnbc-meeting-2002-afternoon-ch18-p012"
+      ],
+      "label": "2002 · Buffett’s finance-company example",
+      "source_id": "cnbc-meeting-2002-afternoon",
+      "context_title": "Understanding transactions is not understanding the whole enterprise",
+      "publisher_url": "https://buffett.cnbc.com/video/2002/05/04/afternoon-session---2002-berkshire-hathaway-annual-meeting.html",
+      "publisher_reading_url": null,
+      "date": "2002-05-04",
+      "date_kind": "event_date",
+      "event_date": "2002-05-04",
+      "signature_date": null,
+      "publication_date": null,
+      "report_year": null,
+      "date_basis": {
+        "kind": "publisher_event_landing_description",
+        "anchor": "(May 4, 2002)",
+        "source_url": "https://buffett.cnbc.com/2002-berkshire-hathaway-annual-meeting/",
+        "source_raw_sha256": "996de24dbd9a067f0daa1fc9346124828342844f37ff9fed7dbcbe8de1a4db28",
+        "hash_and_anchor_rechecked": true
+      },
+      "speakers": [
+        "Warren Buffett"
+      ],
+      "paragraphs": [
+        {
+          "id": "cnbc-meeting-2002-afternoon-ch18-p010",
+          "unit_id": "cnbc-meeting-2002-afternoon-ch18-p010",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Continuation after preceding explicit label in this chapter; selected full sequence read by source researcher",
+          "locator": {
+            "chapter_number": 18,
+            "paragraph_index": 10,
+            "json_path": [
+              "window.__s_data",
+              "page",
+              "page",
+              "layout",
+              0,
+              "columns",
+              0,
+              "modules",
+              0,
+              "data",
+              "transcript",
+              "chapters",
+              17,
+              "transcript",
+              9,
+              "title"
+            ],
+            "timestamp_seconds": 3819.82,
+            "timestamp_status": "publisher_metadata_not_audio_verified"
+          }
+        },
+        {
+          "id": "cnbc-meeting-2002-afternoon-ch18-p011",
+          "unit_id": "cnbc-meeting-2002-afternoon-ch18-p011",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Continuation after preceding explicit label in this chapter; selected full sequence read by source researcher",
+          "locator": {
+            "chapter_number": 18,
+            "paragraph_index": 11,
+            "json_path": [
+              "window.__s_data",
+              "page",
+              "page",
+              "layout",
+              0,
+              "columns",
+              0,
+              "modules",
+              0,
+              "data",
+              "transcript",
+              "chapters",
+              17,
+              "transcript",
+              10,
+              "title"
+            ],
+            "timestamp_seconds": 3831.37,
+            "timestamp_status": "publisher_metadata_not_audio_verified"
+          }
+        },
+        {
+          "id": "cnbc-meeting-2002-afternoon-ch18-p012",
+          "unit_id": "cnbc-meeting-2002-afternoon-ch18-p012",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Continuation after preceding explicit label in this chapter; selected full sequence read by source researcher",
+          "locator": {
+            "chapter_number": 18,
+            "paragraph_index": 12,
+            "json_path": [
+              "window.__s_data",
+              "page",
+              "page",
+              "layout",
+              0,
+              "columns",
+              0,
+              "modules",
+              0,
+              "data",
+              "transcript",
+              "chapters",
+              17,
+              "transcript",
+              11,
+              "title"
+            ],
+            "timestamp_seconds": 3849.04,
+            "timestamp_status": "publisher_metadata_not_audio_verified"
+          }
+        }
+      ]
+    },
+    "M02-boundary": {
+      "context_id": "meeting-2002-boundary",
+      "paragraph_ids": [
+        "cnbc-meeting-2002-afternoon-ch18-p003",
+        "cnbc-meeting-2002-afternoon-ch18-p007",
+        "cnbc-meeting-2002-afternoon-ch18-p008",
+        "cnbc-meeting-2002-afternoon-ch18-p009",
+        "cnbc-meeting-2002-afternoon-ch18-p014",
+        "cnbc-meeting-2002-afternoon-ch18-p015",
+        "cnbc-meeting-2002-afternoon-ch18-p016",
+        "cnbc-meeting-2002-afternoon-ch18-p017"
+      ],
+      "label": "2002 · Buffett and Munger on boundaries",
+      "source_id": "cnbc-meeting-2002-afternoon",
+      "context_title": "Understanding transactions is not understanding the whole enterprise",
+      "publisher_url": "https://buffett.cnbc.com/video/2002/05/04/afternoon-session---2002-berkshire-hathaway-annual-meeting.html",
+      "publisher_reading_url": null,
+      "date": "2002-05-04",
+      "date_kind": "event_date",
+      "event_date": "2002-05-04",
+      "signature_date": null,
+      "publication_date": null,
+      "report_year": null,
+      "date_basis": {
+        "kind": "publisher_event_landing_description",
+        "anchor": "(May 4, 2002)",
+        "source_url": "https://buffett.cnbc.com/2002-berkshire-hathaway-annual-meeting/",
+        "source_raw_sha256": "996de24dbd9a067f0daa1fc9346124828342844f37ff9fed7dbcbe8de1a4db28",
+        "hash_and_anchor_rechecked": true
+      },
+      "speakers": [
+        "Warren Buffett",
+        "Charlie Munger"
+      ],
+      "paragraphs": [
+        {
+          "id": "cnbc-meeting-2002-afternoon-ch18-p003",
+          "unit_id": "cnbc-meeting-2002-afternoon-ch18-p003",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Explicit speaker label",
+          "locator": {
+            "chapter_number": 18,
+            "paragraph_index": 3,
+            "json_path": [
+              "window.__s_data",
+              "page",
+              "page",
+              "layout",
+              0,
+              "columns",
+              0,
+              "modules",
+              0,
+              "data",
+              "transcript",
+              "chapters",
+              17,
+              "transcript",
+              2,
+              "title"
+            ],
+            "timestamp_seconds": 3747.19,
+            "timestamp_status": "publisher_metadata_not_audio_verified"
+          }
+        },
+        {
+          "id": "cnbc-meeting-2002-afternoon-ch18-p007",
+          "unit_id": "cnbc-meeting-2002-afternoon-ch18-p007",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Continuation after preceding explicit label in this chapter; selected full sequence read by source researcher",
+          "locator": {
+            "chapter_number": 18,
+            "paragraph_index": 7,
+            "json_path": [
+              "window.__s_data",
+              "page",
+              "page",
+              "layout",
+              0,
+              "columns",
+              0,
+              "modules",
+              0,
+              "data",
+              "transcript",
+              "chapters",
+              17,
+              "transcript",
+              6,
+              "title"
+            ],
+            "timestamp_seconds": 3788.68,
+            "timestamp_status": "publisher_metadata_not_audio_verified"
+          }
+        },
+        {
+          "id": "cnbc-meeting-2002-afternoon-ch18-p008",
+          "unit_id": "cnbc-meeting-2002-afternoon-ch18-p008",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Continuation after preceding explicit label in this chapter; selected full sequence read by source researcher",
+          "locator": {
+            "chapter_number": 18,
+            "paragraph_index": 8,
+            "json_path": [
+              "window.__s_data",
+              "page",
+              "page",
+              "layout",
+              0,
+              "columns",
+              0,
+              "modules",
+              0,
+              "data",
+              "transcript",
+              "chapters",
+              17,
+              "transcript",
+              7,
+              "title"
+            ],
+            "timestamp_seconds": 3800.88,
+            "timestamp_status": "publisher_metadata_not_audio_verified"
+          }
+        },
+        {
+          "id": "cnbc-meeting-2002-afternoon-ch18-p009",
+          "unit_id": "cnbc-meeting-2002-afternoon-ch18-p009",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Continuation after preceding explicit label in this chapter; selected full sequence read by source researcher",
+          "locator": {
+            "chapter_number": 18,
+            "paragraph_index": 9,
+            "json_path": [
+              "window.__s_data",
+              "page",
+              "page",
+              "layout",
+              0,
+              "columns",
+              0,
+              "modules",
+              0,
+              "data",
+              "transcript",
+              "chapters",
+              17,
+              "transcript",
+              8,
+              "title"
+            ],
+            "timestamp_seconds": 3805.83,
+            "timestamp_status": "publisher_metadata_not_audio_verified"
+          }
+        },
+        {
+          "id": "cnbc-meeting-2002-afternoon-ch18-p014",
+          "unit_id": "cnbc-meeting-2002-afternoon-ch18-p014",
+          "speaker": "Charlie Munger",
+          "speaker_basis": "Explicit speaker label",
+          "locator": {
+            "chapter_number": 18,
+            "paragraph_index": 14,
+            "json_path": [
+              "window.__s_data",
+              "page",
+              "page",
+              "layout",
+              0,
+              "columns",
+              0,
+              "modules",
+              0,
+              "data",
+              "transcript",
+              "chapters",
+              17,
+              "transcript",
+              13,
+              "title"
+            ],
+            "timestamp_seconds": 3870.68,
+            "timestamp_status": "publisher_metadata_not_audio_verified"
+          }
+        },
+        {
+          "id": "cnbc-meeting-2002-afternoon-ch18-p015",
+          "unit_id": "cnbc-meeting-2002-afternoon-ch18-p015",
+          "speaker": "Charlie Munger",
+          "speaker_basis": "Continuation after preceding explicit label in this chapter; selected full sequence read by source researcher",
+          "locator": {
+            "chapter_number": 18,
+            "paragraph_index": 15,
+            "json_path": [
+              "window.__s_data",
+              "page",
+              "page",
+              "layout",
+              0,
+              "columns",
+              0,
+              "modules",
+              0,
+              "data",
+              "transcript",
+              "chapters",
+              17,
+              "transcript",
+              14,
+              "title"
+            ],
+            "timestamp_seconds": 3888.56,
+            "timestamp_status": "publisher_metadata_not_audio_verified"
+          }
+        },
+        {
+          "id": "cnbc-meeting-2002-afternoon-ch18-p016",
+          "unit_id": "cnbc-meeting-2002-afternoon-ch18-p016",
+          "speaker": "Charlie Munger",
+          "speaker_basis": "Continuation after preceding explicit label in this chapter; selected full sequence read by source researcher",
+          "locator": {
+            "chapter_number": 18,
+            "paragraph_index": 16,
+            "json_path": [
+              "window.__s_data",
+              "page",
+              "page",
+              "layout",
+              0,
+              "columns",
+              0,
+              "modules",
+              0,
+              "data",
+              "transcript",
+              "chapters",
+              17,
+              "transcript",
+              15,
+              "title"
+            ],
+            "timestamp_seconds": 3902.15,
+            "timestamp_status": "publisher_metadata_not_audio_verified"
+          }
+        },
+        {
+          "id": "cnbc-meeting-2002-afternoon-ch18-p017",
+          "unit_id": "cnbc-meeting-2002-afternoon-ch18-p017",
+          "speaker": "Charlie Munger",
+          "speaker_basis": "Continuation after preceding explicit label in this chapter; selected full sequence read by source researcher",
+          "locator": {
+            "chapter_number": 18,
+            "paragraph_index": 17,
+            "json_path": [
+              "window.__s_data",
+              "page",
+              "page",
+              "layout",
+              0,
+              "columns",
+              0,
+              "modules",
+              0,
+              "data",
+              "transcript",
+              "chapters",
+              17,
+              "transcript",
+              16,
+              "title"
+            ],
+            "timestamp_seconds": 3912.7,
+            "timestamp_status": "publisher_metadata_not_audio_verified"
+          }
+        }
+      ]
+    },
+    "F13-farm": {
+      "context_id": "letter-2013-investing-p001-p040",
+      "paragraph_ids": [
+        "letter-2013-investing-p005"
+      ],
+      "label": "2013 letter · the farm’s production and costs",
+      "source_id": "berkshire-letter-2013",
+      "context_title": "Some Thoughts About Investing: farm, property, stock selection and learning",
+      "publisher_url": "https://www.berkshirehathaway.com/letters/2013ltr.pdf",
+      "publisher_reading_url": null,
+      "date": "2014-02-28",
+      "date_kind": "signature_date",
+      "event_date": null,
+      "signature_date": "2014-02-28",
+      "publication_date": null,
+      "report_year": 2013,
+      "date_basis": null,
+      "speakers": [
+        "Warren Buffett"
+      ],
+      "paragraphs": [
+        {
+          "id": "letter-2013-investing-p005",
+          "unit_id": "letter-2013-investing-p005",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Letter byline; embedded quotations inside paragraphs retain their published introductions",
+          "locator": {
+            "physical_pdf_page": 16,
+            "printed_page": 17,
+            "canonical_unit_id": "berkshire-letter-2013:u0016",
+            "canonical_text_character_start": 2712,
+            "canonical_text_character_end_exclusive": 3354,
+            "geometry_block_index": 9,
+            "bbox": [
+              73.5,
+              508.12,
+              538.48,
+              578.12
+            ],
+            "source_line_ids": [
+              "p016:l030",
+              "p016:l031",
+              "p016:l032",
+              "p016:l033",
+              "p016:l034",
+              "p016:l035"
+            ]
+          }
+        }
+      ]
+    },
+    "F13-bad-years": {
+      "context_id": "letter-2013-investing-p001-p040",
+      "paragraph_ids": [
+        "letter-2013-investing-p006"
+      ],
+      "label": "2013 letter · bad years and ability to hold",
+      "source_id": "berkshire-letter-2013",
+      "context_title": "Some Thoughts About Investing: farm, property, stock selection and learning",
+      "publisher_url": "https://www.berkshirehathaway.com/letters/2013ltr.pdf",
+      "publisher_reading_url": null,
+      "date": "2014-02-28",
+      "date_kind": "signature_date",
+      "event_date": null,
+      "signature_date": "2014-02-28",
+      "publication_date": null,
+      "report_year": 2013,
+      "date_basis": null,
+      "speakers": [
+        "Warren Buffett"
+      ],
+      "paragraphs": [
+        {
+          "id": "letter-2013-investing-p006",
+          "unit_id": "letter-2013-investing-p006",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Letter byline; embedded quotations inside paragraphs retain their published introductions",
+          "locator": {
+            "physical_pdf_page": 16,
+            "printed_page": 17,
+            "canonical_unit_id": "berkshire-letter-2013:u0016",
+            "canonical_text_character_start": 3355,
+            "canonical_text_character_end_exclusive": 3890,
+            "geometry_block_index": 10,
+            "bbox": [
+              73.5,
+              592.12,
+              538.49,
+              650.12
+            ],
+            "source_line_ids": [
+              "p016:l036",
+              "p016:l037",
+              "p016:l038",
+              "p016:l039",
+              "p016:l040"
+            ]
+          }
+        }
+      ]
+    },
+    "F13-productivity": {
+      "context_id": "letter-2013-investing-p001-p040",
+      "paragraph_ids": [
+        "letter-2013-investing-p012",
+        "letter-2013-investing-p013",
+        "letter-2013-investing-p014"
+      ],
+      "label": "2013 letter · rough earnings estimates and limits",
+      "source_id": "berkshire-letter-2013",
+      "context_title": "Some Thoughts About Investing: farm, property, stock selection and learning",
+      "publisher_url": "https://www.berkshirehathaway.com/letters/2013ltr.pdf",
+      "publisher_reading_url": null,
+      "date": "2014-02-28",
+      "date_kind": "signature_date",
+      "event_date": null,
+      "signature_date": "2014-02-28",
+      "publication_date": null,
+      "report_year": 2013,
+      "date_basis": null,
+      "speakers": [
+        "Warren Buffett"
+      ],
+      "paragraphs": [
+        {
+          "id": "letter-2013-investing-p012",
+          "unit_id": "letter-2013-investing-p012",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Letter byline; embedded quotations inside paragraphs retain their published introductions",
+          "locator": {
+            "physical_pdf_page": 17,
+            "printed_page": 18,
+            "canonical_unit_id": "berkshire-letter-2013:u0017",
+            "canonical_text_character_start": 1885,
+            "canonical_text_character_end_exclusive": 2185,
+            "geometry_block_index": 5,
+            "bbox": [
+              91.5,
+              334.12,
+              538.5,
+              368.12
+            ],
+            "source_line_ids": [
+              "p017:l020",
+              "p017:l021",
+              "p017:l022"
+            ]
+          }
+        },
+        {
+          "id": "letter-2013-investing-p013",
+          "unit_id": "letter-2013-investing-p013",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Letter byline; embedded quotations inside paragraphs retain their published introductions",
+          "locator": {
+            "physical_pdf_page": 17,
+            "printed_page": 18,
+            "canonical_unit_id": "berkshire-letter-2013:u0017",
+            "canonical_text_character_start": 2186,
+            "canonical_text_character_end_exclusive": 2521,
+            "geometry_block_index": 6,
+            "bbox": [
+              91.5,
+              382.12,
+              538.48,
+              416.12
+            ],
+            "source_line_ids": [
+              "p017:l023",
+              "p017:l024",
+              "p017:l025"
+            ]
+          }
+        },
+        {
+          "id": "letter-2013-investing-p014",
+          "unit_id": "letter-2013-investing-p014",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Letter byline; embedded quotations inside paragraphs retain their published introductions",
+          "locator": {
+            "physical_pdf_page": 17,
+            "printed_page": 18,
+            "canonical_unit_id": "berkshire-letter-2013:u0017",
+            "canonical_text_character_start": 2522,
+            "canonical_text_character_end_exclusive": 3027,
+            "geometry_block_index": 7,
+            "bbox": [
+              91.5,
+              430.12,
+              538.48,
+              488.12
+            ],
+            "source_line_ids": [
+              "p017:l026",
+              "p017:l027",
+              "p017:l028",
+              "p017:l029",
+              "p017:l030"
+            ]
+          }
+        }
+      ]
+    },
+    "F13-range": {
+      "context_id": "letter-2013-investing-p001-p040",
+      "paragraph_ids": [
+        "letter-2013-investing-p025",
+        "letter-2013-investing-p026"
+      ],
+      "label": "2013 letter · the earnings-range decision",
+      "source_id": "berkshire-letter-2013",
+      "context_title": "Some Thoughts About Investing: farm, property, stock selection and learning",
+      "publisher_url": "https://www.berkshirehathaway.com/letters/2013ltr.pdf",
+      "publisher_reading_url": null,
+      "date": "2014-02-28",
+      "date_kind": "signature_date",
+      "event_date": null,
+      "signature_date": "2014-02-28",
+      "publication_date": null,
+      "report_year": 2013,
+      "date_basis": null,
+      "speakers": [
+        "Warren Buffett"
+      ],
+      "paragraphs": [
+        {
+          "id": "letter-2013-investing-p025",
+          "unit_id": "letter-2013-investing-p025",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Letter byline; embedded quotations inside paragraphs retain their published introductions",
+          "locator": {
+            "physical_pdf_page": 18,
+            "printed_page": 19,
+            "canonical_unit_id": "berkshire-letter-2013:u0018",
+            "canonical_text_character_start": 3083,
+            "canonical_text_character_end_exclusive": 3848,
+            "geometry_block_index": 8,
+            "bbox": [
+              73.5,
+              526.12,
+              538.49,
+              608.12
+            ],
+            "source_line_ids": [
+              "p018:l033",
+              "p018:l034",
+              "p018:l035",
+              "p018:l036",
+              "p018:l037",
+              "p018:l038",
+              "p018:l039"
+            ]
+          }
+        },
+        {
+          "id": "letter-2013-investing-p026",
+          "unit_id": "letter-2013-investing-p026",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Letter byline; embedded quotations inside paragraphs retain their published introductions",
+          "locator": {
+            "physical_pdf_page": 18,
+            "printed_page": 19,
+            "canonical_unit_id": "berkshire-letter-2013:u0018",
+            "canonical_text_character_start": 3849,
+            "canonical_text_character_end_exclusive": 4220,
+            "geometry_block_index": 9,
+            "bbox": [
+              73.5,
+              622.12,
+              538.49,
+              668.12
+            ],
+            "source_line_ids": [
+              "p018:l040",
+              "p018:l041",
+              "p018:l042",
+              "p018:l043"
+            ]
+          }
+        }
+      ]
+    },
+    "M14-question": {
+      "context_id": "meeting-2014-self-assessment",
+      "paragraph_ids": [
+        "cnbc-meeting-2014-afternoon-ch07-p003"
+      ],
+      "label": "2014 question · judging one’s competence",
+      "source_id": "cnbc-meeting-2014-afternoon",
+      "context_title": "Recognizing the boundary can fail even for Buffett",
+      "publisher_url": "https://buffett.cnbc.com/video/2014/05/03/afternoon-session---2014-berkshire-hathaway-annual-meeting.html",
+      "publisher_reading_url": null,
+      "date": "2014-05-03",
+      "date_kind": "event_date",
+      "event_date": "2014-05-03",
+      "signature_date": null,
+      "publication_date": null,
+      "report_year": null,
+      "date_basis": {
+        "kind": "publisher_event_landing_description",
+        "anchor": "(May 3, 2014)",
+        "source_url": "https://buffett.cnbc.com/2014-berkshire-hathaway-annual-meeting/",
+        "source_raw_sha256": "56578f275653c17364ed01ddd3fd85075585c9c073bf430c9d0a20314b1e8bb5",
+        "hash_and_anchor_rechecked": true
+      },
+      "speakers": [
+        "Audience member"
+      ],
+      "paragraphs": [
+        {
+          "id": "cnbc-meeting-2014-afternoon-ch07-p003",
+          "unit_id": "cnbc-meeting-2014-afternoon-ch07-p003",
+          "speaker": "Audience member",
+          "speaker_basis": "Continuation after preceding explicit label in this chapter; selected full sequence read by source researcher",
+          "locator": {
+            "chapter_number": 7,
+            "paragraph_index": 3,
+            "json_path": [
+              "window.__s_data",
+              "page",
+              "page",
+              "layout",
+              0,
+              "columns",
+              0,
+              "modules",
+              0,
+              "data",
+              "transcript",
+              "chapters",
+              6,
+              "transcript",
+              2,
+              "title"
+            ],
+            "timestamp_seconds": 1693.2,
+            "timestamp_status": "publisher_metadata_not_audio_verified"
+          }
+        }
+      ]
+    },
+    "M14-retail": {
+      "context_id": "meeting-2014-self-assessment",
+      "paragraph_ids": [
+        "cnbc-meeting-2014-afternoon-ch07-p006",
+        "cnbc-meeting-2014-afternoon-ch07-p007",
+        "cnbc-meeting-2014-afternoon-ch07-p008"
+      ],
+      "label": "2014 · Buffett’s retail mistakes",
+      "source_id": "cnbc-meeting-2014-afternoon",
+      "context_title": "Recognizing the boundary can fail even for Buffett",
+      "publisher_url": "https://buffett.cnbc.com/video/2014/05/03/afternoon-session---2014-berkshire-hathaway-annual-meeting.html",
+      "publisher_reading_url": null,
+      "date": "2014-05-03",
+      "date_kind": "event_date",
+      "event_date": "2014-05-03",
+      "signature_date": null,
+      "publication_date": null,
+      "report_year": null,
+      "date_basis": {
+        "kind": "publisher_event_landing_description",
+        "anchor": "(May 3, 2014)",
+        "source_url": "https://buffett.cnbc.com/2014-berkshire-hathaway-annual-meeting/",
+        "source_raw_sha256": "56578f275653c17364ed01ddd3fd85075585c9c073bf430c9d0a20314b1e8bb5",
+        "hash_and_anchor_rechecked": true
+      },
+      "speakers": [
+        "Warren Buffett"
+      ],
+      "paragraphs": [
+        {
+          "id": "cnbc-meeting-2014-afternoon-ch07-p006",
+          "unit_id": "cnbc-meeting-2014-afternoon-ch07-p006",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Continuation after preceding explicit label in this chapter; selected full sequence read by source researcher",
+          "locator": {
+            "chapter_number": 7,
+            "paragraph_index": 6,
+            "json_path": [
+              "window.__s_data",
+              "page",
+              "page",
+              "layout",
+              0,
+              "columns",
+              0,
+              "modules",
+              0,
+              "data",
+              "transcript",
+              "chapters",
+              6,
+              "transcript",
+              5,
+              "title"
+            ],
+            "timestamp_seconds": 1718.98,
+            "timestamp_status": "publisher_metadata_not_audio_verified"
+          }
+        },
+        {
+          "id": "cnbc-meeting-2014-afternoon-ch07-p007",
+          "unit_id": "cnbc-meeting-2014-afternoon-ch07-p007",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Continuation after preceding explicit label in this chapter; selected full sequence read by source researcher",
+          "locator": {
+            "chapter_number": 7,
+            "paragraph_index": 7,
+            "json_path": [
+              "window.__s_data",
+              "page",
+              "page",
+              "layout",
+              0,
+              "columns",
+              0,
+              "modules",
+              0,
+              "data",
+              "transcript",
+              "chapters",
+              6,
+              "transcript",
+              6,
+              "title"
+            ],
+            "timestamp_seconds": 1727.27,
+            "timestamp_status": "publisher_metadata_not_audio_verified"
+          }
+        },
+        {
+          "id": "cnbc-meeting-2014-afternoon-ch07-p008",
+          "unit_id": "cnbc-meeting-2014-afternoon-ch07-p008",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Continuation after preceding explicit label in this chapter; selected full sequence read by source researcher",
+          "locator": {
+            "chapter_number": 7,
+            "paragraph_index": 8,
+            "json_path": [
+              "window.__s_data",
+              "page",
+              "page",
+              "layout",
+              0,
+              "columns",
+              0,
+              "modules",
+              0,
+              "data",
+              "transcript",
+              "chapters",
+              6,
+              "transcript",
+              7,
+              "title"
+            ],
+            "timestamp_seconds": 1745.8,
+            "timestamp_status": "publisher_metadata_not_audio_verified"
+          }
+        }
+      ]
+    },
+    "M14-berkshire": {
+      "context_id": "meeting-2014-self-assessment",
+      "paragraph_ids": [
+        "cnbc-meeting-2014-afternoon-ch07-p009",
+        "cnbc-meeting-2014-afternoon-ch07-p010"
+      ],
+      "label": "2014 · the Berkshire decision and outcome",
+      "source_id": "cnbc-meeting-2014-afternoon",
+      "context_title": "Recognizing the boundary can fail even for Buffett",
+      "publisher_url": "https://buffett.cnbc.com/video/2014/05/03/afternoon-session---2014-berkshire-hathaway-annual-meeting.html",
+      "publisher_reading_url": null,
+      "date": "2014-05-03",
+      "date_kind": "event_date",
+      "event_date": "2014-05-03",
+      "signature_date": null,
+      "publication_date": null,
+      "report_year": null,
+      "date_basis": {
+        "kind": "publisher_event_landing_description",
+        "anchor": "(May 3, 2014)",
+        "source_url": "https://buffett.cnbc.com/2014-berkshire-hathaway-annual-meeting/",
+        "source_raw_sha256": "56578f275653c17364ed01ddd3fd85075585c9c073bf430c9d0a20314b1e8bb5",
+        "hash_and_anchor_rechecked": true
+      },
+      "speakers": [
+        "Warren Buffett"
+      ],
+      "paragraphs": [
+        {
+          "id": "cnbc-meeting-2014-afternoon-ch07-p009",
+          "unit_id": "cnbc-meeting-2014-afternoon-ch07-p009",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Continuation after preceding explicit label in this chapter; selected full sequence read by source researcher",
+          "locator": {
+            "chapter_number": 7,
+            "paragraph_index": 9,
+            "json_path": [
+              "window.__s_data",
+              "page",
+              "page",
+              "layout",
+              0,
+              "columns",
+              0,
+              "modules",
+              0,
+              "data",
+              "transcript",
+              "chapters",
+              6,
+              "transcript",
+              8,
+              "title"
+            ],
+            "timestamp_seconds": 1766.53,
+            "timestamp_status": "publisher_metadata_not_audio_verified"
+          }
+        },
+        {
+          "id": "cnbc-meeting-2014-afternoon-ch07-p010",
+          "unit_id": "cnbc-meeting-2014-afternoon-ch07-p010",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Continuation after preceding explicit label in this chapter; selected full sequence read by source researcher",
+          "locator": {
+            "chapter_number": 7,
+            "paragraph_index": 10,
+            "json_path": [
+              "window.__s_data",
+              "page",
+              "page",
+              "layout",
+              0,
+              "columns",
+              0,
+              "modules",
+              0,
+              "data",
+              "transcript",
+              "chapters",
+              6,
+              "transcript",
+              9,
+              "title"
+            ],
+            "timestamp_seconds": 1775.41,
+            "timestamp_status": "publisher_metadata_not_audio_verified"
+          }
+        }
+      ]
+    },
+    "M14-mrsb": {
+      "context_id": "meeting-2014-self-assessment",
+      "paragraph_ids": [
+        "cnbc-meeting-2014-afternoon-ch07-p013",
+        "cnbc-meeting-2014-afternoon-ch07-p014",
+        "cnbc-meeting-2014-afternoon-ch07-p015"
+      ],
+      "label": "2014 · Mrs. B’s boundary",
+      "source_id": "cnbc-meeting-2014-afternoon",
+      "context_title": "Recognizing the boundary can fail even for Buffett",
+      "publisher_url": "https://buffett.cnbc.com/video/2014/05/03/afternoon-session---2014-berkshire-hathaway-annual-meeting.html",
+      "publisher_reading_url": null,
+      "date": "2014-05-03",
+      "date_kind": "event_date",
+      "event_date": "2014-05-03",
+      "signature_date": null,
+      "publication_date": null,
+      "report_year": null,
+      "date_basis": {
+        "kind": "publisher_event_landing_description",
+        "anchor": "(May 3, 2014)",
+        "source_url": "https://buffett.cnbc.com/2014-berkshire-hathaway-annual-meeting/",
+        "source_raw_sha256": "56578f275653c17364ed01ddd3fd85075585c9c073bf430c9d0a20314b1e8bb5",
+        "hash_and_anchor_rechecked": true
+      },
+      "speakers": [
+        "Warren Buffett"
+      ],
+      "paragraphs": [
+        {
+          "id": "cnbc-meeting-2014-afternoon-ch07-p013",
+          "unit_id": "cnbc-meeting-2014-afternoon-ch07-p013",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Continuation after preceding explicit label in this chapter; selected full sequence read by source researcher",
+          "locator": {
+            "chapter_number": 7,
+            "paragraph_index": 13,
+            "json_path": [
+              "window.__s_data",
+              "page",
+              "page",
+              "layout",
+              0,
+              "columns",
+              0,
+              "modules",
+              0,
+              "data",
+              "transcript",
+              "chapters",
+              6,
+              "transcript",
+              12,
+              "title"
+            ],
+            "timestamp_seconds": 1832.87,
+            "timestamp_status": "publisher_metadata_not_audio_verified"
+          }
+        },
+        {
+          "id": "cnbc-meeting-2014-afternoon-ch07-p014",
+          "unit_id": "cnbc-meeting-2014-afternoon-ch07-p014",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Continuation after preceding explicit label in this chapter; selected full sequence read by source researcher",
+          "locator": {
+            "chapter_number": 7,
+            "paragraph_index": 14,
+            "json_path": [
+              "window.__s_data",
+              "page",
+              "page",
+              "layout",
+              0,
+              "columns",
+              0,
+              "modules",
+              0,
+              "data",
+              "transcript",
+              "chapters",
+              6,
+              "transcript",
+              13,
+              "title"
+            ],
+            "timestamp_seconds": 1847.69,
+            "timestamp_status": "publisher_metadata_not_audio_verified"
+          }
+        },
+        {
+          "id": "cnbc-meeting-2014-afternoon-ch07-p015",
+          "unit_id": "cnbc-meeting-2014-afternoon-ch07-p015",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Continuation after preceding explicit label in this chapter; selected full sequence read by source researcher",
+          "locator": {
+            "chapter_number": 7,
+            "paragraph_index": 15,
+            "json_path": [
+              "window.__s_data",
+              "page",
+              "page",
+              "layout",
+              0,
+              "columns",
+              0,
+              "modules",
+              0,
+              "data",
+              "transcript",
+              "chapters",
+              6,
+              "transcript",
+              14,
+              "title"
+            ],
+            "timestamp_seconds": 1865.89,
+            "timestamp_status": "publisher_metadata_not_audio_verified"
+          }
+        }
+      ]
+    },
+    "M14-calibration": {
+      "context_id": "meeting-2014-self-assessment",
+      "paragraph_ids": [
+        "cnbc-meeting-2014-afternoon-ch07-p016"
+      ],
+      "label": "2014 · Buffett on self-assessment and challenge",
+      "source_id": "cnbc-meeting-2014-afternoon",
+      "context_title": "Recognizing the boundary can fail even for Buffett",
+      "publisher_url": "https://buffett.cnbc.com/video/2014/05/03/afternoon-session---2014-berkshire-hathaway-annual-meeting.html",
+      "publisher_reading_url": null,
+      "date": "2014-05-03",
+      "date_kind": "event_date",
+      "event_date": "2014-05-03",
+      "signature_date": null,
+      "publication_date": null,
+      "report_year": null,
+      "date_basis": {
+        "kind": "publisher_event_landing_description",
+        "anchor": "(May 3, 2014)",
+        "source_url": "https://buffett.cnbc.com/2014-berkshire-hathaway-annual-meeting/",
+        "source_raw_sha256": "56578f275653c17364ed01ddd3fd85075585c9c073bf430c9d0a20314b1e8bb5",
+        "hash_and_anchor_rechecked": true
+      },
+      "speakers": [
+        "Warren Buffett"
+      ],
+      "paragraphs": [
+        {
+          "id": "cnbc-meeting-2014-afternoon-ch07-p016",
+          "unit_id": "cnbc-meeting-2014-afternoon-ch07-p016",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Continuation after preceding explicit label in this chapter; selected full sequence read by source researcher",
+          "locator": {
+            "chapter_number": 7,
+            "paragraph_index": 16,
+            "json_path": [
+              "window.__s_data",
+              "page",
+              "page",
+              "layout",
+              0,
+              "columns",
+              0,
+              "modules",
+              0,
+              "data",
+              "transcript",
+              "chapters",
+              6,
+              "transcript",
+              15,
+              "title"
+            ],
+            "timestamp_seconds": 1874.53,
+            "timestamp_status": "publisher_metadata_not_audio_verified"
+          }
+        }
+      ]
+    },
+    "M19-learning-question": {
+      "context_id": "meeting-2019-learning",
+      "paragraph_ids": [
+        "cnbc-meeting-2019-afternoon-ch08-p003",
+        "cnbc-meeting-2019-afternoon-ch08-p004"
+      ],
+      "label": "2019 question · generalist or specialist?",
+      "source_id": "cnbc-meeting-2019-afternoon",
+      "context_title": "Learning through research; broad and narrow paths are not the same prescription",
+      "publisher_url": "https://buffett.cnbc.com/video/2019/05/06/afternoon-session---2019-berkshire-hathaway-annual-meeting.html",
+      "publisher_reading_url": null,
+      "date": "2019-05-04",
+      "date_kind": "event_date",
+      "event_date": "2019-05-04",
+      "signature_date": null,
+      "publication_date": null,
+      "report_year": null,
+      "date_basis": {
+        "kind": "publisher_event_landing_description",
+        "anchor": "(May 4, 2019)",
+        "source_url": "https://buffett.cnbc.com/2019-berkshire-hathaway-annual-meeting/",
+        "source_raw_sha256": "5e9f09a00490fb213f7407745aae442b04752fe6a41e0f6b0545765dcaced926",
+        "hash_and_anchor_rechecked": true
+      },
+      "speakers": [
+        "Audience member"
+      ],
+      "paragraphs": [
+        {
+          "id": "cnbc-meeting-2019-afternoon-ch08-p003",
+          "unit_id": "cnbc-meeting-2019-afternoon-ch08-p003",
+          "speaker": "Audience member",
+          "speaker_basis": "Continuation after preceding explicit label in this chapter; selected full sequence read by source researcher",
+          "locator": {
+            "chapter_number": 8,
+            "paragraph_index": 3,
+            "json_path": [
+              "window.__s_data",
+              "page",
+              "page",
+              "layout",
+              0,
+              "columns",
+              0,
+              "modules",
+              0,
+              "data",
+              "transcript",
+              "chapters",
+              7,
+              "transcript",
+              2,
+              "title"
+            ],
+            "timestamp_seconds": 1935.81,
+            "timestamp_status": "publisher_metadata_not_audio_verified"
+          }
+        },
+        {
+          "id": "cnbc-meeting-2019-afternoon-ch08-p004",
+          "unit_id": "cnbc-meeting-2019-afternoon-ch08-p004",
+          "speaker": "Audience member",
+          "speaker_basis": "Continuation after preceding explicit label in this chapter; selected full sequence read by source researcher",
+          "locator": {
+            "chapter_number": 8,
+            "paragraph_index": 4,
+            "json_path": [
+              "window.__s_data",
+              "page",
+              "page",
+              "layout",
+              0,
+              "columns",
+              0,
+              "modules",
+              0,
+              "data",
+              "transcript",
+              "chapters",
+              7,
+              "transcript",
+              3,
+              "title"
+            ],
+            "timestamp_seconds": 1953.64,
+            "timestamp_status": "publisher_metadata_not_audio_verified"
+          }
+        }
+      ]
+    },
+    "M19-reading": {
+      "context_id": "meeting-2019-learning",
+      "paragraph_ids": [
+        "cnbc-meeting-2019-afternoon-ch08-p005",
+        "cnbc-meeting-2019-afternoon-ch08-p006",
+        "cnbc-meeting-2019-afternoon-ch08-p007"
+      ],
+      "label": "2019 · Buffett on reading and realistic limits",
+      "source_id": "cnbc-meeting-2019-afternoon",
+      "context_title": "Learning through research; broad and narrow paths are not the same prescription",
+      "publisher_url": "https://buffett.cnbc.com/video/2019/05/06/afternoon-session---2019-berkshire-hathaway-annual-meeting.html",
+      "publisher_reading_url": null,
+      "date": "2019-05-04",
+      "date_kind": "event_date",
+      "event_date": "2019-05-04",
+      "signature_date": null,
+      "publication_date": null,
+      "report_year": null,
+      "date_basis": {
+        "kind": "publisher_event_landing_description",
+        "anchor": "(May 4, 2019)",
+        "source_url": "https://buffett.cnbc.com/2019-berkshire-hathaway-annual-meeting/",
+        "source_raw_sha256": "5e9f09a00490fb213f7407745aae442b04752fe6a41e0f6b0545765dcaced926",
+        "hash_and_anchor_rechecked": true
+      },
+      "speakers": [
+        "Warren Buffett"
+      ],
+      "paragraphs": [
+        {
+          "id": "cnbc-meeting-2019-afternoon-ch08-p005",
+          "unit_id": "cnbc-meeting-2019-afternoon-ch08-p005",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Explicit speaker label",
+          "locator": {
+            "chapter_number": 8,
+            "paragraph_index": 5,
+            "json_path": [
+              "window.__s_data",
+              "page",
+              "page",
+              "layout",
+              0,
+              "columns",
+              0,
+              "modules",
+              0,
+              "data",
+              "transcript",
+              "chapters",
+              7,
+              "transcript",
+              4,
+              "title"
+            ],
+            "timestamp_seconds": 1969.99,
+            "timestamp_status": "publisher_metadata_not_audio_verified"
+          }
+        },
+        {
+          "id": "cnbc-meeting-2019-afternoon-ch08-p006",
+          "unit_id": "cnbc-meeting-2019-afternoon-ch08-p006",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Continuation after preceding explicit label in this chapter; selected full sequence read by source researcher",
+          "locator": {
+            "chapter_number": 8,
+            "paragraph_index": 6,
+            "json_path": [
+              "window.__s_data",
+              "page",
+              "page",
+              "layout",
+              0,
+              "columns",
+              0,
+              "modules",
+              0,
+              "data",
+              "transcript",
+              "chapters",
+              7,
+              "transcript",
+              5,
+              "title"
+            ],
+            "timestamp_seconds": 1992.7,
+            "timestamp_status": "publisher_metadata_not_audio_verified"
+          }
+        },
+        {
+          "id": "cnbc-meeting-2019-afternoon-ch08-p007",
+          "unit_id": "cnbc-meeting-2019-afternoon-ch08-p007",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Continuation after preceding explicit label in this chapter; selected full sequence read by source researcher",
+          "locator": {
+            "chapter_number": 8,
+            "paragraph_index": 7,
+            "json_path": [
+              "window.__s_data",
+              "page",
+              "page",
+              "layout",
+              0,
+              "columns",
+              0,
+              "modules",
+              0,
+              "data",
+              "transcript",
+              "chapters",
+              7,
+              "transcript",
+              6,
+              "title"
+            ],
+            "timestamp_seconds": 2019.89,
+            "timestamp_status": "publisher_metadata_not_audio_verified"
+          }
+        }
+      ]
+    },
+    "M19-geico": {
+      "context_id": "meeting-2019-learning",
+      "paragraph_ids": [
+        "cnbc-meeting-2019-afternoon-ch08-p008",
+        "cnbc-meeting-2019-afternoon-ch08-p009",
+        "cnbc-meeting-2019-afternoon-ch08-p010"
+      ],
+      "label": "2019 · Buffett recalls learning about GEICO",
+      "source_id": "cnbc-meeting-2019-afternoon",
+      "context_title": "Learning through research; broad and narrow paths are not the same prescription",
+      "publisher_url": "https://buffett.cnbc.com/video/2019/05/06/afternoon-session---2019-berkshire-hathaway-annual-meeting.html",
+      "publisher_reading_url": null,
+      "date": "2019-05-04",
+      "date_kind": "event_date",
+      "event_date": "2019-05-04",
+      "signature_date": null,
+      "publication_date": null,
+      "report_year": null,
+      "date_basis": {
+        "kind": "publisher_event_landing_description",
+        "anchor": "(May 4, 2019)",
+        "source_url": "https://buffett.cnbc.com/2019-berkshire-hathaway-annual-meeting/",
+        "source_raw_sha256": "5e9f09a00490fb213f7407745aae442b04752fe6a41e0f6b0545765dcaced926",
+        "hash_and_anchor_rechecked": true
+      },
+      "speakers": [
+        "Warren Buffett"
+      ],
+      "paragraphs": [
+        {
+          "id": "cnbc-meeting-2019-afternoon-ch08-p008",
+          "unit_id": "cnbc-meeting-2019-afternoon-ch08-p008",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Continuation after preceding explicit label in this chapter; selected full sequence read by source researcher",
+          "locator": {
+            "chapter_number": 8,
+            "paragraph_index": 8,
+            "json_path": [
+              "window.__s_data",
+              "page",
+              "page",
+              "layout",
+              0,
+              "columns",
+              0,
+              "modules",
+              0,
+              "data",
+              "transcript",
+              "chapters",
+              7,
+              "transcript",
+              7,
+              "title"
+            ],
+            "timestamp_seconds": 2038.57,
+            "timestamp_status": "publisher_metadata_not_audio_verified"
+          }
+        },
+        {
+          "id": "cnbc-meeting-2019-afternoon-ch08-p009",
+          "unit_id": "cnbc-meeting-2019-afternoon-ch08-p009",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Continuation after preceding explicit label in this chapter; selected full sequence read by source researcher",
+          "locator": {
+            "chapter_number": 8,
+            "paragraph_index": 9,
+            "json_path": [
+              "window.__s_data",
+              "page",
+              "page",
+              "layout",
+              0,
+              "columns",
+              0,
+              "modules",
+              0,
+              "data",
+              "transcript",
+              "chapters",
+              7,
+              "transcript",
+              8,
+              "title"
+            ],
+            "timestamp_seconds": 2050.68,
+            "timestamp_status": "publisher_metadata_not_audio_verified"
+          }
+        },
+        {
+          "id": "cnbc-meeting-2019-afternoon-ch08-p010",
+          "unit_id": "cnbc-meeting-2019-afternoon-ch08-p010",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Continuation after preceding explicit label in this chapter; selected full sequence read by source researcher",
+          "locator": {
+            "chapter_number": 8,
+            "paragraph_index": 10,
+            "json_path": [
+              "window.__s_data",
+              "page",
+              "page",
+              "layout",
+              0,
+              "columns",
+              0,
+              "modules",
+              0,
+              "data",
+              "transcript",
+              "chapters",
+              7,
+              "transcript",
+              9,
+              "title"
+            ],
+            "timestamp_seconds": 2056.91,
+            "timestamp_status": "publisher_metadata_not_audio_verified"
+          }
+        }
+      ]
+    },
+    "M19-records": {
+      "context_id": "meeting-2019-learning",
+      "paragraph_ids": [
+        "cnbc-meeting-2019-afternoon-ch08-p018",
+        "cnbc-meeting-2019-afternoon-ch08-p019",
+        "cnbc-meeting-2019-afternoon-ch08-p020"
+      ],
+      "label": "2019 · insurance records and library research",
+      "source_id": "cnbc-meeting-2019-afternoon",
+      "context_title": "Learning through research; broad and narrow paths are not the same prescription",
+      "publisher_url": "https://buffett.cnbc.com/video/2019/05/06/afternoon-session---2019-berkshire-hathaway-annual-meeting.html",
+      "publisher_reading_url": null,
+      "date": "2019-05-04",
+      "date_kind": "event_date",
+      "event_date": "2019-05-04",
+      "signature_date": null,
+      "publication_date": null,
+      "report_year": null,
+      "date_basis": {
+        "kind": "publisher_event_landing_description",
+        "anchor": "(May 4, 2019)",
+        "source_url": "https://buffett.cnbc.com/2019-berkshire-hathaway-annual-meeting/",
+        "source_raw_sha256": "5e9f09a00490fb213f7407745aae442b04752fe6a41e0f6b0545765dcaced926",
+        "hash_and_anchor_rechecked": true
+      },
+      "speakers": [
+        "Warren Buffett"
+      ],
+      "paragraphs": [
+        {
+          "id": "cnbc-meeting-2019-afternoon-ch08-p018",
+          "unit_id": "cnbc-meeting-2019-afternoon-ch08-p018",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Explicit speaker label",
+          "locator": {
+            "chapter_number": 8,
+            "paragraph_index": 18,
+            "json_path": [
+              "window.__s_data",
+              "page",
+              "page",
+              "layout",
+              0,
+              "columns",
+              0,
+              "modules",
+              0,
+              "data",
+              "transcript",
+              "chapters",
+              7,
+              "transcript",
+              17,
+              "title"
+            ],
+            "timestamp_seconds": 2141.31,
+            "timestamp_status": "publisher_metadata_not_audio_verified"
+          }
+        },
+        {
+          "id": "cnbc-meeting-2019-afternoon-ch08-p019",
+          "unit_id": "cnbc-meeting-2019-afternoon-ch08-p019",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Continuation after preceding explicit label in this chapter; selected full sequence read by source researcher",
+          "locator": {
+            "chapter_number": 8,
+            "paragraph_index": 19,
+            "json_path": [
+              "window.__s_data",
+              "page",
+              "page",
+              "layout",
+              0,
+              "columns",
+              0,
+              "modules",
+              0,
+              "data",
+              "transcript",
+              "chapters",
+              7,
+              "transcript",
+              18,
+              "title"
+            ],
+            "timestamp_seconds": 2159.46,
+            "timestamp_status": "publisher_metadata_not_audio_verified"
+          }
+        },
+        {
+          "id": "cnbc-meeting-2019-afternoon-ch08-p020",
+          "unit_id": "cnbc-meeting-2019-afternoon-ch08-p020",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Continuation after preceding explicit label in this chapter; selected full sequence read by source researcher",
+          "locator": {
+            "chapter_number": 8,
+            "paragraph_index": 20,
+            "json_path": [
+              "window.__s_data",
+              "page",
+              "page",
+              "layout",
+              0,
+              "columns",
+              0,
+              "modules",
+              0,
+              "data",
+              "transcript",
+              "chapters",
+              7,
+              "transcript",
+              19,
+              "title"
+            ],
+            "timestamp_seconds": 2171.36,
+            "timestamp_status": "publisher_metadata_not_audio_verified"
+          }
+        }
+      ]
+    },
+    "M19-specialize": {
+      "context_id": "meeting-2019-learning",
+      "paragraph_ids": [
+        "cnbc-meeting-2019-afternoon-ch08-p012",
+        "cnbc-meeting-2019-afternoon-ch08-p013",
+        "cnbc-meeting-2019-afternoon-ch08-p014",
+        "cnbc-meeting-2019-afternoon-ch08-p015",
+        "cnbc-meeting-2019-afternoon-ch08-p016",
+        "cnbc-meeting-2019-afternoon-ch08-p017",
+        "cnbc-meeting-2019-afternoon-ch08-p022"
+      ],
+      "label": "2019 · Munger on specialization",
+      "source_id": "cnbc-meeting-2019-afternoon",
+      "context_title": "Learning through research; broad and narrow paths are not the same prescription",
+      "publisher_url": "https://buffett.cnbc.com/video/2019/05/06/afternoon-session---2019-berkshire-hathaway-annual-meeting.html",
+      "publisher_reading_url": null,
+      "date": "2019-05-04",
+      "date_kind": "event_date",
+      "event_date": "2019-05-04",
+      "signature_date": null,
+      "publication_date": null,
+      "report_year": null,
+      "date_basis": {
+        "kind": "publisher_event_landing_description",
+        "anchor": "(May 4, 2019)",
+        "source_url": "https://buffett.cnbc.com/2019-berkshire-hathaway-annual-meeting/",
+        "source_raw_sha256": "5e9f09a00490fb213f7407745aae442b04752fe6a41e0f6b0545765dcaced926",
+        "hash_and_anchor_rechecked": true
+      },
+      "speakers": [
+        "Charlie Munger",
+        "Warren Buffett"
+      ],
+      "paragraphs": [
+        {
+          "id": "cnbc-meeting-2019-afternoon-ch08-p012",
+          "unit_id": "cnbc-meeting-2019-afternoon-ch08-p012",
+          "speaker": "Charlie Munger",
+          "speaker_basis": "Explicit speaker label",
+          "locator": {
+            "chapter_number": 8,
+            "paragraph_index": 12,
+            "json_path": [
+              "window.__s_data",
+              "page",
+              "page",
+              "layout",
+              0,
+              "columns",
+              0,
+              "modules",
+              0,
+              "data",
+              "transcript",
+              "chapters",
+              7,
+              "transcript",
+              11,
+              "title"
+            ],
+            "timestamp_seconds": 2095.07,
+            "timestamp_status": "publisher_metadata_not_audio_verified"
+          }
+        },
+        {
+          "id": "cnbc-meeting-2019-afternoon-ch08-p013",
+          "unit_id": "cnbc-meeting-2019-afternoon-ch08-p013",
+          "speaker": "Charlie Munger",
+          "speaker_basis": "Continuation after preceding explicit label in this chapter; selected full sequence read by source researcher",
+          "locator": {
+            "chapter_number": 8,
+            "paragraph_index": 13,
+            "json_path": [
+              "window.__s_data",
+              "page",
+              "page",
+              "layout",
+              0,
+              "columns",
+              0,
+              "modules",
+              0,
+              "data",
+              "transcript",
+              "chapters",
+              7,
+              "transcript",
+              12,
+              "title"
+            ],
+            "timestamp_seconds": 2114.66,
+            "timestamp_status": "publisher_metadata_not_audio_verified"
+          }
+        },
+        {
+          "id": "cnbc-meeting-2019-afternoon-ch08-p014",
+          "unit_id": "cnbc-meeting-2019-afternoon-ch08-p014",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Explicit speaker label",
+          "locator": {
+            "chapter_number": 8,
+            "paragraph_index": 14,
+            "json_path": [
+              "window.__s_data",
+              "page",
+              "page",
+              "layout",
+              0,
+              "columns",
+              0,
+              "modules",
+              0,
+              "data",
+              "transcript",
+              "chapters",
+              7,
+              "transcript",
+              13,
+              "title"
+            ],
+            "timestamp_seconds": 2128.69,
+            "timestamp_status": "publisher_metadata_not_audio_verified"
+          }
+        },
+        {
+          "id": "cnbc-meeting-2019-afternoon-ch08-p015",
+          "unit_id": "cnbc-meeting-2019-afternoon-ch08-p015",
+          "speaker": "Charlie Munger",
+          "speaker_basis": "Explicit speaker label",
+          "locator": {
+            "chapter_number": 8,
+            "paragraph_index": 15,
+            "json_path": [
+              "window.__s_data",
+              "page",
+              "page",
+              "layout",
+              0,
+              "columns",
+              0,
+              "modules",
+              0,
+              "data",
+              "transcript",
+              "chapters",
+              7,
+              "transcript",
+              14,
+              "title"
+            ],
+            "timestamp_seconds": 2131.63,
+            "timestamp_status": "publisher_metadata_not_audio_verified"
+          }
+        },
+        {
+          "id": "cnbc-meeting-2019-afternoon-ch08-p016",
+          "unit_id": "cnbc-meeting-2019-afternoon-ch08-p016",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Explicit speaker label",
+          "locator": {
+            "chapter_number": 8,
+            "paragraph_index": 16,
+            "json_path": [
+              "window.__s_data",
+              "page",
+              "page",
+              "layout",
+              0,
+              "columns",
+              0,
+              "modules",
+              0,
+              "data",
+              "transcript",
+              "chapters",
+              7,
+              "transcript",
+              15,
+              "title"
+            ],
+            "timestamp_seconds": 2137.6,
+            "timestamp_status": "publisher_metadata_not_audio_verified"
+          }
+        },
+        {
+          "id": "cnbc-meeting-2019-afternoon-ch08-p017",
+          "unit_id": "cnbc-meeting-2019-afternoon-ch08-p017",
+          "speaker": "Charlie Munger",
+          "speaker_basis": "Explicit speaker label",
+          "locator": {
+            "chapter_number": 8,
+            "paragraph_index": 17,
+            "json_path": [
+              "window.__s_data",
+              "page",
+              "page",
+              "layout",
+              0,
+              "columns",
+              0,
+              "modules",
+              0,
+              "data",
+              "transcript",
+              "chapters",
+              7,
+              "transcript",
+              16,
+              "title"
+            ],
+            "timestamp_seconds": 2138.44,
+            "timestamp_status": "publisher_metadata_not_audio_verified"
+          }
+        },
+        {
+          "id": "cnbc-meeting-2019-afternoon-ch08-p022",
+          "unit_id": "cnbc-meeting-2019-afternoon-ch08-p022",
+          "speaker": "Charlie Munger",
+          "speaker_basis": "Explicit speaker label",
+          "locator": {
+            "chapter_number": 8,
+            "paragraph_index": 22,
+            "json_path": [
+              "window.__s_data",
+              "page",
+              "page",
+              "layout",
+              0,
+              "columns",
+              0,
+              "modules",
+              0,
+              "data",
+              "transcript",
+              "chapters",
+              7,
+              "transcript",
+              21,
+              "title"
+            ],
+            "timestamp_seconds": 2218.5,
+            "timestamp_status": "publisher_metadata_not_audio_verified"
+          }
+        }
+      ]
+    },
+    "M19-conditional": {
+      "context_id": "meeting-2019-expansion",
+      "paragraph_ids": [
+        "cnbc-meeting-2019-afternoon-ch31-p003",
+        "cnbc-meeting-2019-afternoon-ch31-p004",
+        "cnbc-meeting-2019-afternoon-ch31-p005",
+        "cnbc-meeting-2019-afternoon-ch31-p006",
+        "cnbc-meeting-2019-afternoon-ch31-p007",
+        "cnbc-meeting-2019-afternoon-ch31-p008",
+        "cnbc-meeting-2019-afternoon-ch31-p009"
+      ],
+      "label": "2019 · Munger’s qualification, accepted by Buffett",
+      "source_id": "cnbc-meeting-2019-afternoon",
+      "context_title": "Expand if you can; learning can expose a limit",
+      "publisher_url": "https://buffett.cnbc.com/video/2019/05/06/afternoon-session---2019-berkshire-hathaway-annual-meeting.html",
+      "publisher_reading_url": null,
+      "date": "2019-05-04",
+      "date_kind": "event_date",
+      "event_date": "2019-05-04",
+      "signature_date": null,
+      "publication_date": null,
+      "report_year": null,
+      "date_basis": {
+        "kind": "publisher_event_landing_description",
+        "anchor": "(May 4, 2019)",
+        "source_url": "https://buffett.cnbc.com/2019-berkshire-hathaway-annual-meeting/",
+        "source_raw_sha256": "5e9f09a00490fb213f7407745aae442b04752fe6a41e0f6b0545765dcaced926",
+        "hash_and_anchor_rechecked": true
+      },
+      "speakers": [
+        "Audience member",
+        "Warren Buffett",
+        "Charlie Munger"
+      ],
+      "paragraphs": [
+        {
+          "id": "cnbc-meeting-2019-afternoon-ch31-p003",
+          "unit_id": "cnbc-meeting-2019-afternoon-ch31-p003",
+          "speaker": "Audience member",
+          "speaker_basis": "Continuation after preceding explicit label in this chapter; selected full sequence read by source researcher",
+          "locator": {
+            "chapter_number": 31,
+            "paragraph_index": 3,
+            "json_path": [
+              "window.__s_data",
+              "page",
+              "page",
+              "layout",
+              0,
+              "columns",
+              0,
+              "modules",
+              0,
+              "data",
+              "transcript",
+              "chapters",
+              30,
+              "transcript",
+              2,
+              "title"
+            ],
+            "timestamp_seconds": 8111.32,
+            "timestamp_status": "publisher_metadata_not_audio_verified"
+          }
+        },
+        {
+          "id": "cnbc-meeting-2019-afternoon-ch31-p004",
+          "unit_id": "cnbc-meeting-2019-afternoon-ch31-p004",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Explicit speaker label",
+          "locator": {
+            "chapter_number": 31,
+            "paragraph_index": 4,
+            "json_path": [
+              "window.__s_data",
+              "page",
+              "page",
+              "layout",
+              0,
+              "columns",
+              0,
+              "modules",
+              0,
+              "data",
+              "transcript",
+              "chapters",
+              30,
+              "transcript",
+              3,
+              "title"
+            ],
+            "timestamp_seconds": 8138.99,
+            "timestamp_status": "publisher_metadata_not_audio_verified"
+          }
+        },
+        {
+          "id": "cnbc-meeting-2019-afternoon-ch31-p005",
+          "unit_id": "cnbc-meeting-2019-afternoon-ch31-p005",
+          "speaker": "Charlie Munger",
+          "speaker_basis": "Explicit speaker label",
+          "locator": {
+            "chapter_number": 31,
+            "paragraph_index": 5,
+            "json_path": [
+              "window.__s_data",
+              "page",
+              "page",
+              "layout",
+              0,
+              "columns",
+              0,
+              "modules",
+              0,
+              "data",
+              "transcript",
+              "chapters",
+              30,
+              "transcript",
+              4,
+              "title"
+            ],
+            "timestamp_seconds": 8143.97,
+            "timestamp_status": "publisher_metadata_not_audio_verified"
+          }
+        },
+        {
+          "id": "cnbc-meeting-2019-afternoon-ch31-p006",
+          "unit_id": "cnbc-meeting-2019-afternoon-ch31-p006",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Explicit speaker label",
+          "locator": {
+            "chapter_number": 31,
+            "paragraph_index": 6,
+            "json_path": [
+              "window.__s_data",
+              "page",
+              "page",
+              "layout",
+              0,
+              "columns",
+              0,
+              "modules",
+              0,
+              "data",
+              "transcript",
+              "chapters",
+              30,
+              "transcript",
+              5,
+              "title"
+            ],
+            "timestamp_seconds": 8145.43,
+            "timestamp_status": "publisher_metadata_not_audio_verified"
+          }
+        },
+        {
+          "id": "cnbc-meeting-2019-afternoon-ch31-p007",
+          "unit_id": "cnbc-meeting-2019-afternoon-ch31-p007",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Continuation after preceding explicit label in this chapter; selected full sequence read by source researcher",
+          "locator": {
+            "chapter_number": 31,
+            "paragraph_index": 7,
+            "json_path": [
+              "window.__s_data",
+              "page",
+              "page",
+              "layout",
+              0,
+              "columns",
+              0,
+              "modules",
+              0,
+              "data",
+              "transcript",
+              "chapters",
+              30,
+              "transcript",
+              6,
+              "title"
+            ],
+            "timestamp_seconds": 8150.21,
+            "timestamp_status": "publisher_metadata_not_audio_verified"
+          }
+        },
+        {
+          "id": "cnbc-meeting-2019-afternoon-ch31-p008",
+          "unit_id": "cnbc-meeting-2019-afternoon-ch31-p008",
+          "speaker": "Charlie Munger",
+          "speaker_basis": "Explicit speaker label",
+          "locator": {
+            "chapter_number": 31,
+            "paragraph_index": 8,
+            "json_path": [
+              "window.__s_data",
+              "page",
+              "page",
+              "layout",
+              0,
+              "columns",
+              0,
+              "modules",
+              0,
+              "data",
+              "transcript",
+              "chapters",
+              30,
+              "transcript",
+              7,
+              "title"
+            ],
+            "timestamp_seconds": 8155.15,
+            "timestamp_status": "publisher_metadata_not_audio_verified"
+          }
+        },
+        {
+          "id": "cnbc-meeting-2019-afternoon-ch31-p009",
+          "unit_id": "cnbc-meeting-2019-afternoon-ch31-p009",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Explicit speaker label",
+          "locator": {
+            "chapter_number": 31,
+            "paragraph_index": 9,
+            "json_path": [
+              "window.__s_data",
+              "page",
+              "page",
+              "layout",
+              0,
+              "columns",
+              0,
+              "modules",
+              0,
+              "data",
+              "transcript",
+              "chapters",
+              30,
+              "transcript",
+              8,
+              "title"
+            ],
+            "timestamp_seconds": 8157.57,
+            "timestamp_status": "publisher_metadata_not_audio_verified"
+          }
+        }
+      ]
+    },
+    "M19-incompetence": {
+      "context_id": "meeting-2019-expansion",
+      "paragraph_ids": [
+        "cnbc-meeting-2019-afternoon-ch31-p014",
+        "cnbc-meeting-2019-afternoon-ch31-p015"
+      ],
+      "label": "2019 · learning one’s limits",
+      "source_id": "cnbc-meeting-2019-afternoon",
+      "context_title": "Expand if you can; learning can expose a limit",
+      "publisher_url": "https://buffett.cnbc.com/video/2019/05/06/afternoon-session---2019-berkshire-hathaway-annual-meeting.html",
+      "publisher_reading_url": null,
+      "date": "2019-05-04",
+      "date_kind": "event_date",
+      "event_date": "2019-05-04",
+      "signature_date": null,
+      "publication_date": null,
+      "report_year": null,
+      "date_basis": {
+        "kind": "publisher_event_landing_description",
+        "anchor": "(May 4, 2019)",
+        "source_url": "https://buffett.cnbc.com/2019-berkshire-hathaway-annual-meeting/",
+        "source_raw_sha256": "5e9f09a00490fb213f7407745aae442b04752fe6a41e0f6b0545765dcaced926",
+        "hash_and_anchor_rechecked": true
+      },
+      "speakers": [
+        "Warren Buffett"
+      ],
+      "paragraphs": [
+        {
+          "id": "cnbc-meeting-2019-afternoon-ch31-p014",
+          "unit_id": "cnbc-meeting-2019-afternoon-ch31-p014",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Continuation after preceding explicit label in this chapter; selected full sequence read by source researcher",
+          "locator": {
+            "chapter_number": 31,
+            "paragraph_index": 14,
+            "json_path": [
+              "window.__s_data",
+              "page",
+              "page",
+              "layout",
+              0,
+              "columns",
+              0,
+              "modules",
+              0,
+              "data",
+              "transcript",
+              "chapters",
+              30,
+              "transcript",
+              13,
+              "title"
+            ],
+            "timestamp_seconds": 8183.94,
+            "timestamp_status": "publisher_metadata_not_audio_verified"
+          }
+        },
+        {
+          "id": "cnbc-meeting-2019-afternoon-ch31-p015",
+          "unit_id": "cnbc-meeting-2019-afternoon-ch31-p015",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Continuation after preceding explicit label in this chapter; selected full sequence read by source researcher",
+          "locator": {
+            "chapter_number": 31,
+            "paragraph_index": 15,
+            "json_path": [
+              "window.__s_data",
+              "page",
+              "page",
+              "layout",
+              0,
+              "columns",
+              0,
+              "modules",
+              0,
+              "data",
+              "transcript",
+              "chapters",
+              30,
+              "transcript",
+              14,
+              "title"
+            ],
+            "timestamp_seconds": 8193.64,
+            "timestamp_status": "publisher_metadata_not_audio_verified"
+          }
+        }
+      ]
+    },
+    "M19-change": {
+      "context_id": "meeting-2019-expansion",
+      "paragraph_ids": [
+        "cnbc-meeting-2019-afternoon-ch31-p016",
+        "cnbc-meeting-2019-afternoon-ch31-p017"
+      ],
+      "label": "2019 · change inside the existing circle",
+      "source_id": "cnbc-meeting-2019-afternoon",
+      "context_title": "Expand if you can; learning can expose a limit",
+      "publisher_url": "https://buffett.cnbc.com/video/2019/05/06/afternoon-session---2019-berkshire-hathaway-annual-meeting.html",
+      "publisher_reading_url": null,
+      "date": "2019-05-04",
+      "date_kind": "event_date",
+      "event_date": "2019-05-04",
+      "signature_date": null,
+      "publication_date": null,
+      "report_year": null,
+      "date_basis": {
+        "kind": "publisher_event_landing_description",
+        "anchor": "(May 4, 2019)",
+        "source_url": "https://buffett.cnbc.com/2019-berkshire-hathaway-annual-meeting/",
+        "source_raw_sha256": "5e9f09a00490fb213f7407745aae442b04752fe6a41e0f6b0545765dcaced926",
+        "hash_and_anchor_rechecked": true
+      },
+      "speakers": [
+        "Warren Buffett"
+      ],
+      "paragraphs": [
+        {
+          "id": "cnbc-meeting-2019-afternoon-ch31-p016",
+          "unit_id": "cnbc-meeting-2019-afternoon-ch31-p016",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Continuation after preceding explicit label in this chapter; selected full sequence read by source researcher",
+          "locator": {
+            "chapter_number": 31,
+            "paragraph_index": 16,
+            "json_path": [
+              "window.__s_data",
+              "page",
+              "page",
+              "layout",
+              0,
+              "columns",
+              0,
+              "modules",
+              0,
+              "data",
+              "transcript",
+              "chapters",
+              30,
+              "transcript",
+              15,
+              "title"
+            ],
+            "timestamp_seconds": 8198.95,
+            "timestamp_status": "publisher_metadata_not_audio_verified"
+          }
+        },
+        {
+          "id": "cnbc-meeting-2019-afternoon-ch31-p017",
+          "unit_id": "cnbc-meeting-2019-afternoon-ch31-p017",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Continuation after preceding explicit label in this chapter; selected full sequence read by source researcher",
+          "locator": {
+            "chapter_number": 31,
+            "paragraph_index": 17,
+            "json_path": [
+              "window.__s_data",
+              "page",
+              "page",
+              "layout",
+              0,
+              "columns",
+              0,
+              "modules",
+              0,
+              "data",
+              "transcript",
+              "chapters",
+              30,
+              "transcript",
+              16,
+              "title"
+            ],
+            "timestamp_seconds": 8209.36,
+            "timestamp_status": "publisher_metadata_not_audio_verified"
+          }
+        }
+      ]
+    },
+    "M19-energy": {
+      "context_id": "meeting-2019-expansion",
+      "paragraph_ids": [
+        "cnbc-meeting-2019-afternoon-ch31-p018",
+        "cnbc-meeting-2019-afternoon-ch31-p019",
+        "cnbc-meeting-2019-afternoon-ch31-p020",
+        "cnbc-meeting-2019-afternoon-ch31-p021",
+        "cnbc-meeting-2019-afternoon-ch31-p022",
+        "cnbc-meeting-2019-afternoon-ch31-p023"
+      ],
+      "label": "2019 · learning energy without equalling the experts",
+      "source_id": "cnbc-meeting-2019-afternoon",
+      "context_title": "Expand if you can; learning can expose a limit",
+      "publisher_url": "https://buffett.cnbc.com/video/2019/05/06/afternoon-session---2019-berkshire-hathaway-annual-meeting.html",
+      "publisher_reading_url": null,
+      "date": "2019-05-04",
+      "date_kind": "event_date",
+      "event_date": "2019-05-04",
+      "signature_date": null,
+      "publication_date": null,
+      "report_year": null,
+      "date_basis": {
+        "kind": "publisher_event_landing_description",
+        "anchor": "(May 4, 2019)",
+        "source_url": "https://buffett.cnbc.com/2019-berkshire-hathaway-annual-meeting/",
+        "source_raw_sha256": "5e9f09a00490fb213f7407745aae442b04752fe6a41e0f6b0545765dcaced926",
+        "hash_and_anchor_rechecked": true
+      },
+      "speakers": [
+        "Warren Buffett"
+      ],
+      "paragraphs": [
+        {
+          "id": "cnbc-meeting-2019-afternoon-ch31-p018",
+          "unit_id": "cnbc-meeting-2019-afternoon-ch31-p018",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Continuation after preceding explicit label in this chapter; selected full sequence read by source researcher",
+          "locator": {
+            "chapter_number": 31,
+            "paragraph_index": 18,
+            "json_path": [
+              "window.__s_data",
+              "page",
+              "page",
+              "layout",
+              0,
+              "columns",
+              0,
+              "modules",
+              0,
+              "data",
+              "transcript",
+              "chapters",
+              30,
+              "transcript",
+              17,
+              "title"
+            ],
+            "timestamp_seconds": 8220.53,
+            "timestamp_status": "publisher_metadata_not_audio_verified"
+          }
+        },
+        {
+          "id": "cnbc-meeting-2019-afternoon-ch31-p019",
+          "unit_id": "cnbc-meeting-2019-afternoon-ch31-p019",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Continuation after preceding explicit label in this chapter; selected full sequence read by source researcher",
+          "locator": {
+            "chapter_number": 31,
+            "paragraph_index": 19,
+            "json_path": [
+              "window.__s_data",
+              "page",
+              "page",
+              "layout",
+              0,
+              "columns",
+              0,
+              "modules",
+              0,
+              "data",
+              "transcript",
+              "chapters",
+              30,
+              "transcript",
+              18,
+              "title"
+            ],
+            "timestamp_seconds": 8210.99,
+            "timestamp_status": "publisher_metadata_not_audio_verified"
+          }
+        },
+        {
+          "id": "cnbc-meeting-2019-afternoon-ch31-p020",
+          "unit_id": "cnbc-meeting-2019-afternoon-ch31-p020",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Continuation after preceding explicit label in this chapter; selected full sequence read by source researcher",
+          "locator": {
+            "chapter_number": 31,
+            "paragraph_index": 20,
+            "json_path": [
+              "window.__s_data",
+              "page",
+              "page",
+              "layout",
+              0,
+              "columns",
+              0,
+              "modules",
+              0,
+              "data",
+              "transcript",
+              "chapters",
+              30,
+              "transcript",
+              19,
+              "title"
+            ],
+            "timestamp_seconds": 8239.14,
+            "timestamp_status": "publisher_metadata_not_audio_verified"
+          }
+        },
+        {
+          "id": "cnbc-meeting-2019-afternoon-ch31-p021",
+          "unit_id": "cnbc-meeting-2019-afternoon-ch31-p021",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Continuation after preceding explicit label in this chapter; selected full sequence read by source researcher",
+          "locator": {
+            "chapter_number": 31,
+            "paragraph_index": 21,
+            "json_path": [
+              "window.__s_data",
+              "page",
+              "page",
+              "layout",
+              0,
+              "columns",
+              0,
+              "modules",
+              0,
+              "data",
+              "transcript",
+              "chapters",
+              30,
+              "transcript",
+              20,
+              "title"
+            ],
+            "timestamp_seconds": 8245.98,
+            "timestamp_status": "publisher_metadata_not_audio_verified"
+          }
+        },
+        {
+          "id": "cnbc-meeting-2019-afternoon-ch31-p022",
+          "unit_id": "cnbc-meeting-2019-afternoon-ch31-p022",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Continuation after preceding explicit label in this chapter; selected full sequence read by source researcher",
+          "locator": {
+            "chapter_number": 31,
+            "paragraph_index": 22,
+            "json_path": [
+              "window.__s_data",
+              "page",
+              "page",
+              "layout",
+              0,
+              "columns",
+              0,
+              "modules",
+              0,
+              "data",
+              "transcript",
+              "chapters",
+              30,
+              "transcript",
+              21,
+              "title"
+            ],
+            "timestamp_seconds": 8252.92,
+            "timestamp_status": "publisher_metadata_not_audio_verified"
+          }
+        },
+        {
+          "id": "cnbc-meeting-2019-afternoon-ch31-p023",
+          "unit_id": "cnbc-meeting-2019-afternoon-ch31-p023",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Continuation after preceding explicit label in this chapter; selected full sequence read by source researcher",
+          "locator": {
+            "chapter_number": 31,
+            "paragraph_index": 23,
+            "json_path": [
+              "window.__s_data",
+              "page",
+              "page",
+              "layout",
+              0,
+              "columns",
+              0,
+              "modules",
+              0,
+              "data",
+              "transcript",
+              "chapters",
+              30,
+              "transcript",
+              22,
+              "title"
+            ],
+            "timestamp_seconds": 8272.99,
+            "timestamp_status": "publisher_metadata_not_audio_verified"
+          }
+        }
+      ]
+    }
+  },
+  "timeline": [
+    [
+      "1992",
+      "Purpose",
+      "Understanding supports a cash-flow judgment",
+      "The mathematics can be easy while the future cash estimate is wrong. Business understandability and a margin of safety in price are distinct requirements.",
+      [
+        "L92-forecast",
+        "L92-price"
+      ]
+    ],
+    [
+      "1996",
+      "Definition + case",
+      "Boundaries matter more than breadth",
+      "Selected businesses are enough for someone choosing stocks. See’s illustrates stable buying reasons alongside changing operations; market leadership alone gives no certainty.",
+      [
+        "L96-circle",
+        "L96-sees",
+        "L96-leadership"
+      ]
+    ],
+    [
+      "2000",
+      "Limit + counterexample",
+      "A wide range may still be unusable",
+      "Conservative estimation does not make every business knowable. Buffett also names industries whose economics he had misjudged.",
+      [
+        "L00-range",
+        "L00-errors"
+      ]
+    ],
+    [
+      "2002",
+      "Whole-business case",
+      "Understanding each transaction is not understanding the enterprise",
+      "The unnamed finance company’s continuing funding was a gap in Buffett’s understanding. General familiarity also does not establish an appropriate stock price.",
+      [
+        "M02-finance",
+        "M02-general"
+      ]
+    ],
+    [
+      "2013 letter",
+      "Investor / operator distinction",
+      "The farm ties understanding to production and costs",
+      "Published here as the 2013 report, signed in February 2014. Buffett explains learning farm economics with his son’s help without learning to operate the farm.",
+      [
+        "F13-farm",
+        "F13-bad-years"
+      ]
+    ],
+    [
+      "2014 meeting",
+      "Self-assessment caution",
+      "Confidence and outcomes can mislead",
+      "Retail mistakes and Buffett’s account of taking control of Berkshire complicate an overly simple reading of “know your boundary.” He does not offer a reliable self-certification test.",
+      [
+        "M14-retail",
+        "M14-berkshire",
+        "M14-calibration"
+      ]
+    ],
+    [
+      "2019 · question 1",
+      "Different emphases",
+      "Broad reading and specialization remain distinct",
+      "Buffett describes extensive reading and investigation; Munger recommends specialization as the ordinary route for most. Their own path is not presented as a universal recipe.",
+      [
+        "M19-reading",
+        "M19-specialize"
+      ]
+    ],
+    [
+      "2019 · question 2",
+      "Explicit qualification",
+      "Expand if you can; do not force it",
+      "Buffett accepts Munger’s immediate qualification. Recognizing a limit can be progress, and changes inside an existing circle still demand understanding.",
+      [
+        "M19-conditional",
+        "M19-incompetence",
+        "M19-change"
+      ]
+    ]
+  ],
+  "guide": [
+    [
+      "familiarity",
+      "I know the product or brand",
+      "Explain the economics behind that familiarity.",
+      "See’s separates changing operations from the reasons customers buy. Start by identifying the relationship your explanation relies on and what might change it.",
+      "understand-a-business",
+      [
+        "L96-sees",
+        "L96-leadership"
+      ]
+    ],
+    [
+      "dependency",
+      "I understand the parts, but not the whole",
+      "Find the unresolved dependency.",
+      "The finance-company example makes continuing funding a separate question from individual transactions. Keep the equivalent unresolved part of your research visible.",
+      "parts-and-whole",
+      [
+        "M02-finance"
+      ]
+    ],
+    [
+      "expert",
+      "I am relying on someone else’s expertise",
+      "Separate what they know from what you can judge.",
+      "The farm shows learning about production and costs; the energy discussion preserves a gap between Buffett’s knowledge and the operators’ expertise.",
+      "investor-and-operator",
+      [
+        "F13-farm",
+        "M19-energy"
+      ]
+    ],
+    [
+      "learning",
+      "I want to learn a new field",
+      "Investigate without requiring a positive verdict.",
+      "Read the GEICO account alongside Munger’s specialization advice. Recognizing that an area remains outside your competence is an allowed outcome.",
+      "learning-and-expansion",
+      [
+        "M19-geico",
+        "M19-specialize",
+        "M19-incompetence"
+      ]
+    ],
+    [
+      "confidence",
+      "I feel confident, but want to challenge it",
+      "Examine reasoning separately from outcome.",
+      "Buffett’s retail mistakes and Berkshire admission show why familiarity and eventual success do not certify the original judgment. His suggestion of outside challenge remains a suggestion.",
+      "confidence-and-mistakes",
+      [
+        "M14-retail",
+        "M14-berkshire",
+        "M14-calibration"
+      ]
+    ],
+    [
+      "unknown",
+      "An essential earnings driver is still unclear",
+      "Leave the investment conclusion unresolved.",
+      "A very wide range may offer no useful conclusion. The 2013 letter describes moving on when an earnings range cannot be sensibly estimated; more arithmetic does not remove that gap.",
+      "when-you-do-not-know",
+      [
+        "L00-range",
+        "F13-range"
+      ]
+    ]
+  ],
+  "guide_kind": "editorial prompts linked to original examples; no validated decision rule",
+  "content_hash": "ecbccb716c1b9950ee2e8513a9846d131e9112e0537a91c2886f7e853c1fa037"
+}

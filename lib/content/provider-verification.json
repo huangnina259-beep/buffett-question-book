@@ -1,0 +1,30 @@
+{
+  "provider": "MarsAPI",
+  "verified_date": "2026-11-03",
+  "verification_method": "Read the provider documentation and signed-in model marketplace in Safari. No model requests were made.",
+  "documentation": {
+    "introduction": "http://marsapi-docs.wtsht.cn:3008/docs/introduction",
+    "authentication": "http://marsapi-docs.wtsht.cn:3008/docs/authentication",
+    "chat_completions": "http://marsapi-docs.wtsht.cn:3008/docs/api/chat-completions",
+    "model_marketplace": "https://openapi.wtsht.cn/pricing"
+  },
+  "documented_base_url": "https://openapi.wtsht.cn/v1",
+  "documented_chat_endpoint": "https://openapi.wtsht.cn/v1/chat/completions",
+  "documented_authentication": "Authorization: Bearer <server-side token>",
+  "documented_streaming": "Server-Sent Events with stream=true; choices[0].delta.content",
+  "observed_candidate_prices": [
+    {"model": "DeepSeek-V4-Flash-0731", "currency": "CNY", "input_per_million_tokens": 2, "output_per_million_tokens": 4},
+    {"model": "Qwen3.6-35B-A3B", "currency": "CNY", "input_per_million_tokens": 2, "output_per_million_tokens": 4}
+  ],
+  "price_status": "Displayed model-marketplace prices; not an invoice, final quotation, or measured per-answer cost. Account/group conditions and actual usage remain to be checked.",
+  "not_yet_verified": [
+    "Model identity and capabilities beyond provider claims",
+    "Actual inference with the project token",
+    "Structured JSON reliability and source attribution quality",
+    "Output limits and usage accounting for the selected model",
+    "Latency from the eventual overseas deployment region",
+    "Final generation budget and production rate limits"
+  ],
+  "secret_status": "No full API key was revealed, copied, saved, or configured during this verification.",
+  "generation_enabled": false
+}

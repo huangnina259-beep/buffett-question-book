@@ -5,7 +5,7 @@ This is an isolated English beta, starting with six reviewed Circle of Competenc
 ## Current behavior
 
 - Reviewed questions return the unchanged editorial answer with official publisher links and source locators.
-- New questions are accepted and recorded but return clearly labeled related reading. Live generation is disabled and no inference adapter is connected yet.
+- New questions are accepted and recorded but return clearly labeled related reading. Live generation is disabled; the evaluated provider adapter is not connected to the public question route.
 - Questions and feedback are stored in D1 under an anonymous browser session. No public endpoint lists those records. Submitted records are distinct from the page's temporary conversation history.
 - The private preview is protected by the Sites owner-only audience. Session limits are not sufficient protection for public, billable inference.
 
@@ -15,11 +15,11 @@ This is an isolated English beta, starting with six reviewed Circle of Competenc
 
 `lib/content/provider-verification.json` records MarsAPI documentation verified on 2026-11-03, including the HTTPS inference address and displayed candidate pricing. API keys are not included. A compatible endpoint does not establish model quality, latency or cost per answer.
 
-Before enabling public generation: configure a server-side project secret; test selected models on source-grounded English questions; implement and verify evidence selection, answer/citation checking and provider error handling; add global cost controls; measure latency from the deployment region. Keep `GENERATION_ENABLED=false` until that work passes.
+The existing project secret is configured locally in an ignored mode0600 file, never in source or client code. Before enabling public generation: find a model/configuration that passes source-grounded English evaluation; implement and verify evidence selection, answer/citation checking and provider error handling; add global cost controls; measure latency from the deployment region. Keep `GENERATION_ENABLED=false` until that work passes.
 
 ## Validation
 
-TypeScript and the production build passed. Local built-Worker HTTP integration covered two independent sessions, all six exact answers, citation mapping, feedback ownership, CSRF, input limits and atomic session caps. Browser checks covered the homepage, curated answers, source dialogs with PDF and meeting locators, and the explicit unavailable-generation state. No model calls or real-user market tests were performed.
+TypeScript and the production build passed. Local built-Worker HTTP integration covered two independent sessions, all six exact answers, citation mapping, feedback ownership, CSRF, input limits and atomic session caps. Browser checks covered the homepage, curated answers, source dialogs with PDF and meeting locators, and the explicit unavailable-generation state. Nine real MarsAPI inference attempts were evaluated separately. Five readable drafts failed independent source-grounding review; two earlier responses were rejected by a now-fixed empty-tool-calls compatibility check, and two requests failed with unknown usage. Transport mocks (28 cases) and TypeScript checks pass. No real-user market test has been performed.
 
 Local preview uses the starter runtime and local D1. On this Mac, set XDG_CONFIG_HOME inside `.sites-runtime`, WRANGLER_SEND_METRICS=false and CHOKIDAR_USEPOLLING=true for the preview command to avoid writing outside the checkout and exhausting file watchers. Preserve the existing user-owned service on port 8795.
 

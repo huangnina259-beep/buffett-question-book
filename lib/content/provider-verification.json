@@ -1,7 +1,7 @@
 {
   "provider": "MarsAPI",
   "verified_date": "2026-11-03",
-  "verification_method": "Read the provider documentation and signed-in model marketplace in Safari. No model requests were made.",
+  "verification_method": "Provider documentation and signed-in marketplace checked in Safari; nine bounded real inference attempts performed with the existing project token.",
   "documentation": {
     "introduction": "http://marsapi-docs.wtsht.cn:3008/docs/introduction",
     "authentication": "http://marsapi-docs.wtsht.cn:3008/docs/authentication",
@@ -13,18 +13,37 @@
   "documented_authentication": "Authorization: Bearer <server-side token>",
   "documented_streaming": "Server-Sent Events with stream=true; choices[0].delta.content",
   "observed_candidate_prices": [
-    {"model": "DeepSeek-V4-Flash-0731", "currency": "CNY", "input_per_million_tokens": 2, "output_per_million_tokens": 4},
-    {"model": "Qwen3.6-35B-A3B", "currency": "CNY", "input_per_million_tokens": 2, "output_per_million_tokens": 4}
+    {
+      "model": "DeepSeek-V4-Flash-0731",
+      "currency": "CNY",
+      "input_per_million_tokens": 2,
+      "output_per_million_tokens": 4
+    },
+    {
+      "model": "Qwen3.6-35B-A3B",
+      "currency": "CNY",
+      "input_per_million_tokens": 2,
+      "output_per_million_tokens": 4
+    }
   ],
   "price_status": "Displayed model-marketplace prices; not an invoice, final quotation, or measured per-answer cost. Account/group conditions and actual usage remain to be checked.",
   "not_yet_verified": [
-    "Model identity and capabilities beyond provider claims",
-    "Actual inference with the project token",
-    "Structured JSON reliability and source attribution quality",
-    "Output limits and usage accounting for the selected model",
+    "Model identity beyond provider claims",
+    "Reliable citation-grounded answers: sampled readable drafts failed independent review",
     "Latency from the eventual overseas deployment region",
-    "Final generation budget and production rate limits"
+    "Final settled charges, including two failed network requests",
+    "Global production generation budget and abuse controls"
   ],
-  "secret_status": "No full API key was revealed, copied, saved, or configured during this verification.",
-  "generation_enabled": false
+  "secret_status": "Existing project key is configured only in an ignored local .dev.vars file with mode0600; never printed in chat or included in source. Hosted key not configured.",
+  "generation_enabled": false,
+  "evaluation": {
+    "attempts": 9,
+    "cap": 12,
+    "readable_drafts": 5,
+    "independently_releasable_drafts": 0,
+    "interface_validation_failures_before_empty_tool_calls_fix": 2,
+    "network_failures_with_unknown_usage": 2,
+    "estimated_known_usage_cost_cny": 0.09993,
+    "billing_status": "Estimate from reported usage and displayed rates; not a settled bill. Two network failures have unknown usage/cost."
+  }
 }

@@ -5,7 +5,7 @@ import { allowKeys, json, readJson, RequestError, requiredText, requireSameOrigi
 import { useRequestAllowance } from "../../../lib/server/rate-limit";
 import { requireSession } from "../../../lib/server/session";
 
-const reasons = new Set(["too_general", "unclear", "sources", "too_slow", "other"]);
+const reasons = new Set(["not_covered", "too_general", "unclear", "sources", "too_slow", "other"]);
 
 export async function POST(request: Request) {
   try {

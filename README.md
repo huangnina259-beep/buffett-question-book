@@ -5,9 +5,18 @@ This is an isolated English beta, starting with six reviewed Circle of Competenc
 ## Current behavior
 
 - Reviewed questions return the unchanged editorial answer with official publisher links and source locators.
-- New questions are accepted and recorded but return clearly labeled related reading. Live generation is disabled; the evaluated provider adapter is not connected to the public question route.
-- Questions and feedback are stored in D1 under an anonymous browser session. No public endpoint lists those records. Submitted records are distinct from the page's temporary conversation history.
-- The private preview is protected by the Sites owner-only audience. Session limits are not sufficient protection for public, billable inference.
+- New questions receive an explicit saved-question receipt after storage succeeds. They help choose future editorial coverage; no reply or publication date is promised. Only reading suggestions with a matching topic word are offered, separately from an answer.
+- The latest twenty saved results and their feedback can be restored in the same browser session. Requests require the session cookie and CSRF token; there is no global public record list.
+- Repeating the same client submission ID in the same session reuses the saved result. Changing its payload produces a conflict. Browser sessions are not unique people, and a fresh intentional submission is still a separate record.
+- Records are tied to a thirty-day session. Expired sessions and their dependent records are removed through opportunistic cleanup; this is neither permanent retention nor a promise of deletion at an exact time.
+- Live generation remains disabled. The evaluated provider adapter is not connected to the public question route. No inference calls are made by this pilot.
+- The private preview keeps the existing owner-only Sites audience. Publishing an app revision does not invite testers or make the Site public.
+
+## Reviewing incoming questions
+
+The owner can inspect the live `answers` and `feedback` tables through the Sites database management tools. Read the database overview first and use exact returned table names; never expose a global record list in the visitor application. For an editorial summary, export only question text, submission time, prior-topic context and feedback. Exclude session/CSRF identifiers and private response metadata. Keep that export outside client assets.
+
+Separate reviewed-answer opens from `question_received` records (and legacy `suggestions` records). Exclude clearly marked automated test entries before interpreting feedback. Do not count reloads or same-ID retries as new demand, or describe browser-session counts as distinct readers.
 
 ## Content and provider
 
@@ -19,7 +28,9 @@ The existing project secret is configured locally in an ignored mode0600 file, n
 
 ## Validation
 
-TypeScript and the production build passed. Local built-Worker HTTP integration covered two independent sessions, all six exact answers, citation mapping, feedback ownership, CSRF, input limits and atomic session caps. Browser checks covered the homepage, curated answers, source dialogs with PDF and meeting locators, and the explicit unavailable-generation state. Nine real MarsAPI inference attempts were evaluated separately. Five readable drafts failed independent source-grounding review; two earlier responses were rejected by a now-fixed empty-tool-calls compatibility check, and two requests failed with unknown usage. Transport mocks (28 cases) and TypeScript checks pass. No real-user market test has been performed.
+The first version passed TypeScript, production build, local browser and HTTP checks. Subsequent model experiments are documented separately from the application: some drafts were faithful but failed formatting rules, and automatic semantic review remains unverified. No model output from those experiments is published by this pilot.
+
+Pilot-v2 checks are recorded in the delivery audit. They exercise receipt persistence, session history and restored feedback, idempotent retries, concurrent duplicate submissions, cross-session isolation, unchanged reviewed answers, CSRF, input limits and burst limits. A successful local test or deployment is not a real-user trial or a completed hosted browser walkthrough.
 
 Local preview uses the starter runtime and local D1. On this Mac, set XDG_CONFIG_HOME inside `.sites-runtime`, WRANGLER_SEND_METRICS=false and CHOKIDAR_USEPOLLING=true for the preview command to avoid writing outside the checkout and exhausting file watchers. Preserve the existing user-owned service on port 8795.
 

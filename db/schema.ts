@@ -39,3 +39,26 @@ export const requestWindows = sqliteTable("request_windows", {
   windowStart: integer("window_start").notNull(),
   count: integer("count").notNull(),
 }, (table) => [primaryKey({ columns: [table.sessionId, table.scope, table.windowStart] })]);
+
+// Permanent trial accounting. Reservations include failures and unknown usage;
+// deleting an anonymous session must never replenish the global trial budget.
+export const generationBudget = sqliteTable("generation_budget", {
+  id: text("id").primaryKey(),
+  attempts: integer("attempts").notNull().default(0),
+  reservedMicroCny: integer("reserved_micro_cny").notNull().default(0),
+  day: text("day").notNull(),
+  dayAttempts: integer("day_attempts").notNull().default(0),
+});
+export const generationJobs = sqliteTable("generation_jobs", {
+  id: text("id").primaryKey(),
+  sessionId: text("session_id").notNull().references(() => sessions.id, { onDelete: "cascade" }),
+  state: text("state").notNull(),
+  responseJson: text("response_json"),
+  reservedMicroCny: integer("reserved_micro_cny").notNull().default(0),
+  inputTokens: integer("input_tokens"),
+  outputTokens: integer("output_tokens"),
+  usageReported: integer("usage_reported", { mode: "boolean" }).notNull().default(false),
+  failureCode: text("failure_code"),
+  createdAt: integer("created_at").notNull(),
+  finishedAt: integer("finished_at"),
+}, (table) => [index("generation_jobs_session_idx").on(table.sessionId)]);

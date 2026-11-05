@@ -20,6 +20,12 @@ export type GenerationValidationResult = {
     kind: "structure_citations_and_exact_quotes_only";
     referenceKeys: string[];
     exactQuotes: { text: string; referenceKey: string }[];
+    normalizations: {
+      kind: "quote_terminal_punctuation_moved";
+      before: string;
+      after: string;
+      referenceKey: string;
+    }[];
     semanticGroundingChecked: false;
   };
 };
@@ -41,7 +47,7 @@ function text(value: unknown, max: number): string {
   return value;
 }
 function keys(value: unknown): string[] {
-  if (!Array.isArray(value) || value.length > 12 || value.some((key) =>
+  if (!Array.isArray(value) || value.length > 32 || value.some((key) =>
     typeof key !== "string" || !/^[A-Za-z0-9][A-Za-z0-9._-]{0,79}$/.test(key)) || new Set(value).size !== value.length) fail("references");
   return value as string[];
 }
@@ -58,6 +64,8 @@ function inlineKeys(value: string) {
  * or envelope. Every lead/body paragraph must have [[REF]] citations. A prompt
  * may use prompt_refs. Unused reference_keys are rejected. Quoted text must be
  * an exact (whitespace-normalized) substring of the paragraph's cited source.
+ * If only its final period or comma prevents an exact match, that punctuation
+ * is moved outside the closing quote in the returned text and recorded.
  * Titles and headings use plain unquoted text; links/HTML/blockquote/code are
  * not part of this rendering contract. Only a later semantic review may decide
  * whether a citation actually supports the surrounding claim.
@@ -70,17 +78,18 @@ export function parseGeneratedAnswer(raw: string, options: GenerationValidationO
     "title", "lead", "sections", "prompt", "prompt_refs", "reference_keys", "next",
   ].includes(key))) fail("structure");
   const title = text(parsed.title, 180);
-  const lead = text(parsed.lead, 4000);
-  if (!Array.isArray(parsed.sections) || parsed.sections.length < 1 || parsed.sections.length > 8) fail("structure");
+  let lead = parsed.lead === "" ? "" : text(parsed.lead, 4000);
+  if (!Array.isArray(parsed.sections) || parsed.sections.length > 8) fail("structure");
   const sections = parsed.sections.map((section): [string, string] => {
     if (!Array.isArray(section) || section.length !== 2) fail("structure");
     return [text(section[0], 160), text(section[1], 8000)];
   });
+  if (!lead && !sections.length) fail("structure");
   if (new Set(sections.map(([heading]) => heading.trim().toLowerCase())).size !== sections.length) fail("structure");
   const referenceKeys = keys(parsed.reference_keys);
   if (!referenceKeys.length || referenceKeys.some((key) => !Object.prototype.hasOwnProperty.call(options.references, key) ||
     typeof options.references[key]?.text !== "string" || !options.references[key].text.trim())) fail("references");
-  const prompt = parsed.prompt === undefined ? undefined : text(parsed.prompt, 2500);
+  let prompt = parsed.prompt === undefined ? undefined : text(parsed.prompt, 2500);
   const promptRefs = parsed.prompt_refs === undefined ? undefined : keys(parsed.prompt_refs);
   if (prompt && (!promptRefs || !promptRefs.length)) fail("references");
   if (!prompt && promptRefs?.length) fail("structure");
@@ -97,41 +106,65 @@ export function parseGeneratedAnswer(raw: string, options: GenerationValidationO
 
   const used = new Set<string>();
   const exactQuotes: { text: string; referenceKey: string }[] = [];
+  const normalizations: GenerationValidationResult["checks"]["normalizations"] = [];
   const validateParagraph = (paragraph: string, fallbackKeys: string[] = []) => {
     const citations = inlineKeys(paragraph);
     if (!citations.length && !fallbackKeys.length) fail("uncited_paragraph");
     const allowed = [...new Set([...citations, ...fallbackKeys])];
     if (allowed.some((key) => !referenceKeys.includes(key))) fail("references");
     for (const key of allowed) used.add(key);
-    const quotes: string[] = [];
-    let unquoted = paragraph.replace(/"([^"\n]+)"|“([^”\n]+)”|‘([^’\n]+)’/g, (match, straight, curly, single) => {
-      quotes.push(straight ?? curly ?? single);
-      return " ";
+    const quotes: { text: string; start: number; end: number }[] = [];
+    let unquoted = paragraph.replace(/"([^"\n]+)"|“([^”\n]+)”|‘([^’\n]+)’/g, (match, straight, curly, single, offset) => {
+      quotes.push({ text: straight ?? curly ?? single, start: offset, end: offset + match.length });
+      // Preserve offsets while masking these quotes before finding straight
+      // single-quoted text; apostrophes inside a matched quote are not rescanned.
+      return " ".repeat(match.length);
     });
     // Single straight quotes are recognized only at word boundaries, so an
     // ordinary apostrophe in owner's or Buffett's is not treated as a quote.
-    unquoted = unquoted.replace(/(^|[\s(])'([^'\n]+)'(?=[\s.,;:!?)]|$)/g, (match, prefix, quotation) => {
-      quotes.push(quotation);
-      return prefix + " ";
+    unquoted = unquoted.replace(/(^|[\s(])'([^'\n]+)'(?=[\s.,;:!?)]|$)/g, (match, prefix, quotation, offset) => {
+      quotes.push({ text: quotation, start: offset + prefix.length, end: offset + match.length });
+      return prefix + " ".repeat(match.length - prefix.length);
     });
     if (/["“”‘]|(^|[\s(])'/.test(unquoted)) fail("quotation");
-    for (const quotation of quotes) {
-      const normalized = normalizedQuote(quotation);
+    let result = "";
+    let cursor = 0;
+    for (const quotation of quotes.sort((a, b) => a.start - b.start)) {
+      const normalized = normalizedQuote(quotation.text);
       if (!normalized) fail("quotation");
-      const key = allowed.find((candidate) => normalizedQuote(options.references[candidate].text).includes(normalized));
+      const exactSource = (candidateText: string) => allowed.find((candidate) =>
+        normalizedQuote(options.references[candidate].text).includes(candidateText));
+      let key = exactSource(normalized);
+      let exactText = quotation.text;
+      const before = paragraph.slice(quotation.start, quotation.end);
+      let after = before;
+      if (!key && /[.,]$/.test(quotation.text)) {
+        const withoutPunctuation = quotation.text.slice(0, -1);
+        const normalizedWords = normalizedQuote(withoutPunctuation);
+        if (normalizedWords) key = exactSource(normalizedWords);
+        if (key) {
+          exactText = withoutPunctuation;
+          after = before[0] + withoutPunctuation + before[before.length - 1] + quotation.text.slice(-1);
+          normalizations.push({ kind: "quote_terminal_punctuation_moved", before, after, referenceKey: key });
+        }
+      }
       if (!key) fail("quotation");
-      exactQuotes.push({ text: quotation, referenceKey: key });
+      exactQuotes.push({ text: exactText, referenceKey: key });
+      result += paragraph.slice(cursor, quotation.start) + after;
+      cursor = quotation.end;
     }
+    return result + paragraph.slice(cursor);
   };
-  for (const value of [lead, ...sections.map(([, body]) => body)]) {
-    for (const paragraph of value.split(/\n\s*\n/).filter((part) => part.trim())) validateParagraph(paragraph);
-  }
-  if (prompt) for (const paragraph of prompt.split(/\n\s*\n/).filter((part) => part.trim())) validateParagraph(paragraph, promptRefs);
+  const validateBody = (value: string, fallbackKeys: string[] = []) => value.split(/(\n\s*\n)/)
+    .map((part, index) => index % 2 || !part.trim() ? part : validateParagraph(part, fallbackKeys)).join("");
+  lead = validateBody(lead);
+  for (const section of sections) section[1] = validateBody(section[1]);
+  if (prompt) prompt = validateBody(prompt, promptRefs);
   if (referenceKeys.some((key) => !used.has(key))) fail("references");
 
   return {
     answer: { title, lead, sections, reference_keys: referenceKeys,
       ...(prompt ? { prompt, prompt_refs: promptRefs } : {}), ...(parsed.next === null ? { next: null } : {}) },
-    checks: { kind: "structure_citations_and_exact_quotes_only", referenceKeys: [...used], exactQuotes, semanticGroundingChecked: false },
+    checks: { kind: "structure_citations_and_exact_quotes_only", referenceKeys: [...used], exactQuotes, normalizations, semanticGroundingChecked: false },
   };
 }

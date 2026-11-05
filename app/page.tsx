@@ -1,11 +1,13 @@
 "use client";
 
-import { Fragment, useEffect, useRef, useState, type FormEvent, type ReactNode } from "react";
+import { Fragment, useCallback, useEffect, useRef, useState, type FormEvent, type ReactNode } from "react";
 import content from "../lib/content/public-content.json";
+import type { QuotePunctuationNormalization } from "../lib/pilot-types";
 
 type Source = {
   label: string;
   context_title: string;
+  excerpt?: string;
   publisher_url: string;
   publisher_reading_url?: string | null;
   date?: string | null;
@@ -26,7 +28,9 @@ type Answer = {
 };
 type Result = {
   id: string;
-  kind: "curated" | "generated" | "suggestions" | "unavailable" | "question_received";
+  kind: "curated" | "generated" | "suggestions" | "unavailable" | "question_received" | "processing";
+  retryAfterMs?: number;
+  generation?: { label: string; checks: string; humanReviewed: boolean; scope: string; cached: boolean; quotePunctuationNormalizations?: QuotePunctuationNormalization[] };
   recorded?: boolean;
   question: string;
   answer?: Answer;
@@ -40,7 +44,8 @@ type Session = { csrfToken: string; generationEnabled: boolean; feedbackEnabled:
 type Reason = "not_covered" | "too_general" | "unclear" | "sources" | "too_slow" | "other" | "";
 type Feedback = { helpful: boolean | null; reason: Reason; comment: string; status: "idle" | "saving" | "saved" | "error"; error?: string };
 const emptyFeedback: Feedback = { helpful: null, reason: "", comment: "", status: "idle" };
-const initialQuestions = [content.questions[0], content.questions[1], content.questions[3]];
+const reviewedAnswerCount = content.questions.length;
+const initialQuestions = [content.questions.find((item) => item.slug === "evaluate-a-stock") || content.questions[1], content.questions[0], content.questions[3]];
 const officialSources = content.references as Record<string, Source>;
 
 function officialLink(value?: string | null) {
@@ -102,9 +107,12 @@ export default function Home() {
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [busy, setBusy] = useState(false);
   const [pendingQuestion, setPendingQuestion] = useState("");
+  const [pendingMode, setPendingMode] = useState<"reviewed" | "generated">("reviewed");
+  const [progressMessage, setProgressMessage] = useState("");
   const [elapsed, setElapsed] = useState(0);
   const [requestError, setRequestError] = useState("");
   const [canRetry, setCanRetry] = useState(false);
+  const [terminalFailure, setTerminalFailure] = useState(false);
   const [feedback, setFeedback] = useState<Record<string, Feedback>>({});
   const [source, setSource] = useState<{ ref: Source; number: number; key: string } | null>(null);
   const [announcement, setAnnouncement] = useState("");
@@ -121,21 +129,7 @@ export default function Home() {
   const conversation = busy || Boolean(selected);
   const currentFeedback = selected ? feedback[selected.id] || { ...emptyFeedback, reason: selected.answer ? "" as Reason : "not_covered" as Reason } : emptyFeedback;
 
-  async function connect(signal?: AbortSignal) {
-    setSessionError("");
-    try {
-      const response = await fetch("/api/session", { credentials: "same-origin", cache: "no-store", signal });
-      if (!response.ok) throw new Error("The service could not connect. Please try again.");
-      const data: Session = await response.json();
-      if (!data.csrfToken) throw new Error("The service did not return a valid session. Please try again.");
-      await loadHistory(data, signal);
-      setSession(data);
-    } catch (error) {
-      if (!(error instanceof Error && error.name === "AbortError")) setSessionError(errorMessage(error, "The service could not connect. Please try again."));
-    }
-  }
-
-  async function loadHistory(activeSession: Session, signal?: AbortSignal) {
+  const loadHistory = useCallback(async (activeSession: Session, signal?: AbortSignal) => {
     const startedRevision = mutationRevisionRef.current;
     setHistoryError("");
     setHistoryLoading(true);
@@ -164,10 +158,24 @@ export default function Home() {
     } finally {
       setHistoryLoading(false);
     }
-  }
+  }, []);
+
+  const connect = useCallback(async (signal?: AbortSignal) => {
+    setSessionError("");
+    try {
+      const response = await fetch("/api/session", { credentials: "same-origin", cache: "no-store", signal });
+      if (!response.ok) throw new Error("The service could not connect. Please try again.");
+      const data: Session = await response.json();
+      if (!data.csrfToken) throw new Error("The service did not return a valid session. Please try again.");
+      await loadHistory(data, signal);
+      setSession(data);
+    } catch (error) {
+      if (!(error instanceof Error && error.name === "AbortError")) setSessionError(errorMessage(error, "The service could not connect. Please try again."));
+    }
+  }, [loadHistory]);
 
   function changeQuestion(value: string) {
-    if (value.trim() !== question.trim()) { retryRef.current = null; setCanRetry(false); }
+    if (value.trim() !== question.trim()) { retryRef.current = null; setCanRetry(false); setTerminalFailure(false); }
     setQuestion(value);
   }
 
@@ -183,7 +191,7 @@ export default function Home() {
     const controller = new AbortController();
     void connect(controller.signal);
     return () => { controller.abort(); requestRef.current?.abort(); };
-  }, []);
+  }, [connect]);
 
   useEffect(() => {
     if (!busy) return;
@@ -208,6 +216,7 @@ export default function Home() {
     setSelectedId(null);
     retryRef.current = null;
     setCanRetry(false);
+    setTerminalFailure(false);
     setQuestion("");
     setRequestError("");
     setAnnouncement("New question. Previous answer context has been cleared.");
@@ -216,13 +225,16 @@ export default function Home() {
 
   async function ask(text: string, curatedSlug?: string) {
     const cleaned = text.trim();
-    if (!session || busy || requestRef.current || cleaned.length < 3 || cleaned.length > 2000) return;
+    if (!session || busy || requestRef.current || (terminalFailure && !curatedSlug) || cleaned.length < 3 || cleaned.length > 2000) return;
     mutationRevisionRef.current += 1;
     closeMenus();
     setQuestion(cleaned);
     setPendingQuestion(cleaned);
+    setPendingMode(session.generationEnabled && !curatedSlug ? "generated" : "reviewed");
+    setProgressMessage("");
     setRequestError("");
     setCanRetry(false);
+    setTerminalFailure(false);
     setBusy(true);
     setElapsed(0);
     const payload = { question: cleaned, ...(curatedSlug ? { curatedSlug } : {}), ...(!curatedSlug && selected?.answer ? { previousAnswerId: selected.id } : {}) };
@@ -231,28 +243,51 @@ export default function Home() {
     const requestId = retryRef.current.requestId;
     const controller = new AbortController();
     requestRef.current = controller;
-    const timer = window.setTimeout(() => controller.abort(), 20000);
+    const timer = window.setTimeout(() => controller.abort(), 100000);
+    let terminalUnavailable = false;
     try {
-      const response = await fetch("/api/questions", {
-        method: "POST", credentials: "same-origin", signal: controller.signal,
-        headers: { "Content-Type": "application/json", "X-CSRF-Token": session.csrfToken },
-        body: JSON.stringify({ ...payload, requestId }),
-      });
-      const data = await response.json() as Result & { error?: string };
-      if (!response.ok) throw new Error(typeof data.error === "string" ? data.error : typeof data.message === "string" ? data.message : "The request could not be completed. Your question is still here; please try again.");
-      if (!data.id || !["curated", "generated", "suggestions", "unavailable", "question_received"].includes(data.kind)) throw new Error("The response was incomplete. Please try again.");
-      if (data.kind === "question_received" && data.recorded !== true) throw new Error("We could not confirm that your question was saved. Please try again.");
-      const result = data as Result;
+      const requestBody = JSON.stringify({ ...payload, requestId });
+      let result: Result;
+      for (;;) {
+        const response = await fetch("/api/questions", {
+          method: "POST", credentials: "same-origin", signal: controller.signal,
+          headers: { "Content-Type": "application/json", "X-CSRF-Token": session.csrfToken },
+          body: requestBody,
+        });
+        const data = await response.json() as Result & { error?: string };
+        if (response.status === 202 && data.kind === "processing") {
+          setProgressMessage(data.message || "An answer is being prepared from selected sources.");
+          const delay = Math.min(5000, Math.max(1000, data.retryAfterMs || 2000));
+          await new Promise<void>((resolve, reject) => {
+            const abort = () => { window.clearTimeout(wait); reject(new DOMException("The request timed out.", "AbortError")); };
+            const wait = window.setTimeout(() => { controller.signal.removeEventListener("abort", abort); resolve(); }, delay);
+            if (controller.signal.aborted) abort();
+            else controller.signal.addEventListener("abort", abort, { once: true });
+          });
+          continue;
+        }
+        if (data.kind === "unavailable") {
+          terminalUnavailable = true;
+          throw new Error(data.message || "This request could not produce an answer. Your question has been kept.");
+        }
+        if (!response.ok) throw new Error(typeof data.error === "string" ? data.error : typeof data.message === "string" ? data.message : "The answer could not be completed. Your question is still here; please try again.");
+        if (!data.id || !["curated", "generated"].includes(data.kind) || !data.answer || !Array.isArray(data.answer.sections) || !Array.isArray(data.answer.reference_keys)) {
+          throw new Error("No complete answer was returned. Your question has been kept; please try again.");
+        }
+        result = data;
+        break;
+      }
       mutationRevisionRef.current += 1;
       setEntries((previous) => [...previous.filter((item) => item.id !== result.id), result].slice(-20));
       setSelectedId(result.id);
-      if (result.answer || result.recorded) setQuestion("");
+      setQuestion("");
       retryRef.current = null;
-      setAnnouncement(result.answer ? "Your reviewed answer is ready. Citations open the source details." : result.recorded ? "Question saved to help choose future topics. No individual reply is promised." : "No reviewed answer covers this question yet.");
+      setAnnouncement(result.kind === "curated" ? "Your reviewed answer is ready. Citations open the source details." : "Your AI-generated answer is ready. Check its source citations and scope.");
       window.setTimeout(() => answerRef.current?.scrollIntoView({ block: "start", behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" }), 50);
     } catch (error) {
-      setCanRetry(true);
-      setRequestError(errorMessage(error, "We could not confirm the result in time. Your draft has been kept; retrying the unchanged question will not create a duplicate."));
+      setCanRetry(!terminalUnavailable);
+      setTerminalFailure(terminalUnavailable);
+      setRequestError(errorMessage(error, "The answer did not finish within the waiting limit. Your question is still here. Retry to reconnect to the same request."));
       setAnnouncement("The question could not be completed. Your draft has been kept.");
     } finally {
       window.clearTimeout(timer);
@@ -343,53 +378,53 @@ export default function Home() {
           <nav aria-label="Site navigation">
             {(entries.length > 0 || historyLoading || historyError) && <details className="header-menu" onToggle={(event) => { if (event.currentTarget.open) closeMenus(event.currentTarget); }}>
               <summary>Your questions</summary>
-              <div className="menu-panel history-panel"><h2 className="sr-only">Your questions</h2><ol>{[...entries].reverse().map((entry) => <li key={entry.id}><button type="button" disabled={busy} aria-current={selectedId === entry.id ? "true" : undefined} onClick={() => { closeMenus(); retryRef.current = null; setCanRetry(false); setSelectedId(entry.id); setQuestion(""); setRequestError(""); }}>{entry.question}</button></li>)}</ol><p className="small-note">Your last 20 questions on this browser. Reloading returns to the homepage; your recent questions remain here while this browser session is valid.</p>{historyLoading && <p className="small-note" role="status">Loading recent questions…</p>}{historyError && <><p className="small-note" role="alert">{historyError}</p><button className="text-button" type="button" disabled={!session || busy || historyLoading} onClick={() => { if (session) void loadHistory(session); }}>Try loading again</button></>}</div>
+              <div className="menu-panel history-panel"><h2 className="sr-only">Your questions</h2><ol>{[...entries].reverse().map((entry) => <li key={entry.id}><button type="button" disabled={busy} aria-current={selectedId === entry.id ? "true" : undefined} onClick={() => { closeMenus(); retryRef.current = null; setCanRetry(false); setTerminalFailure(false); setSelectedId(entry.id); setQuestion(""); setRequestError(""); }}>{entry.question}</button></li>)}</ol><p className="small-note">Your last 20 questions on this browser. Reloading returns to the homepage; your recent questions remain here while this browser session is valid.</p>{historyLoading && <p className="small-note" role="status">Loading recent questions…</p>}{historyError && <><p className="small-note" role="alert">{historyError}</p><button className="text-button" type="button" disabled={!session || busy || historyLoading} onClick={() => { if (session) void loadHistory(session); }}>Try loading again</button></>}</div>
             </details>}
             <details className="header-menu" ref={exploreRef} onToggle={(event) => { if (event.currentTarget.open) closeMenus(event.currentTarget); }}>
               <summary>Explore</summary>
-              <div className="menu-panel explore-panel"><p className="eyebrow">Circle of competence</p><p className="menu-description">Six edited answers, ready to read.</p><ol>{content.questions.map((item) => <li key={item.slug}><button type="button" disabled={!session || busy} onClick={() => choose(item.slug)}><span className="question-number">{item.number}</span><span>{item.title}</span></button></li>)}</ol></div>
+              <div className="menu-panel explore-panel"><p className="eyebrow">Stock evaluation &amp; understanding businesses</p><p className="menu-description">{reviewedAnswerCount} edited answers, ready to read.</p><ol>{content.questions.map((item) => <li key={item.slug}><button type="button" disabled={!session || busy} onClick={() => choose(item.slug)}><span className="question-number">{item.number}</span><span>{item.title}</span></button></li>)}</ol></div>
             </details>
             <details className="header-menu" onToggle={(event) => { if (event.currentTarget.open) closeMenus(event.currentTarget); }}>
               <summary>About</summary>
-              <div className="menu-panel about-panel"><h2>Close to the sources.</h2><p>A question book about Buffett and Munger, beginning with the circle of competence. This pilot has six reviewed answers from selected primary contexts—not everything they have said.</p><h3>Read, or help choose the next topic</h3><p><strong>Edited answers</strong> are prepared explanations with a scoped independent agent review. They are editorial syntheses, not Buffett’s own answer to your question. Source links let you check the original context.</p><p>Choose a reviewed question to read its answer immediately. If your own question is not covered, we save it to help choose future coverage. This pilot does not generate a new answer or promise an individual reply.</p><p>Answers are in English. There is no current-market feed or assessment of an investment’s suitability today.</p><h3>Your questions and feedback</h3><p>Submitted questions, responses and feedback are stored for this pilot. Please leave out personal or confidential information. No contact details are requested, and submissions are not sent to a model provider.</p><p>Your last 20 questions are available on this browser while its session remains valid. A session expires 30 days after it is created; activity does not extend it. Reloading returns to the homepage and preserves access to recent questions. Clearing cookies or using another browser does not restore this history.</p><p>Expired sessions and their question and feedback records are removed in small batches when new sessions are created. Cleanup is opportunistic, so records may remain after expiry until cleanup runs. This is not a permanent question archive.</p></div>
+              <div className="menu-panel about-panel"><h2>Close to the sources.</h2><p>A question book about Buffett and Munger. Ask your own question, or start with {reviewedAnswerCount} edited answers about evaluating stocks and understanding businesses.</p><h3>Two kinds of answer</h3><p><strong>Edited answers</strong> are prepared explanations with a scoped independent agent review. They are editorial syntheses, not Buffett’s own answer to your question.</p><p><strong>AI-generated answers</strong> use selected original-source passages. Their citations, structure and quoted wording are checked automatically; those checks do not establish that every claim is supported. Read the stated source scope and open citations to check the original context.</p><p>{session?.generationEnabled ? "Live answers are enabled for this private beta." : `Live answers are currently unavailable. The ${reviewedAnswerCount} edited answers remain available in Explore.`} The service does not search everything Buffett has said. Answers are in English, and there is no current-market feed or assessment of an investment’s suitability today.</p><h3>Your questions and feedback</h3><p>Questions, responses and feedback are stored for this beta. For live answers, your question, relevant prior-answer context and selected public passages are sent to the configured model service. The provider has its own data-handling terms. Please leave out personal or confidential information; no contact details are requested.</p><p>Your last 20 questions are available on this browser while its session remains valid. A session expires 30 days after it is created; activity does not extend it. Reloading returns to the homepage and preserves access to recent questions. Clearing cookies or using another browser does not restore this history.</p><p>Expired sessions and their question and feedback records are removed in small batches when new sessions are created. Cleanup is opportunistic, so records may remain after expiry until cleanup runs. This is not a permanent question archive.</p></div>
             </details>
           </nav>
         </header>
 
         <main>
           {!conversation && <section className="hero" aria-labelledby="page-title"><p className="eyebrow">A question book, rooted in the originals</p><h1 id="page-title">What would you like<br className="hero-break" /> to understand?</h1><p>Explore Buffett and Munger’s ideas, with the sources in reach.</p></section>}
-          <p className="pilot-note">Read six reviewed answers now. New questions help us choose what to cover next.</p>
-          <section className="composer" aria-label="Submit a question">
-            {conversation && <div className="composer-heading"><h2>{selected?.answer ? "Suggest a follow-up question" : "Your question"}</h2><button type="button" className="text-button" onClick={newQuestion} disabled={busy}>New question</button></div>}
-            {selected?.answer && <p className="context-note">Question relates to: <span>{selected.question}</span></p>}
+          <p className="pilot-note">{!session ? `Answers with original sources, plus ${reviewedAnswerCount} edited starting points.` : session.generationEnabled ? "Ask your own question. Explore the original sources behind the answer." : `Live answers are unavailable right now. Explore ${reviewedAnswerCount} reviewed answers.`}</p>
+          <section className="composer" aria-label="Ask a question">
+            {conversation && <div className="composer-heading"><h2>{selected?.answer ? "Ask a follow-up" : "Your question"}</h2><button type="button" className="text-button" onClick={newQuestion} disabled={busy}>New question</button></div>}
+            {selected?.answer && <p className="context-note">Following up on: <span>{selected.question}</span></p>}
             <form onSubmit={submit}>
               <label className="sr-only" htmlFor="question">Your question</label>
-              <textarea ref={inputRef} id="question" value={question} onChange={(event) => changeQuestion(event.target.value)} onKeyDown={(event) => { if (event.key === "Enter" && (event.metaKey || event.ctrlKey)) { event.preventDefault(); if (question.trim().length >= 3) void ask(question); } }} rows={2} minLength={3} maxLength={2000} required disabled={busy} placeholder={selected?.answer ? "What should a future answer explain in more depth?" : "Find a reviewed answer, or suggest a question…"} aria-describedby="privacy-note question-help" />
-              <div className="composer-actions"><p id="question-help"><span className="keyboard-hint">⌘ / Ctrl + Enter</span><span className="sr-only"> to submit. Enter 3 to 2,000 characters.</span></p><button type="submit" className="primary-button" disabled={!session || busy || question.trim().length < 3}>{busy ? "Checking…" : <>Find an answer <span aria-hidden="true">↑</span></>}</button></div>
+              <textarea ref={inputRef} id="question" value={question} onChange={(event) => changeQuestion(event.target.value)} onKeyDown={(event) => { if (event.key === "Enter" && (event.metaKey || event.ctrlKey)) { event.preventDefault(); if (question.trim().length >= 3) void ask(question); } }} rows={2} minLength={3} maxLength={2000} required disabled={busy} placeholder={selected?.answer ? "What would you like to understand more deeply?" : session?.generationEnabled ? "Ask a question about investing and understanding businesses…" : "Enter a reviewed question, or choose one in Explore…"} aria-describedby="privacy-note question-help" />
+              <div className="composer-actions"><p id="question-help"><span className="keyboard-hint">⌘ / Ctrl + Enter</span><span className="sr-only"> to ask. Enter 3 to 2,000 characters.</span></p><button type="submit" className="primary-button" disabled={!session || busy || terminalFailure || question.trim().length < 3}>{busy ? "Working…" : <>{session?.generationEnabled ? "Ask" : "Find an answer"} <span aria-hidden="true">↑</span></>}</button></div>
             </form>
           </section>
-          <p className="privacy-note" id="privacy-note">Questions and feedback are saved for this pilot. Please leave out personal information.</p>
+          <p className="privacy-note" id="privacy-note">Questions, answers and feedback are saved for this beta. Please leave out personal information.</p>
           {!session && !sessionError && <p className="connection-note" role="status">Connecting…</p>}
           {sessionError && <div className="error-panel" role="alert"><p>{sessionError}</p><button type="button" className="text-button" onClick={() => void connect()}>Try connecting again</button></div>}
-          {requestError && <div className="error-panel" role="alert"><h2>Your submission could not be confirmed</h2><p>{requestError}</p>{canRetry && <button className="text-button" type="button" disabled={busy} onClick={() => { const retry = retryRef.current; if (retry) void ask(retry.payload.question, retry.payload.curatedSlug); }}>Retry this submission</button>}</div>}
-          {busy && <section className="progress-panel" aria-live="polite"><div className="progress-heading"><h2><span className="working-dot" aria-hidden="true" />Checking the reviewed collection</h2><span className="small-note">{elapsed}s</span></div><p>{pendingQuestion}</p><p className="small-note">{elapsed >= 8 ? "Still checking. Your draft is kept until we confirm the result." : "Opening a reviewed answer, or saving a question for future coverage."}</p></section>}
-          {!conversation && <section className="inspiration" aria-labelledby="inspiration-title"><h2 id="inspiration-title">Start with a question</h2><div className="suggestion-list">{initialQuestions.map((item) => <button type="button" key={item.slug} disabled={!session || busy} onClick={() => choose(item.slug)}>{item.short}<span aria-hidden="true">↗</span></button>)}</div><p className="small-note">Edited answers · Circle of competence</p></section>}
+          {requestError && <div className="error-panel" role="alert"><h2>Your answer could not be completed</h2><p>{requestError}</p>{terminalFailure && <><p className="small-note">This request has ended. Edit your question or start a new question to make another request.</p><button className="text-button" type="button" onClick={newQuestion}>New question</button></>}{canRetry && <button className="text-button" type="button" disabled={busy} onClick={() => { const retry = retryRef.current; if (retry) void ask(retry.payload.question, retry.payload.curatedSlug); }}>Retry this question</button>}</div>}
+          {busy && <section className="progress-panel" aria-live="polite"><div className="progress-heading"><h2><span className="working-dot" aria-hidden="true" />{pendingMode === "generated" ? "Preparing an answer from sources" : "Opening a reviewed answer"}</h2><span className="small-note">{elapsed}s</span></div><p>{pendingQuestion}</p><p className="small-note">{progressMessage || (pendingMode === "generated" ? elapsed >= 30 ? "Still preparing your answer. Your question stays here until it is ready." : "Finding relevant passages and composing an explanation. This may take up to a minute." : "Checking the reviewed collection. Your question stays here until the answer is ready.")}</p></section>}
+          {!conversation && <section className="inspiration" aria-labelledby="inspiration-title"><h2 id="inspiration-title">Start with a question</h2><div className="suggestion-list">{initialQuestions.map((item) => <button type="button" key={item.slug} disabled={!session || busy} onClick={() => choose(item.slug)}>{item.short}<span aria-hidden="true">↗</span></button>)}</div><p className="small-note">Edited answers · Stock evaluation &amp; understanding businesses</p></section>}
 
           {selected && !busy && <section className="answer-region" ref={answerRef} aria-label="Response">
             {selected.answer ? <article>
-              <div className="answer-meta"><span className="answer-kind">{selected.kind === "curated" ? "Edited answer" : "Generated answer · checked against supplied passages"}</span><span>{selected.elapsedMs < 1000 ? "Ready to read" : `${(selected.elapsedMs / 1000).toFixed(1)}s`}</span></div>
-              <h1>{selected.answer.title}</h1><div className="answer-lead">{paragraphs(selected.answer.lead)}</div>
+              <div className="answer-meta"><span className="answer-kind">{selected.kind === "curated" ? "Edited answer" : "AI-generated from sources"}</span><span>{selected.generation?.cached ? "Previously prepared" : selected.elapsedMs < 1000 ? "Ready to read" : `${(selected.elapsedMs / 1000).toFixed(1)}s`}</span></div>
+              <h1>{selected.answer.title}</h1>{selected.kind === "generated" && <div className="generation-note"><p><strong>Source scope:</strong> {selected.generation?.scope || "Selected source passages. This is not a complete review of Buffett’s work."}</p><p>AI-generated; not independently reviewed. Open the citations to inspect its source passages.</p>{Boolean(selected.generation?.quotePunctuationNormalizations?.length) && <p>Quotation punctuation was moved outside the quotation marks to match the cited wording.</p>}</div>}{selected.answer.lead.trim() && <div className="answer-lead">{paragraphs(selected.answer.lead)}</div>}
               {selected.answer.sections.map(([heading, body], index) => <section className="answer-section" key={index}><h2>{heading}</h2>{paragraphs(body)}</section>)}
-              {selected.answer.prompt && <aside className="reflection"><p className="eyebrow">A prompt for your research</p>{paragraphs(selected.answer.prompt)}{Boolean(selected.answer.prompt_refs?.length) && <p className="prompt-references">Source basis {selected.answer.prompt_refs?.map((key) => citation(key, `prompt-${key}`))}</p>}<p className="small-note">Editorial guidance from the cited examples; not a test that certifies competence.</p></aside>}
+              {selected.answer.prompt && <aside className="reflection"><p className="eyebrow">A prompt for your research</p>{paragraphs(selected.answer.prompt)}{Boolean(selected.answer.prompt_refs?.length) && <p className="prompt-references">Source basis {selected.answer.prompt_refs?.map((key) => citation(key, `prompt-${key}`))}</p>}<p className="small-note">{selected.kind === "curated" ? "Editorial guidance from the cited examples; not a test that certifies competence." : "An AI-generated research prompt. Check the cited passages and their conditions before applying it."}</p></aside>}
               <details className="answer-sources"><summary>Sources for this answer <span>{selected.answer.reference_keys.length}</span></summary><ol>{selected.answer.reference_keys.map((key, index) => <li key={key}><button type="button" onClick={() => openSource(key)}><span className="source-list-number">{index + 1}</span>{selected.references?.[key]?.label || officialSources[key]?.label || "Source unavailable"}</button></li>)}</ol><p className="small-note">Links open the original publisher. Dates, speaker attribution and paragraph locators are available in each source detail.</p></details>
-              <p className="answer-limit">{selected.kind === "curated" ? "An editorial synthesis of selected original contexts. Historical examples preserve their original conditions; they do not establish today’s investment suitability." : "A model-assisted explanation of selected passages. The source check can miss context; verify important claims in the originals."}</p>
+              <p className="answer-limit">{selected.kind === "curated" ? "An editorial synthesis of selected original contexts. Historical examples preserve their original conditions; they do not establish today’s investment suitability." : "AI-generated from selected passages. Automatic checks of structure, citations and quoted wording do not verify every claim. Confirm important conclusions in the originals and keep historical conditions in view."}</p>
               {nextQuestion && <button className="next-question" type="button" disabled={busy} onClick={() => choose(nextQuestion.slug)}><span className="eyebrow">A related question</span><span>{nextQuestion.title} <span aria-hidden="true">→</span></span></button>}
             </article> : <div className="unavailable-answer">
-              <p className="eyebrow">{selected.kind === "question_received" && selected.recorded ? "Question saved" : "Not covered by this collection"}</p>
+              <p className="eyebrow">{selected.kind === "question_received" && selected.recorded ? "Previously saved question" : selected.kind === "processing" ? "Answer in progress" : "Answer unavailable"}</p>
               <h1>{selected.question}</h1>
               <p>{selected.kind === "question_received" && selected.recorded ? "Your question is saved to help us choose what to cover next. We do not have a reviewed answer for it yet." : selected.message || "No reviewed answer covers this question yet."}</p>
               {selected.kind === "question_received" && selected.recorded && <p className="small-note">An individual reply is not promised.</p>}
-              {Boolean(selected.suggestions?.length) ? <div className="related-reading"><h2>Related reading—not an answer to your question</h2><p className="small-note">These reviewed questions share part of your topic.</p>{selected.suggestions?.map((item) => <button key={item.slug} type="button" onClick={() => choose(item.slug)}>{item.title}<span aria-hidden="true">→</span></button>)}</div> : <button className="secondary-button browse-questions" type="button" onClick={exploreQuestions}>Explore the six reviewed questions <span aria-hidden="true">→</span></button>}
+              {Boolean(selected.suggestions?.length) ? <div className="related-reading"><h2>Related reading—not an answer to your question</h2><p className="small-note">These reviewed questions share part of your topic.</p>{selected.suggestions?.map((item) => <button key={item.slug} type="button" onClick={() => choose(item.slug)}>{item.title}<span aria-hidden="true">→</span></button>)}</div> : <button className="secondary-button browse-questions" type="button" onClick={exploreQuestions}>Explore the {reviewedAnswerCount} reviewed questions <span aria-hidden="true">→</span></button>}
             </div>}
 
 
@@ -417,13 +452,13 @@ export default function Home() {
             </section>
           </section>}
         </main>
-        <footer>Reading pilot · Start with the circle of competence.<br />Read the sources. Keep the conditions in view.</footer>
+        <footer>Private beta · Answers with original sources.<br />Read the sources. Keep the conditions in view.</footer>
       </div>
       <dialog className="source-dialog" ref={dialogRef} aria-labelledby="source-title" onClose={() => setSource(null)} onClick={(event) => { if (event.target === event.currentTarget) dialogRef.current?.close(); }}>
-        {source && <div className="source-inner"><div className="source-top"><p className="eyebrow">Source {source.number}</p><button type="button" className="close-button" aria-label="Close source details" onClick={() => dialogRef.current?.close()}>×</button></div><h2 id="source-title">{source.ref.label}</h2><p className="source-context">{source.ref.context_title}</p><dl className="source-metadata">{source.ref.report_year && <><dt>Report year</dt><dd>{source.ref.report_year}</dd></>}{source.ref.date && <><dt>{source.ref.date_kind === "signature_date" ? "Signed" : source.ref.date_kind === "event_date" ? "Event date" : "Date"}</dt><dd>{source.ref.date}</dd></>}{Boolean(source.ref.speakers?.length) && <><dt>Speaker / author</dt><dd>{source.ref.speakers?.join("; ")}</dd></>}</dl><p className="small-note">This explanation is not a quotation. Read the original publisher’s text to check its wording and surrounding context.</p>{sourceUrl ? <a className="publisher-link" href={sourceUrl} target="_blank" rel="noopener noreferrer">Read at the original publisher <span aria-hidden="true">↗</span></a> : <p className="small-note">A verified publisher link is not available for this reference.</p>}{Boolean(source.ref.paragraphs?.length) && <details className="source-locators"><summary>Paragraph locators</summary><ul>{source.ref.paragraphs?.map((paragraph) => <li key={paragraph.id}><strong>{paragraph.id}</strong>{paragraph.speaker && <span>{paragraph.speaker}</span>}{paragraph.locator && <SourceLocator locator={paragraph.locator} />}</li>)}</ul></details>}</div>}
+        {source && <div className="source-inner"><div className="source-top"><p className="eyebrow">Source {source.number}</p><button type="button" className="close-button" aria-label="Close source details" onClick={() => dialogRef.current?.close()}>×</button></div><h2 id="source-title">{source.ref.label}</h2><p className="source-context">{source.ref.context_title}</p><dl className="source-metadata">{source.ref.report_year && <><dt>Report year</dt><dd>{source.ref.report_year}</dd></>}{source.ref.date && <><dt>{source.ref.date_kind === "signature_date" ? "Signed" : source.ref.date_kind === "event_date" ? "Event date" : "Date"}</dt><dd>{source.ref.date}</dd></>}{Boolean(source.ref.speakers?.length) && <><dt>Speaker / author</dt><dd>{source.ref.speakers?.join("; ")}</dd></>}</dl><p className="small-note">The answer is an explanation of the sources. Read the original publisher’s text to check its wording and surrounding context.</p>{source.ref.excerpt && <section className="source-excerpt" aria-labelledby="source-excerpt-title"><h3 id="source-excerpt-title">Selected original passage</h3><blockquote>{source.ref.excerpt}</blockquote></section>}{sourceUrl ? <a className="publisher-link" href={sourceUrl} target="_blank" rel="noopener noreferrer">Read at the original publisher <span aria-hidden="true">↗</span></a> : <p className="small-note">A verified publisher link is not available for this reference.</p>}{Boolean(source.ref.paragraphs?.length) && <details className="source-locators"><summary>Paragraph locators</summary><ul>{source.ref.paragraphs?.map((paragraph) => <li key={paragraph.id}><strong>{paragraph.id}</strong>{paragraph.speaker && <span>{paragraph.speaker}</span>}{paragraph.locator && <SourceLocator locator={paragraph.locator} />}</li>)}</ul></details>}</div>}
       </dialog>
       <div className="sr-only" role="status" aria-live="polite">{announcement}</div>
-      <noscript><p className="no-script">Please enable JavaScript to read reviewed answers and submit questions for future coverage.</p></noscript>
+      <noscript><p className="no-script">Please enable JavaScript to ask questions and explore the original sources.</p></noscript>
     </>
   );
 }

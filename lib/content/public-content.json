@@ -1,13 +1,15 @@
 {
-  "version": "english-beta-competence-content-1.0",
+  "version": "english-beta-reviewed-questions-1.1",
   "bundle_hash": "bd2bce863a1fbdf78454a88486cf318947969f27d3f8ab9a87a4fa5c0f9acdab",
   "language": "en",
-  "topic": "circle-of-competence",
-  "scope": "Selected primary contexts for one topic; original files unchanged; not complete corpus coverage.",
+  "topic": "business-evaluation-and-circle-of-competence",
+  "scope": "Seven selected agent-reviewed historical answers covering circle of competence and stock evaluation. Original files remain unchanged. This is bounded source coverage, not complete Buffett coverage, current company research or a personal investment recommendation.",
   "source_input_hashes": {
     "answer-map.json": "b3a3fbba1a05569a90999581b3f3f5af44be45f37c72382c52720723250d6a91",
     "evidence.json": "2a3a3b848609921cf7f14e43bea7c88ec24ec5ddc03431253fd329116b2047a6",
-    "independent-review.json": "4adb7e30000ead57d4e4d1f3e5ecd960e2f9e69b0238e134b97405e60eface40"
+    "independent-review.json": "4adb7e30000ead57d4e4d1f3e5ecd960e2f9e69b0238e134b97405e60eface40",
+    "stock-evaluation-formatted-answer": "18ac030adb6fc1517de5c0a6941012f18981f5a611e2ef97143ec49fe84e052b",
+    "stock-evaluation-request-evidence": "8a25f63799e51885cc5d3af9229b8052bf0346dd1df14c7642ba1f39976321f2"
   },
   "schema_version": "competence-public-content-1.0",
   "distribution": "public",
@@ -278,6 +280,89 @@
       ],
       "answer_kind": "editorial_synthesis_of_selected_originals",
       "current_company_assessment": false
+    },
+    {
+      "slug": "evaluate-a-stock",
+      "number": "07",
+      "title": "How to Evaluate a Stock: A Source-Grounded Framework",
+      "short": "How to evaluate a stock?",
+      "deck": "Business understanding, owner earnings, reinvestment and the purchase price.",
+      "lead": "",
+      "origin": "A synthesis of selected original shareholder-letter passages, independently reviewed by an agent. It is not a direct answer spoken by Buffett to this question.",
+      "sections": [
+        [
+          "Start with the Four-Part Screen",
+          "Buffett describes selecting equities in the same way one would evaluate a business for acquisition in its entirety: it must be a business you can understand, with favorable long-term prospects, operated by honest and competent people, and available at an attractive price. He notes that market conditions and Berkshire's size led him to relax the fourth criterion from \"a very attractive price\" to simply \"an attractive price\". [[P01-001]]"
+        ],
+        [
+          "Use Discounted Future Cash Flows, Not Ratios",
+          "The underlying formula is John Burr Williams's: the value of any asset today equals the cash inflows and outflows, discounted at an appropriate rate, that can be expected during the asset's remaining life. The critical difficulty with equities is that the analyst must estimate future \"coupons\" himself, and management quality can dramatically affect those estimates. Low price-to-book, low P/E, or high dividend yield are far from determinative of whether one is truly buying at value. The cheapest asset by discounted-cash calculation should be purchased regardless of whether it grows, whether its earnings are volatile, or whether its price relative to book and earnings appears high or low. [[P01-008]] [[P01-005]] [[P01-009]]"
+        ],
+        [
+          "Calculate Owner Earnings, Not GAAP Earnings or Wall Street Cash Flow",
+          "Owner earnings equal reported earnings plus depreciation, depletion, amortization and certain other non-cash charges, less the average annual capitalized expenditures required to maintain long-term competitive position and unit volume. If additional working capital is needed to maintain that position, the increment also belongs in the deduction; however, LIFO-following businesses usually do not require additional working capital if unit volume is unchanged. Buffett stresses that component (c) must be a guess, and he prefers being \"vaguely right than precisely wrong.\" Wall Street \"cash flow\" figures that add back non-cash charges without subtracting maintenance capital are deceptive, because in manufacturing, retailing, extractive and utility businesses the maintenance requirement is always significant over five to ten years. [[P17-002]] [[P17-003]] [[P17-007]] [[P17-008]]"
+        ],
+        [
+          "Judge Growth by Incremental Returns on Capital",
+          "Growth is always a component in the calculation of value, and its impact can be negative. Growth benefits investors only when each incremental dollar of capital creates more than a dollar of long-term market value. In a low-return business requiring additional funds, growth destroys value. The best business to own over an extended period employs large amounts of incremental capital at very high rates of return; the worst does the opposite. Most high-return businesses need relatively little capital, so shareholders benefit if such a business pays out earnings in dividends or repurchases stock. [[P01-003]] [[P01-007]] [[P01-010]]"
+        ],
+        [
+          "Distinguish Franchises from Ordinary Businesses",
+          "An economic franchise arises from a product or service that is needed or desired, is thought by customers to have no close substitute, and is not subject to price regulation. A franchise can tolerate mismanagement without mortal damage. An ordinary business earns exceptional profits only as the low-cost operator or when supply is tight, and poor management can kill it. Buffett notes that many operations fall in a middle ground between the two classes. The See's Candy example illustrates franchise economics: over twenty years profits grew from $4.2 million to $42.4 million pre-tax while the business required only $18 million of reinvested earnings beyond its initial $7 million net worth, distributing the remaining $410 million in pre-tax profits. [[P19-004]] [[P19-005]] [[P19-003]] [[P16-003]] [[P16-004]]"
+        ],
+        [
+          "Stay Within Your Circle and Insist on Margin of Safety",
+          "Berkshire attempts to address estimation uncertainty in two ways: first, sticking to businesses believed to be simple and stable in character, because complex or rapidly changing businesses cannot be reliably predicted; second, insisting on a margin of safety in the purchase price. If calculated value is only slightly above market price, the stock is not bought. [[P01-011]] [[P01-012]]"
+        ]
+      ],
+      "prompt": "",
+      "prompt_refs": [],
+      "next": null,
+      "next_reason": "",
+      "reference_keys": [
+        "P01-001",
+        "P01-008",
+        "P01-005",
+        "P01-009",
+        "P17-002",
+        "P17-003",
+        "P17-007",
+        "P17-008",
+        "P01-003",
+        "P01-007",
+        "P01-010",
+        "P19-004",
+        "P19-005",
+        "P19-003",
+        "P16-003",
+        "P16-004",
+        "P01-011",
+        "P01-012"
+      ],
+      "answer_kind": "editorial_synthesis_of_selected_originals",
+      "current_company_assessment": false,
+      "evidence_bundle_hash": "1736557437379611ff04e6bb0c927d9c0271e282923db91d792d48e2f4854fe1",
+      "review": {
+        "status": "agent_reviewed_historical_sample",
+        "independent_of_author": true,
+        "human_reviewed": false,
+        "scope": "One historical stock-evaluation answer, all six sections and eighteen references checked against the selected original contexts. Accepted for a scoped private experimental sample; not a claim that all generated answers pass source review.",
+        "semantic_assessment": "No material source-meaning blocker found in the complete answer; minor qualification notes remain in the review.",
+        "minor_qualification_notes": [
+          "The growth comparison does not repeat leaving price aside or usually in every sentence; the surrounding discounted-value and purchase-price discussion retains those distinctions."
+        ],
+        "formatting_changes": [
+          {
+            "kind": "quote_terminal_punctuation_moved",
+            "before": "\"an attractive price.\"",
+            "after": "\"an attractive price\".",
+            "referenceKey": "P01-001"
+          }
+        ],
+        "formatted_artifact_sha256": "18ac030adb6fc1517de5c0a6941012f18981f5a611e2ef97143ec49fe84e052b",
+        "raw_output_preserved": true,
+        "source_excerpt_policy": "Reference excerpts are exact original reading paragraphs from the saved request evidence, with speaker, signature date and original paragraph locators."
+      }
     }
   ],
   "references": {
@@ -3480,6 +3565,690 @@
           }
         }
       ]
+    },
+    "P01-001": {
+      "context_id": "letter-1992-0074-0085",
+      "paragraph_ids": [
+        "berkshire-letter-1992:u0074"
+      ],
+      "label": "Valuation, knowability and margin of safety · berkshire-letter-1992:u0074",
+      "source_id": "berkshire-letter-1992",
+      "context_title": "Valuation, knowability and margin of safety",
+      "publisher_url": "https://www.berkshirehathaway.com/letters/1992.html",
+      "publisher_reading_url": null,
+      "date": "1993-03-01",
+      "date_kind": "signature_date",
+      "event_date": null,
+      "signature_date": "1993-03-01",
+      "publication_date": null,
+      "report_year": 1992,
+      "date_basis": null,
+      "speakers": [
+        "Warren Buffett"
+      ],
+      "paragraphs": [
+        {
+          "id": "berkshire-letter-1992:u0074",
+          "unit_id": "berkshire-letter-1992:u0074",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Signed shareholder-letter authorship; embedded quotations retain their original introduction.",
+          "locator": {
+            "type": "html_text_block",
+            "paragraph": 74,
+            "html_line_start": 699,
+            "html_line_end": 708,
+            "extracted_text_character_start": 37582,
+            "extracted_text_character_end": 38212
+          }
+        }
+      ],
+      "excerpt": "Our equity-investing strategy remains little changed from what it was fifteen years ago, when we said in the 1977 annual report: \"We select our marketable equity securities in much the way we would evaluate a business for acquisition in its entirety. We want the business to be one (a) that we can understand; (b) with favorable long-term prospects; (c) operated by honest and competent people; and (d) available at a very attractive price.\" We have seen cause to make only one change in this creed: Because of both market conditions and our size, we now substitute \"an attractive price\" for \"a very attractive price.\""
+    },
+    "P01-008": {
+      "context_id": "letter-1992-0074-0085",
+      "paragraph_ids": [
+        "berkshire-letter-1992:u0081"
+      ],
+      "label": "Valuation, knowability and margin of safety · berkshire-letter-1992:u0081",
+      "source_id": "berkshire-letter-1992",
+      "context_title": "Valuation, knowability and margin of safety",
+      "publisher_url": "https://www.berkshirehathaway.com/letters/1992.html",
+      "publisher_reading_url": null,
+      "date": "1993-03-01",
+      "date_kind": "signature_date",
+      "event_date": null,
+      "signature_date": "1993-03-01",
+      "publication_date": null,
+      "report_year": 1992,
+      "date_basis": null,
+      "speakers": [
+        "Warren Buffett"
+      ],
+      "paragraphs": [
+        {
+          "id": "berkshire-letter-1992:u0081",
+          "unit_id": "berkshire-letter-1992:u0081",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Signed shareholder-letter authorship; embedded quotations retain their original introduction.",
+          "locator": {
+            "type": "html_text_block",
+            "paragraph": 81,
+            "html_line_start": 759,
+            "html_line_end": 773,
+            "extracted_text_character_start": 40903,
+            "extracted_text_character_end": 41834
+          }
+        }
+      ],
+      "excerpt": "In The Theory of Investment Value, written over 50 years ago, John Burr Williams set forth the equation for value, which we condense here: The value of any stock, bond or business today is determined by the cash inflows and outflows - discounted at an appropriate interest rate - that can be expected to occur during the remaining life of the asset. Note that the formula is the same for stocks as for bonds. Even so, there is an important, and difficult to deal with, difference between the two: A bond has a coupon and maturity date that define future cash flows; but in the case of equities, the investment analyst must himself estimate the future \"coupons.\" Furthermore, the quality of management affects the bond coupon only rarely - chiefly when management is so inept or dishonest that payment of interest is suspended. In contrast, the ability of management can dramatically affect the equity \"coupons.\""
+    },
+    "P01-005": {
+      "context_id": "letter-1992-0074-0085",
+      "paragraph_ids": [
+        "berkshire-letter-1992:u0078"
+      ],
+      "label": "Valuation, knowability and margin of safety · berkshire-letter-1992:u0078",
+      "source_id": "berkshire-letter-1992",
+      "context_title": "Valuation, knowability and margin of safety",
+      "publisher_url": "https://www.berkshirehathaway.com/letters/1992.html",
+      "publisher_reading_url": null,
+      "date": "1993-03-01",
+      "date_kind": "signature_date",
+      "event_date": null,
+      "signature_date": "1993-03-01",
+      "publication_date": null,
+      "report_year": 1992,
+      "date_basis": null,
+      "speakers": [
+        "Warren Buffett"
+      ],
+      "paragraphs": [
+        {
+          "id": "berkshire-letter-1992:u0078",
+          "unit_id": "berkshire-letter-1992:u0078",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Signed shareholder-letter authorship; embedded quotations retain their original introduction.",
+          "locator": {
+            "type": "html_text_block",
+            "paragraph": 78,
+            "html_line_start": 732,
+            "html_line_end": 742,
+            "extracted_text_character_start": 39340,
+            "extracted_text_character_end": 40037
+          }
+        }
+      ],
+      "excerpt": "Whether appropriate or not, the term \"value investing\" is widely used. Typically, it connotes the purchase of stocks having attributes such as a low ratio of price to book value, a low price- earnings ratio, or a high dividend yield. Unfortunately, such characteristics, even if they appear in combination, are far from determinative as to whether an investor is indeed buying something for what it is worth and is therefore truly operating on the principle of obtaining value in his investments. Correspondingly, opposite characteristics - a high ratio of price to book value, a high price-earnings ratio, and a low dividend yield - are in no way inconsistent with a \"value\" purchase."
+    },
+    "P01-009": {
+      "context_id": "letter-1992-0074-0085",
+      "paragraph_ids": [
+        "berkshire-letter-1992:u0082"
+      ],
+      "label": "Valuation, knowability and margin of safety · berkshire-letter-1992:u0082",
+      "source_id": "berkshire-letter-1992",
+      "context_title": "Valuation, knowability and margin of safety",
+      "publisher_url": "https://www.berkshirehathaway.com/letters/1992.html",
+      "publisher_reading_url": null,
+      "date": "1993-03-01",
+      "date_kind": "signature_date",
+      "event_date": null,
+      "signature_date": "1993-03-01",
+      "publication_date": null,
+      "report_year": 1992,
+      "date_basis": null,
+      "speakers": [
+        "Warren Buffett"
+      ],
+      "paragraphs": [
+        {
+          "id": "berkshire-letter-1992:u0082",
+          "unit_id": "berkshire-letter-1992:u0082",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Signed shareholder-letter authorship; embedded quotations retain their original introduction.",
+          "locator": {
+            "type": "html_text_block",
+            "paragraph": 82,
+            "html_line_start": 775,
+            "html_line_end": 783,
+            "extracted_text_character_start": 41841,
+            "extracted_text_character_end": 42377
+          }
+        }
+      ],
+      "excerpt": "The investment shown by the discounted-flows-of-cash calculation to be the cheapest is the one that the investor should purchase - irrespective of whether the business grows or doesn't, displays volatility or smoothness in its earnings, or carries a high price or low in relation to its current earnings and book value. Moreover, though the value equation has usually shown equities to be cheaper than bonds, that result is not inevitable: When bonds are calculated to be the more attractive investment, they should be bought."
+    },
+    "P17-002": {
+      "context_id": "letter-1986-0285-0297",
+      "paragraph_ids": [
+        "berkshire-letter-1986:u0286"
+      ],
+      "label": "Owner earnings: full concluding discussion and qualifications · berkshire-letter-1986:u0286",
+      "source_id": "berkshire-letter-1986",
+      "context_title": "Owner earnings: full concluding discussion and qualifications",
+      "publisher_url": "https://www.berkshirehathaway.com/letters/1986.html",
+      "publisher_reading_url": null,
+      "date": "1987-02-27",
+      "date_kind": "signature_date",
+      "event_date": null,
+      "signature_date": "1987-02-27",
+      "publication_date": null,
+      "report_year": 1986,
+      "date_basis": "Signature date recorded in the reviewed original-source dossier; report year is separate.",
+      "speakers": [
+        "Warren Buffett"
+      ],
+      "paragraphs": [
+        {
+          "id": "berkshire-letter-1986:u0286",
+          "unit_id": "berkshire-letter-1986:u0286",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Signed shareholder-letter authorship; embedded quotations retain their original introduction.",
+          "locator": {
+            "type": "html_text_block",
+            "paragraph": 286,
+            "html_line_start": 1848,
+            "html_line_end": 1848,
+            "extracted_text_character_start": 84018,
+            "extracted_text_character_end": 84771
+          }
+        }
+      ],
+      "excerpt": "If we think through these questions, we can gain some insights about what may be called \"owner earnings.\" These represent (a) reported earnings plus (b) depreciation, depletion, amortization, and certain other non-cash charges such as Company N's items (1) and (4) less ( c) the average annual amount of capitalized expenditures for plant and equipment, etc. that the business requires to fully maintain its long-term competitive position and its unit volume. (If the business requires additional working capital to maintain its competitive position and unit volume, the increment also should be included in ( c) . However, businesses following the LIFO inventory method usually do not require additional working capital if unit volume does not change.)"
+    },
+    "P17-003": {
+      "context_id": "letter-1986-0285-0297",
+      "paragraph_ids": [
+        "berkshire-letter-1986:u0287"
+      ],
+      "label": "Owner earnings: full concluding discussion and qualifications · berkshire-letter-1986:u0287",
+      "source_id": "berkshire-letter-1986",
+      "context_title": "Owner earnings: full concluding discussion and qualifications",
+      "publisher_url": "https://www.berkshirehathaway.com/letters/1986.html",
+      "publisher_reading_url": null,
+      "date": "1987-02-27",
+      "date_kind": "signature_date",
+      "event_date": null,
+      "signature_date": "1987-02-27",
+      "publication_date": null,
+      "report_year": 1986,
+      "date_basis": "Signature date recorded in the reviewed original-source dossier; report year is separate.",
+      "speakers": [
+        "Warren Buffett"
+      ],
+      "paragraphs": [
+        {
+          "id": "berkshire-letter-1986:u0287",
+          "unit_id": "berkshire-letter-1986:u0287",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Signed shareholder-letter authorship; embedded quotations retain their original introduction.",
+          "locator": {
+            "type": "html_text_block",
+            "paragraph": 287,
+            "html_line_start": 1852,
+            "html_line_end": 1852,
+            "extracted_text_character_start": 84794,
+            "extracted_text_character_end": 85261
+          }
+        }
+      ],
+      "excerpt": "Our owner-earnings equation does not yield the deceptively precise figures provided by GAAP, since( c) must be a guess - and one sometimes very difficult to make. Despite this problem, we consider the owner earnings figure, not the GAAP figure, to be the relevant item for valuation purposes - both for investors in buying stocks and for managers in buying entire businesses. We agree with Keynes's observation: \"I would rather be vaguely right than precisely wrong.\""
+    },
+    "P17-007": {
+      "context_id": "letter-1986-0285-0297",
+      "paragraph_ids": [
+        "berkshire-letter-1986:u0291"
+      ],
+      "label": "Owner earnings: full concluding discussion and qualifications · berkshire-letter-1986:u0291",
+      "source_id": "berkshire-letter-1986",
+      "context_title": "Owner earnings: full concluding discussion and qualifications",
+      "publisher_url": "https://www.berkshirehathaway.com/letters/1986.html",
+      "publisher_reading_url": null,
+      "date": "1987-02-27",
+      "date_kind": "signature_date",
+      "event_date": null,
+      "signature_date": "1987-02-27",
+      "publication_date": null,
+      "report_year": 1986,
+      "date_basis": "Signature date recorded in the reviewed original-source dossier; report year is separate.",
+      "speakers": [
+        "Warren Buffett"
+      ],
+      "paragraphs": [
+        {
+          "id": "berkshire-letter-1986:u0291",
+          "unit_id": "berkshire-letter-1986:u0291",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Signed shareholder-letter authorship; embedded quotations retain their original introduction.",
+          "locator": {
+            "type": "html_text_block",
+            "paragraph": 291,
+            "html_line_start": 1856,
+            "html_line_end": 1856,
+            "extracted_text_character_start": 86853,
+            "extracted_text_character_end": 87586
+          }
+        }
+      ],
+      "excerpt": "All of this points up the absurdity of the \"cash flow\" numbers that are often set forth in Wall Street reports. These numbers routinely include (a) plus (b) - but do not subtract ( c) . Most sales brochures of investment bankers also feature deceptive presentations of this kind. These imply that the business being offered is the commercial counterpart of the Pyramids - forever state-of-the-art, never needing to be replaced, improved or refurbished. Indeed, if all U.S. corporations were to be offered simultaneously for sale through our leading investment bankers - and if the sales brochures describing them were to be believed - governmental projections of national plant and equipment spending would have to be slashed by 90%."
+    },
+    "P17-008": {
+      "context_id": "letter-1986-0285-0297",
+      "paragraph_ids": [
+        "berkshire-letter-1986:u0292"
+      ],
+      "label": "Owner earnings: full concluding discussion and qualifications · berkshire-letter-1986:u0292",
+      "source_id": "berkshire-letter-1986",
+      "context_title": "Owner earnings: full concluding discussion and qualifications",
+      "publisher_url": "https://www.berkshirehathaway.com/letters/1986.html",
+      "publisher_reading_url": null,
+      "date": "1987-02-27",
+      "date_kind": "signature_date",
+      "event_date": null,
+      "signature_date": "1987-02-27",
+      "publication_date": null,
+      "report_year": 1986,
+      "date_basis": "Signature date recorded in the reviewed original-source dossier; report year is separate.",
+      "speakers": [
+        "Warren Buffett"
+      ],
+      "paragraphs": [
+        {
+          "id": "berkshire-letter-1986:u0292",
+          "unit_id": "berkshire-letter-1986:u0292",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Signed shareholder-letter authorship; embedded quotations retain their original introduction.",
+          "locator": {
+            "type": "html_text_block",
+            "paragraph": 292,
+            "html_line_start": 1857,
+            "html_line_end": 1857,
+            "extracted_text_character_start": 87591,
+            "extracted_text_character_end": 88231
+          }
+        }
+      ],
+      "excerpt": "\"Cash Flow\", true, may serve as a shorthand of some utility in descriptions of certain real estate businesses or other enterprises that make huge initial outlays and only tiny outlays thereafter. A company whose only holding is a bridge or an extremely long-lived gas field would be an example. But \"cash flow\" is meaningless in such businesses as manufacturing, retailing, extractive companies, and utilities because, for them, ( c) is always significant. To be sure, businesses of this kind may in a given year be able to defer capital spending. But over a five- or ten-year period, they must make the investment - or the business decays."
+    },
+    "P01-003": {
+      "context_id": "letter-1992-0074-0085",
+      "paragraph_ids": [
+        "berkshire-letter-1992:u0076"
+      ],
+      "label": "Valuation, knowability and margin of safety · berkshire-letter-1992:u0076",
+      "source_id": "berkshire-letter-1992",
+      "context_title": "Valuation, knowability and margin of safety",
+      "publisher_url": "https://www.berkshirehathaway.com/letters/1992.html",
+      "publisher_reading_url": null,
+      "date": "1993-03-01",
+      "date_kind": "signature_date",
+      "event_date": null,
+      "signature_date": "1993-03-01",
+      "publication_date": null,
+      "report_year": 1992,
+      "date_basis": null,
+      "speakers": [
+        "Warren Buffett"
+      ],
+      "paragraphs": [
+        {
+          "id": "berkshire-letter-1992:u0076",
+          "unit_id": "berkshire-letter-1992:u0076",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Signed shareholder-letter authorship; embedded quotations retain their original introduction.",
+          "locator": {
+            "type": "html_text_block",
+            "paragraph": 76,
+            "html_line_start": 717,
+            "html_line_end": 722,
+            "extracted_text_character_start": 38555,
+            "extracted_text_character_end": 38908
+          }
+        }
+      ],
+      "excerpt": "We view that as fuzzy thinking (in which, it must be confessed, I myself engaged some years ago). In our opinion, the two approaches are joined at the hip: Growth is always a component in the calculation of value, constituting a variable whose importance can range from negligible to enormous and whose impact can be negative as well as positive."
+    },
+    "P01-007": {
+      "context_id": "letter-1992-0074-0085",
+      "paragraph_ids": [
+        "berkshire-letter-1992:u0080"
+      ],
+      "label": "Valuation, knowability and margin of safety · berkshire-letter-1992:u0080",
+      "source_id": "berkshire-letter-1992",
+      "context_title": "Valuation, knowability and margin of safety",
+      "publisher_url": "https://www.berkshirehathaway.com/letters/1992.html",
+      "publisher_reading_url": null,
+      "date": "1993-03-01",
+      "date_kind": "signature_date",
+      "event_date": null,
+      "signature_date": "1993-03-01",
+      "publication_date": null,
+      "report_year": 1992,
+      "date_basis": null,
+      "speakers": [
+        "Warren Buffett"
+      ],
+      "paragraphs": [
+        {
+          "id": "berkshire-letter-1992:u0080",
+          "unit_id": "berkshire-letter-1992:u0080",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Signed shareholder-letter authorship; embedded quotations retain their original introduction.",
+          "locator": {
+            "type": "html_text_block",
+            "paragraph": 80,
+            "html_line_start": 753,
+            "html_line_end": 757,
+            "extracted_text_character_start": 40573,
+            "extracted_text_character_end": 40896
+          }
+        }
+      ],
+      "excerpt": "Growth benefits investors only when the business in point can invest at incremental returns that are enticing - in other words, only when each dollar used to finance the growth creates over a dollar of long-term market value. In the case of a low-return business requiring incremental funds, growth hurts the investor."
+    },
+    "P01-010": {
+      "context_id": "letter-1992-0074-0085",
+      "paragraph_ids": [
+        "berkshire-letter-1992:u0083"
+      ],
+      "label": "Valuation, knowability and margin of safety · berkshire-letter-1992:u0083",
+      "source_id": "berkshire-letter-1992",
+      "context_title": "Valuation, knowability and margin of safety",
+      "publisher_url": "https://www.berkshirehathaway.com/letters/1992.html",
+      "publisher_reading_url": null,
+      "date": "1993-03-01",
+      "date_kind": "signature_date",
+      "event_date": null,
+      "signature_date": "1993-03-01",
+      "publication_date": null,
+      "report_year": 1992,
+      "date_basis": null,
+      "speakers": [
+        "Warren Buffett"
+      ],
+      "paragraphs": [
+        {
+          "id": "berkshire-letter-1992:u0083",
+          "unit_id": "berkshire-letter-1992:u0083",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Signed shareholder-letter authorship; embedded quotations retain their original introduction.",
+          "locator": {
+            "type": "html_text_block",
+            "paragraph": 83,
+            "html_line_start": 785,
+            "html_line_end": 794,
+            "extracted_text_character_start": 42384,
+            "extracted_text_character_end": 42999
+          }
+        }
+      ],
+      "excerpt": "Leaving the question of price aside, the best business to own is one that over an extended period can employ large amounts of incremental capital at very high rates of return. The worst business to own is one that must, or will, do the opposite - that is, consistently employ ever-greater amounts of capital at very low rates of return. Unfortunately, the first type of business is very hard to find: Most high-return businesses need relatively little capital. Shareholders of such a business usually will benefit if it pays out most of its earnings in dividends or makes significant stock repurchases."
+    },
+    "P19-004": {
+      "context_id": "letter-1991-0031-0037",
+      "paragraph_ids": [
+        "berkshire-letter-1991:u0034"
+      ],
+      "label": "Franchise economics: complete first argument before the printed separator · berkshire-letter-1991:u0034",
+      "source_id": "berkshire-letter-1991",
+      "context_title": "Franchise economics: complete first argument before the printed separator",
+      "publisher_url": "https://www.berkshirehathaway.com/letters/1991.html",
+      "publisher_reading_url": null,
+      "date": "1992-02-28",
+      "date_kind": "signature_date",
+      "event_date": null,
+      "signature_date": "1992-02-28",
+      "publication_date": null,
+      "report_year": 1991,
+      "date_basis": "Original signed closing paragraph; report year is separate.",
+      "speakers": [
+        "Warren Buffett"
+      ],
+      "paragraphs": [
+        {
+          "id": "berkshire-letter-1991:u0034",
+          "unit_id": "berkshire-letter-1991:u0034",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Signed shareholder-letter authorship; embedded quotations retain their original introduction.",
+          "locator": {
+            "type": "html_text_block",
+            "paragraph": 34,
+            "html_line_start": 284,
+            "html_line_end": 292,
+            "extracted_text_character_start": 14354,
+            "extracted_text_character_end": 14889
+          }
+        }
+      ],
+      "excerpt": "An economic franchise arises from a product or service that: (1) is needed or desired; (2) is thought by its customers to have no close substitute and; (3) is not subject to price regulation. The existence of all three conditions will be demonstrated by a company's ability to regularly price its product or service aggressively and thereby to earn high rates of return on capital. Moreover, franchises can tolerate mis-management. Inept managers may diminish a franchise's profitability, but they cannot inflict mortal damage."
+    },
+    "P19-005": {
+      "context_id": "letter-1991-0031-0037",
+      "paragraph_ids": [
+        "berkshire-letter-1991:u0035"
+      ],
+      "label": "Franchise economics: complete first argument before the printed separator · berkshire-letter-1991:u0035",
+      "source_id": "berkshire-letter-1991",
+      "context_title": "Franchise economics: complete first argument before the printed separator",
+      "publisher_url": "https://www.berkshirehathaway.com/letters/1991.html",
+      "publisher_reading_url": null,
+      "date": "1992-02-28",
+      "date_kind": "signature_date",
+      "event_date": null,
+      "signature_date": "1992-02-28",
+      "publication_date": null,
+      "report_year": 1991,
+      "date_basis": "Original signed closing paragraph; report year is separate.",
+      "speakers": [
+        "Warren Buffett"
+      ],
+      "paragraphs": [
+        {
+          "id": "berkshire-letter-1991:u0035",
+          "unit_id": "berkshire-letter-1991:u0035",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Signed shareholder-letter authorship; embedded quotations retain their original introduction.",
+          "locator": {
+            "type": "html_text_block",
+            "paragraph": 35,
+            "html_line_start": 294,
+            "html_line_end": 300,
+            "extracted_text_character_start": 14896,
+            "extracted_text_character_end": 15334
+          }
+        }
+      ],
+      "excerpt": "In contrast, \"a business\" earns exceptional profits only if it is the low-cost operator or if supply of its product or service is tight. Tightness in supply usually does not last long. With superior management, a company may maintain its status as a low- cost operator for a much longer time, but even then unceasingly faces the possibility of competitive attack. And a business, unlike a franchise, can be killed by poor management."
+    },
+    "P19-003": {
+      "context_id": "letter-1991-0031-0037",
+      "paragraph_ids": [
+        "berkshire-letter-1991:u0033"
+      ],
+      "label": "Franchise economics: complete first argument before the printed separator · berkshire-letter-1991:u0033",
+      "source_id": "berkshire-letter-1991",
+      "context_title": "Franchise economics: complete first argument before the printed separator",
+      "publisher_url": "https://www.berkshirehathaway.com/letters/1991.html",
+      "publisher_reading_url": null,
+      "date": "1992-02-28",
+      "date_kind": "signature_date",
+      "event_date": null,
+      "signature_date": "1992-02-28",
+      "publication_date": null,
+      "report_year": 1991,
+      "date_basis": "Original signed closing paragraph; report year is separate.",
+      "speakers": [
+        "Warren Buffett"
+      ],
+      "paragraphs": [
+        {
+          "id": "berkshire-letter-1991:u0033",
+          "unit_id": "berkshire-letter-1991:u0033",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Signed shareholder-letter authorship; embedded quotations retain their original introduction.",
+          "locator": {
+            "type": "html_text_block",
+            "paragraph": 33,
+            "html_line_start": 277,
+            "html_line_end": 282,
+            "extracted_text_character_start": 13964,
+            "extracted_text_character_end": 14347
+          }
+        }
+      ],
+      "excerpt": "The fact is that newspaper, television, and magazine properties have begun to resemble businesses more than franchises in their economic behavior. Let's take a quick look at the characteristics separating these two classes of enterprise, keeping in mind, however, that many operations fall in some middle ground and can best be described as weak franchises or strong businesses."
+    },
+    "P16-003": {
+      "context_id": "letter-1991-0045-0055",
+      "paragraph_ids": [
+        "berkshire-letter-1991:u0047"
+      ],
+      "label": "Twenty Years in a Candy Store · berkshire-letter-1991:u0047",
+      "source_id": "berkshire-letter-1991",
+      "context_title": "Twenty Years in a Candy Store",
+      "publisher_url": "https://www.berkshirehathaway.com/letters/1991.html",
+      "publisher_reading_url": null,
+      "date": "1992-02-28",
+      "date_kind": "signature_date",
+      "event_date": null,
+      "signature_date": "1992-02-28",
+      "publication_date": null,
+      "report_year": 1991,
+      "date_basis": "Original signed closing paragraph; report year is separate.",
+      "speakers": [
+        "Warren Buffett"
+      ],
+      "paragraphs": [
+        {
+          "id": "berkshire-letter-1991:u0047",
+          "unit_id": "berkshire-letter-1991:u0047",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Signed shareholder-letter authorship; embedded quotations retain their original introduction.",
+          "locator": {
+            "type": "html_text_block",
+            "paragraph": 47,
+            "html_line_start": 409,
+            "html_line_end": 413,
+            "extracted_text_character_start": 21376,
+            "extracted_text_character_end": 21696
+          }
+        }
+      ],
+      "excerpt": "The sales of trading stamps by Blue Chip thereafter declined from $102.5 million in 1972 to $1.2 million in 1991. But See's candy sales in the same period increased from $29 million to $196 million. Moreover, profits at See's grew even faster than sales, from $4.2 million pre-tax in 1972 to $42.4 million last year."
+    },
+    "P16-004": {
+      "context_id": "letter-1991-0045-0055",
+      "paragraph_ids": [
+        "berkshire-letter-1991:u0048"
+      ],
+      "label": "Twenty Years in a Candy Store · berkshire-letter-1991:u0048",
+      "source_id": "berkshire-letter-1991",
+      "context_title": "Twenty Years in a Candy Store",
+      "publisher_url": "https://www.berkshirehathaway.com/letters/1991.html",
+      "publisher_reading_url": null,
+      "date": "1992-02-28",
+      "date_kind": "signature_date",
+      "event_date": null,
+      "signature_date": "1992-02-28",
+      "publication_date": null,
+      "report_year": 1991,
+      "date_basis": "Original signed closing paragraph; report year is separate.",
+      "speakers": [
+        "Warren Buffett"
+      ],
+      "paragraphs": [
+        {
+          "id": "berkshire-letter-1991:u0048",
+          "unit_id": "berkshire-letter-1991:u0048",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Signed shareholder-letter authorship; embedded quotations retain their original introduction.",
+          "locator": {
+            "type": "html_text_block",
+            "paragraph": 48,
+            "html_line_start": 415,
+            "html_line_end": 423,
+            "extracted_text_character_start": 21703,
+            "extracted_text_character_end": 22290
+          }
+        }
+      ],
+      "excerpt": "For an increase in profits to be evaluated properly, it must be compared with the incremental capital investment required to produce it. On this score, See's has been astounding: The company now operates comfortably with only $25 million of net worth, which means that our beginning base of $7 million has had to be supplemented by only $18 million of reinvested earnings. Meanwhile, See's remaining pre-tax profits of $410 million were distributed to Blue Chip/Berkshire during the 20 years for these companies to deploy (after payment of taxes) in whatever way made most sense."
+    },
+    "P01-011": {
+      "context_id": "letter-1992-0074-0085",
+      "paragraph_ids": [
+        "berkshire-letter-1992:u0084"
+      ],
+      "label": "Valuation, knowability and margin of safety · berkshire-letter-1992:u0084",
+      "source_id": "berkshire-letter-1992",
+      "context_title": "Valuation, knowability and margin of safety",
+      "publisher_url": "https://www.berkshirehathaway.com/letters/1992.html",
+      "publisher_reading_url": null,
+      "date": "1993-03-01",
+      "date_kind": "signature_date",
+      "event_date": null,
+      "signature_date": "1993-03-01",
+      "publication_date": null,
+      "report_year": 1992,
+      "date_basis": null,
+      "speakers": [
+        "Warren Buffett"
+      ],
+      "paragraphs": [
+        {
+          "id": "berkshire-letter-1992:u0084",
+          "unit_id": "berkshire-letter-1992:u0084",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Signed shareholder-letter authorship; embedded quotations retain their original introduction.",
+          "locator": {
+            "type": "html_text_block",
+            "paragraph": 84,
+            "html_line_start": 796,
+            "html_line_end": 808,
+            "extracted_text_character_start": 43006,
+            "extracted_text_character_end": 43793
+          }
+        }
+      ],
+      "excerpt": "Though the mathematical calculations required to evaluate equities are not difficult, an analyst - even one who is experienced and intelligent - can easily go wrong in estimating future \"coupons.\" At Berkshire, we attempt to deal with this problem in two ways. First, we try to stick to businesses we believe we understand. That means they must be relatively simple and stable in character. If a business is complex or subject to constant change, we're not smart enough to predict future cash flows. Incidentally, that shortcoming doesn't bother us. What counts for most people in investing is not how much they know, but rather how realistically they define what they don't know. An investor needs to do very few things right as long as he or she avoids big mistakes."
+    },
+    "P01-012": {
+      "context_id": "letter-1992-0074-0085",
+      "paragraph_ids": [
+        "berkshire-letter-1992:u0085"
+      ],
+      "label": "Valuation, knowability and margin of safety · berkshire-letter-1992:u0085",
+      "source_id": "berkshire-letter-1992",
+      "context_title": "Valuation, knowability and margin of safety",
+      "publisher_url": "https://www.berkshirehathaway.com/letters/1992.html",
+      "publisher_reading_url": null,
+      "date": "1993-03-01",
+      "date_kind": "signature_date",
+      "event_date": null,
+      "signature_date": "1993-03-01",
+      "publication_date": null,
+      "report_year": 1992,
+      "date_basis": null,
+      "speakers": [
+        "Warren Buffett"
+      ],
+      "paragraphs": [
+        {
+          "id": "berkshire-letter-1992:u0085",
+          "unit_id": "berkshire-letter-1992:u0085",
+          "speaker": "Warren Buffett",
+          "speaker_basis": "Signed shareholder-letter authorship; embedded quotations retain their original introduction.",
+          "locator": {
+            "type": "html_text_block",
+            "paragraph": 85,
+            "html_line_start": 810,
+            "html_line_end": 815,
+            "extracted_text_character_start": 43800,
+            "extracted_text_character_end": 44138
+          }
+        }
+      ],
+      "excerpt": "Second, and equally important, we insist on a margin of safety in our purchase price. If we calculate the value of a common stock to be only slightly higher than its price, we're not interested in buying. We believe this margin-of-safety principle, so strongly emphasized by Ben Graham, to be the cornerstone of investment success."
     }
   },
   "timeline": [
@@ -3637,5 +4406,32 @@
     ]
   ],
   "guide_kind": "editorial prompts linked to original examples; no validated decision rule",
-  "content_hash": "ecbccb716c1b9950ee2e8513a9846d131e9112e0537a91c2886f7e853c1fa037"
+  "content_hash": "6f73479912b9198899ad50eb9aea2dda5895d2531214a38ba833a1b26efc580e",
+  "supplemental_reviews": [
+    {
+      "question_slug": "evaluate-a-stock",
+      "status": "agent_reviewed_historical_sample",
+      "independent_of_author": true,
+      "human_reviewed": false,
+      "scope": "One historical stock-evaluation answer, all six sections and eighteen references checked against the selected original contexts. Accepted for a scoped private experimental sample; not a claim that all generated answers pass source review.",
+      "semantic_assessment": "No material source-meaning blocker found in the complete answer; minor qualification notes remain in the review.",
+      "minor_qualification_notes": [
+        "The growth comparison does not repeat leaving price aside or usually in every sentence; the surrounding discounted-value and purchase-price discussion retains those distinctions."
+      ],
+      "formatting_changes": [
+        {
+          "kind": "quote_terminal_punctuation_moved",
+          "before": "\"an attractive price.\"",
+          "after": "\"an attractive price\".",
+          "referenceKey": "P01-001"
+        }
+      ],
+      "formatted_artifact_sha256": "18ac030adb6fc1517de5c0a6941012f18981f5a611e2ef97143ec49fe84e052b",
+      "raw_output_preserved": true,
+      "source_excerpt_policy": "Reference excerpts are exact original reading paragraphs from the saved request evidence, with speaker, signature date and original paragraph locators."
+    }
+  ],
+  "supplemental_evidence_bundle_hashes": [
+    "1736557437379611ff04e6bb0c927d9c0271e282923db91d792d48e2f4854fe1"
+  ]
 }

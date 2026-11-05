@@ -1,38 +1,46 @@
-# The Buffett Question Book — English preview
+# The Buffett Question Book — English private trial
 
-This is an isolated English beta, starting with six reviewed Circle of Competence answers. It does not replace the original local Q&A service or the original-language corpus.
+This isolated trial preserves six reviewed Circle of Competence answers, adds a reviewed stock-evaluation answer, and provides an experimental free-form answer path over selected original source contexts. It does not replace the original-language corpus or claim complete coverage of Buffett’s work.
 
-## Current behavior
+## Answer behavior
 
-- Reviewed questions return the unchanged editorial answer with official publisher links and source locators.
-- New questions receive an explicit saved-question receipt after storage succeeds. They help choose future editorial coverage; no reply or publication date is promised. Only reading suggestions with a matching topic word are offered, separately from an answer.
-- The latest twenty saved results and their feedback can be restored in the same browser session. Requests require the session cookie and CSRF token; there is no global public record list.
-- Repeating the same client submission ID in the same session reuses the saved result. Changing its payload produces a conflict. Browser sessions are not unique people, and a fresh intentional submission is still a separate record.
-- Records are tied to a thirty-day session. Expired sessions and their dependent records are removed through opportunistic cleanup; this is neither permanent retention nor a promise of deletion at an exact time.
-- Live generation remains disabled. The evaluated provider adapter is not connected to the public question route. No inference calls are made by this pilot.
-- The private preview keeps the existing owner-only Sites audience. Publishing an app revision does not invite testers or make the Site public.
+- The seven reviewed questions return their editorial answers and source metadata without a model call.
+- When the server is configured and enabled, other questions retrieve bounded, complete source contexts and make one request to the configured trial model. The selected runtime is Qwen3.8-Flash-Next-W8A8 through the existing MarsAPI endpoint, with JSON-object output, thinking enabled at low effort, and a 4,096-token ceiling. Writer 3.4 requests a direct lead and 1–3 sections as paragraph objects, each with its own required citation array. The server validates those arrays and inserts display markers; provider-enforced JSON Schema mode is not enabled. These are provider-reported model identifiers, not independent model-weight verification. The provider connection uses bounded streaming internally; the browser receives an answer only after the complete JSON, citation identifiers and exact quotations pass mechanical checks.
+- Quote punctuation may be moved outside a closing quote only when the remaining quoted words exactly match an already cited original. The complete before/after trace is stored with the answer and a short note appears in the UI. No words, source keys or uncited paragraphs are repaired or dropped.
+- Generated answers are explicitly labeled AI-generated and not human-reviewed. Mechanical checks do not establish that every interpretation is correct. Sampling against the actual originals is a separate release check, not a claim about every runtime answer.
+- Unsupported topics, incomplete model responses, failed checks and exhausted trial allowance return an explicit unavailable message. They are never presented as a saved-question receipt or a successful answer.
+- Follow-ups use the owned earlier question and up to 6,000 characters of its title, lead and sections as conversation context, explicitly not as evidence. All new substantive claims still require support from currently retrieved originals.
+- Original excerpts, publisher links, dates, speakers and source locators accompany generated citations. Historical statements do not establish current prices, present suitability or a personal investment recommendation.
 
-## Reviewing incoming questions
+## Persistence, retries and privacy
 
-The owner can inspect the live `answers` and `feedback` tables through the Sites database management tools. Read the database overview first and use exact returned table names; never expose a global record list in the visitor application. For an editorial summary, export only question text, submission time, prior-topic context and feedback. Exclude session/CSRF identifiers and private response metadata. Keep that export outside client assets.
+The latest twenty results and their feedback can be restored within the same anonymous browser session. Reads require the session cookie and CSRF token. There is no global visitor record list.
 
-Separate reviewed-answer opens from `question_received` records (and legacy `suggestions` records). Exclude clearly marked automated test entries before interpreting feedback. Do not count reloads or same-ID retries as new demand, or describe browser-session counts as distinct readers.
+A client submission UUID is scoped to the session. The same UUID and payload reuse one stored result; changing its payload returns a conflict. Pending requests are pinned to their stored generation job, including across a deployment. Concurrent requests for the same question and prior-answer context share one session-scoped model job. Successful content can be reused within that session; questions are not shared across visitors through a global cache.
 
-## Content and provider
+Processing jobs return HTTP202 for bounded polling. History reload can recover a persisted model result without making a model call. Abandoned jobs become unavailable. A failed model job is not automatically retried; a more focused, different question creates a new attempt. The per-session physical request limits also remain active.
 
-`lib/content/public-content.json` is the only public content packet. `lib/content/evidence-packets.json` must remain server-only. `CONTRACT.txt` documents exact text, attribution and date preservation.
+Sessions expire thirty days after creation, not after last activity. Expired sessions and dependent question, feedback and generation-job rows are removed in small opportunistic batches when a new session is created. This is not timed erasure or permanent retention. The global budget counters are independent of session deletion and persist.
 
-`lib/content/provider-verification.json` records MarsAPI documentation verified on 2026-11-03, including the HTTPS inference address and displayed candidate pricing. API keys are not included. A compatible endpoint does not establish model quality, latency or cost per answer.
+## Finite private trial limits
 
-The existing project secret is configured locally in an ignored mode0600 file, never in source or client code. Before enabling public generation: find a model/configuration that passes source-grounded English evaluation; implement and verify evidence selection, answer/citation checking and provider error handling; add global cost controls; measure latency from the deployment region. Keep `GENERATION_ENABLED=false` until that work passes.
+The server accepts only the configured MarsAPI HTTPS chat-completions endpoint and the trial model. `.env.example` contains no secret and leaves generation disabled.
 
-## Validation
+The hard ceilings are **20 paid attempts for the lifetime of this trial**, **20 per UTC day**, and **CNY5 of conservatively estimated reservations** across all sessions. Environment values may lower these limits. A stable D1 budget row increments the count and reservation atomically before any provider request; cache reads and polling make no new paid attempt.
 
-The first version passed TypeScript, production build, local browser and HTTP checks. Subsequent model experiments are documented separately from the application: some drafts were faithful but failed formatting rules, and automatic semantic review remains unverified. No model output from those experiments is published by this pilot.
+Reservations use request UTF-8 bytes as a conservative token allowance, add 4,096 input tokens, include the 4,096-token output cap, and multiply by 1.5 at the verified displayed CNY2/input and CNY4/output per million token rates. Reservations are never refunded, including network failures and unknown usage. Known reported token counts are stored; missing counts remain unknown. This is an application estimate and request ceiling, **not an upstream account billing cap or an invoice**. A change to code or direct database administration can alter these controls; they are not protection against an administrator resetting the ledger.
 
-Pilot-v2 checks are recorded in the delivery audit. They exercise receipt persistence, session history and restored feedback, idempotent retries, concurrent duplicate submissions, cross-session isolation, unchanged reviewed answers, CSRF, input limits and burst limits. A successful local test or deployment is not a real-user trial or a completed hosted browser walkthrough.
+The Worker uses manual redirect handling and rejects all non-2xx responses; credentials are never forwarded to a redirected destination. The provider attempt has a 60-second time limit. A pending job has a 90-second recovery limit. There is no automatic provider retry or fallback model. If a transport or parser failure occurs, the draft is not published.
 
-Local preview uses the starter runtime and local D1. On this Mac, set XDG_CONFIG_HOME inside `.sites-runtime`, WRANGLER_SEND_METRICS=false and CHOKIDAR_USEPOLLING=true for the preview command to avoid writing outside the checkout and exhausting file watchers. Preserve the existing user-owned service on port 8795.
+## Sources, configuration and release checks
+
+`lib/content/public-content.json` contains the seven public reviewed answers. `lib/content/live-evidence-packets.json`, `live-retrieval-index.json`, and the older `evidence-packets.json` are server-only source data. They must not be imported into client components or copied wholesale into public assets. `CONTRACT.txt` retains the original text/attribution/date rules.
+
+Apply the existing initial migration and the new `drizzle/0001_wandering_cloak.sql` once, in order, through the Sites migration workflow. The latter adds the permanent trial ledger and session-scoped generation jobs. Do not manually erase the budget row when deploying an application revision.
+
+The V3 offline checks use real route/session/rate-limit/Drizzle logic with an in-memory SQLite D1 shim and a mocked provider. They cover atomic reservations, concurrent duplicates, known and unknown usage, cache and history recovery, ownership/CSRF, exact reviewed content, citation rejection and the bounded parser. They do not prove actual model quality, real network latency or hosted browser behavior. Actual model examples and the independent source review are recorded outside the application in the V3 evaluation directory; keep generation disabled until that release evidence is satisfactory.
+
+The private Site retains its existing audience. Deploying a revision neither invites testers nor makes the Site public. Preserve the existing local service on port8795. Local preview uses the starter runtime and local D1; keep runtime state and secrets outside source/public artifacts.
 
 ---
 

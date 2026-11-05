@@ -1,15 +1,17 @@
-import { and, desc, eq, inArray } from "drizzle-orm";
+import { and, desc, eq, inArray, or, sql } from "drizzle-orm";
 import { getDb } from "../../../db";
 import { answers, feedback } from "../../../db/schema";
-import type { PilotResult, PilotSource } from "../../../lib/pilot-types";
-import { contentVersion, curatedAnswer, findCuratedQuestion, relatedReading } from "../../../lib/server/content";
+import { MAX_QUOTE_PUNCTUATION_NORMALIZATIONS, MAX_QUOTE_PUNCTUATION_TEXT_LENGTH, type PilotResult, type PilotSource, type QuotePunctuationNormalization } from "../../../lib/pilot-types";
+import { contentVersion, curatedAnswer, findCuratedQuestion } from "../../../lib/server/content";
+import { resolveGeneration, pollGeneration, storedGeneration, GENERATION_LEASE_MS } from "../../../lib/server/generation";
+import { LIVE_EVIDENCE_VERSION } from "../../../lib/retrieved-evidence";
 import { allowKeys, json, readJson, rejectCrossSiteRead, RequestError, requiredText, requireSameOrigin, routeError } from "../../../lib/server/http";
 import { useRequestAllowance } from "../../../lib/server/rate-limit";
 import { requireSession } from "../../../lib/server/session";
 
 type StoredRow = Pick<typeof answers.$inferSelect, "id" | "question" | "kind" | "responseJson">;
-const kinds = new Set(["curated", "generated", "suggestions", "unavailable", "question_received"]);
-const sourceFields = ["context_id", "context_title", "date", "date_basis", "date_kind", "event_date", "label", "paragraph_ids", "publication_date", "publisher_reading_url", "publisher_url", "report_year", "signature_date", "source_id", "speakers"];
+const kinds = new Set(["curated", "generated", "suggestions", "unavailable", "question_received", "processing"]);
+const sourceFields = ["context_id", "context_title", "date", "date_basis", "date_kind", "event_date", "label", "paragraph_ids", "publication_date", "publisher_reading_url", "publisher_url", "report_year", "signature_date", "source_id", "speakers", "excerpt"];
 const locatorFields = ["bbox", "canonical_text_character_end_exclusive", "canonical_text_character_start", "canonical_unit_id", "chapter_number", "extracted_text_character_end", "extracted_text_character_start", "geometry_block_index", "html_line_end", "html_line_start", "json_path", "paragraph", "paragraph_index", "paragraph_on_page", "physical_pdf_page", "printed_page", "source_line_ids", "timestamp_seconds", "timestamp_status", "type"];
 
 function object(value: unknown): Record<string, unknown> {
@@ -45,6 +47,26 @@ function storedResult(row: StoredRow): { result: PilotResult; fingerprint: strin
     kind: row.kind as PilotResult["kind"], elapsedMs: value.elapsedMs };
   if (value.recorded === true) result.recorded = true;
   if (typeof value.message === "string") result.message = value.message;
+  if (typeof value.retryAfterMs === "number") result.retryAfterMs = value.retryAfterMs;
+  if (value.generation) {
+    const generation = object(value.generation);
+    result.generation = pick(generation, ["label", "checks", "humanReviewed", "scope", "cached"]) as PilotResult["generation"];
+    if (generation.quotePunctuationNormalizations !== undefined) {
+      const trace = generation.quotePunctuationNormalizations;
+      if (!Array.isArray(trace) || trace.length > MAX_QUOTE_PUNCTUATION_NORMALIZATIONS) throw new Error("Invalid stored punctuation trace.");
+      const normalizations: QuotePunctuationNormalization[] = trace.map((item) => {
+        const entry = object(item);
+        if (entry.kind !== "quote_terminal_punctuation_moved" ||
+          typeof entry.before !== "string" || typeof entry.after !== "string" ||
+          entry.before.length > MAX_QUOTE_PUNCTUATION_TEXT_LENGTH || entry.after.length > MAX_QUOTE_PUNCTUATION_TEXT_LENGTH ||
+          typeof entry.referenceKey !== "string" || !/^[A-Za-z0-9][A-Za-z0-9._-]{0,79}$/.test(entry.referenceKey)) {
+          throw new Error("Invalid stored punctuation trace.");
+        }
+        return { kind: entry.kind, before: entry.before, after: entry.after, referenceKey: entry.referenceKey };
+      });
+      if (result.generation && normalizations.length) result.generation.quotePunctuationNormalizations = normalizations;
+    }
+  }
   if (Array.isArray(value.suggestions)) result.suggestions = value.suggestions.map((item) => {
     const suggestion = object(item);
     if (["slug", "title", "short"].some((key) => typeof suggestion[key] !== "string")) throw new Error("Invalid stored reading.");
@@ -67,10 +89,10 @@ async function digest(value: string) {
   const bytes = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(value));
   return Array.from(new Uint8Array(bytes), (byte) => byte.toString(16).padStart(2, "0")).join("");
 }
-function replay(row: StoredRow, fingerprint: string) {
+function checkReplay(row: StoredRow, fingerprint: string) {
   const stored = storedResult(row);
   if (stored.fingerprint !== fingerprint) throw new RequestError(409, "This request ID has already been used for a different question. Start a new submission.");
-  return json(stored.result);
+  return stored.result;
 }
 
 export async function GET(request: Request) {
@@ -78,9 +100,28 @@ export async function GET(request: Request) {
     rejectCrossSiteRead(request);
     const session = await requireSession(request);
     const db = getDb();
-    const rows = await db.select({ id: answers.id, question: answers.question, kind: answers.kind, responseJson: answers.responseJson })
+    const rows = await db.select({ id: answers.id, question: answers.question, kind: answers.kind, responseJson: answers.responseJson, createdAt: answers.createdAt })
       .from(answers).where(eq(answers.sessionId, session.id)).orderBy(desc(answers.createdAt), desc(answers.id)).limit(20);
-    const results = rows.reverse().map((row) => storedResult(row).result);
+    const results: PilotResult[] = [];
+    for (const row of rows.reverse()) {
+      let result = storedResult(row).result;
+      if (result.kind === "processing") {
+        const envelope = object(JSON.parse(row.responseJson));
+        const recovered = typeof envelope.generationJobId === "string" ? await storedGeneration(session.id, envelope.generationJobId) : null;
+        const payload = recovered?.payload ?? (row.createdAt + GENERATION_LEASE_MS < Date.now()
+          ? { kind: "unavailable" as const, message: "This answer did not finish. Please rephrase your question to start a new attempt." } : null);
+        if (payload && payload.kind !== "processing") {
+          result = { id: row.id, question: row.question, ...payload, elapsedMs: Math.max(0, (recovered?.finishedAt ?? Date.now()) - row.createdAt) };
+          const [saved] = await db.update(answers).set({ kind: result.kind, responseJson: JSON.stringify({ ...envelope, result }), elapsedMs: result.elapsedMs })
+            .where(and(eq(answers.id, row.id), eq(answers.sessionId, session.id), eq(answers.kind, "processing"))).returning({ id: answers.id });
+          if (!saved) {
+            const [winner] = await db.select().from(answers).where(and(eq(answers.id, row.id), eq(answers.sessionId, session.id))).limit(1);
+            if (winner) result = storedResult(winner).result;
+          }
+        }
+      }
+      results.push(result);
+    }
     const ownFeedback = results.length ? await db.select({ answerId: feedback.answerId, helpful: feedback.helpful, reason: feedback.reason, comment: feedback.comment })
       .from(feedback).where(and(eq(feedback.sessionId, session.id), inArray(feedback.answerId, results.map(({ id }) => id)))) : [];
     return json({ results, feedback: Object.fromEntries(ownFeedback.map(({ answerId, ...value }) => [answerId, value])) });
@@ -106,43 +147,83 @@ export async function POST(request: Request) {
     const id = requestId ? `rq_${await digest(`${session.id}:${requestId}`)}` : crypto.randomUUID();
     const fingerprint = requestId ? await digest(JSON.stringify([question, slug ?? null, previousAnswerId])) : null;
     const findOwned = async () => {
-      const [row] = await db.select({ id: answers.id, question: answers.question, kind: answers.kind, responseJson: answers.responseJson })
+      const [row] = await db.select({ id: answers.id, question: answers.question, kind: answers.kind, responseJson: answers.responseJson, createdAt: answers.createdAt })
         .from(answers).where(and(eq(answers.id, id), eq(answers.sessionId, session.id))).limit(1);
       return row;
     };
+    let existingPending: PilotResult | null = null;
+    let pinnedGenerationJobId: string | undefined;
+    let pendingCreatedAt = Date.now();
     if (fingerprint) {
       const prior = await findOwned();
-      if (prior) return replay(prior, fingerprint);
+      if (prior) {
+        const result = checkReplay(prior, fingerprint);
+        if (result.kind !== "processing") return json(result);
+        existingPending = result;
+        pendingCreatedAt = prior.createdAt;
+        const envelope = object(JSON.parse(prior.responseJson));
+        if (typeof envelope.generationJobId === "string") pinnedGenerationJobId = envelope.generationJobId;
+      }
     }
+    let previousQuestion: string | undefined;
+    let previousAnswerText: string | undefined;
+    let previousIdentity: string | undefined;
     if (previousAnswerId) {
-      const [previous] = await db.select({ id: answers.id }).from(answers)
+      const [previous] = await db.select().from(answers)
         .where(and(eq(answers.id, previousAnswerId), eq(answers.sessionId, session.id))).limit(1);
       if (!previous) throw new RequestError(404, "That earlier answer is not available in this session.");
+      previousQuestion = previous.question;
+      const snapshot = storedResult(previous).result;
+      previousAnswerText = snapshot.answer ? JSON.stringify({ title: snapshot.answer.title, lead: snapshot.answer.lead, sections: snapshot.answer.sections }) : undefined;
+      previousIdentity = `${previous.id}:${previous.contentVersion}:${await digest(previous.responseJson)}`;
     }
     const curated = findCuratedQuestion(question, slug);
     if (slug && !curated) throw new RequestError(400, "That selected answer is not available.");
-    await useRequestAllowance(session.id, "questions");
-    const result: PilotResult = curated ? {
+    if (!existingPending) await useRequestAllowance(session.id, "questions");
+    const initial: PilotResult = existingPending ?? (curated ? {
       id, kind: "curated" as const, question, ...curatedAnswer(curated),
       elapsedMs: Math.round(performance.now() - started),
     } : {
-      id, kind: "question_received", recorded: true, question,
-      message: "Your question has been saved for editorial topic selection. This is a receipt, not an answer. No individual reply is promised.",
-      suggestions: relatedReading(question),
+      id, kind: "processing", question,
+      message: "An answer is being prepared from the selected sources.", retryAfterMs: 2000,
       elapsedMs: Math.round(performance.now() - started),
-    };
-    const inserted = await db.insert(answers).values({
-      id, sessionId: session.id, question, kind: result.kind,
-      curatedSlug: curated?.slug ?? null, previousAnswerId, contentVersion,
-      responseJson: JSON.stringify({ storageVersion: 2, requestFingerprint: fingerprint, result }),
-      elapsedMs: result.elapsedMs, createdAt: Date.now(),
-    }).onConflictDoNothing({ target: answers.id }).returning({ id: answers.id });
-    if (!inserted.length) {
+    });
+    if (!existingPending) {
+      const inserted = await db.insert(answers).values({
+        id, sessionId: session.id, question, kind: initial.kind,
+        curatedSlug: curated?.slug ?? null, previousAnswerId, contentVersion: curated ? contentVersion : LIVE_EVIDENCE_VERSION,
+        responseJson: JSON.stringify({ storageVersion: 2, requestFingerprint: fingerprint, result: initial }),
+        elapsedMs: initial.elapsedMs, createdAt: Date.now(),
+      }).onConflictDoNothing({ target: answers.id }).returning({ id: answers.id });
+      if (!inserted.length) {
       // A concurrent duplicate can win the insert. Return its persisted result,
       // never a receipt for the losing in-memory result.
+        const winner = await findOwned();
+        if (!winner || !fingerprint) throw new RequestError(409, "This submission could not be recorded. Start a new submission.");
+        const saved = checkReplay(winner, fingerprint);
+        if (saved.kind !== "processing") return json(saved);
+      }
+    }
+    if (curated) return json(initial);
+    let generationJobId: string | undefined = pinnedGenerationJobId;
+    const generated = pinnedGenerationJobId ? await pollGeneration(session.id, pinnedGenerationJobId, pendingCreatedAt) : await resolveGeneration({ sessionId: session.id, question, previousQuestion, previousAnswerText, previousIdentity, signal: request.signal,
+      onJob: async (jobId) => {
+        generationJobId = jobId;
+        const [linked] = await db.update(answers).set({ responseJson: JSON.stringify({ storageVersion: 2, requestFingerprint: fingerprint, generationJobId, result: initial }) })
+          .where(and(eq(answers.id, id), eq(answers.sessionId, session.id), eq(answers.kind, "processing"),
+            or(sql`json_extract(${answers.responseJson}, '$.generationJobId') is null`, sql`json_extract(${answers.responseJson}, '$.generationJobId') = ${jobId}`)))
+          .returning({ id: answers.id });
+        return Boolean(linked);
+      },
+    });
+    if (generated.kind === "processing") return json({ ...initial, ...generated }, 202, { "Retry-After": "2" });
+    const result: PilotResult = { id, question, ...generated, elapsedMs: Math.round(performance.now() - started) };
+    const saved = await db.update(answers).set({ kind: result.kind, responseJson: JSON.stringify({ storageVersion: 2, requestFingerprint: fingerprint, generationJobId, result }), elapsedMs: result.elapsedMs })
+      .where(and(eq(answers.id, id), eq(answers.sessionId, session.id), eq(answers.kind, "processing"))).returning({ id: answers.id });
+    if (!saved.length) {
       const winner = await findOwned();
-      if (winner && fingerprint) return replay(winner, fingerprint);
-      throw new RequestError(409, "This submission could not be recorded. Start a new submission.");
+      if (winner) return json(storedResult(winner).result);
+      throw new RequestError(503, "The answer could not be saved.");
     }
     return json(result);
   } catch (error) { return routeError(error); }

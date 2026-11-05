@@ -1,6 +1,6 @@
 import content from "../content/public-content.json";
 
-export const contentVersion = content.bundle_hash;
+export const contentVersion = content.content_hash;
 type Question = typeof content.questions[number];
 
 function normalize(text: string) {

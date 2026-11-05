@@ -1,0 +1,393 @@
+{
+  "version": "english-live-retrieval-v3.1.1",
+  "bundle_hash": "1736557437379611ff04e6bb0c927d9c0271e282923db91d792d48e2f4854fe1",
+  "retrieval_method": "Editorial lexical topic routing over source contexts, not stored-answer matching. Topic terms are routing metadata, never original source claims. Include every paragraph of each chosen bounded context and every required companion context. Unmatched or unsupported current questions must not receive invented source support.",
+  "topics": [
+    {
+      "id": "owner_earnings",
+      "terms": [
+        "owner earnings",
+        "owner earning",
+        "cash available",
+        "cash flow",
+        "free cash",
+        "maintenance capex",
+        "capital expenditure",
+        "depreciation",
+        "amortization",
+        "working capital",
+        "accounting earnings",
+        "earnings quality",
+        "ebitda"
+      ],
+      "context_ids": [
+        "letter-1986-0285-0297",
+        "letter-1986-0209-0210",
+        "cnbc-meeting-1998-afternoon-ch08"
+      ],
+      "required_context_ids": [
+        "letter-1986-0285-0297",
+        "letter-1986-0209-0210"
+      ],
+      "priority": 6
+    },
+    {
+      "id": "owner_accounting_detail",
+      "terms": [
+        "scott fetzer",
+        "purchase accounting",
+        "purchase-price",
+        "company o",
+        "company n",
+        "gaap earnings",
+        "accounting adjustments",
+        "old company",
+        "new company"
+      ],
+      "context_ids": [
+        "letter-1986-0154-0297"
+      ],
+      "required_context_ids": [],
+      "priority": 8
+    },
+    {
+      "id": "intrinsic_value",
+      "terms": [
+        "intrinsic value",
+        "value a stock",
+        "valuation",
+        "discounted cash",
+        "discount cash",
+        "present value",
+        "future cash"
+      ],
+      "context_ids": [
+        "letter-1992-0074-0085",
+        "letter-1994-0013-0026",
+        "letter-1986-0285-0297",
+        "letter-1986-0209-0210"
+      ],
+      "required_context_ids": [
+        "letter-1986-0285-0297",
+        "letter-1986-0209-0210"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "discount_rate",
+      "terms": [
+        "discount rate",
+        "discounting rate",
+        "treasury",
+        "risk free",
+        "risk-free",
+        "interest rate",
+        "ten percent",
+        "10%",
+        "hurdle rate"
+      ],
+      "context_ids": [
+        "cnbc-meeting-1994-morning-ch13",
+        "cnbc-meeting-1998-afternoon-ch08",
+        "cnbc-meeting-1998-afternoon-ch44"
+      ],
+      "required_context_ids": [
+        "cnbc-meeting-1994-morning-ch13",
+        "cnbc-meeting-1998-afternoon-ch08",
+        "cnbc-meeting-1998-afternoon-ch44"
+      ],
+      "priority": 8
+    },
+    {
+      "id": "capital_reinvestment",
+      "terms": [
+        "reinvest",
+        "incremental capital",
+        "growth",
+        "return on capital",
+        "capital return",
+        "capital intensive",
+        "capital-intensive",
+        "earnings grow",
+        "earnings growth"
+      ],
+      "context_ids": [
+        "cnbc-meeting-1998-afternoon-ch08",
+        "letter-1991-0045-0055",
+        "letter-1991-0031-0044"
+      ],
+      "required_context_ids": [],
+      "priority": 5
+    },
+    {
+      "id": "business_economics",
+      "terms": [
+        "moat",
+        "franchise",
+        "pricing power",
+        "competitive advantage",
+        "competition",
+        "durability",
+        "durable",
+        "economics",
+        "business model",
+        "low cost",
+        "low-cost",
+        "substitute"
+      ],
+      "context_ids": [
+        "letter-1991-0031-0037",
+        "letter-1991-0045-0055",
+        "letter-1996-0098-0118"
+      ],
+      "required_context_ids": [],
+      "priority": 5
+    },
+    {
+      "id": "media_valuation_example",
+      "terms": [
+        "media business",
+        "media company",
+        "newspaper",
+        "franchise erosion",
+        "moat erosion",
+        "decline in a company’s moat",
+        "decline in a company's moat",
+        "25 times",
+        "25 million",
+        "10 million"
+      ],
+      "context_ids": [
+        "letter-1991-0031-0044"
+      ],
+      "required_context_ids": [],
+      "priority": 7
+    },
+    {
+      "id": "management",
+      "terms": [
+        "management",
+        "manager",
+        "ceo",
+        "capital allocation",
+        "honesty",
+        "honest",
+        "competent",
+        "integrity",
+        "institutional imperative",
+        "leadership",
+        "jockey"
+      ],
+      "context_ids": [
+        "letter-1989-0156-0175",
+        "letter-1992-0074-0085"
+      ],
+      "required_context_ids": [],
+      "priority": 5
+    },
+    {
+      "id": "price_and_safety",
+      "terms": [
+        "margin of safety",
+        "safety margin",
+        "price",
+        "cheap",
+        "expensive",
+        "overpay",
+        "p/e",
+        "pe ratio",
+        "low multiple",
+        "bargain",
+        "cigar butt"
+      ],
+      "context_ids": [
+        "letter-1992-0074-0085",
+        "letter-1989-0156-0175",
+        "letter-1991-0031-0044"
+      ],
+      "required_context_ids": [],
+      "priority": 3
+    },
+    {
+      "id": "book_and_market_value",
+      "terms": [
+        "book value",
+        "market value",
+        "market price",
+        "accounting value",
+        "net worth",
+        "textile assets"
+      ],
+      "context_ids": [
+        "letter-1994-0013-0026",
+        "letter-1992-0074-0085"
+      ],
+      "required_context_ids": [],
+      "priority": 5
+    },
+    {
+      "id": "knowability_and_uncertainty",
+      "terms": [
+        "predict",
+        "certainty",
+        "uncertainty",
+        "forecast",
+        "risk",
+        "probability",
+        "range of values"
+      ],
+      "context_ids": [
+        "letter-2000-pdf-p12-p3-through-p13-p9",
+        "cnbc-meeting-1998-afternoon-ch44",
+        "letter-1992-0074-0085"
+      ],
+      "required_context_ids": [],
+      "priority": 4
+    },
+    {
+      "id": "understand_business",
+      "terms": [
+        "understand",
+        "circle of competence",
+        "competence",
+        "competency",
+        "circle",
+        "familiar",
+        "product",
+        "economics of a business"
+      ],
+      "context_ids": [
+        "letter-1996-0098-0118",
+        "meeting-2002-boundary",
+        "letter-1992-0074-0085"
+      ],
+      "required_context_ids": [],
+      "priority": 4
+    },
+    {
+      "id": "finance_dependencies",
+      "terms": [
+        "finance company",
+        "finance companies",
+        "financing company",
+        "financing companies",
+        "berkshire credit",
+        "berkshire's credit",
+        "berkshire’s credit",
+        "funding",
+        "external credit",
+        "outside credit",
+        "credit dependency",
+        "credit dependencies"
+      ],
+      "context_ids": [
+        "meeting-2002-boundary"
+      ],
+      "required_context_ids": [],
+      "priority": 6
+    },
+    {
+      "id": "confidence_and_limits",
+      "terms": [
+        "confidence",
+        "confident",
+        "self assessment",
+        "self-assessment",
+        "boundary",
+        "boundaries",
+        "know what i know",
+        "overconfidence"
+      ],
+      "context_ids": [
+        "meeting-2014-self-assessment",
+        "meeting-2002-boundary"
+      ],
+      "required_context_ids": [],
+      "priority": 4
+    },
+    {
+      "id": "learning_and_expansion",
+      "terms": [
+        "learn",
+        "learning",
+        "expand",
+        "expansion",
+        "new industry",
+        "build competence",
+        "improve competence"
+      ],
+      "context_ids": [
+        "meeting-2019-learning",
+        "meeting-2019-expansion"
+      ],
+      "required_context_ids": [],
+      "priority": 4
+    },
+    {
+      "id": "operating_and_investing",
+      "terms": [
+        "operator",
+        "operate",
+        "running a business",
+        "run a business",
+        "operating experience",
+        "farmland",
+        "farm"
+      ],
+      "context_ids": [
+        "letter-2013-investing-p001-p040",
+        "meeting-2019-learning"
+      ],
+      "required_context_ids": [],
+      "priority": 4
+    },
+    {
+      "id": "unprofitable_business",
+      "terms": [
+        "unprofitable",
+        "no current cash",
+        "losing money",
+        "loss making",
+        "loss-making",
+        "negative earnings"
+      ],
+      "context_ids": [
+        "cnbc-meeting-1994-morning-ch13",
+        "letter-1992-0074-0085",
+        "letter-1986-0154-0297"
+      ],
+      "required_context_ids": [],
+      "priority": 5
+    }
+  ],
+  "broad_evaluation": {
+    "terms": [
+      "evaluate a stock",
+      "evaluate stocks",
+      "evaluate a company",
+      "evaluate a business",
+      "evaluating a stock",
+      "evaluating stocks",
+      "analyze a stock",
+      "analyse a stock",
+      "analyze a company",
+      "analyse a company",
+      "assess a stock",
+      "assess a company",
+      "stock evaluation",
+      "business evaluation",
+      "how to pick stocks",
+      "how to research a stock",
+      "how do i research a stock"
+    ],
+    "context_ids": [
+      "letter-1992-0074-0085",
+      "letter-1986-0209-0210",
+      "letter-1986-0285-0297",
+      "letter-1991-0031-0037",
+      "letter-1991-0045-0055"
+    ]
+  },
+  "max_contexts": 8,
+  "max_source_characters": 60000
+}

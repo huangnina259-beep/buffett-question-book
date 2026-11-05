@@ -8,6 +8,13 @@
       "when": 1793694747563,
       "tag": "0000_clear_iron_lad",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1793861190089,
+      "tag": "0001_wandering_cloak",
+      "breakpoints": true
     }
   ]
 }

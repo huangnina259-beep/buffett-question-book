@@ -199,7 +199,7 @@ export async function resolveGeneration(input: { sessionId: string; question: st
           reviewerAttempted = true;
           const reviewed = await callChatCompletion(settings.provider, { model, messages: reviewPrompt.messages,
             maxTokens: MAX_REVIEW_OUTPUT_TOKENS, timeoutMs: GROUNDING_REVIEW_TIMEOUT_MS, stream: true,
-            jsonObject: true, enableThinking: true, reasoningEffort: "low", signal: input.signal });
+            jsonObject: true, enableThinking: false, signal: input.signal });
           reviewerUsage = reviewed.usage;
           let verdict;
           try { verdict = parseGroundingReview(reviewed.text); }
@@ -227,6 +227,7 @@ export async function resolveGeneration(input: { sessionId: string; question: st
     else if (error instanceof GenerationValidationError) { failureCode = `validation_${error.code}`; result = unavailable("The draft did not pass its required citation and format checks, so it was not published. Please try a more focused question."); }
     else { failureCode = "internal"; result = unavailable("The answer could not be completed. No answer was published."); }
   }
+  if (failureCode) console.warn("answer_unavailable", failureCode);
   const usage = aggregateUsage([...(writerAttempted ? [writerUsage] : []), ...(reviewerAttempted ? [reviewerUsage] : [])]);
   const [saved] = await db.update(generationJobs).set({ state: result.kind, responseJson: JSON.stringify(result), failureCode,
     inputTokens: usage?.inputTokens ?? null, outputTokens: usage?.outputTokens ?? null, usageReported: usage?.reported ?? false, finishedAt: Date.now() })

@@ -2,7 +2,7 @@ import type { GeneratedAnswer } from "./generation-contract";
 import type { GenerationPrompt } from "./generation-prompt";
 import type { ChatMessage } from "./model-provider";
 
-export const GROUNDING_REVIEW_VERSION = "source-grounding-review-1.2";
+export const GROUNDING_REVIEW_VERSION = "source-grounding-review-1.3";
 export type GroundingReview = { supported: boolean; issues: string[] };
 
 /** Independent model pass, not a guarantee or human review. All inputs are untrusted data. */

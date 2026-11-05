@@ -13,6 +13,8 @@ This isolated trial preserves six reviewed Circle of Competence answers, adds a 
 - Follow-ups use the owned earlier question and up to 6,000 characters of its title, lead and sections as conversation context, explicitly not as evidence. All new substantive claims still require support from currently retrieved originals.
 - Original excerpts, publisher links, dates, speakers and source locators accompany generated citations. Historical statements do not establish current prices, present suitability or a personal investment recommendation.
 
+The reviewer uses the provider’s non-thinking mode to keep its structured verdict bounded; the writer retains low-effort thinking. Verdicts remain fallible. Failure logs contain only fixed failure codes, never questions, answers, source text or credentials.
+
 ## Persistence, retries and privacy
 
 The latest twenty results and their feedback can be restored within the same anonymous browser session. Reads require the session cookie and CSRF token. There is no global visitor record list.

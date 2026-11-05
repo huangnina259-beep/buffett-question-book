@@ -1,18 +1,22 @@
 import { MAX_QUOTE_PUNCTUATION_NORMALIZATIONS, MAX_QUOTE_PUNCTUATION_TEXT_LENGTH } from "../pilot-types";
-/** Server-only paid inference. One attempt per session-scoped evidence cache key. */
+/** Server-only paid inference. One writer/reviewer pipeline per session-scoped cache key. */
 import { env } from "cloudflare:workers";
 import { and, eq, lt, lte, or, sql } from "drizzle-orm";
 import { getDb } from "../../db";
 import { generationBudget, generationJobs } from "../../db/schema";
 import { buildGenerationPrompt, parseGenerationResponse, GENERATION_PROMPT_VERSION } from "../generation-prompt";
 import { GenerationValidationError } from "../generation-contract";
-import { callChatCompletion, ProviderError, type ProviderUsage } from "../model-provider";
+import { buildGroundingReviewPrompt, parseGroundingReview, GROUNDING_REVIEW_VERSION } from "../grounding-review";
+import { callChatCompletion, ProviderError, type ProviderUsage, type ChatMessage } from "../model-provider";
 import { readProviderConfig, type ProviderConfig } from "../provider-config";
 import type { PilotResult } from "../pilot-types";
 
 export const GENERATION_TIMEOUT_MS = 60_000;
-export const GENERATION_LEASE_MS = 90_000;
+export const GROUNDING_REVIEW_TIMEOUT_MS = 45_000;
+export const GENERATION_LEASE_MS = 135_000;
 const MAX_OUTPUT_TOKENS = 4096;
+const MAX_REVIEW_OUTPUT_TOKENS = 4096;
+const MAX_REQUEST_BYTES = 120_000;
 // This stable ledger ID is deliberately independent of release/prompt version.
 const BUDGET_ID = "private-source-grounded-trial";
 const HARD_ATTEMPTS = 20;
@@ -53,10 +57,26 @@ async function digest(value: string) {
   const bytes = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(value));
   return Array.from(new Uint8Array(bytes), (byte) => byte.toString(16).padStart(2, "0")).join("");
 }
-export function reservedMicroCny(messageBytes: number) {
-  return Math.ceil(((messageBytes + 4096) * INPUT_MICRO_CNY_PER_TOKEN + MAX_OUTPUT_TOKENS * OUTPUT_MICRO_CNY_PER_TOKEN) * 1.5);
+export function reservedMicroCny(messageBytes: number, maxOutputTokens = MAX_OUTPUT_TOKENS) {
+  return Math.ceil(((messageBytes + 4096) * INPUT_MICRO_CNY_PER_TOKEN + maxOutputTokens * OUTPUT_MICRO_CNY_PER_TOKEN) * 1.5);
 }
+function requestBytesFor(model: string, messages: ChatMessage[], maxTokens: number) {
+  return new TextEncoder().encode(JSON.stringify({ model, messages, max_tokens: maxTokens,
+    stream: true, stream_options: { include_usage: true }, response_format: { type: "json_object" },
+    chat_template_kwargs: { enable_thinking: true }, reasoning_effort: "low" })).byteLength;
+}
+function aggregateUsage(stages: (ProviderUsage | undefined)[]): ProviderUsage | undefined {
+  if (!stages.length) return undefined;
+  if (stages.some(usage => !usage?.reported || usage.inputTokens === null || usage.outputTokens === null)) {
+    return { inputTokens: null, outputTokens: null, totalTokens: null, reported: false };
+  }
+  const inputTokens = stages.reduce((sum, usage) => sum + usage!.inputTokens!, 0);
+  const outputTokens = stages.reduce((sum, usage) => sum + usage!.outputTokens!, 0);
+  return { inputTokens, outputTokens, totalTokens: inputTokens + outputTokens, reported: true };
+}
+class GroundingReviewValidationError extends Error {}
 const unavailable = (message: string): GenerationPayload => ({ kind: "unavailable", message });
+const reviewUnavailable = () => unavailable("The draft could not pass its source-support check, so it was not published. Please ask a more focused question or read a reviewed answer.");
 const processing = (): GenerationPayload => ({ kind: "processing", message: "An answer is being prepared from the selected sources.", retryAfterMs: 2000 });
 
 /** History recovery reads a stored result only; it can never start inference. */
@@ -106,9 +126,9 @@ export async function resolveGeneration(input: { sessionId: string; question: st
   const model = settings.provider.model;
   const prepared = buildGenerationPrompt(input.question, input.previousQuestion, input.previousAnswerText);
   if (!prepared.evidence.contextIds.length) return unavailable("I could not find relevant original passages in the currently indexed topics. Try a question about business evaluation, intrinsic value, owner earnings, or the circle of competence.");
-  const requestBytes = new TextEncoder().encode(JSON.stringify({ model, messages: prepared.messages, max_tokens: MAX_OUTPUT_TOKENS, stream: true, jsonObject: true })).byteLength;
-  if (requestBytes > 120_000) return unavailable("The relevant source material exceeds this trial's reading limit. Please ask a more focused question.");
-  const id = await digest(JSON.stringify([input.sessionId, input.question.normalize("NFKC").trim().toLowerCase().replace(/\s+/g, " "), input.previousQuestion ?? null, input.previousIdentity ?? null, input.previousAnswerText ?? null, prepared.evidence.bundleHash, GENERATION_PROMPT_VERSION, model]));
+  const requestBytes = requestBytesFor(model, prepared.messages, MAX_OUTPUT_TOKENS);
+  if (requestBytes > MAX_REQUEST_BYTES) return unavailable("The relevant source material exceeds this trial's reading limit. Please ask a more focused question.");
+  const id = await digest(JSON.stringify([input.sessionId, input.question.normalize("NFKC").trim().toLowerCase().replace(/\s+/g, " "), input.previousQuestion ?? null, input.previousIdentity ?? null, input.previousAnswerText ?? null, prepared.evidence.bundleHash, GENERATION_PROMPT_VERSION, GROUNDING_REVIEW_VERSION, MAX_REVIEW_OUTPUT_TOKENS, GROUNDING_REVIEW_TIMEOUT_MS, model]));
   if (input.onJob && !await input.onJob(id)) return processing();
   const db = getDb();
   const now = Date.now();
@@ -127,7 +147,10 @@ export async function resolveGeneration(input: { sessionId: string; question: st
       .where(and(eq(generationJobs.id, id), eq(generationJobs.state, "processing")));
     return failure;
   }
-  let usage: ProviderUsage | undefined;
+  let writerUsage: ProviderUsage | undefined;
+  let reviewerUsage: ProviderUsage | undefined;
+  let writerAttempted = false;
+  let reviewerAttempted = false;
   let failureCode: string | null = null;
   let result: GenerationPayload;
   try {
@@ -139,9 +162,10 @@ export async function resolveGeneration(input: { sessionId: string; question: st
       // Record the reservation before network. If this write fails, no call is
       // made and the global reservation remains conservatively consumed.
       await db.update(generationJobs).set({ reservedMicroCny: amount }).where(eq(generationJobs.id, id));
+      writerAttempted = true;
       const response = await callChatCompletion(settings.provider, { model, messages: prepared.messages,
         maxTokens: MAX_OUTPUT_TOKENS, timeoutMs: GENERATION_TIMEOUT_MS, stream: true, jsonObject: true, enableThinking: true, reasoningEffort: "low", signal: input.signal });
-      usage = response.usage;
+      writerUsage = response.usage;
       const parsed = parseGenerationResponse(response.text, prepared);
       if ("unavailable" in parsed) {
         // The model's free-form refusal is not citation-checked. Do not expose
@@ -159,17 +183,51 @@ export async function resolveGeneration(input: { sessionId: string; question: st
           item.before.length > MAX_QUOTE_PUNCTUATION_TEXT_LENGTH || item.after.length > MAX_QUOTE_PUNCTUATION_TEXT_LENGTH)) {
           throw new GenerationValidationError("length");
         }
-        result = { kind: "generated", answer: parsed.answer, references,
-          generation: { label: "AI-generated from selected sources", checks: parsed.checks.kind, humanReviewed: false,
-            scope: `Based on ${prepared.evidence.contextIds.length} selected original contexts in the indexed collection. Historical sources do not establish today's valuation or suitability.`, cached: false,
-            ...(normalizations.length ? { quotePunctuationNormalizations: normalizations.map(({ kind, before, after, referenceKey }) => ({ kind, before, after, referenceKey })) } : {}) } };
+        const reviewPrompt = buildGroundingReviewPrompt(input.question, parsed.answer, prepared);
+        const reviewBytes = requestBytesFor(model, reviewPrompt.messages, MAX_REVIEW_OUTPUT_TOKENS);
+        const reviewAmount = reservedMicroCny(reviewBytes, MAX_REVIEW_OUTPUT_TOKENS);
+        if (reviewBytes > MAX_REQUEST_BYTES) {
+          failureCode = "grounding_input_limit";
+          result = reviewUnavailable();
+        } else if (!await reserve(settings, reviewAmount)) {
+          failureCode = "grounding_budget";
+          result = unavailable("This private trial has insufficient shared allowance to check the draft against its sources. No answer was published. The reviewed answers remain available.");
+        } else {
+          // The review is a distinct paid attempt. Persist both reservations
+          // before sending; neither a failed review nor unknown usage refunds it.
+          await db.update(generationJobs).set({ reservedMicroCny: amount + reviewAmount }).where(eq(generationJobs.id, id));
+          reviewerAttempted = true;
+          const reviewed = await callChatCompletion(settings.provider, { model, messages: reviewPrompt.messages,
+            maxTokens: MAX_REVIEW_OUTPUT_TOKENS, timeoutMs: GROUNDING_REVIEW_TIMEOUT_MS, stream: true,
+            jsonObject: true, enableThinking: true, reasoningEffort: "low", signal: input.signal });
+          reviewerUsage = reviewed.usage;
+          let verdict;
+          try { verdict = parseGroundingReview(reviewed.text); }
+          catch { throw new GroundingReviewValidationError(); }
+          if (!verdict.supported || verdict.issues.length) {
+            failureCode = "grounding_rejected";
+            result = reviewUnavailable();
+          } else {
+            result = { kind: "generated", answer: parsed.answer, references,
+              generation: { label: "AI-generated from selected sources", checks: parsed.checks.kind, humanReviewed: false,
+                scope: `Based on ${prepared.evidence.contextIds.length} selected original contexts in the indexed collection. A separate automated pass checked source support; it may still miss errors and is not human review. Historical sources do not establish today's valuation or suitability.`, cached: false,
+                ...(normalizations.length ? { quotePunctuationNormalizations: normalizations.map(({ kind, before, after, referenceKey }) => ({ kind, before, after, referenceKey })) } : {}) } };
+          }
+        }
       }
     }
   } catch (error) {
-    if (error instanceof ProviderError) { usage = error.usage; failureCode = error.code; result = unavailable(`${error.message} No answer was published. Please rephrase the question to start a new attempt.`); }
+    if (error instanceof ProviderError) {
+      if (reviewerAttempted) reviewerUsage = error.usage;
+      else if (writerAttempted) writerUsage = error.usage;
+      failureCode = reviewerAttempted ? `grounding_${error.code}` : error.code;
+      result = reviewerAttempted ? reviewUnavailable() : unavailable(`${error.message} No answer was published. Please rephrase the question to start a new attempt.`);
+    }
+    else if (error instanceof GroundingReviewValidationError) { failureCode = "grounding_validation"; result = reviewUnavailable(); }
     else if (error instanceof GenerationValidationError) { failureCode = `validation_${error.code}`; result = unavailable("The draft did not pass its required citation and format checks, so it was not published. Please try a more focused question."); }
     else { failureCode = "internal"; result = unavailable("The answer could not be completed. No answer was published."); }
   }
+  const usage = aggregateUsage([...(writerAttempted ? [writerUsage] : []), ...(reviewerAttempted ? [reviewerUsage] : [])]);
   const [saved] = await db.update(generationJobs).set({ state: result.kind, responseJson: JSON.stringify(result), failureCode,
     inputTokens: usage?.inputTokens ?? null, outputTokens: usage?.outputTokens ?? null, usageReported: usage?.reported ?? false, finishedAt: Date.now() })
     .where(and(eq(generationJobs.id, id), eq(generationJobs.state, "processing"))).returning({ id: generationJobs.id });

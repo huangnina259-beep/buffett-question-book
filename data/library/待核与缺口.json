@@ -1,0 +1,553 @@
+{
+  "generated_at_utc": "2026-10-31T09:22:49.225668+00:00",
+  "sources_without_imported_body": [
+    {
+      "source_id": "cnbc-meeting-2025-morning",
+      "url": "https://buffett.cnbc.com/video/2025/05/05/morning-session---2025-meeting.html",
+      "status": "publisher_chapter_directory_only"
+    },
+    {
+      "source_id": "cnbc-meeting-2025-afternoon",
+      "url": "https://buffett.cnbc.com/video/2025/05/05/afternoon-session---2025-meeting.html",
+      "status": "publisher_chapter_directory_only"
+    },
+    {
+      "source_id": "columbia-superinvestors-1984",
+      "url": "https://business.columbia.edu/insights/chazen-global-insights/superinvestors-graham-and-doddsville",
+      "status": "retrieval_failed"
+    },
+    {
+      "source_id": "cnbc-interview-buffett-more-banks-may-fail-but-us-depositors-will-be-ok",
+      "url": "https://buffett.cnbc.com/video/2023/04/17/buffett-more-banks-may-fail-but-us-depositors-will-be-ok.html",
+      "status": "publisher_page_without_transcript"
+    },
+    {
+      "source_id": "cnbc-interview-buffett-coronavirus-threat-shouldnt-change-how-you-invest",
+      "url": "https://buffett.cnbc.com/video/2020/02/25/buffett-coronavirus-threat-shouldnt-change-how-you-invest.html",
+      "status": "publisher_page_without_transcript"
+    },
+    {
+      "source_id": "cnbc-interview-warren-buffett-stocks-are-ridiculously-cheap-if-rates-dont-move",
+      "url": "https://buffett.cnbc.com/video/2020/02/19/warren-buffett-stocks-are-ridiculously-cheap-if-rates-dont-move.html",
+      "status": "publisher_page_without_transcript"
+    },
+    {
+      "source_id": "cnbc-interview-warren-buffett-i-didnt-pull-the-trigger-for-berkshire-to-buy-amazon",
+      "url": "https://buffett.cnbc.com/video/2020/02/19/warren-buffett-i-didnt-pull-the-trigger-for-berkshire-to-buy-amazon.html",
+      "status": "publisher_page_without_transcript"
+    },
+    {
+      "source_id": "cnbc-interview-buffett-we-need-to-help-the-economys-roadkill",
+      "url": "https://buffett.cnbc.com/video/2019/04/18/buffett-we-need-to-help-the-economys-roadkill.html",
+      "status": "publisher_page_without_transcript"
+    },
+    {
+      "source_id": "cnbc-interview-buffett-i-was-wrong-on-kraft-heinz",
+      "url": "https://buffett.cnbc.com/video/2019/04/18/buffett-i-was-wrong-on-kraft-heinz.html",
+      "status": "publisher_page_without_transcript"
+    },
+    {
+      "source_id": "cnbc-interview-buffett-weve-bought-just-a-little-more-apple-and-bought-back-a-little-berkshire",
+      "url": "https://buffett.cnbc.com/video/2018/08/30/buffett-weve-bought-just-a-little-more-apple-and-bought-back-a-little-berkshire.html",
+      "status": "publisher_page_without_transcript"
+    },
+    {
+      "source_id": "cnbc-interview-buffett-remembers-the-2008-financial-crisis",
+      "url": "https://buffett.cnbc.com/video/2018/09/10/buffett-remembers-the-2008-financial-crisis.html",
+      "status": "publisher_page_without_transcript"
+    },
+    {
+      "source_id": "cnbc-interview-warren-buffett-and-jamie-dimon-say-companies-shouldnt-issue-earnings-forecasts",
+      "url": "https://buffett.cnbc.com/video/2018/06/06/warren-buffett-and-jamie-dimon-say-companies-shouldnt-issue-earnings-forecasts.html",
+      "status": "publisher_page_without_transcript"
+    },
+    {
+      "source_id": "cnbc-interview-buffett-full-interview-criticizing-the-cryptocurrency-craze",
+      "url": "https://buffett.cnbc.com/video/2018/05/07/buffett-full-interview-criticizing-the-cryptocurrency-craze.html",
+      "status": "publisher_page_without_transcript"
+    },
+    {
+      "source_id": "cnbc-interview-buffett-tells-cnbc-hes-boosting-apple-stake-by-13b-full-interview",
+      "url": "https://buffett.cnbc.com/video/2018/05/03/buffett-tells-cnbc-hes-boosting-apple-stake-by-13b-full-interview.html",
+      "status": "publisher_page_without_transcript"
+    },
+    {
+      "source_id": "cnbc-interview-buffett-recalls-his-early-days-as-an-investor",
+      "url": "https://buffett.cnbc.com/video/2019/04/18/buffett-recalls-his-early-days-as-an-investor.html",
+      "status": "publisher_page_without_transcript"
+    },
+    {
+      "source_id": "cnbc-interview-buffetts-health-care-partnership-is-determined-to-contain-costs-full-interview",
+      "url": "https://buffett.cnbc.com/video/2018/02/26/buffetts-health-care-partnership-is-determined-to-contain-costs-full-interview.html",
+      "status": "publisher_page_without_transcript"
+    },
+    {
+      "source_id": "cnbc-interview-buffett-sets-the-stage-for-ceo-succession--full-interview",
+      "url": "https://buffett.cnbc.com/video/2018/01/10/buffett-sets-the-stage-for-ceo-succession--full-interview.html",
+      "status": "publisher_page_without_transcript"
+    },
+    {
+      "source_id": "cnbc-interview-berkshires-pilot-flying-j-acquisition-full-buffett-interview",
+      "url": "https://buffett.cnbc.com/video/2017/10/03/berkshires-pilot-flying-j-acquisition-full-buffett-interview.html",
+      "status": "publisher_page_without_transcript"
+    },
+    {
+      "source_id": "cnbc-interview-buffett-i-was-wrong-on-ibm-full-interview",
+      "url": "https://buffett.cnbc.com/video/2017/08/30/buffett-i-was-wrong-on-ibm-full-interview.html",
+      "status": "publisher_page_without_transcript"
+    },
+    {
+      "source_id": "cnbc-interview-buffett-on-buying-apple-selling-ibm-missing-google-full-interview",
+      "url": "https://buffett.cnbc.com/video/2017/05/08/buffett-on-buying-apple-selling-ibm-missing-google-full-interview.html",
+      "status": "publisher_page_without_transcript"
+    },
+    {
+      "source_id": "cnbc-interview-buffett-buys-airlines-and-apple-full-interview",
+      "url": "https://buffett.cnbc.com/video/2017/02/27/buffett-buys-airlines-and-apple-full-interview.html",
+      "status": "publisher_page_without_transcript"
+    },
+    {
+      "source_id": "cnbc-interview-buffett-on-trump-vs-clinton-brexit-and-amazons-bezos-full-interview",
+      "url": "https://buffett.cnbc.com/video/2016/05/02/buffett-on-trump-vs-clinton-brexit-and-amazons-bezos-full-interview.html",
+      "status": "publisher_page_without_transcript"
+    },
+    {
+      "source_id": "cnbc-interview-buffett-and-munger-reveal-the-secrets-of-their-friendship-full-interview-",
+      "url": "https://buffett.cnbc.com/video/2016/05/02/buffett-and-munger-reveal-the-secrets-of-their-friendship-full-interview-.html",
+      "status": "publisher_page_without_transcript"
+    },
+    {
+      "source_id": "cnbc-interview-buffett-americas-never-been-greater-full-interview",
+      "url": "https://buffett.cnbc.com/video/2016/02/29/buffett-americas-never-been-greater-full-interview.html",
+      "status": "publisher_page_without_transcript"
+    },
+    {
+      "source_id": "cnbc-interview-buffett-defends-clayton-homes-and-berkshires-ibm-stake-full-interview",
+      "url": "https://buffett.cnbc.com/video/2015/05/04/buffett-defends-clayton-homes-and-berkshires-ibm-stake-full-interview.html",
+      "status": "publisher_page_without_transcript"
+    },
+    {
+      "source_id": "cnbc-interview-fifty-years-of-buffetts-berkshire-full-interview",
+      "url": "https://buffett.cnbc.com/video/2015/03/02/fifty-years-of-buffetts-berkshire-full-interview.html",
+      "status": "publisher_page_without_transcript"
+    },
+    {
+      "source_id": "cnbc-interview-buffett-well-never-want-to-go-to-war-with-coca-cola-full-interview",
+      "url": "https://buffett.cnbc.com/video/2014/05/05/buffett-well-never-want-to-go-to-war-with-coca-cola-full-interview.html",
+      "status": "publisher_page_without_transcript"
+    },
+    {
+      "source_id": "cnbc-interview-buffett-people-react-too-much-to-short-term-things-full-interview",
+      "url": "https://buffett.cnbc.com/video/2014/03/03/buffett-people-react-too-much-to-short-term-things-full-interview.html",
+      "status": "publisher_page_without_transcript"
+    },
+    {
+      "source_id": "cnbc-interview-buffett-sees-gradual-improvement-in-economy-full-interview",
+      "url": "https://buffett.cnbc.com/video/2013/05/06/buffett-sees-gradual-improvement-in-economy-full-interview.html",
+      "status": "publisher_page_without_transcript"
+    },
+    {
+      "source_id": "cnbc-interview-buffett-on-heinz-deal-weve-got-a-great-business-full-interview",
+      "url": "https://buffett.cnbc.com/video/2013/03/04/buffett-on-heinz-deal-weve-got-a-great-business-full-interview.html",
+      "status": "publisher_page_without_transcript"
+    },
+    {
+      "source_id": "cnbc-interview-buffett-no-question-the-global-economy-is-slowing-full-interview",
+      "url": "https://buffett.cnbc.com/video/2012/10/24/buffett-no-question-the-global-economy-is-slowing-full-interview.html",
+      "status": "publisher_page_without_transcript"
+    },
+    {
+      "source_id": "cnbc-interview-buffett-u-s-must-get-its-promises-in-line-with-its-capacity-full-interview",
+      "url": "https://buffett.cnbc.com/video/2012/07/12/buffett-u-s-must-get-its-promises-in-line-with-its-capacity-full-interview.html",
+      "status": "publisher_page_without_transcript"
+    },
+    {
+      "source_id": "cnbc-interview-buffett-class-b-stock-split-was-easy-decision-full-interview",
+      "url": "https://buffett.cnbc.com/video/2010/01/20/buffett-class-b-stock-split-was-easy-decision-full-interview.html",
+      "status": "publisher_page_without_transcript"
+    }
+  ],
+  "known_flagged_units": [
+    {
+      "unit_id": "berkshire-letter-2013:u0001",
+      "source_id": "berkshire-letter-2013",
+      "locator": {
+        "type": "pdf_page",
+        "page": 1,
+        "page_number_kind": "physical_pdf_page"
+      },
+      "extraction_alerts": [
+        "known_split_numeric_tokens_in_financial_table; verify digits against original PDF before quoting, numeric search or translation"
+      ],
+      "control_character_count": 0,
+      "default_search_eligible": true
+    },
+    {
+      "unit_id": "berkshire-letter-2013:u0015",
+      "source_id": "berkshire-letter-2013",
+      "locator": {
+        "type": "pdf_page",
+        "page": 15,
+        "page_number_kind": "physical_pdf_page"
+      },
+      "extraction_alerts": [
+        "known_split_numeric_tokens_in_financial_table; verify digits against original PDF before quoting, numeric search or translation"
+      ],
+      "control_character_count": 0,
+      "default_search_eligible": true
+    },
+    {
+      "unit_id": "berkshire-letter-2001:u0002",
+      "source_id": "berkshire-letter-2001",
+      "locator": {
+        "type": "pdf_page",
+        "page": 2,
+        "page_number_kind": "physical_pdf_page"
+      },
+      "extraction_alerts": [
+        "non_whitespace_control_characters_require_visual_check"
+      ],
+      "control_character_count": 23,
+      "default_search_eligible": true
+    },
+    {
+      "unit_id": "berkshire-letter-2001:u0003",
+      "source_id": "berkshire-letter-2001",
+      "locator": {
+        "type": "pdf_page",
+        "page": 3,
+        "page_number_kind": "physical_pdf_page"
+      },
+      "extraction_alerts": [
+        "non_whitespace_control_characters_require_visual_check"
+      ],
+      "control_character_count": 26,
+      "default_search_eligible": true
+    },
+    {
+      "unit_id": "berkshire-letter-2001:u0004",
+      "source_id": "berkshire-letter-2001",
+      "locator": {
+        "type": "pdf_page",
+        "page": 4,
+        "page_number_kind": "physical_pdf_page"
+      },
+      "extraction_alerts": [
+        "non_whitespace_control_characters_require_visual_check"
+      ],
+      "control_character_count": 13,
+      "default_search_eligible": true
+    },
+    {
+      "unit_id": "berkshire-letter-2001:u0005",
+      "source_id": "berkshire-letter-2001",
+      "locator": {
+        "type": "pdf_page",
+        "page": 5,
+        "page_number_kind": "physical_pdf_page"
+      },
+      "extraction_alerts": [
+        "non_whitespace_control_characters_require_visual_check"
+      ],
+      "control_character_count": 24,
+      "default_search_eligible": true
+    },
+    {
+      "unit_id": "berkshire-letter-2001:u0006",
+      "source_id": "berkshire-letter-2001",
+      "locator": {
+        "type": "pdf_page",
+        "page": 6,
+        "page_number_kind": "physical_pdf_page"
+      },
+      "extraction_alerts": [
+        "non_whitespace_control_characters_require_visual_check"
+      ],
+      "control_character_count": 16,
+      "default_search_eligible": true
+    },
+    {
+      "unit_id": "berkshire-letter-2001:u0007",
+      "source_id": "berkshire-letter-2001",
+      "locator": {
+        "type": "pdf_page",
+        "page": 7,
+        "page_number_kind": "physical_pdf_page"
+      },
+      "extraction_alerts": [
+        "non_whitespace_control_characters_require_visual_check"
+      ],
+      "control_character_count": 12,
+      "default_search_eligible": true
+    },
+    {
+      "unit_id": "berkshire-letter-2001:u0008",
+      "source_id": "berkshire-letter-2001",
+      "locator": {
+        "type": "pdf_page",
+        "page": 8,
+        "page_number_kind": "physical_pdf_page"
+      },
+      "extraction_alerts": [
+        "non_whitespace_control_characters_require_visual_check"
+      ],
+      "control_character_count": 24,
+      "default_search_eligible": true
+    },
+    {
+      "unit_id": "berkshire-letter-2001:u0009",
+      "source_id": "berkshire-letter-2001",
+      "locator": {
+        "type": "pdf_page",
+        "page": 9,
+        "page_number_kind": "physical_pdf_page"
+      },
+      "extraction_alerts": [
+        "non_whitespace_control_characters_require_visual_check"
+      ],
+      "control_character_count": 19,
+      "default_search_eligible": true
+    },
+    {
+      "unit_id": "berkshire-letter-2001:u0010",
+      "source_id": "berkshire-letter-2001",
+      "locator": {
+        "type": "pdf_page",
+        "page": 10,
+        "page_number_kind": "physical_pdf_page"
+      },
+      "extraction_alerts": [
+        "non_whitespace_control_characters_require_visual_check"
+      ],
+      "control_character_count": 49,
+      "default_search_eligible": true
+    },
+    {
+      "unit_id": "berkshire-letter-2001:u0011",
+      "source_id": "berkshire-letter-2001",
+      "locator": {
+        "type": "pdf_page",
+        "page": 11,
+        "page_number_kind": "physical_pdf_page"
+      },
+      "extraction_alerts": [
+        "non_whitespace_control_characters_require_visual_check"
+      ],
+      "control_character_count": 14,
+      "default_search_eligible": true
+    },
+    {
+      "unit_id": "berkshire-letter-2001:u0012",
+      "source_id": "berkshire-letter-2001",
+      "locator": {
+        "type": "pdf_page",
+        "page": 12,
+        "page_number_kind": "physical_pdf_page"
+      },
+      "extraction_alerts": [
+        "non_whitespace_control_characters_require_visual_check"
+      ],
+      "control_character_count": 21,
+      "default_search_eligible": true
+    },
+    {
+      "unit_id": "berkshire-letter-2001:u0013",
+      "source_id": "berkshire-letter-2001",
+      "locator": {
+        "type": "pdf_page",
+        "page": 13,
+        "page_number_kind": "physical_pdf_page"
+      },
+      "extraction_alerts": [
+        "non_whitespace_control_characters_require_visual_check"
+      ],
+      "control_character_count": 11,
+      "default_search_eligible": true
+    },
+    {
+      "unit_id": "berkshire-letter-2001:u0014",
+      "source_id": "berkshire-letter-2001",
+      "locator": {
+        "type": "pdf_page",
+        "page": 14,
+        "page_number_kind": "physical_pdf_page"
+      },
+      "extraction_alerts": [
+        "non_whitespace_control_characters_require_visual_check"
+      ],
+      "control_character_count": 17,
+      "default_search_eligible": true
+    },
+    {
+      "unit_id": "berkshire-letter-2001:u0015",
+      "source_id": "berkshire-letter-2001",
+      "locator": {
+        "type": "pdf_page",
+        "page": 15,
+        "page_number_kind": "physical_pdf_page"
+      },
+      "extraction_alerts": [
+        "non_whitespace_control_characters_require_visual_check"
+      ],
+      "control_character_count": 21,
+      "default_search_eligible": true
+    },
+    {
+      "unit_id": "berkshire-letter-2001:u0016",
+      "source_id": "berkshire-letter-2001",
+      "locator": {
+        "type": "pdf_page",
+        "page": 16,
+        "page_number_kind": "physical_pdf_page"
+      },
+      "extraction_alerts": [
+        "non_whitespace_control_characters_require_visual_check"
+      ],
+      "control_character_count": 9,
+      "default_search_eligible": true
+    },
+    {
+      "unit_id": "berkshire-letter-2010:u0022",
+      "source_id": "berkshire-letter-2010",
+      "locator": {
+        "type": "pdf_page",
+        "page": 22,
+        "page_number_kind": "physical_pdf_page"
+      },
+      "extraction_alerts": [
+        "sparse_page_text_requires_visual_check"
+      ],
+      "control_character_count": 0,
+      "default_search_eligible": true
+    },
+    {
+      "unit_id": "berkshire-letter-2014:u0011",
+      "source_id": "berkshire-letter-2014",
+      "locator": {
+        "type": "pdf_page",
+        "page": 11,
+        "page_number_kind": "physical_pdf_page"
+      },
+      "extraction_alerts": [
+        "non_whitespace_control_characters_require_visual_check"
+      ],
+      "control_character_count": 2,
+      "default_search_eligible": true
+    },
+    {
+      "unit_id": "berkshire-letter-2022:u0008",
+      "source_id": "berkshire-letter-2022",
+      "locator": {
+        "type": "pdf_page",
+        "page": 8,
+        "page_number_kind": "physical_pdf_page"
+      },
+      "extraction_alerts": [
+        "non_whitespace_control_characters_require_visual_check"
+      ],
+      "control_character_count": 7,
+      "default_search_eligible": true
+    },
+    {
+      "unit_id": "berkshire-letter-2022:u0009",
+      "source_id": "berkshire-letter-2022",
+      "locator": {
+        "type": "pdf_page",
+        "page": 9,
+        "page_number_kind": "physical_pdf_page"
+      },
+      "extraction_alerts": [
+        "non_whitespace_control_characters_require_visual_check"
+      ],
+      "control_character_count": 11,
+      "default_search_eligible": true
+    },
+    {
+      "unit_id": "nbc-brokaw-interview-date-unresolved:p021",
+      "source_id": "nbc-brokaw-interview-date-unresolved",
+      "locator": {
+        "type": "pdf_physical_page",
+        "page": 21
+      },
+      "extraction_alerts": [
+        "Independent rendered-page check found broken word/turn order in this pypdf extraction. Read the original PDF."
+      ],
+      "control_character_count": 0,
+      "default_search_eligible": false
+    }
+  ],
+  "next_original_language_work": [
+    "Resolve remaining PDF numeric spacing and table column order against original page images. Six approved page patches are isolated in reviewed-core; base extraction warnings remain.",
+    "Resolve remaining font mappings using original glyphs; preserve reviewed page-specific correction logs and do not guess replacements from context.",
+    "Review unlabelled meeting continuations and interview speaker turns before attribution or translation.",
+    "Review promotion of the independently checked Brokaw p21 reading layout into canonical extraction; verify date separately.",
+    "Complete provenance for early letters, partnership letters, speeches and other signed writings."
+  ],
+  "translation_started": false,
+  "all_units_translation_release_allowed": false,
+  "reading_layer_update": {
+    "sources": 56,
+    "mapped_original_units": 4098,
+    "manifest": "readability/manifest.json",
+    "notes": "Separate reading layout restores paragraphs, explicit interview labels and faithful table views. Canonical source records and original extraction are unchanged.",
+    "translation_started": false
+  },
+  "english_presentation": {
+    "catalog": "catalog.en.json",
+    "review": "audit/delivery/review-final.json",
+    "source_gap_evidence": "audit/delivery/source-gaps.json",
+    "note": "Canonical collection statuses are preserved. Current publisher availability and separately evidenced publication dates are described in the English presentation."
+  },
+  "speech_coverage_review": {
+    "coverage": "speech-coverage.html",
+    "data": "speech-coverage.json",
+    "evidence": "audit/speech-review/",
+    "note": "Base speech/article records are unchanged. The separate release adds an unverified Florida comparison transcript, a ten-chapter Georgia recording guide without captions, and complete derived Columbia publisher text. None is a new recording-verified speech transcript; original Columbia HTML archival remains blocked."
+  },
+  "base_scope_note": "sources_without_imported_body and known_flagged_units describe the preserved canonical base only. Main-library search remains limited to that base; separate derived captures and approved corrections do not overwrite these records.",
+  "reviewed_core_release": {
+    "entry": "reviewed-core/index.html",
+    "layer": "separate_from_preserved_base_catalog_and_main_search",
+    "reviewed_historical_claims": 12,
+    "complete_contexts": 4,
+    "context_paragraphs": 120,
+    "approved_page_patches": 6,
+    "logged_patch_operations": 66,
+    "approved_tables": 3,
+    "approved_table_rows": 74,
+    "new_material_status": {
+      "florida": "Third-party comparison transcript: 173 units, 24 pages; not verified against an authenticated recording.",
+      "georgia": "Recording guide with ten publisher chapter links; no captions or transcript imported.",
+      "columbia": "Complete derived publisher-text capture: 80 units and nine table regions; not archived original HTML/PDF, original table geometry unverified."
+    },
+    "review_scope": "Current release scope and review records are linked from the entry page. Earlier delivery and speech-review files retain their historical scope and are not approval of new material.",
+    "base_catalog_sources": 151,
+    "base_sources_with_imported_text": 118,
+    "translation_started": false,
+    "qa_answers_added": false,
+    "current_market_advice": false
+  },
+  "qa_pilot": {
+    "entry": "qa-pilot/index.html",
+    "manifest": "qa-pilot/manifest.json",
+    "review": "qa-pilot/audit/index.html",
+    "language": "English",
+    "status": "agent_reviewed_local_pilot",
+    "curated_answers": 5,
+    "evidence_records": 18,
+    "complete_contexts_used": 6,
+    "evidence_composition": {
+      "prior_reviewed_claims": 12,
+      "new_additional_claims": 5,
+      "questioner_records": 1
+    },
+    "search": "Local search of saved questions; separate from base-corpus search.",
+    "live_generation": false,
+    "source_grounded_practice": true,
+    "current_market_data_assessed": false,
+    "personalized_advice": false,
+    "translations": false,
+    "prior_reviewed_core_unchanged": true,
+    "scope_note": "Five saved examples with original evidence and historical qualifications. A questioner record is not a Buffett endorsement. Review scope is documented separately; this is not complete topic coverage."
+  }
+}

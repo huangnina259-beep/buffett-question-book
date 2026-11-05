@@ -1,0 +1,2964 @@
+{
+  "version": "portable-legacy-corpus-1",
+  "scope": "Original-byte corpus and minimal read-only retrieval dependencies; not a complete reader-site export or a semantic approval of all passages.",
+  "catalog_summary": {
+    "generated_at_utc": "2026-10-31T07:49:14.849011+00:00",
+    "source_count": 151,
+    "archived_originals": 150,
+    "sources_with_extracted_text": 118,
+    "text_units": 6313,
+    "duplicate_units_retained_but_excluded_from_default_search": 15,
+    "quarantined_units_excluded_from_default_search": 1,
+    "default_search_units": 6297,
+    "no_text_or_unavailable_sources": 33,
+    "kinds": {
+      "shareholder_letter": 48,
+      "special_letter": 1,
+      "shareholder_message": 1,
+      "owners_manual": 1,
+      "annual_meeting_session": 64,
+      "signed_article": 1,
+      "interview_candidate": 30,
+      "interview_transcript": 5
+    },
+    "cjk_text_units_for_inspection": [],
+    "translations_produced": 0,
+    "translation_stage": "deferred_by_user",
+    "full_semantic_review_completed": false,
+    "note": "Collection/extraction counts are not proof of complete corpus coverage or semantic accuracy."
+  },
+  "database": {
+    "compressed_path": "data/library/原文知识库.sqlite.gz",
+    "restored_path": "data/library/原文知识库.sqlite",
+    "original_bytes": 113729536,
+    "original_sha256": "8b50a4546a8425fc83f082b32a791849470d13769c1701fe1bae6b860d834bc8",
+    "compressed_bytes": 16652874,
+    "compressed_sha256": "3192163fbf1a6b70207ac30b3340a5ffe1822dd651f866e4c159ea2014e33eaf",
+    "compression": "gzip level 9; empty filename; mtime=0"
+  },
+  "raw_originals": {
+    "count": 150,
+    "bytes": 102510082,
+    "largest_bytes": 2443422,
+    "sources": [
+      {
+        "id": "berkshire-letter-1983",
+        "path": "letters/raw/berkshire-letter-1983.html",
+        "bytes": 79963,
+        "sha256": "3d74da78af60d748df810860af64100a52c8031f572e9f9411e42ab5afbd69a9",
+        "unit_count": 179
+      },
+      {
+        "id": "berkshire-letter-1996",
+        "path": "letters/raw/berkshire-letter-1996.html",
+        "bytes": 78056,
+        "sha256": "8518b0b6a2c2586cb46fe2507cf2bbf22ce3b557e9989e0ffe93d43e05980ced",
+        "unit_count": 158
+      },
+      {
+        "id": "berkshire-letter-2013",
+        "path": "letters/raw/berkshire-letter-2013.pdf",
+        "bytes": 257211,
+        "sha256": "ad24565997a09a1f7ef752da875161a24e025329510f3489afd912ff1e2673f5",
+        "unit_count": 23
+      },
+      {
+        "id": "berkshire-buffett-special-letter-2014",
+        "path": "letters/raw/berkshire-buffett-special-letter-2014.pdf",
+        "bytes": 80455,
+        "sha256": "a1a46b2e97b3e5a5f9fb37d14b472559e9ec0b7400ed1fc6c8b02227553fa558",
+        "unit_count": 15
+      },
+      {
+        "id": "berkshire-buffett-thanksgiving-2025",
+        "path": "letters/raw/berkshire-buffett-thanksgiving-2025.pdf",
+        "bytes": 325648,
+        "sha256": "be499afab992b9f77353b341efdcc2a01ce09ee702ad88dd24afb91a7f3b9316",
+        "unit_count": 8
+      },
+      {
+        "id": "berkshire-letter-1977",
+        "path": "letters/raw/berkshire-letter-1977.html",
+        "bytes": 21781,
+        "sha256": "ef4c39cbca16040bb824764eca719cd934ec62380e1b9c61396e2f483d07d9e0",
+        "unit_count": 41
+      },
+      {
+        "id": "berkshire-letter-1978",
+        "path": "letters/raw/berkshire-letter-1978.html",
+        "bytes": 30983,
+        "sha256": "71231697294a1a14b9283e23ffac6dfb63d7ef11c083dea2fb21019585606d01",
+        "unit_count": 55
+      },
+      {
+        "id": "berkshire-letter-1979",
+        "path": "letters/raw/berkshire-letter-1979.html",
+        "bytes": 45012,
+        "sha256": "4f66a3daa2236cdedecced3e9f58c2968a5f08840a2dc860da4c4659a96a7c8f",
+        "unit_count": 85
+      },
+      {
+        "id": "berkshire-letter-1980",
+        "path": "letters/raw/berkshire-letter-1980.html",
+        "bytes": 51554,
+        "sha256": "54ac7fa996187c7403daeca347a3067c093973b347ebf9da389865ec6c2a6d3f",
+        "unit_count": 103
+      },
+      {
+        "id": "berkshire-letter-1981",
+        "path": "letters/raw/berkshire-letter-1981.html",
+        "bytes": 47771,
+        "sha256": "cb53d5175e16316cb66edef22f21720994d27a9749357137e67a021f8a569d7c",
+        "unit_count": 101
+      },
+      {
+        "id": "berkshire-letter-1982",
+        "path": "letters/raw/berkshire-letter-1982.html",
+        "bytes": 55640,
+        "sha256": "239ef9651d75cf8124caf3c404d7c17e1c431fce3ab36aa962fc07bff07254c8",
+        "unit_count": 123
+      },
+      {
+        "id": "berkshire-letter-1984",
+        "path": "letters/raw/berkshire-letter-1984.html",
+        "bytes": 85836,
+        "sha256": "c1eea368a005ea4c26c5c32c47da48255ecf21bd15ec7d8af174e750d2e73ad8",
+        "unit_count": 149
+      },
+      {
+        "id": "berkshire-letter-1985",
+        "path": "letters/raw/berkshire-letter-1985.html",
+        "bytes": 90476,
+        "sha256": "081058f9b1a630da524f7ade4fccbd8d1f1cc5f04a1f0d7b9c58b9cc49770705",
+        "unit_count": 174
+      },
+      {
+        "id": "berkshire-letter-1986",
+        "path": "letters/raw/berkshire-letter-1986.html",
+        "bytes": 112247,
+        "sha256": "7a1c77d00cd18b0ce312eae72c95bf45c8da7d0169451f4ed67924dbff2562e8",
+        "unit_count": 297
+      },
+      {
+        "id": "berkshire-letter-1987",
+        "path": "letters/raw/berkshire-letter-1987.html",
+        "bytes": 82757,
+        "sha256": "88ea72481dcae5940e908f91646afb8f775cae542250d500fad2c3e28e5a58c0",
+        "unit_count": 181
+      },
+      {
+        "id": "berkshire-letter-1988",
+        "path": "letters/raw/berkshire-letter-1988.html",
+        "bytes": 77771,
+        "sha256": "0effa5b4934e404eebc8e1a50143b21026074f3f38e4761364b4e38bcb9ad16d",
+        "unit_count": 194
+      },
+      {
+        "id": "berkshire-letter-1989",
+        "path": "letters/raw/berkshire-letter-1989.html",
+        "bytes": 93861,
+        "sha256": "4dae70ca027a554a523a1de398cf7310e1cbdcc146c0cce74659931d57141afa",
+        "unit_count": 208
+      },
+      {
+        "id": "berkshire-letter-1990",
+        "path": "letters/raw/berkshire-letter-1990.html",
+        "bytes": 112607,
+        "sha256": "277b2f56fd79847abf6b2bc75420dfdc8630fdc5367c4b8b1abbdba48e956126",
+        "unit_count": 314
+      },
+      {
+        "id": "berkshire-letter-1991",
+        "path": "letters/raw/berkshire-letter-1991.html",
+        "bytes": 62912,
+        "sha256": "7ee3610bfdfb0c6dda9ffeab2f2c6590df70951452ad8c7ff435aaa4d5b55867",
+        "unit_count": 131
+      },
+      {
+        "id": "berkshire-letter-1992",
+        "path": "letters/raw/berkshire-letter-1992.html",
+        "bytes": 76201,
+        "sha256": "281218259801b95b4fad83f3e92a3e7bfbc15389b8f308b4f5992730f19cdde8",
+        "unit_count": 160
+      },
+      {
+        "id": "berkshire-letter-1993",
+        "path": "letters/raw/berkshire-letter-1993.html",
+        "bytes": 74941,
+        "sha256": "9490e7d60ebe644e1f9f717e07441dede038ebfa8c29b0f03c544407557fbf96",
+        "unit_count": 153
+      },
+      {
+        "id": "berkshire-letter-1994",
+        "path": "letters/raw/berkshire-letter-1994.html",
+        "bytes": 65391,
+        "sha256": "291a33c8e9c8e9ec636b2fa0b7ac8e81303c86551a1b3c2b3cb9f56296827f4c",
+        "unit_count": 144
+      },
+      {
+        "id": "berkshire-letter-1995",
+        "path": "letters/raw/berkshire-letter-1995.html",
+        "bytes": 77925,
+        "sha256": "b949efa183c1cc7120b8e8d8b095d4feed8ddb173b3c4fa1524b162dddd6ec4c",
+        "unit_count": 170
+      },
+      {
+        "id": "berkshire-letter-1997",
+        "path": "letters/raw/berkshire-letter-1997.html",
+        "bytes": 84889,
+        "sha256": "c756c7a76a810335932c9edb7a8b603c8877d39668886634e164fe52e8a2bcd2",
+        "unit_count": 173
+      },
+      {
+        "id": "berkshire-letter-1998",
+        "path": "letters/raw/berkshire-letter-1998.pdf",
+        "bytes": 78409,
+        "sha256": "1d798cda07b82e582643a0d9c0a5adf9a141f908426e666774fca9a592944941",
+        "unit_count": 17
+      },
+      {
+        "id": "berkshire-letter-1999",
+        "path": "letters/raw/berkshire-letter-1999.pdf",
+        "bytes": 90686,
+        "sha256": "cf6b22508de51e7ba96e61f1eee51e45d3a5aaf27182cf491fd3e0ca94089d3b",
+        "unit_count": 17
+      },
+      {
+        "id": "berkshire-letter-2000",
+        "path": "letters/raw/berkshire-letter-2000.pdf",
+        "bytes": 94218,
+        "sha256": "401a40b7011271dfc00c246a92aefd30887a6fdaf53ab0c8a1132b3d6c3078b9",
+        "unit_count": 20
+      },
+      {
+        "id": "berkshire-letter-2001",
+        "path": "letters/raw/berkshire-letter-2001.pdf",
+        "bytes": 213216,
+        "sha256": "50a79a227522a66ef79286a50ff9fb4b39dec5d025431dbb4ecedf126ad0caa0",
+        "unit_count": 18
+      },
+      {
+        "id": "berkshire-letter-2002",
+        "path": "letters/raw/berkshire-letter-2002.pdf",
+        "bytes": 187071,
+        "sha256": "50492594fa06be7ad895fce63e57f7aca14aab24ea0d70dc6ae2161c26953c90",
+        "unit_count": 22
+      },
+      {
+        "id": "berkshire-letter-2003",
+        "path": "letters/raw/berkshire-letter-2003.pdf",
+        "bytes": 200698,
+        "sha256": "207377b7b267bbf327cbc49da20dd749b564328b31e0224d70982b7885b5475e",
+        "unit_count": 22
+      },
+      {
+        "id": "berkshire-letter-2004",
+        "path": "letters/raw/berkshire-letter-2004.pdf",
+        "bytes": 613994,
+        "sha256": "d26d34d2e6b6f19e07844553069c4a113874749ae6317d5f4a33f0b11fb32768",
+        "unit_count": 25
+      },
+      {
+        "id": "berkshire-letter-2005",
+        "path": "letters/raw/berkshire-letter-2005.pdf",
+        "bytes": 541491,
+        "sha256": "e0c91795c8709ed2376ba67e5de5dbc2857d1bc15e3ed742bf6ac95f5850cc2b",
+        "unit_count": 22
+      },
+      {
+        "id": "berkshire-letter-2006",
+        "path": "letters/raw/berkshire-letter-2006.pdf",
+        "bytes": 495007,
+        "sha256": "f12c2abd96a052747157fcabd26f7ef5ab4df1c2747b1af8c42abd803e57a7b6",
+        "unit_count": 23
+      },
+      {
+        "id": "berkshire-letter-2007",
+        "path": "letters/raw/berkshire-letter-2007.pdf",
+        "bytes": 476332,
+        "sha256": "8288aa8a17b677ca1215c31ef0afb887d3f95dbb0e2241f77b54b51f0c3f7cfa",
+        "unit_count": 21
+      },
+      {
+        "id": "berkshire-letter-2008",
+        "path": "letters/raw/berkshire-letter-2008.pdf",
+        "bytes": 132043,
+        "sha256": "46920242cbb861fd844453d5e20edd8b0ecea977d85111cf2a7cfb249913c6cf",
+        "unit_count": 22
+      },
+      {
+        "id": "berkshire-letter-2009",
+        "path": "letters/raw/berkshire-letter-2009.pdf",
+        "bytes": 119109,
+        "sha256": "f53e845e58cf4cc34c78538c662a0aebcbd5689fda3f16eaa605a73fee3d31df",
+        "unit_count": 19
+      },
+      {
+        "id": "berkshire-letter-2010",
+        "path": "letters/raw/berkshire-letter-2010.pdf",
+        "bytes": 309592,
+        "sha256": "50425cd27fd39fa50a94256d9ff69e8c50b8d6d1b8935e5db9df0fd2bbdf76ad",
+        "unit_count": 27
+      },
+      {
+        "id": "berkshire-letter-2011",
+        "path": "letters/raw/berkshire-letter-2011.pdf",
+        "bytes": 129396,
+        "sha256": "6f5125e45c30007cd3188092cd59d339c7d8266b2f6c8e87387ad397ac1c0083",
+        "unit_count": 21
+      },
+      {
+        "id": "berkshire-letter-2012",
+        "path": "letters/raw/berkshire-letter-2012.pdf",
+        "bytes": 136334,
+        "sha256": "a14b3a546e903974dc654e10213316f75bfa0a8b6e038dc673e8602bce225573",
+        "unit_count": 23
+      },
+      {
+        "id": "berkshire-letter-2014",
+        "path": "letters/raw/berkshire-letter-2014.pdf",
+        "bytes": 362079,
+        "sha256": "dd00248b32ad1f67234bb4dba66755bf45a623bd94e40465a2a88707b73cd426",
+        "unit_count": 42
+      },
+      {
+        "id": "berkshire-letter-2015",
+        "path": "letters/raw/berkshire-letter-2015.pdf",
+        "bytes": 2443422,
+        "sha256": "139d8db9c20f0f86316e4b815fdc86687985c7adcdbdd70605a188bcc804cde7",
+        "unit_count": 30
+      },
+      {
+        "id": "berkshire-letter-2016",
+        "path": "letters/raw/berkshire-letter-2016.pdf",
+        "bytes": 154712,
+        "sha256": "b8096f989e52bab3f18ad6ea7902891ddc038868df5437b89653719c79348d18",
+        "unit_count": 28
+      },
+      {
+        "id": "berkshire-letter-2017",
+        "path": "letters/raw/berkshire-letter-2017.pdf",
+        "bytes": 87641,
+        "sha256": "0b170cb5984255970c617cae0f7c575ea03c280ae00eeb77193d03e6195c6650",
+        "unit_count": 16
+      },
+      {
+        "id": "berkshire-letter-2018",
+        "path": "letters/raw/berkshire-letter-2018.pdf",
+        "bytes": 77566,
+        "sha256": "0e6531e162fcbc5ecb9c771dd468be1f0e06ff895ed38a26765e1338dbc4b3bd",
+        "unit_count": 14
+      },
+      {
+        "id": "berkshire-letter-2019",
+        "path": "letters/raw/berkshire-letter-2019.pdf",
+        "bytes": 76466,
+        "sha256": "d6df1c022f6bac02f430887ce59cfd0cf8945f69afe60f9c2e84d03dd4e67173",
+        "unit_count": 13
+      },
+      {
+        "id": "berkshire-letter-2020",
+        "path": "letters/raw/berkshire-letter-2020.pdf",
+        "bytes": 78896,
+        "sha256": "e556a52b8d4dc490d04c5f34bab98708d414cf1f632d9f68671d5a5c645afca5",
+        "unit_count": 14
+      },
+      {
+        "id": "berkshire-letter-2021",
+        "path": "letters/raw/berkshire-letter-2021.pdf",
+        "bytes": 64117,
+        "sha256": "fd5687aec746816b08113e9ccf8c4826eaa258906e66f7b4abe90c8b4f8b30ba",
+        "unit_count": 11
+      },
+      {
+        "id": "berkshire-letter-2022",
+        "path": "letters/raw/berkshire-letter-2022.pdf",
+        "bytes": 55589,
+        "sha256": "a99f263003295b177e8c50ec34f2307093857a357276527e98d5a6205e21a908",
+        "unit_count": 10
+      },
+      {
+        "id": "berkshire-letter-2023",
+        "path": "letters/raw/berkshire-letter-2023.pdf",
+        "bytes": 122415,
+        "sha256": "829169be21f4ce05202720fe5645cc1b9a5b1ae20bf5e6ebaff987349766eafd",
+        "unit_count": 16
+      },
+      {
+        "id": "berkshire-letter-2024",
+        "path": "letters/raw/berkshire-letter-2024.pdf",
+        "bytes": 64860,
+        "sha256": "ff21ab9407dec219757587b6ce6a1bf30e59cfff15bb21e81d1faaec7f97a8a7",
+        "unit_count": 15
+      },
+      {
+        "id": "berkshire-owner-manual",
+        "path": "letters/raw/berkshire-owner-manual.pdf",
+        "bytes": 60199,
+        "sha256": "6f649d6fc71976bbe5f8ce954ffe40d2fb6f13cc209c06eea05b2b96dc2d41db",
+        "unit_count": 6
+      },
+      {
+        "id": "cnbc-meeting-1994-morning",
+        "path": "meetings/raw/cnbc-meeting-1994-morning.html",
+        "bytes": 1294489,
+        "sha256": "04ba88cbeb72b71236e6fa40aecefeffc998fa62b1c56dea0796d9da76447b6c",
+        "unit_count": 64
+      },
+      {
+        "id": "cnbc-meeting-1994-afternoon",
+        "path": "meetings/raw/cnbc-meeting-1994-afternoon.html",
+        "bytes": 603657,
+        "sha256": "16f575ef9cf25591070bc1bfb53806464755a3d140893d4cba6c85341bdd0681",
+        "unit_count": 25
+      },
+      {
+        "id": "cnbc-meeting-1995-morning",
+        "path": "meetings/raw/cnbc-meeting-1995-morning.html",
+        "bytes": 1172506,
+        "sha256": "c562d89a0ad097d990f15698b9b2438bec77047078fc3aa291daa1ee9f545cdf",
+        "unit_count": 33
+      },
+      {
+        "id": "cnbc-meeting-1995-afternoon",
+        "path": "meetings/raw/cnbc-meeting-1995-afternoon.html",
+        "bytes": 1208213,
+        "sha256": "681cbe14a815dca05e4d8106791c0b164d5dde908da4d77046e187bb5ed17f37",
+        "unit_count": 50
+      },
+      {
+        "id": "cnbc-meeting-1996-morning",
+        "path": "meetings/raw/cnbc-meeting-1996-morning.html",
+        "bytes": 1274022,
+        "sha256": "34dc9ef56cf148644e34f24e7155ee45a0ff2b20b7b4dbd3a9942cd071e75a88",
+        "unit_count": 45
+      },
+      {
+        "id": "cnbc-meeting-1996-afternoon",
+        "path": "meetings/raw/cnbc-meeting-1996-afternoon.html",
+        "bytes": 1214173,
+        "sha256": "4dd74ae26ee6dad43ad98b12938b11dcb347bb215bafb552428572b5f35e77ef",
+        "unit_count": 41
+      },
+      {
+        "id": "cnbc-meeting-1997-morning",
+        "path": "meetings/raw/cnbc-meeting-1997-morning.html",
+        "bytes": 1147652,
+        "sha256": "fb6620067dc169a7499bbee33b2345f5c9aa7e55ec0f41f91c6493d4d90066c7",
+        "unit_count": 34
+      },
+      {
+        "id": "cnbc-meeting-1997-afternoon",
+        "path": "meetings/raw/cnbc-meeting-1997-afternoon.html",
+        "bytes": 1362913,
+        "sha256": "4e9fbbf7d069c74ddfbde38721b7123ec52146d6e5ec7cb60b88760b8a3ef85f",
+        "unit_count": 41
+      },
+      {
+        "id": "cnbc-meeting-1998-morning",
+        "path": "meetings/raw/cnbc-meeting-1998-morning.html",
+        "bytes": 1293391,
+        "sha256": "88003d04663024388e7bbd888dc098ac167884601a26e813f9170cd6b17a1bff",
+        "unit_count": 56
+      },
+      {
+        "id": "cnbc-meeting-1998-afternoon",
+        "path": "meetings/raw/cnbc-meeting-1998-afternoon.html",
+        "bytes": 1407040,
+        "sha256": "09023725652764529d729b77dcf6ce4b50d18dc9e86fc7ccd8939f8a35cbbea4",
+        "unit_count": 58
+      },
+      {
+        "id": "cnbc-meeting-1999-morning",
+        "path": "meetings/raw/cnbc-meeting-1999-morning.html",
+        "bytes": 1260996,
+        "sha256": "72dc695661edf91bc9e57d1e2bbc64ecbb9f4890a34fab1c2adc8c07adbcfd5f",
+        "unit_count": 45
+      },
+      {
+        "id": "cnbc-meeting-1999-afternoon",
+        "path": "meetings/raw/cnbc-meeting-1999-afternoon.html",
+        "bytes": 1250565,
+        "sha256": "40523fe6ec4536ec2b59720bdb307ca5d5da2d4922f3179f7749d8b8d915e688",
+        "unit_count": 35
+      },
+      {
+        "id": "cnbc-meeting-2000-morning",
+        "path": "meetings/raw/cnbc-meeting-2000-morning.html",
+        "bytes": 1102203,
+        "sha256": "d7abdc80a12e43e566b6d4199ebab110fade8e5d451f341c44ce6ea16aa8fa68",
+        "unit_count": 23
+      },
+      {
+        "id": "cnbc-meeting-2000-afternoon",
+        "path": "meetings/raw/cnbc-meeting-2000-afternoon.html",
+        "bytes": 1273868,
+        "sha256": "f2182b4004881aa2575026429abeedd1fff5c17d39af0ceeb947b50672da116e",
+        "unit_count": 40
+      },
+      {
+        "id": "cnbc-meeting-2001-morning",
+        "path": "meetings/raw/cnbc-meeting-2001-morning.html",
+        "bytes": 1143126,
+        "sha256": "3ba3d29b146ac709a0c5341aa812d34878d1b8f9da1f5c83bf5827faf5e5d242",
+        "unit_count": 34
+      },
+      {
+        "id": "cnbc-meeting-2001-afternoon",
+        "path": "meetings/raw/cnbc-meeting-2001-afternoon.html",
+        "bytes": 1249147,
+        "sha256": "1c55a69b624540b9c420b2db2ede4876e541b0871042ab36ae0281dc89774bcf",
+        "unit_count": 38
+      },
+      {
+        "id": "cnbc-meeting-2002-morning",
+        "path": "meetings/raw/cnbc-meeting-2002-morning.html",
+        "bytes": 1282004,
+        "sha256": "387f34918b716dbe5dc2fe72b6abe22d94063f1012b93b6ae93f7f4566cfdcc7",
+        "unit_count": 30
+      },
+      {
+        "id": "cnbc-meeting-2002-afternoon",
+        "path": "meetings/raw/cnbc-meeting-2002-afternoon.html",
+        "bytes": 1279166,
+        "sha256": "0c0a56f279f90bfcee56f7918df7d7dfef17194e0e2901bbf0acec0d1cb9126b",
+        "unit_count": 36
+      },
+      {
+        "id": "cnbc-meeting-2003-morning",
+        "path": "meetings/raw/cnbc-meeting-2003-morning.html",
+        "bytes": 1232625,
+        "sha256": "d1fc34c966001ecd722e99789c91a7e23042e2eb7282e6ab93eb3556c23ebb98",
+        "unit_count": 39
+      },
+      {
+        "id": "cnbc-meeting-2003-afternoon",
+        "path": "meetings/raw/cnbc-meeting-2003-afternoon.html",
+        "bytes": 1285208,
+        "sha256": "da30ac8c3b5bb527c649e7639767be10375c6ef534eb85a0e691ffcce3d00b4d",
+        "unit_count": 37
+      },
+      {
+        "id": "cnbc-meeting-2004-morning",
+        "path": "meetings/raw/cnbc-meeting-2004-morning.html",
+        "bytes": 1147755,
+        "sha256": "9046d8db284afbe0d2fd6a27315408c864ea17b08eb52378deea911b0fc59a2d",
+        "unit_count": 32
+      },
+      {
+        "id": "cnbc-meeting-2004-afternoon",
+        "path": "meetings/raw/cnbc-meeting-2004-afternoon.html",
+        "bytes": 1191772,
+        "sha256": "deeca3d138e99fc849178849d602496b5eca1679b1fa0c92c708f932df915708",
+        "unit_count": 33
+      },
+      {
+        "id": "cnbc-meeting-2005-morning",
+        "path": "meetings/raw/cnbc-meeting-2005-morning.html",
+        "bytes": 1166644,
+        "sha256": "17e6cc0b049ddd0f217757c05c9faf2c3cad749d943b50480601181d51a644ca",
+        "unit_count": 31
+      },
+      {
+        "id": "cnbc-meeting-2005-afternoon",
+        "path": "meetings/raw/cnbc-meeting-2005-afternoon.html",
+        "bytes": 1049858,
+        "sha256": "cc079b9ad8eaa9e2214978178203f4fd9bd1ccef588ae4f296e4be7b52b607b9",
+        "unit_count": 32
+      },
+      {
+        "id": "cnbc-meeting-2006-morning",
+        "path": "meetings/raw/cnbc-meeting-2006-morning.html",
+        "bytes": 1134962,
+        "sha256": "e1be7f41c5cdbc61f4de00de9cf5f1e55d06da83c2449850c8c2959a3e29c1b1",
+        "unit_count": 30
+      },
+      {
+        "id": "cnbc-meeting-2006-afternoon",
+        "path": "meetings/raw/cnbc-meeting-2006-afternoon.html",
+        "bytes": 1015315,
+        "sha256": "22368986ddfef0b38531e087c98b42cfa09bcfada885db13eec7c6d9ab2fa851",
+        "unit_count": 27
+      },
+      {
+        "id": "cnbc-meeting-2007-morning",
+        "path": "meetings/raw/cnbc-meeting-2007-morning.html",
+        "bytes": 1157341,
+        "sha256": "dd06e6f0ba150350dc58b74eb314e1ea57ca865d491beaf7d7b391b128c6b081",
+        "unit_count": 28
+      },
+      {
+        "id": "cnbc-meeting-2007-afternoon",
+        "path": "meetings/raw/cnbc-meeting-2007-afternoon.html",
+        "bytes": 1294426,
+        "sha256": "5a5c8832ab8bccb7aee6e9754219ac16a926db169acdc48a1a6193e1db51921e",
+        "unit_count": 35
+      },
+      {
+        "id": "cnbc-meeting-2008-morning",
+        "path": "meetings/raw/cnbc-meeting-2008-morning.html",
+        "bytes": 1170899,
+        "sha256": "7e4426174294cd2dd301fc696de70ceb956ce2e96f0c07ae037707077d7fdc14",
+        "unit_count": 36
+      },
+      {
+        "id": "cnbc-meeting-2008-afternoon",
+        "path": "meetings/raw/cnbc-meeting-2008-afternoon.html",
+        "bytes": 1059615,
+        "sha256": "bf8c228289f2e781a3bcf84d07d24b0cb748b0ae239f5e9ffe8dba577a0bf60d",
+        "unit_count": 35
+      },
+      {
+        "id": "cnbc-meeting-2009-morning",
+        "path": "meetings/raw/cnbc-meeting-2009-morning.html",
+        "bytes": 1272135,
+        "sha256": "6455799838e9edc4eb17168135ae5731eb19cef8e5ff3ac4db9902fb42b8d73f",
+        "unit_count": 37
+      },
+      {
+        "id": "cnbc-meeting-2009-afternoon",
+        "path": "meetings/raw/cnbc-meeting-2009-afternoon.html",
+        "bytes": 1097873,
+        "sha256": "6cb4db629439137d5136a48a06e7480cfaa027ec82b0721b6c2d73473064de84",
+        "unit_count": 37
+      },
+      {
+        "id": "cnbc-meeting-2010-morning",
+        "path": "meetings/raw/cnbc-meeting-2010-morning.html",
+        "bytes": 1166908,
+        "sha256": "bfbcc9aee76c385ce3d9e9c9c48a5d57db0481635387c08a9b0839f423801ed9",
+        "unit_count": 31
+      },
+      {
+        "id": "cnbc-meeting-2010-afternoon",
+        "path": "meetings/raw/cnbc-meeting-2010-afternoon.html",
+        "bytes": 1227805,
+        "sha256": "6e6188034ddc83877bee9af30c548b9053cfe9dc7ac46160a30f3631e632d117",
+        "unit_count": 36
+      },
+      {
+        "id": "cnbc-meeting-2011-morning",
+        "path": "meetings/raw/cnbc-meeting-2011-morning.html",
+        "bytes": 1057291,
+        "sha256": "7aa4d8b02153c89ec51fc39b3cfc84ba0af7778f9d6dc6cba33cb9ff80919d11",
+        "unit_count": 25
+      },
+      {
+        "id": "cnbc-meeting-2011-afternoon",
+        "path": "meetings/raw/cnbc-meeting-2011-afternoon.html",
+        "bytes": 1381454,
+        "sha256": "bbbf932d783a259bc319d347b7e4109af5f2f9a20bbe2a507db7d2dc1e921f2f",
+        "unit_count": 44
+      },
+      {
+        "id": "cnbc-meeting-2012-morning",
+        "path": "meetings/raw/cnbc-meeting-2012-morning.html",
+        "bytes": 1198681,
+        "sha256": "06c5b91b427b23cb09b2b250447952b009f6f940e24072f3b527fc40c1e41ae0",
+        "unit_count": 40
+      },
+      {
+        "id": "cnbc-meeting-2012-afternoon",
+        "path": "meetings/raw/cnbc-meeting-2012-afternoon.html",
+        "bytes": 1252933,
+        "sha256": "6ea71700da0880f52b35b334f6afd1432dc08c31d6c9b446c82288726b28bc8a",
+        "unit_count": 38
+      },
+      {
+        "id": "cnbc-meeting-2013-morning",
+        "path": "meetings/raw/cnbc-meeting-2013-morning.html",
+        "bytes": 1270313,
+        "sha256": "81a16efa981b36851df8fa9a323cb19f0b35301e3a8179ae40f6d7045f90ce0f",
+        "unit_count": 44
+      },
+      {
+        "id": "cnbc-meeting-2013-afternoon",
+        "path": "meetings/raw/cnbc-meeting-2013-afternoon.html",
+        "bytes": 1118479,
+        "sha256": "139640c2e4d1c806edb9b4892d7499f18d1ba1d0184798ea50dfb6355bf0d70f",
+        "unit_count": 32
+      },
+      {
+        "id": "cnbc-meeting-2014-morning",
+        "path": "meetings/raw/cnbc-meeting-2014-morning.html",
+        "bytes": 1246730,
+        "sha256": "b61d69a10db4766067b885a4aadcb7630e605c76d0c5d0189cd4d41c71fbdfd5",
+        "unit_count": 38
+      },
+      {
+        "id": "cnbc-meeting-2014-afternoon",
+        "path": "meetings/raw/cnbc-meeting-2014-afternoon.html",
+        "bytes": 1275065,
+        "sha256": "081ede52f52ae6fb609a6dc39b45f763c217cf80d289de64ef7b67f66bbd4f10",
+        "unit_count": 41
+      },
+      {
+        "id": "cnbc-meeting-2015-morning",
+        "path": "meetings/raw/cnbc-meeting-2015-morning.html",
+        "bytes": 1211354,
+        "sha256": "e55ac1a10526ad10bd3a244057abe4b2f6eff3907b08a7367cb95d664dd3370f",
+        "unit_count": 41
+      },
+      {
+        "id": "cnbc-meeting-2015-afternoon",
+        "path": "meetings/raw/cnbc-meeting-2015-afternoon.html",
+        "bytes": 1265837,
+        "sha256": "c062d4c128b39ab6b710d497f8ef770076593752e3510756ac9ba59a3d4e9ed5",
+        "unit_count": 41
+      },
+      {
+        "id": "cnbc-meeting-2016-morning",
+        "path": "meetings/raw/cnbc-meeting-2016-morning.html",
+        "bytes": 1042278,
+        "sha256": "8599c74a1b78a4c804e2c8c33454088302f4103113c6f9024b63948dc4627e81",
+        "unit_count": 29
+      },
+      {
+        "id": "cnbc-meeting-2016-afternoon",
+        "path": "meetings/raw/cnbc-meeting-2016-afternoon.html",
+        "bytes": 1337635,
+        "sha256": "144d20a2db1c5b49ce51082d28d1e21879473ae8bdc3ab6b105d36241180015d",
+        "unit_count": 38
+      },
+      {
+        "id": "cnbc-meeting-2017-morning",
+        "path": "meetings/raw/cnbc-meeting-2017-morning.html",
+        "bytes": 1381074,
+        "sha256": "6a0be7d1fcd246e662139482865cc47e528030376c9625132f24f7ed8cb10f97",
+        "unit_count": 37
+      },
+      {
+        "id": "cnbc-meeting-2017-afternoon",
+        "path": "meetings/raw/cnbc-meeting-2017-afternoon.html",
+        "bytes": 1352901,
+        "sha256": "a88aaddd2de537e14f928749de324db42ed27100369ad6e3c1fa0e6b2e8ef37a",
+        "unit_count": 37
+      },
+      {
+        "id": "cnbc-meeting-2018-morning",
+        "path": "meetings/raw/cnbc-meeting-2018-morning.html",
+        "bytes": 1116262,
+        "sha256": "5f853a18419003d4a960d7c1fe5d5a0e87b37452f5abcbeec558543627b68020",
+        "unit_count": 32
+      },
+      {
+        "id": "cnbc-meeting-2018-afternoon",
+        "path": "meetings/raw/cnbc-meeting-2018-afternoon.html",
+        "bytes": 1190889,
+        "sha256": "34d9e769737fefee976f15d3a2f21ec41641ced10eff766a71b7b992f35f8eb4",
+        "unit_count": 33
+      },
+      {
+        "id": "cnbc-meeting-2019-morning",
+        "path": "meetings/raw/cnbc-meeting-2019-morning.html",
+        "bytes": 1066774,
+        "sha256": "e1fb990b2ce6549883dc9ec3335ae463a81b7fd53a2d84db78feab2bbe1c6116",
+        "unit_count": 33
+      },
+      {
+        "id": "cnbc-meeting-2019-afternoon",
+        "path": "meetings/raw/cnbc-meeting-2019-afternoon.html",
+        "bytes": 1149148,
+        "sha256": "d8081a519cf9e84db546261c307eb86b0a0575ae0b29fb96c12e7f8a281c4a9d",
+        "unit_count": 34
+      },
+      {
+        "id": "cnbc-meeting-2020-part-1",
+        "path": "meetings/raw/cnbc-meeting-2020-part-1.html",
+        "bytes": 772684,
+        "sha256": "6dd9c238ab6e6acf83b2645e826a3066d377688de44cb4ec864212f5df6cd397",
+        "unit_count": 27
+      },
+      {
+        "id": "cnbc-meeting-2020-part-2",
+        "path": "meetings/raw/cnbc-meeting-2020-part-2.html",
+        "bytes": 1073910,
+        "sha256": "0095ff08b8c1756a29ee32047bac371881a512c092f34e163d6d477795a8e75f",
+        "unit_count": 37
+      },
+      {
+        "id": "cnbc-meeting-2021-part-1",
+        "path": "meetings/raw/cnbc-meeting-2021-part-1.html",
+        "bytes": 957605,
+        "sha256": "a795e9b13faee23362223d3e98cdc5cdba8735c523e26e101959ef43990a9d27",
+        "unit_count": 31
+      },
+      {
+        "id": "cnbc-meeting-2021-part-2",
+        "path": "meetings/raw/cnbc-meeting-2021-part-2.html",
+        "bytes": 1057172,
+        "sha256": "a2aba5facc32e24279029526009053bc0962dd94a7f618abb30bfd13b9690b67",
+        "unit_count": 43
+      },
+      {
+        "id": "cnbc-meeting-2022-morning",
+        "path": "meetings/raw/cnbc-meeting-2022-morning.html",
+        "bytes": 1085207,
+        "sha256": "2f849f945f752967c4050a13d2fa6e09223f04116998b0fdcaccf8545a5245cc",
+        "unit_count": 26
+      },
+      {
+        "id": "cnbc-meeting-2022-afternoon",
+        "path": "meetings/raw/cnbc-meeting-2022-afternoon.html",
+        "bytes": 1256459,
+        "sha256": "83d5656f1fc012977397b23398581051581ba4032164e73dde5c4087a113b3f3",
+        "unit_count": 26
+      },
+      {
+        "id": "cnbc-meeting-2023-morning",
+        "path": "meetings/raw/cnbc-meeting-2023-morning.html",
+        "bytes": 1012788,
+        "sha256": "b241e5750a9cac68016f4c060cbafec598ce428ab6059becbbaee0fee629a0fa",
+        "unit_count": 32
+      },
+      {
+        "id": "cnbc-meeting-2023-afternoon",
+        "path": "meetings/raw/cnbc-meeting-2023-afternoon.html",
+        "bytes": 1013602,
+        "sha256": "241fa13e5d59b8ad72e88f2ff483c516d063493a265361bff1c8083cff722cb6",
+        "unit_count": 25
+      },
+      {
+        "id": "cnbc-meeting-2024-morning",
+        "path": "meetings/raw/cnbc-meeting-2024-morning.html",
+        "bytes": 1133154,
+        "sha256": "ae79fd81051b9f38bf337f97a9d91147d700beef8d1a49da383357caed154442",
+        "unit_count": 28
+      },
+      {
+        "id": "cnbc-meeting-2024-afternoon",
+        "path": "meetings/raw/cnbc-meeting-2024-afternoon.html",
+        "bytes": 853076,
+        "sha256": "a1a5d30055b6b83ef1f889933eb6b09de5299a2697bf47622d0568890641e9ba",
+        "unit_count": 19
+      },
+      {
+        "id": "cnbc-meeting-2025-morning",
+        "path": "meetings/raw/cnbc-meeting-2025-morning.html",
+        "bytes": 446782,
+        "sha256": "3cfe5274284259eb766c4ddf77faa0dc29794a4c4fb7742b7a5987b98c2f7dce",
+        "unit_count": 0
+      },
+      {
+        "id": "cnbc-meeting-2025-afternoon",
+        "path": "meetings/raw/cnbc-meeting-2025-afternoon.html",
+        "bytes": 443581,
+        "sha256": "571e3c854cbf5acc7f038d951ae01be39093d59e7b397bdbe1d4c9a6b148caf4",
+        "unit_count": 0
+      },
+      {
+        "id": "cnbc-interview-buffett-more-banks-may-fail-but-us-depositors-will-be-ok",
+        "path": "supplemental/原始下载/cnbc-interview-buffett-more-banks-may-fail-but-us-depositors-will-be-ok.html",
+        "bytes": 523760,
+        "sha256": "d1d853588d70febec015293850bf1a5536523384d4320d23b412df4b47b67bea",
+        "unit_count": 0
+      },
+      {
+        "id": "cnbc-interview-buffett-coronavirus-threat-shouldnt-change-how-you-invest",
+        "path": "supplemental/原始下载/cnbc-interview-buffett-coronavirus-threat-shouldnt-change-how-you-invest.html",
+        "bytes": 524407,
+        "sha256": "2c574fd2fc9db9269f2badc6376b98233425259b103b898eb1999ce959dc6afd",
+        "unit_count": 0
+      },
+      {
+        "id": "cnbc-interview-warren-buffett-stocks-are-ridiculously-cheap-if-rates-dont-move",
+        "path": "supplemental/原始下载/cnbc-interview-warren-buffett-stocks-are-ridiculously-cheap-if-rates-dont-move.html",
+        "bytes": 526177,
+        "sha256": "62f74c6675f7eaa636ed4abb3ddb59c6e329a069d6fb60944718a517ee308680",
+        "unit_count": 0
+      },
+      {
+        "id": "cnbc-interview-warren-buffett-i-didnt-pull-the-trigger-for-berkshire-to-buy-amazon",
+        "path": "supplemental/原始下载/cnbc-interview-warren-buffett-i-didnt-pull-the-trigger-for-berkshire-to-buy-amazon.html",
+        "bytes": 527704,
+        "sha256": "008b7fa76a5e6a04c98f958961c710ce114997fba6802dbf4af581d703b84e38",
+        "unit_count": 0
+      },
+      {
+        "id": "cnbc-interview-buffett-we-need-to-help-the-economys-roadkill",
+        "path": "supplemental/原始下载/cnbc-interview-buffett-we-need-to-help-the-economys-roadkill.html",
+        "bytes": 518188,
+        "sha256": "df6d064524ffbedd705172e4b9917073243b1086923a22dc0ae5a98898457a85",
+        "unit_count": 0
+      },
+      {
+        "id": "cnbc-interview-buffett-i-was-wrong-on-kraft-heinz",
+        "path": "supplemental/原始下载/cnbc-interview-buffett-i-was-wrong-on-kraft-heinz.html",
+        "bytes": 510841,
+        "sha256": "87008b88f166798a8c14a4f0b4fce4f58fc8b76f868ad0ad1e8c1f83f36b3f3f",
+        "unit_count": 0
+      },
+      {
+        "id": "cnbc-interview-buffett-weve-bought-just-a-little-more-apple-and-bought-back-a-little-berkshire",
+        "path": "supplemental/原始下载/cnbc-interview-buffett-weve-bought-just-a-little-more-apple-and-bought-back-a-little-berkshire.html",
+        "bytes": 551491,
+        "sha256": "58580b95bb672704e711b2250d71725c26f79348786c688340ecfc61315c5e88",
+        "unit_count": 0
+      },
+      {
+        "id": "cnbc-interview-buffett-remembers-the-2008-financial-crisis",
+        "path": "supplemental/原始下载/cnbc-interview-buffett-remembers-the-2008-financial-crisis.html",
+        "bytes": 542378,
+        "sha256": "1fc1b3096d33c5190748899f8d640f5bc3ff2b44aafa53f6b89fbe96246f7ccd",
+        "unit_count": 0
+      },
+      {
+        "id": "cnbc-interview-warren-buffett-and-jamie-dimon-say-companies-shouldnt-issue-earnings-forecasts",
+        "path": "supplemental/原始下载/cnbc-interview-warren-buffett-and-jamie-dimon-say-companies-shouldnt-issue-earnings-forecasts.html",
+        "bytes": 552413,
+        "sha256": "cbf11bbfa21ccbd76f4872be0757c13e6566057422a087b91e22575d5d9cb2a7",
+        "unit_count": 0
+      },
+      {
+        "id": "cnbc-interview-buffett-full-interview-criticizing-the-cryptocurrency-craze",
+        "path": "supplemental/原始下载/cnbc-interview-buffett-full-interview-criticizing-the-cryptocurrency-craze.html",
+        "bytes": 584661,
+        "sha256": "e6324c83e1408b077048fd0a0157ce3e39b8abc45ef9bdd3e6868d0493b828dc",
+        "unit_count": 0
+      },
+      {
+        "id": "cnbc-interview-buffett-tells-cnbc-hes-boosting-apple-stake-by-13b-full-interview",
+        "path": "supplemental/原始下载/cnbc-interview-buffett-tells-cnbc-hes-boosting-apple-stake-by-13b-full-interview.html",
+        "bytes": 536785,
+        "sha256": "a8d131d6832bf070fa247795f0e7228c220f2b7d6b21ce89d2647048861e11d6",
+        "unit_count": 0
+      },
+      {
+        "id": "cnbc-interview-buffett-recalls-his-early-days-as-an-investor",
+        "path": "supplemental/原始下载/cnbc-interview-buffett-recalls-his-early-days-as-an-investor.html",
+        "bytes": 514697,
+        "sha256": "7d9192b4ee6992f6459b1f8d6c35861198bd2dfa4266fb3ded3e68f9b275b357",
+        "unit_count": 0
+      },
+      {
+        "id": "cnbc-interview-buffetts-health-care-partnership-is-determined-to-contain-costs-full-interview",
+        "path": "supplemental/原始下载/cnbc-interview-buffetts-health-care-partnership-is-determined-to-contain-costs-full-interview.html",
+        "bytes": 589626,
+        "sha256": "a5b416ef51e9a24379400b95c376ce264369d12f6d1a12d30b15cf74d7415398",
+        "unit_count": 0
+      },
+      {
+        "id": "cnbc-interview-buffett-sets-the-stage-for-ceo-succession--full-interview",
+        "path": "supplemental/原始下载/cnbc-interview-buffett-sets-the-stage-for-ceo-succession--full-interview.html",
+        "bytes": 551498,
+        "sha256": "ddbbe127548be073efaa8d71ba8d89925721eb56fb9efc16a765c3b25a491936",
+        "unit_count": 0
+      },
+      {
+        "id": "cnbc-interview-berkshires-pilot-flying-j-acquisition-full-buffett-interview",
+        "path": "supplemental/原始下载/cnbc-interview-berkshires-pilot-flying-j-acquisition-full-buffett-interview.html",
+        "bytes": 544237,
+        "sha256": "82cea81c31601129fb4840aeaee07ca8cdbc724d34556f5b312b424c8c61574e",
+        "unit_count": 0
+      },
+      {
+        "id": "cnbc-interview-buffett-i-was-wrong-on-ibm-full-interview",
+        "path": "supplemental/原始下载/cnbc-interview-buffett-i-was-wrong-on-ibm-full-interview.html",
+        "bytes": 527603,
+        "sha256": "0b2cd0b1b325ae547d1a7ef5aafb203c1fc7d6b5030ac7be2091a502394a5b79",
+        "unit_count": 0
+      },
+      {
+        "id": "cnbc-interview-buffett-on-buying-apple-selling-ibm-missing-google-full-interview",
+        "path": "supplemental/原始下载/cnbc-interview-buffett-on-buying-apple-selling-ibm-missing-google-full-interview.html",
+        "bytes": 571136,
+        "sha256": "2c7a3bf55a1f75e40e3c5313dbf64123e33b98e89463e4fbeca84bd1cd348ccc",
+        "unit_count": 0
+      },
+      {
+        "id": "cnbc-interview-buffett-buys-airlines-and-apple-full-interview",
+        "path": "supplemental/原始下载/cnbc-interview-buffett-buys-airlines-and-apple-full-interview.html",
+        "bytes": 567485,
+        "sha256": "6128bfdb5f51074e343bd77d1b0da5a3784fb2a8ed4a4e499ef4b5a870ab7050",
+        "unit_count": 0
+      },
+      {
+        "id": "cnbc-interview-buffett-on-trump-vs-clinton-brexit-and-amazons-bezos-full-interview",
+        "path": "supplemental/原始下载/cnbc-interview-buffett-on-trump-vs-clinton-brexit-and-amazons-bezos-full-interview.html",
+        "bytes": 569583,
+        "sha256": "09e4614b35d6db173de8cab5593cc5b89171c51c21bf06437ba91683a32d8a25",
+        "unit_count": 0
+      },
+      {
+        "id": "cnbc-interview-buffett-and-munger-reveal-the-secrets-of-their-friendship-full-interview-",
+        "path": "supplemental/原始下载/cnbc-interview-buffett-and-munger-reveal-the-secrets-of-their-friendship-full-interview-.html",
+        "bytes": 537103,
+        "sha256": "b63ec1f6ee69f521e4a7d5cda87b613cf462a66e1415a78ca11a9c2b53232f29",
+        "unit_count": 0
+      },
+      {
+        "id": "cnbc-interview-buffett-americas-never-been-greater-full-interview",
+        "path": "supplemental/原始下载/cnbc-interview-buffett-americas-never-been-greater-full-interview.html",
+        "bytes": 544440,
+        "sha256": "6b2ffc58b419875a26aac7b089ea05be0ef2dc5bf9c2951b8eccc1002e2863be",
+        "unit_count": 0
+      },
+      {
+        "id": "cnbc-interview-buffett-defends-clayton-homes-and-berkshires-ibm-stake-full-interview",
+        "path": "supplemental/原始下载/cnbc-interview-buffett-defends-clayton-homes-and-berkshires-ibm-stake-full-interview.html",
+        "bytes": 559677,
+        "sha256": "c5c34bdc1abaf4b1b7e93ce19d28285fef37514f6f3ff6a0dc8a284c35dd9081",
+        "unit_count": 0
+      },
+      {
+        "id": "cnbc-interview-fifty-years-of-buffetts-berkshire-full-interview",
+        "path": "supplemental/原始下载/cnbc-interview-fifty-years-of-buffetts-berkshire-full-interview.html",
+        "bytes": 571478,
+        "sha256": "7760ffeea10d960d481c400e6a71923a2b15e19de8ee268853fb577499a7eb20",
+        "unit_count": 0
+      },
+      {
+        "id": "cnbc-interview-buffett-well-never-want-to-go-to-war-with-coca-cola-full-interview",
+        "path": "supplemental/原始下载/cnbc-interview-buffett-well-never-want-to-go-to-war-with-coca-cola-full-interview.html",
+        "bytes": 575953,
+        "sha256": "07bcf54ab577ac4c6488b8be940d625f63e51a6ffdc90b4f18962e53a0114fa6",
+        "unit_count": 0
+      },
+      {
+        "id": "cnbc-interview-buffett-people-react-too-much-to-short-term-things-full-interview",
+        "path": "supplemental/原始下载/cnbc-interview-buffett-people-react-too-much-to-short-term-things-full-interview.html",
+        "bytes": 578267,
+        "sha256": "a44557a1d5391bf2691fe56608ebcebb148ac5e80d5ede7249f3581d7e96bb65",
+        "unit_count": 0
+      },
+      {
+        "id": "cnbc-interview-buffett-sees-gradual-improvement-in-economy-full-interview",
+        "path": "supplemental/原始下载/cnbc-interview-buffett-sees-gradual-improvement-in-economy-full-interview.html",
+        "bytes": 582110,
+        "sha256": "494e380b94c25ad6338a9f50fb8552e1959bbc6fdbad4ea31d27fb27f02b63a2",
+        "unit_count": 0
+      },
+      {
+        "id": "cnbc-interview-buffett-on-heinz-deal-weve-got-a-great-business-full-interview",
+        "path": "supplemental/原始下载/cnbc-interview-buffett-on-heinz-deal-weve-got-a-great-business-full-interview.html",
+        "bytes": 582583,
+        "sha256": "dff5b55f7f631516ae125fcb653fc9709cc9f2ea9e5cb7d2077b97b0445a1124",
+        "unit_count": 0
+      },
+      {
+        "id": "cnbc-interview-buffett-no-question-the-global-economy-is-slowing-full-interview",
+        "path": "supplemental/原始下载/cnbc-interview-buffett-no-question-the-global-economy-is-slowing-full-interview.html",
+        "bytes": 572375,
+        "sha256": "b8ba32c687e885e71294189650a7e90fd2accc16e36f31b1401748f62ed5dc27",
+        "unit_count": 0
+      },
+      {
+        "id": "cnbc-interview-buffett-u-s-must-get-its-promises-in-line-with-its-capacity-full-interview",
+        "path": "supplemental/原始下载/cnbc-interview-buffett-u-s-must-get-its-promises-in-line-with-its-capacity-full-interview.html",
+        "bytes": 558622,
+        "sha256": "cfda626a379b1e4dc1f80d85c16242c03f619e6b08a4bfa1182f748c911ba130",
+        "unit_count": 0
+      },
+      {
+        "id": "cnbc-interview-buffett-class-b-stock-split-was-easy-decision-full-interview",
+        "path": "supplemental/原始下载/cnbc-interview-buffett-class-b-stock-split-was-easy-decision-full-interview.html",
+        "bytes": 579284,
+        "sha256": "2033aca8d456fb9c4cc2cf0252caa21023c37d82d64a0ec6e2bd154cdcd87435",
+        "unit_count": 0
+      },
+      {
+        "id": "cnbc-ask-warren-2013-03-04",
+        "path": "interview-pdfs/原始下载/cnbc-ask-warren-2013-03-04.pdf",
+        "bytes": 915156,
+        "sha256": "5bea2197dceeac5d782c6efcda5af9d07bfd69b2c3d6088a3705cebb0d0c15ad",
+        "unit_count": 79
+      },
+      {
+        "id": "cnbc-fortune-interview-2009-09-14",
+        "path": "interview-pdfs/原始下载/cnbc-fortune-interview-2009-09-14.pdf",
+        "bytes": 32349,
+        "sha256": "066888679390e93ceb1fea7fc6373e043073bd01fbb4732ca1644f162a7ff06c",
+        "unit_count": 6
+      },
+      {
+        "id": "nbc-brokaw-interview-date-unresolved",
+        "path": "interview-pdfs/原始下载/nbc-brokaw-interview-date-unresolved.pdf",
+        "bytes": 627637,
+        "sha256": "9f99649114f406840b0595bb7cde9c778a35ad538f04b16b9db7face80ad4a21",
+        "unit_count": 21
+      },
+      {
+        "id": "cnbc-squawk-buffett-gates-munger-2014-05-05",
+        "path": "interview-pdfs/原始下载/cnbc-squawk-buffett-gates-munger-2014-05-05.pdf",
+        "bytes": 497979,
+        "sha256": "5ea5a79fe95925f33a8ab842ab9dcd3f9fec8e7b7c1eeb5f76929d3e6f1df4a9",
+        "unit_count": 46
+      },
+      {
+        "id": "cnbc-ask-warren-2012-02-27",
+        "path": "interview-pdfs/原始下载/cnbc-ask-warren-2012-02-27.pdf",
+        "bytes": 711563,
+        "sha256": "1754d82cf332b8859ed9e86a4b7276a61f9593665d3e28aeb7b5eda0d103092a",
+        "unit_count": 73
+      }
+    ]
+  },
+  "runtime_preservation": {
+    "initialization_warnings": [],
+    "accepted_patches": 6,
+    "reviewed_contexts": 6,
+    "logical_html_sections": 215,
+    "excluded_units": 31,
+    "overlapping_exclusion_reason_counts": {
+      "confirmed_duplicate": 15,
+      "unresolved_control_characters": 15,
+      "unresolved_extraction_alerts": 16
+    },
+    "excluded_unit_ids": [
+      "berkshire-buffett-special-letter-2014:u0001",
+      "berkshire-buffett-special-letter-2014:u0002",
+      "berkshire-buffett-special-letter-2014:u0003",
+      "berkshire-buffett-special-letter-2014:u0004",
+      "berkshire-buffett-special-letter-2014:u0005",
+      "berkshire-buffett-special-letter-2014:u0006",
+      "berkshire-buffett-special-letter-2014:u0007",
+      "berkshire-buffett-special-letter-2014:u0008",
+      "berkshire-buffett-special-letter-2014:u0009",
+      "berkshire-buffett-special-letter-2014:u0010",
+      "berkshire-buffett-special-letter-2014:u0011",
+      "berkshire-buffett-special-letter-2014:u0012",
+      "berkshire-buffett-special-letter-2014:u0013",
+      "berkshire-buffett-special-letter-2014:u0014",
+      "berkshire-buffett-special-letter-2014:u0015",
+      "berkshire-letter-2001:u0003",
+      "berkshire-letter-2001:u0004",
+      "berkshire-letter-2001:u0005",
+      "berkshire-letter-2001:u0006",
+      "berkshire-letter-2001:u0007",
+      "berkshire-letter-2001:u0008",
+      "berkshire-letter-2001:u0009",
+      "berkshire-letter-2001:u0010",
+      "berkshire-letter-2001:u0011",
+      "berkshire-letter-2001:u0012",
+      "berkshire-letter-2001:u0013",
+      "berkshire-letter-2001:u0014",
+      "berkshire-letter-2001:u0015",
+      "berkshire-letter-2001:u0016",
+      "berkshire-letter-2010:u0022",
+      "berkshire-letter-2014:u0011"
+    ],
+    "input_fingerprint": {
+      "catalog_sha256": "d35c3320134d308d3b1f93943ae48eeedae5a2ce1408b96f6c08915fac554970",
+      "database_sha256": "8b50a4546a8425fc83f082b32a791849470d13769c1701fe1bae6b860d834bc8",
+      "qa_pilot_manifest_sha256": "3b9ee3dab389f3d1977477f0e405af9ecf862c11ee14086f2dcf30502c98ebb2",
+      "reviewed_core_manifest_sha256": "4683001bece6dd804329933d74d6b2d5389eaafe366f62787a6491d6c77892f6"
+    }
+  },
+  "portability": {
+    "retrieval_python_unchanged": true,
+    "test_original_sha256": "0d3a19a8773be35dfd3dbd986688fa4473aa5f580bf6e043dfcc1627bde44674",
+    "test_only_change": {
+      "before": "LIBRARY = Path(__file__).resolve().parents[2] / \"outputs\" / \"巴菲特知识库\"",
+      "after": "LIBRARY = Path(__file__).resolve().parents[1] / \"data\" / \"library\""
+    },
+    "historic_absolute_metadata_path_fields_preserved": [
+      "berkshire-letter-2001.alternative_editions[0].raw_path",
+      "berkshire-letter-2001.alternative_editions[0].text_units_path",
+      "berkshire-letter-2001.alternative_editions[0].text_path",
+      "berkshire-letter-2001.alternative_editions[0].comparison_path",
+      "cnbc-meeting-2020-part-2.issues[0].review_path",
+      "cnbc-meeting-2020-part-2.issues[1].review_path",
+      "cnbc-meeting-2020-part-2.issues[2].review_path"
+    ],
+    "historic_paths_are_used_for_retrieval": false,
+    "catalog_optional_pointers": "Some reader_data_path, text_units_path, metadata_path, alternate-edition and older review pointers refer to files outside this minimal subset. Core raw_path values and all active retrieval dependencies resolve inside data/library."
+  },
+  "excluded_from_package": [
+    "Duplicate 巴菲特知识库 2 directory",
+    "Redundant 原文单元.jsonl (same canonical units are in SQLite)",
+    "Old reader HTML, screenshots and generated answer pages",
+    "Runtime logs, user questions, provider traces, evaluation result records",
+    "API keys, .env files, local credentials and personal configuration",
+    "Optional alternate-edition files not read by Retriever"
+  ],
+  "limits": {
+    "github_single_file_bytes": 104857600,
+    "github_documentation": "https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github",
+    "tracked_payload_bytes": 123273837,
+    "tracked_file_count": 198,
+    "restored_database_must_not_be_committed": true
+  },
+  "files": [
+    {
+      "path": "data/library/interview-pdfs/原始下载/cnbc-ask-warren-2012-02-27.pdf",
+      "bytes": 711563,
+      "sha256": "1754d82cf332b8859ed9e86a4b7276a61f9593665d3e28aeb7b5eda0d103092a",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "interview-pdfs/原始下载/cnbc-ask-warren-2012-02-27.pdf"
+    },
+    {
+      "path": "data/library/interview-pdfs/原始下载/cnbc-ask-warren-2013-03-04.pdf",
+      "bytes": 915156,
+      "sha256": "5bea2197dceeac5d782c6efcda5af9d07bfd69b2c3d6088a3705cebb0d0c15ad",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "interview-pdfs/原始下载/cnbc-ask-warren-2013-03-04.pdf"
+    },
+    {
+      "path": "data/library/interview-pdfs/原始下载/cnbc-fortune-interview-2009-09-14.pdf",
+      "bytes": 32349,
+      "sha256": "066888679390e93ceb1fea7fc6373e043073bd01fbb4732ca1644f162a7ff06c",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "interview-pdfs/原始下载/cnbc-fortune-interview-2009-09-14.pdf"
+    },
+    {
+      "path": "data/library/interview-pdfs/原始下载/cnbc-squawk-buffett-gates-munger-2014-05-05.pdf",
+      "bytes": 497979,
+      "sha256": "5ea5a79fe95925f33a8ab842ab9dcd3f9fec8e7b7c1eeb5f76929d3e6f1df4a9",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "interview-pdfs/原始下载/cnbc-squawk-buffett-gates-munger-2014-05-05.pdf"
+    },
+    {
+      "path": "data/library/interview-pdfs/原始下载/nbc-brokaw-interview-date-unresolved.pdf",
+      "bytes": 627637,
+      "sha256": "9f99649114f406840b0595bb7cde9c778a35ad538f04b16b9db7face80ad4a21",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "interview-pdfs/原始下载/nbc-brokaw-interview-date-unresolved.pdf"
+    },
+    {
+      "path": "data/library/letters/raw/berkshire-buffett-special-letter-2014.pdf",
+      "bytes": 80455,
+      "sha256": "a1a46b2e97b3e5a5f9fb37d14b472559e9ec0b7400ed1fc6c8b02227553fa558",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "letters/raw/berkshire-buffett-special-letter-2014.pdf"
+    },
+    {
+      "path": "data/library/letters/raw/berkshire-buffett-thanksgiving-2025.pdf",
+      "bytes": 325648,
+      "sha256": "be499afab992b9f77353b341efdcc2a01ce09ee702ad88dd24afb91a7f3b9316",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "letters/raw/berkshire-buffett-thanksgiving-2025.pdf"
+    },
+    {
+      "path": "data/library/letters/raw/berkshire-letter-1977.html",
+      "bytes": 21781,
+      "sha256": "ef4c39cbca16040bb824764eca719cd934ec62380e1b9c61396e2f483d07d9e0",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "letters/raw/berkshire-letter-1977.html"
+    },
+    {
+      "path": "data/library/letters/raw/berkshire-letter-1978.html",
+      "bytes": 30983,
+      "sha256": "71231697294a1a14b9283e23ffac6dfb63d7ef11c083dea2fb21019585606d01",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "letters/raw/berkshire-letter-1978.html"
+    },
+    {
+      "path": "data/library/letters/raw/berkshire-letter-1979.html",
+      "bytes": 45012,
+      "sha256": "4f66a3daa2236cdedecced3e9f58c2968a5f08840a2dc860da4c4659a96a7c8f",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "letters/raw/berkshire-letter-1979.html"
+    },
+    {
+      "path": "data/library/letters/raw/berkshire-letter-1980.html",
+      "bytes": 51554,
+      "sha256": "54ac7fa996187c7403daeca347a3067c093973b347ebf9da389865ec6c2a6d3f",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "letters/raw/berkshire-letter-1980.html"
+    },
+    {
+      "path": "data/library/letters/raw/berkshire-letter-1981.html",
+      "bytes": 47771,
+      "sha256": "cb53d5175e16316cb66edef22f21720994d27a9749357137e67a021f8a569d7c",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "letters/raw/berkshire-letter-1981.html"
+    },
+    {
+      "path": "data/library/letters/raw/berkshire-letter-1982.html",
+      "bytes": 55640,
+      "sha256": "239ef9651d75cf8124caf3c404d7c17e1c431fce3ab36aa962fc07bff07254c8",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "letters/raw/berkshire-letter-1982.html"
+    },
+    {
+      "path": "data/library/letters/raw/berkshire-letter-1983.html",
+      "bytes": 79963,
+      "sha256": "3d74da78af60d748df810860af64100a52c8031f572e9f9411e42ab5afbd69a9",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "letters/raw/berkshire-letter-1983.html"
+    },
+    {
+      "path": "data/library/letters/raw/berkshire-letter-1984.html",
+      "bytes": 85836,
+      "sha256": "c1eea368a005ea4c26c5c32c47da48255ecf21bd15ec7d8af174e750d2e73ad8",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "letters/raw/berkshire-letter-1984.html"
+    },
+    {
+      "path": "data/library/letters/raw/berkshire-letter-1985.html",
+      "bytes": 90476,
+      "sha256": "081058f9b1a630da524f7ade4fccbd8d1f1cc5f04a1f0d7b9c58b9cc49770705",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "letters/raw/berkshire-letter-1985.html"
+    },
+    {
+      "path": "data/library/letters/raw/berkshire-letter-1986.html",
+      "bytes": 112247,
+      "sha256": "7a1c77d00cd18b0ce312eae72c95bf45c8da7d0169451f4ed67924dbff2562e8",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "letters/raw/berkshire-letter-1986.html"
+    },
+    {
+      "path": "data/library/letters/raw/berkshire-letter-1987.html",
+      "bytes": 82757,
+      "sha256": "88ea72481dcae5940e908f91646afb8f775cae542250d500fad2c3e28e5a58c0",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "letters/raw/berkshire-letter-1987.html"
+    },
+    {
+      "path": "data/library/letters/raw/berkshire-letter-1988.html",
+      "bytes": 77771,
+      "sha256": "0effa5b4934e404eebc8e1a50143b21026074f3f38e4761364b4e38bcb9ad16d",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "letters/raw/berkshire-letter-1988.html"
+    },
+    {
+      "path": "data/library/letters/raw/berkshire-letter-1989.html",
+      "bytes": 93861,
+      "sha256": "4dae70ca027a554a523a1de398cf7310e1cbdcc146c0cce74659931d57141afa",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "letters/raw/berkshire-letter-1989.html"
+    },
+    {
+      "path": "data/library/letters/raw/berkshire-letter-1990.html",
+      "bytes": 112607,
+      "sha256": "277b2f56fd79847abf6b2bc75420dfdc8630fdc5367c4b8b1abbdba48e956126",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "letters/raw/berkshire-letter-1990.html"
+    },
+    {
+      "path": "data/library/letters/raw/berkshire-letter-1991.html",
+      "bytes": 62912,
+      "sha256": "7ee3610bfdfb0c6dda9ffeab2f2c6590df70951452ad8c7ff435aaa4d5b55867",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "letters/raw/berkshire-letter-1991.html"
+    },
+    {
+      "path": "data/library/letters/raw/berkshire-letter-1992.html",
+      "bytes": 76201,
+      "sha256": "281218259801b95b4fad83f3e92a3e7bfbc15389b8f308b4f5992730f19cdde8",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "letters/raw/berkshire-letter-1992.html"
+    },
+    {
+      "path": "data/library/letters/raw/berkshire-letter-1993.html",
+      "bytes": 74941,
+      "sha256": "9490e7d60ebe644e1f9f717e07441dede038ebfa8c29b0f03c544407557fbf96",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "letters/raw/berkshire-letter-1993.html"
+    },
+    {
+      "path": "data/library/letters/raw/berkshire-letter-1994.html",
+      "bytes": 65391,
+      "sha256": "291a33c8e9c8e9ec636b2fa0b7ac8e81303c86551a1b3c2b3cb9f56296827f4c",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "letters/raw/berkshire-letter-1994.html"
+    },
+    {
+      "path": "data/library/letters/raw/berkshire-letter-1995.html",
+      "bytes": 77925,
+      "sha256": "b949efa183c1cc7120b8e8d8b095d4feed8ddb173b3c4fa1524b162dddd6ec4c",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "letters/raw/berkshire-letter-1995.html"
+    },
+    {
+      "path": "data/library/letters/raw/berkshire-letter-1996.html",
+      "bytes": 78056,
+      "sha256": "8518b0b6a2c2586cb46fe2507cf2bbf22ce3b557e9989e0ffe93d43e05980ced",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "letters/raw/berkshire-letter-1996.html"
+    },
+    {
+      "path": "data/library/letters/raw/berkshire-letter-1997.html",
+      "bytes": 84889,
+      "sha256": "c756c7a76a810335932c9edb7a8b603c8877d39668886634e164fe52e8a2bcd2",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "letters/raw/berkshire-letter-1997.html"
+    },
+    {
+      "path": "data/library/letters/raw/berkshire-letter-1998.pdf",
+      "bytes": 78409,
+      "sha256": "1d798cda07b82e582643a0d9c0a5adf9a141f908426e666774fca9a592944941",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "letters/raw/berkshire-letter-1998.pdf"
+    },
+    {
+      "path": "data/library/letters/raw/berkshire-letter-1999.pdf",
+      "bytes": 90686,
+      "sha256": "cf6b22508de51e7ba96e61f1eee51e45d3a5aaf27182cf491fd3e0ca94089d3b",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "letters/raw/berkshire-letter-1999.pdf"
+    },
+    {
+      "path": "data/library/letters/raw/berkshire-letter-2000.pdf",
+      "bytes": 94218,
+      "sha256": "401a40b7011271dfc00c246a92aefd30887a6fdaf53ab0c8a1132b3d6c3078b9",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "letters/raw/berkshire-letter-2000.pdf"
+    },
+    {
+      "path": "data/library/letters/raw/berkshire-letter-2001.pdf",
+      "bytes": 213216,
+      "sha256": "50a79a227522a66ef79286a50ff9fb4b39dec5d025431dbb4ecedf126ad0caa0",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "letters/raw/berkshire-letter-2001.pdf"
+    },
+    {
+      "path": "data/library/letters/raw/berkshire-letter-2002.pdf",
+      "bytes": 187071,
+      "sha256": "50492594fa06be7ad895fce63e57f7aca14aab24ea0d70dc6ae2161c26953c90",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "letters/raw/berkshire-letter-2002.pdf"
+    },
+    {
+      "path": "data/library/letters/raw/berkshire-letter-2003.pdf",
+      "bytes": 200698,
+      "sha256": "207377b7b267bbf327cbc49da20dd749b564328b31e0224d70982b7885b5475e",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "letters/raw/berkshire-letter-2003.pdf"
+    },
+    {
+      "path": "data/library/letters/raw/berkshire-letter-2004.pdf",
+      "bytes": 613994,
+      "sha256": "d26d34d2e6b6f19e07844553069c4a113874749ae6317d5f4a33f0b11fb32768",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "letters/raw/berkshire-letter-2004.pdf"
+    },
+    {
+      "path": "data/library/letters/raw/berkshire-letter-2005.pdf",
+      "bytes": 541491,
+      "sha256": "e0c91795c8709ed2376ba67e5de5dbc2857d1bc15e3ed742bf6ac95f5850cc2b",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "letters/raw/berkshire-letter-2005.pdf"
+    },
+    {
+      "path": "data/library/letters/raw/berkshire-letter-2006.pdf",
+      "bytes": 495007,
+      "sha256": "f12c2abd96a052747157fcabd26f7ef5ab4df1c2747b1af8c42abd803e57a7b6",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "letters/raw/berkshire-letter-2006.pdf"
+    },
+    {
+      "path": "data/library/letters/raw/berkshire-letter-2007.pdf",
+      "bytes": 476332,
+      "sha256": "8288aa8a17b677ca1215c31ef0afb887d3f95dbb0e2241f77b54b51f0c3f7cfa",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "letters/raw/berkshire-letter-2007.pdf"
+    },
+    {
+      "path": "data/library/letters/raw/berkshire-letter-2008.pdf",
+      "bytes": 132043,
+      "sha256": "46920242cbb861fd844453d5e20edd8b0ecea977d85111cf2a7cfb249913c6cf",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "letters/raw/berkshire-letter-2008.pdf"
+    },
+    {
+      "path": "data/library/letters/raw/berkshire-letter-2009.pdf",
+      "bytes": 119109,
+      "sha256": "f53e845e58cf4cc34c78538c662a0aebcbd5689fda3f16eaa605a73fee3d31df",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "letters/raw/berkshire-letter-2009.pdf"
+    },
+    {
+      "path": "data/library/letters/raw/berkshire-letter-2010.pdf",
+      "bytes": 309592,
+      "sha256": "50425cd27fd39fa50a94256d9ff69e8c50b8d6d1b8935e5db9df0fd2bbdf76ad",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "letters/raw/berkshire-letter-2010.pdf"
+    },
+    {
+      "path": "data/library/letters/raw/berkshire-letter-2011.pdf",
+      "bytes": 129396,
+      "sha256": "6f5125e45c30007cd3188092cd59d339c7d8266b2f6c8e87387ad397ac1c0083",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "letters/raw/berkshire-letter-2011.pdf"
+    },
+    {
+      "path": "data/library/letters/raw/berkshire-letter-2012.pdf",
+      "bytes": 136334,
+      "sha256": "a14b3a546e903974dc654e10213316f75bfa0a8b6e038dc673e8602bce225573",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "letters/raw/berkshire-letter-2012.pdf"
+    },
+    {
+      "path": "data/library/letters/raw/berkshire-letter-2013.pdf",
+      "bytes": 257211,
+      "sha256": "ad24565997a09a1f7ef752da875161a24e025329510f3489afd912ff1e2673f5",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "letters/raw/berkshire-letter-2013.pdf"
+    },
+    {
+      "path": "data/library/letters/raw/berkshire-letter-2014.pdf",
+      "bytes": 362079,
+      "sha256": "dd00248b32ad1f67234bb4dba66755bf45a623bd94e40465a2a88707b73cd426",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "letters/raw/berkshire-letter-2014.pdf"
+    },
+    {
+      "path": "data/library/letters/raw/berkshire-letter-2015.pdf",
+      "bytes": 2443422,
+      "sha256": "139d8db9c20f0f86316e4b815fdc86687985c7adcdbdd70605a188bcc804cde7",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "letters/raw/berkshire-letter-2015.pdf"
+    },
+    {
+      "path": "data/library/letters/raw/berkshire-letter-2016.pdf",
+      "bytes": 154712,
+      "sha256": "b8096f989e52bab3f18ad6ea7902891ddc038868df5437b89653719c79348d18",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "letters/raw/berkshire-letter-2016.pdf"
+    },
+    {
+      "path": "data/library/letters/raw/berkshire-letter-2017.pdf",
+      "bytes": 87641,
+      "sha256": "0b170cb5984255970c617cae0f7c575ea03c280ae00eeb77193d03e6195c6650",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "letters/raw/berkshire-letter-2017.pdf"
+    },
+    {
+      "path": "data/library/letters/raw/berkshire-letter-2018.pdf",
+      "bytes": 77566,
+      "sha256": "0e6531e162fcbc5ecb9c771dd468be1f0e06ff895ed38a26765e1338dbc4b3bd",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "letters/raw/berkshire-letter-2018.pdf"
+    },
+    {
+      "path": "data/library/letters/raw/berkshire-letter-2019.pdf",
+      "bytes": 76466,
+      "sha256": "d6df1c022f6bac02f430887ce59cfd0cf8945f69afe60f9c2e84d03dd4e67173",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "letters/raw/berkshire-letter-2019.pdf"
+    },
+    {
+      "path": "data/library/letters/raw/berkshire-letter-2020.pdf",
+      "bytes": 78896,
+      "sha256": "e556a52b8d4dc490d04c5f34bab98708d414cf1f632d9f68671d5a5c645afca5",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "letters/raw/berkshire-letter-2020.pdf"
+    },
+    {
+      "path": "data/library/letters/raw/berkshire-letter-2021.pdf",
+      "bytes": 64117,
+      "sha256": "fd5687aec746816b08113e9ccf8c4826eaa258906e66f7b4abe90c8b4f8b30ba",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "letters/raw/berkshire-letter-2021.pdf"
+    },
+    {
+      "path": "data/library/letters/raw/berkshire-letter-2022.pdf",
+      "bytes": 55589,
+      "sha256": "a99f263003295b177e8c50ec34f2307093857a357276527e98d5a6205e21a908",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "letters/raw/berkshire-letter-2022.pdf"
+    },
+    {
+      "path": "data/library/letters/raw/berkshire-letter-2023.pdf",
+      "bytes": 122415,
+      "sha256": "829169be21f4ce05202720fe5645cc1b9a5b1ae20bf5e6ebaff987349766eafd",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "letters/raw/berkshire-letter-2023.pdf"
+    },
+    {
+      "path": "data/library/letters/raw/berkshire-letter-2024.pdf",
+      "bytes": 64860,
+      "sha256": "ff21ab9407dec219757587b6ce6a1bf30e59cfff15bb21e81d1faaec7f97a8a7",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "letters/raw/berkshire-letter-2024.pdf"
+    },
+    {
+      "path": "data/library/letters/raw/berkshire-owner-manual.pdf",
+      "bytes": 60199,
+      "sha256": "6f649d6fc71976bbe5f8ce954ffe40d2fb6f13cc209c06eea05b2b96dc2d41db",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "letters/raw/berkshire-owner-manual.pdf"
+    },
+    {
+      "path": "data/library/meetings/raw/cnbc-meeting-1994-afternoon.html",
+      "bytes": 603657,
+      "sha256": "16f575ef9cf25591070bc1bfb53806464755a3d140893d4cba6c85341bdd0681",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "meetings/raw/cnbc-meeting-1994-afternoon.html"
+    },
+    {
+      "path": "data/library/meetings/raw/cnbc-meeting-1994-morning.html",
+      "bytes": 1294489,
+      "sha256": "04ba88cbeb72b71236e6fa40aecefeffc998fa62b1c56dea0796d9da76447b6c",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "meetings/raw/cnbc-meeting-1994-morning.html"
+    },
+    {
+      "path": "data/library/meetings/raw/cnbc-meeting-1995-afternoon.html",
+      "bytes": 1208213,
+      "sha256": "681cbe14a815dca05e4d8106791c0b164d5dde908da4d77046e187bb5ed17f37",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "meetings/raw/cnbc-meeting-1995-afternoon.html"
+    },
+    {
+      "path": "data/library/meetings/raw/cnbc-meeting-1995-morning.html",
+      "bytes": 1172506,
+      "sha256": "c562d89a0ad097d990f15698b9b2438bec77047078fc3aa291daa1ee9f545cdf",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "meetings/raw/cnbc-meeting-1995-morning.html"
+    },
+    {
+      "path": "data/library/meetings/raw/cnbc-meeting-1996-afternoon.html",
+      "bytes": 1214173,
+      "sha256": "4dd74ae26ee6dad43ad98b12938b11dcb347bb215bafb552428572b5f35e77ef",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "meetings/raw/cnbc-meeting-1996-afternoon.html"
+    },
+    {
+      "path": "data/library/meetings/raw/cnbc-meeting-1996-morning.html",
+      "bytes": 1274022,
+      "sha256": "34dc9ef56cf148644e34f24e7155ee45a0ff2b20b7b4dbd3a9942cd071e75a88",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "meetings/raw/cnbc-meeting-1996-morning.html"
+    },
+    {
+      "path": "data/library/meetings/raw/cnbc-meeting-1997-afternoon.html",
+      "bytes": 1362913,
+      "sha256": "4e9fbbf7d069c74ddfbde38721b7123ec52146d6e5ec7cb60b88760b8a3ef85f",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "meetings/raw/cnbc-meeting-1997-afternoon.html"
+    },
+    {
+      "path": "data/library/meetings/raw/cnbc-meeting-1997-morning.html",
+      "bytes": 1147652,
+      "sha256": "fb6620067dc169a7499bbee33b2345f5c9aa7e55ec0f41f91c6493d4d90066c7",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "meetings/raw/cnbc-meeting-1997-morning.html"
+    },
+    {
+      "path": "data/library/meetings/raw/cnbc-meeting-1998-afternoon.html",
+      "bytes": 1407040,
+      "sha256": "09023725652764529d729b77dcf6ce4b50d18dc9e86fc7ccd8939f8a35cbbea4",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "meetings/raw/cnbc-meeting-1998-afternoon.html"
+    },
+    {
+      "path": "data/library/meetings/raw/cnbc-meeting-1998-morning.html",
+      "bytes": 1293391,
+      "sha256": "88003d04663024388e7bbd888dc098ac167884601a26e813f9170cd6b17a1bff",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "meetings/raw/cnbc-meeting-1998-morning.html"
+    },
+    {
+      "path": "data/library/meetings/raw/cnbc-meeting-1999-afternoon.html",
+      "bytes": 1250565,
+      "sha256": "40523fe6ec4536ec2b59720bdb307ca5d5da2d4922f3179f7749d8b8d915e688",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "meetings/raw/cnbc-meeting-1999-afternoon.html"
+    },
+    {
+      "path": "data/library/meetings/raw/cnbc-meeting-1999-morning.html",
+      "bytes": 1260996,
+      "sha256": "72dc695661edf91bc9e57d1e2bbc64ecbb9f4890a34fab1c2adc8c07adbcfd5f",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "meetings/raw/cnbc-meeting-1999-morning.html"
+    },
+    {
+      "path": "data/library/meetings/raw/cnbc-meeting-2000-afternoon.html",
+      "bytes": 1273868,
+      "sha256": "f2182b4004881aa2575026429abeedd1fff5c17d39af0ceeb947b50672da116e",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "meetings/raw/cnbc-meeting-2000-afternoon.html"
+    },
+    {
+      "path": "data/library/meetings/raw/cnbc-meeting-2000-morning.html",
+      "bytes": 1102203,
+      "sha256": "d7abdc80a12e43e566b6d4199ebab110fade8e5d451f341c44ce6ea16aa8fa68",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "meetings/raw/cnbc-meeting-2000-morning.html"
+    },
+    {
+      "path": "data/library/meetings/raw/cnbc-meeting-2001-afternoon.html",
+      "bytes": 1249147,
+      "sha256": "1c55a69b624540b9c420b2db2ede4876e541b0871042ab36ae0281dc89774bcf",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "meetings/raw/cnbc-meeting-2001-afternoon.html"
+    },
+    {
+      "path": "data/library/meetings/raw/cnbc-meeting-2001-morning.html",
+      "bytes": 1143126,
+      "sha256": "3ba3d29b146ac709a0c5341aa812d34878d1b8f9da1f5c83bf5827faf5e5d242",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "meetings/raw/cnbc-meeting-2001-morning.html"
+    },
+    {
+      "path": "data/library/meetings/raw/cnbc-meeting-2002-afternoon.html",
+      "bytes": 1279166,
+      "sha256": "0c0a56f279f90bfcee56f7918df7d7dfef17194e0e2901bbf0acec0d1cb9126b",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "meetings/raw/cnbc-meeting-2002-afternoon.html"
+    },
+    {
+      "path": "data/library/meetings/raw/cnbc-meeting-2002-morning.html",
+      "bytes": 1282004,
+      "sha256": "387f34918b716dbe5dc2fe72b6abe22d94063f1012b93b6ae93f7f4566cfdcc7",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "meetings/raw/cnbc-meeting-2002-morning.html"
+    },
+    {
+      "path": "data/library/meetings/raw/cnbc-meeting-2003-afternoon.html",
+      "bytes": 1285208,
+      "sha256": "da30ac8c3b5bb527c649e7639767be10375c6ef534eb85a0e691ffcce3d00b4d",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "meetings/raw/cnbc-meeting-2003-afternoon.html"
+    },
+    {
+      "path": "data/library/meetings/raw/cnbc-meeting-2003-morning.html",
+      "bytes": 1232625,
+      "sha256": "d1fc34c966001ecd722e99789c91a7e23042e2eb7282e6ab93eb3556c23ebb98",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "meetings/raw/cnbc-meeting-2003-morning.html"
+    },
+    {
+      "path": "data/library/meetings/raw/cnbc-meeting-2004-afternoon.html",
+      "bytes": 1191772,
+      "sha256": "deeca3d138e99fc849178849d602496b5eca1679b1fa0c92c708f932df915708",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "meetings/raw/cnbc-meeting-2004-afternoon.html"
+    },
+    {
+      "path": "data/library/meetings/raw/cnbc-meeting-2004-morning.html",
+      "bytes": 1147755,
+      "sha256": "9046d8db284afbe0d2fd6a27315408c864ea17b08eb52378deea911b0fc59a2d",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "meetings/raw/cnbc-meeting-2004-morning.html"
+    },
+    {
+      "path": "data/library/meetings/raw/cnbc-meeting-2005-afternoon.html",
+      "bytes": 1049858,
+      "sha256": "cc079b9ad8eaa9e2214978178203f4fd9bd1ccef588ae4f296e4be7b52b607b9",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "meetings/raw/cnbc-meeting-2005-afternoon.html"
+    },
+    {
+      "path": "data/library/meetings/raw/cnbc-meeting-2005-morning.html",
+      "bytes": 1166644,
+      "sha256": "17e6cc0b049ddd0f217757c05c9faf2c3cad749d943b50480601181d51a644ca",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "meetings/raw/cnbc-meeting-2005-morning.html"
+    },
+    {
+      "path": "data/library/meetings/raw/cnbc-meeting-2006-afternoon.html",
+      "bytes": 1015315,
+      "sha256": "22368986ddfef0b38531e087c98b42cfa09bcfada885db13eec7c6d9ab2fa851",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "meetings/raw/cnbc-meeting-2006-afternoon.html"
+    },
+    {
+      "path": "data/library/meetings/raw/cnbc-meeting-2006-morning.html",
+      "bytes": 1134962,
+      "sha256": "e1be7f41c5cdbc61f4de00de9cf5f1e55d06da83c2449850c8c2959a3e29c1b1",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "meetings/raw/cnbc-meeting-2006-morning.html"
+    },
+    {
+      "path": "data/library/meetings/raw/cnbc-meeting-2007-afternoon.html",
+      "bytes": 1294426,
+      "sha256": "5a5c8832ab8bccb7aee6e9754219ac16a926db169acdc48a1a6193e1db51921e",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "meetings/raw/cnbc-meeting-2007-afternoon.html"
+    },
+    {
+      "path": "data/library/meetings/raw/cnbc-meeting-2007-morning.html",
+      "bytes": 1157341,
+      "sha256": "dd06e6f0ba150350dc58b74eb314e1ea57ca865d491beaf7d7b391b128c6b081",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "meetings/raw/cnbc-meeting-2007-morning.html"
+    },
+    {
+      "path": "data/library/meetings/raw/cnbc-meeting-2008-afternoon.html",
+      "bytes": 1059615,
+      "sha256": "bf8c228289f2e781a3bcf84d07d24b0cb748b0ae239f5e9ffe8dba577a0bf60d",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "meetings/raw/cnbc-meeting-2008-afternoon.html"
+    },
+    {
+      "path": "data/library/meetings/raw/cnbc-meeting-2008-morning.html",
+      "bytes": 1170899,
+      "sha256": "7e4426174294cd2dd301fc696de70ceb956ce2e96f0c07ae037707077d7fdc14",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "meetings/raw/cnbc-meeting-2008-morning.html"
+    },
+    {
+      "path": "data/library/meetings/raw/cnbc-meeting-2009-afternoon.html",
+      "bytes": 1097873,
+      "sha256": "6cb4db629439137d5136a48a06e7480cfaa027ec82b0721b6c2d73473064de84",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "meetings/raw/cnbc-meeting-2009-afternoon.html"
+    },
+    {
+      "path": "data/library/meetings/raw/cnbc-meeting-2009-morning.html",
+      "bytes": 1272135,
+      "sha256": "6455799838e9edc4eb17168135ae5731eb19cef8e5ff3ac4db9902fb42b8d73f",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "meetings/raw/cnbc-meeting-2009-morning.html"
+    },
+    {
+      "path": "data/library/meetings/raw/cnbc-meeting-2010-afternoon.html",
+      "bytes": 1227805,
+      "sha256": "6e6188034ddc83877bee9af30c548b9053cfe9dc7ac46160a30f3631e632d117",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "meetings/raw/cnbc-meeting-2010-afternoon.html"
+    },
+    {
+      "path": "data/library/meetings/raw/cnbc-meeting-2010-morning.html",
+      "bytes": 1166908,
+      "sha256": "bfbcc9aee76c385ce3d9e9c9c48a5d57db0481635387c08a9b0839f423801ed9",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "meetings/raw/cnbc-meeting-2010-morning.html"
+    },
+    {
+      "path": "data/library/meetings/raw/cnbc-meeting-2011-afternoon.html",
+      "bytes": 1381454,
+      "sha256": "bbbf932d783a259bc319d347b7e4109af5f2f9a20bbe2a507db7d2dc1e921f2f",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "meetings/raw/cnbc-meeting-2011-afternoon.html"
+    },
+    {
+      "path": "data/library/meetings/raw/cnbc-meeting-2011-morning.html",
+      "bytes": 1057291,
+      "sha256": "7aa4d8b02153c89ec51fc39b3cfc84ba0af7778f9d6dc6cba33cb9ff80919d11",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "meetings/raw/cnbc-meeting-2011-morning.html"
+    },
+    {
+      "path": "data/library/meetings/raw/cnbc-meeting-2012-afternoon.html",
+      "bytes": 1252933,
+      "sha256": "6ea71700da0880f52b35b334f6afd1432dc08c31d6c9b446c82288726b28bc8a",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "meetings/raw/cnbc-meeting-2012-afternoon.html"
+    },
+    {
+      "path": "data/library/meetings/raw/cnbc-meeting-2012-morning.html",
+      "bytes": 1198681,
+      "sha256": "06c5b91b427b23cb09b2b250447952b009f6f940e24072f3b527fc40c1e41ae0",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "meetings/raw/cnbc-meeting-2012-morning.html"
+    },
+    {
+      "path": "data/library/meetings/raw/cnbc-meeting-2013-afternoon.html",
+      "bytes": 1118479,
+      "sha256": "139640c2e4d1c806edb9b4892d7499f18d1ba1d0184798ea50dfb6355bf0d70f",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "meetings/raw/cnbc-meeting-2013-afternoon.html"
+    },
+    {
+      "path": "data/library/meetings/raw/cnbc-meeting-2013-morning.html",
+      "bytes": 1270313,
+      "sha256": "81a16efa981b36851df8fa9a323cb19f0b35301e3a8179ae40f6d7045f90ce0f",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "meetings/raw/cnbc-meeting-2013-morning.html"
+    },
+    {
+      "path": "data/library/meetings/raw/cnbc-meeting-2014-afternoon.html",
+      "bytes": 1275065,
+      "sha256": "081ede52f52ae6fb609a6dc39b45f763c217cf80d289de64ef7b67f66bbd4f10",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "meetings/raw/cnbc-meeting-2014-afternoon.html"
+    },
+    {
+      "path": "data/library/meetings/raw/cnbc-meeting-2014-morning.html",
+      "bytes": 1246730,
+      "sha256": "b61d69a10db4766067b885a4aadcb7630e605c76d0c5d0189cd4d41c71fbdfd5",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "meetings/raw/cnbc-meeting-2014-morning.html"
+    },
+    {
+      "path": "data/library/meetings/raw/cnbc-meeting-2015-afternoon.html",
+      "bytes": 1265837,
+      "sha256": "c062d4c128b39ab6b710d497f8ef770076593752e3510756ac9ba59a3d4e9ed5",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "meetings/raw/cnbc-meeting-2015-afternoon.html"
+    },
+    {
+      "path": "data/library/meetings/raw/cnbc-meeting-2015-morning.html",
+      "bytes": 1211354,
+      "sha256": "e55ac1a10526ad10bd3a244057abe4b2f6eff3907b08a7367cb95d664dd3370f",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "meetings/raw/cnbc-meeting-2015-morning.html"
+    },
+    {
+      "path": "data/library/meetings/raw/cnbc-meeting-2016-afternoon.html",
+      "bytes": 1337635,
+      "sha256": "144d20a2db1c5b49ce51082d28d1e21879473ae8bdc3ab6b105d36241180015d",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "meetings/raw/cnbc-meeting-2016-afternoon.html"
+    },
+    {
+      "path": "data/library/meetings/raw/cnbc-meeting-2016-morning.html",
+      "bytes": 1042278,
+      "sha256": "8599c74a1b78a4c804e2c8c33454088302f4103113c6f9024b63948dc4627e81",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "meetings/raw/cnbc-meeting-2016-morning.html"
+    },
+    {
+      "path": "data/library/meetings/raw/cnbc-meeting-2017-afternoon.html",
+      "bytes": 1352901,
+      "sha256": "a88aaddd2de537e14f928749de324db42ed27100369ad6e3c1fa0e6b2e8ef37a",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "meetings/raw/cnbc-meeting-2017-afternoon.html"
+    },
+    {
+      "path": "data/library/meetings/raw/cnbc-meeting-2017-morning.html",
+      "bytes": 1381074,
+      "sha256": "6a0be7d1fcd246e662139482865cc47e528030376c9625132f24f7ed8cb10f97",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "meetings/raw/cnbc-meeting-2017-morning.html"
+    },
+    {
+      "path": "data/library/meetings/raw/cnbc-meeting-2018-afternoon.html",
+      "bytes": 1190889,
+      "sha256": "34d9e769737fefee976f15d3a2f21ec41641ced10eff766a71b7b992f35f8eb4",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "meetings/raw/cnbc-meeting-2018-afternoon.html"
+    },
+    {
+      "path": "data/library/meetings/raw/cnbc-meeting-2018-morning.html",
+      "bytes": 1116262,
+      "sha256": "5f853a18419003d4a960d7c1fe5d5a0e87b37452f5abcbeec558543627b68020",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "meetings/raw/cnbc-meeting-2018-morning.html"
+    },
+    {
+      "path": "data/library/meetings/raw/cnbc-meeting-2019-afternoon.html",
+      "bytes": 1149148,
+      "sha256": "d8081a519cf9e84db546261c307eb86b0a0575ae0b29fb96c12e7f8a281c4a9d",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "meetings/raw/cnbc-meeting-2019-afternoon.html"
+    },
+    {
+      "path": "data/library/meetings/raw/cnbc-meeting-2019-morning.html",
+      "bytes": 1066774,
+      "sha256": "e1fb990b2ce6549883dc9ec3335ae463a81b7fd53a2d84db78feab2bbe1c6116",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "meetings/raw/cnbc-meeting-2019-morning.html"
+    },
+    {
+      "path": "data/library/meetings/raw/cnbc-meeting-2020-part-1.html",
+      "bytes": 772684,
+      "sha256": "6dd9c238ab6e6acf83b2645e826a3066d377688de44cb4ec864212f5df6cd397",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "meetings/raw/cnbc-meeting-2020-part-1.html"
+    },
+    {
+      "path": "data/library/meetings/raw/cnbc-meeting-2020-part-2.html",
+      "bytes": 1073910,
+      "sha256": "0095ff08b8c1756a29ee32047bac371881a512c092f34e163d6d477795a8e75f",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "meetings/raw/cnbc-meeting-2020-part-2.html"
+    },
+    {
+      "path": "data/library/meetings/raw/cnbc-meeting-2021-part-1.html",
+      "bytes": 957605,
+      "sha256": "a795e9b13faee23362223d3e98cdc5cdba8735c523e26e101959ef43990a9d27",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "meetings/raw/cnbc-meeting-2021-part-1.html"
+    },
+    {
+      "path": "data/library/meetings/raw/cnbc-meeting-2021-part-2.html",
+      "bytes": 1057172,
+      "sha256": "a2aba5facc32e24279029526009053bc0962dd94a7f618abb30bfd13b9690b67",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "meetings/raw/cnbc-meeting-2021-part-2.html"
+    },
+    {
+      "path": "data/library/meetings/raw/cnbc-meeting-2022-afternoon.html",
+      "bytes": 1256459,
+      "sha256": "83d5656f1fc012977397b23398581051581ba4032164e73dde5c4087a113b3f3",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "meetings/raw/cnbc-meeting-2022-afternoon.html"
+    },
+    {
+      "path": "data/library/meetings/raw/cnbc-meeting-2022-morning.html",
+      "bytes": 1085207,
+      "sha256": "2f849f945f752967c4050a13d2fa6e09223f04116998b0fdcaccf8545a5245cc",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "meetings/raw/cnbc-meeting-2022-morning.html"
+    },
+    {
+      "path": "data/library/meetings/raw/cnbc-meeting-2023-afternoon.html",
+      "bytes": 1013602,
+      "sha256": "241fa13e5d59b8ad72e88f2ff483c516d063493a265361bff1c8083cff722cb6",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "meetings/raw/cnbc-meeting-2023-afternoon.html"
+    },
+    {
+      "path": "data/library/meetings/raw/cnbc-meeting-2023-morning.html",
+      "bytes": 1012788,
+      "sha256": "b241e5750a9cac68016f4c060cbafec598ce428ab6059becbbaee0fee629a0fa",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "meetings/raw/cnbc-meeting-2023-morning.html"
+    },
+    {
+      "path": "data/library/meetings/raw/cnbc-meeting-2024-afternoon.html",
+      "bytes": 853076,
+      "sha256": "a1a5d30055b6b83ef1f889933eb6b09de5299a2697bf47622d0568890641e9ba",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "meetings/raw/cnbc-meeting-2024-afternoon.html"
+    },
+    {
+      "path": "data/library/meetings/raw/cnbc-meeting-2024-morning.html",
+      "bytes": 1133154,
+      "sha256": "ae79fd81051b9f38bf337f97a9d91147d700beef8d1a49da383357caed154442",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "meetings/raw/cnbc-meeting-2024-morning.html"
+    },
+    {
+      "path": "data/library/meetings/raw/cnbc-meeting-2025-afternoon.html",
+      "bytes": 443581,
+      "sha256": "571e3c854cbf5acc7f038d951ae01be39093d59e7b397bdbe1d4c9a6b148caf4",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "meetings/raw/cnbc-meeting-2025-afternoon.html"
+    },
+    {
+      "path": "data/library/meetings/raw/cnbc-meeting-2025-morning.html",
+      "bytes": 446782,
+      "sha256": "3cfe5274284259eb766c4ddf77faa0dc29794a4c4fb7742b7a5987b98c2f7dce",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "meetings/raw/cnbc-meeting-2025-morning.html"
+    },
+    {
+      "path": "data/library/qa-pilot/audit/approval.json",
+      "bytes": 2476,
+      "sha256": "18d2f48cc20e3641eb9f050169dc0a1efa4af8ca77263233d97696f1ab0c73c3",
+      "roles": [
+        "bounded_provenance_review"
+      ],
+      "canonical_relative_path": "qa-pilot/audit/approval.json"
+    },
+    {
+      "path": "data/library/qa-pilot/audit/source-guidance-review.json",
+      "bytes": 16738,
+      "sha256": "04550af2db7d8b79f0c6a387a96de2cf2c788acb40b3da2f75fb877260ec1d7e",
+      "roles": [
+        "bounded_provenance_review"
+      ],
+      "canonical_relative_path": "qa-pilot/audit/source-guidance-review.json"
+    },
+    {
+      "path": "data/library/qa-pilot/evidence.json",
+      "bytes": 37146,
+      "sha256": "1da4696a33cb5cbe388708a199229dd25e3be174c2b1faf17fcaad80d0d179b4",
+      "roles": [
+        "retrieval_dependency"
+      ],
+      "canonical_relative_path": "qa-pilot/evidence.json"
+    },
+    {
+      "path": "data/library/qa-pilot/manifest.json",
+      "bytes": 1213,
+      "sha256": "3b9ee3dab389f3d1977477f0e405af9ecf862c11ee14086f2dcf30502c98ebb2",
+      "roles": [
+        "retrieval_dependency"
+      ],
+      "canonical_relative_path": "qa-pilot/manifest.json"
+    },
+    {
+      "path": "data/library/qa-pilot/sources/letter-2013-investing.json",
+      "bytes": 138674,
+      "sha256": "2b827efb7035f62864c479d6788546dc2cb70454a3c815e63d91c57ca125bcee",
+      "roles": [
+        "reviewed_context"
+      ],
+      "canonical_relative_path": "qa-pilot/sources/letter-2013-investing.json"
+    },
+    {
+      "path": "data/library/qa-pilot/sources/meeting-2021-index-estate.json",
+      "bytes": 96874,
+      "sha256": "3a527ad264cb35626f387d17b01da554d68c484dc0cdbf8006926179778a9a20",
+      "roles": [
+        "reviewed_context"
+      ],
+      "canonical_relative_path": "qa-pilot/sources/meeting-2021-index-estate.json"
+    },
+    {
+      "path": "data/library/readability/html/berkshire-letter-1977.json",
+      "bytes": 43030,
+      "sha256": "7dd8670f84481acbff8bb95f504cf4146595e3703fd1850df59ae7bee9667be7",
+      "roles": [
+        "logical_sections_or_review_manifest"
+      ],
+      "canonical_relative_path": "readability/html/berkshire-letter-1977.json"
+    },
+    {
+      "path": "data/library/readability/html/berkshire-letter-1978.json",
+      "bytes": 59762,
+      "sha256": "a253363567d4029efdb29d863dee3a4d20d1ef686ab06579bb1a68c1353d4b26",
+      "roles": [
+        "logical_sections_or_review_manifest"
+      ],
+      "canonical_relative_path": "readability/html/berkshire-letter-1978.json"
+    },
+    {
+      "path": "data/library/readability/html/berkshire-letter-1979.json",
+      "bytes": 88526,
+      "sha256": "387b39eff2d894f10dfff952dc744ada91c5a86cd93a79f26c23738f549ec4c1",
+      "roles": [
+        "logical_sections_or_review_manifest"
+      ],
+      "canonical_relative_path": "readability/html/berkshire-letter-1979.json"
+    },
+    {
+      "path": "data/library/readability/html/berkshire-letter-1980.json",
+      "bytes": 103766,
+      "sha256": "96f646a95dda16a29013cf4ed75205393325128906ad37cbc6288ddc1e206d1c",
+      "roles": [
+        "logical_sections_or_review_manifest"
+      ],
+      "canonical_relative_path": "readability/html/berkshire-letter-1980.json"
+    },
+    {
+      "path": "data/library/readability/html/berkshire-letter-1981.json",
+      "bytes": 98408,
+      "sha256": "45b77da0bd54a4c72039a69995a3908c8e5e5f961b31672fbc0e0436efd25828",
+      "roles": [
+        "logical_sections_or_review_manifest"
+      ],
+      "canonical_relative_path": "readability/html/berkshire-letter-1981.json"
+    },
+    {
+      "path": "data/library/readability/html/berkshire-letter-1982.json",
+      "bytes": 115339,
+      "sha256": "f6aae36a8b9970bdc95508aed94cb7b3f12b2c4156d648923029befa873e6d09",
+      "roles": [
+        "logical_sections_or_review_manifest"
+      ],
+      "canonical_relative_path": "readability/html/berkshire-letter-1982.json"
+    },
+    {
+      "path": "data/library/readability/html/berkshire-letter-1983.json",
+      "bytes": 165399,
+      "sha256": "3adfb63979a7e86d8a5739e9b5cea39f13b8a0a3b07477da37de0d89780f920c",
+      "roles": [
+        "logical_sections_or_review_manifest"
+      ],
+      "canonical_relative_path": "readability/html/berkshire-letter-1983.json"
+    },
+    {
+      "path": "data/library/readability/html/berkshire-letter-1984.json",
+      "bytes": 157917,
+      "sha256": "1245f4a1be90f6c01b6f9a9f5e38fd8756377883b657df1f00a8275cd410a345",
+      "roles": [
+        "logical_sections_or_review_manifest"
+      ],
+      "canonical_relative_path": "readability/html/berkshire-letter-1984.json"
+    },
+    {
+      "path": "data/library/readability/html/berkshire-letter-1985.json",
+      "bytes": 174340,
+      "sha256": "3e513613aa8b142d12a95c1aa4282b867bcec015ad4e347f8e4ab121e0c100f4",
+      "roles": [
+        "logical_sections_or_review_manifest"
+      ],
+      "canonical_relative_path": "readability/html/berkshire-letter-1985.json"
+    },
+    {
+      "path": "data/library/readability/html/berkshire-letter-1986.json",
+      "bytes": 232898,
+      "sha256": "c3742c40da736019738ea197d4cd868dc1e352dda5bf99310929f3d48417744c",
+      "roles": [
+        "logical_sections_or_review_manifest"
+      ],
+      "canonical_relative_path": "readability/html/berkshire-letter-1986.json"
+    },
+    {
+      "path": "data/library/readability/html/berkshire-letter-1987.json",
+      "bytes": 167996,
+      "sha256": "4a84803cc4e158f2e4d404ffd9c577f45e317284624ac338ada126ee70b76c5c",
+      "roles": [
+        "logical_sections_or_review_manifest"
+      ],
+      "canonical_relative_path": "readability/html/berkshire-letter-1987.json"
+    },
+    {
+      "path": "data/library/readability/html/berkshire-letter-1988.json",
+      "bytes": 171484,
+      "sha256": "2f00125b8712c16914128727136890259faa87337d064bff6a5260a6b452945c",
+      "roles": [
+        "logical_sections_or_review_manifest"
+      ],
+      "canonical_relative_path": "readability/html/berkshire-letter-1988.json"
+    },
+    {
+      "path": "data/library/readability/html/berkshire-letter-1989.json",
+      "bytes": 192279,
+      "sha256": "23cea2a3f344fb32e51ead9722f1f9af84224531832d798620762084aa79d4df",
+      "roles": [
+        "logical_sections_or_review_manifest"
+      ],
+      "canonical_relative_path": "readability/html/berkshire-letter-1989.json"
+    },
+    {
+      "path": "data/library/readability/html/berkshire-letter-1990.json",
+      "bytes": 241025,
+      "sha256": "f9e1715a1dab0c460a0e82a142d937ad0a94d19be7a59bb76a4dfb4c91d78212",
+      "roles": [
+        "logical_sections_or_review_manifest"
+      ],
+      "canonical_relative_path": "readability/html/berkshire-letter-1990.json"
+    },
+    {
+      "path": "data/library/readability/html/berkshire-letter-1991.json",
+      "bytes": 127809,
+      "sha256": "83c6ce85784ce721ddc6a82b7131c4a40a6f3c7397cc0982afc62885d1d729dd",
+      "roles": [
+        "logical_sections_or_review_manifest"
+      ],
+      "canonical_relative_path": "readability/html/berkshire-letter-1991.json"
+    },
+    {
+      "path": "data/library/readability/html/berkshire-letter-1992.json",
+      "bytes": 153246,
+      "sha256": "ef688e5cb68b4b4a9ba62ed75f588f06a73462bbb3c9590bdb6209ba84b8324b",
+      "roles": [
+        "logical_sections_or_review_manifest"
+      ],
+      "canonical_relative_path": "readability/html/berkshire-letter-1992.json"
+    },
+    {
+      "path": "data/library/readability/html/berkshire-letter-1993.json",
+      "bytes": 147201,
+      "sha256": "24029b298a3a91e160a73a961e841edf65890055a601720aa5fc0ecbd70bd485",
+      "roles": [
+        "logical_sections_or_review_manifest"
+      ],
+      "canonical_relative_path": "readability/html/berkshire-letter-1993.json"
+    },
+    {
+      "path": "data/library/readability/html/berkshire-letter-1994.json",
+      "bytes": 133880,
+      "sha256": "ef1538cfab17901a292055354cde1de806dfcdbe89673a7d50a7bff72bbe8067",
+      "roles": [
+        "logical_sections_or_review_manifest"
+      ],
+      "canonical_relative_path": "readability/html/berkshire-letter-1994.json"
+    },
+    {
+      "path": "data/library/readability/html/berkshire-letter-1995.json",
+      "bytes": 159115,
+      "sha256": "9d6e935d66dfc5fd3f629815036a6006cb1d00170123c26a029ef3f0a5751900",
+      "roles": [
+        "logical_sections_or_review_manifest"
+      ],
+      "canonical_relative_path": "readability/html/berkshire-letter-1995.json"
+    },
+    {
+      "path": "data/library/readability/html/berkshire-letter-1996.json",
+      "bytes": 155048,
+      "sha256": "75d342e824b1349048d712db010d51d1b7860bb22c47b69b74251dd0cd82b510",
+      "roles": [
+        "logical_sections_or_review_manifest"
+      ],
+      "canonical_relative_path": "readability/html/berkshire-letter-1996.json"
+    },
+    {
+      "path": "data/library/readability/html/berkshire-letter-1997.json",
+      "bytes": 161001,
+      "sha256": "c6132bcbf71707c3d84d57602453890d84af466f70c71bab5992cbc2f4a11f94",
+      "roles": [
+        "logical_sections_or_review_manifest"
+      ],
+      "canonical_relative_path": "readability/html/berkshire-letter-1997.json"
+    },
+    {
+      "path": "data/library/readability/html/handoff.json",
+      "bytes": 1912,
+      "sha256": "bd71d580e5906ee108681164a01026834329f158b81db1a4fb9649e16f5d6535",
+      "roles": [
+        "logical_sections_or_review_manifest"
+      ],
+      "canonical_relative_path": "readability/html/handoff.json"
+    },
+    {
+      "path": "data/library/readability/html/independent-checks.json",
+      "bytes": 7542,
+      "sha256": "8901226b58bd15a90b24cd739dae579436f64d2b83f0e0af50413233e5fbd438",
+      "roles": [
+        "logical_sections_or_review_manifest"
+      ],
+      "canonical_relative_path": "readability/html/independent-checks.json"
+    },
+    {
+      "path": "data/library/readability/html/manifest.json",
+      "bytes": 21764,
+      "sha256": "4a1ca960306d0dbdc9713b123863924a31b70d47912e5505a77b9ae9a06183aa",
+      "roles": [
+        "logical_sections_or_review_manifest"
+      ],
+      "canonical_relative_path": "readability/html/manifest.json"
+    },
+    {
+      "path": "data/library/reviewed-core/audit/review-corrections.json",
+      "bytes": 10578,
+      "sha256": "cd733339d3126322b230ecfa4e868683d028fbc6b3621d85e78f61326c3f778e",
+      "roles": [
+        "bounded_provenance_review"
+      ],
+      "canonical_relative_path": "reviewed-core/audit/review-corrections.json"
+    },
+    {
+      "path": "data/library/reviewed-core/audit/review-evidence-mechanical.json",
+      "bytes": 1481,
+      "sha256": "dd7575f1170c2cc871ffb459d552e6fbcbd88862ed4e7a15bdf07f4245c95620",
+      "roles": [
+        "bounded_provenance_review"
+      ],
+      "canonical_relative_path": "reviewed-core/audit/review-evidence-mechanical.json"
+    },
+    {
+      "path": "data/library/reviewed-core/audit/review-evidence.json",
+      "bytes": 12689,
+      "sha256": "7702650f6048df031fca3a4613193fd9e9c4a6ffd64b28565a33721e616209d6",
+      "roles": [
+        "bounded_provenance_review"
+      ],
+      "canonical_relative_path": "reviewed-core/audit/review-evidence.json"
+    },
+    {
+      "path": "data/library/reviewed-core/contexts/letter-1989-mistakes.json",
+      "bytes": 29899,
+      "sha256": "9b60ecdae42870e45168412c8b4d1b259a82e1409f7562753ee47cd7a2de5ab1",
+      "roles": [
+        "reviewed_context"
+      ],
+      "canonical_relative_path": "reviewed-core/contexts/letter-1989-mistakes.json"
+    },
+    {
+      "path": "data/library/reviewed-core/contexts/letter-1996-common-stocks.json",
+      "bytes": 38976,
+      "sha256": "7f4f2a7baca1f481624604c532a0deba91da2a255f6b75a390ca230e4670ba8f",
+      "roles": [
+        "reviewed_context"
+      ],
+      "canonical_relative_path": "reviewed-core/contexts/letter-1996-common-stocks.json"
+    },
+    {
+      "path": "data/library/reviewed-core/contexts/meeting-2002-index.json",
+      "bytes": 57278,
+      "sha256": "c3cc4157758986e45310a263634bbe7bb97ff54438fba52a5b2ccbf35bc7295a",
+      "roles": [
+        "reviewed_context"
+      ],
+      "canonical_relative_path": "reviewed-core/contexts/meeting-2002-index.json"
+    },
+    {
+      "path": "data/library/reviewed-core/contexts/meeting-2010-integrity.json",
+      "bytes": 45121,
+      "sha256": "c87440c7d23d4172bf8862ec3b75eeb91d0b21bac43035033f84c3ebc1600d4a",
+      "roles": [
+        "reviewed_context"
+      ],
+      "canonical_relative_path": "reviewed-core/contexts/meeting-2010-integrity.json"
+    },
+    {
+      "path": "data/library/reviewed-core/corrections/acceptance.json",
+      "bytes": 544,
+      "sha256": "0b83c6988a883a69f993efc18ce8520f352acc369ca83d8798c7a3ad17823570",
+      "roles": [
+        "retrieval_dependency"
+      ],
+      "canonical_relative_path": "reviewed-core/corrections/acceptance.json"
+    },
+    {
+      "path": "data/library/reviewed-core/corrections/corrections.json",
+      "bytes": 59455,
+      "sha256": "8d5511f535fbf796217109769822a8bc59cfeedb6bdb3aed4632c828bb79f0a9",
+      "roles": [
+        "retrieval_dependency"
+      ],
+      "canonical_relative_path": "reviewed-core/corrections/corrections.json"
+    },
+    {
+      "path": "data/library/reviewed-core/evidence.json",
+      "bytes": 21490,
+      "sha256": "265c79c4aaddb8037c6e61b6a3308f1d9910be14f073321e6f6b9180dab464a2",
+      "roles": [
+        "retrieval_dependency"
+      ],
+      "canonical_relative_path": "reviewed-core/evidence.json"
+    },
+    {
+      "path": "data/library/reviewed-core/manifest.json",
+      "bytes": 1748,
+      "sha256": "4683001bece6dd804329933d74d6b2d5389eaafe366f62787a6491d6c77892f6",
+      "roles": [
+        "retrieval_dependency"
+      ],
+      "canonical_relative_path": "reviewed-core/manifest.json"
+    },
+    {
+      "path": "data/library/supplemental/原始下载/cnbc-interview-berkshires-pilot-flying-j-acquisition-full-buffett-interview.html",
+      "bytes": 544237,
+      "sha256": "82cea81c31601129fb4840aeaee07ca8cdbc724d34556f5b312b424c8c61574e",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "supplemental/原始下载/cnbc-interview-berkshires-pilot-flying-j-acquisition-full-buffett-interview.html"
+    },
+    {
+      "path": "data/library/supplemental/原始下载/cnbc-interview-buffett-americas-never-been-greater-full-interview.html",
+      "bytes": 544440,
+      "sha256": "6b2ffc58b419875a26aac7b089ea05be0ef2dc5bf9c2951b8eccc1002e2863be",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "supplemental/原始下载/cnbc-interview-buffett-americas-never-been-greater-full-interview.html"
+    },
+    {
+      "path": "data/library/supplemental/原始下载/cnbc-interview-buffett-and-munger-reveal-the-secrets-of-their-friendship-full-interview-.html",
+      "bytes": 537103,
+      "sha256": "b63ec1f6ee69f521e4a7d5cda87b613cf462a66e1415a78ca11a9c2b53232f29",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "supplemental/原始下载/cnbc-interview-buffett-and-munger-reveal-the-secrets-of-their-friendship-full-interview-.html"
+    },
+    {
+      "path": "data/library/supplemental/原始下载/cnbc-interview-buffett-buys-airlines-and-apple-full-interview.html",
+      "bytes": 567485,
+      "sha256": "6128bfdb5f51074e343bd77d1b0da5a3784fb2a8ed4a4e499ef4b5a870ab7050",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "supplemental/原始下载/cnbc-interview-buffett-buys-airlines-and-apple-full-interview.html"
+    },
+    {
+      "path": "data/library/supplemental/原始下载/cnbc-interview-buffett-class-b-stock-split-was-easy-decision-full-interview.html",
+      "bytes": 579284,
+      "sha256": "2033aca8d456fb9c4cc2cf0252caa21023c37d82d64a0ec6e2bd154cdcd87435",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "supplemental/原始下载/cnbc-interview-buffett-class-b-stock-split-was-easy-decision-full-interview.html"
+    },
+    {
+      "path": "data/library/supplemental/原始下载/cnbc-interview-buffett-coronavirus-threat-shouldnt-change-how-you-invest.html",
+      "bytes": 524407,
+      "sha256": "2c574fd2fc9db9269f2badc6376b98233425259b103b898eb1999ce959dc6afd",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "supplemental/原始下载/cnbc-interview-buffett-coronavirus-threat-shouldnt-change-how-you-invest.html"
+    },
+    {
+      "path": "data/library/supplemental/原始下载/cnbc-interview-buffett-defends-clayton-homes-and-berkshires-ibm-stake-full-interview.html",
+      "bytes": 559677,
+      "sha256": "c5c34bdc1abaf4b1b7e93ce19d28285fef37514f6f3ff6a0dc8a284c35dd9081",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "supplemental/原始下载/cnbc-interview-buffett-defends-clayton-homes-and-berkshires-ibm-stake-full-interview.html"
+    },
+    {
+      "path": "data/library/supplemental/原始下载/cnbc-interview-buffett-full-interview-criticizing-the-cryptocurrency-craze.html",
+      "bytes": 584661,
+      "sha256": "e6324c83e1408b077048fd0a0157ce3e39b8abc45ef9bdd3e6868d0493b828dc",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "supplemental/原始下载/cnbc-interview-buffett-full-interview-criticizing-the-cryptocurrency-craze.html"
+    },
+    {
+      "path": "data/library/supplemental/原始下载/cnbc-interview-buffett-i-was-wrong-on-ibm-full-interview.html",
+      "bytes": 527603,
+      "sha256": "0b2cd0b1b325ae547d1a7ef5aafb203c1fc7d6b5030ac7be2091a502394a5b79",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "supplemental/原始下载/cnbc-interview-buffett-i-was-wrong-on-ibm-full-interview.html"
+    },
+    {
+      "path": "data/library/supplemental/原始下载/cnbc-interview-buffett-i-was-wrong-on-kraft-heinz.html",
+      "bytes": 510841,
+      "sha256": "87008b88f166798a8c14a4f0b4fce4f58fc8b76f868ad0ad1e8c1f83f36b3f3f",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "supplemental/原始下载/cnbc-interview-buffett-i-was-wrong-on-kraft-heinz.html"
+    },
+    {
+      "path": "data/library/supplemental/原始下载/cnbc-interview-buffett-more-banks-may-fail-but-us-depositors-will-be-ok.html",
+      "bytes": 523760,
+      "sha256": "d1d853588d70febec015293850bf1a5536523384d4320d23b412df4b47b67bea",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "supplemental/原始下载/cnbc-interview-buffett-more-banks-may-fail-but-us-depositors-will-be-ok.html"
+    },
+    {
+      "path": "data/library/supplemental/原始下载/cnbc-interview-buffett-no-question-the-global-economy-is-slowing-full-interview.html",
+      "bytes": 572375,
+      "sha256": "b8ba32c687e885e71294189650a7e90fd2accc16e36f31b1401748f62ed5dc27",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "supplemental/原始下载/cnbc-interview-buffett-no-question-the-global-economy-is-slowing-full-interview.html"
+    },
+    {
+      "path": "data/library/supplemental/原始下载/cnbc-interview-buffett-on-buying-apple-selling-ibm-missing-google-full-interview.html",
+      "bytes": 571136,
+      "sha256": "2c7a3bf55a1f75e40e3c5313dbf64123e33b98e89463e4fbeca84bd1cd348ccc",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "supplemental/原始下载/cnbc-interview-buffett-on-buying-apple-selling-ibm-missing-google-full-interview.html"
+    },
+    {
+      "path": "data/library/supplemental/原始下载/cnbc-interview-buffett-on-heinz-deal-weve-got-a-great-business-full-interview.html",
+      "bytes": 582583,
+      "sha256": "dff5b55f7f631516ae125fcb653fc9709cc9f2ea9e5cb7d2077b97b0445a1124",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "supplemental/原始下载/cnbc-interview-buffett-on-heinz-deal-weve-got-a-great-business-full-interview.html"
+    },
+    {
+      "path": "data/library/supplemental/原始下载/cnbc-interview-buffett-on-trump-vs-clinton-brexit-and-amazons-bezos-full-interview.html",
+      "bytes": 569583,
+      "sha256": "09e4614b35d6db173de8cab5593cc5b89171c51c21bf06437ba91683a32d8a25",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "supplemental/原始下载/cnbc-interview-buffett-on-trump-vs-clinton-brexit-and-amazons-bezos-full-interview.html"
+    },
+    {
+      "path": "data/library/supplemental/原始下载/cnbc-interview-buffett-people-react-too-much-to-short-term-things-full-interview.html",
+      "bytes": 578267,
+      "sha256": "a44557a1d5391bf2691fe56608ebcebb148ac5e80d5ede7249f3581d7e96bb65",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "supplemental/原始下载/cnbc-interview-buffett-people-react-too-much-to-short-term-things-full-interview.html"
+    },
+    {
+      "path": "data/library/supplemental/原始下载/cnbc-interview-buffett-recalls-his-early-days-as-an-investor.html",
+      "bytes": 514697,
+      "sha256": "7d9192b4ee6992f6459b1f8d6c35861198bd2dfa4266fb3ded3e68f9b275b357",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "supplemental/原始下载/cnbc-interview-buffett-recalls-his-early-days-as-an-investor.html"
+    },
+    {
+      "path": "data/library/supplemental/原始下载/cnbc-interview-buffett-remembers-the-2008-financial-crisis.html",
+      "bytes": 542378,
+      "sha256": "1fc1b3096d33c5190748899f8d640f5bc3ff2b44aafa53f6b89fbe96246f7ccd",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "supplemental/原始下载/cnbc-interview-buffett-remembers-the-2008-financial-crisis.html"
+    },
+    {
+      "path": "data/library/supplemental/原始下载/cnbc-interview-buffett-sees-gradual-improvement-in-economy-full-interview.html",
+      "bytes": 582110,
+      "sha256": "494e380b94c25ad6338a9f50fb8552e1959bbc6fdbad4ea31d27fb27f02b63a2",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "supplemental/原始下载/cnbc-interview-buffett-sees-gradual-improvement-in-economy-full-interview.html"
+    },
+    {
+      "path": "data/library/supplemental/原始下载/cnbc-interview-buffett-sets-the-stage-for-ceo-succession--full-interview.html",
+      "bytes": 551498,
+      "sha256": "ddbbe127548be073efaa8d71ba8d89925721eb56fb9efc16a765c3b25a491936",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "supplemental/原始下载/cnbc-interview-buffett-sets-the-stage-for-ceo-succession--full-interview.html"
+    },
+    {
+      "path": "data/library/supplemental/原始下载/cnbc-interview-buffett-tells-cnbc-hes-boosting-apple-stake-by-13b-full-interview.html",
+      "bytes": 536785,
+      "sha256": "a8d131d6832bf070fa247795f0e7228c220f2b7d6b21ce89d2647048861e11d6",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "supplemental/原始下载/cnbc-interview-buffett-tells-cnbc-hes-boosting-apple-stake-by-13b-full-interview.html"
+    },
+    {
+      "path": "data/library/supplemental/原始下载/cnbc-interview-buffett-u-s-must-get-its-promises-in-line-with-its-capacity-full-interview.html",
+      "bytes": 558622,
+      "sha256": "cfda626a379b1e4dc1f80d85c16242c03f619e6b08a4bfa1182f748c911ba130",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "supplemental/原始下载/cnbc-interview-buffett-u-s-must-get-its-promises-in-line-with-its-capacity-full-interview.html"
+    },
+    {
+      "path": "data/library/supplemental/原始下载/cnbc-interview-buffett-we-need-to-help-the-economys-roadkill.html",
+      "bytes": 518188,
+      "sha256": "df6d064524ffbedd705172e4b9917073243b1086923a22dc0ae5a98898457a85",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "supplemental/原始下载/cnbc-interview-buffett-we-need-to-help-the-economys-roadkill.html"
+    },
+    {
+      "path": "data/library/supplemental/原始下载/cnbc-interview-buffett-well-never-want-to-go-to-war-with-coca-cola-full-interview.html",
+      "bytes": 575953,
+      "sha256": "07bcf54ab577ac4c6488b8be940d625f63e51a6ffdc90b4f18962e53a0114fa6",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "supplemental/原始下载/cnbc-interview-buffett-well-never-want-to-go-to-war-with-coca-cola-full-interview.html"
+    },
+    {
+      "path": "data/library/supplemental/原始下载/cnbc-interview-buffett-weve-bought-just-a-little-more-apple-and-bought-back-a-little-berkshire.html",
+      "bytes": 551491,
+      "sha256": "58580b95bb672704e711b2250d71725c26f79348786c688340ecfc61315c5e88",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "supplemental/原始下载/cnbc-interview-buffett-weve-bought-just-a-little-more-apple-and-bought-back-a-little-berkshire.html"
+    },
+    {
+      "path": "data/library/supplemental/原始下载/cnbc-interview-buffetts-health-care-partnership-is-determined-to-contain-costs-full-interview.html",
+      "bytes": 589626,
+      "sha256": "a5b416ef51e9a24379400b95c376ce264369d12f6d1a12d30b15cf74d7415398",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "supplemental/原始下载/cnbc-interview-buffetts-health-care-partnership-is-determined-to-contain-costs-full-interview.html"
+    },
+    {
+      "path": "data/library/supplemental/原始下载/cnbc-interview-fifty-years-of-buffetts-berkshire-full-interview.html",
+      "bytes": 571478,
+      "sha256": "7760ffeea10d960d481c400e6a71923a2b15e19de8ee268853fb577499a7eb20",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "supplemental/原始下载/cnbc-interview-fifty-years-of-buffetts-berkshire-full-interview.html"
+    },
+    {
+      "path": "data/library/supplemental/原始下载/cnbc-interview-warren-buffett-and-jamie-dimon-say-companies-shouldnt-issue-earnings-forecasts.html",
+      "bytes": 552413,
+      "sha256": "cbf11bbfa21ccbd76f4872be0757c13e6566057422a087b91e22575d5d9cb2a7",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "supplemental/原始下载/cnbc-interview-warren-buffett-and-jamie-dimon-say-companies-shouldnt-issue-earnings-forecasts.html"
+    },
+    {
+      "path": "data/library/supplemental/原始下载/cnbc-interview-warren-buffett-i-didnt-pull-the-trigger-for-berkshire-to-buy-amazon.html",
+      "bytes": 527704,
+      "sha256": "008b7fa76a5e6a04c98f958961c710ce114997fba6802dbf4af581d703b84e38",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "supplemental/原始下载/cnbc-interview-warren-buffett-i-didnt-pull-the-trigger-for-berkshire-to-buy-amazon.html"
+    },
+    {
+      "path": "data/library/supplemental/原始下载/cnbc-interview-warren-buffett-stocks-are-ridiculously-cheap-if-rates-dont-move.html",
+      "bytes": 526177,
+      "sha256": "62f74c6675f7eaa636ed4abb3ddb59c6e329a069d6fb60944718a517ee308680",
+      "roles": [
+        "archived_original"
+      ],
+      "canonical_relative_path": "supplemental/原始下载/cnbc-interview-warren-buffett-stocks-are-ridiculously-cheap-if-rates-dont-move.html"
+    },
+    {
+      "path": "data/library/原文总目录.json",
+      "bytes": 391927,
+      "sha256": "d35c3320134d308d3b1f93943ae48eeedae5a2ce1408b96f6c08915fac554970",
+      "roles": [
+        "retrieval_dependency"
+      ],
+      "canonical_relative_path": "原文总目录.json"
+    },
+    {
+      "path": "data/library/待核与缺口.json",
+      "bytes": 22843,
+      "sha256": "bae3c02c3a581c1e54d1eb97ae0bc8d13727996fee18f41dd734b69432faa29f",
+      "roles": [
+        "bounded_provenance_review"
+      ],
+      "canonical_relative_path": "待核与缺口.json"
+    },
+    {
+      "path": "data/library/整合检查.json",
+      "bytes": 410,
+      "sha256": "fbd4d9431c2bbe38d98aaad5814a657139483088993b98da2912cc6d995e8fff",
+      "roles": [
+        "bounded_provenance_review"
+      ],
+      "canonical_relative_path": "整合检查.json"
+    },
+    {
+      "path": "data/library/原文知识库.sqlite.gz",
+      "bytes": 16652874,
+      "sha256": "3192163fbf1a6b70207ac30b3340a5ffe1822dd651f866e4c159ea2014e33eaf",
+      "roles": [
+        "lossless_database_transport"
+      ],
+      "canonical_relative_path": "原文知识库.sqlite"
+    },
+    {
+      "path": "legacy-retrieval/retrieval.py",
+      "bytes": 32973,
+      "sha256": "2a81aa97f6fc53a064c3a13c83335d49cd6a55a06cd631df5dffbdb6160a5220",
+      "roles": [
+        "unmodified_legacy_retriever"
+      ],
+      "canonical_relative_path": "Buffett-Questions/retrieval.py"
+    },
+    {
+      "path": "legacy-retrieval/test_retrieval.py",
+      "bytes": 6508,
+      "sha256": "5c56ae8990bdffac71986fee4c89792f298399b5a276eb02f41d7bce3723709d",
+      "roles": [
+        "portable_preservation_tests"
+      ],
+      "canonical_relative_path": "Buffett-Questions/test_retrieval.py"
+    },
+    {
+      "path": "scripts/restore-library.py",
+      "bytes": 3153,
+      "sha256": "18ea294d8b2c153df9b8056aa5dd2c7fa1f02f69b4192fcd233f953c710a3f1c",
+      "roles": [
+        "hash_checked_restore_helper"
+      ]
+    }
+  ]
+}

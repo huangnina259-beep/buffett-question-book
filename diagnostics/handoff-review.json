@@ -1,0 +1,58 @@
+{
+  "version": "github-handoff-independent-review-1",
+  "reviewed_at": "2026-11-05T11:51:21.625900+00:00",
+  "reviewer": "launch_latency_audit",
+  "repository": "outputs/Buffett-GitHub-Handoff/repository",
+  "baseline_commit": "58bca6e0857e898c453261e01956be51e2a17c5f",
+  "status": "passed_scoped_read_only_review_no_material_findings",
+  "findings": [],
+  "checks": [
+    {
+      "name": "Application implementation preserved",
+      "result": "pass",
+      "evidence": "Compared current checkout/index with baseline tree. Only existing .gitignore and README.md differ; no original tracked file is missing. All other additions are handoff documentation, diagnostics, legacy comparison code, corpus material and restore helper."
+    },
+    {
+      "name": "Current documentation commands and links",
+      "result": "pass_static_check",
+      "evidence": "README, HANDOFF, review-request and retrieval README local links resolve; referenced diagnostic runners, npm lockfile, Python retriever/restore files, migrations, environment loader and Worker configuration exist. Commands are rooted portably. Fresh npm installation/build and broad offline-suite execution are root-owned checks, not independently rerun here."
+    },
+    {
+      "name": "Known defects disclosed",
+      "result": "pass",
+      "evidence": "README/HANDOFF lead with unreliable free-form answers and exact no-context user question. Seven prepared answers are distinguished from generation. The saved V5 independent report contains the actual hosted semantic failures and automatic-review misses; diagnostic counts are explicitly not production error rates or a fix."
+    },
+    {
+      "name": "Retrieval reproduction",
+      "result": "pass_previously_executed_in_clone",
+      "evidence": "Portable zero-provider audit reproduced all 89 baseline outcomes with matching source/fixture hashes: 23 acceptance passes and 66 known diagnostic failures. Output is in ignored test-results and committed baselines remain unchanged."
+    },
+    {
+      "name": "Credential/runtime exclusions",
+      "result": "pass_scoped_filename_and_template_check",
+      "evidence": "No tracked .dev.vars, runtime database, .wrangler/.sites-runtime, node_modules, generated test-results or symlink files found. .env.example contains blank MODEL_API_KEY and GENERATION_ENABLED=false. The restored source SQLite and sidecars are ignored. Root owns the exact-secret and broad staged/history content scans; this review does not claim to replace them."
+    },
+    {
+      "name": "Canonical corpus versus runtime database",
+      "result": "pass",
+      "evidence": "Read-only SQLite schema contains sources, units and FTS tables, not application session/feedback tables. Counts are 151 source records, 6313 units and 6297 FTS rows, matching current documentation. Compressed database transport, hash verification, refusal to overwrite changed restored data and absence of automatic app wiring are documented."
+    },
+    {
+      "name": "Legacy and archive boundaries",
+      "result": "pass",
+      "evidence": "Legacy Python/Codex app is explicitly comparison material requiring separate setup and not fully validated here. Read-only legacy retriever is separate from active site. Optional missing historical reader/catalog links, seven provenance-only absolute path fields, source exclusions, unresolved attribution and incomplete semantic coverage are disclosed."
+    },
+    {
+      "name": "Private sharing/deployment scope",
+      "result": "pass_documented_scope_actual_remote_visibility_not_verified",
+      "evidence": "Documents identify a private review snapshot, retain third-party ownership limits and say repository sharing does not deploy or change the Site audience. Actual GitHub repository creation/visibility and collaborator permissions remain root-owned execution, not verified by this read-only review."
+    }
+  ],
+  "limitations": [
+    "No model, network, browser, application mutation or deployment by this reviewer during final review.",
+    "Fresh dependency installation, full offline suite and build are being run by root; this review validates documentation targets and the earlier independent retrieval reproduction.",
+    "No blanket claim that all original text, historical metadata pointers or generated answers have been verified.",
+    "This handoff preserves known defects for human review; it is not a repaired or newly deployed application.",
+    "Final staged/history secret scan and actual private GitHub access settings must be reported from root execution evidence."
+  ]
+}

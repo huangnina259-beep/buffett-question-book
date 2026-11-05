@@ -1,0 +1,1385 @@
+{
+  "id": "meeting-2002-index",
+  "source_id": "cnbc-meeting-2002-morning",
+  "source_unit_id": "cnbc-meeting-2002-morning-ch17",
+  "title": "17. How to pick a stock index fund",
+  "title_kind": "Publisher editorial heading",
+  "event_date": "2002-05-04",
+  "date_basis": {
+    "kind": "publisher_event_landing_description",
+    "anchor": "(May 4, 2002)",
+    "source_url": "https://buffett.cnbc.com/2002-berkshire-hathaway-annual-meeting/",
+    "source_raw_sha256": "996de24dbd9a067f0daa1fc9346124828342844f37ff9fed7dbcbe8de1a4db28"
+  },
+  "source_url": "https://buffett.cnbc.com/video/2002/05/04/morning-session---2002-berkshire-hathaway-annual-meeting.html",
+  "source_raw_path": "meetings/raw/cnbc-meeting-2002-morning.html",
+  "source_raw_sha256": "387f34918b716dbe5dc2fe72b6abe22d94063f1012b93b6ae93f7f4566cfdcc7",
+  "boundary": "Complete publisher chapter. Adjacent chapters begin different questions; this is a bounded exchange, not all related remarks in the session.",
+  "paragraphs": [
+    {
+      "text_as_received": "WARREN BUFFETT: OK. Area 4.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": "ChapterParagraph-chapterParagraphSpeaker"
+      },
+      "id": "cnbc-meeting-2002-morning-ch17-p001",
+      "paragraph_index": 1,
+      "reading_text": "WARREN BUFFETT: OK. Area 4.",
+      "reversible_encoding_repairs": [],
+      "text_sha256": "7647aa11d195fdd7a1afa80d08382f4203d3ed9949db13925e0cf76507964e47",
+      "speaker_label": "WARREN BUFFETT",
+      "speaker_name_label": "WARREN BUFFETT",
+      "speaker_label_kind": "speaker_or_role_label",
+      "contextual_speaker_label": "WARREN BUFFETT",
+      "canonical_speaker": "Warren Buffett",
+      "candidate_speaker": "Warren Buffett",
+      "attribution_basis": "explicit_text_label",
+      "locator": {
+        "chapter_number": 17,
+        "paragraph_index": 1,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "AUDIENCE MEMBER: Good morning. My name is Tedd Friedman. Iâm from Cincinnati, Ohio.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2002-morning-ch17-p002",
+      "paragraph_index": 2,
+      "reading_text": "AUDIENCE MEMBER: Good morning. My name is Tedd Friedman. I’m from Cincinnati, Ohio.",
+      "reversible_encoding_repairs": [
+        {
+          "before": "â",
+          "after": "’",
+          "roundtrip_codec": "latin-1"
+        }
+      ],
+      "text_sha256": "a19f27992f179ac88717fd52ff33ec53b83c97ad91ba142dc17b3e53c2b2c3d5",
+      "speaker_label": "AUDIENCE MEMBER",
+      "speaker_name_label": "AUDIENCE MEMBER",
+      "speaker_label_kind": "speaker_or_role_label",
+      "contextual_speaker_label": "AUDIENCE MEMBER",
+      "canonical_speaker": "Audience member",
+      "candidate_speaker": "Audience member",
+      "attribution_basis": "explicit_text_label",
+      "locator": {
+        "chapter_number": 17,
+        "paragraph_index": 2,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "You said in the 1996 annual report that most investors will find that the best way to own common stocks is in an index fund that charges minimal fees.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2002-morning-ch17-p003",
+      "paragraph_index": 3,
+      "reading_text": "You said in the 1996 annual report that most investors will find that the best way to own common stocks is in an index fund that charges minimal fees.",
+      "reversible_encoding_repairs": [],
+      "text_sha256": "de11730be8c8581c29e2bec481b4858951f095fee0fa333dd080912c3d025bce",
+      "speaker_label": null,
+      "speaker_name_label": null,
+      "speaker_label_kind": null,
+      "contextual_speaker_label": "AUDIENCE MEMBER",
+      "canonical_speaker": null,
+      "candidate_speaker": "Audience member",
+      "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+      "locator": {
+        "chapter_number": 17,
+        "paragraph_index": 3,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "Two questions. First: there are a lot of different index funds that hold different baskets of stocks. What criteria would you use, or recommend, to select an appropriate index fund?",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2002-morning-ch17-p004",
+      "paragraph_index": 4,
+      "reading_text": "Two questions. First: there are a lot of different index funds that hold different baskets of stocks. What criteria would you use, or recommend, to select an appropriate index fund?",
+      "reversible_encoding_repairs": [],
+      "text_sha256": "25e3272ec40a3ca3d18006ca72d6a5f5a20fea0d9d28d0cad696de6d212486e7",
+      "speaker_label": null,
+      "speaker_name_label": null,
+      "speaker_label_kind": null,
+      "contextual_speaker_label": "AUDIENCE MEMBER",
+      "canonical_speaker": null,
+      "candidate_speaker": "Audience member",
+      "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+      "locator": {
+        "chapter_number": 17,
+        "paragraph_index": 4,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "Second: The price-to-earnings ratio of the S&P 500 is significantly higher than its historical average. What benchmark should an investor use in purchasing this index?",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2002-morning-ch17-p005",
+      "paragraph_index": 5,
+      "reading_text": "Second: The price-to-earnings ratio of the S&P 500 is significantly higher than its historical average. What benchmark should an investor use in purchasing this index?",
+      "reversible_encoding_repairs": [],
+      "text_sha256": "421dd86a1e1c2db4f894a9c96d4284d5d2e8131cddb0912bf61d9d29e6c455c0",
+      "speaker_label": null,
+      "speaker_name_label": null,
+      "speaker_label_kind": null,
+      "contextual_speaker_label": "AUDIENCE MEMBER",
+      "canonical_speaker": null,
+      "candidate_speaker": "Audience member",
+      "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+      "locator": {
+        "chapter_number": 17,
+        "paragraph_index": 5,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "WARREN BUFFETT: Yeah, I would say that in terms of the index fund, I would just take a very broad index. I would take the S&P 500, as long as I wasnât putting all my money in at one time.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2002-morning-ch17-p006",
+      "paragraph_index": 6,
+      "reading_text": "WARREN BUFFETT: Yeah, I would say that in terms of the index fund, I would just take a very broad index. I would take the S&P 500, as long as I wasn’t putting all my money in at one time.",
+      "reversible_encoding_repairs": [
+        {
+          "before": "â",
+          "after": "’",
+          "roundtrip_codec": "latin-1"
+        }
+      ],
+      "text_sha256": "d0d01c318c4ef53effbcb10139ee3819f598c07fc73e6380d71120b9e6dd3fd0",
+      "speaker_label": "WARREN BUFFETT",
+      "speaker_name_label": "WARREN BUFFETT",
+      "speaker_label_kind": "speaker_or_role_label",
+      "contextual_speaker_label": "WARREN BUFFETT",
+      "canonical_speaker": "Warren Buffett",
+      "candidate_speaker": "Warren Buffett",
+      "attribution_basis": "explicit_text_label",
+      "locator": {
+        "chapter_number": 17,
+        "paragraph_index": 6,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "If I were going to put money into an index fund in relatively equal amounts over a 20 or 30-year period, I would pick a fund â and I know Vanguard has very low costs. Iâm sure there are a whole bunch of others that do. I just havenât looked at the field.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2002-morning-ch17-p007",
+      "paragraph_index": 7,
+      "reading_text": "If I were going to put money into an index fund in relatively equal amounts over a 20 or 30-year period, I would pick a fund — and I know Vanguard has very low costs. I’m sure there are a whole bunch of others that do. I just haven’t looked at the field.",
+      "reversible_encoding_repairs": [
+        {
+          "before": "â",
+          "after": "—",
+          "roundtrip_codec": "latin-1"
+        },
+        {
+          "before": "â",
+          "after": "’",
+          "roundtrip_codec": "latin-1"
+        },
+        {
+          "before": "â",
+          "after": "’",
+          "roundtrip_codec": "latin-1"
+        }
+      ],
+      "text_sha256": "0bc9d0d36cff6c179b9bd0e987ddf024f9bd8d93447c7a2081c7f9e1dc527fb3",
+      "speaker_label": null,
+      "speaker_name_label": null,
+      "speaker_label_kind": null,
+      "contextual_speaker_label": "WARREN BUFFETT",
+      "canonical_speaker": null,
+      "candidate_speaker": "Warren Buffett",
+      "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+      "locator": {
+        "chapter_number": 17,
+        "paragraph_index": 7,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "But I would be very careful about the costs involved, because all theyâre doing for you is buying that index. I think that the people who buy those index funds, on average, will get better results than the people that buy funds that have higher costs attached to them, because itâs just a matter of math.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2002-morning-ch17-p008",
+      "paragraph_index": 8,
+      "reading_text": "But I would be very careful about the costs involved, because all they’re doing for you is buying that index. I think that the people who buy those index funds, on average, will get better results than the people that buy funds that have higher costs attached to them, because it’s just a matter of math.",
+      "reversible_encoding_repairs": [
+        {
+          "before": "â",
+          "after": "’",
+          "roundtrip_codec": "latin-1"
+        },
+        {
+          "before": "â",
+          "after": "’",
+          "roundtrip_codec": "latin-1"
+        }
+      ],
+      "text_sha256": "b7716e988d9cf71f1b9c9548f00e62715e7c2c661828c52ca9ae81fb62539da7",
+      "speaker_label": null,
+      "speaker_name_label": null,
+      "speaker_label_kind": null,
+      "contextual_speaker_label": "WARREN BUFFETT",
+      "canonical_speaker": null,
+      "candidate_speaker": "Warren Buffett",
+      "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+      "locator": {
+        "chapter_number": 17,
+        "paragraph_index": 8,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "If you have a very high percentage of funds being institutionally managed, and a great many institutions charge a lot of money for doing it and others charge a little, theyâre going to get very similar growth results but different net results.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2002-morning-ch17-p009",
+      "paragraph_index": 9,
+      "reading_text": "If you have a very high percentage of funds being institutionally managed, and a great many institutions charge a lot of money for doing it and others charge a little, they’re going to get very similar growth results but different net results.",
+      "reversible_encoding_repairs": [
+        {
+          "before": "â",
+          "after": "’",
+          "roundtrip_codec": "latin-1"
+        }
+      ],
+      "text_sha256": "c22b8d643b11ae10d4b4ceec4f1c15c9a9f6437e972bfc56d522fac14e52fcab",
+      "speaker_label": null,
+      "speaker_name_label": null,
+      "speaker_label_kind": null,
+      "contextual_speaker_label": "WARREN BUFFETT",
+      "canonical_speaker": null,
+      "candidate_speaker": "Warren Buffett",
+      "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+      "locator": {
+        "chapter_number": 17,
+        "paragraph_index": 9,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "And I recommend to all of you reading â John Bogleâs written a couple of books in the last five years, and I canât give you the titles but theyâre very good books, and anybody investing in funds should read those books before investing, or if youâve already invested, you still should read the books. And itâs all you need to know, really, about fund investing.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2002-morning-ch17-p010",
+      "paragraph_index": 10,
+      "reading_text": "And I recommend to all of you reading — John Bogle’s written a couple of books in the last five years, and I can’t give you the titles but they’re very good books, and anybody investing in funds should read those books before investing, or if you’ve already invested, you still should read the books. And it’s all you need to know, really, about fund investing.",
+      "reversible_encoding_repairs": [
+        {
+          "before": "â",
+          "after": "—",
+          "roundtrip_codec": "latin-1"
+        },
+        {
+          "before": "â",
+          "after": "’",
+          "roundtrip_codec": "latin-1"
+        },
+        {
+          "before": "â",
+          "after": "’",
+          "roundtrip_codec": "latin-1"
+        },
+        {
+          "before": "â",
+          "after": "’",
+          "roundtrip_codec": "latin-1"
+        },
+        {
+          "before": "â",
+          "after": "’",
+          "roundtrip_codec": "latin-1"
+        },
+        {
+          "before": "â",
+          "after": "’",
+          "roundtrip_codec": "latin-1"
+        }
+      ],
+      "text_sha256": "1a5da50f4244b00218a7fc14c2c0b90e722d4ccfe8fd8c64fea6311ad07694c6",
+      "speaker_label": null,
+      "speaker_name_label": null,
+      "speaker_label_kind": null,
+      "contextual_speaker_label": "WARREN BUFFETT",
+      "canonical_speaker": null,
+      "candidate_speaker": "Warren Buffett",
+      "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+      "locator": {
+        "chapter_number": 17,
+        "paragraph_index": 10,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "So I would pick a broad index, but I wouldnât toss a chunk in at any one time. I would do it over a period of time, because the very nature of index funds is that you are saying, I think Americaâs business is going to do well over a â reasonably well â over a long period of time, but I donât know enough to pick the winners and I donât know enough to pick the winning times.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2002-morning-ch17-p011",
+      "paragraph_index": 11,
+      "reading_text": "So I would pick a broad index, but I wouldn’t toss a chunk in at any one time. I would do it over a period of time, because the very nature of index funds is that you are saying, I think America’s business is going to do well over a — reasonably well — over a long period of time, but I don’t know enough to pick the winners and I don’t know enough to pick the winning times.",
+      "reversible_encoding_repairs": [
+        {
+          "before": "â",
+          "after": "’",
+          "roundtrip_codec": "latin-1"
+        },
+        {
+          "before": "â",
+          "after": "’",
+          "roundtrip_codec": "latin-1"
+        },
+        {
+          "before": "â",
+          "after": "—",
+          "roundtrip_codec": "latin-1"
+        },
+        {
+          "before": "â",
+          "after": "—",
+          "roundtrip_codec": "latin-1"
+        },
+        {
+          "before": "â",
+          "after": "’",
+          "roundtrip_codec": "latin-1"
+        },
+        {
+          "before": "â",
+          "after": "’",
+          "roundtrip_codec": "latin-1"
+        }
+      ],
+      "text_sha256": "a7dc854e339f801206544c38d0df5464b502d05c4f986b8d870750a3bf2057df",
+      "speaker_label": null,
+      "speaker_name_label": null,
+      "speaker_label_kind": null,
+      "contextual_speaker_label": "WARREN BUFFETT",
+      "canonical_speaker": null,
+      "candidate_speaker": "Warren Buffett",
+      "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+      "locator": {
+        "chapter_number": 17,
+        "paragraph_index": 11,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "Thereâs nothing wrong with that. I donât know enough to pick the winning times. Occasionally, I think I know enough to pick a winner, but not very often.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2002-morning-ch17-p012",
+      "paragraph_index": 12,
+      "reading_text": "There’s nothing wrong with that. I don’t know enough to pick the winning times. Occasionally, I think I know enough to pick a winner, but not very often.",
+      "reversible_encoding_repairs": [
+        {
+          "before": "â",
+          "after": "’",
+          "roundtrip_codec": "latin-1"
+        },
+        {
+          "before": "â",
+          "after": "’",
+          "roundtrip_codec": "latin-1"
+        }
+      ],
+      "text_sha256": "66f679524188f666489882a3b796c816f901f2a3b5e51416c8db6751e77c7baa",
+      "speaker_label": null,
+      "speaker_name_label": null,
+      "speaker_label_kind": null,
+      "contextual_speaker_label": "WARREN BUFFETT",
+      "canonical_speaker": null,
+      "candidate_speaker": "Warren Buffett",
+      "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+      "locator": {
+        "chapter_number": 17,
+        "paragraph_index": 12,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "And I certainly canât pick winners by going down through the whole list and saying, this is a winner and this isnât and so on.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2002-morning-ch17-p013",
+      "paragraph_index": 13,
+      "reading_text": "And I certainly can’t pick winners by going down through the whole list and saying, this is a winner and this isn’t and so on.",
+      "reversible_encoding_repairs": [
+        {
+          "before": "â",
+          "after": "’",
+          "roundtrip_codec": "latin-1"
+        },
+        {
+          "before": "â",
+          "after": "’",
+          "roundtrip_codec": "latin-1"
+        }
+      ],
+      "text_sha256": "afee7207b7f03255066721a34f8b93bee187ce0bbc123f1ea6741b807328f566",
+      "speaker_label": null,
+      "speaker_name_label": null,
+      "speaker_label_kind": null,
+      "contextual_speaker_label": "WARREN BUFFETT",
+      "canonical_speaker": null,
+      "candidate_speaker": "Warren Buffett",
+      "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+      "locator": {
+        "chapter_number": 17,
+        "paragraph_index": 13,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "So, the important thing to do, if you have an overall feeling that business is a reasonable place to have your money over a long period of time, is to invest over a long period of time, and not make any bet, implicitly, by putting a big chunk in at a given time.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2002-morning-ch17-p014",
+      "paragraph_index": 14,
+      "reading_text": "So, the important thing to do, if you have an overall feeling that business is a reasonable place to have your money over a long period of time, is to invest over a long period of time, and not make any bet, implicitly, by putting a big chunk in at a given time.",
+      "reversible_encoding_repairs": [],
+      "text_sha256": "0928acacbf930833b78221e129cbc8995c622278432f53edbf910916f7649561",
+      "speaker_label": null,
+      "speaker_name_label": null,
+      "speaker_label_kind": null,
+      "contextual_speaker_label": "WARREN BUFFETT",
+      "canonical_speaker": null,
+      "candidate_speaker": "Warren Buffett",
+      "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+      "locator": {
+        "chapter_number": 17,
+        "paragraph_index": 14,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "As to the criteria as to when you should or shouldnât, I donât think there are great criteria on that.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2002-morning-ch17-p015",
+      "paragraph_index": 15,
+      "reading_text": "As to the criteria as to when you should or shouldn’t, I don’t think there are great criteria on that.",
+      "reversible_encoding_repairs": [
+        {
+          "before": "â",
+          "after": "’",
+          "roundtrip_codec": "latin-1"
+        },
+        {
+          "before": "â",
+          "after": "’",
+          "roundtrip_codec": "latin-1"
+        }
+      ],
+      "text_sha256": "b1bb600857ad5b69c0d9e88e084b29af01b3e9865401702fa83bcf59117046dd",
+      "speaker_label": null,
+      "speaker_name_label": null,
+      "speaker_label_kind": null,
+      "contextual_speaker_label": "WARREN BUFFETT",
+      "canonical_speaker": null,
+      "candidate_speaker": "Warren Buffett",
+      "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+      "locator": {
+        "chapter_number": 17,
+        "paragraph_index": 15,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "I donât think price-earnings ratios, you know, determine things. I donât think price-book ratios, price-sales ratios â I donât think any â thereâs no single metric I can give you, or that anybody else can give you, in my view, that will tell you this is a great time to buy stocks or not to buy stocks or anything of the sort.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2002-morning-ch17-p016",
+      "paragraph_index": 16,
+      "reading_text": "I don’t think price-earnings ratios, you know, determine things. I don’t think price-book ratios, price-sales ratios — I don’t think any — there’s no single metric I can give you, or that anybody else can give you, in my view, that will tell you this is a great time to buy stocks or not to buy stocks or anything of the sort.",
+      "reversible_encoding_repairs": [
+        {
+          "before": "â",
+          "after": "’",
+          "roundtrip_codec": "latin-1"
+        },
+        {
+          "before": "â",
+          "after": "’",
+          "roundtrip_codec": "latin-1"
+        },
+        {
+          "before": "â",
+          "after": "—",
+          "roundtrip_codec": "latin-1"
+        },
+        {
+          "before": "â",
+          "after": "’",
+          "roundtrip_codec": "latin-1"
+        },
+        {
+          "before": "â",
+          "after": "—",
+          "roundtrip_codec": "latin-1"
+        },
+        {
+          "before": "â",
+          "after": "’",
+          "roundtrip_codec": "latin-1"
+        }
+      ],
+      "text_sha256": "745ae707b1afb19024693ee11fd709f751945f71d248612f0effcd9edf9353b3",
+      "speaker_label": null,
+      "speaker_name_label": null,
+      "speaker_label_kind": null,
+      "contextual_speaker_label": "WARREN BUFFETT",
+      "canonical_speaker": null,
+      "candidate_speaker": "Warren Buffett",
+      "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+      "locator": {
+        "chapter_number": 17,
+        "paragraph_index": 16,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "It just isnât that easy. Thatâs why you go to an index fund, and thatâs why you buy over a period of time. It isnât that easy.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2002-morning-ch17-p017",
+      "paragraph_index": 17,
+      "reading_text": "It just isn’t that easy. That’s why you go to an index fund, and that’s why you buy over a period of time. It isn’t that easy.",
+      "reversible_encoding_repairs": [
+        {
+          "before": "â",
+          "after": "’",
+          "roundtrip_codec": "latin-1"
+        },
+        {
+          "before": "â",
+          "after": "’",
+          "roundtrip_codec": "latin-1"
+        },
+        {
+          "before": "â",
+          "after": "’",
+          "roundtrip_codec": "latin-1"
+        },
+        {
+          "before": "â",
+          "after": "’",
+          "roundtrip_codec": "latin-1"
+        }
+      ],
+      "text_sha256": "c22b92e5ff1f63bb1bad6e4554a3213a1bc7879c5b5779f3d92dbc884422e23e",
+      "speaker_label": null,
+      "speaker_name_label": null,
+      "speaker_label_kind": null,
+      "contextual_speaker_label": "WARREN BUFFETT",
+      "canonical_speaker": null,
+      "candidate_speaker": "Warren Buffett",
+      "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+      "locator": {
+        "chapter_number": 17,
+        "paragraph_index": 17,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "You canât get it by reading a magazine. You canât get it by, you know, watching television. You canât â youâd love to have something that said, you know, if P/Es are 12 or below or some number, you buy, and if theyâre 25 or above, you sell.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2002-morning-ch17-p018",
+      "paragraph_index": 18,
+      "reading_text": "You can’t get it by reading a magazine. You can’t get it by, you know, watching television. You can’t — you’d love to have something that said, you know, if P/Es are 12 or below or some number, you buy, and if they’re 25 or above, you sell.",
+      "reversible_encoding_repairs": [
+        {
+          "before": "â",
+          "after": "’",
+          "roundtrip_codec": "latin-1"
+        },
+        {
+          "before": "â",
+          "after": "’",
+          "roundtrip_codec": "latin-1"
+        },
+        {
+          "before": "â",
+          "after": "’",
+          "roundtrip_codec": "latin-1"
+        },
+        {
+          "before": "â",
+          "after": "—",
+          "roundtrip_codec": "latin-1"
+        },
+        {
+          "before": "â",
+          "after": "’",
+          "roundtrip_codec": "latin-1"
+        },
+        {
+          "before": "â",
+          "after": "’",
+          "roundtrip_codec": "latin-1"
+        }
+      ],
+      "text_sha256": "1705cf1b56f332d1c46e7743cce4f3609205c1d48e905238e91aac0c771b4f35",
+      "speaker_label": null,
+      "speaker_name_label": null,
+      "speaker_label_kind": null,
+      "contextual_speaker_label": "WARREN BUFFETT",
+      "canonical_speaker": null,
+      "candidate_speaker": "Warren Buffett",
+      "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+      "locator": {
+        "chapter_number": 17,
+        "paragraph_index": 18,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "It doesnât work that way. Itâs a more complex business than that. It couldnât be that easy when you think about it.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2002-morning-ch17-p019",
+      "paragraph_index": 19,
+      "reading_text": "It doesn’t work that way. It’s a more complex business than that. It couldn’t be that easy when you think about it.",
+      "reversible_encoding_repairs": [
+        {
+          "before": "â",
+          "after": "’",
+          "roundtrip_codec": "latin-1"
+        },
+        {
+          "before": "â",
+          "after": "’",
+          "roundtrip_codec": "latin-1"
+        },
+        {
+          "before": "â",
+          "after": "’",
+          "roundtrip_codec": "latin-1"
+        }
+      ],
+      "text_sha256": "edb109b3ab6b018db4d5da07c140f7ff69fcdfe4e072c31064509201461fdaf2",
+      "speaker_label": null,
+      "speaker_name_label": null,
+      "speaker_label_kind": null,
+      "contextual_speaker_label": "WARREN BUFFETT",
+      "canonical_speaker": null,
+      "candidate_speaker": "Warren Buffett",
+      "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+      "locator": {
+        "chapter_number": 17,
+        "paragraph_index": 19,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "So, if you are buying an index fund, you are protecting yourself against the fact that you donât know the answers to those questions but that you think you can do well over time without knowing the answers to those questions, as long as you consciously recognize that fact.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2002-morning-ch17-p020",
+      "paragraph_index": 20,
+      "reading_text": "So, if you are buying an index fund, you are protecting yourself against the fact that you don’t know the answers to those questions but that you think you can do well over time without knowing the answers to those questions, as long as you consciously recognize that fact.",
+      "reversible_encoding_repairs": [
+        {
+          "before": "â",
+          "after": "’",
+          "roundtrip_codec": "latin-1"
+        }
+      ],
+      "text_sha256": "42fef2350343a50a5da4b8b4175786769c9fd0ae8be808890f8f6139ecebc9e5",
+      "speaker_label": null,
+      "speaker_name_label": null,
+      "speaker_label_kind": null,
+      "contextual_speaker_label": "WARREN BUFFETT",
+      "canonical_speaker": null,
+      "candidate_speaker": "Warren Buffett",
+      "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+      "locator": {
+        "chapter_number": 17,
+        "paragraph_index": 20,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "And, you know, I would â if youâre a young person and you intend to save a portion of your income over time, Iâd just say, just pick out a very broad index â I would probably use the S&P 500.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2002-morning-ch17-p021",
+      "paragraph_index": 21,
+      "reading_text": "And, you know, I would — if you’re a young person and you intend to save a portion of your income over time, I’d just say, just pick out a very broad index — I would probably use the S&P 500.",
+      "reversible_encoding_repairs": [
+        {
+          "before": "â",
+          "after": "—",
+          "roundtrip_codec": "latin-1"
+        },
+        {
+          "before": "â",
+          "after": "’",
+          "roundtrip_codec": "latin-1"
+        },
+        {
+          "before": "â",
+          "after": "’",
+          "roundtrip_codec": "latin-1"
+        },
+        {
+          "before": "â",
+          "after": "—",
+          "roundtrip_codec": "latin-1"
+        }
+      ],
+      "text_sha256": "df868b30e067fbfef42976cf1eac7dad7d6a9512ea78400f63d35473a1497507",
+      "speaker_label": null,
+      "speaker_name_label": null,
+      "speaker_label_kind": null,
+      "contextual_speaker_label": "WARREN BUFFETT",
+      "canonical_speaker": null,
+      "candidate_speaker": "Warren Buffett",
+      "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+      "locator": {
+        "chapter_number": 17,
+        "paragraph_index": 21,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "But I think if you start getting beyond that  â starting to think you should be in small caps this time and large caps that time, or this foreign stock â and as soon as you do that, you know, youâre in a game you donât know â you know, youâre not equipped to play, in all candor.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2002-morning-ch17-p022",
+      "paragraph_index": 22,
+      "reading_text": "But I think if you start getting beyond that  — starting to think you should be in small caps this time and large caps that time, or this foreign stock — and as soon as you do that, you know, you’re in a game you don’t know — you know, you’re not equipped to play, in all candor.",
+      "reversible_encoding_repairs": [
+        {
+          "before": "â",
+          "after": "—",
+          "roundtrip_codec": "latin-1"
+        },
+        {
+          "before": "â",
+          "after": "—",
+          "roundtrip_codec": "latin-1"
+        },
+        {
+          "before": "â",
+          "after": "’",
+          "roundtrip_codec": "latin-1"
+        },
+        {
+          "before": "â",
+          "after": "’",
+          "roundtrip_codec": "latin-1"
+        },
+        {
+          "before": "â",
+          "after": "—",
+          "roundtrip_codec": "latin-1"
+        },
+        {
+          "before": "â",
+          "after": "’",
+          "roundtrip_codec": "latin-1"
+        }
+      ],
+      "text_sha256": "21f8ac3d627aa7fbf7e7cc5fd384c949eb9fbe02fae6121bdbb2cfedf8870ba3",
+      "speaker_label": null,
+      "speaker_name_label": null,
+      "speaker_label_kind": null,
+      "contextual_speaker_label": "WARREN BUFFETT",
+      "canonical_speaker": null,
+      "candidate_speaker": "Warren Buffett",
+      "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+      "locator": {
+        "chapter_number": 17,
+        "paragraph_index": 22,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "That would be my recommendation.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2002-morning-ch17-p023",
+      "paragraph_index": 23,
+      "reading_text": "That would be my recommendation.",
+      "reversible_encoding_repairs": [],
+      "text_sha256": "6f4860e55119e76186779cf1c3205880f92a5aa3135eb8414a55845d5545e517",
+      "speaker_label": null,
+      "speaker_name_label": null,
+      "speaker_label_kind": null,
+      "contextual_speaker_label": "WARREN BUFFETT",
+      "canonical_speaker": null,
+      "candidate_speaker": "Warren Buffett",
+      "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+      "locator": {
+        "chapter_number": 17,
+        "paragraph_index": 23,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "Charlie?",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2002-morning-ch17-p024",
+      "paragraph_index": 24,
+      "reading_text": "Charlie?",
+      "reversible_encoding_repairs": [],
+      "text_sha256": "d3ffec464638bbb765725fd0b7ab2c25a1543d8fbd4f7b6f2b587fc56726d30e",
+      "speaker_label": null,
+      "speaker_name_label": null,
+      "speaker_label_kind": null,
+      "contextual_speaker_label": "WARREN BUFFETT",
+      "canonical_speaker": null,
+      "candidate_speaker": "Warren Buffett",
+      "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+      "locator": {
+        "chapter_number": 17,
+        "paragraph_index": 24,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "CHARLIE MUNGER: I think his second worry is that common stocks could become so high-priced that if you bought index funds, you wouldnât expect to do very well.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2002-morning-ch17-p025",
+      "paragraph_index": 25,
+      "reading_text": "CHARLIE MUNGER: I think his second worry is that common stocks could become so high-priced that if you bought index funds, you wouldn’t expect to do very well.",
+      "reversible_encoding_repairs": [
+        {
+          "before": "â",
+          "after": "’",
+          "roundtrip_codec": "latin-1"
+        }
+      ],
+      "text_sha256": "e7203bcfcb98a004d5e87025ad36f34503df720488451087063d85b2bcf049be",
+      "speaker_label": "CHARLIE MUNGER",
+      "speaker_name_label": "CHARLIE MUNGER",
+      "speaker_label_kind": "speaker_or_role_label",
+      "contextual_speaker_label": "CHARLIE MUNGER",
+      "canonical_speaker": "Charlie Munger",
+      "candidate_speaker": "Charlie Munger",
+      "attribution_basis": "explicit_text_label",
+      "locator": {
+        "chapter_number": 17,
+        "paragraph_index": 25,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "I didnât think Iâd live long enough to think that was likely to happen, but now I think that may happen.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2002-morning-ch17-p026",
+      "paragraph_index": 26,
+      "reading_text": "I didn’t think I’d live long enough to think that was likely to happen, but now I think that may happen.",
+      "reversible_encoding_repairs": [
+        {
+          "before": "â",
+          "after": "’",
+          "roundtrip_codec": "latin-1"
+        },
+        {
+          "before": "â",
+          "after": "’",
+          "roundtrip_codec": "latin-1"
+        }
+      ],
+      "text_sha256": "f2b4d3992c51d44288b5df8386491909a616d716f209634ac7ccced06afc5a1c",
+      "speaker_label": null,
+      "speaker_name_label": null,
+      "speaker_label_kind": null,
+      "contextual_speaker_label": "CHARLIE MUNGER",
+      "canonical_speaker": null,
+      "candidate_speaker": "Charlie Munger",
+      "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+      "locator": {
+        "chapter_number": 17,
+        "paragraph_index": 26,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "WARREN BUFFETT: But, probably what youâre saying there is they could get to a level and be at â theyâd have to be at a sustained level like that for a long time.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2002-morning-ch17-p027",
+      "paragraph_index": 27,
+      "reading_text": "WARREN BUFFETT: But, probably what you’re saying there is they could get to a level and be at — they’d have to be at a sustained level like that for a long time.",
+      "reversible_encoding_repairs": [
+        {
+          "before": "â",
+          "after": "’",
+          "roundtrip_codec": "latin-1"
+        },
+        {
+          "before": "â",
+          "after": "—",
+          "roundtrip_codec": "latin-1"
+        },
+        {
+          "before": "â",
+          "after": "’",
+          "roundtrip_codec": "latin-1"
+        }
+      ],
+      "text_sha256": "af132c638f87b6650de480fc58a5b37a8fb24afadbc7b707c1d4d9d237bcef51",
+      "speaker_label": "WARREN BUFFETT",
+      "speaker_name_label": "WARREN BUFFETT",
+      "speaker_label_kind": "speaker_or_role_label",
+      "contextual_speaker_label": "WARREN BUFFETT",
+      "canonical_speaker": "Warren Buffett",
+      "candidate_speaker": "Warren Buffett",
+      "attribution_basis": "explicit_text_label",
+      "locator": {
+        "chapter_number": 17,
+        "paragraph_index": 27,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "CHARLIE MUNGER:  They could be there and stay there for a long time.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2002-morning-ch17-p028",
+      "paragraph_index": 28,
+      "reading_text": "CHARLIE MUNGER:  They could be there and stay there for a long time.",
+      "reversible_encoding_repairs": [],
+      "text_sha256": "6d4727084d162334919d171ba8ddfa490844effad30e38400c32c188fd63f9eb",
+      "speaker_label": "CHARLIE MUNGER",
+      "speaker_name_label": "CHARLIE MUNGER",
+      "speaker_label_kind": "speaker_or_role_label",
+      "contextual_speaker_label": "CHARLIE MUNGER",
+      "canonical_speaker": "Charlie Munger",
+      "candidate_speaker": "Charlie Munger",
+      "attribution_basis": "explicit_text_label",
+      "locator": {
+        "chapter_number": 17,
+        "paragraph_index": 28,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "WARREN BUFFETT:  In which case, you might make 3 or 4 percent.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2002-morning-ch17-p029",
+      "paragraph_index": 29,
+      "reading_text": "WARREN BUFFETT:  In which case, you might make 3 or 4 percent.",
+      "reversible_encoding_repairs": [],
+      "text_sha256": "339cdcb49e249f156ac64572e667da4dd39399a8d82b99d1ae07e3a9a06de7e6",
+      "speaker_label": "WARREN BUFFETT",
+      "speaker_name_label": "WARREN BUFFETT",
+      "speaker_label_kind": "speaker_or_role_label",
+      "contextual_speaker_label": "WARREN BUFFETT",
+      "canonical_speaker": "Warren Buffett",
+      "candidate_speaker": "Warren Buffett",
+      "attribution_basis": "explicit_text_label",
+      "locator": {
+        "chapter_number": 17,
+        "paragraph_index": 29,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "But would there be any way better than that around, under those circumstances, anyway? And pass the peanut brittle, please. (Laughs)",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2002-morning-ch17-p030",
+      "paragraph_index": 30,
+      "reading_text": "But would there be any way better than that around, under those circumstances, anyway? And pass the peanut brittle, please. (Laughs)",
+      "reversible_encoding_repairs": [],
+      "text_sha256": "a8674aef6e073a0da7a008f3dbf62052dfaea10a6f09e500e2656ec105dacd36",
+      "speaker_label": null,
+      "speaker_name_label": null,
+      "speaker_label_kind": null,
+      "contextual_speaker_label": "WARREN BUFFETT",
+      "canonical_speaker": null,
+      "candidate_speaker": "Warren Buffett",
+      "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+      "locator": {
+        "chapter_number": 17,
+        "paragraph_index": 30,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "CHARLIE MUNGER:  Well, in Japan, where something like this happened, the returns from owning a nice index over the last 13 years or so is negative.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2002-morning-ch17-p031",
+      "paragraph_index": 31,
+      "reading_text": "CHARLIE MUNGER:  Well, in Japan, where something like this happened, the returns from owning a nice index over the last 13 years or so is negative.",
+      "reversible_encoding_repairs": [],
+      "text_sha256": "3f6779b6760a926224c7339a6ce3e9602889dcec0b4619e92be37ec1af05acea",
+      "speaker_label": "CHARLIE MUNGER",
+      "speaker_name_label": "CHARLIE MUNGER",
+      "speaker_label_kind": "speaker_or_role_label",
+      "contextual_speaker_label": "CHARLIE MUNGER",
+      "canonical_speaker": "Charlie Munger",
+      "candidate_speaker": "Charlie Munger",
+      "attribution_basis": "explicit_text_label",
+      "locator": {
+        "chapter_number": 17,
+        "paragraph_index": 31,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "Can something as horrible as that happen here? I mean, is it conceivable? I think the answer is yes.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2002-morning-ch17-p032",
+      "paragraph_index": 32,
+      "reading_text": "Can something as horrible as that happen here? I mean, is it conceivable? I think the answer is yes.",
+      "reversible_encoding_repairs": [],
+      "text_sha256": "75162aa37b5cfc69fb7dbf7780a5a4e570d9a609bd118c57d84b476327bf53af",
+      "speaker_label": null,
+      "speaker_name_label": null,
+      "speaker_label_kind": null,
+      "contextual_speaker_label": "CHARLIE MUNGER",
+      "canonical_speaker": null,
+      "candidate_speaker": "Charlie Munger",
+      "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+      "locator": {
+        "chapter_number": 17,
+        "paragraph_index": 32,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "WARREN BUFFETT: But the option in Japan, of course, is to have deposits in a bank, or own Japanese bonds, at somewhere between 0 and 1 or 1 1/2 percent.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2002-morning-ch17-p033",
+      "paragraph_index": 33,
+      "reading_text": "WARREN BUFFETT: But the option in Japan, of course, is to have deposits in a bank, or own Japanese bonds, at somewhere between 0 and 1 or 1 1/2 percent.",
+      "reversible_encoding_repairs": [],
+      "text_sha256": "6e79b18bbb7ecfc579bd8e70c8d78053adcf1884b4966ed11da6778bfcbc53bb",
+      "speaker_label": "WARREN BUFFETT",
+      "speaker_name_label": "WARREN BUFFETT",
+      "speaker_label_kind": "speaker_or_role_label",
+      "contextual_speaker_label": "WARREN BUFFETT",
+      "canonical_speaker": "Warren Buffett",
+      "candidate_speaker": "Warren Buffett",
+      "attribution_basis": "explicit_text_label",
+      "locator": {
+        "chapter_number": 17,
+        "paragraph_index": 33,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "So, if rates on everything get very low, which means stocks sell very high, you know, then it just means that you live in a different world than existed 20 or 30 years ago when, generally, capital got paid better.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2002-morning-ch17-p034",
+      "paragraph_index": 34,
+      "reading_text": "So, if rates on everything get very low, which means stocks sell very high, you know, then it just means that you live in a different world than existed 20 or 30 years ago when, generally, capital got paid better.",
+      "reversible_encoding_repairs": [],
+      "text_sha256": "285ba8481af5b5ebb1d74cf07c45977886a316ee208cd6f97018911fcf1ad979",
+      "speaker_label": null,
+      "speaker_name_label": null,
+      "speaker_label_kind": null,
+      "contextual_speaker_label": "WARREN BUFFETT",
+      "canonical_speaker": null,
+      "candidate_speaker": "Warren Buffett",
+      "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+      "locator": {
+        "chapter_number": 17,
+        "paragraph_index": 34,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "CHARLIE MUNGER:  I must say that we have very good packaging.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2002-morning-ch17-p035",
+      "paragraph_index": 35,
+      "reading_text": "CHARLIE MUNGER:  I must say that we have very good packaging.",
+      "reversible_encoding_repairs": [],
+      "text_sha256": "ea36f14fbe9814de7a0dcb1b369b4923eb7e23d254592b5e53a707c61692ed37",
+      "speaker_label": "CHARLIE MUNGER",
+      "speaker_name_label": "CHARLIE MUNGER",
+      "speaker_label_kind": "speaker_or_role_label",
+      "contextual_speaker_label": "CHARLIE MUNGER",
+      "canonical_speaker": "Charlie Munger",
+      "candidate_speaker": "Charlie Munger",
+      "attribution_basis": "explicit_text_label",
+      "locator": {
+        "chapter_number": 17,
+        "paragraph_index": 35,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "WARREN BUFFETT:  Yeah. (Laughs)",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2002-morning-ch17-p036",
+      "paragraph_index": 36,
+      "reading_text": "WARREN BUFFETT:  Yeah. (Laughs)",
+      "reversible_encoding_repairs": [],
+      "text_sha256": "2edee66ffdf425681620fd2380a63e26d13bcaa2060b8effb807102e688ccdb4",
+      "speaker_label": "WARREN BUFFETT",
+      "speaker_name_label": "WARREN BUFFETT",
+      "speaker_label_kind": "speaker_or_role_label",
+      "contextual_speaker_label": "WARREN BUFFETT",
+      "canonical_speaker": "Warren Buffett",
+      "candidate_speaker": "Warren Buffett",
+      "attribution_basis": "explicit_text_label",
+      "locator": {
+        "chapter_number": 17,
+        "paragraph_index": 36,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "Normally he does this in a less formal manner, but heâs on his good behavior today.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2002-morning-ch17-p037",
+      "paragraph_index": 37,
+      "reading_text": "Normally he does this in a less formal manner, but he’s on his good behavior today.",
+      "reversible_encoding_repairs": [
+        {
+          "before": "â",
+          "after": "’",
+          "roundtrip_codec": "latin-1"
+        }
+      ],
+      "text_sha256": "0fb9a3cf57e37a851787b501625d904f06df4475d35a086885b1b3bf952afb03",
+      "speaker_label": null,
+      "speaker_name_label": null,
+      "speaker_label_kind": null,
+      "contextual_speaker_label": "WARREN BUFFETT",
+      "canonical_speaker": null,
+      "candidate_speaker": "Warren Buffett",
+      "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+      "locator": {
+        "chapter_number": 17,
+        "paragraph_index": 37,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "CHARLIE MUNGER:  We're protecting the integrity of the peanut brittle.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2002-morning-ch17-p038",
+      "paragraph_index": 38,
+      "reading_text": "CHARLIE MUNGER:  We're protecting the integrity of the peanut brittle.",
+      "reversible_encoding_repairs": [],
+      "text_sha256": "199c1f13d847dcda328257fba55c7bc23d9ae83a3c5c4b6bc15c4ca556cfffd4",
+      "speaker_label": "CHARLIE MUNGER",
+      "speaker_name_label": "CHARLIE MUNGER",
+      "speaker_label_kind": "speaker_or_role_label",
+      "contextual_speaker_label": "CHARLIE MUNGER",
+      "canonical_speaker": "Charlie Munger",
+      "candidate_speaker": "Charlie Munger",
+      "attribution_basis": "explicit_text_label",
+      "locator": {
+        "chapter_number": 17,
+        "paragraph_index": 38,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "WARREN BUFFETT:  That is true. The package â the nature of anything with butter in it, you know, is that it starts going downhill from the moment you make it. And therefore, the packing has to be extraordinary in order to meet the quality standards that Charlie and I insist on. (Laughter)",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2002-morning-ch17-p039",
+      "paragraph_index": 39,
+      "reading_text": "WARREN BUFFETT:  That is true. The package — the nature of anything with butter in it, you know, is that it starts going downhill from the moment you make it. And therefore, the packing has to be extraordinary in order to meet the quality standards that Charlie and I insist on. (Laughter)",
+      "reversible_encoding_repairs": [
+        {
+          "before": "â",
+          "after": "—",
+          "roundtrip_codec": "latin-1"
+        }
+      ],
+      "text_sha256": "08eae1ee3711e0ae5971c4340325e6dd32092f8d499a588ea9c86c92e1eb9751",
+      "speaker_label": "WARREN BUFFETT",
+      "speaker_name_label": "WARREN BUFFETT",
+      "speaker_label_kind": "speaker_or_role_label",
+      "contextual_speaker_label": "WARREN BUFFETT",
+      "canonical_speaker": "Warren Buffett",
+      "candidate_speaker": "Warren Buffett",
+      "attribution_basis": "explicit_text_label",
+      "locator": {
+        "chapter_number": 17,
+        "paragraph_index": 39,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    }
+  ],
+  "review_scope": "Textual attribution and claim support within the complete exchange; no audio or external verification of historical numerical examples.",
+  "audio_checked": false,
+  "locator": {
+    "session": "morning",
+    "chapter_number": 17,
+    "start_seconds": 3279,
+    "end_seconds": 3694,
+    "timestamp_status": "publisher_metadata_not_audio_verified"
+  }
+}

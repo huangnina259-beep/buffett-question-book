@@ -1,0 +1,2465 @@
+{
+  "schema_version": "1.0",
+  "source_id": "berkshire-letter-1993",
+  "source_raw_sha256": "9490e7d60ebe644e1f9f717e07441dede038ebfa8c29b0f03c544407557fbf96",
+  "method": "archived_html_structure_and_whitespace_only_reflow_v1",
+  "body_language": "en",
+  "translation_applied": false,
+  "sections": [
+    {
+      "id": "berkshire-letter-1993:read001",
+      "title": "To the Shareholders of Berkshire Hathaway Inc.:",
+      "source_unit_ids": [
+        "berkshire-letter-1993:u0001",
+        "berkshire-letter-1993:u0002",
+        "berkshire-letter-1993:u0003",
+        "berkshire-letter-1993:u0004",
+        "berkshire-letter-1993:u0005",
+        "berkshire-letter-1993:u0006",
+        "berkshire-letter-1993:u0007",
+        "berkshire-letter-1993:u0008",
+        "berkshire-letter-1993:u0009",
+        "berkshire-letter-1993:u0010",
+        "berkshire-letter-1993:u0011",
+        "berkshire-letter-1993:u0012",
+        "berkshire-letter-1993:u0013",
+        "berkshire-letter-1993:u0014",
+        "berkshire-letter-1993:u0015"
+      ],
+      "locator": {
+        "type": "html_source_lines",
+        "html_line_start": 16,
+        "html_line_end": 161,
+        "source_unit_first": "berkshire-letter-1993:u0001",
+        "source_unit_last": "berkshire-letter-1993:u0015"
+      },
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "To the Shareholders of Berkshire Hathaway Inc.:",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0002"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 22,
+            "html_line_end": 22,
+            "source_unit_first": "berkshire-letter-1993:u0002",
+            "source_unit_last": "berkshire-letter-1993:u0002"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Our per-share book value increased 14.3% during 1993. Over the last 29 years (that is, since present management took over) book value has grown from $19 to $8,854, or at a rate of 23.3% compounded annually.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0003"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 25,
+            "html_line_end": 28,
+            "source_unit_first": "berkshire-letter-1993:u0003",
+            "source_unit_last": "berkshire-letter-1993:u0003"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "During the year, Berkshire's net worth increased by $1.5 billion, a figure affected by two negative and two positive non-operating items. For the sake of completeness, I'll explain them here. If you aren't thrilled by accounting, however, feel free to fast-forward through this discussion:",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0004"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 30,
+            "html_line_end": 34,
+            "source_unit_first": "berkshire-letter-1993:u0004",
+            "source_unit_last": "berkshire-letter-1993:u0004"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "1. The first negative was produced by a change in Generally Accepted Accounting Principles (GAAP) having to do with the taxes we accrue against unrealized appreciation in the securities we carry at market value. The old rule said that the tax rate used should be the one in effect when the appreciation took place. Therefore, at the end of 1992, we were using a rate of 34% on the $6.4 billion of gains generated after 1986 and 28% on the $1.2 billion of gains generated before that. The new rule stipulates that the current tax rate should be applied to all gains. The rate in the first quarter of 1993, when this rule went into effect, was 34%. Applying that rate to our pre-1987 gains reduced net worth by $70 million.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0005"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 36,
+            "html_line_end": 51,
+            "source_unit_first": "berkshire-letter-1993:u0005",
+            "source_unit_last": "berkshire-letter-1993:u0005"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "2. The second negative, related to the first, came about because the corporate tax rate was raised in the third quarter of 1993 to 35%. This change required us to make an additional charge of 1% against all of our unrealized gains, and that charge penalized net worth by $75 million. Oddly, GAAP required both this charge and the one described above to be deducted from the earnings we report, even though the unrealized appreciation that gave rise to the charges was never included in earnings, but rather was credited directly to net worth.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0006"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 53,
+            "html_line_end": 64,
+            "source_unit_first": "berkshire-letter-1993:u0006",
+            "source_unit_last": "berkshire-letter-1993:u0006"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "3. Another 1993 change in GAAP affects the value at which we carry the securities that we own. In recent years, both the common stocks and certain common-equivalent securities held by our insurance companies have been valued at market, whereas equities held by our non-insurance subsidiaries or by the parent company were carried at their aggregate cost or market, whichever was lower. Now GAAP says that all common stocks should be carried at market, a rule we began following in the fourth quarter of 1993. This change produced a gain in Berkshire's reported net worth of about $172 million.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0007"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 66,
+            "html_line_end": 79,
+            "source_unit_first": "berkshire-letter-1993:u0007",
+            "source_unit_last": "berkshire-letter-1993:u0007"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "4. Finally, we issued some stock last year. In a transaction described in last year's Annual Report, we issued 3,944 shares in early January, 1993 upon the conversion of $46 million convertible debentures that we had called for redemption. Additionally, we issued 25,203 shares when we acquired Dexter Shoe, a purchase discussed later in this report. The overall result was that our shares outstanding increased by 29,147 and our net worth by about $478 million. Per-share book value also grew, because the shares issued in these transactions carried a price above their book value.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0008"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 81,
+            "html_line_end": 93,
+            "source_unit_first": "berkshire-letter-1993:u0008",
+            "source_unit_last": "berkshire-letter-1993:u0008"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Of course, it's per-share intrinsic value, not book value, that counts. Book value is an accounting term that measures the capital, including retained earnings, that has been put into a business. Intrinsic value is a present-value estimate of the cash that can be taken out of a business during its remaining life. At most companies, the two values are unrelated. Berkshire, however, is an exception: Our book value, though significantly below our intrinsic value, serves as a useful device for tracking that key figure. In 1993, each measure grew by roughly 14%, advances that I would call satisfactory but unexciting.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0009"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 95,
+            "html_line_end": 105,
+            "source_unit_first": "berkshire-letter-1993:u0009",
+            "source_unit_last": "berkshire-letter-1993:u0009"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "These gains, however, were outstripped by a much larger gain - 39% - in Berkshire's market price. Over time, of course, market price and intrinsic value will arrive at about the same destination. But in the short run the two often diverge in a major way, a phenomenon I've discussed in the past. Two years ago, Coca-Cola and Gillette, both large holdings of ours, enjoyed market price increases that dramatically outpaced their earnings gains. In the 1991 Annual Report, I said that the stocks of these companies could not continuously overperform their businesses.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0010"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 107,
+            "html_line_end": 116,
+            "source_unit_first": "berkshire-letter-1993:u0010",
+            "source_unit_last": "berkshire-letter-1993:u0010"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "From 1991 to 1993, Coke and Gillette increased their annual operating earnings per share by 38% and 37% respectively, but their market prices moved up only 11% and 6%. In other words, the companies overperformed their stocks, a result that no doubt partly reflects Wall Street's new apprehension about brand names. Whatever the reason, what will count over time is the earnings performance of these companies. If they prosper, Berkshire will also prosper, though not in a lock-step manner.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0011"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 118,
+            "html_line_end": 125,
+            "source_unit_first": "berkshire-letter-1993:u0011",
+            "source_unit_last": "berkshire-letter-1993:u0011"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Let me add a lesson from history: Coke went public in 1919 at $40 per share. By the end of 1920 the market, coldly reevaluating Coke's future prospects, had battered the stock down by more than 50%, to $19.50. At yearend 1993, that single share, with dividends reinvested, was worth more than $2.1 million. As Ben Graham said: \"In the short-run, the market is a voting machine - reflecting a voter-registration test that requires only money, not intelligence or emotional stability - but in the long-run, the market is a weighing machine.\"",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0012"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 127,
+            "html_line_end": 135,
+            "source_unit_first": "berkshire-letter-1993:u0012",
+            "source_unit_last": "berkshire-letter-1993:u0012"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "So how should Berkshire's over-performance in the market last year be viewed? Clearly, Berkshire was selling at a higher percentage of intrinsic value at the end of 1993 than was the case at the beginning of the year. On the other hand, in a world of 6% or 7% long-term interest rates, Berkshire's market price was not inappropriate if - and you should understand that this is a huge if - Charlie Munger, Berkshire's Vice Chairman, and I can attain our long-standing goal of increasing Berkshire's per-share intrinsic value at an average annual rate of 15%. We have not retreated from this goal. But we again emphasize, as we have for many years, that the growth in our capital base makes 15% an ever-more difficult target to hit.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0013"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 137,
+            "html_line_end": 148,
+            "source_unit_first": "berkshire-letter-1993:u0013",
+            "source_unit_last": "berkshire-letter-1993:u0013"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "What we have going for us is a growing collection of good-sized operating businesses that possess economic characteristics ranging from good to terrific, run by managers whose performance ranges from terrific to terrific. You need have no worries about this group.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0014"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 150,
+            "html_line_end": 154,
+            "source_unit_first": "berkshire-letter-1993:u0014",
+            "source_unit_last": "berkshire-letter-1993:u0014"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "The capital-allocation work that Charlie and I do at the parent company, using the funds that our managers deliver to us, has a less certain outcome: It is not easy to find new businesses and managers comparable to those we have. Despite that difficulty, Charlie and I relish the search, and we are happy to report an important success in 1993.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0015"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 156,
+            "html_line_end": 161,
+            "source_unit_first": "berkshire-letter-1993:u0015",
+            "source_unit_last": "berkshire-letter-1993:u0015"
+          }
+        }
+      ],
+      "secondary_blocks": [
+        {
+          "type": "heading",
+          "text": "BERKSHIRE HATHAWAY INC.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0001"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 16,
+            "html_line_end": 16,
+            "source_unit_first": "berkshire-letter-1993:u0001",
+            "source_unit_last": "berkshire-letter-1993:u0001"
+          },
+          "auxiliary_reason": "publisher_letterhead"
+        }
+      ]
+    },
+    {
+      "id": "berkshire-letter-1993:read002",
+      "title": "Dexter Shoe",
+      "source_unit_ids": [
+        "berkshire-letter-1993:u0016",
+        "berkshire-letter-1993:u0017",
+        "berkshire-letter-1993:u0018",
+        "berkshire-letter-1993:u0019",
+        "berkshire-letter-1993:u0020",
+        "berkshire-letter-1993:u0021",
+        "berkshire-letter-1993:u0022",
+        "berkshire-letter-1993:u0023",
+        "berkshire-letter-1993:u0024",
+        "berkshire-letter-1993:u0025",
+        "berkshire-letter-1993:u0026"
+      ],
+      "locator": {
+        "type": "html_source_lines",
+        "html_line_start": 163,
+        "html_line_end": 262,
+        "source_unit_first": "berkshire-letter-1993:u0016",
+        "source_unit_last": "berkshire-letter-1993:u0026"
+      },
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Dexter Shoe",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0016"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 163,
+            "html_line_end": 163,
+            "source_unit_first": "berkshire-letter-1993:u0016",
+            "source_unit_last": "berkshire-letter-1993:u0016"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "What we did last year was build on our 1991 purchase of H. H. Brown, a superbly-run manufacturer of work shoes, boots and other footwear. Brown has been a real winner: Though we had high hopes to begin with, these expectations have been considerably exceeded thanks to Frank Rooney, Jim Issler and the talented managers who work with them. Because of our confidence in Frank's team, we next acquired Lowell Shoe, at the end of 1992. Lowell was a long-established manufacturer of women's and nurses' shoes, but its business needed some fixing. Again, results have surpassed our expectations. So we promptly jumped at the chance last year to acquire Dexter Shoe of Dexter, Maine, which manufactures popular-priced men's and women's shoes. Dexter, I can assure you, needs no fixing: It is one of the best-managed companies Charlie and I have seen in our business lifetimes.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0017"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 165,
+            "html_line_end": 179,
+            "source_unit_first": "berkshire-letter-1993:u0017",
+            "source_unit_last": "berkshire-letter-1993:u0017"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Harold Alfond, who started working in a shoe factory at 25 cents an hour when he was 20, founded Dexter in 1956 with $10,000 of capital. He was joined in 1958 by Peter Lunder, his nephew. The two of them have since built a business that now produces over 7.5 million pairs of shoes annually, most of them made in Maine and the balance in Puerto Rico. As you probably know, the domestic shoe industry is generally thought to be unable to compete with imports from low-wage countries. But someone forgot to tell this to the ingenious managements of Dexter and H. H. Brown and to their skilled labor forces, which together make the U.S. plants of both companies highly competitive against all comers.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0018"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 181,
+            "html_line_end": 192,
+            "source_unit_first": "berkshire-letter-1993:u0018",
+            "source_unit_last": "berkshire-letter-1993:u0018"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Dexter's business includes 77 retail outlets, located primarily in the Northeast. The company is also a major manufacturer of golf shoes, producing about 15% of U.S. output. Its bread and butter, though, is the manufacture of traditional shoes for traditional retailers, a job at which it excels: Last year both Nordstrom and J.C. Penney bestowed special awards upon Dexter for its performance as a supplier during 1992.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0019"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 194,
+            "html_line_end": 200,
+            "source_unit_first": "berkshire-letter-1993:u0019",
+            "source_unit_last": "berkshire-letter-1993:u0019"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Our 1993 results include Dexter only from our date of merger, November 7th. In 1994, we expect Berkshire's shoe operations to have more than $550 million in sales, and we would not be surprised if the combined pre-tax earnings of these businesses topped $85 million. Five years ago we had no thought of getting into shoes. Now we have 7,200 employees in that industry, and I sing \"There's No Business Like Shoe Business\" as I drive to work. So much for strategic plans.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0020"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 202,
+            "html_line_end": 209,
+            "source_unit_first": "berkshire-letter-1993:u0020",
+            "source_unit_last": "berkshire-letter-1993:u0020"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "At Berkshire, we have no view of the future that dictates what businesses or industries we will enter. Indeed, we think it's usually poison for a corporate giant's shareholders if it embarks upon new ventures pursuant to some grand vision. We prefer instead to focus on the economic characteristics of businesses that we wish to own and the personal characteristics of managers with whom we wish to associate - and then to hope we get lucky in finding the two in combination. At Dexter, we did.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0021"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 211,
+            "html_line_end": 218,
+            "source_unit_first": "berkshire-letter-1993:u0021",
+            "source_unit_last": "berkshire-letter-1993:u0021"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "And now we pause for a short commercial: Though they owned a business jewel, we believe that Harold and Peter (who were not interested in cash) made a sound decision in exchanging their Dexter stock for shares of Berkshire. What they did, in effect, was trade a 100% interest in a single terrific business for a smaller interest in a large group of terrific businesses. They incurred no tax on this exchange and now own a security that can be easily used for charitable or personal gifts, or that can be converted to cash in amounts, and at times, of their own choosing. Should members of their families desire to, they can pursue varying financial paths without running into the complications that often arise when assets are concentrated in a private business.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0023"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 222,
+            "html_line_end": 234,
+            "source_unit_first": "berkshire-letter-1993:u0023",
+            "source_unit_last": "berkshire-letter-1993:u0023"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "For tax and other reasons, private companies also often find it difficult to diversify outside their industries. Berkshire, in contrast, can diversify with ease. So in shifting their ownership to Berkshire, Dexter's shareholders solved a reinvestment problem. Moreover, though Harold and Peter now have non-controlling shares in Berkshire, rather than controlling shares in Dexter, they know they will be treated as partners and that we will follow owner-oriented practices. If they elect to retain their Berkshire shares, their investment result from the merger date forward will exactly parallel my own result. Since I have a huge percentage of my net worth committed for life to Berkshire shares - and since the company will issue me neither restricted shares nor stock options - my gain-loss equation will always match that of all other owners.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0024"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 236,
+            "html_line_end": 249,
+            "source_unit_first": "berkshire-letter-1993:u0024",
+            "source_unit_last": "berkshire-letter-1993:u0024"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Additionally, Harold and Peter know that at Berkshire we can keep our promises: There will be no changes of control or culture at Berkshire for many decades to come. Finally, and of paramount importance, Harold and Peter can be sure that they will get to run their business - an activity they dearly love - exactly as they did before the merger. At Berkshire, we do not tell .400 hitters how to swing.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0025"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 251,
+            "html_line_end": 257,
+            "source_unit_first": "berkshire-letter-1993:u0025",
+            "source_unit_last": "berkshire-letter-1993:u0025"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "What made sense for Harold and Peter probably makes sense for a few other owners of large private businesses. So, if you have a business that might fit, let me hear from you. Our acquisition criteria are set forth in the appendix on page 22.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0026"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 259,
+            "html_line_end": 262,
+            "source_unit_first": "berkshire-letter-1993:u0026",
+            "source_unit_last": "berkshire-letter-1993:u0026"
+          }
+        }
+      ],
+      "secondary_blocks": [
+        {
+          "type": "paragraph",
+          "text": "* * * * * * * * * * * *",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0022"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 220,
+            "html_line_end": 220,
+            "source_unit_first": "berkshire-letter-1993:u0022",
+            "source_unit_last": "berkshire-letter-1993:u0022"
+          },
+          "auxiliary_reason": "typographic_divider"
+        }
+      ]
+    },
+    {
+      "id": "berkshire-letter-1993:read003",
+      "title": "Sources of Reported Earnings",
+      "source_unit_ids": [
+        "berkshire-letter-1993:u0027",
+        "berkshire-letter-1993:u0028",
+        "berkshire-letter-1993:u0029",
+        "berkshire-letter-1993:u0030",
+        "berkshire-letter-1993:u0031",
+        "berkshire-letter-1993:u0032",
+        "berkshire-letter-1993:u0033"
+      ],
+      "locator": {
+        "type": "html_source_lines",
+        "html_line_start": 264,
+        "html_line_end": 332,
+        "source_unit_first": "berkshire-letter-1993:u0027",
+        "source_unit_last": "berkshire-letter-1993:u0033"
+      },
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Sources of Reported Earnings",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0027"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 264,
+            "html_line_end": 264,
+            "source_unit_first": "berkshire-letter-1993:u0027",
+            "source_unit_last": "berkshire-letter-1993:u0027"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "The table below shows the major sources of Berkshire's reported earnings. In this presentation, amortization of Goodwill and other major purchase-price accounting adjustments are not charged against the specific businesses to which they apply, but are instead aggregated and shown separately. This procedure lets you view the earnings of our businesses as they would have been reported had we not purchased them. I've explained in past reports why this form of presentation seems to us to be more useful to investors and managers than one utilizing GAAP, which requires purchase-price adjustments to be made on a business-by-business basis. The total net earnings we show in the table are, of course, identical to the GAAP total in our audited financial statements.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0028"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 266,
+            "html_line_end": 278,
+            "source_unit_first": "berkshire-letter-1993:u0028",
+            "source_unit_last": "berkshire-letter-1993:u0028"
+          }
+        },
+        {
+          "type": "preformatted",
+          "text": "                                               (000s omitted)               \n                                 ------------------------------------------\n                                                          Berkshire's Share  \n                                                           of Net Earnings  \n                                                          (after taxes and  \n                                    Pre-Tax Earnings     minority interests)  \n                                 ----------------------  ------------------\n                                    1993        1992       1993       1992 \n                                 ----------  ----------  --------  --------\n\nOperating Earnings:\n  Insurance Group:\n    Underwriting ...............   $ 30,876  $(108,961)  $ 20,156  $(71,141)\t\n    Net Investment Income ......    375,946     355,067   321,321   305,763 \n  H. H. Brown, Lowell, \n      and Dexter ...............     44,025*     27,883    28,829    17,340 \t\n  Buffalo News .................     50,962      47,863    29,696    28,163 \n  Commercial & Consumer Finance      22,695      19,836    14,161    12,664 \n  Fechheimer ...................     13,442      13,698     6,931     7,267 \n  Kirby ........................     39,147      35,653    25,056    22,795 \n  Nebraska Furniture Mart ......     21,540      17,110    10,398     8,072 \n  Scott Fetzer Manufacturing Group   38,196      31,954    23,809    19,883 \t\n  See's Candies ................     41,150      42,357    24,367    25,501 \n  World Book ...................     19,915      29,044    13,537    19,503 \n  Purchase-Price Accounting & \n      Goodwill Charges .........    (17,033)    (12,087)  (13,996)  (13,070)\t\n  Interest Expense** ...........    (56,545)    (98,643)  (35,614)  (62,899)\n  Shareholder-Designated \n      Contributions ............     (9,448)     (7,634)   (5,994)   (4,913)\t\n  Other ........................     28,428      67,540    15,094    32,798 \n                                 ----------  ----------  --------  --------  \nOperating Earnings .............    643,296     460,680   477,751   347,726 \nSales of Securities ............    546,422      89,937   356,702    59,559 \nTax Accruals Caused by \n   New Accounting Rules ........      ---         ---    (146,332)    ---   \n                                 ----------  ----------  --------  --------\nTotal Earnings - All Entities .. $1,189,718   $ 550,617  $688,121  $407,285",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0029",
+            "berkshire-letter-1993:u0030"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 280,
+            "html_line_end": 316,
+            "source_unit_first": "berkshire-letter-1993:u0029",
+            "source_unit_last": "berkshire-letter-1993:u0030"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "* Includes Dexter's earnings only from the date it was acquired, November 7, 1993.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0031"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 318,
+            "html_line_end": 319,
+            "source_unit_first": "berkshire-letter-1993:u0031",
+            "source_unit_last": "berkshire-letter-1993:u0031"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "**Excludes interest expense of Commercial and Consumer Finance businesses. In 1992 includes $22.5 million of premiums paid on the early redemption of debt.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0032"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 321,
+            "html_line_end": 323,
+            "source_unit_first": "berkshire-letter-1993:u0032",
+            "source_unit_last": "berkshire-letter-1993:u0032"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "A large amount of information about these businesses is given on pages 38-49, where you will also find our segment earnings reported on a GAAP basis. In addition, on pages 52-59, we have rearranged Berkshire's financial data into four segments on a non-GAAP basis, a presentation that corresponds to the way Charlie and I think about the company. Our intent is to supply you with the financial information that we would wish you to give us if our positions were reversed.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0033"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 325,
+            "html_line_end": 332,
+            "source_unit_first": "berkshire-letter-1993:u0033",
+            "source_unit_last": "berkshire-letter-1993:u0033"
+          }
+        }
+      ],
+      "secondary_blocks": []
+    },
+    {
+      "id": "berkshire-letter-1993:read004",
+      "title": "\"Look-Through\" Earnings",
+      "source_unit_ids": [
+        "berkshire-letter-1993:u0034",
+        "berkshire-letter-1993:u0035",
+        "berkshire-letter-1993:u0036",
+        "berkshire-letter-1993:u0037",
+        "berkshire-letter-1993:u0038",
+        "berkshire-letter-1993:u0039",
+        "berkshire-letter-1993:u0040",
+        "berkshire-letter-1993:u0041",
+        "berkshire-letter-1993:u0042",
+        "berkshire-letter-1993:u0043",
+        "berkshire-letter-1993:u0044",
+        "berkshire-letter-1993:u0045"
+      ],
+      "locator": {
+        "type": "html_source_lines",
+        "html_line_start": 334,
+        "html_line_end": 426,
+        "source_unit_first": "berkshire-letter-1993:u0034",
+        "source_unit_last": "berkshire-letter-1993:u0045"
+      },
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "\"Look-Through\" Earnings",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0034"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 334,
+            "html_line_end": 334,
+            "source_unit_first": "berkshire-letter-1993:u0034",
+            "source_unit_last": "berkshire-letter-1993:u0034"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "We've previously discussed look-through earnings, which we believe more accurately portray the earnings of Berkshire than does our GAAP result. As we calculate them, look-through earnings consist of: (1) the operating earnings reported in the previous section, plus; (2) the retained operating earnings of major investees that, under GAAP accounting, are not reflected in our profits, less; (3) an allowance for the tax that would be paid by Berkshire if these retained earnings of investees had instead been distributed to us. The \"operating earnings\" of which we speak here exclude capital gains, special accounting items and major restructuring charges.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0035"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 336,
+            "html_line_end": 346,
+            "source_unit_first": "berkshire-letter-1993:u0035",
+            "source_unit_last": "berkshire-letter-1993:u0035"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Over time, our look-through earnings need to increase at about 15% annually if our intrinsic value is to grow at that rate. Last year, I explained that we had to increase these earnings to about $1.8 billion in the year 2000, were we to meet the 15% goal. Because we issued additional shares in 1993, the amount needed has risen to about $1.85 billion.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0036"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 348,
+            "html_line_end": 353,
+            "source_unit_first": "berkshire-letter-1993:u0036",
+            "source_unit_last": "berkshire-letter-1993:u0036"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "That is a tough goal, but one that we expect you to hold us to. In the past, we've criticized the managerial practice of shooting the arrow of performance and then painting the target, centering it on whatever point the arrow happened to hit. We will instead risk embarrassment by painting first and shooting later.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0037"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 355,
+            "html_line_end": 359,
+            "source_unit_first": "berkshire-letter-1993:u0037",
+            "source_unit_last": "berkshire-letter-1993:u0037"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "If we are to hit the bull's-eye, we will need markets that allow the purchase of businesses and securities on sensible terms. Right now, markets are difficult, but they can - and will - change in unexpected ways and at unexpected times. In the meantime, we'll try to resist the temptation to do something marginal simply because we are long on cash. There's no use running if you're on the wrong road.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0038"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 361,
+            "html_line_end": 367,
+            "source_unit_first": "berkshire-letter-1993:u0038",
+            "source_unit_last": "berkshire-letter-1993:u0038"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "The following table shows how we calculate look-through earnings, though I warn you that the figures are necessarily very rough. (The dividends paid to us by these investees have been included in the operating earnings itemized on page 8, mostly under \"Insurance Group: Net Investment Income.\")",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0039"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 369,
+            "html_line_end": 373,
+            "source_unit_first": "berkshire-letter-1993:u0039",
+            "source_unit_last": "berkshire-letter-1993:u0039"
+          }
+        },
+        {
+          "type": "preformatted",
+          "text": "                                                         Berkshire's Share \n                                                          of Undistributed \n                              Berkshire's Approximate    Operating Earnings\nBerkshire's Major Investees    Ownership at Yearend        (in millions) \n---------------------------   -----------------------   --------------------\n\n                                  1993      1992           1993      1992\n                                 ------    ------         ------    ------   \nCapital Cities/ABC, Inc. .....    13.0%     18.2%         $ 83(2)   $ 70\nThe Coca-Cola Company ........     7.2%      7.1%           94        82\nFederal Home Loan Mortgage Corp.   6.8%(1)   8.2%(1)        41(2)     29(2)\nGEICO Corp. ..................    48.4%     48.1%           76(3)     34(3)\nGeneral Dynamics Corp. .......    13.9%     14.1%           25        11(2)\nThe Gillette Company .........    10.9%     10.9%           44        38\nGuinness PLC .................     1.9%      2.0%            8         7\nThe Washington Post Company ..    14.8%     14.6%           15        11\nWells Fargo & Company ........    12.2%     11.5%           53(2)     16(2)\n\nBerkshire's share of undistributed \n   earnings of major investees                            $439      $298\nHypothetical tax on these undistributed \n   investee earnings(4)                                    (61)      (42)\nReported operating earnings of Berkshire                   478       348 \n      Total look-through earnings of Berkshire            $856      $604",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0040",
+            "berkshire-letter-1993:u0041",
+            "berkshire-letter-1993:u0042"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 375,
+            "html_line_end": 398,
+            "source_unit_first": "berkshire-letter-1993:u0040",
+            "source_unit_last": "berkshire-letter-1993:u0042"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "(1) Does not include shares allocable to the minority interest at Wesco (2) Calculated on average ownership for the year (3) Excludes realized capital gains, which have been both recurring and significant (4) The tax rate used is 14%, which is the rate Berkshire pays on the dividends it receives",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0043"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 400,
+            "html_line_end": 406,
+            "source_unit_first": "berkshire-letter-1993:u0043",
+            "source_unit_last": "berkshire-letter-1993:u0043"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "We have told you that we expect the undistributed, hypothetically-taxed earnings of our investees to produce at least equivalent gains in Berkshire's intrinsic value. To date, we have far exceeded that expectation. For example, in 1986 we bought three million shares of Capital Cities/ABC for $172.50 per share and late last year sold one-third of that holding for $630 per share. After paying 35% capital gains taxes, we realized a $297 million profit from the sale. In contrast, during the eight years we held these shares, the retained earnings of Cap Cities attributable to them - hypothetically taxed at a lower 14% in accordance with our look-through method - were only $152 million. In other words, we paid a much larger tax bill than our look-through presentations to you have assumed and nonetheless realized a gain that far exceeded the undistributed earnings allocable to these shares.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0044"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 408,
+            "html_line_end": 422,
+            "source_unit_first": "berkshire-letter-1993:u0044",
+            "source_unit_last": "berkshire-letter-1993:u0044"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "We expect such pleasant outcomes to recur often in the future and therefore believe our look-through earnings to be a conservative representation of Berkshire's true economic earnings.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0045"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 424,
+            "html_line_end": 426,
+            "source_unit_first": "berkshire-letter-1993:u0045",
+            "source_unit_last": "berkshire-letter-1993:u0045"
+          }
+        }
+      ],
+      "secondary_blocks": []
+    },
+    {
+      "id": "berkshire-letter-1993:read005",
+      "title": "Taxes",
+      "source_unit_ids": [
+        "berkshire-letter-1993:u0046",
+        "berkshire-letter-1993:u0047",
+        "berkshire-letter-1993:u0048",
+        "berkshire-letter-1993:u0049",
+        "berkshire-letter-1993:u0050",
+        "berkshire-letter-1993:u0051",
+        "berkshire-letter-1993:u0052",
+        "berkshire-letter-1993:u0053",
+        "berkshire-letter-1993:u0054"
+      ],
+      "locator": {
+        "type": "html_source_lines",
+        "html_line_start": 428,
+        "html_line_end": 500,
+        "source_unit_first": "berkshire-letter-1993:u0046",
+        "source_unit_last": "berkshire-letter-1993:u0054"
+      },
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Taxes",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0046"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 428,
+            "html_line_end": 428,
+            "source_unit_first": "berkshire-letter-1993:u0046",
+            "source_unit_last": "berkshire-letter-1993:u0046"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "As our Cap Cities sale emphasizes, Berkshire is a substantial payer of federal income taxes. In aggregate, we will pay 1993 federal income taxes of $390 million, about $200 million of that attributable to operating earnings and $190 million to realized capital gains. Furthermore, our share of the 1993 federal and foreign income taxes paid by our investees is well over $400 million, a figure you don't see on our financial statements but that is nonetheless real. Directly and indirectly, Berkshire's 1993 federal income tax payments will be about 1/2 of 1% of the total paid last year by all American corporations.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0047"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 430,
+            "html_line_end": 439,
+            "source_unit_first": "berkshire-letter-1993:u0047",
+            "source_unit_last": "berkshire-letter-1993:u0047"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Speaking for our own shares, Charlie and I have absolutely no complaint about these taxes. We know we work in a market-based economy that rewards our efforts far more bountifully than it does the efforts of others whose output is of equal or greater benefit to society. Taxation should, and does, partially redress this inequity. But we still remain extraordinarily well-treated.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0048"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 441,
+            "html_line_end": 446,
+            "source_unit_first": "berkshire-letter-1993:u0048",
+            "source_unit_last": "berkshire-letter-1993:u0048"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Berkshire and its shareholders, in combination, would pay a much smaller tax if Berkshire operated as a partnership or \"S\" corporation, two structures often used for business activities. For a variety of reasons, that's not feasible for Berkshire to do. However, the penalty our corporate form imposes is mitigated - though far from eliminated - by our strategy of investing for the long term. Charlie and I would follow a buy-and-hold policy even if we ran a tax-exempt institution. We think it the soundest way to invest, and it also goes down the grain of our personalities. A third reason to favor this policy, however, is the fact that taxes are due only when gains are realized.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0049"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 448,
+            "html_line_end": 458,
+            "source_unit_first": "berkshire-letter-1993:u0049",
+            "source_unit_last": "berkshire-letter-1993:u0049"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Through my favorite comic strip, Li'l Abner, I got a chance during my youth to see the benefits of delayed taxes, though I missed the lesson at the time. Making his readers feel superior, Li'l Abner bungled happily, but moronically, through life in Dogpatch. At one point he became infatuated with a New York temptress, Appassionatta Van Climax, but despaired of marrying her because he had only a single silver dollar and she was interested solely in millionaires. Dejected, Abner took his problem to Old Man Mose, the font of all knowledge in Dogpatch. Said the sage: Double your money 20 times and Appassionatta will be yours (1, 2, 4, 8 . . . . 1,048,576).",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0050"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 460,
+            "html_line_end": 470,
+            "source_unit_first": "berkshire-letter-1993:u0050",
+            "source_unit_last": "berkshire-letter-1993:u0050"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "My last memory of the strip is Abner entering a roadhouse, dropping his dollar into a slot machine, and hitting a jackpot that spilled money all over the floor. Meticulously following Mose's advice, Abner picked up two dollars and went off to find his next double. Whereupon I dumped Abner and began reading Ben Graham.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0051"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 472,
+            "html_line_end": 476,
+            "source_unit_first": "berkshire-letter-1993:u0051",
+            "source_unit_last": "berkshire-letter-1993:u0051"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Mose clearly was overrated as a guru: Besides failing to anticipate Abner's slavish obedience to instructions, he also forgot about taxes. Had Abner been subject, say, to the 35% federal tax rate that Berkshire pays, and had he managed one double annually, he would after 20 years only have accumulated $22,370. Indeed, had he kept on both getting his annual doubles and paying a 35% tax on each, he would have needed 7 1/2 years more to reach the $1 million required to win Appassionatta.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0052"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 478,
+            "html_line_end": 485,
+            "source_unit_first": "berkshire-letter-1993:u0052",
+            "source_unit_last": "berkshire-letter-1993:u0052"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "But what if Abner had instead put his dollar in a single investment and held it until it doubled the same 27 1/2 times? In that case, he would have realized about $200 million pre-tax or, after paying a $70 million tax in the final year, about $130 million after-tax. For that, Appassionatta would have crawled to Dogpatch. Of course, with 27 1/2 years having passed, how Appassionatta would have looked to a fellow sitting on $130 million is another question.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0053"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 487,
+            "html_line_end": 494,
+            "source_unit_first": "berkshire-letter-1993:u0053",
+            "source_unit_last": "berkshire-letter-1993:u0053"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "What this little tale tells us is that tax-paying investors will realize a far, far greater sum from a single investment that compounds internally at a given rate than from a succession of investments compounding at the same rate. But I suspect many Berkshire shareholders figured that out long ago.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0054"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 496,
+            "html_line_end": 500,
+            "source_unit_first": "berkshire-letter-1993:u0054",
+            "source_unit_last": "berkshire-letter-1993:u0054"
+          }
+        }
+      ],
+      "secondary_blocks": []
+    },
+    {
+      "id": "berkshire-letter-1993:read006",
+      "title": "Insurance Operations",
+      "source_unit_ids": [
+        "berkshire-letter-1993:u0055",
+        "berkshire-letter-1993:u0056",
+        "berkshire-letter-1993:u0057",
+        "berkshire-letter-1993:u0058",
+        "berkshire-letter-1993:u0059",
+        "berkshire-letter-1993:u0060",
+        "berkshire-letter-1993:u0061",
+        "berkshire-letter-1993:u0062",
+        "berkshire-letter-1993:u0063",
+        "berkshire-letter-1993:u0064",
+        "berkshire-letter-1993:u0065",
+        "berkshire-letter-1993:u0066",
+        "berkshire-letter-1993:u0067",
+        "berkshire-letter-1993:u0068",
+        "berkshire-letter-1993:u0069",
+        "berkshire-letter-1993:u0070",
+        "berkshire-letter-1993:u0071",
+        "berkshire-letter-1993:u0072",
+        "berkshire-letter-1993:u0073",
+        "berkshire-letter-1993:u0074"
+      ],
+      "locator": {
+        "type": "html_source_lines",
+        "html_line_start": 502,
+        "html_line_end": 682,
+        "source_unit_first": "berkshire-letter-1993:u0055",
+        "source_unit_last": "berkshire-letter-1993:u0074"
+      },
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Insurance Operations",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0055"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 502,
+            "html_line_end": 502,
+            "source_unit_first": "berkshire-letter-1993:u0055",
+            "source_unit_last": "berkshire-letter-1993:u0055"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "At this point in the report we've customarily provided you with a table showing the annual \"combined ratio\" of the insurance industry for the preceding decade. This ratio compares total insurance costs (losses incurred plus expenses) to revenue from premiums. For many years, the ratio has been above 100, a level indicating an underwriting loss. That is, the industry has taken in less money each year from its policyholders than it has had to pay for operating expenses and for loss events that occurred during the year.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0056"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 504,
+            "html_line_end": 512,
+            "source_unit_first": "berkshire-letter-1993:u0056",
+            "source_unit_last": "berkshire-letter-1993:u0056"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Offsetting this grim equation is a happier fact: Insurers get to hold on to their policyholders' money for a time before paying it out. This happens because most policies require that premiums be prepaid and, more importantly, because it often takes time to resolve loss claims. Indeed, in the case of certain lines of insurance, such as product liability or professional malpractice, many years may elapse between the loss event and payment.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0057"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 514,
+            "html_line_end": 520,
+            "source_unit_first": "berkshire-letter-1993:u0057",
+            "source_unit_last": "berkshire-letter-1993:u0057"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "To oversimplify the matter somewhat, the total of the funds prepaid by policyholders and the funds earmarked for incurred-but-not-yet-paid claims is called \"the float.\" In the past, the industry was able to suffer a combined ratio of 107 to 111 and still break even from its insurance writings because of the earnings derived from investing this float.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0058"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 522,
+            "html_line_end": 527,
+            "source_unit_first": "berkshire-letter-1993:u0058",
+            "source_unit_last": "berkshire-letter-1993:u0058"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "As interest rates have fallen, however, the value of float has substantially declined. Therefore, the data that we have provided in the past are no longer useful for year-to-year comparisons of industry profitability. A company writing at the same combined ratio now as in the 1980's today has a far less attractive business than it did then.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0059"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 529,
+            "html_line_end": 534,
+            "source_unit_first": "berkshire-letter-1993:u0059",
+            "source_unit_last": "berkshire-letter-1993:u0059"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Only by making an analysis that incorporates both underwriting results and the current risk-free earnings obtainable from float can one evaluate the true economics of the business that a property-casualty insurer writes. Of course, the actual investment results that an insurer achieves from the use of both float and stockholders' funds is also of major importance and should be carefully examined when an investor is assessing managerial performance. But that should be a separate analysis from the one we are discussing here. The value of float funds - in effect, their transfer price as they move from the insurance operation to the investment operation - should be determined simply by the risk-free, long-term rate of interest.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0060"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 536,
+            "html_line_end": 547,
+            "source_unit_first": "berkshire-letter-1993:u0060",
+            "source_unit_last": "berkshire-letter-1993:u0060"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "On the next page we show the numbers that count in an evaluation of Berkshire's insurance business. We calculate our float - which we generate in exceptional amounts relative to our premium volume - by adding loss reserves, loss adjustment reserves and unearned premium reserves and then subtracting agent's balances, prepaid acquisition costs and deferred charges applicable to assumed reinsurance. Our cost of float is determined by our underwriting loss or profit. In those years when we have had an underwriting profit, which includes 1993, our cost of float has been negative, and we have determined our insurance earnings by adding underwriting profit to float income.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0061"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 549,
+            "html_line_end": 559,
+            "source_unit_first": "berkshire-letter-1993:u0061",
+            "source_unit_last": "berkshire-letter-1993:u0061"
+          }
+        },
+        {
+          "type": "preformatted",
+          "text": "                   (1)            (2)                          Yearend Yield\n              Underwriting                     Approximate      on Long-Term\n                  Loss       Average Float    Cost of Funds     Govt. Bonds \t\n              ------------   -------------   ---------------   -------------\n                    (In $ Millions)         (Ratio of 1 to 2)\n\n1967             profit          $ 17.3      less than zero        5.50%\n1968             profit            19.9      less than zero        5.90%\n1969             profit            23.4      less than zero        6.79%\n1970             $ 0.37            32.4               1.14%        6.25%\n1971             profit            52.5      less than zero        5.81%\n1972             profit            69.5      less than zero        5.82%\n1973             profit            73.3      less than zero        7.27%\n1974               7.36            79.1               9.30%        8.13%\n1975              11.35            87.6              12.96%        8.03%\n1976             profit           102.6      less than zero        7.30%\n1977             profit           139.0      less than zero        7.97%\n1978             profit           190.4      less than zero        8.93%\n1979             profit           227.3      less than zero       10.08%\n1980             profit           237.0      less than zero       11.94%\n1981             profit           228.4      less than zero       13.61%\n1982              21.56           220.6               9.77%       10.64%\n1983              33.87           231.3              14.64%       11.84%\n1984              48.06           253.2              18.98%       11.58%\n1985              44.23           390.2              11.34%        9.34%\n1986              55.84           797.5               7.00%        7.60%\n1987              55.43         1,266.7               4.38%        8.95%\n1988              11.08         1,497.7               0.74%        9.00%\n1989              24.40         1,541.3               1.58%        7.97%\n1990              26.65         1,637.3               1.63%        8.24%\n1991             119.59         1,895.0               6.31%        7.40%\n1992             108.96         2,290.4               4.76%        7.39%\n1993             profit         2,624.7      less than zero        6.35%",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0062",
+            "berkshire-letter-1993:u0063"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 561,
+            "html_line_end": 593,
+            "source_unit_first": "berkshire-letter-1993:u0062",
+            "source_unit_last": "berkshire-letter-1993:u0063"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "As you can see, in our insurance operation last year we had the use of $2.6 billion at no cost; in fact we were paid $31 million, our underwriting profit, to hold these funds. This sounds good - is good - but is far from as good as it sounds.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0064"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 595,
+            "html_line_end": 598,
+            "source_unit_first": "berkshire-letter-1993:u0064",
+            "source_unit_last": "berkshire-letter-1993:u0064"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "We temper our enthusiasm because we write a large volume of \"super-cat\" policies (which other insurance and reinsurance companies buy to recover part of the losses they suffer from mega-catastrophes) and because last year we had no losses of consequence from this activity. As that suggests, the truly catastrophic Midwestern floods of 1993 did not trigger super-cat losses, the reason being that very few flood policies are purchased from private insurers.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0065"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 600,
+            "html_line_end": 607,
+            "source_unit_first": "berkshire-letter-1993:u0065",
+            "source_unit_last": "berkshire-letter-1993:u0065"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "It would be fallacious, however, to conclude from this single-year result that the super-cat business is a wonderful one, or even a satisfactory one. A simple example will illustrate the fallacy: Suppose there is an event that occurs 25 times in every century. If you annually give 5-for-1 odds against its occurrence that year, you will have many more winning years than losers. Indeed, you may go a straight six, seven or more years without loss. You also will eventually go broke.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0066"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 609,
+            "html_line_end": 616,
+            "source_unit_first": "berkshire-letter-1993:u0066",
+            "source_unit_last": "berkshire-letter-1993:u0066"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "At Berkshire, we naturally believe we are obtaining adequate premiums and giving more like 3 1/2-for-1 odds. But there is no way for us - or anyone else - to calculate the true odds on super-cat coverages. In fact, it will take decades for us to find out whether our underwriting judgment has been sound.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0067"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 618,
+            "html_line_end": 622,
+            "source_unit_first": "berkshire-letter-1993:u0067",
+            "source_unit_last": "berkshire-letter-1993:u0067"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "What we do know is that when a loss comes, it's likely to be a lulu. There may well be years when Berkshire will suffer losses from the super-cat business equal to three or four times what we earned from it in 1993. When Hurricane Andrew blew in 1992, we paid out about $125 million. Because we've since expanded our super-cat business, a similar storm today could cost us $600 million.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0068"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 624,
+            "html_line_end": 630,
+            "source_unit_first": "berkshire-letter-1993:u0068",
+            "source_unit_last": "berkshire-letter-1993:u0068"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "So far, we have been lucky in 1994. As I write this letter, we are estimating that our losses from the Los Angeles earthquake will be nominal. But if the quake had been a 7.5 instead of a 6.8, it would have been a different story.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0069"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 632,
+            "html_line_end": 635,
+            "source_unit_first": "berkshire-letter-1993:u0069",
+            "source_unit_last": "berkshire-letter-1993:u0069"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Berkshire is ideally positioned to write super-cat policies. In Ajit Jain, we have by far the best manager in this business. Additionally, companies writing these policies need enormous capital, and our net worth is ten to twenty times larger than that of our main competitors. In most lines of insurance, huge resources aren't that important: An insurer can diversify the risks it writes and, if necessary, can lay off risks to reduce concentration in its portfolio. That isn't possible in the super-cat business. So these competitors are forced into offering far smaller limits than those we can provide. Were they bolder, they would run the risk that a mega-catastrophe - or a confluence of smaller catastrophes - would wipe them out.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0070"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 637,
+            "html_line_end": 648,
+            "source_unit_first": "berkshire-letter-1993:u0070",
+            "source_unit_last": "berkshire-letter-1993:u0070"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "One indication of our premier strength and reputation is that each of the four largest reinsurance companies in the world buys very significant reinsurance coverage from Berkshire. Better than anyone else, these giants understand that the test of a reinsurer is its ability and willingness to pay losses under trying circumstances, not its readiness to accept premiums when things look rosy.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0071"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 650,
+            "html_line_end": 656,
+            "source_unit_first": "berkshire-letter-1993:u0071",
+            "source_unit_last": "berkshire-letter-1993:u0071"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "One caution: There has recently been a substantial increase in reinsurance capacity. Close to $5 billion of equity capital has been raised by reinsurers, almost all of them newly-formed entities. Naturally these new entrants are hungry to write business so that they can justify the projections they utilized in attracting capital. This new competition won't affect our 1994 operations; we're filled up there, primarily with business written in 1993. But we are now seeing signs of price deterioration. If this trend continues, we will resign ourselves to much-reduced volume, keeping ourselves available, though, for the large, sophisticated buyer who requires a super-cat insurer with large capacity and a sure ability to pay losses.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0072"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 658,
+            "html_line_end": 669,
+            "source_unit_first": "berkshire-letter-1993:u0072",
+            "source_unit_last": "berkshire-letter-1993:u0072"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "In other areas of our insurance business, our homestate operation, led by Rod Eldred; our workers' compensation business, headed by Brad Kinstler; our credit-card operation, managed by the Kizer family; and National Indemnity's traditional auto and general liability business, led by Don Wurster, all achieved excellent results. In combination, these four units produced a significant underwriting profit and substantial float.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0073"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 671,
+            "html_line_end": 677,
+            "source_unit_first": "berkshire-letter-1993:u0073",
+            "source_unit_last": "berkshire-letter-1993:u0073"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "All in all, we have a first-class insurance business. Though its results will be highly volatile, this operation possesses an intrinsic value that exceeds its book value by a large amount - larger, in fact, than is the case at any other Berkshire business.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0074"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 679,
+            "html_line_end": 682,
+            "source_unit_first": "berkshire-letter-1993:u0074",
+            "source_unit_last": "berkshire-letter-1993:u0074"
+          }
+        }
+      ],
+      "secondary_blocks": []
+    },
+    {
+      "id": "berkshire-letter-1993:read007",
+      "title": "Common Stock Investments",
+      "source_unit_ids": [
+        "berkshire-letter-1993:u0075",
+        "berkshire-letter-1993:u0076",
+        "berkshire-letter-1993:u0077",
+        "berkshire-letter-1993:u0078",
+        "berkshire-letter-1993:u0079",
+        "berkshire-letter-1993:u0080",
+        "berkshire-letter-1993:u0081",
+        "berkshire-letter-1993:u0082",
+        "berkshire-letter-1993:u0083",
+        "berkshire-letter-1993:u0084",
+        "berkshire-letter-1993:u0085",
+        "berkshire-letter-1993:u0086",
+        "berkshire-letter-1993:u0087",
+        "berkshire-letter-1993:u0088",
+        "berkshire-letter-1993:u0089",
+        "berkshire-letter-1993:u0090",
+        "berkshire-letter-1993:u0091",
+        "berkshire-letter-1993:u0092",
+        "berkshire-letter-1993:u0093",
+        "berkshire-letter-1993:u0094",
+        "berkshire-letter-1993:u0095",
+        "berkshire-letter-1993:u0096",
+        "berkshire-letter-1993:u0097",
+        "berkshire-letter-1993:u0098",
+        "berkshire-letter-1993:u0099",
+        "berkshire-letter-1993:u0100",
+        "berkshire-letter-1993:u0101",
+        "berkshire-letter-1993:u0102",
+        "berkshire-letter-1993:u0103"
+      ],
+      "locator": {
+        "type": "html_source_lines",
+        "html_line_start": 684,
+        "html_line_end": 953,
+        "source_unit_first": "berkshire-letter-1993:u0075",
+        "source_unit_last": "berkshire-letter-1993:u0103"
+      },
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Common Stock Investments",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0075"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 684,
+            "html_line_end": 684,
+            "source_unit_first": "berkshire-letter-1993:u0075",
+            "source_unit_last": "berkshire-letter-1993:u0075"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Below we list our common stockholdings having a value of over $250 million. A small portion of these investments belongs to subsidiaries of which Berkshire owns less than 100%.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0076"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 686,
+            "html_line_end": 688,
+            "source_unit_first": "berkshire-letter-1993:u0076",
+            "source_unit_last": "berkshire-letter-1993:u0076"
+          }
+        },
+        {
+          "type": "preformatted",
+          "text": "                                                           12/31/93\n  Shares    Company                                   Cost         Market\n  ------    -------                                ----------    ----------\n                                                        (000s omitted)\n 2,000,000  Capital Cities/ABC, Inc. ............. $  345,000    $1,239,000\n93,400,000  The Coca-Cola Company. ...............  1,023,920     4,167,975\n13,654,600  Federal Home Loan Mortgage Corp. \n               (\"Freddie Mac\") ...................    307,505       681,023\t\n34,250,000  GEICO Corp. ..........................     45,713     1,759,594\n 4,350,000  General Dynamics Corp. ...............     94,938       401,287\n24,000,000  The Gillette Company .................    600,000     1,431,000\n38,335,000  Guinness PLC .........................    333,019       270,822\n 1,727,765  The Washington Post Company. .........      9,731       440,148\n 6,791,218  Wells Fargo & Company ................    423,680       878,614",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0077"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 690,
+            "html_line_end": 703,
+            "source_unit_first": "berkshire-letter-1993:u0077",
+            "source_unit_last": "berkshire-letter-1993:u0077"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Considering the similarity of this year's list and the last, you may decide your management is hopelessly comatose. But we continue to think that it is usually foolish to part with an interest in a business that is both understandable and durably wonderful. Business interests of that kind are simply too hard to replace.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0078"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 705,
+            "html_line_end": 710,
+            "source_unit_first": "berkshire-letter-1993:u0078",
+            "source_unit_last": "berkshire-letter-1993:u0078"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Interestingly, corporate managers have no trouble understanding that point when they are focusing on a business they operate: A parent company that owns a subsidiary with superb long-term economics is not likely to sell that entity regardless of price. \"Why,\" the CEO would ask, \"should I part with my crown jewel?\" Yet that same CEO, when it comes to running his personal investment portfolio, will offhandedly - and even impetuously - move from business to business when presented with no more than superficial arguments by his broker for doing so. The worst of these is perhaps, \"You can't go broke taking a profit.\" Can you imagine a CEO using this line to urge his board to sell a star subsidiary? In our view, what makes sense in business also makes sense in stocks: An investor should ordinarily hold a small piece of an outstanding business with the same tenacity that an owner would exhibit if he owned all of that business.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0079"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 712,
+            "html_line_end": 726,
+            "source_unit_first": "berkshire-letter-1993:u0079",
+            "source_unit_last": "berkshire-letter-1993:u0079"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Earlier I mentioned the financial results that could have been achieved by investing $40 in The Coca-Cola Co. in 1919. In 1938, more than 50 years after the introduction of Coke, and long after the drink was firmly established as an American icon, Fortune did an excellent story on the company. In the second paragraph the writer reported: \"Several times every year a weighty and serious investor looks long and with profound respect at Coca-Cola's record, but comes regretfully to the conclusion that he is looking too late. The specters of saturation and competition rise before him.\"",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0080"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 728,
+            "html_line_end": 737,
+            "source_unit_first": "berkshire-letter-1993:u0080",
+            "source_unit_last": "berkshire-letter-1993:u0080"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Yes, competition there was in 1938 and in 1993 as well. But it's worth noting that in 1938 The Coca-Cola Co. sold 207 million cases of soft drinks (if its gallonage then is converted into the 192-ounce cases used for measurement today) and in 1993 it sold about 10.7 billion cases, a 50-fold increase in physical volume from a company that in 1938 was already dominant in its very major industry. Nor was the party over in 1938 for an investor: Though the $40 invested in 1919 in one share had (with dividends reinvested) turned into $3,277 by the end of 1938, a fresh $40 then invested in Coca-Cola stock would have grown to $25,000 by yearend 1993.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0081"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 739,
+            "html_line_end": 749,
+            "source_unit_first": "berkshire-letter-1993:u0081",
+            "source_unit_last": "berkshire-letter-1993:u0081"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "I can't resist one more quote from that 1938 Fortune story: \"It would be hard to name any company comparable in size to Coca-Cola and selling, as Coca-Cola does, an unchanged product that can point to a ten-year record anything like Coca-Cola's.\" In the 55 years that have since passed, Coke's product line has broadened somewhat, but it's remarkable how well that description still fits.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0082"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 751,
+            "html_line_end": 756,
+            "source_unit_first": "berkshire-letter-1993:u0082",
+            "source_unit_last": "berkshire-letter-1993:u0082"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Charlie and I decided long ago that in an investment lifetime it's just too hard to make hundreds of smart decisions. That judgment became ever more compelling as Berkshire's capital mushroomed and the universe of investments that could significantly affect our results shrank dramatically. Therefore, we adopted a strategy that required our being smart - and not too smart at that - only a very few times. Indeed, we'll now settle for one good idea a year. (Charlie says it's my turn.)",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0083"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 758,
+            "html_line_end": 765,
+            "source_unit_first": "berkshire-letter-1993:u0083",
+            "source_unit_last": "berkshire-letter-1993:u0083"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "The strategy we've adopted precludes our following standard diversification dogma. Many pundits would therefore say the strategy must be riskier than that employed by more conventional investors. We disagree. We believe that a policy of portfolio concentration may well decrease risk if it raises, as it should, both the intensity with which an investor thinks about a business and the comfort-level he must feel with its economic characteristics before buying into it. In stating this opinion, we define risk, using dictionary terms, as \"the possibility of loss or injury.\"",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0084"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 767,
+            "html_line_end": 775,
+            "source_unit_first": "berkshire-letter-1993:u0084",
+            "source_unit_last": "berkshire-letter-1993:u0084"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Academics, however, like to define investment \"risk\" differently, averring that it is the relative volatility of a stock or portfolio of stocks - that is, their volatility as compared to that of a large universe of stocks. Employing data bases and statistical skills, these academics compute with precision the \"beta\" of a stock - its relative volatility in the past - and then build arcane investment and capital-allocation theories around this calculation. In their hunger for a single statistic to measure risk, however, they forget a fundamental principle: It is better to be approximately right than precisely wrong.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0085"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 777,
+            "html_line_end": 786,
+            "source_unit_first": "berkshire-letter-1993:u0085",
+            "source_unit_last": "berkshire-letter-1993:u0085"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "For owners of a business - and that's the way we think of shareholders - the academics' definition of risk is far off the mark, so much so that it produces absurdities. For example, under beta-based theory, a stock that has dropped very sharply compared to the market - as had Washington Post when we bought it in 1973 - becomes \"riskier\" at the lower price than it was at the higher price. Would that description have then made any sense to someone who was offered the entire company at a vastly-reduced price?",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0086"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 788,
+            "html_line_end": 795,
+            "source_unit_first": "berkshire-letter-1993:u0086",
+            "source_unit_last": "berkshire-letter-1993:u0086"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "In fact, the true investor welcomes volatility. Ben Graham explained why in Chapter 8 of The Intelligent Investor. There he introduced \"Mr. Market,\" an obliging fellow who shows up every day to either buy from you or sell to you, whichever you wish. The more manic-depressive this chap is, the greater the opportunities available to the investor. That's true because a wildly fluctuating market means that irrationally low prices will periodically be attached to solid businesses. It is impossible to see how the availability of such prices can be thought of as increasing the hazards for an investor who is totally free to either ignore the market or exploit its folly.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0087"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 797,
+            "html_line_end": 807,
+            "source_unit_first": "berkshire-letter-1993:u0087",
+            "source_unit_last": "berkshire-letter-1993:u0087"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "In assessing risk, a beta purist will disdain examining what a company produces, what its competitors are doing, or how much borrowed money the business employs. He may even prefer not to know the company's name. What he treasures is the price history of its stock. In contrast, we'll happily forgo knowing the price history and instead will seek whatever information will further our understanding of the company's business. After we buy a stock, consequently, we would not be disturbed if markets closed for a year or two. We don't need a daily quote on our 100% position in See's or H. H. Brown to validate our well-being. Why, then, should we need a quote on our 7% interest in Coke?",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0088"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 809,
+            "html_line_end": 819,
+            "source_unit_first": "berkshire-letter-1993:u0088",
+            "source_unit_last": "berkshire-letter-1993:u0088"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "In our opinion, the real risk that an investor must assess is whether his aggregate after-tax receipts from an investment (including those he receives on sale) will, over his prospective holding period, give him at least as much purchasing power as he had to begin with, plus a modest rate of interest on that initial stake. Though this risk cannot be calculated with engineering precision, it can in some cases be judged with a degree of accuracy that is useful. The primary factors bearing upon this evaluation are:",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0089"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 821,
+            "html_line_end": 829,
+            "source_unit_first": "berkshire-letter-1993:u0089",
+            "source_unit_last": "berkshire-letter-1993:u0089"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "1) The certainty with which the long-term economic characteristics of the business can be evaluated;",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0090"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 831,
+            "html_line_end": 832,
+            "source_unit_first": "berkshire-letter-1993:u0090",
+            "source_unit_last": "berkshire-letter-1993:u0090"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "2) The certainty with which management can be evaluated, both as to its ability to realize the full potential of the business and to wisely employ its cash flows;",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0091"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 834,
+            "html_line_end": 836,
+            "source_unit_first": "berkshire-letter-1993:u0091",
+            "source_unit_last": "berkshire-letter-1993:u0091"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "3) The certainty with which management can be counted on to channel the rewards from the business to the shareholders rather than to itself;",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0092"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 838,
+            "html_line_end": 840,
+            "source_unit_first": "berkshire-letter-1993:u0092",
+            "source_unit_last": "berkshire-letter-1993:u0092"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "4) The purchase price of the business;",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0093"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 842,
+            "html_line_end": 842,
+            "source_unit_first": "berkshire-letter-1993:u0093",
+            "source_unit_last": "berkshire-letter-1993:u0093"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "5) The levels of taxation and inflation that will be experienced and that will determine the degree by which an investor's purchasing-power return is reduced from his gross return.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0094"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 844,
+            "html_line_end": 847,
+            "source_unit_first": "berkshire-letter-1993:u0094",
+            "source_unit_last": "berkshire-letter-1993:u0094"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "These factors will probably strike many analysts as unbearably fuzzy, since they cannot be extracted from a data base of any kind. But the difficulty of precisely quantifying these matters does not negate their importance nor is it insuperable. Just as Justice Stewart found it impossible to formulate a test for obscenity but nevertheless asserted, \"I know it when I see it,\" so also can investors - in an inexact but useful way - \"see\" the risks inherent in certain investments without reference to complex equations or price histories.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0095"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 849,
+            "html_line_end": 857,
+            "source_unit_first": "berkshire-letter-1993:u0095",
+            "source_unit_last": "berkshire-letter-1993:u0095"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Is it really so difficult to conclude that Coca-Cola and Gillette possess far less business risk over the long term than, say, any computer company or retailer? Worldwide, Coke sells about 44% of all soft drinks, and Gillette has more than a 60% share (in value) of the blade market. Leaving aside chewing gum, in which Wrigley is dominant, I know of no other significant businesses in which the leading company has long enjoyed such global power.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0096"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 859,
+            "html_line_end": 865,
+            "source_unit_first": "berkshire-letter-1993:u0096",
+            "source_unit_last": "berkshire-letter-1993:u0096"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Moreover, both Coke and Gillette have actually increased their worldwide shares of market in recent years. The might of their brand names, the attributes of their products, and the strength of their distribution systems give them an enormous competitive advantage, setting up a protective moat around their economic castles. The average company, in contrast, does battle daily without any such means of protection. As Peter Lynch says, stocks of companies selling commodity-like products should come with a warning label: \"Competition may prove hazardous to human wealth.\"",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0097"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 867,
+            "html_line_end": 875,
+            "source_unit_first": "berkshire-letter-1993:u0097",
+            "source_unit_last": "berkshire-letter-1993:u0097"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "The competitive strengths of a Coke or Gillette are obvious to even the casual observer of business. Yet the beta of their stocks is similar to that of a great many run-of-the-mill companies who possess little or no competitive advantage. Should we conclude from this similarity that the competitive strength of Coke and Gillette gains them nothing when business risk is being measured? Or should we conclude that the risk in owning a piece of a company - its stock - is somehow divorced from the long-term risk inherent in its business operations? We believe neither conclusion makes sense and that equating beta with investment risk also makes no sense.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0098"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 877,
+            "html_line_end": 887,
+            "source_unit_first": "berkshire-letter-1993:u0098",
+            "source_unit_last": "berkshire-letter-1993:u0098"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "The theoretician bred on beta has no mechanism for differentiating the risk inherent in, say, a single-product toy company selling pet rocks or hula hoops from that of another toy company whose sole product is Monopoly or Barbie. But it's quite possible for ordinary investors to make such distinctions if they have a reasonable understanding of consumer behavior and the factors that create long-term competitive strength or weakness. Obviously, every investor will make mistakes. But by confining himself to a relatively few, easy-to-understand cases, a reasonably intelligent, informed and diligent person can judge investment risks with a useful degree of accuracy.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0099"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 889,
+            "html_line_end": 899,
+            "source_unit_first": "berkshire-letter-1993:u0099",
+            "source_unit_last": "berkshire-letter-1993:u0099"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "In many industries, of course, Charlie and I can't determine whether we are dealing with a \"pet rock\" or a \"Barbie.\" We couldn't solve this problem, moreover, even if we were to spend years intensely studying those industries. Sometimes our own intellectual shortcomings would stand in the way of understanding, and in other cases the nature of the industry would be the roadblock. For example, a business that must deal with fast-moving technology is not going to lend itself to reliable evaluations of its long-term economics. Did we foresee thirty years ago what would transpire in the television-manufacturing or computer industries? Of course not. (Nor did most of the investors and corporate managers who enthusiastically entered those industries.) Why, then, should Charlie and I now think we can predict the future of other rapidly-evolving businesses? We'll stick instead with the easy cases. Why search for a needle buried in a haystack when one is sitting in plain sight?",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0100"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 901,
+            "html_line_end": 916,
+            "source_unit_first": "berkshire-letter-1993:u0100",
+            "source_unit_last": "berkshire-letter-1993:u0100"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Of course, some investment strategies - for instance, our efforts in arbitrage over the years - require wide diversification. If significant risk exists in a single transaction, overall risk should be reduced by making that purchase one of many mutually-independent commitments. Thus, you may consciously purchase a risky investment - one that indeed has a significant possibility of causing loss or injury - if you believe that your gain, weighted for probabilities, considerably exceeds your loss, comparably weighted, and if you can commit to a number of similar, but unrelated opportunities. Most venture capitalists employ this strategy. Should you choose to pursue this course, you should adopt the outlook of the casino that owns a roulette wheel, which will want to see lots of action because it is favored by probabilities, but will refuse to accept a single, huge bet.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0101"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 918,
+            "html_line_end": 931,
+            "source_unit_first": "berkshire-letter-1993:u0101",
+            "source_unit_last": "berkshire-letter-1993:u0101"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Another situation requiring wide diversification occurs when an investor who does not understand the economics of specific businesses nevertheless believes it in his interest to be a long-term owner of American industry. That investor should both own a large number of equities and space out his purchases. By periodically investing in an index fund, for example, the know-nothing investor can actually out-perform most investment professionals. Paradoxically, when \"dumb\" money acknowledges its limitations, it ceases to be dumb.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0102"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 933,
+            "html_line_end": 941,
+            "source_unit_first": "berkshire-letter-1993:u0102",
+            "source_unit_last": "berkshire-letter-1993:u0102"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "On the other hand, if you are a know-something investor, able to understand business economics and to find five to ten sensibly-priced companies that possess important long-term competitive advantages, conventional diversification makes no sense for you. It is apt simply to hurt your results and increase your risk. I cannot understand why an investor of that sort elects to put money into a business that is his 20th favorite rather than simply adding that money to his top choices - the businesses he understands best and that present the least risk, along with the greatest profit potential. In the words of the prophet Mae West: \"Too much of a good thing can be wonderful.\"",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0103"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 943,
+            "html_line_end": 953,
+            "source_unit_first": "berkshire-letter-1993:u0103",
+            "source_unit_last": "berkshire-letter-1993:u0103"
+          }
+        }
+      ],
+      "secondary_blocks": []
+    },
+    {
+      "id": "berkshire-letter-1993:read008",
+      "title": "Corporate Governance",
+      "source_unit_ids": [
+        "berkshire-letter-1993:u0104",
+        "berkshire-letter-1993:u0105",
+        "berkshire-letter-1993:u0106",
+        "berkshire-letter-1993:u0107",
+        "berkshire-letter-1993:u0108",
+        "berkshire-letter-1993:u0109",
+        "berkshire-letter-1993:u0110",
+        "berkshire-letter-1993:u0111",
+        "berkshire-letter-1993:u0112",
+        "berkshire-letter-1993:u0113",
+        "berkshire-letter-1993:u0114",
+        "berkshire-letter-1993:u0115",
+        "berkshire-letter-1993:u0116",
+        "berkshire-letter-1993:u0117",
+        "berkshire-letter-1993:u0118"
+      ],
+      "locator": {
+        "type": "html_source_lines",
+        "html_line_start": 955,
+        "html_line_end": 1095,
+        "source_unit_first": "berkshire-letter-1993:u0104",
+        "source_unit_last": "berkshire-letter-1993:u0118"
+      },
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Corporate Governance",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0104"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 955,
+            "html_line_end": 955,
+            "source_unit_first": "berkshire-letter-1993:u0104",
+            "source_unit_last": "berkshire-letter-1993:u0104"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "At our annual meetings, someone usually asks \"What happens to this place if you get hit by a truck?\" I'm glad they are still asking the question in this form. It won't be too long before the query becomes: \"What happens to this place if you don't get hit by a truck?\"",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0105"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 957,
+            "html_line_end": 961,
+            "source_unit_first": "berkshire-letter-1993:u0105",
+            "source_unit_last": "berkshire-letter-1993:u0105"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Such questions, in any event, raise a reason for me to discuss corporate governance, a hot topic during the past year. In general, I believe that directors have stiffened their spines recently and that shareholders are now being treated somewhat more like true owners than was the case not long ago. Commentators on corporate governance, however, seldom make any distinction among three fundamentally different manager/owner situations that exist in publicly-held companies. Though the legal responsibility of directors is identical throughout, their ability to effect change differs in each of the cases. Attention usually falls on the first case, because it prevails on the corporate scene. Since Berkshire falls into the second category, however, and will someday fall into the third, we will discuss all three variations.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0106"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 963,
+            "html_line_end": 975,
+            "source_unit_first": "berkshire-letter-1993:u0106",
+            "source_unit_last": "berkshire-letter-1993:u0106"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "The first, and by far most common, board situation is one in which a corporation has no controlling shareholder. In that case, I believe directors should behave as if there is a single absentee owner, whose long-term interest they should try to further in all proper ways. Unfortunately, \"long-term\" gives directors a lot of wiggle room. If they lack either integrity or the ability to think independently, directors can do great violence to shareholders while still claiming to be acting in their long-term interest. But assume the board is functioning well and must deal with a management that is mediocre or worse. Directors then have the responsibility for changing that management, just as an intelligent owner would do if he were present. And if able but greedy managers over-reach and try to dip too deeply into the shareholders' pockets, directors must slap their hands.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0107"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 977,
+            "html_line_end": 990,
+            "source_unit_first": "berkshire-letter-1993:u0107",
+            "source_unit_last": "berkshire-letter-1993:u0107"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "In this plain-vanilla case, a director who sees something he doesn't like should attempt to persuade the other directors of his views. If he is successful, the board will have the muscle to make the appropriate change. Suppose, though, that the unhappy director can't get other directors to agree with him. He should then feel free to make his views known to the absentee owners. Directors seldom do that, of course. The temperament of many directors would in fact be incompatible with critical behavior of that sort. But I see nothing improper in such actions, assuming the issues are serious. Naturally, the complaining director can expect a vigorous rebuttal from the unpersuaded directors, a prospect that should discourage the dissenter from pursuing trivial or non-rational causes.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0108"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 992,
+            "html_line_end": 1004,
+            "source_unit_first": "berkshire-letter-1993:u0108",
+            "source_unit_last": "berkshire-letter-1993:u0108"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "For the boards just discussed, I believe the directors ought to be relatively few in number - say, ten or less - and ought to come mostly from the outside. The outside board members should establish standards for the CEO's performance and should also periodically meet, without his being present, to evaluate his performance against those standards.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0109"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 1006,
+            "html_line_end": 1011,
+            "source_unit_first": "berkshire-letter-1993:u0109",
+            "source_unit_last": "berkshire-letter-1993:u0109"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "The requisites for board membership should be business savvy, interest in the job, and owner-orientation. Too often, directors are selected simply because they are prominent or add diversity to the board. That practice is a mistake. Furthermore, mistakes in selecting directors are particularly serious because appointments are so hard to undo: The pleasant but vacuous director need never worry about job security.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0110"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 1013,
+            "html_line_end": 1019,
+            "source_unit_first": "berkshire-letter-1993:u0110",
+            "source_unit_last": "berkshire-letter-1993:u0110"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "The second case is that existing at Berkshire, where the controlling owner is also the manager. At some companies, this arrangement is facilitated by the existence of two classes of stock endowed with disproportionate voting power. In these situations, it's obvious that the board does not act as an agent between owners and management and that the directors cannot effect change except through persuasion. Therefore, if the owner/manager is mediocre or worse - or is over-reaching - there is little a director can do about it except object. If the directors having no connections to the owner/manager make a unified argument, it may well have some effect. More likely it will not.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0111"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 1021,
+            "html_line_end": 1031,
+            "source_unit_first": "berkshire-letter-1993:u0111",
+            "source_unit_last": "berkshire-letter-1993:u0111"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "If change does not come, and the matter is sufficiently serious, the outside directors should resign. Their resignation will signal their doubts about management, and it will emphasize that no outsider is in a position to correct the owner/manager's shortcomings.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0112"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 1033,
+            "html_line_end": 1037,
+            "source_unit_first": "berkshire-letter-1993:u0112",
+            "source_unit_last": "berkshire-letter-1993:u0112"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "The third governance case occurs when there is a controlling owner who is not involved in management. This case, examples of which are Hershey Foods and Dow Jones, puts the outside directors in a potentially useful position. If they become unhappy with either the competence or integrity of the manager, they can go directly to the owner (who may also be on the board) and report their dissatisfaction. This situation is ideal for an outside director, since he need make his case only to a single, presumably interested owner, who can forthwith effect change if the argument is persuasive. Even so, the dissatisfied director has only that single course of action. If he remains unsatisfied about a critical matter, he has no choice but to resign.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0113"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 1039,
+            "html_line_end": 1050,
+            "source_unit_first": "berkshire-letter-1993:u0113",
+            "source_unit_last": "berkshire-letter-1993:u0113"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Logically, the third case should be the most effective in insuring first-class management. In the second case the owner is not going to fire himself, and in the first case, directors often find it very difficult to deal with mediocrity or mild over-reaching. Unless the unhappy directors can win over a majority of the board - an awkward social and logistical task, particularly if management's behavior is merely odious, not egregious - their hands are effectively tied. In practice, directors trapped in situations of this kind usually convince themselves that by staying around they can do at least some good. Meanwhile, management proceeds unfettered.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0114"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 1052,
+            "html_line_end": 1062,
+            "source_unit_first": "berkshire-letter-1993:u0114",
+            "source_unit_last": "berkshire-letter-1993:u0114"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "In the third case, the owner is neither judging himself nor burdened with the problem of garnering a majority. He can also insure that outside directors are selected who will bring useful qualities to the board. These directors, in turn, will know that the good advice they give will reach the right ears, rather than being stifled by a recalcitrant management. If the controlling owner is intelligent and self-confident, he will make decisions in respect to management that are meritocratic and pro-shareholder. Moreover - and this is critically important - he can readily correct any mistake he makes.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0115"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 1064,
+            "html_line_end": 1073,
+            "source_unit_first": "berkshire-letter-1993:u0115",
+            "source_unit_last": "berkshire-letter-1993:u0115"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "At Berkshire we operate in the second mode now and will for as long as I remain functional. My health, let me add, is excellent. For better or worse, you are likely to have me as an owner/manager for some time.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0116"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 1075,
+            "html_line_end": 1078,
+            "source_unit_first": "berkshire-letter-1993:u0116",
+            "source_unit_last": "berkshire-letter-1993:u0116"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "After my death, all of my stock will go to my wife, Susie, should she survive me, or to a foundation if she dies before I do. In neither case will taxes and bequests require the sale of consequential amounts of stock.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0117"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 1080,
+            "html_line_end": 1083,
+            "source_unit_first": "berkshire-letter-1993:u0117",
+            "source_unit_last": "berkshire-letter-1993:u0117"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "When my stock is transferred to either my wife or the foundation, Berkshire will enter the third governance mode, going forward with a vitally interested, but non-management, owner and with a management that must perform for that owner. In preparation for that time, Susie was elected to the board a few years ago, and in 1993 our son, Howard, joined the board. These family members will not be managers of the company in the future, but they will represent the controlling interest should anything happen to me. Most of our other directors are also significant owners of Berkshire stock, and each has a strong owner-orientation. All in all, we're prepared for \"the truck.\"",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0118"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 1085,
+            "html_line_end": 1095,
+            "source_unit_first": "berkshire-letter-1993:u0118",
+            "source_unit_last": "berkshire-letter-1993:u0118"
+          }
+        }
+      ],
+      "secondary_blocks": []
+    },
+    {
+      "id": "berkshire-letter-1993:read009",
+      "title": "Shareholder-Designated Contributions",
+      "source_unit_ids": [
+        "berkshire-letter-1993:u0119",
+        "berkshire-letter-1993:u0120",
+        "berkshire-letter-1993:u0121",
+        "berkshire-letter-1993:u0122",
+        "berkshire-letter-1993:u0123",
+        "berkshire-letter-1993:u0124",
+        "berkshire-letter-1993:u0125",
+        "berkshire-letter-1993:u0126",
+        "berkshire-letter-1993:u0127",
+        "berkshire-letter-1993:u0128",
+        "berkshire-letter-1993:u0129"
+      ],
+      "locator": {
+        "type": "html_source_lines",
+        "html_line_start": 1097,
+        "html_line_end": 1192,
+        "source_unit_first": "berkshire-letter-1993:u0119",
+        "source_unit_last": "berkshire-letter-1993:u0129"
+      },
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Shareholder-Designated Contributions",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0119"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 1097,
+            "html_line_end": 1097,
+            "source_unit_first": "berkshire-letter-1993:u0119",
+            "source_unit_last": "berkshire-letter-1993:u0119"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "About 97% of all eligible shares participated in Berkshire's 1993 shareholder-designated contributions program. Contributions made through the program were $9.4 million and 3,110 charities were recipients.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0120"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 1099,
+            "html_line_end": 1102,
+            "source_unit_first": "berkshire-letter-1993:u0120",
+            "source_unit_last": "berkshire-letter-1993:u0120"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Berkshire's practice in respect to discretionary philanthropy - as contrasted to its policies regarding contributions that are clearly related to the company's business activities - differs significantly from that of other publicly-held corporations. There, most corporate contributions are made pursuant to the wishes of the CEO (who often will be responding to social pressures), employees (through matching gifts), or directors (through matching gifts or requests they make of the CEO).",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0121"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 1104,
+            "html_line_end": 1111,
+            "source_unit_first": "berkshire-letter-1993:u0121",
+            "source_unit_last": "berkshire-letter-1993:u0121"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "At Berkshire, we believe that the company's money is the owners' money, just as it would be in a closely-held corporation, partnership, or sole proprietorship. Therefore, if funds are to be given to causes unrelated to Berkshire's business activities, it is the charities favored by our owners that should receive them. We've yet to find a CEO who believes he should personally fund the charities favored by his shareholders. Why, then, should they foot the bill for his picks?",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0122"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 1113,
+            "html_line_end": 1120,
+            "source_unit_first": "berkshire-letter-1993:u0122",
+            "source_unit_last": "berkshire-letter-1993:u0122"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Let me add that our program is easy to administer. Last fall, for two months, we borrowed one person from National Indemnity to help us implement the instructions that came from our 7,500 registered shareholders. I'd guess that the average corporate program in which employee gifts are matched incurs far greater administrative costs. Indeed, our entire corporate overhead is less than half the size of our charitable contributions. (Charlie, however, insists that I tell you that $1.4 million of our $4.9 million overhead is attributable to our corporate jet, The Indefensible.)",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0123"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 1122,
+            "html_line_end": 1130,
+            "source_unit_first": "berkshire-letter-1993:u0123",
+            "source_unit_last": "berkshire-letter-1993:u0123"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Below is a list showing the largest categories to which our shareholders have steered their contributions.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0124"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 1132,
+            "html_line_end": 1133,
+            "source_unit_first": "berkshire-letter-1993:u0124",
+            "source_unit_last": "berkshire-letter-1993:u0124"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "(a) 347 churches and synagogues received 569 gifts (b) 283 colleges and universities received 670 gifts (c) 244 K-12 schools (about two-thirds secular, one-third religious) received 525 gifts (d) 288 institutions dedicated to art, culture or the humanities received 447 gifts (e) 180 religious social-service organizations (split about equally between Christian and Jewish) received 411 gifts (f) 445 secular social-service organizations (about 40% youth-related) received 759 gifts (g) 153 hospitals received 261 gifts (h) 186 health-related organizations (American Heart Association, American Cancer Society, etc.) received 320 gifts",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0125"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 1135,
+            "html_line_end": 1149,
+            "source_unit_first": "berkshire-letter-1993:u0125",
+            "source_unit_last": "berkshire-letter-1993:u0125"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Three things about this list seem particularly interesting to me. First, to some degree it indicates what people choose to give money to when they are acting of their own accord, free of pressure from solicitors or emotional appeals from charities. Second, the contributions programs of publicly-held companies almost never allow gifts to churches and synagogues, yet clearly these institutions are what many shareholders would like to support. Third, the gifts made by our shareholders display conflicting philosophies: 130 gifts were directed to organizations that believe in making abortions readily available for women and 30 gifts were directed to organizations (other than churches) that discourage or are opposed to abortion.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0126"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 1151,
+            "html_line_end": 1162,
+            "source_unit_first": "berkshire-letter-1993:u0126",
+            "source_unit_last": "berkshire-letter-1993:u0126"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Last year I told you that I was thinking of raising the amount that Berkshire shareholders can give under our designated-contributions program and asked for your comments. We received a few well-written letters opposing the entire idea, on the grounds that it was our job to run the business and not our job to force shareholders into making charitable gifts. Most of the shareholders responding, however, noted the tax efficiency of the plan and urged us to increase the designated amount. Several shareholders who have given stock to their children or grandchildren told me that they consider the program a particularly good way to get youngsters thinking at an early age about the subject of giving. These people, in other words, perceive the program to be an educational, as well as philanthropic, tool. The bottom line is that we did raise the amount in 1993, from $8 per share to $10.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0127"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 1164,
+            "html_line_end": 1178,
+            "source_unit_first": "berkshire-letter-1993:u0127",
+            "source_unit_last": "berkshire-letter-1993:u0127"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "In addition to the shareholder-designated contributions that Berkshire distributes, our operating businesses make contributions, including merchandise, averaging about $2.5 million annually. These contributions support local charities, such as The United Way, and produce roughly commensurate benefits for our businesses.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0128"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 1180,
+            "html_line_end": 1184,
+            "source_unit_first": "berkshire-letter-1993:u0128",
+            "source_unit_last": "berkshire-letter-1993:u0128"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "We suggest that new shareholders read the description of our shareholder-designated contributions program that appears on pages 50-51. To participate in future programs, you must make sure your shares are registered in the name of the actual owner, not in the nominee name of a broker, bank or depository. Shares not so registered on August 31, 1994 will be ineligible for the 1994 program.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0129"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 1186,
+            "html_line_end": 1192,
+            "source_unit_first": "berkshire-letter-1993:u0129",
+            "source_unit_last": "berkshire-letter-1993:u0129"
+          }
+        }
+      ],
+      "secondary_blocks": []
+    },
+    {
+      "id": "berkshire-letter-1993:read010",
+      "title": "A Few Personal Items",
+      "source_unit_ids": [
+        "berkshire-letter-1993:u0130",
+        "berkshire-letter-1993:u0131",
+        "berkshire-letter-1993:u0132",
+        "berkshire-letter-1993:u0133",
+        "berkshire-letter-1993:u0134",
+        "berkshire-letter-1993:u0135",
+        "berkshire-letter-1993:u0136",
+        "berkshire-letter-1993:u0137",
+        "berkshire-letter-1993:u0138",
+        "berkshire-letter-1993:u0139",
+        "berkshire-letter-1993:u0140",
+        "berkshire-letter-1993:u0141",
+        "berkshire-letter-1993:u0142",
+        "berkshire-letter-1993:u0143",
+        "berkshire-letter-1993:u0144"
+      ],
+      "locator": {
+        "type": "html_source_lines",
+        "html_line_start": 1194,
+        "html_line_end": 1285,
+        "source_unit_first": "berkshire-letter-1993:u0130",
+        "source_unit_last": "berkshire-letter-1993:u0144"
+      },
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "A Few Personal Items",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0130"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 1194,
+            "html_line_end": 1194,
+            "source_unit_first": "berkshire-letter-1993:u0130",
+            "source_unit_last": "berkshire-letter-1993:u0130"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Mrs. B - Rose Blumkin - had her 100th birthday on December 3, 1993. (The candles cost more than the cake.) That was a day on which the store was scheduled to be open in the evening. Mrs. B, who works seven days a week, for however many hours the store operates, found the proper decision quite obvious: She simply postponed her party until an evening when the store was closed.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0131"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 1196,
+            "html_line_end": 1201,
+            "source_unit_first": "berkshire-letter-1993:u0131",
+            "source_unit_last": "berkshire-letter-1993:u0131"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Mrs. B's story is well-known but worth telling again. She came to the United States 77 years ago, unable to speak English and devoid of formal schooling. In 1937, she founded the Nebraska Furniture Mart with $500. Last year the store had sales of $200 million, a larger amount by far than that recorded by any other home furnishings store in the United States. Our part in all of this began ten years ago when Mrs. B sold control of the business to Berkshire Hathaway, a deal we completed without obtaining audited financial statements, checking real estate records, or getting any warranties. In short, her word was good enough for us.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0132"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 1203,
+            "html_line_end": 1212,
+            "source_unit_first": "berkshire-letter-1993:u0132",
+            "source_unit_last": "berkshire-letter-1993:u0132"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Naturally, I was delighted to attend Mrs. B's birthday party. After all, she's promised to attend my 100th.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0133"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 1214,
+            "html_line_end": 1215,
+            "source_unit_first": "berkshire-letter-1993:u0133",
+            "source_unit_last": "berkshire-letter-1993:u0133"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Katharine Graham retired last year as the chairman of The Washington Post Company, having relinquished the CEO title three years ago. In 1973, we purchased our stock in her company for about $10 million. Our holding now garners $7 million a year in dividends and is worth over $400 million. At the time of our purchase, we knew that the economic prospects of the company were good. But equally important, Charlie and I concluded that Kay would prove to be an outstanding manager and would treat all shareholders honorably. That latter consideration was particularly important because The Washington Post Company has two classes of stock, a structure that we've seen some managers abuse.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0135"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 1219,
+            "html_line_end": 1229,
+            "source_unit_first": "berkshire-letter-1993:u0135",
+            "source_unit_last": "berkshire-letter-1993:u0135"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "All of our judgments about this investment have been validated by events. Kay's skills as a manager were underscored this past year when she was elected by Fortune's Board of Editors to the Business Hall of Fame. On behalf of our shareholders, Charlie and I had long ago put her in Berkshire's Hall of Fame.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0136"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 1231,
+            "html_line_end": 1235,
+            "source_unit_first": "berkshire-letter-1993:u0136",
+            "source_unit_last": "berkshire-letter-1993:u0136"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Another of last year's retirees was Don Keough of Coca-Cola, although, as he puts it, his retirement lasted \"about 14 hours.\" Don is one of the most extraordinary human beings I've ever known - a man of enormous business talent, but, even more important, a man who brings out the absolute best in everyone lucky enough to associate with him. Coca-Cola wants its product to be present at the happy times of a person's life. Don Keough, as an individual, invariably increases the happiness of those around him. It's impossible to think about Don without feeling good.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0138"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 1239,
+            "html_line_end": 1247,
+            "source_unit_first": "berkshire-letter-1993:u0138",
+            "source_unit_last": "berkshire-letter-1993:u0138"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "I will edge up to how I met Don by slipping in a plug for my neighborhood in Omaha: Though Charlie has lived in California for 45 years, his home as a boy was about 200 feet away from the house where I now live; my wife, Susie, grew up 1 1/2 blocks away; and we have about 125 Berkshire shareholders in the zip code. As for Don, in 1958 he bought the house directly across the street from mine. He was then a coffee salesman with a big family and a small income.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0139"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 1249,
+            "html_line_end": 1255,
+            "source_unit_first": "berkshire-letter-1993:u0139",
+            "source_unit_last": "berkshire-letter-1993:u0139"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "The impressions I formed in those days about Don were a factor in my decision to have Berkshire make a record $1 billion investment in Coca-Cola in 1988-89. Roberto Goizueta had become CEO of Coke in 1981, with Don alongside as his partner. The two of them took hold of a company that had stagnated during the previous decade and moved it from $4.4 billion of market value to $58 billion in less than 13 years. What a difference a pair of managers like this makes, even when their product has been around for 100 years.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0140"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 1257,
+            "html_line_end": 1265,
+            "source_unit_first": "berkshire-letter-1993:u0140",
+            "source_unit_last": "berkshire-letter-1993:u0140"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Frank Rooney did double duty last year. In addition to leading H. H. Brown to record profits - 35% above the 1992 high - he also was key to our merger with Dexter.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0142"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 1269,
+            "html_line_end": 1271,
+            "source_unit_first": "berkshire-letter-1993:u0142",
+            "source_unit_last": "berkshire-letter-1993:u0142"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Frank has known Harold Alfond and Peter Lunder for decades, and shortly after our purchase of H. H. Brown, told me what a wonderful operation they managed. He encouraged us to get together and in due course we made a deal. Frank told Harold and Peter that Berkshire would provide an ideal corporate \"home\" for Dexter, and that assurance undoubtedly contributed to their decision to join with us.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0143"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 1273,
+            "html_line_end": 1279,
+            "source_unit_first": "berkshire-letter-1993:u0143",
+            "source_unit_last": "berkshire-letter-1993:u0143"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "I've told you in the past of Frank's extraordinary record in building Melville Corp. during his 23 year tenure as CEO. Now, at 72, he's setting an even faster pace at Berkshire. Frank has a low-key, relaxed style, but don't let that fool you. When he swings, the ball disappears far over the fence.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0144"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 1281,
+            "html_line_end": 1285,
+            "source_unit_first": "berkshire-letter-1993:u0144",
+            "source_unit_last": "berkshire-letter-1993:u0144"
+          }
+        }
+      ],
+      "secondary_blocks": [
+        {
+          "type": "paragraph",
+          "text": "* * * * * * * * * * * *",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0134"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 1217,
+            "html_line_end": 1217,
+            "source_unit_first": "berkshire-letter-1993:u0134",
+            "source_unit_last": "berkshire-letter-1993:u0134"
+          },
+          "auxiliary_reason": "typographic_divider"
+        },
+        {
+          "type": "paragraph",
+          "text": "* * * * * * * * * * * *",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0137"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 1237,
+            "html_line_end": 1237,
+            "source_unit_first": "berkshire-letter-1993:u0137",
+            "source_unit_last": "berkshire-letter-1993:u0137"
+          },
+          "auxiliary_reason": "typographic_divider"
+        },
+        {
+          "type": "paragraph",
+          "text": "* * * * * * * * * * * *",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0141"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 1267,
+            "html_line_end": 1267,
+            "source_unit_first": "berkshire-letter-1993:u0141",
+            "source_unit_last": "berkshire-letter-1993:u0141"
+          },
+          "auxiliary_reason": "typographic_divider"
+        }
+      ]
+    },
+    {
+      "id": "berkshire-letter-1993:read011",
+      "title": "The Annual Meeting",
+      "source_unit_ids": [
+        "berkshire-letter-1993:u0145",
+        "berkshire-letter-1993:u0146",
+        "berkshire-letter-1993:u0147",
+        "berkshire-letter-1993:u0148",
+        "berkshire-letter-1993:u0149",
+        "berkshire-letter-1993:u0150",
+        "berkshire-letter-1993:u0151",
+        "berkshire-letter-1993:u0152",
+        "berkshire-letter-1993:u0153"
+      ],
+      "locator": {
+        "type": "html_source_lines",
+        "html_line_start": 1287,
+        "html_line_end": 1352,
+        "source_unit_first": "berkshire-letter-1993:u0145",
+        "source_unit_last": "berkshire-letter-1993:u0153"
+      },
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "The Annual Meeting",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0145"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 1287,
+            "html_line_end": 1287,
+            "source_unit_first": "berkshire-letter-1993:u0145",
+            "source_unit_last": "berkshire-letter-1993:u0145"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "This year the Annual Meeting will be held at the Orpheum Theater in downtown Omaha at 9:30 a.m. on Monday, April 25, 1994. A record 2,200 people turned up for the meeting last year, but the theater can handle many more. We will have a display in the lobby featuring many of our consumer products - candy, spray guns, shoes, cutlery, encyclopedias, and the like. Among my favorites slated to be there is a See's candy assortment that commemorates Mrs. B's 100th birthday and that features her picture, rather than Mrs. See's, on the package.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0146"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 1289,
+            "html_line_end": 1297,
+            "source_unit_first": "berkshire-letter-1993:u0146",
+            "source_unit_last": "berkshire-letter-1993:u0146"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "We recommend that you promptly get hotel reservations at one of these hotels: (1) The Radisson-Redick Tower, a small (88 rooms) but nice hotel across the street from the Orpheum; (2) the much larger Red Lion Hotel, located about a five-minute walk from the Orpheum; or (3) the Marriott, located in West Omaha about 100 yards from Borsheim's, which is a twenty-minute drive from downtown. We will have buses at the Marriott that will leave at 8:30 and 8:45 for the meeting and return after it ends.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0147"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 1299,
+            "html_line_end": 1306,
+            "source_unit_first": "berkshire-letter-1993:u0147",
+            "source_unit_last": "berkshire-letter-1993:u0147"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "An attachment to our proxy material explains how you can obtain the card you will need for admission to the meeting. With the admission card, we will enclose information about parking facilities located near the Orpheum. If you are driving, come a little early. Nearby lots fill up quickly and you may have to walk a few blocks.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0148"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 1308,
+            "html_line_end": 1313,
+            "source_unit_first": "berkshire-letter-1993:u0148",
+            "source_unit_last": "berkshire-letter-1993:u0148"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "As usual, we will have buses to take you to Nebraska Furniture Mart and Borsheim's after the meeting and to take you from there to downtown hotels or the airport later. Those of you arriving early can visit the Furniture Mart any day of the week; it is open from 10 a.m. to 5:30 p.m. on Saturdays and from noon to 5:30 p.m. on Sundays. Borsheim's normally is closed on Sunday but will be open for shareholders and their guests from noon to 6 p.m. on Sunday, April 24.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0149"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 1315,
+            "html_line_end": 1322,
+            "source_unit_first": "berkshire-letter-1993:u0149",
+            "source_unit_last": "berkshire-letter-1993:u0149"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "In past trips to Borsheim's, many of you have met Susan Jacques. Early in 1994, Susan was made President and CEO of the company, having risen in 11 years from a $4-an-hour job that she took at the store when she was 23. Susan will be joined at Borsheim's on Sunday by many of the managers of our other businesses, and Charlie and I will be there as well.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0150"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 1324,
+            "html_line_end": 1329,
+            "source_unit_first": "berkshire-letter-1993:u0150",
+            "source_unit_last": "berkshire-letter-1993:u0150"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "On the previous evening, Saturday, April 23, there will be a baseball game at Rosenblatt Stadium between the Omaha Royals and the Nashville Sounds (which could turn out to be Michael Jordan's team). As you may know, a few years ago I bought 25% of the Royals (a capital-allocation decision for which I will not become famous) and this year the league has cooperatively scheduled a home stand at Annual Meeting time.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0151"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 1331,
+            "html_line_end": 1337,
+            "source_unit_first": "berkshire-letter-1993:u0151",
+            "source_unit_last": "berkshire-letter-1993:u0151"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "I will throw the first pitch on the 23rd, and it's a certainty that I will improve on last year's humiliating performance. On that occasion, the catcher inexplicably called for my \"sinker\" and I dutifully delivered a pitch that barely missed my foot. This year, I will go with my high hard one regardless of what the catcher signals, so bring your speed-timing devices. The proxy statement will include information about obtaining tickets to the game. I regret to report that you won't have to buy them from scalpers.",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0152"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 1339,
+            "html_line_end": 1347,
+            "source_unit_first": "berkshire-letter-1993:u0152",
+            "source_unit_last": "berkshire-letter-1993:u0152"
+          }
+        },
+        {
+          "type": "preformatted",
+          "text": "                                    Warren E. Buffett\nMarch 1, 1994                       Chairman of the Board",
+          "source_unit_ids": [
+            "berkshire-letter-1993:u0153"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 1351,
+            "html_line_end": 1352,
+            "source_unit_first": "berkshire-letter-1993:u0153",
+            "source_unit_last": "berkshire-letter-1993:u0153"
+          }
+        }
+      ],
+      "secondary_blocks": []
+    }
+  ],
+  "checks": {
+    "raw_hash_matches_manifest": true,
+    "original_text_units_hash_matches_manifest": true,
+    "all_source_unit_offsets_match_original_body": true,
+    "original_unit_count": 153,
+    "mapped_unit_count": 153,
+    "all_source_units_mapped_once_in_source_order": true,
+    "non_whitespace_character_sequence_preserved": true,
+    "digit_sequence_preserved": true,
+    "word_and_punctuation_character_sequence_preserved": true,
+    "whitespace_token_sequence_preserved_after_hyphen_wrap_normalization": true,
+    "original_html_table_count": 0,
+    "reconstructed_html_table_count": 0,
+    "all_html_table_cell_text_preserved": true,
+    "block_type_counts": {
+      "heading": 12,
+      "paragraph": 132,
+      "preformatted": 5
+    },
+    "secondary_block_count": 5,
+    "source_replacement_character_count": 0
+  },
+  "issues": [
+    "PRE tables retain the publisher’s fixed-width spacing; semantic row/column inference has not been attempted.",
+    "Only whitespace is reflowed. Original punctuation, spelling, numbers, footnotes, quotations and historical logistics are retained.",
+    "Source-format headings are detected conservatively; some unmarked headings may remain paragraphs.",
+    "This is a layout reading layer, not full semantic or financial-table interpretation review."
+  ]
+}

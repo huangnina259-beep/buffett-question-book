@@ -1,0 +1,177 @@
+{
+  "version": "retrieval-v6-independent-findings-1",
+  "created_at": "2026-11-05T08:51:55.706320+00:00",
+  "scope": "Read-only source/router diagnosis; no model/network calls or application changes. Full corpus inventory belongs to the separate agent.",
+  "input_hashes": {
+    "lib/retrieved-evidence.ts": "42a1ae3d0bca77bc43aeb2fa825d783da3dcf837220c5b10ecd0aa7645e8674d",
+    "lib/content/live-retrieval-index.json": "94af8008648561f19f13f1ddfac774c2d16fd7f94eff8f4412f5530eba9fa108",
+    "lib/content/live-evidence-packets.json": "c23730df1c75c2f77bdcce3e67b9e43dd49e180a6d2fb46b4deab4fcd69e437e"
+  },
+  "packet_scope": {
+    "contexts": 19,
+    "paragraphs": 514,
+    "unique_sources": 13,
+    "not_full_archive": true
+  },
+  "method": "89 hand-selected cases anchored to original content read by reviewer; actual bundled TypeScript router executed. Expectations were saved before execution. Exact user question was added after root supplied it. Cases are diagnostic rather than blind or representative traffic sampling.",
+  "totals": {
+    "in_scope_english": {
+      "cases": 58,
+      "pass": 13,
+      "no_context_false_negative": 44,
+      "nonempty_but_missing_required_support": 1,
+      "irrelevant_routing": 0
+    },
+    "out_of_scope_english": {
+      "cases": 14,
+      "pass": 3,
+      "no_context_false_negative": 0,
+      "nonempty_but_missing_required_support": 0,
+      "irrelevant_routing": 11
+    },
+    "continuation": {
+      "cases": 4,
+      "pass": 4,
+      "no_context_false_negative": 0,
+      "nonempty_but_missing_required_support": 0,
+      "irrelevant_routing": 0
+    },
+    "topic_change_outside": {
+      "cases": 2,
+      "pass": 0,
+      "no_context_false_negative": 0,
+      "nonempty_but_missing_required_support": 0,
+      "irrelevant_routing": 2
+    },
+    "topic_change_inside": {
+      "cases": 4,
+      "pass": 1,
+      "no_context_false_negative": 0,
+      "nonempty_but_missing_required_support": 3,
+      "irrelevant_routing": 0
+    },
+    "language_probe_chinese": {
+      "cases": 4,
+      "pass": 0,
+      "no_context_false_negative": 4,
+      "nonempty_but_missing_required_support": 0,
+      "irrelevant_routing": 0
+    },
+    "multi_topic": {
+      "cases": 3,
+      "pass": 2,
+      "no_context_false_negative": 0,
+      "nonempty_but_missing_required_support": 1,
+      "irrelevant_routing": 0
+    }
+  },
+  "confirmed_user_failure": {
+    "question": "how to be a great investor",
+    "actual_contexts": [],
+    "matched_terms": [],
+    "failure_stage": "Application retrieval before generation-job claim, budget reservation or provider call.",
+    "evidence": "lib/retrieved-evidence.ts:23–35; lib/server/generation.ts:127–128.",
+    "why_not_missing_sources": "Relevant 1996 business-selection/competence discussion, 2013 investor behavior discussion and 2019 learning/patience discussion are already inside the live evidence packet. Exact supporting paragraphs saved separately.",
+    "appropriate_conclusion": "The router failed to discover relevant evidence. This is not proof that Buffett never discussed the topic and cannot be fixed by changing the answer-writing model alone."
+  },
+  "findings": [
+    {
+      "id": "RETRIEVAL-01",
+      "priority": "P1",
+      "title": "Exact phrase routing blocks natural in-scope questions",
+      "evidence": "normalize/termMatch at lib/retrieved-evidence.ts:23–24; score>0 eligibility at33–35.",
+      "examples": [
+        "USER01 great investor: no context",
+        "O01 owner earnings passes while O02 owner's earnings/O03 owners’ earnings fail",
+        "O07 capital expenditures and D01 interest rates fail despite singular index entries",
+        "L01 specialist/generalist and I02 index funds fail although original passages are present"
+      ],
+      "mechanism": "No tokenization with morphological equivalence, paraphrase/semantic retrieval or search over original passages. Whole normalized phrase must occur; matching current question to a finite editorial list is the only entry."
+    },
+    {
+      "id": "RETRIEVAL-02",
+      "priority": "P1",
+      "title": "Generic/numeric collisions route unrelated questions to paid-answer preparation",
+      "evidence": "Same termMatch and no relevance threshold/domain decision; index discount_rate includes10%.",
+      "examples": [
+        "N13 10 tips for baking bread routes to three discount-rate contexts because10% normalizes to10",
+        "I04 Vanguard90/10 question routes to discount rates rather than the actual2013 trustee passage",
+        "N02 learn Spanish, N05 flu risk and N06 geometric circle each retrieve investing contexts"
+      ],
+      "boundary": "This audit proves irrelevant retrieval, not that the model necessarily publishes an unsupported answer. Downstream refusal could still prevent publication after unnecessary work."
+    },
+    {
+      "id": "RETRIEVAL-03",
+      "priority": "P1",
+      "title": "Prior-question fallback ignores topic changes",
+      "evidence": "lib/retrieved-evidence.ts:31–35 always allows preceding terms; no conversational continuity check.",
+      "examples": [
+        "F05 explicit change to sourdough retains five broad-stock contexts",
+        "F06 forget investing/weather retains owner-earnings contexts",
+        "F07 trustee question after owner earnings gets only old owner-earnings contexts"
+      ],
+      "result": "All4 true continuations pass, but5of6 explicit topic changes fail. Do not remove all history as a workaround; separate continuation from topic change."
+    },
+    {
+      "id": "RETRIEVAL-04",
+      "priority": "P2",
+      "title": "Broad preallocation and atomic topic bundles silently omit an explicit subquestion",
+      "evidence": "lib/retrieved-evidence.ts:39–47.",
+      "example": "X01 broad stock + finance funding + discount rate selects6contexts; the entire3-context rate bundle is skipped because it would exceed8, even though the rate question is explicit.",
+      "boundary": "The context cap is legitimate; omission needs a planned allocation or explicit limited-coverage result, not silent apparent coverage."
+    },
+    {
+      "id": "RETRIEVAL-05",
+      "priority": "P2_conditional_on_language_scope",
+      "title": "Non-Latin queries are normalized to empty text",
+      "evidence": "lib/retrieved-evidence.ts:23 strips everything exceptASCIIa-z0-9.",
+      "result": "All4 Chinese probes return no contexts. Reported separately because the existing site is English. If English-only remains intended, explain unsupported language rather than claiming relevant passages were not found; supporting Chinese requires a real multilingual path."
+    },
+    {
+      "id": "RETRIEVAL-06",
+      "priority": "P2",
+      "title": "Sources present, sources searchable, and evidence enough are conflated",
+      "evidence": "Current live router only sees a19-context/514-paragraph/13-source packet and returns IDs or empty; generation.ts128 converts empty into one generic source-miss message.",
+      "effect": "No indexed/source-coverage distinction, ambiguity resolution or current-fact boundary is represented. Adding more corpus documents will not make them retrievable unless the retrieval design changes."
+    }
+  ],
+  "recommendations": [
+    {
+      "priority": 1,
+      "action": "Replace the hand-built phrase list as the primary retrieval mechanism with source-level candidate retrieval over the admitted corpus; use lexical token retrieval plus a separately evaluated semantic/paraphrase path and source-boundary expansion. Preserve original question, adjacent qualifications and speaker uncertainty. Topic labels can remain supplemental features.",
+      "why": "Handles user intent without enumerating every wording; compare against this exact current baseline before choosing an implementation. It does not require relaxing evidence gates or answering from model memory."
+    },
+    {
+      "priority": 2,
+      "action": "Represent retrieval outcome and conversational intent explicitly: relevant evidence found, partial coverage, ambiguous request, corpus gap or unsupported language; use prior context only for genuine continuation. Require relevance to the actual current question before paid generation.",
+      "why": "Prevents old or generic-keyword evidence from looking like support and gives truthful user feedback."
+    },
+    {
+      "priority": 3,
+      "action": "Freeze source-anchored acceptance fixtures and add an independently authored held-out set before any new paid model comparison. Score required-evidence recall, irrelevant routing, source-boundary completeness and topic-change behavior separately; then assess actual answer quality.",
+      "why": "A different model cannot answer from evidence the router never supplies, and succeeding on one newly added keyword is not acceptance."
+    }
+  ],
+  "acceptance_criteria": [
+    "Exact great-investor question retrieves at least one genuinely relevant already-admitted source family; response may give sourced principles or clarify goals, but must not claim an absent-topic gap.",
+    "Equivalent common phrasing, possessives and plural variants retrieve the same relevant source family. All identified source-present misses are regression cases; new held-out paraphrases are needed before a general recall claim.",
+    "All clear off-topic controls are rejected or explicitly classified before paid inference; a bare number10, generic product, circle or learn is insufficient on its own.",
+    "True follow-ups retain relevant prior context; explicit topic changes do not inherit the old topic as sole evidence. Current question relevance takes precedence.",
+    "Every requested subtopic is either represented by adequate complete source contexts or explicitly disclosed as uncovered/limited. No silent group-budget omission.",
+    "Original boundaries, required companions, per-paragraph citation locators and speaker uncertainty survive selection; no answer-level reuse substitutes for original evidence.",
+    "Language handling is an explicit product choice tested separately; stripped-empty Chinese must not masquerade as an authoritative absence of sources.",
+    "No claim of semantic answer quality follows from retrieval-only passes. No promotion to public reliable QA based on this diagnostic fixture set alone."
+  ],
+  "artifacts": [
+    "audit-fixtures.json",
+    "audit-results.json",
+    "audit-run.mjs",
+    "audit-user-question-source-basis.json"
+  ],
+  "limitations": [
+    "Hand-selected cases intentionally probe known weaknesses; counts are not estimated real-user failure rates.",
+    "Expectations test minimum relevant source-family recall, not complete answer coverage or ranking quality.",
+    "No real provider/model call, generation quality test or hosted browser run was performed.",
+    "Chinese is a language probe, not silently included in primary English accuracy figures."
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "version": "live-v3-offline-backend-1",
+  "networkCalls": 0,
+  "provider": "mock fetch only; no real key loaded",
+  "validationScope": "Real route/Drizzle/D1-like SQLite/state/parser checks; no claim of semantic answer quality.",
+  "checks": [
+    {
+      "name": "configured free-form response passes mechanical gates and exposes original excerpts",
+      "passed": true
+    },
+    {
+      "name": "same-session cache is reused; other sessions and configured models remain independent",
+      "passed": true
+    },
+    {
+      "name": "concurrent duplicate UUID reserves and calls exactly once",
+      "passed": true
+    },
+    {
+      "name": "different UUID pending cache recovers final answer through history without another call",
+      "passed": true
+    },
+    {
+      "name": "unresolved source key rejects draft while retaining billed attempt and usage",
+      "passed": true
+    },
+    {
+      "name": "uncited model refusal cannot bypass the citation gate with advice",
+      "passed": true
+    },
+    {
+      "name": "network failure keeps unknown usage and reservation without automatic retry",
+      "passed": true
+    },
+    {
+      "name": "a negative source check withholds all draft and reviewer prose and retains both reservations",
+      "passed": true
+    },
+    {
+      "name": "malformed or truncated reviewer output is never approval",
+      "passed": true
+    },
+    {
+      "name": "review transport failure makes aggregate usage unknown and cannot trigger retry",
+      "passed": true
+    },
+    {
+      "name": "missing usage from either completed stage leaves the aggregate unknown",
+      "passed": true
+    },
+    {
+      "name": "duplicates during review poll the existing job without a second reviewer",
+      "passed": true
+    },
+    {
+      "name": "review reservation separately respects the shared monetary ceiling",
+      "passed": true
+    },
+    {
+      "name": "daily allowance can block the second stage without publishing the writer draft",
+      "passed": true
+    },
+    {
+      "name": "a pre-review cache identity cannot satisfy the new checked pipeline",
+      "passed": true
+    },
+    {
+      "name": "global attempt cap is atomic across sessions and concurrent distinct requests",
+      "passed": true
+    },
+    {
+      "name": "daily reset permits a new day but never resets the lifetime request cap",
+      "passed": true
+    },
+    {
+      "name": "insufficient global estimated cost reserve prevents any network attempt",
+      "passed": true
+    },
+    {
+      "name": "owned prior answer is conversation context and cross-session prior ID is denied",
+      "passed": true
+    },
+    {
+      "name": "final answer-write failure recovers persisted job on reload without another call",
+      "passed": true
+    },
+    {
+      "name": "all seven curated answers remain exact and incur no model call",
+      "passed": true
+    },
+    {
+      "name": "unrelated questions and disabled configuration cause honest no-call failures",
+      "passed": true
+    },
+    {
+      "name": "history and feedback retain ownership and CSRF boundaries",
+      "passed": true
+    },
+    {
+      "name": "JSON fence and 13 legitimate keys pass; fabricated source key and quotation fail",
+      "passed": true
+    },
+    {
+      "name": "flat writer contract derives only explicit citations and rejects uncited or over-limit prose",
+      "passed": true
+    },
+    {
+      "name": "session erasure cannot replenish permanent global budget",
+      "passed": true
+    },
+    {
+      "name": "pending request remains pinned when its previous record version changes",
+      "passed": true
+    },
+    {
+      "name": "missing pinned job has a bounded lease and never dispatches a replacement call",
+      "passed": true
+    },
+    {
+      "name": "trial configuration cannot raise hard lifetime or cost ceilings",
+      "passed": true
+    }
+  ],
+  "passed": true
+}

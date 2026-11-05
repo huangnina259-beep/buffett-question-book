@@ -1,0 +1,10 @@
+{
+  "original_hashes_checked": 150,
+  "unit_hashes_checked": 6313,
+  "all_original_and_unit_hashes_match": true,
+  "sqlite_integrity": "ok",
+  "source_units_export_sha256": "439acedd55045a742f372257bf077b477faab62669fe7cbb7ece48bf8b32be15",
+  "database_sha256": "8b50a4546a8425fc83f082b32a791849470d13769c1701fe1bae6b860d834bc8",
+  "translation_inputs_imported": false,
+  "cjk_text_units_for_inspection": []
+}

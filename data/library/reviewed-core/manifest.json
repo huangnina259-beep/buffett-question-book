@@ -1,0 +1,46 @@
+{
+  "release": "Reviewed original-language core 1",
+  "release_date": "2026-10-31",
+  "entry": "index.html",
+  "language": "English",
+  "translations_started": false,
+  "qa_answers_created": 0,
+  "canonical_changes": false,
+  "base_catalog_counts_unchanged": true,
+  "approved_evidence_claims": 12,
+  "complete_contexts": 4,
+  "context_paragraphs": 120,
+  "corrected_pages": 6,
+  "exact_patch_operations": 66,
+  "structured_tables": 3,
+  "structured_table_rows": 74,
+  "new_archived_source_files": 4,
+  "florida_comparison_pages": 24,
+  "florida_comparison_units": 173,
+  "new_verified_full_speech_transcripts": 0,
+  "uga_recording_chapter_links": 10,
+  "columbia_capture_kind": "derived_publisher_text_not_original_bytes",
+  "columbia_reading_units": 80,
+  "columbia_table_regions": 9,
+  "columbia_claims_in_approved_index": 0,
+  "review_scope": "Selected claims, six page repairs and bounded source provenance; not whole-corpus semantic or audio verification.",
+  "source_additions": [
+    "speeches/manifest.json",
+    "superinvestors/manifest.json"
+  ],
+  "evidence": "evidence.json",
+  "database": "evidence.sqlite",
+  "corrections": "corrections/acceptance.json",
+  "reviews": [
+    "audit/review-evidence.json",
+    "audit/review-corrections.json",
+    "audit/review-speeches.json",
+    "audit/review-superinvestors.json"
+  ],
+  "canonical_input_hashes": {
+    "原文总目录.json": "d35c3320134d308d3b1f93943ae48eeedae5a2ce1408b96f6c08915fac554970",
+    "原文单元.jsonl": "439acedd55045a742f372257bf077b477faab62669fe7cbb7ece48bf8b32be15",
+    "原文知识库.sqlite": "8b50a4546a8425fc83f082b32a791849470d13769c1701fe1bae6b860d834bc8",
+    "catalog.en.json": "2311f83c31114075e41a7562e393f2b5985d9bd05d5745d5f740d044ef525a27"
+  }
+}

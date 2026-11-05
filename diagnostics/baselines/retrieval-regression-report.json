@@ -1,0 +1,70 @@
+{
+  "version": "live-v3-finance-retrieval-regression-1",
+  "networkCalls": 0,
+  "scope": "Routing and byte identity against this handoff snapshot only; no full-archive or semantic quality claim.",
+  "packetSha256": "c23730df1c75c2f77bdcce3e67b9e43dd49e180a6d2fb46b4deab4fcd69e437e",
+  "indexSha256": "94af8008648561f19f13f1ddfac774c2d16fd7f94eff8f4412f5530eba9fa108",
+  "packetMatchesSnapshot": true,
+  "indexMatchesSnapshot": true,
+  "cases": [
+    {
+      "question": "Is all outside credit a problem for a finance company?",
+      "contextIds": [
+        "meeting-2002-boundary"
+      ],
+      "sourceCharacters": 12776,
+      "passed": true
+    },
+    {
+      "question": "Does Buffett require a finance company to avoid external credit?",
+      "contextIds": [
+        "meeting-2002-boundary"
+      ],
+      "sourceCharacters": 12776,
+      "passed": true
+    },
+    {
+      "question": "Why did using Berkshire credit matter in the unnamed finance company example?",
+      "contextIds": [
+        "meeting-2002-boundary"
+      ],
+      "sourceCharacters": 12776,
+      "passed": true
+    },
+    {
+      "question": "What did Buffett say about continuing funding?",
+      "contextIds": [
+        "meeting-2002-boundary"
+      ],
+      "sourceCharacters": 12776,
+      "passed": true
+    },
+    {
+      "question": "how to evaluate a stock",
+      "contextIds": [
+        "letter-1992-0074-0085",
+        "letter-1991-0045-0055",
+        "letter-1986-0285-0297",
+        "letter-1986-0209-0210",
+        "letter-1991-0031-0037"
+      ],
+      "sourceCharacters": 20734,
+      "passed": true
+    },
+    {
+      "question": "Explain Scott Fetzer purchase accounting and Company O versus Company N.",
+      "contextIds": [
+        "letter-1986-0154-0297"
+      ],
+      "sourceCharacters": 14814,
+      "passed": true
+    },
+    {
+      "question": "Will it rain tomorrow?",
+      "contextIds": [],
+      "sourceCharacters": 0,
+      "passed": true
+    }
+  ],
+  "passed": true
+}

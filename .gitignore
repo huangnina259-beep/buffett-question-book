@@ -44,3 +44,10 @@ yarn-error.log*
 
 # OS metadata
 .DS_Store
+
+# Handoff checks and restored archive
+/test-results/
+/data/library/原文知识库.sqlite
+*.pyc
+__pycache__/
+/data/library/原文知识库.sqlite-*

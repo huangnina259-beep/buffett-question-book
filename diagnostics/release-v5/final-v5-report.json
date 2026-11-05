@@ -1,0 +1,115 @@
+{
+  "updated_at": "2026-11-05T08:34:52.689511+00:00",
+  "release": "Version 5, owner-private experimental live Q&A",
+  "readiness": "Live free-form prototype is available; generated-answer quality has NOT passed independent delivery review. Seven prepared answers remain cleared. Not ready for public promotion.",
+  "site_id": "appgprj_6ae999e1889c8191a829a777bf687520",
+  "live_url": "https://buffett-question-book-beta.idleuser123456789.chatgpt.site/",
+  "commit": "58bca6e0857e898c453261e01956be51e2a17c5f",
+  "deployment_id": "appgdep_6aec3e9e5b6c81919aa414143f72fcd1",
+  "version_id": "appgprj_6ae999e1889c8191a829a777bf687520~appgver_3c4fd6414d488191b68d131a74c06e4d",
+  "version_number": 5,
+  "deployment_status": "succeeded",
+  "environment_revision": 1,
+  "generation_enabled": true,
+  "hosted_project_secret_configured": true,
+  "audience": "Existing owner-only audience preserved; no public access or invitations added.",
+  "behavior": "Seven prepared editorial answers; other covered questions use retrieved originals, a writer and a separate model source-support check. Required failures withhold the draft. History and feedback persist within the session.",
+  "models": {
+    "provider": "Existing MarsAPI account",
+    "model": "Qwen3.8-Flash-Next-W8A8 (provider-reported identity)",
+    "writer_version": "source-grounded-writer-3.6",
+    "reviewer_version": "source-grounding-review-1.3",
+    "max_output_tokens_each": 4096,
+    "timeouts_seconds": [
+      60,
+      45
+    ],
+    "guarantee": "Automated source review is fallible and not human review.",
+    "writer_thinking": "enabled, low effort",
+    "reviewer_thinking": "disabled for bounded verdict latency"
+  },
+  "verification": {
+    "hosted_https_session": {
+      "status": 200,
+      "generation_enabled": true
+    },
+    "hosted_original_question": {
+      "question": "how to evaluate a stock",
+      "kind": "curated",
+      "elapsed_ms": 1671
+    },
+    "hosted_new_question": {
+      "question": "How does required working capital affect owner earnings?",
+      "kind": "generated",
+      "elapsed_ms": 19855,
+      "independent_semantic_review": "Failed scoped source review: correct full formula, but unsupported growth/inflation guidance, unqualified reinvestment implication, and confident speaker attribution where the evidence packet marks attribution unresolved. Automated reviewer missed these. Functional success is not a semantic release pass."
+    },
+    "local_final_followup": {
+      "kind": "generated",
+      "elapsed_ms": 48148,
+      "independent_original_source_review": "Scoped semantic pass on this one local sample."
+    },
+    "local_final_finance_case": {
+      "kind": "unavailable",
+      "elapsed_ms": 14718,
+      "reason": "validation_structure; not a successful answer."
+    },
+    "offline_checks": {
+      "backend_suites": 29,
+      "format_checks": 22,
+      "transport_checks": 27,
+      "typescript": "pass",
+      "production_build": "pass"
+    },
+    "local_browser": "Typed original query returned prepared answer; original source dialog showed excerpt/date/speaker/publisher; final simple homepage visually checked.",
+    "hosted_browser": "Incomplete: existing and fresh IAB tabs timed out. Ordinary HTTPS with official Sites service access succeeded. No security challenge bypass or audience change.",
+    "source_secrecy": "Zero exact existing-key matches in source/deployment package; no .dev.vars or .env in archive.",
+    "previous_hosted_failures": {
+      "v3": "Generated42.169s; independent review found depreciation/component(b) reduction and overgeneralized sector overstatement; prompts corrected afterward.",
+      "v4": "Fresh question withheld after50.563s; exact private failure cause not exposed by public API."
+    }
+  },
+  "limits": {
+    "corpus": "Selected original contexts for business evaluation, competence, cash economics and value; not the complete archive.",
+    "today": "No current-market feed or suitability decision.",
+    "model_attempts_total": 20,
+    "model_attempts_per_utc_day": 20,
+    "reservation_cap_cny": 5,
+    "calls_per_fresh_success": 2,
+    "maximum_new_answers_fresh_ledger": 10,
+    "notes": "Failures consume capacity; reviewed answers and stored cache reuse require no new model request. Reservations are not provider invoices or account billing caps."
+  },
+  "cost_record": {
+    "prior_rounds": {
+      "calls": 19,
+      "known_estimate_cny": 0.223764,
+      "unknown_usage_attempts": 4
+    },
+    "v3_direct_experiments": {
+      "attempts": 12,
+      "known_estimate_cny": 0.109218,
+      "unknown_usage_attempts": 7,
+      "reserved_cny": 1.234786
+    },
+    "v3_local_worker": {
+      "ledger_attempts": 16,
+      "jobs": 13,
+      "reservation_cny": 2.425239,
+      "fully_reported_job_input_tokens": 94255,
+      "fully_reported_job_output_tokens": 11256,
+      "known_estimate_cny": 0.233534,
+      "jobs_with_incomplete_usage": 4
+    },
+    "v3_hosted_verification": {
+      "known_provider_calls_across_v3_v4_v5_checks": 6,
+      "actual_token_usage": "Not exposed in public API; unknown cost is not zero."
+    },
+    "scope": "Separate test ledgers are reported separately, never reset or silently merged. Known estimates exclude unknown usage; no recharge."
+  },
+  "remaining_work": [
+    "Semantic reliability remains the main blocker to a public promotional launch; current automated reviewer can miss unsupported implications.",
+    "Validate a more reliable model configuration on a fixed benchmark before making another delivery-time promise.",
+    "Complete owner-signed-in hosted browser walkthrough and agree tester audience/budget."
+  ],
+  "preserved": "Original corpus and existing port8795 service were not changed."
+}

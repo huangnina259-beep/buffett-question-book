@@ -1,0 +1,27 @@
+{
+  "release": "Question pilot 1",
+  "entry": "index.html",
+  "language": "English",
+  "status": "agent_reviewed_local_pilot",
+  "answers": 5,
+  "evidence_records": 18,
+  "complete_contexts_used": 6,
+  "new_context_source_blocks": 74,
+  "translations": false,
+  "publicly_deployed": false,
+  "live_generation": false,
+  "current_market_data_assessed": false,
+  "existing_source_files_changed": false,
+  "answer_data": "answers.json",
+  "evidence_data": "evidence.json",
+  "review_entry": "audit/index.html",
+  "input_hashes": {
+    "原文总目录.json": "d35c3320134d308d3b1f93943ae48eeedae5a2ce1408b96f6c08915fac554970",
+    "原文单元.jsonl": "439acedd55045a742f372257bf077b477faab62669fe7cbb7ece48bf8b32be15",
+    "原文知识库.sqlite": "8b50a4546a8425fc83f082b32a791849470d13769c1701fe1bae6b860d834bc8",
+    "catalog.en.json": "2311f83c31114075e41a7562e393f2b5985d9bd05d5745d5f740d044ef525a27",
+    "reviewed-core/evidence.json": "265c79c4aaddb8037c6e61b6a3308f1d9910be14f073321e6f6b9180dab464a2",
+    "reviewed-core/manifest.json": "4683001bece6dd804329933d74d6b2d5389eaafe366f62787a6491d6c77892f6"
+  },
+  "answer_content_sha256": "d77c264c57635f5a03f743c6c490bbe2a1e8afa903eb19a185b218c585e22f5c"
+}

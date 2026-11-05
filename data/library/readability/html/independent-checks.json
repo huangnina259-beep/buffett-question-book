@@ -1,0 +1,227 @@
+{
+  "method": "independent_lxml_dom_table_comparison_and_block_local_original_unit_comparison",
+  "source_count": 21,
+  "table_count": 11,
+  "all_checks_pass": true,
+  "sources": [
+    {
+      "source_id": "berkshire-letter-1983",
+      "raw_hash_unchanged": true,
+      "every_reading_block_preserves_its_mapped_unit_characters": true,
+      "every_source_unit_mapped_once_in_order": true,
+      "independent_html_tables": []
+    },
+    {
+      "source_id": "berkshire-letter-1996",
+      "raw_hash_unchanged": true,
+      "every_reading_block_preserves_its_mapped_unit_characters": true,
+      "every_source_unit_mapped_once_in_order": true,
+      "independent_html_tables": []
+    },
+    {
+      "source_id": "berkshire-letter-1977",
+      "raw_hash_unchanged": true,
+      "every_reading_block_preserves_its_mapped_unit_characters": true,
+      "every_source_unit_mapped_once_in_order": true,
+      "independent_html_tables": []
+    },
+    {
+      "source_id": "berkshire-letter-1978",
+      "raw_hash_unchanged": true,
+      "every_reading_block_preserves_its_mapped_unit_characters": true,
+      "every_source_unit_mapped_once_in_order": true,
+      "independent_html_tables": []
+    },
+    {
+      "source_id": "berkshire-letter-1979",
+      "raw_hash_unchanged": true,
+      "every_reading_block_preserves_its_mapped_unit_characters": true,
+      "every_source_unit_mapped_once_in_order": true,
+      "independent_html_tables": []
+    },
+    {
+      "source_id": "berkshire-letter-1980",
+      "raw_hash_unchanged": true,
+      "every_reading_block_preserves_its_mapped_unit_characters": true,
+      "every_source_unit_mapped_once_in_order": true,
+      "independent_html_tables": []
+    },
+    {
+      "source_id": "berkshire-letter-1981",
+      "raw_hash_unchanged": true,
+      "every_reading_block_preserves_its_mapped_unit_characters": true,
+      "every_source_unit_mapped_once_in_order": true,
+      "independent_html_tables": []
+    },
+    {
+      "source_id": "berkshire-letter-1982",
+      "raw_hash_unchanged": true,
+      "every_reading_block_preserves_its_mapped_unit_characters": true,
+      "every_source_unit_mapped_once_in_order": true,
+      "independent_html_tables": []
+    },
+    {
+      "source_id": "berkshire-letter-1984",
+      "raw_hash_unchanged": true,
+      "every_reading_block_preserves_its_mapped_unit_characters": true,
+      "every_source_unit_mapped_once_in_order": true,
+      "independent_html_tables": []
+    },
+    {
+      "source_id": "berkshire-letter-1985",
+      "raw_hash_unchanged": true,
+      "every_reading_block_preserves_its_mapped_unit_characters": true,
+      "every_source_unit_mapped_once_in_order": true,
+      "independent_html_tables": []
+    },
+    {
+      "source_id": "berkshire-letter-1986",
+      "raw_hash_unchanged": true,
+      "every_reading_block_preserves_its_mapped_unit_characters": true,
+      "every_source_unit_mapped_once_in_order": true,
+      "independent_html_tables": [
+        {
+          "table": 1,
+          "row_count": 21,
+          "cell_count": 199,
+          "all_cell_characters_and_spans_match_independent_dom": true
+        },
+        {
+          "table": 2,
+          "row_count": 22,
+          "cell_count": 65,
+          "all_cell_characters_and_spans_match_independent_dom": true
+        }
+      ]
+    },
+    {
+      "source_id": "berkshire-letter-1987",
+      "raw_hash_unchanged": true,
+      "every_reading_block_preserves_its_mapped_unit_characters": true,
+      "every_source_unit_mapped_once_in_order": true,
+      "independent_html_tables": []
+    },
+    {
+      "source_id": "berkshire-letter-1988",
+      "raw_hash_unchanged": true,
+      "every_reading_block_preserves_its_mapped_unit_characters": true,
+      "every_source_unit_mapped_once_in_order": true,
+      "independent_html_tables": []
+    },
+    {
+      "source_id": "berkshire-letter-1989",
+      "raw_hash_unchanged": true,
+      "every_reading_block_preserves_its_mapped_unit_characters": true,
+      "every_source_unit_mapped_once_in_order": true,
+      "independent_html_tables": []
+    },
+    {
+      "source_id": "berkshire-letter-1990",
+      "raw_hash_unchanged": true,
+      "every_reading_block_preserves_its_mapped_unit_characters": true,
+      "every_source_unit_mapped_once_in_order": true,
+      "independent_html_tables": [
+        {
+          "table": 1,
+          "row_count": 1,
+          "cell_count": 2,
+          "all_cell_characters_and_spans_match_independent_dom": true
+        },
+        {
+          "table": 2,
+          "row_count": 1,
+          "cell_count": 2,
+          "all_cell_characters_and_spans_match_independent_dom": true
+        },
+        {
+          "table": 3,
+          "row_count": 1,
+          "cell_count": 3,
+          "all_cell_characters_and_spans_match_independent_dom": true
+        },
+        {
+          "table": 4,
+          "row_count": 13,
+          "cell_count": 37,
+          "all_cell_characters_and_spans_match_independent_dom": true
+        },
+        {
+          "table": 5,
+          "row_count": 7,
+          "cell_count": 13,
+          "all_cell_characters_and_spans_match_independent_dom": true
+        },
+        {
+          "table": 6,
+          "row_count": 9,
+          "cell_count": 17,
+          "all_cell_characters_and_spans_match_independent_dom": true
+        },
+        {
+          "table": 7,
+          "row_count": 1,
+          "cell_count": 2,
+          "all_cell_characters_and_spans_match_independent_dom": true
+        },
+        {
+          "table": 8,
+          "row_count": 1,
+          "cell_count": 3,
+          "all_cell_characters_and_spans_match_independent_dom": true
+        },
+        {
+          "table": 9,
+          "row_count": 2,
+          "cell_count": 4,
+          "all_cell_characters_and_spans_match_independent_dom": true
+        }
+      ]
+    },
+    {
+      "source_id": "berkshire-letter-1991",
+      "raw_hash_unchanged": true,
+      "every_reading_block_preserves_its_mapped_unit_characters": true,
+      "every_source_unit_mapped_once_in_order": true,
+      "independent_html_tables": []
+    },
+    {
+      "source_id": "berkshire-letter-1992",
+      "raw_hash_unchanged": true,
+      "every_reading_block_preserves_its_mapped_unit_characters": true,
+      "every_source_unit_mapped_once_in_order": true,
+      "independent_html_tables": []
+    },
+    {
+      "source_id": "berkshire-letter-1993",
+      "raw_hash_unchanged": true,
+      "every_reading_block_preserves_its_mapped_unit_characters": true,
+      "every_source_unit_mapped_once_in_order": true,
+      "independent_html_tables": []
+    },
+    {
+      "source_id": "berkshire-letter-1994",
+      "raw_hash_unchanged": true,
+      "every_reading_block_preserves_its_mapped_unit_characters": true,
+      "every_source_unit_mapped_once_in_order": true,
+      "independent_html_tables": []
+    },
+    {
+      "source_id": "berkshire-letter-1995",
+      "raw_hash_unchanged": true,
+      "every_reading_block_preserves_its_mapped_unit_characters": true,
+      "every_source_unit_mapped_once_in_order": true,
+      "independent_html_tables": []
+    },
+    {
+      "source_id": "berkshire-letter-1997",
+      "raw_hash_unchanged": true,
+      "every_reading_block_preserves_its_mapped_unit_characters": true,
+      "every_source_unit_mapped_once_in_order": true,
+      "independent_html_tables": []
+    }
+  ],
+  "limits": [
+    "Independent parser check, not independent human financial-table interpretation.",
+    "Visual samples are supplied separately; full-library browser review is not claimed."
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "scope": "21 original-language HTML Berkshire shareholder letters, 1977-1997",
+  "source_unit_count": 3293,
+  "source_section_count": 215,
+  "changes": [
+    "Reflow natural prose paragraphs without changing non-whitespace characters.",
+    "Remove only whitespace at hard wraps after retained hyphens.",
+    "Restore standalone publisher-formatted section headings.",
+    "Preserve complete small PRE financial tables, including dates, headers, data, totals and notes.",
+    "Reconstruct all 11 HTML tables with original row order, cell text, rowspan and colspan.",
+    "Retain letterheads and decorative dividers as secondary blocks; retain signatures, footnotes, appendices and historical meeting logistics in body."
+  ],
+  "checks": {
+    "raw_and_original_unit_hashes_unchanged": true,
+    "all_3293_units_mapped_once_in_original_order": true,
+    "character_digit_and_normalized_token_sequences_preserved": true,
+    "independent_lxml_cell_text_and_spans_match_all_11_tables": true,
+    "source_U_FFFD_count": 0
+  },
+  "visual_samples": "samples.html",
+  "visual_review_status": "Samples prepared. Main agent integrates and visually checks the reader; this worker has no browser/screenshot tool.",
+  "limits": [
+    "103 preformatted blocks include fixed-width financial tables and signatures; they are not 103 semantic tables.",
+    "Conservative heading detection may leave unmarked headings in prose.",
+    "The existing meaning, claims, dates, author attributions and financial interpretation were not re-reviewed by this layout pass.",
+    "PRE spacing is kept with tab-size 8, horizontal scrolling required on narrow screens."
+  ],
+  "reproduce": {
+    "builder": "python3 readability/html/build_html_readability.py --library .",
+    "audit": "python3 readability/html/check_html_readability.py --library .",
+    "dependencies": "Builder: Python standard library. Independent audit: lxml."
+  }
+}

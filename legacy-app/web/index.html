@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>The Buffett Question Book · Ask a question</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="/library/reader/data/title-repairs.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#question">Skip to your question</a>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="./"><span class="brand-mark" aria-hidden="true">B</span><span>Buffett Question Book</span></a>
+      <nav aria-label="Library navigation">
+        <details id="visit-history" class="header-menu" hidden>
+          <summary>Your questions</summary>
+          <div class="menu-panel history-panel"><h2 class="sr-only">Your questions</h2><ol id="history-list"></ol><p class="meta">Saved for this visit only. Reloading clears the conversation.</p></div>
+        </details>
+        <details class="header-menu">
+          <summary>Explore</summary>
+          <div class="menu-panel explore-panel"><a href="/library/qa-pilot/index.html">Selected answers <span aria-hidden="true">↗</span></a><a href="/library/reader/index.html">Original-source library <span aria-hidden="true">↗</span></a></div>
+        </details>
+        <details id="about" class="header-menu">
+          <summary>About</summary>
+          <div class="menu-panel about-panel">
+            <h2>Close to the sources.</h2>
+            <p>Ask in English or Chinese. Answers are in English, drawing on selected passages from Buffett’s letters, meetings and interviews. Munger’s remarks retain their own attribution.</p>
+            <h3>How an answer is prepared</h3>
+            <p>The service retrieves passages, drafts an explanation and checks its support. Open the numbered citations to read the original context.</p>
+            <p><strong>This is an experiment.</strong> Testing found omitted qualifications and failed requests. A model check is not human verification or a review of everything Buffett has said. There is no current-market feed.</p>
+            <h3>Your questions and account</h3>
+            <p>Generation uses your signed-in Codex account and allowance. Your question, limited conversation history and selected public passages are sent to its model service. Answers may take several minutes.</p>
+            <p>The conversation stays in this page’s memory and clears on reload. The server keeps jobs in memory; the Codex runtime and model service have their own operational records and data handling.</p>
+            <details id="service-scope" class="service-scope" hidden><summary>Available source scope</summary><div id="service-scope-body"></div></details>
+          </div>
+        </details>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" aria-labelledby="page-title">
+        <h1 id="page-title">What would you like to understand?</h1>
+        <p>Explore Buffett and Munger’s ideas, with the sources in reach.</p>
+      </section>
+      <section id="launcher-notice" class="notice" hidden aria-labelledby="launcher-title">
+        <h2 id="launcher-title">Open the local launcher first</h2>
+        <p>Start <code>Start Buffett Questions.command</code>, then open the local address it prints. This HTML file needs that server to prepare answers.</p>
+      </section>
+      <div class="workspace"><div class="main-column">
+        <section class="composer" aria-labelledby="composer-title">
+          <div class="composer-top"><h2 id="composer-title">Your question</h2><button id="new-question" class="text-button" type="button" hidden>New question</button></div>
+          <p id="conversation-context" class="context-note" hidden></p>
+          <form id="question-form">
+            <label for="question" class="sr-only">Your question</label>
+            <textarea id="question" name="question" rows="2" minlength="3" maxlength="2000" placeholder="Ask in English or Chinese…" aria-describedby="question-help usage-note" required></textarea>
+            <div class="composer-actions"><p id="question-help"><span class="keyboard-hint">⌘ / Ctrl + Enter</span><span class="sr-only"> to ask. Enter 3 to 2,000 characters.</span></p><button id="submit-question" type="submit" class="primary-button" disabled>Ask <span aria-hidden="true">↑</span></button></div>
+          </form>
+        </section>
+        <p id="usage-note" class="usage-note">English answers · Uses your Codex account</p>
+        <div id="connection-row" class="connection-row"><p id="connection-status" class="connection-status" role="status"><span class="status-dot" aria-hidden="true"></span><span id="connection-message">Connecting…</span></p><button id="check-connection" class="text-button" type="button" hidden>Check connection</button></div>
+        <section id="request-error" class="error-panel" role="alert" hidden><h2 id="error-title">The question could not be completed</h2><p id="error-message"></p><button id="resume-job" type="button" class="secondary-button" hidden>Reconnect to this question</button></section>
+        <section id="job-progress" class="progress-panel" aria-labelledby="progress-title" hidden>
+          <div class="progress-top"><h2 id="progress-title">Preparing an answer</h2><span id="elapsed-time" class="meta"></span></div>
+          <p id="working-question" class="working-question"></p>
+          <ol id="progress-steps" aria-label="Answer preparation stages"><li data-stage="planning">Understand</li><li data-stage="retrieving">Find passages</li><li data-stage="writing">Compose</li><li data-stage="checking">Check support</li></ol>
+          <p id="progress-message" class="meta" role="status" aria-live="polite"></p>
+        </section>
+        <section id="question-inspiration" class="inspiration" aria-labelledby="inspiration-title">
+          <h2 id="inspiration-title" class="sr-only">Try a question</h2>
+          <div class="suggestion-list"><button type="button" data-question="How can a wonderful company still be a poor investment?">Business quality</button><button type="button" data-question="If index-fund valuations are high, how should I understand Buffett’s index-fund advice?">Index funds</button><button type="button" data-question="Why do incentives matter even when managers are honest?">Incentives</button></div>
+        </section>
+        <section id="answer-region" class="answer-region" hidden aria-label="Selected answer" aria-live="off"></section>
+      </div></div>
+    </main>
+    <footer>Experimental answers can miss context. Check the original sources.</footer>
+  </div>
+  <dialog id="source-dialog" class="source-dialog" aria-labelledby="source-title">
+    <div class="drawer-head"><p class="eyebrow" id="source-number">Source</p><button id="close-source" type="button" class="icon-button" aria-label="Close source excerpt">×</button></div>
+    <div id="source-content"></div>
+  </dialog>
+  <div id="announcement" class="sr-only" role="status" aria-live="polite"></div>
+  <noscript><div class="notice">Enable JavaScript to ask questions. The original-source library and selected answers remain available under Explore.</div></noscript>
+</body>
+</html>

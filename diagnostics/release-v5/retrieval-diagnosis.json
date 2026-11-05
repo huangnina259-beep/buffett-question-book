@@ -1,0 +1,57 @@
+{
+  "version": "retrieval-diagnosis-2026-11-05",
+  "live_version_observed": 5,
+  "status": "Root cause reproduced; no website source changes or deployment in this investigation.",
+  "exact_user_question": "how to be a great investor",
+  "question_source": "Existing deployed answers table, inspected through the native read-only Sites database tools; session identifiers omitted.",
+  "current_live_mechanism": [
+    "Exact normalized match to one of seven prepared answers can return an edited answer without generation.",
+    "Other questions use an ASCII whole-phrase topic router over 19 selected original contexts, not the collected full-text library.",
+    "At most eight complete context groups within a 60000-character text budget are sent to the writer.",
+    "Zero routed contexts return the reported unavailable message before any model call.",
+    "Generated drafts undergo citation/format checks and a second model source-support check; these checks do not prove semantic correctness."
+  ],
+  "reproductions": [
+    {
+      "question": "how to be a great investor",
+      "live_router_contexts": 0,
+      "local_archive_retrieval_contexts": 4,
+      "local_archive_retrieval_seconds": 0.138,
+      "timing_scope": "Read-only lexical search and context selection only; not generated-answer latency.",
+      "relevant_originals": [
+        "1996 shareholder letter",
+        "2008 morning meeting chapter03",
+        "2002 index-fund Q&A"
+      ],
+      "limitation": "One additional 1999 book-recommendation result was weaker. Retrieval is not a promise of success or semantic approval."
+    },
+    {
+      "question": "How do I calculate intrinsic value?",
+      "live_router_contexts": 4
+    },
+    {
+      "question": "How do I work out what a share is worth?",
+      "live_router_contexts": 0
+    },
+    {
+      "question": "What does Buffett say about index funds?",
+      "live_router_contexts": 0,
+      "relevant_original_already_in_live_packet": "2013 investing context, paragraphs028 and032"
+    }
+  ],
+  "next_acceptance_boundary": [
+    "Connect eligible archived original text and metadata to online retrieval; retain exclusions, accepted corrections and complete-context boundaries.",
+    "Test paraphrases, specific names, broad questions, true follow-ups and explicit topic changes separately from answer generation.",
+    "Rank relevant original evidence and retain dated qualifications; do not send arbitrary fallback material merely to avoid an empty result.",
+    "Test grounded explanation independently of retrieval. Citations and a second AI approval are not sufficient acceptance evidence.",
+    "Distinguish indexing gaps, no reliable match, source insufficiency and service failures in user-facing outcomes."
+  ],
+  "originals_changed": false,
+  "paid_model_calls_in_this_investigation": 0,
+  "implementation_files": [
+    "work/english-beta-site/lib/retrieved-evidence.ts",
+    "work/english-beta-site/lib/server/generation.ts",
+    "outputs/Buffett-Questions/retrieval.py"
+  ],
+  "independent_diagnostic_fixtures": "work/english_beta_retrieval_v6/audit-results.json"
+}

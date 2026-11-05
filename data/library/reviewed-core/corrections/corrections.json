@@ -1,0 +1,987 @@
+{
+  "schema_version": "buffett-extraction-corrections-1.0",
+  "release": "core-evidence-corrections-v1",
+  "status": "producer_verified_pending_independent_review",
+  "scope": "Six physical pages in four archived PDFs. Immutable-original patches and structured representations of three tables.",
+  "sources": [
+    {
+      "source_id": "berkshire-letter-2013",
+      "publisher_url": "https://www.berkshirehathaway.com/letters/2013ltr.pdf",
+      "raw_path": "outputs/巴菲特知识库/letters/raw/berkshire-letter-2013.pdf",
+      "raw_sha256": "ad24565997a09a1f7ef752da875161a24e025329510f3489afd912ff1e2673f5",
+      "canonical_units_path": "outputs/巴菲特知识库/letters/text_units/berkshire-letter-2013.json",
+      "canonical_units_file_sha256": "61b5452f3226f176e9c61a4ee60be1ff1a63cd99e18bb33dfcf4bd2dd157eabc"
+    },
+    {
+      "source_id": "berkshire-letter-2001",
+      "publisher_url": "https://www.berkshirehathaway.com/letters/2001pdf.pdf",
+      "raw_path": "outputs/巴菲特知识库/letters/raw/berkshire-letter-2001.pdf",
+      "raw_sha256": "50a79a227522a66ef79286a50ff9fb4b39dec5d025431dbb4ecedf126ad0caa0",
+      "canonical_units_path": "outputs/巴菲特知识库/letters/text_units/berkshire-letter-2001.json",
+      "canonical_units_file_sha256": "3dd2e9572412a44f148e921caa621e541aa52cee6bd1c2194db70b1e554bd7a7"
+    },
+    {
+      "source_id": "berkshire-letter-2022",
+      "publisher_url": "https://www.berkshirehathaway.com/letters/2022ltr.pdf",
+      "raw_path": "outputs/巴菲特知识库/letters/raw/berkshire-letter-2022.pdf",
+      "raw_sha256": "a99f263003295b177e8c50ec34f2307093857a357276527e98d5a6205e21a908",
+      "canonical_units_path": "outputs/巴菲特知识库/letters/text_units/berkshire-letter-2022.json",
+      "canonical_units_file_sha256": "c2c5dccb541b2617539a09e067c26b9edce6a89028696ee59e0c8fc334e919e0"
+    },
+    {
+      "source_id": "nbc-brokaw-interview-date-unresolved",
+      "publisher_url": null,
+      "raw_path": "outputs/巴菲特知识库/interview-pdfs/原始下载/nbc-brokaw-interview-date-unresolved.pdf",
+      "raw_sha256": "9f99649114f406840b0595bb7cde9c778a35ad538f04b16b9db7face80ad4a21",
+      "canonical_units_path": "outputs/巴菲特知识库/interview-pdfs/text_units/nbc-brokaw-interview-date-unresolved.json",
+      "canonical_units_file_sha256": "14044711e3efa07ffe87634dbf0f566c902d90f26bb94a24d2a85655f910a95f"
+    }
+  ],
+  "patches": [
+    {
+      "patch_id": "berkshire-letter-2013-p001-v1",
+      "version": 1,
+      "status": "producer_visually_verified_pending_independent_review",
+      "source_id": "berkshire-letter-2013",
+      "unit_id": "berkshire-letter-2013:u0001",
+      "source_raw_sha256": "ad24565997a09a1f7ef752da875161a24e025329510f3489afd912ff1e2673f5",
+      "base_text_sha256": "17eba28397f36b87ca8aa936710fbc6ee8abe9cbe9b295b7fea0dbc4adeb0cfd",
+      "physical_page": 1,
+      "printed_page": 2,
+      "image": {
+        "path": "images/letter-2013-01.png",
+        "sha256": "a3938952d65ac366d352de8f1d836d01e30672e3db0596976b17a603feb72dcf"
+      },
+      "extractor_comparison": {
+        "path": "extractions/berkshire-letter-2013-p001.json",
+        "sha256": "e651ee5ced3a60df6a27f7ceffdad3b117339398cf6d07e31e4cfc3562ee88ac"
+      },
+      "method": "Exact changes checked against the archived PDF page image. Offsets count Unicode code points in the immutable canonical unit text.",
+      "operations": [
+        {
+          "start": 801,
+          "end_exclusive": 880,
+          "before": "1973 ........................................................ 4 . 7 (14.8) 19.5",
+          "after": "1973 ........................................................ 4.7 (14.8) 19.5",
+          "reason": "Join visually contiguous decimal digits within the same financial-table cell; no digit, sign or decimal point changes.",
+          "context_before": ".................................................. 21.7 18.9 2.8\n",
+          "context_after": "\n1974 ........................................................ 5 "
+        },
+        {
+          "start": 881,
+          "end_exclusive": 960,
+          "before": "1974 ........................................................ 5 . 5 (26.4) 31.9",
+          "after": "1974 ........................................................ 5.5 (26.4) 31.9",
+          "reason": "Join visually contiguous decimal digits within the same financial-table cell; no digit, sign or decimal point changes.",
+          "context_before": ".............................................. 4 . 7 (14.8) 19.5\n",
+          "context_after": "\n1975 ........................................................ 21"
+        },
+        {
+          "start": 2115,
+          "end_exclusive": 2193,
+          "before": "1990 ........................................................ 7 . 4 (3.1) 10.5",
+          "after": "1990 ........................................................ 7.4 (3.1) 10.5",
+          "reason": "Join visually contiguous decimal digits within the same financial-table cell; no digit, sign or decimal point changes.",
+          "context_before": "................................................. 44.4 31.7 12.7\n",
+          "context_after": "\n1991 ........................................................ 39"
+        },
+        {
+          "start": 2803,
+          "end_exclusive": 2882,
+          "before": "1999 ........................................................ 0 . 5 21.0 (20.5)",
+          "after": "1999 ........................................................ 0.5 21.0 (20.5)",
+          "reason": "Join visually contiguous decimal digits within the same financial-table cell; no digit, sign or decimal point changes.",
+          "context_before": "................................................. 48.3 28.6 19.7\n",
+          "context_after": "\n2000 ........................................................ 6 "
+        },
+        {
+          "start": 2883,
+          "end_exclusive": 2961,
+          "before": "2000 ........................................................ 6 . 5 (9.1) 15.6",
+          "after": "2000 ........................................................ 6.5 (9.1) 15.6",
+          "reason": "Join visually contiguous decimal digits within the same financial-table cell; no digit, sign or decimal point changes.",
+          "context_before": ".............................................. 0 . 5 21.0 (20.5)\n",
+          "context_after": "\n2001 ........................................................ (6"
+        },
+        {
+          "start": 3276,
+          "end_exclusive": 3355,
+          "before": "2005 ........................................................ 6 . 4 4 . 9 1 . 5",
+          "after": "2005 ........................................................ 6.4 4.9 1.5",
+          "reason": "Join visually contiguous decimal digits within the same financial-table cell; no digit, sign or decimal point changes.",
+          "context_before": "................................................ 10.5 10.9 (0.4)\n",
+          "context_after": "\n2006 ........................................................ 18"
+        },
+        {
+          "start": 3743,
+          "end_exclusive": 3822,
+          "before": "2011 ........................................................ 4 . 6 2 . 1 2 . 5",
+          "after": "2011 ........................................................ 4.6 2.1 2.5",
+          "reason": "Join visually contiguous decimal digits within the same financial-table cell; no digit, sign or decimal point changes.",
+          "context_before": "................................................ 13.0 15.1 (2.1)\n",
+          "context_after": "\n2012 ........................................................ 14"
+        }
+      ],
+      "canonical_mutation_performed": false,
+      "automatic_answer_eligibility": false,
+      "limits": [
+        "No source PDF, canonical extraction, catalog, database or existing reader was changed.",
+        "A correction to extraction does not establish historical truth or present-day applicability."
+      ],
+      "verified_scope": "Seven changed rows containing eleven split decimal cells; full table row/column mapping separately supplied with original notes.",
+      "derived_text_path": "corrected-text/berkshire-letter-2013-p001-v1.txt",
+      "derived_text_sha256": "ee1a4e179ca7906ce2f4d89f197b66e00cbb5e6ac9ad11b4ee727eed1f3f9ebc",
+      "changed_span_count": 7,
+      "text_length_before": 5095,
+      "text_length_after": 5073
+    },
+    {
+      "patch_id": "berkshire-letter-2013-p015-v1",
+      "version": 1,
+      "status": "producer_visually_verified_pending_independent_review",
+      "source_id": "berkshire-letter-2013",
+      "unit_id": "berkshire-letter-2013:u0015",
+      "source_raw_sha256": "ad24565997a09a1f7ef752da875161a24e025329510f3489afd912ff1e2673f5",
+      "base_text_sha256": "907fb081fd713ac1967a3f77b7ac68bf40ab1b7692f12fde7525ea4df6911ea5",
+      "physical_page": 15,
+      "printed_page": 16,
+      "image": {
+        "path": "images/letter-2013-15.png",
+        "sha256": "ce2d4c79cbf582340dd4a9999ab068872b848b3d840c829bd5c1a0609566ac85"
+      },
+      "extractor_comparison": {
+        "path": "extractions/berkshire-letter-2013-p015.json",
+        "sha256": "eeab5612fd31267fdb108ad8e4f5ab3a63f0895ad0a3d539cd8b69907f16a40d"
+      },
+      "method": "Exact changes checked against the archived PDF page image. Offsets count Unicode code points in the immutable canonical unit text.",
+      "operations": [
+        {
+          "start": 286,
+          "end_exclusive": 334,
+          "before": "Berkadia ..................... $ 8 0 $ 3 5 $ 2 5",
+          "after": "Berkadia ..................... $ 80 $ 35 $ 25",
+          "reason": "Join digits or decimal tokens inside visually identified cells. Preserve source row, column values, footnotes and all non-whitespace characters.",
+          "context_before": "tax earnings recap for this sector:\n2013 2012 2011\n(in millions)\n",
+          "context_after": "\nClayton ...................... 4 1 6 2 5 5 1 5 4\nCORT .........."
+        },
+        {
+          "start": 335,
+          "end_exclusive": 383,
+          "before": "Clayton ...................... 4 1 6 2 5 5 1 5 4",
+          "after": "Clayton ...................... 416 255 154",
+          "reason": "Join digits or decimal tokens inside visually identified cells. Preserve source row, column values, footnotes and all non-whitespace characters.",
+          "context_before": "1\n(in millions)\nBerkadia ..................... $ 8 0 $ 3 5 $ 2 5\n",
+          "context_after": "\nCORT ....................... 4 0 4 2 2 9\nXTRA .................."
+        },
+        {
+          "start": 384,
+          "end_exclusive": 424,
+          "before": "CORT ....................... 4 0 4 2 2 9",
+          "after": "CORT ....................... 40 42 29",
+          "reason": "Join digits or decimal tokens inside visually identified cells. Preserve source row, column values, footnotes and all non-whitespace characters.",
+          "context_before": "8 0 $ 3 5 $ 2 5\nClayton ...................... 4 1 6 2 5 5 1 5 4\n",
+          "context_after": "\nXTRA ....................... 1 2 5 1 0 6 1 2 6\nNet financial inc"
+        },
+        {
+          "start": 425,
+          "end_exclusive": 471,
+          "before": "XTRA ....................... 1 2 5 1 0 6 1 2 6",
+          "after": "XTRA ....................... 125 106 126",
+          "reason": "Join digits or decimal tokens inside visually identified cells. Preserve source row, column values, footnotes and all non-whitespace characters.",
+          "context_before": "..... 4 1 6 2 5 5 1 5 4\nCORT ....................... 4 0 4 2 2 9\n",
+          "context_after": "\nNet financial income* ........... 3 2 4 4 1 0 4 4 0\n$985 $848 $ "
+        },
+        {
+          "start": 472,
+          "end_exclusive": 523,
+          "before": "Net financial income* ........... 3 2 4 4 1 0 4 4 0",
+          "after": "Net financial income* ........... 324 410 440",
+          "reason": "Join digits or decimal tokens inside visually identified cells. Preserve source row, column values, footnotes and all non-whitespace characters.",
+          "context_before": "..... 4 0 4 2 2 9\nXTRA ....................... 1 2 5 1 0 6 1 2 6\n",
+          "context_after": "\n$985 $848 $ 774\n* Excludes capital gains or losses\nInvestments\n“"
+        },
+        {
+          "start": 1077,
+          "end_exclusive": 1145,
+          "before": "400,000,000 The Coca-Cola Company ............... 9 . 1 1,299 16,524",
+          "after": "400,000,000 The Coca-Cola Company ............... 9.1 1,299 16,524",
+          "reason": "Join digits or decimal tokens inside visually identified cells. Preserve source row, column values, footnotes and all non-whitespace characters.",
+          "context_before": "700 American Express Company ............. 14.2 $ 1,287 $ 13,756\n",
+          "context_after": "\n22,238,900 DIRECTV ........................... 4 . 2 1,017 1,536"
+        },
+        {
+          "start": 1146,
+          "end_exclusive": 1210,
+          "before": "22,238,900 DIRECTV ........................... 4 . 2 1,017 1,536",
+          "after": "22,238,900 DIRECTV ........................... 4.2 1,017 1,536",
+          "reason": "Join digits or decimal tokens inside visually identified cells. Preserve source row, column values, footnotes and all non-whitespace characters.",
+          "context_before": "000,000 The Coca-Cola Company ............... 9 . 1 1,299 16,524\n",
+          "context_after": "\n41,129,643 Exxon Mobil Corp. .................... 0 . 9 3,737 4,"
+        },
+        {
+          "start": 1211,
+          "end_exclusive": 1278,
+          "before": "41,129,643 Exxon Mobil Corp. .................... 0 . 9 3,737 4,162",
+          "after": "41,129,643 Exxon Mobil Corp. .................... 0.9 3,737 4,162",
+          "reason": "Join digits or decimal tokens inside visually identified cells. Preserve source row, column values, footnotes and all non-whitespace characters.",
+          "context_before": "22,238,900 DIRECTV ........................... 4 . 2 1,017 1,536\n",
+          "context_after": "\n13,062,594 The Goldman Sachs Group, Inc. .......... 2 . 8 7 5 0 "
+        },
+        {
+          "start": 1279,
+          "end_exclusive": 1348,
+          "before": "13,062,594 The Goldman Sachs Group, Inc. .......... 2 . 8 7 5 0 2,315",
+          "after": "13,062,594 The Goldman Sachs Group, Inc. .......... 2.8 750 2,315",
+          "reason": "Join digits or decimal tokens inside visually identified cells. Preserve source row, column values, footnotes and all non-whitespace characters.",
+          "context_before": "129,643 Exxon Mobil Corp. .................... 0 . 9 3,737 4,162\n",
+          "context_after": "\n68,121,984 International Business Machines Corp. ..... 6 . 3 11,"
+        },
+        {
+          "start": 1349,
+          "end_exclusive": 1423,
+          "before": "68,121,984 International Business Machines Corp. ..... 6 . 3 11,681 12,778",
+          "after": "68,121,984 International Business Machines Corp. ..... 6.3 11,681 12,778",
+          "reason": "Join digits or decimal tokens inside visually identified cells. Preserve source row, column values, footnotes and all non-whitespace characters.",
+          "context_before": "2,594 The Goldman Sachs Group, Inc. .......... 2 . 8 7 5 0 2,315\n",
+          "context_after": "\n24,669,778 Moody’s Corporation .................. 11.5 248 1,936"
+        },
+        {
+          "start": 1555,
+          "end_exclusive": 1623,
+          "before": "20,668,118 Phillips 66 ........................... 3 . 4 6 6 0 1,594",
+          "after": "20,668,118 Phillips 66 ........................... 3.4 660 1,594",
+          "reason": "Join digits or decimal tokens inside visually identified cells. Preserve source row, column values, footnotes and all non-whitespace characters.",
+          "context_before": "0,060,390 Munich Re ........................... 11.2 2,990 4,415\n",
+          "context_after": "\n52,477,678 The Procter & Gamble Company ......... 1 . 9 3 3 6 4,"
+        },
+        {
+          "start": 1624,
+          "end_exclusive": 1691,
+          "before": "52,477,678 The Procter & Gamble Company ......... 1 . 9 3 3 6 4,272",
+          "after": "52,477,678 The Procter & Gamble Company ......... 1.9 336 4,272",
+          "reason": "Join digits or decimal tokens inside visually identified cells. Preserve source row, column values, footnotes and all non-whitespace characters.",
+          "context_before": "68,118 Phillips 66 ........................... 3 . 4 6 6 0 1,594\n",
+          "context_after": "\n22,169,930 Sanofi .............................. 1 . 7 1,747 2,3"
+        },
+        {
+          "start": 1692,
+          "end_exclusive": 1758,
+          "before": "22,169,930 Sanofi .............................. 1 . 7 1,747 2,354",
+          "after": "22,169,930 Sanofi .............................. 1.7 1,747 2,354",
+          "reason": "Join digits or decimal tokens inside visually identified cells. Preserve source row, column values, footnotes and all non-whitespace characters.",
+          "context_before": "477,678 The Procter & Gamble Company ......... 1 . 9 3 3 6 4,272\n",
+          "context_after": "\n301,046,076 Tesco plc ............................ 3 . 7 1,699 1"
+        },
+        {
+          "start": 1759,
+          "end_exclusive": 1827,
+          "before": "301,046,076 Tesco plc ............................ 3 . 7 1,699 1,666",
+          "after": "301,046,076 Tesco plc ............................ 3.7 1,699 1,666",
+          "reason": "Join digits or decimal tokens inside visually identified cells. Preserve source row, column values, footnotes and all non-whitespace characters.",
+          "context_before": ",169,930 Sanofi .............................. 1 . 7 1,747 2,354\n",
+          "context_after": "\n96,117,069 U.S. Bancorp ......................... 5 . 3 3,002 3,"
+        },
+        {
+          "start": 1828,
+          "end_exclusive": 1895,
+          "before": "96,117,069 U.S. Bancorp ......................... 5 . 3 3,002 3,883",
+          "after": "96,117,069 U.S. Bancorp ......................... 5.3 3,002 3,883",
+          "reason": "Join digits or decimal tokens inside visually identified cells. Preserve source row, column values, footnotes and all non-whitespace characters.",
+          "context_before": "046,076 Tesco plc ............................ 3 . 7 1,699 1,666\n",
+          "context_after": "\n56,805,984 Wal-Mart Stores, Inc. .................. 1 . 8 2,976 "
+        },
+        {
+          "start": 1896,
+          "end_exclusive": 1965,
+          "before": "56,805,984 Wal-Mart Stores, Inc. .................. 1 . 8 2,976 4,470",
+          "after": "56,805,984 Wal-Mart Stores, Inc. .................. 1.8 2,976 4,470",
+          "reason": "Join digits or decimal tokens inside visually identified cells. Preserve source row, column values, footnotes and all non-whitespace characters.",
+          "context_before": "117,069 U.S. Bancorp ......................... 5 . 3 3,002 3,883\n",
+          "context_after": "\n483,470,853 Wells Fargo & Company ................ 9 . 2 11,871 "
+        },
+        {
+          "start": 1966,
+          "end_exclusive": 2036,
+          "before": "483,470,853 Wells Fargo & Company ................ 9 . 2 11,871 21,950",
+          "after": "483,470,853 Wells Fargo & Company ................ 9.2 11,871 21,950",
+          "reason": "Join digits or decimal tokens inside visually identified cells. Preserve source row, column values, footnotes and all non-whitespace characters.",
+          "context_before": "5,984 Wal-Mart Stores, Inc. .................. 1 . 8 2,976 4,470\n",
+          "context_after": "\nOthers .............................. 11,281 19,894\nTotal Common"
+        }
+      ],
+      "canonical_mutation_performed": false,
+      "automatic_answer_eligibility": false,
+      "limits": [
+        "No source PDF, canonical extraction, catalog, database or existing reader was changed.",
+        "A correction to extraction does not establish historical truth or present-day applicability."
+      ],
+      "verified_scope": "Seventeen changed rows; both visible tables checked cell by cell and represented with explicit columns in tables.json.",
+      "derived_text_path": "corrected-text/berkshire-letter-2013-p015-v1.txt",
+      "derived_text_sha256": "c895fad20b3aa03e2179cfba68fa6f9df9e208aaeb37d0b796acd730f3df9396",
+      "changed_span_count": 17,
+      "text_length_before": 2385,
+      "text_length_after": 2331
+    },
+    {
+      "patch_id": "berkshire-letter-2001-p002-v1",
+      "version": 1,
+      "status": "producer_visually_verified_pending_independent_review",
+      "source_id": "berkshire-letter-2001",
+      "unit_id": "berkshire-letter-2001:u0002",
+      "source_raw_sha256": "50a79a227522a66ef79286a50ff9fb4b39dec5d025431dbb4ecedf126ad0caa0",
+      "base_text_sha256": "cc98d96400925abc397620b5425b4036b6dbd2ef71c51234fce064269fa27419",
+      "physical_page": 2,
+      "printed_page": 3,
+      "image": {
+        "path": "images/berkshire-letter-2001-p002-pdfium.png",
+        "sha256": "1d9ccbae9adefacec9a8c136cf2f29586614bc2bf41e11a9b5faa7ce2f6ed36c"
+      },
+      "extractor_comparison": {
+        "path": "extractions/berkshire-letter-2001-p002.json",
+        "sha256": "65df5d59fbb19a673864d82883f71e591848461992773f7cd0cee817cb06c31c"
+      },
+      "method": "Exact changes checked against the archived PDF page image. Offsets count Unicode code points in the immutable canonical unit text.",
+      "operations": [
+        {
+          "start": 83,
+          "end_exclusive": 84,
+          "before": "",
+          "after": "’",
+          "reason": "The printed punctuation at this occurrence is visible in the page image and independently decodes to the same glyph in pdfplumber.",
+          "context_before": "AY INC.\nTo the Shareholders of Berkshire Hathaway Inc.:\nBerkshire",
+          "context_after": "s loss in net worth during 2001 was $3.77 billion, which decrease",
+          "source_codepoint": "U+0092",
+          "destination_codepoint": "U+2019"
+        },
+        {
+          "start": 551,
+          "end_exclusive": 552,
+          "before": "",
+          "after": "’",
+          "reason": "The printed punctuation at this occurrence is visible in the page image and independently decodes to the same glyph in pdfplumber.",
+          "context_before": "y\ndecreased a bit less.  We explain intr insic value in our Owner",
+          "context_after": "s Manual, wh ich begins on page 62.  I urge new\nshareholders to r",
+          "source_codepoint": "U+0092",
+          "destination_codepoint": "U+2019"
+        },
+        {
+          "start": 666,
+          "end_exclusive": 667,
+          "before": "",
+          "after": "’",
+          "reason": "The printed punctuation at this occurrence is visible in the page image and independently decodes to the same glyph in pdfplumber.",
+          "context_before": "hareholders to read this manual to become familiar with Berkshire",
+          "context_after": "s key economic principles.\nTwo years ago, reporting on 1999, I sa",
+          "source_codepoint": "U+0092",
+          "destination_codepoint": "U+2019"
+        },
+        {
+          "start": 840,
+          "end_exclusive": 841,
+          "before": "",
+          "after": "“",
+          "reason": "The printed punctuation at this occurrence is visible in the page image and independently decodes to the same glyph in pdfplumber.",
+          "context_before": "absolute and relative\nperformance in our history.  I added th at ",
+          "context_after": "relative results are what concern us, a viewpoint Ive had since",
+          "source_codepoint": "U+0093",
+          "destination_codepoint": "U+201C"
+        },
+        {
+          "start": 878,
+          "end_exclusive": 879,
+          "before": "",
+          "after": "”",
+          "reason": "The printed punctuation at this occurrence is visible in the page image and independently decodes to the same glyph in pdfplumber.",
+          "context_before": "ur history.  I added th at relative results are what concern us,",
+          "context_after": " a viewpoint Ive had since forming\nmy first investment partnersh",
+          "source_codepoint": "U+0094",
+          "destination_codepoint": "U+201D"
+        },
+        {
+          "start": 893,
+          "end_exclusive": 894,
+          "before": "",
+          "after": "’",
+          "reason": "The printed punctuation at this occurrence is visible in the page image and independently decodes to the same glyph in pdfplumber.",
+          "context_before": "added th at relative results are what concern us, a viewpoint I",
+          "context_after": "ve had since forming\nmy first investment partnership on May 5, 19",
+          "source_codepoint": "U+0092",
+          "destination_codepoint": "U+2019"
+        },
+        {
+          "start": 1059,
+          "end_exclusive": 1060,
+          "before": "",
+          "after": "“",
+          "reason": "The printed punctuation at this occurrence is visible in the page image and independently decodes to the same glyph in pdfplumber.",
+          "context_before": " limited partners that evening, I\ngave them a short paper titled ",
+          "context_after": "The Ground Rules that included this sentence: Whether we do a g",
+          "source_codepoint": "U+0093",
+          "destination_codepoint": "U+201C"
+        },
+        {
+          "start": 1076,
+          "end_exclusive": 1077,
+          "before": "",
+          "after": "”",
+          "reason": "The printed punctuation at this occurrence is visible in the page image and independently decodes to the same glyph in pdfplumber.",
+          "context_before": " that evening, I\ngave them a short paper titled The Ground Rules",
+          "context_after": " that included this sentence: Whether we do a good job or a\npoor",
+          "source_codepoint": "U+0094",
+          "destination_codepoint": "U+201D"
+        },
+        {
+          "start": 1107,
+          "end_exclusive": 1108,
+          "before": "",
+          "after": "“",
+          "reason": "The printed punctuation at this occurrence is visible in the page image and independently decodes to the same glyph in pdfplumber.",
+          "context_before": "ort paper titled The Ground Rules that included this sentence: ",
+          "context_after": "Whether we do a good job or a\npoor job is to be measured against ",
+          "source_codepoint": "U+0093",
+          "destination_codepoint": "U+201C"
+        },
+        {
+          "start": 1210,
+          "end_exclusive": 1211,
+          "before": "",
+          "after": "”",
+          "reason": "The printed punctuation at this occurrence is visible in the page image and independently decodes to the same glyph in pdfplumber.",
+          "context_before": "b is to be measured against the general experience in securities.",
+          "context_after": "  We initially used the Dow Jones Industrials\nas our benchmark, b",
+          "source_codepoint": "U+0094",
+          "destination_codepoint": "U+201D"
+        },
+        {
+          "start": 1426,
+          "end_exclusive": 1427,
+          "before": "",
+          "after": "’",
+          "reason": "The printed punctuation at this occurrence is visible in the page image and independently decodes to the same glyph in pdfplumber.",
+          "context_before": " since\n1965 is chronicled on the facing page; last year Berkshire",
+          "context_after": "s advantage was 5.7 percentage points.\nSome people disagree with ",
+          "source_codepoint": "U+0092",
+          "destination_codepoint": "U+2019"
+        },
+        {
+          "start": 1537,
+          "end_exclusive": 1538,
+          "before": "",
+          "after": "“",
+          "reason": "The printed punctuation at this occurrence is visible in the page image and independently decodes to the same glyph in pdfplumber.",
+          "context_before": "eople disagree with our focus on relative figur es, arguing that ",
+          "context_after": "you cant eat relative performance.\nBut if you expect  as Charl",
+          "source_codepoint": "U+0093",
+          "destination_codepoint": "U+201C"
+        },
+        {
+          "start": 1545,
+          "end_exclusive": 1546,
+          "before": "",
+          "after": "’",
+          "reason": "The printed punctuation at this occurrence is visible in the page image and independently decodes to the same glyph in pdfplumber.",
+          "context_before": "sagree with our focus on relative figur es, arguing that you can",
+          "context_after": "t eat relative performance.\nBut if you expect  as Charlie Munge",
+          "source_codepoint": "U+0092",
+          "destination_codepoint": "U+2019"
+        },
+        {
+          "start": 1573,
+          "end_exclusive": 1574,
+          "before": "",
+          "after": "”",
+          "reason": "The printed punctuation at this occurrence is visible in the page image and independently decodes to the same glyph in pdfplumber.",
+          "context_before": "ative figur es, arguing that you cant eat relative performance.",
+          "context_after": "\nBut if you expect  as Charlie Munger, Berkshires Vice Chairman",
+          "source_codepoint": "U+0094",
+          "destination_codepoint": "U+201D"
+        },
+        {
+          "start": 1593,
+          "end_exclusive": 1594,
+          "before": "",
+          "after": "–",
+          "reason": "The printed punctuation at this occurrence is visible in the page image and independently decodes to the same glyph in pdfplumber.",
+          "context_before": "ing that you cant eat relative performance.\nBut if you expect ",
+          "context_after": " as Charlie Munger, Berkshires Vice Chairman, and I do  that ow",
+          "source_codepoint": "U+0096",
+          "destination_codepoint": "U+2013"
+        },
+        {
+          "start": 1623,
+          "end_exclusive": 1624,
+          "before": "",
+          "after": "’",
+          "reason": "The printed punctuation at this occurrence is visible in the page image and independently decodes to the same glyph in pdfplumber.",
+          "context_before": "ve performance.\nBut if you expect  as Charlie Munger, Berkshire",
+          "context_after": "s Vice Chairman, and I do  that owning the S&P 500 will\nproduce ",
+          "source_codepoint": "U+0092",
+          "destination_codepoint": "U+2019"
+        },
+        {
+          "start": 1650,
+          "end_exclusive": 1651,
+          "before": "",
+          "after": "–",
+          "reason": "The printed punctuation at this occurrence is visible in the page image and independently decodes to the same glyph in pdfplumber.",
+          "context_before": " expect  as Charlie Munger, Berkshires Vice Chairman, and I do ",
+          "context_after": " that owning the S&P 500 will\nproduce reasonably satisfactory res",
+          "source_codepoint": "U+0096",
+          "destination_codepoint": "U+2013"
+        },
+        {
+          "start": 1958,
+          "end_exclusive": 1959,
+          "before": "",
+          "after": "’",
+          "reason": "The printed punctuation at this occurrence is visible in the page image and independently decodes to the same glyph in pdfplumber.",
+          "context_before": "f you own a profitable,\nbut highly seasonal, business such as See",
+          "context_after": "s (which lose s considerable money during the summer months) so, ",
+          "source_codepoint": "U+0092",
+          "destination_codepoint": "U+2019"
+        },
+        {
+          "start": 2266,
+          "end_exclusive": 2267,
+          "before": "",
+          "after": "’",
+          "reason": "The printed punctuation at this occurrence is visible in the page image and independently decodes to the same glyph in pdfplumber.",
+          "context_before": "ory, my performance was anything but.  I manage\nmost of Berkshire",
+          "context_after": "s equity portfolio, and my results were poor, just as they have b",
+          "source_codepoint": "U+0092",
+          "destination_codepoint": "U+2019"
+        },
+        {
+          "start": 2521,
+          "end_exclusive": 2522,
+          "before": "",
+          "after": "’",
+          "reason": "The printed punctuation at this occurrence is visible in the page image and independently decodes to the same glyph in pdfplumber.",
+          "context_before": "portant, and on\nSeptember 11\nth, this error caught up with us.  I",
+          "context_after": "ll tell you more about my mistake later and what we are doing to\n",
+          "source_codepoint": "U+0092",
+          "destination_codepoint": "U+2019"
+        },
+        {
+          "start": 2651,
+          "end_exclusive": 2652,
+          "before": "",
+          "after": "“",
+          "reason": "The printed punctuation at this occurrence is visible in the page image and independently decodes to the same glyph in pdfplumber.",
+          "context_before": "\ncorrect it.\nAnother of my 1956 Ground Rules remains applicable: ",
+          "context_after": "I cannot promise results to partners.  But Charlie\nand I can pro",
+          "source_codepoint": "U+0093",
+          "destination_codepoint": "U+201C"
+        },
+        {
+          "start": 2689,
+          "end_exclusive": 2690,
+          "before": "",
+          "after": "”",
+          "reason": "The printed punctuation at this occurrence is visible in the page image and independently decodes to the same glyph in pdfplumber.",
+          "context_before": " Rules remains applicable: I cannot promise results to partners.",
+          "context_after": "  But Charlie\nand I can promise that your economic result from Be",
+          "source_codepoint": "U+0094",
+          "destination_codepoint": "U+201D"
+        },
+        {
+          "start": 3703,
+          "end_exclusive": 3704,
+          "before": "",
+          "after": "’",
+          "reason": "The printed punctuation at this occurrence is visible in the page image and independently decodes to the same glyph in pdfplumber.",
+          "context_before": "of egregious conduct\nelsewhere in corporate America.  One story I",
+          "context_after": "ve heard illustrates the all-too-common attitude of managers towa",
+          "source_codepoint": "U+0092",
+          "destination_codepoint": "U+2019"
+        }
+      ],
+      "canonical_mutation_performed": false,
+      "automatic_answer_eligibility": false,
+      "limits": [
+        "No source PDF, canonical extraction, catalog, database or existing reader was changed.",
+        "A correction to extraction does not establish historical truth or present-day applicability.",
+        "Other 2001 pages, private-use glyphs and the 80 Symbol-font spans in the alternate HTML edition are not corrected by this patch.",
+        "Existing split-word whitespace and the canonical page-number position are unchanged; this patch is not whole-page readability approval."
+      ],
+      "verified_scope": "All 23 C1 punctuation artifacts on physical page 2 only (11 apostrophes, 5 opening quotation marks, 5 closing quotation marks, 2 en dashes).",
+      "derived_text_path": "corrected-text/berkshire-letter-2001-p002-v1.txt",
+      "derived_text_sha256": "e81dbd583b2b2c6fa87bb62059485fd397f984946e290dab97629764b966b82c",
+      "changed_span_count": 23,
+      "text_length_before": 4044,
+      "text_length_after": 4044,
+      "crosscheck": "After the 23 punctuation substitutions, non-whitespace text equals independent pdfplumber extraction once the printed page-number position is disregarded. This comparison alone does not establish all-page semantic accuracy."
+    },
+    {
+      "patch_id": "berkshire-letter-2022-p008-v1",
+      "version": 1,
+      "status": "producer_visually_verified_pending_independent_review",
+      "source_id": "berkshire-letter-2022",
+      "unit_id": "berkshire-letter-2022:u0008",
+      "source_raw_sha256": "a99f263003295b177e8c50ec34f2307093857a357276527e98d5a6205e21a908",
+      "base_text_sha256": "257089e3fec7b1eecae42c115e75434947bc51848e839fbf3022aab98500e44d",
+      "physical_page": 8,
+      "printed_page": 9,
+      "image": {
+        "path": "images/letter-2022-08.png",
+        "sha256": "e93c0a8218b4dcd27185504456621b73086354ef5e7da9b3f2e7a1e3a54970bd"
+      },
+      "extractor_comparison": {
+        "path": "extractions/berkshire-letter-2022-p008.json",
+        "sha256": "7c0ad1ad00f5eeab15d09bbca44e65606f137980bf28f00337a6eacbb4a0d56b"
+      },
+      "method": "Exact changes checked against the archived PDF page image. Offsets count Unicode code points in the immutable canonical unit text.",
+      "operations": [
+        {
+          "start": 431,
+          "end_exclusive": 432,
+          "before": "",
+          "after": "•",
+          "reason": "A filled round list bullet is visible here in the PDF. Replace the C1 control artifact with U+2022; no speech wording is changed.",
+          "context_before": "ble to comprehend. Let’s put physical dimensions to the numbers:\n",
+          "context_after": " If you convert $1 million into newly-printed $100 bills, you wil",
+          "source_codepoint": "U+0081",
+          "destination_codepoint": "U+2022"
+        },
+        {
+          "start": 537,
+          "end_exclusive": 538,
+          "before": "",
+          "after": "•",
+          "reason": "A filled round list bullet is visible here in the PDF. Replace the C1 control artifact with U+2022; no speech wording is changed.",
+          "context_before": "inted $100 bills, you will have a stack that reaches\nyour chest.\n",
+          "context_after": " Perform the same exercise with $1 billion – this is getting exci",
+          "source_codepoint": "U+0081",
+          "destination_codepoint": "U+2022"
+        },
+        {
+          "start": 667,
+          "end_exclusive": 668,
+          "before": "",
+          "after": "•",
+          "reason": "A filled round list bullet is visible here in the PDF. Replace the C1 control artifact with U+2022; no speech wording is changed.",
+          "context_before": "iting! – and the stack reaches\nabout\n3⁄4 of a mile into the sky.\n",
+          "context_after": " Finally, imagine piling up $32 billion, the total of Berkshire’s",
+          "source_codepoint": "U+0081",
+          "destination_codepoint": "U+2022"
+        },
+        {
+          "start": 2080,
+          "end_exclusive": 2081,
+          "before": "",
+          "after": "•",
+          "reason": "A filled round list bullet is visible here in the PDF. Replace the C1 control artifact with U+2022; no speech wording is changed.",
+          "context_before": "e a few of his thoughts, many lifted from a very recent podcast:\n",
+          "context_after": " The world is full of foolish gamblers, and they will not do as w",
+          "source_codepoint": "U+0081",
+          "destination_codepoint": "U+2022"
+        },
+        {
+          "start": 2175,
+          "end_exclusive": 2176,
+          "before": "",
+          "after": "•",
+          "reason": "A filled round list bullet is visible here in the PDF. Replace the C1 control artifact with U+2022; no speech wording is changed.",
+          "context_before": " gamblers, and they will not do as well as the patient investor.\n",
+          "context_after": " If you don’t see the world the way it is, it’s like judging some",
+          "source_codepoint": "U+0081",
+          "destination_codepoint": "U+2022"
+        },
+        {
+          "start": 2273,
+          "end_exclusive": 2274,
+          "before": "",
+          "after": "•",
+          "reason": "A filled round list bullet is visible here in the PDF. Replace the C1 control artifact with U+2022; no speech wording is changed.",
+          "context_before": "way it is, it’s like judging something through a distorted lens.\n",
+          "context_after": " All I want to know is where I’m going to die, so I’ll never go t",
+          "source_codepoint": "U+0081",
+          "destination_codepoint": "U+2022"
+        },
+        {
+          "start": 2437,
+          "end_exclusive": 2438,
+          "before": "",
+          "after": "•",
+          "reason": "A filled round list bullet is visible here in the PDF. Replace the C1 control artifact with U+2022; no speech wording is changed.",
+          "context_before": "y on, write your desired obituary – and then behave accordingly.\n",
+          "context_after": " If you don’t care whether you are rational or not, you won’t wor",
+          "source_codepoint": "U+0081",
+          "destination_codepoint": "U+2022"
+        }
+      ],
+      "canonical_mutation_performed": false,
+      "automatic_answer_eligibility": false,
+      "limits": [
+        "No source PDF, canonical extraction, catalog, database or existing reader was changed.",
+        "A correction to extraction does not establish historical truth or present-day applicability.",
+        "Contains Buffett narration and Charlie Munger thoughts quoted by Buffett. Page-wide Buffett attribution is not approved.",
+        "The final bullet on page 9 includes Buffett narration introducing a quotation of Charlie; bullet boundaries alone do not define speaker boundaries.",
+        "No original Munger podcast or recording was checked; do not describe these as audio-verified Munger words."
+      ],
+      "verified_scope": "All 7 visible bullet glyphs on this page only.",
+      "derived_text_path": "corrected-text/berkshire-letter-2022-p008-v1.txt",
+      "derived_text_sha256": "f61ec8676460a6d16975a563a2bf1b9911a6ce5491afb00b9d8bdf0185a42fe7",
+      "changed_span_count": 7,
+      "text_length_before": 2566,
+      "text_length_after": 2566
+    },
+    {
+      "patch_id": "berkshire-letter-2022-p009-v1",
+      "version": 1,
+      "status": "producer_visually_verified_pending_independent_review",
+      "source_id": "berkshire-letter-2022",
+      "unit_id": "berkshire-letter-2022:u0009",
+      "source_raw_sha256": "a99f263003295b177e8c50ec34f2307093857a357276527e98d5a6205e21a908",
+      "base_text_sha256": "50051f7941ef192b3a6fb3e89273bb54ce8f321a9747f2bb3a0751d6b2ee0fab",
+      "physical_page": 9,
+      "printed_page": 10,
+      "image": {
+        "path": "images/letter-2022-09.png",
+        "sha256": "77f19b25dea027662794bf9cf8b30157d76b9ffc3323854100339065487cad15"
+      },
+      "extractor_comparison": {
+        "path": "extractions/berkshire-letter-2022-p009.json",
+        "sha256": "2b382a09fe0b303ebfcf6195e687d53e49018d0afd7c08a8755d1051f0555e6c"
+      },
+      "method": "Exact changes checked against the archived PDF page image. Offsets count Unicode code points in the immutable canonical unit text.",
+      "operations": [
+        {
+          "start": 0,
+          "end_exclusive": 1,
+          "before": "",
+          "after": "•",
+          "reason": "A filled round list bullet is visible here in the PDF. Replace the C1 control artifact with U+2022; no speech wording is changed.",
+          "context_before": "",
+          "context_after": " Patience can be learned. Having a long attention span and the ab",
+          "source_codepoint": "U+0081",
+          "destination_codepoint": "U+2022"
+        },
+        {
+          "start": 137,
+          "end_exclusive": 138,
+          "before": "",
+          "after": "•",
+          "reason": "A filled round list bullet is visible here in the PDF. Replace the C1 control artifact with U+2022; no speech wording is changed.",
+          "context_before": "to concentrate on one\nthing for a long time is a huge advantage.\n",
+          "context_after": " You can learn a lot from dead people. Read of the deceased you a",
+          "source_codepoint": "U+0081",
+          "destination_codepoint": "U+2022"
+        },
+        {
+          "start": 221,
+          "end_exclusive": 222,
+          "before": "",
+          "after": "•",
+          "reason": "A filled round list bullet is visible here in the PDF. Replace the C1 control artifact with U+2022; no speech wording is changed.",
+          "context_before": "ot from dead people. Read of the deceased you admire and detest.\n",
+          "context_after": " Don’t bail away in a sinking boat if you can swim to one that is",
+          "source_codepoint": "U+0081",
+          "destination_codepoint": "U+2022"
+        },
+        {
+          "start": 299,
+          "end_exclusive": 300,
+          "before": "",
+          "after": "•",
+          "reason": "A filled round list bullet is visible here in the PDF. Replace the C1 control artifact with U+2022; no speech wording is changed.",
+          "context_before": "away in a sinking boat if you can swim to one that is seaworthy.\n",
+          "context_after": " A great company keeps working after you are not; a mediocre comp",
+          "source_codepoint": "U+0081",
+          "destination_codepoint": "U+2022"
+        },
+        {
+          "start": 384,
+          "end_exclusive": 385,
+          "before": "",
+          "after": "•",
+          "reason": "A filled round list bullet is visible here in the PDF. Replace the C1 control artifact with U+2022; no speech wording is changed.",
+          "context_before": "eps working after you are not; a mediocre company won’t do that.\n",
+          "context_after": " Warren and I don’t focus on the froth of the market. We seek out",
+          "source_codepoint": "U+0081",
+          "destination_codepoint": "U+2022"
+        },
+        {
+          "start": 520,
+          "end_exclusive": 521,
+          "before": "",
+          "after": "•",
+          "reason": "A filled round list bullet is visible here in the PDF. Replace the C1 control artifact with U+2022; no speech wording is changed.",
+          "context_before": " long-term\ninvestments and stubbornly hold them for a long time.\n",
+          "context_after": " Ben Graham said, “Day to day, the stock market is a voting machi",
+          "source_codepoint": "U+0081",
+          "destination_codepoint": "U+2022"
+        },
+        {
+          "start": 739,
+          "end_exclusive": 740,
+          "before": "",
+          "after": "•",
+          "reason": "A filled round list bullet is visible here in the PDF. Replace the C1 control artifact with U+2022; no speech wording is changed.",
+          "context_before": "e, then some wise person\nis going to notice it and start buying.\n",
+          "context_after": " There is no such thing as a 100% sure thing when investing. Thus",
+          "source_codepoint": "U+0081",
+          "destination_codepoint": "U+2022"
+        },
+        {
+          "start": 941,
+          "end_exclusive": 942,
+          "before": "",
+          "after": "•",
+          "reason": "A filled round list bullet is visible here in the PDF. Replace the C1 control artifact with U+2022; no speech wording is changed.",
+          "context_before": " zero will always equal zero. Don’t count\non getting rich twice.\n",
+          "context_after": " You don’t, however, need to own a lot of things in order to get ",
+          "source_codepoint": "U+0081",
+          "destination_codepoint": "U+2022"
+        },
+        {
+          "start": 1013,
+          "end_exclusive": 1014,
+          "before": "",
+          "after": "•",
+          "reason": "A filled round list bullet is visible here in the PDF. Replace the C1 control artifact with U+2022; no speech wording is changed.",
+          "context_before": "on’t, however, need to own a lot of things in order to get rich.\n",
+          "context_after": " You have to keep learning if you want to become a great investor",
+          "source_codepoint": "U+0081",
+          "destination_codepoint": "U+2022"
+        },
+        {
+          "start": 1122,
+          "end_exclusive": 1123,
+          "before": "",
+          "after": "•",
+          "reason": "A filled round list bullet is visible here in the PDF. Replace the C1 control artifact with U+2022; no speech wording is changed.",
+          "context_before": "ecome a great investor. When the world changes,\nyou must change.\n",
+          "context_after": " Warren and I hated railroad stocks for decades, but the world ch",
+          "source_codepoint": "U+0081",
+          "destination_codepoint": "U+2022"
+        },
+        {
+          "start": 1353,
+          "end_exclusive": 1354,
+          "before": "",
+          "after": "•",
+          "reason": "A filled round list bullet is visible here in the PDF. Replace the C1 control artifact with U+2022; no speech wording is changed.",
+          "context_before": "e were\nslow to recognize the change, but better late than never.\n",
+          "context_after": " Finally, I will add two short sentences by Charlie that have bee",
+          "source_codepoint": "U+0081",
+          "destination_codepoint": "U+2022"
+        }
+      ],
+      "canonical_mutation_performed": false,
+      "automatic_answer_eligibility": false,
+      "limits": [
+        "No source PDF, canonical extraction, catalog, database or existing reader was changed.",
+        "A correction to extraction does not establish historical truth or present-day applicability.",
+        "Contains Buffett narration and Charlie Munger thoughts quoted by Buffett. Page-wide Buffett attribution is not approved.",
+        "The final bullet on page 9 includes Buffett narration introducing a quotation of Charlie; bullet boundaries alone do not define speaker boundaries.",
+        "No original Munger podcast or recording was checked; do not describe these as audio-verified Munger words."
+      ],
+      "verified_scope": "All 11 visible bullet glyphs on this page only.",
+      "derived_text_path": "corrected-text/berkshire-letter-2022-p009-v1.txt",
+      "derived_text_sha256": "b3adaa1ad8ef4f75ac52239dbc02d7c2d0e7b54a6af7b1165293ef874c7fe3f6",
+      "changed_span_count": 11,
+      "text_length_before": 2739,
+      "text_length_after": 2739
+    },
+    {
+      "patch_id": "nbc-brokaw-interview-date-unresolved-p021-v1",
+      "version": 1,
+      "status": "producer_visually_verified_pending_independent_review",
+      "source_id": "nbc-brokaw-interview-date-unresolved",
+      "unit_id": "nbc-brokaw-interview-date-unresolved:p021",
+      "source_raw_sha256": "9f99649114f406840b0595bb7cde9c778a35ad538f04b16b9db7face80ad4a21",
+      "base_text_sha256": "73f4b9d0dce1d9b9939ddea4de853509ea44a9a66a64341baa22b1feced3689c",
+      "physical_page": 21,
+      "printed_page": null,
+      "image": {
+        "path": "images/nbc-brokaw-interview-date-unresolved-p021-pdfium.png",
+        "sha256": "96522a326c76d12dc59ad4c51b8d0deea72c46e9217b1de8d1fb5bf82d601b0b"
+      },
+      "extractor_comparison": {
+        "path": "extractions/nbc-brokaw-interview-date-unresolved-p021.json",
+        "sha256": "9ce7440df5532e018acdca98322fdf2ee019084efe11a1996658e5e9bc7ca8ef"
+      },
+      "method": "Exact changes checked against the archived PDF page image. Offsets count Unicode code points in the immutable canonical unit text.",
+      "operations": [
+        {
+          "start": 0,
+          "end_exclusive": 1885,
+          "before": " \n \nWe wouldn't know it if we found it. The-- the important thing to do is do what we know we\nneed to do now. And-- and we'll always-- there will always be critics on that. That-- that-- the \nimportant thing is, that the person that's there takes the action that makes sense at the tim\nDid we handle the-- the aftermath of Pearl Harbor the next month perfectly? I don't know \nwhether we did or not. But I w\n \ne. \nould doubt that. You know, somebody now can come up with a \netter system. The important thing is, we got going.  \nd \nUFFETT:  \nell, I-- I would say this. I-- I've never quite seen the amount of good will. I mean that-- the \neople realize this is \nmething very big and something important. And so, they are not-- nobody is hoping he falls \nSo they are-- they are going to be behind him. And-- in a big way. I--  \n been impressed by his appoint-- they've been impressed by what he's said-- \nnce-- since-- Election Day. I mean-- you know, I-- I have heard amazingly little-- carping at-\n who, you know, they-- they didn't want \n-- they didn't vote for him. And you know, he doesn't quite stand for what they believe in. \ny-- they want him to succeed.  \nBUFFETT:  \nthink-- my guess is he's been to the Dairy Queen. \nb\n \nBROKAW:  \n \nA year ago, some of your big business friends and Republican friends were pretty critical an\npretty skeptical about Barack Obama. Have they come around?  \n \nB\n \nW\npeople that didn't vote for him-- I've got plenty of friends that didn't  ... -- are-- are-- they \nwere critical of him. They want him to succeed. I mean, there's-- p\nso\non his face. \n \nBROKAW:  \n \nAnd they've been impressed by his appointments.  \n \nBUFFETT:  \n \nYeah, they've\nsi\n- at-- at Obama since-- since the election by people\nto\nBut boy, the\n \nBROKAW:  \n \nDo you think you'll ever get him to stop by a Dairy \nQueen? (LAUGHTER)  \n \n \nI \nI'll work on his girls. (LAUGHTER)  \n ",
+          "after": "We wouldn't know it if we found it. The-- the important thing to do is do what we know we\nneed to do now. And-- and we'll always-- there will always be critics on that. That-- that-- the\nimportant thing is, that the person that's there takes the action that makes sense at the time.\nDid we handle the-- the aftermath of Pearl Harbor the next month perfectly? I don't know\nwhether we did or not. But I would doubt that. You know, somebody now can come up with a\nbetter system. The important thing is, we got going.\nBROKAW:\nA year ago, some of your big business friends and Republican friends were pretty critical and\npretty skeptical about Barack Obama. Have they come around?\nBUFFETT:\nWell, I-- I would say this. I-- I've never quite seen the amount of good will. I mean that-- the\npeople that didn't vote for him-- I've got plenty of friends that didn't ... -- are-- are-- they\nwere critical of him. They want him to succeed. I mean, there's-- people realize this is\nsomething very big and something important. And so, they are not-- nobody is hoping he falls\non his face. So they are-- they are going to be behind him. And-- in a big way. I--\nBROKAW:\nAnd they've been impressed by his appointments.\nBUFFETT:\nYeah, they've been impressed by his appoint-- they've been impressed by what he's said--\nsince-- since-- Election Day. I mean-- you know, I-- I have heard amazingly little-- carping at-\n- at-- at Obama since-- since the election by people who, you know, they-- they didn't want\nto-- they didn't vote for him. And you know, he doesn't quite stand for what they believe in.\nBut boy, they-- they want him to succeed.\nBROKAW:\nDo you think you'll ever get him to stop by a Dairy\nQueen? (LAUGHTER)\nBUFFETT:\nI think-- my guess is he's been to the Dairy Queen.\nI'll work on his girls. (LAUGHTER)",
+          "reason": "Replace the corrupted pypdf reading order with the already preserved pdfminer candidate, newly checked against the whole page image. This restores split words and all six explicit speaker labels without inferring the unlabelled opening speaker.",
+          "context_before": "",
+          "context_after": ""
+        }
+      ],
+      "canonical_mutation_performed": false,
+      "automatic_answer_eligibility": false,
+      "limits": [
+        "No source PDF, canonical extraction, catalog, database or existing reader was changed.",
+        "A correction to extraction does not establish historical truth or present-day applicability.",
+        "The unlabelled opening paragraph stays unattributed and is not a complete standalone Q&A unit.",
+        "The source date remains unresolved; neither the filename nor contextual inference has been used to change it.",
+        "No recording was checked. This patch does not revoke the canonical default-search quarantine.",
+        "Branding and photograph remain in the raw PDF and page image; the proposed text only covers the visible transcript."
+      ],
+      "candidate_provenance": {
+        "path": "outputs/巴菲特知识库/audit/derived-alternatives/brokaw-physical-page-21-pdfminer-candidate.json",
+        "sha256": "93fe1c6de17b55a222b4241297b7465e7b6f6bd734f3c9899a1ad0c67c773efe",
+        "candidate_text_sha256": "e982e9aae18cc7366e11b4d63959255181c36c8a9b31165036014aaa61aa5215"
+      },
+      "verified_scope": "Visible text reading order and wording on physical page 21; explicit BROKAW and BUFFETT labels, with no added opening label.",
+      "derived_text_path": "corrected-text/nbc-brokaw-interview-date-unresolved-p021-v1.txt",
+      "derived_text_sha256": "e982e9aae18cc7366e11b4d63959255181c36c8a9b31165036014aaa61aa5215",
+      "changed_span_count": 1,
+      "text_length_before": 1885,
+      "text_length_after": 1797
+    }
+  ],
+  "table_file": {
+    "path": "tables.json",
+    "sha256": "63dc7a684838522f780c007166c7b90dde8f60348c43c650d649ff3843e664e8"
+  },
+  "validation": {
+    "raw_and_canonical_units_files_unchanged": true,
+    "all_base_unit_hashes_match": true,
+    "all_exact_spans_match": true,
+    "all_spans_nonoverlapping": true,
+    "all_patch_outputs_reconstructed_from_recorded_operations": true,
+    "new_pdf_semantic_or_audio_certification": false,
+    "translation_performed": false
+  },
+  "application_contract": [
+    "Do not write these corrections into the raw archive or canonical extraction.",
+    "A derived layer may apply operations only after matching raw SHA-256, unit ID, base text SHA-256 and all exact before-spans.",
+    "Apply offsets from the immutable original text in descending order, then verify derived_text_sha256.",
+    "Independent review is required before labeling any changed span accepted.",
+    "Automatic answer eligibility remains false. Separately review complete evidence units, attribution, context and dates."
+  ],
+  "unresolved": [
+    {
+      "id": "2001-remaining-glyphs",
+      "scope": "2001 other physical pages and alternate HTML Symbol-font spans",
+      "disposition": "No blanket code-point mapping or replacement approved; retain extraction risk and exclude unresolved spans from accepted answer evidence."
+    },
+    {
+      "id": "2022-mixed-attribution",
+      "scope": "2022 physical pages 8–9",
+      "disposition": "Bullet repair does not resolve author attribution. Keep separate Buffett narration, Munger thoughts reported by Buffett, and nested quotations. No whole-page Buffett attribution."
+    },
+    {
+      "id": "brokaw-date-and-page-start",
+      "scope": "Brokaw PDF date and unlabelled opening of physical page 21",
+      "disposition": "Date unresolved. Opening remains unassigned; explicit labels only. Canonical quarantine unchanged."
+    },
+    {
+      "id": "unreviewed-corpus",
+      "scope": "All pages and tables outside this exact batch",
+      "disposition": "No approval inferred from these repairs."
+    }
+  ],
+  "rendering": {
+    "2013_and_2022": "Poppler pdftoppm, scale-to 1900 PNG",
+    "2001_and_brokaw": "PDFium 2.5x PNG fallback: bundled Poppler emitted fontconfig cache/config errors for these sources. Only successful PDFium renders used as visual evidence.",
+    "all_six_final_images_inspected": true
+  }
+}

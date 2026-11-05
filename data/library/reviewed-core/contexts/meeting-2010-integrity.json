@@ -1,0 +1,1005 @@
+{
+  "id": "meeting-2010-integrity",
+  "source_id": "cnbc-meeting-2010-afternoon",
+  "source_unit_id": "cnbc-meeting-2010-afternoon-ch17",
+  "title": "17. Biggest threat to integrity: \"everyone else is doing it\"",
+  "title_kind": "Publisher editorial heading",
+  "event_date": "2010-05-01",
+  "date_basis": {
+    "kind": "publisher_event_landing_description",
+    "anchor": "(May 1, 2010)",
+    "source_url": "https://buffett.cnbc.com/2010-berkshire-hathaway-annual-meeting/",
+    "source_raw_sha256": "ba44d29d39c8c85382259316df51313349812a9208951d6d2a679605493f886b"
+  },
+  "source_url": "https://buffett.cnbc.com/video/2010/05/01/afternoon-session---2010-berkshire-hathaway-annual-meeting.html",
+  "source_raw_path": "meetings/raw/cnbc-meeting-2010-afternoon.html",
+  "source_raw_sha256": "6e6188034ddc83877bee9af30c548b9053cfe9dc7ac46160a30f3631e632d117",
+  "boundary": "Complete publisher chapter. Adjacent chapters begin different questions; this is a bounded exchange, not all related remarks in the session.",
+  "paragraphs": [
+    {
+      "text_as_received": "WARREN BUFFETT: OK Number 8.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": "ChapterParagraph-chapterParagraphSpeaker"
+      },
+      "id": "cnbc-meeting-2010-afternoon-ch17-p001",
+      "paragraph_index": 1,
+      "reading_text": "WARREN BUFFETT: OK Number 8.",
+      "reversible_encoding_repairs": [],
+      "text_sha256": "4db102d196104d7bea1b779ee9cf83af58baa6bc0a4dcf05df24096b3d4237f6",
+      "speaker_label": "WARREN BUFFETT",
+      "speaker_name_label": "WARREN BUFFETT",
+      "speaker_label_kind": "speaker_or_role_label",
+      "contextual_speaker_label": "WARREN BUFFETT",
+      "canonical_speaker": "Warren Buffett",
+      "candidate_speaker": "Warren Buffett",
+      "attribution_basis": "explicit_text_label",
+      "locator": {
+        "chapter_number": 17,
+        "paragraph_index": 1,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "AUDIENCE MEMBER: Dear Mr. Buffett, dear Mr. Munger. My name is Richard Rentrop. I'm a shareholder from Germany.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2010-afternoon-ch17-p002",
+      "paragraph_index": 2,
+      "reading_text": "AUDIENCE MEMBER: Dear Mr. Buffett, dear Mr. Munger. My name is Richard Rentrop. I'm a shareholder from Germany.",
+      "reversible_encoding_repairs": [],
+      "text_sha256": "aa184e76ce57845b076ffa699597f5d0e4da098439e30d3e4d2b0deb56f1da58",
+      "speaker_label": "AUDIENCE MEMBER",
+      "speaker_name_label": "AUDIENCE MEMBER",
+      "speaker_label_kind": "speaker_or_role_label",
+      "contextual_speaker_label": "AUDIENCE MEMBER",
+      "canonical_speaker": "Audience member",
+      "candidate_speaker": "Audience member",
+      "attribution_basis": "explicit_text_label",
+      "locator": {
+        "chapter_number": 17,
+        "paragraph_index": 2,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "Mr. Munger, you just mentioned again the importance of integrity. My question is about changes in integrity of management.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2010-afternoon-ch17-p003",
+      "paragraph_index": 3,
+      "reading_text": "Mr. Munger, you just mentioned again the importance of integrity. My question is about changes in integrity of management.",
+      "reversible_encoding_repairs": [],
+      "text_sha256": "1471b34a7c5890305b5d62a91f1127c093930186005a596ad2af060b9593692a",
+      "speaker_label": null,
+      "speaker_name_label": null,
+      "speaker_label_kind": null,
+      "contextual_speaker_label": "AUDIENCE MEMBER",
+      "canonical_speaker": null,
+      "candidate_speaker": "Audience member",
+      "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+      "locator": {
+        "chapter_number": 17,
+        "paragraph_index": 3,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "One of your three key questions is, does management love what they do or does management love the money? So how do you see the crisis having changed integrity of management?",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2010-afternoon-ch17-p004",
+      "paragraph_index": 4,
+      "reading_text": "One of your three key questions is, does management love what they do or does management love the money? So how do you see the crisis having changed integrity of management?",
+      "reversible_encoding_repairs": [],
+      "text_sha256": "82ec9490181296eecd8aa4ea46c562d080a20f895c4b7002f128c283c92cee13",
+      "speaker_label": null,
+      "speaker_name_label": null,
+      "speaker_label_kind": null,
+      "contextual_speaker_label": "AUDIENCE MEMBER",
+      "canonical_speaker": null,
+      "candidate_speaker": "Audience member",
+      "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+      "locator": {
+        "chapter_number": 17,
+        "paragraph_index": 4,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "CHARLIE MUNGER: I think what led to the crisis involved, to some extent, a lack of integrity in many a management. Fortunately, some of them are now gone. So, integrity's very important.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2010-afternoon-ch17-p005",
+      "paragraph_index": 5,
+      "reading_text": "CHARLIE MUNGER: I think what led to the crisis involved, to some extent, a lack of integrity in many a management. Fortunately, some of them are now gone. So, integrity's very important.",
+      "reversible_encoding_repairs": [],
+      "text_sha256": "8889837dd5884b7238ce6252af3abbd86788c03177ea3334daaed255a7b32915",
+      "speaker_label": "CHARLIE MUNGER",
+      "speaker_name_label": "CHARLIE MUNGER",
+      "speaker_label_kind": "speaker_or_role_label",
+      "contextual_speaker_label": "CHARLIE MUNGER",
+      "canonical_speaker": "Charlie Munger",
+      "candidate_speaker": "Charlie Munger",
+      "attribution_basis": "explicit_text_label",
+      "locator": {
+        "chapter_number": 17,
+        "paragraph_index": 5,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "It's the safest way to make money, also. There's an occasional perfect knave who succeeds pretty well with money, but that kind of success reminds me of what Pope Urban said about Cardinal Richelieu.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2010-afternoon-ch17-p006",
+      "paragraph_index": 6,
+      "reading_text": "It's the safest way to make money, also. There's an occasional perfect knave who succeeds pretty well with money, but that kind of success reminds me of what Pope Urban said about Cardinal Richelieu.",
+      "reversible_encoding_repairs": [],
+      "text_sha256": "65f886a0e232fc32300997397a6513b192dd3fc03722570367319088d08887ab",
+      "speaker_label": null,
+      "speaker_name_label": null,
+      "speaker_label_kind": null,
+      "contextual_speaker_label": "CHARLIE MUNGER",
+      "canonical_speaker": null,
+      "candidate_speaker": "Charlie Munger",
+      "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+      "locator": {
+        "chapter_number": 17,
+        "paragraph_index": 6,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "He said, \"If there is a God, Cardinal Richelieu has much to answer for. But if there is no God, he's done rather well.\" (Laughter)",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2010-afternoon-ch17-p007",
+      "paragraph_index": 7,
+      "reading_text": "He said, \"If there is a God, Cardinal Richelieu has much to answer for. But if there is no God, he's done rather well.\" (Laughter)",
+      "reversible_encoding_repairs": [],
+      "text_sha256": "2ff007fa8b409fd842537b118b6c49df36e07e6d4e274f99ce7c761b1fbfe439",
+      "speaker_label": null,
+      "speaker_name_label": null,
+      "speaker_label_kind": null,
+      "contextual_speaker_label": "CHARLIE MUNGER",
+      "canonical_speaker": null,
+      "candidate_speaker": "Charlie Munger",
+      "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+      "locator": {
+        "chapter_number": 17,
+        "paragraph_index": 7,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "And too many people want to be like Pope Urban's view of Cardinal Richelieu.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2010-afternoon-ch17-p008",
+      "paragraph_index": 8,
+      "reading_text": "And too many people want to be like Pope Urban's view of Cardinal Richelieu.",
+      "reversible_encoding_repairs": [],
+      "text_sha256": "d4d5aff883ef617cf858df1696b7b2fa4d8415d6cc090287e4a4c69247573a77",
+      "speaker_label": null,
+      "speaker_name_label": null,
+      "speaker_label_kind": null,
+      "contextual_speaker_label": "CHARLIE MUNGER",
+      "canonical_speaker": null,
+      "candidate_speaker": "Charlie Munger",
+      "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+      "locator": {
+        "chapter_number": 17,
+        "paragraph_index": 8,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "And â the integrity is important, it's terribly important. And of course everybody mouths the integrity, even when it's lacking.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2010-afternoon-ch17-p009",
+      "paragraph_index": 9,
+      "reading_text": "And — the integrity is important, it's terribly important. And of course everybody mouths the integrity, even when it's lacking.",
+      "reversible_encoding_repairs": [
+        {
+          "before": "â",
+          "after": "—",
+          "roundtrip_codec": "latin-1"
+        }
+      ],
+      "text_sha256": "e9ddbee89df7e338f5d20fd5c4ab3a5166ef513890d05d5b2bbba87e4fd90e50",
+      "speaker_label": null,
+      "speaker_name_label": null,
+      "speaker_label_kind": null,
+      "contextual_speaker_label": "CHARLIE MUNGER",
+      "canonical_speaker": null,
+      "candidate_speaker": "Charlie Munger",
+      "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+      "locator": {
+        "chapter_number": 17,
+        "paragraph_index": 9,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "So it's difficult to be sure that professing integrity is the same as having it.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2010-afternoon-ch17-p010",
+      "paragraph_index": 10,
+      "reading_text": "So it's difficult to be sure that professing integrity is the same as having it.",
+      "reversible_encoding_repairs": [],
+      "text_sha256": "fd66a6b60b51e237a2b6a92d950c0fc6640e0b22aba9d4952c184101dc034324",
+      "speaker_label": null,
+      "speaker_name_label": null,
+      "speaker_label_kind": null,
+      "contextual_speaker_label": "CHARLIE MUNGER",
+      "canonical_speaker": null,
+      "candidate_speaker": "Charlie Munger",
+      "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+      "locator": {
+        "chapter_number": 17,
+        "paragraph_index": 10,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "WARREN BUFFETT: The \"everyone else is doing it\" is the toughest thing. I think â",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2010-afternoon-ch17-p011",
+      "paragraph_index": 11,
+      "reading_text": "WARREN BUFFETT: The \"everyone else is doing it\" is the toughest thing. I think —",
+      "reversible_encoding_repairs": [
+        {
+          "before": "â",
+          "after": "—",
+          "roundtrip_codec": "latin-1"
+        }
+      ],
+      "text_sha256": "5656390bca830b5afe706304a801175a69876a1f8a5eb1c1de679e337489e6ee",
+      "speaker_label": "WARREN BUFFETT",
+      "speaker_name_label": "WARREN BUFFETT",
+      "speaker_label_kind": "speaker_or_role_label",
+      "contextual_speaker_label": "WARREN BUFFETT",
+      "canonical_speaker": "Warren Buffett",
+      "candidate_speaker": "Warren Buffett",
+      "attribution_basis": "explicit_text_label",
+      "locator": {
+        "chapter_number": 17,
+        "paragraph_index": 11,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "CHARLIE MUNGER: Yeah.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2010-afternoon-ch17-p012",
+      "paragraph_index": 12,
+      "reading_text": "CHARLIE MUNGER: Yeah.",
+      "reversible_encoding_repairs": [],
+      "text_sha256": "8986b898508373f131a8e847158e78ecf40b3ddc48eaaac14e70dfbc1f897a28",
+      "speaker_label": "CHARLIE MUNGER",
+      "speaker_name_label": "CHARLIE MUNGER",
+      "speaker_label_kind": "speaker_or_role_label",
+      "contextual_speaker_label": "CHARLIE MUNGER",
+      "canonical_speaker": "Charlie Munger",
+      "candidate_speaker": "Charlie Munger",
+      "attribution_basis": "explicit_text_label",
+      "locator": {
+        "chapter_number": 17,
+        "paragraph_index": 12,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "WARREN BUFFETT: You had this classic example. In about 1993, roughly, you know, the Accounting Standards Board came out and says what was obvious to everybody all along, was that stock options were actually expense, and that expenses, for some reason or another, belonged on the income statement.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2010-afternoon-ch17-p013",
+      "paragraph_index": 13,
+      "reading_text": "WARREN BUFFETT: You had this classic example. In about 1993, roughly, you know, the Accounting Standards Board came out and says what was obvious to everybody all along, was that stock options were actually expense, and that expenses, for some reason or another, belonged on the income statement.",
+      "reversible_encoding_repairs": [],
+      "text_sha256": "1e96871ec3d1ff1ad19bdb5e0600c9f52d7a831229d7663f5fa6842ec94152bf",
+      "speaker_label": "WARREN BUFFETT",
+      "speaker_name_label": "WARREN BUFFETT",
+      "speaker_label_kind": "speaker_or_role_label",
+      "contextual_speaker_label": "WARREN BUFFETT",
+      "canonical_speaker": "Warren Buffett",
+      "candidate_speaker": "Warren Buffett",
+      "attribution_basis": "explicit_text_label",
+      "locator": {
+        "chapter_number": 17,
+        "paragraph_index": 13,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "And America â corporate America â fought back like you cannot believe. I mean, it was like World War III had broken out, in terms of armies of CEOs marching on Washington.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2010-afternoon-ch17-p014",
+      "paragraph_index": 14,
+      "reading_text": "And America — corporate America — fought back like you cannot believe. I mean, it was like World War III had broken out, in terms of armies of CEOs marching on Washington.",
+      "reversible_encoding_repairs": [
+        {
+          "before": "â",
+          "after": "—",
+          "roundtrip_codec": "latin-1"
+        },
+        {
+          "before": "â",
+          "after": "—",
+          "roundtrip_codec": "latin-1"
+        }
+      ],
+      "text_sha256": "ce31aa5ecf19e2d763d2c9ccd7279b93732f2b7af7279124dd16f19c00afc587",
+      "speaker_label": null,
+      "speaker_name_label": null,
+      "speaker_label_kind": null,
+      "contextual_speaker_label": "WARREN BUFFETT",
+      "canonical_speaker": null,
+      "candidate_speaker": "Warren Buffett",
+      "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+      "locator": {
+        "chapter_number": 17,
+        "paragraph_index": 14,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "So the Accounting Standard Board backed off. Congress â the Senate â voted 88 to 9 to tell them that, you know, what the hell did the Accounting Standards Board know about accounting, and that the Senate would tell them what accounting was all about.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2010-afternoon-ch17-p015",
+      "paragraph_index": 15,
+      "reading_text": "So the Accounting Standard Board backed off. Congress — the Senate — voted 88 to 9 to tell them that, you know, what the hell did the Accounting Standards Board know about accounting, and that the Senate would tell them what accounting was all about.",
+      "reversible_encoding_repairs": [
+        {
+          "before": "â",
+          "after": "—",
+          "roundtrip_codec": "latin-1"
+        },
+        {
+          "before": "â",
+          "after": "—",
+          "roundtrip_codec": "latin-1"
+        }
+      ],
+      "text_sha256": "1714ad2f8155ae6addd4e04e053312006722d7238c6009af665b606a64bf831d",
+      "speaker_label": null,
+      "speaker_name_label": null,
+      "speaker_label_kind": null,
+      "contextual_speaker_label": "WARREN BUFFETT",
+      "canonical_speaker": null,
+      "candidate_speaker": "Warren Buffett",
+      "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+      "locator": {
+        "chapter_number": 17,
+        "paragraph_index": 15,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "When the Accounting Standards Board backed off, they said, \"We'll now say that you can do it one of two ways. Number one is preferred,\" which was to expense. Number two was acceptable, but not preferred.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2010-afternoon-ch17-p016",
+      "paragraph_index": 16,
+      "reading_text": "When the Accounting Standards Board backed off, they said, \"We'll now say that you can do it one of two ways. Number one is preferred,\" which was to expense. Number two was acceptable, but not preferred.",
+      "reversible_encoding_repairs": [],
+      "text_sha256": "e424ca0ee77a96b32d6901365f79dc9edf6fd0debbd6e59891149faf9ebf6774",
+      "speaker_label": null,
+      "speaker_name_label": null,
+      "speaker_label_kind": null,
+      "contextual_speaker_label": "WARREN BUFFETT",
+      "canonical_speaker": null,
+      "candidate_speaker": "Warren Buffett",
+      "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+      "locator": {
+        "chapter_number": 17,
+        "paragraph_index": 16,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "Of the Standard & Poor's 500 companies, 498 chose number two, the non-preferred way. Two took the preferred method.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2010-afternoon-ch17-p017",
+      "paragraph_index": 17,
+      "reading_text": "Of the Standard & Poor's 500 companies, 498 chose number two, the non-preferred way. Two took the preferred method.",
+      "reversible_encoding_repairs": [],
+      "text_sha256": "79ee96d40c82f0aca081965cb00192eefdeb732cae76cca3d0f88730001d6f00",
+      "speaker_label": null,
+      "speaker_name_label": null,
+      "speaker_label_kind": null,
+      "contextual_speaker_label": "WARREN BUFFETT",
+      "canonical_speaker": null,
+      "candidate_speaker": "Warren Buffett",
+      "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+      "locator": {
+        "chapter_number": 17,
+        "paragraph_index": 17,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "And I talked to a number of people in that 498 that I would trust to be a trustee of my will, you know, I'd love to have them as a next door neighbor, they could marry my daughter, but in the end they said, \"I can't do it if the other guy isn't doing it.\"",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2010-afternoon-ch17-p018",
+      "paragraph_index": 18,
+      "reading_text": "And I talked to a number of people in that 498 that I would trust to be a trustee of my will, you know, I'd love to have them as a next door neighbor, they could marry my daughter, but in the end they said, \"I can't do it if the other guy isn't doing it.\"",
+      "reversible_encoding_repairs": [],
+      "text_sha256": "61fab87adc3449a20e2ad9bd22b3768eaaac233f1af1e3f0d8649c3d5929acf1",
+      "speaker_label": null,
+      "speaker_name_label": null,
+      "speaker_label_kind": null,
+      "contextual_speaker_label": "WARREN BUFFETT",
+      "canonical_speaker": null,
+      "candidate_speaker": "Warren Buffett",
+      "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+      "locator": {
+        "chapter_number": 17,
+        "paragraph_index": 18,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "It was a variation on the, \"I'm doing it because the other guy is doing it.\"",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2010-afternoon-ch17-p019",
+      "paragraph_index": 19,
+      "reading_text": "It was a variation on the, \"I'm doing it because the other guy is doing it.\"",
+      "reversible_encoding_repairs": [],
+      "text_sha256": "1a29039eef61840857a964d013e3192e145b0f21cc1ca31411bde7f471e75e31",
+      "speaker_label": null,
+      "speaker_name_label": null,
+      "speaker_label_kind": null,
+      "contextual_speaker_label": "WARREN BUFFETT",
+      "canonical_speaker": null,
+      "candidate_speaker": "Warren Buffett",
+      "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+      "locator": {
+        "chapter_number": 17,
+        "paragraph_index": 19,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "They basically said, \"I'll be penalizing my shareholders if I report less in the way of earnings than I can report. And all the other guys are doing it that way, and I understand your point.\"",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2010-afternoon-ch17-p020",
+      "paragraph_index": 20,
+      "reading_text": "They basically said, \"I'll be penalizing my shareholders if I report less in the way of earnings than I can report. And all the other guys are doing it that way, and I understand your point.\"",
+      "reversible_encoding_repairs": [],
+      "text_sha256": "a9cad73ebe0ce69f4644763b0d43c6db17da5f0a7593c08fa16cbca3d5c4bdfb",
+      "speaker_label": null,
+      "speaker_name_label": null,
+      "speaker_label_kind": null,
+      "contextual_speaker_label": "WARREN BUFFETT",
+      "canonical_speaker": null,
+      "candidate_speaker": "Warren Buffett",
+      "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+      "locator": {
+        "chapter_number": 17,
+        "paragraph_index": 20,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "And the situational ethics problem is huge. I gave you earlier that illustration of how rare it is to find, if you carry it out to tenths of a cent, a four in reported earnings, quarterly.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2010-afternoon-ch17-p021",
+      "paragraph_index": 21,
+      "reading_text": "And the situational ethics problem is huge. I gave you earlier that illustration of how rare it is to find, if you carry it out to tenths of a cent, a four in reported earnings, quarterly.",
+      "reversible_encoding_repairs": [],
+      "text_sha256": "ef8aa4567f30b51b222c5fb211f1c93d94324572ff9eba48e897a2d8b86dd749",
+      "speaker_label": null,
+      "speaker_name_label": null,
+      "speaker_label_kind": null,
+      "contextual_speaker_label": "WARREN BUFFETT",
+      "canonical_speaker": null,
+      "candidate_speaker": "Warren Buffett",
+      "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+      "locator": {
+        "chapter_number": 17,
+        "paragraph_index": 21,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "That's not accidental and it's â but if you talk to the people that play games to get that four up to five, they would say, \"Everybody else is doing it, your own statistics proved that.\"",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2010-afternoon-ch17-p022",
+      "paragraph_index": 22,
+      "reading_text": "That's not accidental and it's — but if you talk to the people that play games to get that four up to five, they would say, \"Everybody else is doing it, your own statistics proved that.\"",
+      "reversible_encoding_repairs": [
+        {
+          "before": "â",
+          "after": "—",
+          "roundtrip_codec": "latin-1"
+        }
+      ],
+      "text_sha256": "5252d1f37f6fd425bcdd7d8f4e238a33f2bbfe09f8842b4ba2d0cdcb5c34ae1a",
+      "speaker_label": null,
+      "speaker_name_label": null,
+      "speaker_label_kind": null,
+      "contextual_speaker_label": "WARREN BUFFETT",
+      "canonical_speaker": null,
+      "candidate_speaker": "Warren Buffett",
+      "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+      "locator": {
+        "chapter_number": 17,
+        "paragraph_index": 22,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "And that is, you know, it is a tough problem to deal with.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2010-afternoon-ch17-p023",
+      "paragraph_index": 23,
+      "reading_text": "And that is, you know, it is a tough problem to deal with.",
+      "reversible_encoding_repairs": [],
+      "text_sha256": "f402de6ed894bd477f8822e954d86f25274f0d9cf7a066084c57e80994eea6bd",
+      "speaker_label": null,
+      "speaker_name_label": null,
+      "speaker_label_kind": null,
+      "contextual_speaker_label": "WARREN BUFFETT",
+      "canonical_speaker": null,
+      "candidate_speaker": "Warren Buffett",
+      "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+      "locator": {
+        "chapter_number": 17,
+        "paragraph_index": 23,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "We try to create as few situations in Berkshire as we can that would induce such behavior. I don't have the managers submit budgets to me, there is no Berkshire budget, you know. They can use them in their own operations. Some do and some don't. Many do, a great many do.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2010-afternoon-ch17-p024",
+      "paragraph_index": 24,
+      "reading_text": "We try to create as few situations in Berkshire as we can that would induce such behavior. I don't have the managers submit budgets to me, there is no Berkshire budget, you know. They can use them in their own operations. Some do and some don't. Many do, a great many do.",
+      "reversible_encoding_repairs": [],
+      "text_sha256": "e6a990f76cfab649bf33f2dafcaa65cb399aca260a184c4639e34a6280944ddb",
+      "speaker_label": null,
+      "speaker_name_label": null,
+      "speaker_label_kind": null,
+      "contextual_speaker_label": "WARREN BUFFETT",
+      "canonical_speaker": null,
+      "candidate_speaker": "Warren Buffett",
+      "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+      "locator": {
+        "chapter_number": 17,
+        "paragraph_index": 24,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "But if they submit them to me, you know, and the temptation becomes, if they're not quite making it and they think I'm looking at them all the time, the temptation becomes to fudge in some way.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2010-afternoon-ch17-p025",
+      "paragraph_index": 25,
+      "reading_text": "But if they submit them to me, you know, and the temptation becomes, if they're not quite making it and they think I'm looking at them all the time, the temptation becomes to fudge in some way.",
+      "reversible_encoding_repairs": [],
+      "text_sha256": "f8a645558681ee96c520070388bc0586eceb3fa2abca7163c97f2fd913000f45",
+      "speaker_label": null,
+      "speaker_name_label": null,
+      "speaker_label_kind": null,
+      "contextual_speaker_label": "WARREN BUFFETT",
+      "canonical_speaker": null,
+      "candidate_speaker": "Warren Buffett",
+      "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+      "locator": {
+        "chapter_number": 17,
+        "paragraph_index": 25,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "And very few would do it, but the more that thought the other ones were doing it, the more that would do it. It's just human behavior. And you want to try and create a structure that minimizes the weaknesses in human behavior.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2010-afternoon-ch17-p026",
+      "paragraph_index": 26,
+      "reading_text": "And very few would do it, but the more that thought the other ones were doing it, the more that would do it. It's just human behavior. And you want to try and create a structure that minimizes the weaknesses in human behavior.",
+      "reversible_encoding_repairs": [],
+      "text_sha256": "15d06b82c59d5b21e2b992a63777ff6371cb14531e23d20975bb01361b5d309b",
+      "speaker_label": null,
+      "speaker_name_label": null,
+      "speaker_label_kind": null,
+      "contextual_speaker_label": "WARREN BUFFETT",
+      "canonical_speaker": null,
+      "candidate_speaker": "Warren Buffett",
+      "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+      "locator": {
+        "chapter_number": 17,
+        "paragraph_index": 26,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "And I think Berkshire's about as good a place at that as any, although I'm sure we're not perfect at it.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2010-afternoon-ch17-p027",
+      "paragraph_index": 27,
+      "reading_text": "And I think Berkshire's about as good a place at that as any, although I'm sure we're not perfect at it.",
+      "reversible_encoding_repairs": [],
+      "text_sha256": "8e2bee5b4da861b079048cc707a722882625cebea092ddd1f85e981c84de7a58",
+      "speaker_label": null,
+      "speaker_name_label": null,
+      "speaker_label_kind": null,
+      "contextual_speaker_label": "WARREN BUFFETT",
+      "canonical_speaker": null,
+      "candidate_speaker": "Warren Buffett",
+      "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+      "locator": {
+        "chapter_number": 17,
+        "paragraph_index": 27,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "Charlie?",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2010-afternoon-ch17-p028",
+      "paragraph_index": 28,
+      "reading_text": "Charlie?",
+      "reversible_encoding_repairs": [],
+      "text_sha256": "d3ffec464638bbb765725fd0b7ab2c25a1543d8fbd4f7b6f2b587fc56726d30e",
+      "speaker_label": null,
+      "speaker_name_label": null,
+      "speaker_label_kind": null,
+      "contextual_speaker_label": "WARREN BUFFETT",
+      "canonical_speaker": null,
+      "candidate_speaker": "Warren Buffett",
+      "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+      "locator": {
+        "chapter_number": 17,
+        "paragraph_index": 28,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "CHARLIE MUNGER: Yeah, what's really interesting on this issue is that so much of the bad behavior does not come from malevolence or overweening greed or anything like that.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2010-afternoon-ch17-p029",
+      "paragraph_index": 29,
+      "reading_text": "CHARLIE MUNGER: Yeah, what's really interesting on this issue is that so much of the bad behavior does not come from malevolence or overweening greed or anything like that.",
+      "reversible_encoding_repairs": [],
+      "text_sha256": "2b6ec0a57261161219646cebe6cf43a7babc5dbdf27d411a6b9930403b92d4fb",
+      "speaker_label": "CHARLIE MUNGER",
+      "speaker_name_label": "CHARLIE MUNGER",
+      "speaker_label_kind": "speaker_or_role_label",
+      "contextual_speaker_label": "CHARLIE MUNGER",
+      "canonical_speaker": "Charlie Munger",
+      "candidate_speaker": "Charlie Munger",
+      "attribution_basis": "explicit_text_label",
+      "locator": {
+        "chapter_number": 17,
+        "paragraph_index": 29,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "It comes from subconscious poor cognition that justifies a lot of behavior that's really not justifiable if it's better understood. And that happens to practically everybody.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2010-afternoon-ch17-p030",
+      "paragraph_index": 30,
+      "reading_text": "It comes from subconscious poor cognition that justifies a lot of behavior that's really not justifiable if it's better understood. And that happens to practically everybody.",
+      "reversible_encoding_repairs": [],
+      "text_sha256": "f91940a25cc4529c7bb855608c8d9443393e703db4a464f3506dab151f219589",
+      "speaker_label": null,
+      "speaker_name_label": null,
+      "speaker_label_kind": null,
+      "contextual_speaker_label": "CHARLIE MUNGER",
+      "canonical_speaker": null,
+      "candidate_speaker": "Charlie Munger",
+      "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+      "locator": {
+        "chapter_number": 17,
+        "paragraph_index": 30,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "And the cure is very difficult. The best cure is to have a system where the people who are making the decisions bear the consequences.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2010-afternoon-ch17-p031",
+      "paragraph_index": 31,
+      "reading_text": "And the cure is very difficult. The best cure is to have a system where the people who are making the decisions bear the consequences.",
+      "reversible_encoding_repairs": [],
+      "text_sha256": "0a286292d503e127c185b33d60f1180e398857e208eb71930010bcfa21dfdfcf",
+      "speaker_label": null,
+      "speaker_name_label": null,
+      "speaker_label_kind": null,
+      "contextual_speaker_label": "CHARLIE MUNGER",
+      "canonical_speaker": null,
+      "candidate_speaker": "Charlie Munger",
+      "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+      "locator": {
+        "chapter_number": 17,
+        "paragraph_index": 31,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "And that's why the system that Wall Street created where nobody really owned the mortgages, they just passed them rapidly to somebody else at a profit. And so nobody felt any responsibility that the mortgages be any good.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2010-afternoon-ch17-p032",
+      "paragraph_index": 32,
+      "reading_text": "And that's why the system that Wall Street created where nobody really owned the mortgages, they just passed them rapidly to somebody else at a profit. And so nobody felt any responsibility that the mortgages be any good.",
+      "reversible_encoding_repairs": [],
+      "text_sha256": "a9d74c0b6cbfda61338f73b914e3d6ff4b1242ee7fe565e2b684d68e11a8e127",
+      "speaker_label": null,
+      "speaker_name_label": null,
+      "speaker_label_kind": null,
+      "contextual_speaker_label": "CHARLIE MUNGER",
+      "canonical_speaker": null,
+      "candidate_speaker": "Charlie Munger",
+      "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+      "locator": {
+        "chapter_number": 17,
+        "paragraph_index": 32,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "Systems like that, at a basic level, are irresponsible systems, and it's deeply immoral to create irresponsible systems like that.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2010-afternoon-ch17-p033",
+      "paragraph_index": 33,
+      "reading_text": "Systems like that, at a basic level, are irresponsible systems, and it's deeply immoral to create irresponsible systems like that.",
+      "reversible_encoding_repairs": [],
+      "text_sha256": "9f4c04ef5dbf113c25dbaf028044463474f60c6d289eadbfe944b2615de355cd",
+      "speaker_label": null,
+      "speaker_name_label": null,
+      "speaker_label_kind": null,
+      "contextual_speaker_label": "CHARLIE MUNGER",
+      "canonical_speaker": null,
+      "candidate_speaker": "Charlie Munger",
+      "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+      "locator": {
+        "chapter_number": 17,
+        "paragraph_index": 33,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "But the people who create them don't realize they're being immoral, they think those systems are wonderful.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2010-afternoon-ch17-p034",
+      "paragraph_index": 34,
+      "reading_text": "But the people who create them don't realize they're being immoral, they think those systems are wonderful.",
+      "reversible_encoding_repairs": [],
+      "text_sha256": "bf5e610cb904a4b214af08d531a2fa1e827943168aa70edea29b9dfe99d5858f",
+      "speaker_label": null,
+      "speaker_name_label": null,
+      "speaker_label_kind": null,
+      "contextual_speaker_label": "CHARLIE MUNGER",
+      "canonical_speaker": null,
+      "candidate_speaker": "Charlie Munger",
+      "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+      "locator": {
+        "chapter_number": 17,
+        "paragraph_index": 34,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "Who do you see apologizing for the behavior you now find so regrettable in our recent mess?",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2010-afternoon-ch17-p035",
+      "paragraph_index": 35,
+      "reading_text": "Who do you see apologizing for the behavior you now find so regrettable in our recent mess?",
+      "reversible_encoding_repairs": [],
+      "text_sha256": "afa839cdb88bdbce50fb8331205d9501faeca6a5ffe1db73cd825524fa4a65e3",
+      "speaker_label": null,
+      "speaker_name_label": null,
+      "speaker_label_kind": null,
+      "contextual_speaker_label": "CHARLIE MUNGER",
+      "canonical_speaker": null,
+      "candidate_speaker": "Charlie Munger",
+      "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+      "locator": {
+        "chapter_number": 17,
+        "paragraph_index": 35,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "There are very few apologies, you'll note. People think they did fine.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2010-afternoon-ch17-p036",
+      "paragraph_index": 36,
+      "reading_text": "There are very few apologies, you'll note. People think they did fine.",
+      "reversible_encoding_repairs": [],
+      "text_sha256": "27905018b0935b78baadf506f04ac6502d1f073a3b1c1d9806004c0201ad8b18",
+      "speaker_label": null,
+      "speaker_name_label": null,
+      "speaker_label_kind": null,
+      "contextual_speaker_label": "CHARLIE MUNGER",
+      "canonical_speaker": null,
+      "candidate_speaker": "Charlie Munger",
+      "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+      "locator": {
+        "chapter_number": 17,
+        "paragraph_index": 36,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    }
+  ],
+  "review_scope": "Textual attribution and claim support within the complete exchange; no audio or external verification of historical numerical examples.",
+  "audio_checked": false,
+  "locator": {
+    "session": "afternoon",
+    "chapter_number": 17,
+    "start_seconds": 3740,
+    "end_seconds": 4148,
+    "timestamp_status": "publisher_metadata_not_audio_verified"
+  }
+}

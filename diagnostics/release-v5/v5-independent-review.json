@@ -1,0 +1,868 @@
+{
+  "version": "private-live-v3-independent-review-reviewed-pipeline-1.1",
+  "updated_at_utc": "2026-11-05T08:35:42.453427+00:00",
+  "reviewer": "launch_latency_audit; no application edits or provider/browser calls",
+  "status": "private_hosted_functionality_and_latency_demonstrated_generated_quality_remains_unreliable",
+  "authorized_scope": "Private experimental free-form answers from selected originals, separate from seven prepared agent-reviewed answers. Following observed semantic failures, root explicitly authorized a mandatory separate automated source-support check in the same-provider pipeline, in addition to mechanical citation/quotation gates and independent sampled review. No human review or complete-corpus verification is claimed.",
+  "findings": [
+    {
+      "id": "LIVE-REFUSAL-01",
+      "severity": "material",
+      "status": "resolved",
+      "problem": "Model unavailable.reason was an uncited free-form publication channel.",
+      "resolution": "Runtime uses a deterministic evidence-gap message and does not publish/store raw model refusal text.",
+      "evidence": "lib/server/generation.ts evidence_gap branch"
+    },
+    {
+      "id": "LIVE-HISTORY-01",
+      "severity": "material",
+      "status": "resolved",
+      "problem": "A completed generation job could leave the original browser-history answer permanently processing after a lost request/refresh.",
+      "resolution": "A private generationJobId is persisted before dispatch. Session-scoped GET reconciles pending history from the owned job without inference, with an expiry fallback and conditional write.",
+      "evidence": "app/api/questions/route.ts GET and onJob callback; lib/server/generation.ts storedGeneration"
+    },
+    {
+      "id": "LIVE-REPLAY-01",
+      "severity": "material",
+      "status": "resolved",
+      "problem": "Existing processing requestId replay recomputes prior-answer identity and evidence/prompt version instead of pinning its stored job. If either changes while pending, the same request can start a second paid generation job.",
+      "requested_fix": "Poll/recover the already mapped job for an existing pending request; do not recompute or replace its generation job. Also handle the brief pre-mapping interval without second dispatch.",
+      "evidence": "app/api/questions/route.ts existingPending branch then unconditional resolveGeneration",
+      "resolution": "Existing processing requests poll their pinned job without prompt reconstruction or claim/network. Mapping assignment is compare-and-set, preventing a changed pending identity/version from replacing the job; missing jobs share the answer-row90s lease so they cannot poll forever.",
+      "verification": "Independent focused source reread; implementation-agent regression cases report one mock call across prior-record-version change and zero replacement calls for an expired missing job."
+    },
+    {
+      "id": "LIVE-STREAM-USAGE-01",
+      "severity": "minor_accounting",
+      "status": "resolved",
+      "problem": "Streaming parser tracks usage locally, but outer timeout/cancel handling may replace an error carrying known usage with outer undefined usage.",
+      "requested_fix": "Preserve the inner ProviderError.usage on timeout/cancel and reader failures when available.",
+      "impact": "Known cost evidence may be lost; permanent conservative reservation remains charged, so this does not bypass the cap.",
+      "resolution": "SSE reader wraps failures with its locally known usage; outer timeout/cancellation preserves ProviderError.usage. Independently re-read; parent reports26 transport mock cases passing."
+    },
+    {
+      "id": "LIVE-WRITER-FORMAT-01",
+      "severity": "availability_contract_mismatch",
+      "status": "resolved_on_source_rereview",
+      "problem": "Writer 3.2 permits optional headings but heading-free prose is converted to sections=[], which the shared legacy validator rejects.",
+      "evidence": "lib/generation-prompt.ts GENERATION_SYSTEM_PROMPT and two-string parse path; lib/generation-contract.ts requires sections.length>=1",
+      "requested_fix": "Make the specified and accepted heading-free format consistent without dropping text, inventing citations or weakening paragraph citation/quotation checks. No new model call is required to test this.",
+      "scope": "The final real sample remains unpublishable even after this fix because its final paragraph is uncited and its owner-earnings formula omits material components.",
+      "resolution": "Shared validator now permits sections=[] while preserving required nonempty cited lead; malformed heading blocks are rejected. This fixes heading-free responses without changing prose, adding references or bypassing per-paragraph/quote checks."
+    }
+  ],
+  "static_checks": [
+    {
+      "name": "Atomic application budget",
+      "result": "passed_source_review",
+      "detail": "Each writer/reviewer stage separately uses the singleton conditional atomic reservation UPDATE before network. Hard limits 20 lifetime model calls/5 CNY reservation, daily <=20; writer 60 s/4096 tokens and reviewer 45 s/4096 tokens. Failed/unknown reservations remain charged; ledger survives session deletion. These are per-application-database controls, not account-wide billing caps."
+    },
+    {
+      "name": "Session isolation",
+      "result": "passed_source_review",
+      "detail": "Question/prior-answer/history/feedback lookups require current session ownership; CSRF and origin gates preserved. Generation cache ID is session-scoped and includes question plus prior snapshot/evidence/prompt/model identity."
+    },
+    {
+      "name": "Transport secrecy and validation",
+      "result": "passed_source_review",
+      "detail": "Provider uses fixed error messages, bounded request/response, no redirects or automatic retries. Generated text passes strict JSON/paragraph/citation checks and exact-quote matching; these checks explicitly do not certify claim support."
+    },
+    {
+      "name": "Follow-up context",
+      "result": "passed_after_refinement",
+      "detail": "Bounded prior-answer text and prior question are passed as untrusted conversational context, explicitly not evidence; current paragraphs still authorize citations."
+    },
+    {
+      "name": "Publication labels",
+      "result": "passed_source_review",
+      "detail": "UI separates edited and AI-generated answers, identifies bounded source scope and states that the separate automated source-support pass can miss errors and is not human review."
+    },
+    {
+      "name": "Streaming extraction",
+      "result": "passed_source_review",
+      "detail": "SSE remains server-side; requires one choice, assistant content, stop plusDONE; rejects tools/refusal/truncation and bounds bytes/text. Full collected answer still passes the same citation/quotation parser before publication."
+    },
+    {
+      "name": "Simplified writer schema",
+      "result": "passed_source_review",
+      "detail": "Current writer 3.5 requests structured cited paragraph objects. Legacy flat formats remain supported through deterministic parsing and the same paragraph/citation/exact-quote validator. No guessed citations or text rewriting path is introduced."
+    },
+    {
+      "name": "Heading-first and terminal punctuation normalization",
+      "result": "passed_independent_source_and_actual_sample_review",
+      "detail": "Empty lead allowed only when validated nonempty sections exist. Full quote match is attempted first; one terminal period/comma may be moved outside only if remaining exact words match an already-cited source. Before/after/ref recorded. Actual sample replay preserves all other text and citations. Generation persists the bounded trace, history projects only allowed trace fields, and UI shows a conditional wording note."
+    }
+  ],
+  "original_source_review": {
+    "read": "1992letteru74–85; complete1986owner-earningsappendixu154–297;1989mistakesu156–175 with adjacent boundaries;1991mediau31–44 andSee’su45–55 with adjacent boundaries.",
+    "new_sections": [
+      {
+        "context": "letter-1989-0156-0175",
+        "paragraphs": 20,
+        "canonical_and_reading_text_match": true,
+        "raw_hash_matches": true
+      },
+      {
+        "context": "letter-1991-0031-0044",
+        "paragraphs": 14,
+        "canonical_and_reading_text_match": true,
+        "raw_hash_matches": true
+      },
+      {
+        "context": "letter-1991-0045-0055",
+        "paragraphs": 11,
+        "canonical_and_reading_text_match": true,
+        "raw_hash_matches": true
+      }
+    ],
+    "semantic_conditions": [
+      "Owner earnings deducts maintenance expenditure needed to retain competitive position and unit volume, plus required incremental working capital; it is an estimate, not precise GAAP arithmetic.",
+      "See’s historical profits and distributions in the relevant comparison are pretax; incremental capital requirement matters.",
+      "1991media10% discount/6% growth figures are deliberately simplified historical assumptions, not current universal parameters.",
+      "1989describes both business quality and management; good managers are not said to cure intrinsically poor economics.",
+      "The archived1991tax range encoding oddity is preserved, not silently corrected."
+    ],
+    "source_packet_status": "No alteration or boundary problem found in the newly added sections. This is not a complete archive audit or fresh publisher/audio verification.",
+    "compact_v3_1": {
+      "status": "boundary_selection_cleared",
+      "context_ids": [
+        "letter-1992-0074-0085",
+        "letter-1986-0285-0297",
+        "letter-1986-0209-0210",
+        "letter-1991-0031-0037",
+        "letter-1991-0045-0055"
+      ],
+      "review_basis": "Independently reread each canonical span and its relevant previously reviewed surrounding context. Owner-earnings formula, working-capital/LIFO conditions and maintenance counterexamples remain complete. Separate O/N companion preserves identical economics; omitted tables are explicitly disclosed. Media passage ends at original printed separator before the separate valuation-math argument.",
+      "first_16_context_objects_unchanged": true,
+      "source_characters": 20945,
+      "paragraphs": 45,
+      "contexts": 5,
+      "scope": "Source selection clearance only; no claim that a generated answer will preserve all conditions."
+    }
+  },
+  "actual_model_attempts": [
+    {
+      "id": "stock-evaluation",
+      "state": "network_failure",
+      "usage": "unknown",
+      "semantic_assessment": "none; no answer text returned"
+    },
+    {
+      "id": "stock-evaluation-02",
+      "state": "network_failure",
+      "usage": "unknown",
+      "semantic_assessment": "none; no answer text returned"
+    },
+    {
+      "id": "stock-evaluation-03",
+      "state": "timeout",
+      "elapsed_ms": 60012,
+      "usage": "unknown",
+      "semantic_assessment": "none; no complete answer text returned"
+    },
+    {
+      "id": "stock-evaluation-qwen",
+      "model": "Qwen3.6-35B-A3B",
+      "state": "received_but_rejected",
+      "elapsed_ms": 12410,
+      "reported_usage": {
+        "input_tokens": 14943,
+        "output_tokens": 1180
+      },
+      "estimated_reported_cost_cny": 0.034606,
+      "mechanical_assessment": "Malformed JSON: section paragraph arrays contain bare prose followed by a citations property instead of paragraph objects. The runtime correctly rejects it.",
+      "semantic_assessment": "Not releasable as received; raw draft contains material meaning errors even aside from invalid structure.",
+      "positive_findings": [
+        "Stock ownership/business criteria, discounted future cash, valuation uncertainty and margin of safety are substantially present.",
+        "Franchise conditions, incremental-capital growth logic and institutional-imperative explanation broadly reflect supplied sources."
+      ],
+      "issues": [
+        {
+          "severity": "material",
+          "claim": "The cheapest investment to purchase is the one with the highest calculated value.",
+          "source": "P01-009 /1992letteru82; surroundingu77–85",
+          "finding": "Replaces price-relative cheapness with the largest absolute calculated value. This is not what the source says and can reverse an investment comparison."
+        },
+        {
+          "severity": "material",
+          "claim": "Investors must reject the cigar-butt approach; first-class businesses will succeed with decent management and broken-down businesses will fail even with the best manager.",
+          "source": "P14-004–P14-008 /1989letteru159–163",
+          "finding": "Universal prescriptions/guarantees overstate Buffett’s comparative lessons, omit the liquidation exception and equate poor economics with inevitable failure."
+        },
+        {
+          "severity": "material",
+          "claim": "A full owner-earnings formula is supplied without certain other noncash charges or required incremental working capital.",
+          "source": "P10-133 /1986letteru286",
+          "finding": "Those source qualifications are part of the stated formula and matter to cash available to owners."
+        },
+        {
+          "severity": "scope_drift",
+          "claim": "In many cases historical depreciation better approximates maintenance costs than acquisition-adjusted figures.",
+          "source": "P10-142 /1986letteru295",
+          "finding": "The source states Buffett’s judgment for ScottFetzer and other Berkshire businesses, not a general shortcut for arbitrary companies."
+        },
+        {
+          "severity": "quality_gap",
+          "finding": "No concrete See’s or other company example is used despite the relevant original material. The answer remains more generic than the user’s intended stock-evaluation explanation."
+        }
+      ],
+      "release_status": "not_eligible_as_received"
+    },
+    {
+      "id": "stock-evaluation-compact",
+      "model": "MiniMax-M3-W8A8",
+      "state": "truncated",
+      "elapsed_ms": 61652,
+      "usage": "unknown",
+      "semantic_assessment": "None: no completed answer text retained. This is a transport/output-completion outcome, not a demonstrated semantic failure.",
+      "scope": "Compact 45-paragraph source selection, prompt 3.1, 90-second direct-check timeout; application timeout remains 60 seconds at review time."
+    },
+    {
+      "id": "stock-evaluation-qwen-compact",
+      "model": "Qwen3.6-35B-A3B",
+      "state": "received_but_rejected",
+      "elapsed_ms": 7192,
+      "reported_usage": {
+        "input_tokens": 7388,
+        "output_tokens": 696
+      },
+      "estimated_reported_cost_cny": 0.01756,
+      "mechanical_assessment": "JSON parsed but sections are not the required [heading,body] pairs. Output also contains unauthorized malformed citation key P01-12. Do not guess corrections or auto-publish repaired prose.",
+      "semantic_assessment": "Not releasable as received. Simpler schema and source selection reduce some earlier meaning errors, but a complete owner-earnings formula still omits a material source component.",
+      "positive_findings": [
+        "The price-versus-value comparison no longer says the highest absolute calculated value is the cheapest investment.",
+        "The universal cigar-butt prohibition and success/failure guarantees from the first Qwen draft are absent.",
+        "Broad stock/business ownership, discounted future cash, franchise conditions and margin of safety are substantially present."
+      ],
+      "issues": [
+        {
+          "severity": "material",
+          "claim": "The stated owner-earnings formula subtracts maintenance capital expenditures but omits required incremental working capital.",
+          "source": "P17-002 / 1986 letter u286",
+          "finding": "Working capital required to maintain competitive position and unit volume is explicitly part of the source formula; it is available in full in the compact context. The answer does not preserve it."
+        },
+        {
+          "severity": "citation_and_certainty",
+          "claim": "This method reveals the true cash-generating ability of the asset, distinguishing it from accounting illusions.",
+          "source": "Cites P17-012 / 1986 letter u296; uncertainty is stated in P17-003 / u287.",
+          "finding": "The cited paragraph distinguishes accountants recording from investors evaluating. It does not certify a true number, while the omitted nearby qualification says maintenance requirements must be guessed and can be difficult to estimate."
+        },
+        {
+          "severity": "citation_gap",
+          "claim": "Value is not determined by traditional metrics like low price-to-book ratios.",
+          "source": "Sentence cites P01-008; the metric qualification is in P01-005.",
+          "finding": "The broad claim is supportable from supplied material, but its exact cited paragraph only defines discounted cash-flow value. This is a citation-placement defect, not an invented overall principle."
+        },
+        {
+          "severity": "quality_gap",
+          "finding": "No concrete historical business example is used, despite the supplied See’s and Scott Fetzer evidence; the answer remains mostly generic."
+        }
+      ],
+      "release_status": "not_eligible_as_received"
+    },
+    {
+      "id": "stock-evaluation-deepseek",
+      "model": "DeepSeek-V4-Flash-0731",
+      "state": "invalid_response",
+      "elapsed_ms": 940,
+      "usage": "unknown",
+      "semantic_assessment": "None: no completed model answer text was retained. An invalid transport response is not a semantic quality failure."
+    },
+    {
+      "id": "stock-evaluation-minimax-4096",
+      "model": "MiniMax-M3-W8A8",
+      "state": "timeout",
+      "elapsed_ms": 90008,
+      "max_output_tokens": 4096,
+      "usage": "unknown",
+      "semantic_assessment": "None: no completed model answer text was retained. A timeout is not a semantic quality failure."
+    },
+    {
+      "id": "stock-evaluation-qwen38",
+      "model": "Qwen3.8-Flash-Next-W8A8",
+      "state": "truncated",
+      "elapsed_ms": 67468,
+      "max_output_tokens": 4096,
+      "usage": "unknown",
+      "semantic_assessment": "None: no completed model answer text was retained. Truncation is not a semantic quality failure."
+    },
+    {
+      "id": "stock-evaluation-qwen38-direct",
+      "model": "Qwen3.8-Flash-Next-W8A8",
+      "state": "received_but_rejected",
+      "elapsed_ms": 18135,
+      "reported_usage": {
+        "inputTokens": 7388,
+        "outputTokens": 1146,
+        "totalTokens": 8534,
+        "reported": true
+      },
+      "estimated_reported_cost_cny": 0.01936,
+      "request_configuration": "Same compact source selection and writer 3.1; explicit documented enable_thinking=false; JSON-object mode; 4096 output tokens and 90-second direct timeout.",
+      "mechanical_assessment": "One section array contains twelve alternating heading/body values rather than six [heading,body] pairs. Lead contains no citations. Several headings include quotation marks, and some quoted terms change punctuation. Runtime correctly rejects; arbitrary citation insertion or text rewriting is not a valid gate bypass.",
+      "semantic_assessment": "Substantial improvement over earlier readable drafts, but not releasable as received. Required working capital and concrete examples are now present; the See’s financial example omits the material pretax label. The growth contrast is read in the context of its adjacent incremental-capital explanation, not rejected for failing to mechanically repeat the qualifier.",
+      "positive_findings": [
+        "Price is compared with calculated present value; the earlier highest-absolute-value error is absent.",
+        "Owner-earnings explanation includes required additional working capital and ongoing maintenance capital.",
+        "Scott Fetzer accounting and See’s reinvestment/pricing-power examples explain the economic mechanism rather than merely list generic principles.",
+        "Franchise versus business distinction broadly matches the supplied source, including its middle-ground qualification."
+      ],
+      "issues": [
+        {
+          "severity": "material_historical_financial_label",
+          "claim": "See’s profits grew from $4.2 million to $42.4 million over twenty years.",
+          "source": "P16-003 / 1991 letter u47, with u48 for capital and distributions.",
+          "finding": "Both figures are pretax profits. The answer omits that financial label and exact historical endpoints (1972–1991); the pretax omission materially changes the interpretation of an investment example."
+        },
+        {
+          "severity": "precision_concern_not_standalone_release_blocker",
+          "claim": "In contrast, growth in low-return businesses hurts investors.",
+          "source": "P01-007 / 1992 letter u80",
+          "finding": "The shortened contrast omits the explicit requiring-incremental-funds qualifier, but the immediately preceding sentence explains incremental capital and its returns. Read in context, this is not treated as a separate material semantic failure; improving precision would still help."
+        },
+        {
+          "severity": "scope_overstatement",
+          "claim": "Most errors come from trying to predict unpredictable changes.",
+          "source": "P01-011 / 1992 letter u84",
+          "finding": "The source says even capable analysts can misestimate future cash flows and explains Berkshire’s avoidance of complex or constantly changing businesses. It does not quantify the majority of valuation errors."
+        },
+        {
+          "severity": "interpretation_label",
+          "claim": "Investors should seek strong franchises, as they offer more predictable and durable cash flows.",
+          "source": "P19-003 through P19-005; adjacent P19-006 discusses franchise erosion.",
+          "finding": "Reasonable editorial inference needs to be identified as synthesis, with business quality not presented as sufficient for value. The answer later provides price discipline, which limits but does not eliminate this attribution issue."
+        }
+      ],
+      "release_status": "not_eligible_as_received"
+    },
+    {
+      "id": "stock-evaluation-flat32",
+      "model": "Qwen3.8-Flash-Next-W8A8",
+      "state": "received_but_rejected",
+      "elapsed_ms": 12575,
+      "reported_usage": {
+        "inputTokens": 7374,
+        "outputTokens": 761,
+        "totalTokens": 8135,
+        "reported": true
+      },
+      "estimated_reported_cost_cny": 0.017792,
+      "request_configuration": "Same compact original selection; writer 3.2 two-string JSON; enable_thinking=false; 4096 output tokens; 90-second direct timeout.",
+      "mechanical_assessment": "Recorded structure rejection partly reflects our own contract mismatch: writer permits optional headings while the legacy validator requires at least one section. The response follows the two-string shape and has no headings. Independently of that mismatch, its final interpretation paragraph is uncited and would fail the intended citation gate.",
+      "semantic_assessment": "Not releasable as received. Useful broad explanation and no bogus named source, but an explicit complete owner-earnings definition omits important components that the supplied original preserves.",
+      "positive_findings": [
+        "Completed directly in 12.575 seconds with reported usage.",
+        "Growth paragraph explains incremental investment returns and then says low-return growth consumes capital; this preserves the capital-consumption condition contextually.",
+        "Franchise definition now retains that absence of close substitutes is in customers’ eyes; historical media erosion is acknowledged.",
+        "Competence and margin-of-safety discussion substantially reflects supplied originals."
+      ],
+      "issues": [
+        {
+          "severity": "material_formula_omission",
+          "claim": "Owner earnings are reported earnings plus depreciation, depletion and amortization, minus maintenance capital expenditures.",
+          "source": "P17-002 / 1986 letter u286",
+          "finding": "The original also includes certain other noncash charges and required additional working capital needed to maintain competitive position and unit volume. Neither appears anywhere in this answer; it is presented as the full definition."
+        },
+        {
+          "severity": "citation_gap",
+          "claim": "Opening paragraph combines intrinsic value, competence, competitive durability and incremental-capital growth.",
+          "source": "Lead cites only P01-008, P01-012 and P17-002.",
+          "finding": "Those cited paragraphs support discounted value, margin of safety and owner earnings; competence and competitive/growth claims require the additional passages supplied elsewhere. This is a citation-selection defect, not an assertion that the concepts are absent from the evidence."
+        },
+        {
+          "severity": "uncited_interpretation",
+          "claim": "Final paragraph labeled Interpretation gives the overall source-based synthesis.",
+          "finding": "It contains no citations. Calling it interpretation does not make the supported-source requirement optional."
+        },
+        {
+          "severity": "quality_gap",
+          "finding": "No specific business example with dates/numbers explains the framework, despite the relevant See’s/Scott Fetzer sources. The historical media reference is brief."
+        }
+      ],
+      "release_status": "not_eligible_as_received"
+    },
+    {
+      "id": "stock-evaluation-low-reasoning",
+      "model": "Qwen3.8-Flash-Next-W8A8",
+      "state": "received_but_rejected",
+      "elapsed_ms": 22246,
+      "reported_usage": {
+        "inputTokens": 7398,
+        "outputTokens": 1276,
+        "totalTokens": 8674,
+        "reported": true
+      },
+      "estimated_reported_cost_cny": 0.0199,
+      "request_configuration": "Same compact originals and writer 3.2; enable_thinking=true with reasoning_effort=low; 4096 output tokens and 90-second direct timeout.",
+      "mechanical_assessment": "Recorded structure rejection comes from a heading-first answer with empty lead. Every body paragraph is cited and its headings are plain. A further exact-quote check finds one punctuation-only mismatch: an attractive price. includes a final period absent from that exact phrase in P01-001. Other quotes match their cited original substrings.",
+      "semantic_assessment": "Substantially sound and useful for the actual stock-evaluation question. No material source-meaning blocker found when read as a whole; no requirement that every condition be mechanically repeated in each sentence. Not mechanically releasable as received under the current contract.",
+      "positive_findings": [
+        "Owner-earnings formula includes depreciation, depletion, amortization, certain other noncash charges, required maintenance expenditure and additional working capital, with the LIFO/unit-volume qualification.",
+        "Maintenance requirements are explicitly uncertain estimates; recurring reinvestment over five to ten years is explained.",
+        "The growth discussion explicitly preserves incremental capital and low-return businesses requiring additional funds.",
+        "DCF, business-quality analysis, competence and purchase-price margin of safety are connected rather than confused with static ratios.",
+        "See’s concrete example preserves pretax profit labels, $4.2m to $42.4m, the initial $7m net worth, $18m reinvestment and remaining $410m pretax profits.",
+        "Franchise definition preserves customers’ perception of substitutes and the price-regulation condition; middle-ground businesses are acknowledged."
+      ],
+      "issues": [
+        {
+          "severity": "packaging_only",
+          "finding": "Answer starts with a section heading and has no standalone lead. Allowing an empty lead when complete cited sections exist could preserve all content and checks; inventing an opening paragraph is unnecessary."
+        },
+        {
+          "severity": "quotation_punctuation_only",
+          "claim": "an attractive price.",
+          "source": "P01-001 / 1992 letter u74",
+          "finding": "Quoted source phrase is an attractive price without the final period inside that quote. Words/meaning are correct; the exact-quotation gate still fails as written. Preserve the raw result and distinguish any editorial correction from the raw model output."
+        },
+        {
+          "severity": "minor_qualification",
+          "finding": "The growth section omits leaving price aside immediately before the best-business comparison and usually before shareholders benefiting from distributions. The surrounding DCF and final purchase-price discussion retain the price distinction, so this is not treated as a standalone material failure."
+        }
+      ],
+      "semantic_release_assessment": "acceptable_core_semantics_with_minor_qualification_notes",
+      "release_status": "formatted_version_accepted_for_scoped_private_experimental_sample",
+      "offline_format_replay": {
+        "artifact": "work/english_beta_live_v3/stock-evaluation-low-reasoning-formatted.json",
+        "network_calls": 0,
+        "passed_mechanical_validation": true,
+        "sections": 6,
+        "reference_keys": 18,
+        "exact_quotations": 5,
+        "normalization_count": 1,
+        "normalization": {
+          "before": "\"an attractive price.\"",
+          "after": "\"an attractive price\".",
+          "reference_key": "P01-001"
+        },
+        "independent_word_and_citation_preservation_check": true,
+        "review_basis": "Reconstructed heading/body text is identical to immutable raw answer except exactly the recorded punctuation move. Complete original-source semantic review found no material blocker.",
+        "scope": "One answer on the historical stock-evaluation question; no broad accuracy or hosted availability claim."
+      }
+    }
+  ],
+  "budget_boundary": "Application ledger is per D1 database: 5 CNY conservative lifetime reservation/20 calls maximum, not a provider/account-enforced spending limit. Root explicitly revised direct evaluation limits from 6 to 8 to 9 attempts under cumulative 1 CNY reservation, then to 11 attempts/1.2 CNY for documented thinking control, and finally 12 attempts/1.3 CNY for the same-model low-reasoning diagnostic. No reservations or unknown charges were reset; no recharge is claimed. Local and hosted application databases have independent ledgers. Unknown costs are not zero.",
+  "limitations": [
+    "No application, secret-file, browser or network/model work by reviewer.",
+    "Twelve direct diagnostics produced seven cases without complete text and five readable drafts. One draft is substantively acceptable and passes mechanical validation after documented format-only replay; raw result remains unchanged. Later runtime calls are separate and are not included in those direct counts/costs.",
+    "Mechanical checks and a second same-model source-support pass cannot guarantee semantic accuracy. The current independent acceptance covers seven prepared answers and one final-pipeline working-capital follow-up, not arbitrary questions or the full corpus.",
+    "Writer/reviewer prompts explicitly address observed finance and LIFO failures. These repeated questions are targeted regressions, not blind generalization tests.",
+    "The final local run remains mixed: the working-capital follow-up was generated and independently accepted; finance was withheld for structure. A prior two-pass run withheld both questions. Withheld drafts are not semantic failures unless text and supporting diagnostics establish that.",
+    "Per-session abuse limits, private deployment and per-database reservations do not establish public-service readiness or provider/account-wide billing caps.",
+    "Saved official-service HTTPS results establish one hosted session, prepared answer and newly generated answer. Interactive signed-in browser walkthrough remains incomplete. The new hosted generated answer contains semantic defects despite the second automated pass.",
+    "A source-support reviewer success is not equivalent to independent approval: the actual hosted sample passed that gate yet mislabelled formula component(b) and expanded a sector claim. Preserve this observed limitation in delivery.",
+    "Latest V5 hosted run generated an answer in19.855 seconds, but independent source review still finds unsupported growth/inflation practical guidance and unresolved-speaker attribution. Faster completion and automated-review approval are not semantic quality passes."
+  ],
+  "model_calls_by_reviewer": 0,
+  "implementation_agent_evidence": {
+    "path": "work/english_beta_live_v3/offline-backend-report.json",
+    "passed_suites": 29,
+    "executed_by": "beta_backend; independently read, not rerun",
+    "provider": "mock fetch only; no real model call",
+    "stream_tests": {
+      "path": "work/english_beta_live_v3/stream-check-report.json",
+      "passed": 27,
+      "failed": 0,
+      "scope": "Mocked fetch/ReadableStream, no real provider quality/compatibility/latency claim; report independently read."
+    },
+    "all_suites_passed": true,
+    "retrieval_tests": {
+      "path": "work/english_beta_live_v3/retrieval-regression-report.json",
+      "scope": "Implementation-agent offline finance-question routing regression; separate actual finance outcomes are recorded in runtime_followup_checks."
+    },
+    "format_tests": {
+      "path": "work/english_beta_live_v3/flat-writer-32-report.json",
+      "passed": 22,
+      "scope": "Pure parser tests, no model calls; report independently read."
+    }
+  },
+  "remaining_release_condition": "The website functions privately, seven prepared answers remain cleared, and one earlier local follow-up passed source review. Both independently inspected generated hosted samples contain source-support defects, with a withheld hosted run between them. It is not a stable high-quality free-form knowledge product and should not be promoted as one. Preserve private experimental labels and all mixed evidence; no more inference is needed in this turn to establish that limitation.",
+  "sample_summary": {
+    "actual_direct_attempts": 12,
+    "completed_drafts": 5,
+    "no_completed_text": 7,
+    "mechanically_accepted_drafts": 0,
+    "semantically_assessed_drafts": 5,
+    "semantically_releasable_as_received": 0,
+    "known_usage_attempts": 5,
+    "estimated_known_cost_cny": 0.109218,
+    "unknown_usage_attempts": 7,
+    "conservative_reserved_cny": 1.234786,
+    "coverage": "Twelve direct diagnostics tested one stock-evaluation question across model/prompt/payload configurations. This summary is direct-call-only; later application writer/reviewer calls and finance/follow-up outcomes are separately recorded below. It is not a complete account-wide cost ledger.",
+    "semantically_acceptable_core_drafts": 1,
+    "mechanically_accepted_after_offline_formatting": 1,
+    "release_eligible_formatted_samples": 1
+  },
+  "final_recommendation": {
+    "delivery": "Report functional availability and the observed19.855-second V5 answer separately from unresolved answer quality. Seven prepared answers remain useful; the hosted generated examples are not independently approved knowledge. Automated source review demonstrably missed errors.",
+    "next_decision": "If a further comparison phase is authorized, freeze a small representative test set with source-based semantic criteria and include held-out questions. Compare a different provider/model and the present pipeline on that same evidence, latency and cost basis; do not assume a new provider will fix the issue or keep tuning solely to this one working-capital question.",
+    "not_required": "Do not demand identical wording or mechanical repetition of a qualification when adjacent text clearly preserves it. Formula components, material numerical labels, speaker/entity attribution and actual source support remain required."
+  },
+  "runtime_followup_checks": [
+    {
+      "artifact": "work/english_beta_live_v3/local-http-live-report.json",
+      "observed_at_utc": "2026-11-05T07:38:12.113668+00:00",
+      "question": "I understand a finance company’s individual transactions. Is the whole business inside my circle of competence?",
+      "outcome": "unavailable_network",
+      "server_elapsed_ms": 19,
+      "semantic_assessment": "None: no answer text. This local Worker transport/egress failure does not undo the separately accepted stock-answer content review or demonstrate a model meaning error.",
+      "scope": "Local built Worker, not hosted availability; runtime costs/reservations are separate from the twelve direct diagnostics."
+    },
+    {
+      "artifact": "work/english_beta_live_v3/local-http-live-v3-report.json",
+      "result_index": 0,
+      "question": "I understand a finance company’s individual transactions. Is the whole business inside my circle of competence?",
+      "outcome": "generated",
+      "http_elapsed_ms": 11367,
+      "server_elapsed_ms": 11358,
+      "semantic_assessment": "Core regression passes. Buffett’s specific comparator remains funding independently from using Berkshire’s credit; his uncertainty and not-necessarily-within-competence conclusion are retained. Munger is correctly named and almost automatically is preserved. No claim that the firm could not obtain any external credit is introduced.",
+      "source_review": "Entire 2002 multi-question boundary reread, including original competence question and P04-052 through067. The finance example is correctly presented as Buffett’s example, not the audience’s original question.",
+      "nonblocking_editorial_notes": [
+        "The final paragraph’s statement about parent-credit dependencies not visible at transaction level is an inference, and its funding explanation would be better labeled and cited to P04-060 as well as061. The earlier paragraph does correctly cite and explain060. This is not a finding that the core answer reverses the credit condition.",
+        "An opening Not necessarily would more precisely express that transaction knowledge alone is insufficient than the short No; the following explanation supplies that qualification."
+      ],
+      "test_scope_note": "HTTP script stopped on stringified JSON replay equality. This review does not assert an application replay defect; root is checking property-order-insensitive equality.",
+      "cost_scope": "Runtime attempt is separate from twelve direct diagnostic calls; this artifact does not expose token usage, so this reviewer does not estimate it as zero.",
+      "release_scope": "Useful private experimental local answer, not a fully independently verified article or evidence of hosted availability."
+    },
+    {
+      "artifact": "work/english_beta_live_v3/local-http-live-v4-report.json",
+      "result_index": 0,
+      "question": "I understand a finance company’s individual transactions. Is the whole business inside my circle of competence?",
+      "outcome": "withheld_by_citation_or_format_gate",
+      "http_elapsed_ms": 11473,
+      "server_elapsed_ms": 11464,
+      "semantic_assessment": "None: artifact contains no draft body. Do not treat this as a proved semantic failure or a successful generated answer.",
+      "scope": "Repeat controlled local prompt in a new run; follow-up did not execute because the first generated-answer assertion failed. The successful v3 sample and this withheld v4 sample must both be retained in availability claims."
+    },
+    {
+      "artifact": "work/english_beta_live_v3/local-acceptance-final-report.json",
+      "results_reviewed": [
+        0,
+        1,
+        2
+      ],
+      "prepared_stock_answer": "Returned curated, not generated; matches the cleared seventh answer.",
+      "finance_answer": {
+        "kind": "generated",
+        "server_elapsed_ms": 10958,
+        "semantic_assessment": "Core source comparator/attribution regression passes. The specific Berkshire-credit condition, not-necessarily conclusion and Munger almost-automatically qualification remain.",
+        "nonblocking_note": "Systemic risks is an additional interpretive term, not a specific fact or topic established by P04-060."
+      },
+      "working_capital_followup": {
+        "question": "How does required working capital affect owner earnings?",
+        "kind": "unavailable",
+        "server_elapsed_ms": 12240,
+        "reason": "Citation/format gate withheld draft; no text available for semantic assessment."
+      },
+      "http_checks": "Report passes idempotent replay, completed-answer cache and history inclusion; follow-up generation check fails.",
+      "scope": "Controlled local built Worker; mixed outcomes preserved, no hosted reliability claim."
+    },
+    {
+      "artifact": "work/english_beta_live_v3/local-acceptance-structured-report.json",
+      "writer_version": "source-grounded-writer-3.4",
+      "http_checks": "All seven execution/replay/cache/history checks pass. This is a functional success, not semantic verification.",
+      "prepared_stock_answer": {
+        "kind": "curated",
+        "http_elapsed_ms": 11,
+        "review_status": "Previously reviewed sample unchanged; not a fresh model call."
+      },
+      "finance_answer": {
+        "kind": "generated",
+        "http_elapsed_ms": 20040,
+        "server_elapsed_ms": 20035,
+        "semantic_assessment": "Core distinction remains useful, but the complete answer is not a clean semantic pass because its practical implication adds unsupported analysis and attributes the expanded conclusion to Buffett.",
+        "correct_points": [
+          "The lead initially names Berkshire’s credit rather than all external borrowing.",
+          "Munger is correctly attributed and almost automatically is retained.",
+          "The boundary principle matches the 1996 and 2002 sources."
+        ],
+        "issues": [
+          {
+            "severity": "material_unsupported_expansion",
+            "claim": "The behavior of the portfolio under stress and dependency on external credit lines are enterprise-level questions, followed by Buffett’s own answer is that when those questions remain unclear the business falls outside the circle.",
+            "cited_keys": [
+              "P01-008",
+              "P04-061",
+              "P04-060"
+            ],
+            "finding": "The cited originals define discounted cash flows and describe Buffett’s uncertainty about continuously funding a specific finance company without Berkshire’s credit. They do not provide portfolio-stress or external-credit-line tests, and do not attribute that expanded checklist to Buffett. This goes beyond the earlier sample’s broad interpretive wording."
+          },
+          {
+            "severity": "qualification_drift",
+            "claim": "Understanding individual transactions is a necessary but insufficient component; he did not regard the operation as within his circle.",
+            "finding": "The source supports insufficiency but does not establish a universal necessity test. It says not necessarily within his circle. These additions/strengthenings should not be presented as the exact sourced rule."
+          }
+        ]
+      },
+      "working_capital_followup": {
+        "kind": "generated",
+        "question": "How does required working capital affect owner earnings?",
+        "http_elapsed_ms": 11364,
+        "server_elapsed_ms": 11358,
+        "semantic_assessment": "Lead and first LIFO-qualification sentence are grounded; subsequent explanation contains a material unsupported causal claim. Not approved as received.",
+        "correct_points": [
+          "Required incremental working capital is deducted with component(c) when needed to maintain long-term competitive position and unit volume.",
+          "The source explicitly says LIFO businesses usually do not need additional working capital if unit volume is unchanged."
+        ],
+        "issues": [
+          {
+            "severity": "material_unsupported_accounting_mechanism",
+            "claim": "Under LIFO, rising inventory costs flow through cost of goods sold rather than building up on the balance sheet, so cash tied up in inventory tends not to grow with inflation.",
+            "cited_key": "P17-002",
+            "original_locator": "1986 shareholder letter canonical u286",
+            "finding": "The exact original states the owner-earnings adjustment and LIFO qualification but gives no such explanation. The draft conflates an inventory accounting convention with whether purchasing replacement inventory consumes actual cash. The supplied source does not authorize this mechanism."
+          },
+          {
+            "severity": "unsupported_extension",
+            "claim": "For non-LIFO companies inflation can quietly consume owner earnings by forcing larger working-capital outlays at flat unit volume.",
+            "finding": "This is additional accounting explanation, not stated in the cited paragraph. Even if a separately supported financial discussion could justify parts of it, it was not established from the supplied originals and should not be presented as a source-verified extension here."
+          }
+        ]
+      },
+      "scope": "Controlled local Worker tests; these generated answers pass mechanical checks but require correction before being treated as independently source-reviewed examples. Existing prepared seven-answer content remains cleared."
+    },
+    {
+      "artifact": "work/english_beta_live_v3/local-acceptance-reviewed-report.json",
+      "writer_version": "source-grounded-writer-3.5",
+      "reviewer_version": "source-grounding-review-1.0",
+      "reviewer_output_limit": 1500,
+      "prepared_stock_answer": {
+        "kind": "curated",
+        "http_elapsed_ms": 10
+      },
+      "finance_answer": {
+        "kind": "unavailable",
+        "http_elapsed_ms": 33906,
+        "server_elapsed_ms": 33896,
+        "failure_code_reported_by_root": "grounding_rejected",
+        "semantic_assessment": "No answer or private verdict text supplied to this review; cannot independently determine which semantic issue the reviewer detected."
+      },
+      "working_capital_followup": {
+        "kind": "unavailable",
+        "http_elapsed_ms": 29016,
+        "server_elapsed_ms": 29006,
+        "failure_code_reported_by_root": "grounding_truncated",
+        "semantic_assessment": "None: no published draft; truncation is not a semantic failure."
+      },
+      "http_checks": "Prepared answer and saved history pass; both fresh generation assertions fail.",
+      "scope": "First actual mandatory-review run; correct withholding is distinct from useful generated-answer availability. No raw reviewer issue is exposed publicly."
+    },
+    {
+      "artifact": "work/english_beta_live_v3/local-acceptance-reviewed4096-report.json",
+      "writer_version": "source-grounded-writer-3.5",
+      "reviewer_version": "source-grounding-review-1.1",
+      "reviewer_output_limit": 4096,
+      "prepared_stock_answer": {
+        "kind": "curated",
+        "http_elapsed_ms": 11,
+        "server_elapsed_ms": 4
+      },
+      "finance_answer": {
+        "kind": "unavailable",
+        "http_elapsed_ms": 14718,
+        "server_elapsed_ms": 14709,
+        "failure_code_reported_by_root": "validation_structure",
+        "semantic_assessment": "None: no draft available. Structure failure does not demonstrate a semantic failure."
+      },
+      "working_capital_followup": {
+        "kind": "generated",
+        "question": "How does required working capital affect owner earnings?",
+        "http_elapsed_ms": 48148,
+        "server_elapsed_ms": 48137,
+        "semantic_assessment": "Passed scoped independent original-source review; no material unsupported statement or qualification loss found.",
+        "source_review": "Canonical 1986 shareholder letter u285–293 reread. Four cited excerpts equal u286, u287, u291 and u292; source authorship/date and locators are consistent.",
+        "supported_points": [
+          "Required incremental working capital is part of deduction (c) when needed to maintain competitive position and unit volume.",
+          "Usual LIFO exception is explicitly conditional on unchanged unit volume.",
+          "Maintenance component is an uncertain estimate; owner earnings is the preferred valuation measure in the source.",
+          "Cash-flow measures that omit component (c) can be deceptive; maintenance needs over five to ten years are significant for the named business categories."
+        ],
+        "interpretation_assessment": "Dollar-for-dollar reduction follows directly from the stated subtraction. Typically-zero working-capital deduction is a bounded restatement of the adjacent usual LIFO/unchanged-volume qualification. These do not introduce the earlier unsupported inflation/cash mechanism.",
+        "prior_material_failure_absent": "No claim that LIFO accounting prevents replacement inventory from consuming cash; no invented inflation explanation.",
+        "usage_reported_by_root": {
+          "input_tokens": 10913,
+          "output_tokens": 3401,
+          "scope": "Combined writer and reviewer, both reported known; no token counts exposed in public result."
+        },
+        "release_scope": "One private experimental generated follow-up; not human-reviewed, not a blind generalization test, not proof of general reliability."
+      },
+      "http_checks": "Live enabled, prepared stock, generated follow-up and history pass; finance answer assertion fails.",
+      "scope": "Local built Worker only. This mixed run is not an all-checks pass and does not establish hosted availability."
+    }
+  ],
+  "prepared_seventh_answer_review": {
+    "status": "passed_scoped_provenance_and_source_review",
+    "slug": "evaluate-a-stock",
+    "baseline_commit": "bc1f757aadfbb11e6668a44dc389edcb096f1194",
+    "first_six_questions_exactly_unchanged": true,
+    "all_prior_reference_objects_exactly_unchanged": true,
+    "timeline_and_guide_unchanged": true,
+    "new_answer_equals_previously_reviewed_formatted_sample": true,
+    "all_18_reference_records_and_excerpts_equal_saved_original_evidence": true,
+    "formatted_artifact_hash_matches": true,
+    "attribution": "Editorial synthesis; scoped independent agent review; explicitly not human reviewed or a direct answer Buffett spoke to this question.",
+    "ui_label": "Edited answer",
+    "latency_boundary": "The exact core stock-evaluation question now returns this prepared answer without inference. Instant delivery is not evidence of a new model response or live model speed."
+  },
+  "original_six_content_file_sha256": "524b609e1eef2e6fc15eb1d01bd68af115245b03fe386bcdc946bd131ba0f4a9",
+  "current_public_content_file_sha256": "f2e50cf4c3723b87783ccaa1181209e1109da29420a9f2c411c46d08a353b843",
+  "latest_code_review": {
+    "writer_version": "source-grounded-writer-3.5",
+    "reviewer_version": "source-grounding-review-1.1",
+    "review_status": "No critical new budget, publication, replay or source-input blocker found on static reread. One actual final-pipeline working-capital follow-up passes independent source review; finance remains unavailable.",
+    "format": "Structured paragraph objects with separate required citations; shared citation/exact-quote normalization gates preserved.",
+    "source_review_gate": "A separate same-model call receives the question, complete selected original contexts and validated draft. Only exact supported:true with empty issues can publish; rejection, parse/transport error, oversized request or insufficient review allowance withholds the draft. Reviewer issue text is never returned as an answer.",
+    "budget": "Each stage separately reserves one permanent attempt and its conservative bytes/token amount through the same atomic ledger before network. 20 lifetime model calls and 5 CNY reserved maximum; a successful new generated answer generally uses 2 calls. Both stages remain charged on errors/unknown usage. Aggregate usage is known only if every attempted stage reports valid counts.",
+    "replay": "Pipeline cache identity includes reviewer version; existing pending submissions remain pinned and do not restart writer/reviewer.",
+    "time_bounds": "Writer 60 s/4096 tokens plus reviewer 45 s/4096 tokens; 135 s lease and 150 s UI timeout.",
+    "scope_label": "A separate automated pass checked source support; may miss errors; not human review.",
+    "regression_limit": "The writer/reviewer prompts explicitly mention the observed LIFO and finance failures. Repeating those questions tests a targeted regression, not blind generalization or universal reliability.",
+    "version_boundary": "Reviewer 1.1 and its output-token/timeout limits enter cache identity; the 1500-token reviewer run remains a separate historical result."
+  },
+  "hosted_review": {
+    "artifact": "work/english_beta_live_v3/hosted-check-report.json",
+    "transport_scope": "Actual ordinary HTTPS calls with official Sites service access; independent reviewer inspected saved results and original sources, did not make network calls.",
+    "session": {
+      "http_status": 200,
+      "generation_enabled": true,
+      "http_elapsed_ms": 2842
+    },
+    "prepared_stock_answer": {
+      "kind": "curated",
+      "http_status": 200,
+      "http_elapsed_ms": 1678,
+      "question": "how to evaluate a stock",
+      "scope": "Prepared answer; this is not inference latency."
+    },
+    "standalone_working_capital_answer": {
+      "kind": "generated",
+      "http_status": 200,
+      "http_elapsed_ms": 42169,
+      "server_elapsed_ms": 41281,
+      "question": "How does required working capital affect owner earnings?",
+      "pipeline": "Writer 3.5 and reviewer 1.1 with 4096 reviewer token allowance; generation scope says automated review can miss errors.",
+      "semantic_assessment": "Core working-capital and LIFO explanation supported, but final paragraph has material formula/attribution defects. Not a clean independently approved answer.",
+      "source_review": "1986 canonical u286, u290 and u292 reread; complete supplied 1998 afternoon chapter 8 context reread including question and explicit Buffett paragraphs 5 and19.",
+      "supported_points": [
+        "Required incremental working capital belongs in deduction (c) when needed to maintain competitive position and unit volume.",
+        "Usual LIFO qualification remains conditional on unchanged volume and is not turned into a blanket inventory exemption.",
+        "1998 Buffett net-cash versus gross-cash and fixed-asset maintenance comments are substantially preserved."
+      ],
+      "issues": [
+        {
+          "severity": "material_formula_component_drift",
+          "claim": "When (c) exceeds reported depreciation (component b), GAAP earnings overstate owner earnings.",
+          "source": "1986 u286 defines b; u290 states c>b condition.",
+          "finding": "Component (b) includes depreciation, depletion, amortization and certain other noncash charges. Replacing the complete addback with depreciation alone changes the condition for GAAP earnings exceeding owner earnings. The correct fuller definition in the opening does not make the later explicit component label accurate."
+        },
+        {
+          "severity": "unsupported_sector_generalization",
+          "claim": "Buffett noted this overstatement was common in oil and manufacturing, retailing, extractive companies and utilities generally.",
+          "source": "P17-006 / 1986 u290 and P17-008 / u292.",
+          "finding": "u290 describes the broader likelihood and supplies oil as a conspicuous historical example. u292 says maintenance component(c) is significant in the named categories, not that it exceeds the complete addback(b) in each of them. The draft merges different predicates into a stronger attributed sector claim."
+        }
+      ],
+      "review_gate_limit": "The automatic source-support reviewer approved this answer despite these defects. This is an observed semantic miss, not merely a hypothetical limitation.",
+      "scope": "Standalone hosted question, not the earlier local follow-up. The local 48.148-second answer remains separately accepted; do not substitute its semantic verdict for this new answer."
+    },
+    "browser_limit": "Saved report establishes hosted API execution, not a completed interactive signed-in browser walkthrough; root reports in-app browser timeouts."
+  },
+  "v4_prompt_diff_review": {
+    "baseline_commit": "769386a467e7c443970718150c39f9eb358dc39c",
+    "status": "passed_scoped_diff_review_actual_hosted_repeat_withheld",
+    "changed_files": [
+      "lib/generation-prompt.ts",
+      "lib/grounding-review.ts"
+    ],
+    "writer_version": "source-grounded-writer-3.6",
+    "reviewer_version": "source-grounding-review-1.2",
+    "changes": "Narrow answers target 100–160 words and stop after addressing the question. Both prompts explicitly preserve the full component(b) and distinguish significant maintenance spending from c>b. Reviewer must reject either known conflation.",
+    "unchanged": "All other application files match the cited baseline at review time: parser, evidence/original text, runtime timeouts, token ceilings, atomic budgets, authorization and publication gates are unchanged.",
+    "cache_boundary": "Existing cache identity includes both version constants; new version does not silently reuse an earlier approved or failed answer.",
+    "limitation": "Targeted regression improvement, not evidence that the new model output succeeds or that other questions are generally reliable. Earlier hosted semantic miss remains recorded."
+  },
+  "hosted_v4_review": {
+    "artifact": "work/english_beta_live_v3/hosted-v4-check-report.json",
+    "writer_version": "source-grounded-writer-3.6",
+    "reviewer_version": "source-grounding-review-1.2",
+    "session_status": 200,
+    "prepared_answer_kind": "curated",
+    "prepared_http_elapsed_ms": 1903,
+    "generated_attempt_kind": "unavailable",
+    "generated_http_elapsed_ms": 50563,
+    "generated_server_elapsed_ms": 48657,
+    "semantic_assessment": "None: no answer text or reviewer verdict supplied. Source-check withholding is not an approved answer or an independently demonstrated semantic rejection.",
+    "scope": "Actual hosted HTTPS repeat; prepared answer remains available; mixed prior history preserved."
+  },
+  "v5_code_diff_review": {
+    "commit": "58bca6e",
+    "status": "no_critical_new_code_blocker_hosted_generated_sample_not_semantically_approved",
+    "writer_version": "source-grounded-writer-3.6",
+    "reviewer_version": "source-grounding-review-1.3",
+    "changes": "Only reviewer uses enableThinking=false and omits reasoning_effort; writer retains low reasoning. Added fixed internal failure-code-only console warning and README note.",
+    "preserved": "Same full original contexts, strict approval parser, fail-closed publication, two separately atomic reservations, no refunds, permanent limits, 4096-token and 45-second reviewer ceilings.",
+    "logging_scope": "failureCode values derive from internal fixed enums/branches; no raw exception, prompt, question, answer, source or secret is logged.",
+    "reservation_note": "Request-size estimator still uses the slightly larger thinking=true plus reasoning_effort payload; its difference remains conservative rather than under-reserving.",
+    "limitation": "Nonthinking reviewer quality is unverified; this change is a latency/completion hypothesis, not proof of better source support. Earlier hosted semantic miss and V4 withholding remain recorded."
+  },
+  "hosted_v5_review": {
+    "artifact": "work/english_beta_live_v3/hosted-v5-check-report.json",
+    "writer_version": "source-grounded-writer-3.6",
+    "reviewer_version": "source-grounding-review-1.3",
+    "session": {
+      "http_status": 200,
+      "generation_enabled": true,
+      "http_elapsed_ms": 3817
+    },
+    "prepared_stock_answer": {
+      "kind": "curated",
+      "http_status": 200,
+      "http_elapsed_ms": 1671,
+      "server_elapsed_ms": 654
+    },
+    "standalone_working_capital_answer": {
+      "kind": "generated",
+      "http_status": 200,
+      "http_elapsed_ms": 19855,
+      "server_elapsed_ms": 18971,
+      "question": "How does required working capital affect owner earnings?",
+      "semantic_assessment": "Not independently approved as received. Correct core formula and qualification are followed by unsupported practical expansions. The separate automatic source check approved this draft and did not prevent the issues.",
+      "source_review": "Cited 1986 u286 and u287 checked against canonical text; cited 1998 chapter 8 p007 and p009 checked with full chapter context and retained attribution metadata.",
+      "improvements": [
+        "Full component(b) retains depreciation, depletion, amortization and certain other noncash charges.",
+        "The previous c>depreciation shortcut and manufacturing/retail/extractive/utility sector conflation are absent.",
+        "Opening and complete formula paragraph accurately explain additional working capital required to maintain competitive position and unit volume, and retain the usual LIFO/unchanged-volume qualification."
+      ],
+      "issues": [
+        {
+          "severity": "material_unsupported_scope_expansion",
+          "claim": "For non-LIFO businesses with growing unit volumes or rising input costs, the working-capital drain reduces owner earnings; evaluators must deduct permanent additional working capital pulled in by unit-volume growth or inflation.",
+          "cited_keys": [
+            "P17-002",
+            "P17-003"
+          ],
+          "finding": "u286 specifies additional working capital needed to maintain competitive position and unit volume. It does not establish the added non-LIFO/input-cost mechanism or the broader mandatory growth/inflation test. The practical paragraph expands the stated maintenance condition into a different deduction rule and gives source-attributed guidance beyond the supplied text."
+        },
+        {
+          "severity": "unsupported_directional_generalization",
+          "claim": "A business requiring more and more reinvestment just to maintain its position produces less cash for owners over time.",
+          "cited_keys": [
+            "P12-007",
+            "P12-009"
+          ],
+          "finding": "The passages contrast businesses requiring little capital with forced growth at very low reinvestment returns. They do not establish an unconditional time-series decline in cash available to owners without considering changing earnings or reinvestment returns."
+        },
+        {
+          "severity": "attribution_contract_violation",
+          "claim": "Buffett has also stated the best-business/worst-business comparisons from P12-007 and P12-009.",
+          "finding": "Both supplied canonical speaker fields are null with preceding-label attribution explicitly pending review. The prompt forbids resolving a null speaker from familiar wording. The draft states Buffett confidently. This is loss of the packet uncertainty, not proof that the historical speaker was someone else."
+        }
+      ],
+      "quality_note": "The answer also substantially exceeds the new 100–160-word narrow-answer target and repeats the formula; this is an instruction/usability miss, distinct from the material source-support issues.",
+      "review_gate_limit": "Switching the reviewer to nonthinking improved this observed end-to-end time but did not establish effective semantic screening. One timing observation is not a latency percentile or causal performance benchmark.",
+      "release_scope": "Private experimental functional test only; do not convert this draft into a prepared or independently verified answer."
+    },
+    "scope": "Official-service HTTPS evidence only. In-app browser walkthrough remains incomplete, earlier failures remain in this report, and no universal quality or current-investment suitability is established."
+  }
+}

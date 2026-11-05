@@ -1,0 +1,274 @@
+{
+  "schema_version": "qa-pilot-independent-source-guidance-review-1.0",
+  "reviewed_at_utc": "2026-10-31T09:11:24.249872+00:00",
+  "role": "Independent pre-draft support audit; no Q&A text authored or approved by this report.",
+  "language": "English",
+  "scope": "Read all four complete raw contexts backing the 12 reviewed claims. Practical-guidance proposals and detailed limitations below are restricted to Q1 (business quality versus price) and Q4 (integrity and incentives).",
+  "evidence_index": {
+    "path": "outputs/巴菲特知识库/reviewed-core/evidence.json",
+    "sha256": "265c79c4aaddb8037c6e61b6a3308f1d9910be14f073321e6f6b9180dab464a2",
+    "claim_count": 12
+  },
+  "raw_source_checks": [
+    {
+      "context_id": "letter-1989-mistakes",
+      "raw_path": "outputs/巴菲特知识库/letters/raw/berkshire-letter-1989.html",
+      "raw_sha256": "4dae70ca027a554a523a1de398cf7310e1cbdcc146c0cce74659931d57141afa",
+      "context_path": "outputs/巴菲特知识库/reviewed-core/contexts/letter-1989-mistakes.json",
+      "context_sha256": "9b60ecdae42870e45168412c8b4d1b259a82e1409f7562753ee47cd7a2de5ab1",
+      "source_url": "https://www.berkshirehathaway.com/letters/1989.html",
+      "paragraph_count": 20,
+      "read_scope": "Complete named letter section or complete publisher chapter, from the archived raw source; compared with evidence context.",
+      "report_year": 1989,
+      "signature_date": "1990-03-02",
+      "publication_date": null,
+      "html_line_start": 1395,
+      "html_line_end": 1565,
+      "signature_checked_in_raw_html": true
+    },
+    {
+      "context_id": "letter-1996-common-stocks",
+      "raw_path": "outputs/巴菲特知识库/letters/raw/berkshire-letter-1996.html",
+      "raw_sha256": "8518b0b6a2c2586cb46fe2507cf2bbf22ce3b557e9989e0ffe93d43e05980ced",
+      "context_path": "outputs/巴菲特知识库/reviewed-core/contexts/letter-1996-common-stocks.json",
+      "context_sha256": "7f4f2a7baca1f481624604c532a0deba91da2a255f6b75a390ca230e4670ba8f",
+      "source_url": "https://www.berkshirehathaway.com/letters/1996.html",
+      "paragraph_count": 25,
+      "read_scope": "Complete named letter section or complete publisher chapter, from the archived raw source; compared with evidence context.",
+      "report_year": 1996,
+      "signature_date": "1997-02-28",
+      "publication_date": null,
+      "html_line_start": 806,
+      "html_line_end": 1014,
+      "signature_checked_in_raw_html": true
+    },
+    {
+      "context_id": "meeting-2002-index",
+      "raw_path": "outputs/巴菲特知识库/meetings/raw/cnbc-meeting-2002-morning.html",
+      "raw_sha256": "387f34918b716dbe5dc2fe72b6abe22d94063f1012b93b6ae93f7f4566cfdcc7",
+      "context_path": "outputs/巴菲特知识库/reviewed-core/contexts/meeting-2002-index.json",
+      "context_sha256": "c3cc4157758986e45310a263634bbe7bb97ff54438fba52a5b2ccbf35bc7295a",
+      "source_url": "https://buffett.cnbc.com/video/2002/05/04/morning-session---2002-berkshire-hathaway-annual-meeting.html",
+      "paragraph_count": 39,
+      "read_scope": "Complete named letter section or complete publisher chapter, from the archived raw source; compared with evidence context.",
+      "event_date": "2002-05-04",
+      "chapter": 17,
+      "all_raw_paragraphs_match": true,
+      "explicit_speaker_labels_read": true,
+      "audio_checked": false
+    },
+    {
+      "context_id": "meeting-2010-integrity",
+      "raw_path": "outputs/巴菲特知识库/meetings/raw/cnbc-meeting-2010-afternoon.html",
+      "raw_sha256": "6e6188034ddc83877bee9af30c548b9053cfe9dc7ac46160a30f3631e632d117",
+      "context_path": "outputs/巴菲特知识库/reviewed-core/contexts/meeting-2010-integrity.json",
+      "context_sha256": "c87440c7d23d4172bf8862ec3b75eeb91d0b21bac43035033f84c3ebc1600d4a",
+      "source_url": "https://buffett.cnbc.com/video/2010/05/01/afternoon-session---2010-berkshire-hathaway-annual-meeting.html",
+      "paragraph_count": 36,
+      "read_scope": "Complete named letter section or complete publisher chapter, from the archived raw source; compared with evidence context.",
+      "event_date": "2010-05-01",
+      "chapter": 17,
+      "all_raw_paragraphs_match": true,
+      "explicit_speaker_labels_read": true,
+      "audio_checked": false
+    }
+  ],
+  "existing_claims_assessment": {
+    "checked_claim_ids": [
+      "E01",
+      "E02",
+      "E03",
+      "E04",
+      "E05",
+      "E06",
+      "E07",
+      "E08",
+      "E09",
+      "E10",
+      "E11",
+      "E12"
+    ],
+    "result": "No contradiction or unsupported attribution identified between the 12 bounded paraphrases and the source contexts read. Existing limitations must carry into Q&A. This does not promote every context paragraph into an approved claim.",
+    "paragraphs_read": 120,
+    "concrete_attribution_controls": [
+      "1989 and 1996 letters are authored by Buffett; reported statements about Charlie remain Buffett narration, not direct Munger quotations.",
+      "The high-index-price/Japan warning in 2002 is Munger’s; Buffett then discusses alternatives. Do not merge those turns into a single Buffett statement.",
+      "The distinction between professing and having integrity in 2010 is Munger’s. Buffett discusses peer pressure and Berkshire budgeting; Munger then discusses consequences.",
+      "The audience question’s claimed three-key-question framework is a questioner premise, not established as Buffett or Munger’s own framework by this exchange."
+    ]
+  },
+  "questions": [
+    {
+      "id": "Q1",
+      "suggested_question": "Can a wonderful company be a poor investment?",
+      "answer_supported": "Yes: Buffett treats business economics and purchase price as distinct conditions. A bargain in a weak business may erode with continued ownership, while even a strong business can be bought so dearly that its value takes an extended period to catch up.",
+      "claim_ids": [
+        "E01",
+        "E02",
+        "E03",
+        "E04"
+      ],
+      "practical_guidance": [
+        {
+          "id": "Q1-G1",
+          "suggested_wording": "When evaluating an individual business, keep two questions separate: are the business economics attractive, and is the purchase price sensible? A favorable answer to one does not establish the other.",
+          "type": "editorial_application_of_directly_supported_distinction",
+          "claim_ids": [
+            "E01",
+            "E02",
+            "E03"
+          ],
+          "basis": "1989 section contrasts weak business returns with a cheap entry price, then states a preference for strong businesses at a fair price. The 1996 section explicitly warns that the best businesses can be overpriced.",
+          "audience_and_conditions": "People who choose to evaluate individual businesses; this is an assessment distinction, not an instruction to buy a particular security.",
+          "must_not_add": "A numerical valuation formula, universal discount, target return, or current buy/wait/sell decision."
+        },
+        {
+          "id": "Q1-G2",
+          "suggested_wording": "Do not let admiration for management substitute for examining the business economics. Buffett’s examples include able, honest managers whose businesses still had poor economics.",
+          "type": "source_supported_evaluation_caution",
+          "claim_ids": [
+            "E02",
+            "E09"
+          ],
+          "paragraph_ids": [
+            "berkshire-letter-1989:u0161",
+            "berkshire-letter-1989:u0162",
+            "berkshire-letter-1989:u0163",
+            "berkshire-letter-1989:u0164"
+          ],
+          "audience_and_conditions": "The examples concern Berkshire textile operations and Hochschild Kohn; they establish a distinction, not a conclusion about any current manager or company.",
+          "must_not_add": "A claim that capable managers never improve a business, or that all distressed/cheap businesses are bad investments."
+        },
+        {
+          "id": "Q1-G3",
+          "suggested_wording": "If you choose individual stocks, assess businesses within what you can evaluate and recognize the boundary of that ability.",
+          "type": "directly_supported_conditional_principle",
+          "claim_ids": [
+            "E04"
+          ],
+          "audience_and_conditions": "The 1996 letter first recommends low-cost indexing for most investors; its stock-selection discussion is conditional on choosing to build a portfolio.",
+          "must_not_add": "A general recommendation that everyone stock-pick or concentrate a portfolio."
+        }
+      ],
+      "critical_limits": [
+        "1989 is the report year; the letter is signed March 2, 1990. 1996 is the report year; the letter is signed February 28, 1997. First publication dates are not established here.",
+        "The 1996 warning that market overpayment risk might then be high describes that historical moment. It is not evidence that today’s market or any present security is overpriced.",
+        "The 1989 cheap-business criticism preserves the liquidator/quick-resale distinction. Its numerical example must not become a required holding period or return threshold.",
+        "Do not claim that holding indefinitely guarantees recovery from overpayment. The 1996 wording warns of an extended catch-up period, not guaranteed recovery.",
+        "The source does not supply a fair-value formula or objective test that a company is wonderful. Acknowledge that unresolved evaluation task.",
+        "Pair the 1989 quality preference with the 1996 price qualification as a thematic synthesis; do not claim a formal revision or newly discovered evolution."
+      ],
+      "unsupported_extensions_to_reject": [
+        "Buy quality at any price.",
+        "Use a particular P/E ratio or discount percentage as Buffett’s purchase rule.",
+        "Current companies named in historical examples are recommended purchases today.",
+        "Strong or honest management makes poor business economics harmless."
+      ]
+    },
+    {
+      "id": "Q4",
+      "suggested_question": "Is honest management enough—and how do incentives matter?",
+      "alternative_user_question": "How can I judge whether management is trustworthy?",
+      "answer_boundary": "The reviewed sources offer a way to think about the problem, not a reliable test of personal honesty. They distinguish admirable people, sound business economics and organizational pressures.",
+      "claim_ids": [
+        "E09",
+        "E10",
+        "E11",
+        "E12"
+      ],
+      "practical_guidance": [
+        {
+          "id": "Q4-G1",
+          "suggested_wording": "Treat a declaration of integrity as a claim, not proof. Munger explicitly says it is difficult to know whether professing integrity means possessing it.",
+          "type": "directly_supported_caution",
+          "claim_ids": [
+            "E10"
+          ],
+          "speaker": "Charlie Munger",
+          "paragraph_ids": [
+            "cnbc-meeting-2010-afternoon-ch17-p009",
+            "cnbc-meeting-2010-afternoon-ch17-p010"
+          ],
+          "must_not_add": "An invented checklist, personality score, interview technique or guarantee for detecting dishonesty."
+        },
+        {
+          "id": "Q4-G2",
+          "suggested_wording": "Look at the pressures around a decision as well as the person. Buffett describes reducing situations that can tempt managers to manipulate reported results.",
+          "type": "editorial_application_of_described_organizational_practice",
+          "claim_ids": [
+            "E11"
+          ],
+          "speaker": "Warren Buffett",
+          "paragraph_ids": [
+            "cnbc-meeting-2010-afternoon-ch17-p018",
+            "cnbc-meeting-2010-afternoon-ch17-p019",
+            "cnbc-meeting-2010-afternoon-ch17-p020",
+            "cnbc-meeting-2010-afternoon-ch17-p021",
+            "cnbc-meeting-2010-afternoon-ch17-p022",
+            "cnbc-meeting-2010-afternoon-ch17-p023",
+            "cnbc-meeting-2010-afternoon-ch17-p024",
+            "cnbc-meeting-2010-afternoon-ch17-p025",
+            "cnbc-meeting-2010-afternoon-ch17-p026",
+            "cnbc-meeting-2010-afternoon-ch17-p027"
+          ],
+          "audience_and_conditions": "A question to ask when examining or designing reporting arrangements; the concrete example is budgets submitted to Berkshire headquarters, not a universal governance prescription.",
+          "must_not_add": "Abolish budgets, forecasting, targets or all performance-linked compensation. Buffett expressly says subsidiaries may use budgets and many do."
+        },
+        {
+          "id": "Q4-G3",
+          "suggested_wording": "Ask who bears the consequences of the decisions being made. Munger presents that connection as a response to systems that allow people to pass responsibility along.",
+          "type": "editorial_evaluation_question_based_on_explicit_principle",
+          "claim_ids": [
+            "E12"
+          ],
+          "speaker": "Charlie Munger",
+          "paragraph_ids": [
+            "cnbc-meeting-2010-afternoon-ch17-p029",
+            "cnbc-meeting-2010-afternoon-ch17-p030",
+            "cnbc-meeting-2010-afternoon-ch17-p031",
+            "cnbc-meeting-2010-afternoon-ch17-p032",
+            "cnbc-meeting-2010-afternoon-ch17-p033",
+            "cnbc-meeting-2010-afternoon-ch17-p034",
+            "cnbc-meeting-2010-afternoon-ch17-p035",
+            "cnbc-meeting-2010-afternoon-ch17-p036"
+          ],
+          "audience_and_conditions": "Munger’s interpretation of incentives during the financial crisis. This is a question about responsibility, not proof that one incentive mechanism always works.",
+          "must_not_add": "A minimum management shareholding, compensation percentage, clawback formula or legal/regulatory requirement."
+        },
+        {
+          "id": "Q4-G4",
+          "suggested_wording": "Evaluate the people and the business separately. Buffett says he prefers people he likes, trusts and admires, while warning that this alone does not ensure business success.",
+          "type": "directly_supported_distinction",
+          "claim_ids": [
+            "E09"
+          ],
+          "speaker": "Warren Buffett",
+          "audience_and_conditions": "His 1989 retrospective on business ownership and investment mistakes. Liking someone does not itself establish trustworthiness.",
+          "must_not_add": "Likeability is a validated integrity test, or admirable people guarantee profitable investment outcomes."
+        }
+      ],
+      "critical_limits": [
+        "If the title asks how to detect honesty, explicitly answer that these sources do not offer a foolproof detection method. A title centered on incentives and business quality better fits the evidence.",
+        "Preserve Munger’s authorship of both the integrity-declaration caution and the consequences principle. Buffett’s separate remarks must not be used to relabel those as his quotations.",
+        "The 2010 discussion responds to a question about management integrity following the financial crisis. Historical examples and numbers are the speakers’ accounts, not independently established findings of this pilot.",
+        "Do not turn Buffett’s Berkshire-headquarters budgeting example into advice to remove budgets from other organizations. He explicitly allows subsidiaries to use them and acknowledges Berkshire is not perfect.",
+        "Munger says misconduct can arise from poor cognition and self-justification, not only greed or malevolence. Avoid presenting the passage as a way to identify bad people from one observed incentive.",
+        "No invented fraud-detection checklist, due-diligence workflow, governance mechanism, remuneration design or legal advice is supported by this small evidence set."
+      ],
+      "unsupported_extensions_to_reject": [
+        "Anyone who talks about integrity is dishonest.",
+        "Managers who own shares are necessarily trustworthy.",
+        "Eliminating budgets prevents misconduct.",
+        "Good people guarantee good investment results.",
+        "A historical mortgage-system criticism proves a current individual or firm is unethical."
+      ]
+    }
+  ],
+  "practical_section_label_recommendation": "Use Source-supported implications or Questions these passages support. Mark the questions as editorial applications rather than a checklist dictated by Buffett.",
+  "final_review_required": "Check the actual Q&A wording, citations, audience, date qualifiers and source boundaries after drafting. No draft answer is approved by this pre-draft audit.",
+  "files_modified": [
+    "work/qa_pilot/source-guidance-review.json"
+  ],
+  "source_translation_performed": false,
+  "current_market_assessment_performed": false
+}

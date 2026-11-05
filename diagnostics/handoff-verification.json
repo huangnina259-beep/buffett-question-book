@@ -1,0 +1,37 @@
+{
+  "status": "handoff reproduction checked; website answering remains unfixed",
+  "source_application_commit": "58bca6e0857e898c453261e01956be51e2a17c5f",
+  "validation": {
+    "fresh_dependency_install": "passed;684packages",
+    "typescript": "passed",
+    "backend_mock_checks": 29,
+    "parser_checks": 22,
+    "transport_mock_checks": 27,
+    "routing_regression_cases": 8,
+    "historical_model_replays": 3,
+    "diagnostic_retrieval_cases": 89,
+    "diagnostic_known_failures_reproduced": 66,
+    "legacy_preservation_checks": 8,
+    "production_build": "passed",
+    "new_paid_model_calls": 0,
+    "application_implementation_changed": false
+  },
+  "secret_scan": {
+    "files": 386,
+    "bytes": 127049372,
+    "known_secret_values_checked": 1,
+    "compressed_database_scanned": true,
+    "issues": [],
+    "scope": "Exact known local key, common credential/private-key patterns and excluded runtime paths; no claim of exhaustive secret detection."
+  },
+  "history_scan": {
+    "blobs": 173,
+    "known_secrets_count": 1,
+    "issues": []
+  },
+  "limitations": [
+    "A passing reproduction is not a fix or semantic correctness proof.",
+    "No production visitor data, credential values or provider account exports are included.",
+    "GitHub upload/visibility verification is recorded separately after successful publication."
+  ]
+}

@@ -1,0 +1,719 @@
+{
+  "schema_version": "1.0",
+  "source_id": "berkshire-letter-1977",
+  "source_raw_sha256": "ef4c39cbca16040bb824764eca719cd934ec62380e1b9c61396e2f483d07d9e0",
+  "method": "archived_html_structure_and_whitespace_only_reflow_v1",
+  "body_language": "en",
+  "translation_applied": false,
+  "sections": [
+    {
+      "id": "berkshire-letter-1977:read001",
+      "title": "To the Stockholders of Berkshire Hathaway Inc.:",
+      "source_unit_ids": [
+        "berkshire-letter-1977:u0001",
+        "berkshire-letter-1977:u0002",
+        "berkshire-letter-1977:u0003",
+        "berkshire-letter-1977:u0004",
+        "berkshire-letter-1977:u0005",
+        "berkshire-letter-1977:u0006",
+        "berkshire-letter-1977:u0007"
+      ],
+      "locator": {
+        "type": "html_source_lines",
+        "html_line_start": 16,
+        "html_line_end": 71,
+        "source_unit_first": "berkshire-letter-1977:u0001",
+        "source_unit_last": "berkshire-letter-1977:u0007"
+      },
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "To the Stockholders of Berkshire Hathaway Inc.:",
+          "source_unit_ids": [
+            "berkshire-letter-1977:u0002"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 20,
+            "html_line_end": 20,
+            "source_unit_first": "berkshire-letter-1977:u0002",
+            "source_unit_last": "berkshire-letter-1977:u0002"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Operating earnings in 1977 of $21,904,000, or $22.54 per share, were moderately better than anticipated a year ago. Of these earnings, $1.43 per share resulted from substantial realized capital gains by Blue Chip Stamps which, to the extent of our proportional interest in that company, are included in our operating earnings figure. Capital gains or losses realized directly by Berkshire Hathaway Inc. or its insurance subsidiaries are not included in our calculation of operating earnings. While too much attention should not be paid to the figure for any single year, over the longer term the record regarding aggregate capital gains or losses obviously is of significance.",
+          "source_unit_ids": [
+            "berkshire-letter-1977:u0003"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 22,
+            "html_line_end": 32,
+            "source_unit_first": "berkshire-letter-1977:u0003",
+            "source_unit_last": "berkshire-letter-1977:u0003"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Textile operations came in well below forecast, while the results of the Illinois National Bank as well as the operating earnings attributable to our equity interest in Blue Chip Stamps were about as anticipated. However, insurance operations, led again by the truly outstanding results of Phil Liesche’s managerial group at National Indemnity Company, were even better than our optimistic expectations.",
+          "source_unit_ids": [
+            "berkshire-letter-1977:u0004"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 34,
+            "html_line_end": 40,
+            "source_unit_first": "berkshire-letter-1977:u0004",
+            "source_unit_last": "berkshire-letter-1977:u0004"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Most companies define “record” earnings as a new high in earnings per share. Since businesses customarily add from year to year to their equity base, we find nothing particularly noteworthy in a management performance combining, say, a 10% increase in equity capital and a 5% increase in earnings per share. After all, even a totally dormant savings account will produce steadily rising interest earnings each year because of compounding.",
+          "source_unit_ids": [
+            "berkshire-letter-1977:u0005"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 42,
+            "html_line_end": 49,
+            "source_unit_first": "berkshire-letter-1977:u0005",
+            "source_unit_last": "berkshire-letter-1977:u0005"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Except for special cases (for example, companies with unusual debt-equity ratios or those with important assets carried at unrealistic balance sheet values), we believe a more appropriate measure of managerial economic performance to be return on equity capital. In 1977 our operating earnings on beginning equity capital amounted to 19%, slightly better than last year and above both our own long-term average and that of American industry in aggregate. But, while our operating earnings per share were up 37% from the year before, our beginning capital was up 24%, making the gain in earnings per share considerably less impressive than it might appear at first glance.",
+          "source_unit_ids": [
+            "berkshire-letter-1977:u0006"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 51,
+            "html_line_end": 62,
+            "source_unit_first": "berkshire-letter-1977:u0006",
+            "source_unit_last": "berkshire-letter-1977:u0006"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "We expect difficulty in matching our 1977 rate of return during the forthcoming year. Beginning equity capital is up 23% from a year ago, and we expect the trend of insurance underwriting profit margins to turn down well before the end of the year. Nevertheless, we expect a reasonably good year and our present estimate, subject to the usual caveats regarding the frailties of forecasts, is that operating earnings will improve somewhat on a per share basis during 1978.",
+          "source_unit_ids": [
+            "berkshire-letter-1977:u0007"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 64,
+            "html_line_end": 71,
+            "source_unit_first": "berkshire-letter-1977:u0007",
+            "source_unit_last": "berkshire-letter-1977:u0007"
+          }
+        }
+      ],
+      "secondary_blocks": [
+        {
+          "type": "heading",
+          "text": "BERKSHIRE HATHAWAY INC.",
+          "source_unit_ids": [
+            "berkshire-letter-1977:u0001"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 16,
+            "html_line_end": 16,
+            "source_unit_first": "berkshire-letter-1977:u0001",
+            "source_unit_last": "berkshire-letter-1977:u0001"
+          },
+          "auxiliary_reason": "publisher_letterhead"
+        }
+      ]
+    },
+    {
+      "id": "berkshire-letter-1977:read002",
+      "title": "Textile Operations",
+      "source_unit_ids": [
+        "berkshire-letter-1977:u0008",
+        "berkshire-letter-1977:u0009",
+        "berkshire-letter-1977:u0010"
+      ],
+      "locator": {
+        "type": "html_source_lines",
+        "html_line_start": 73,
+        "html_line_end": 102,
+        "source_unit_first": "berkshire-letter-1977:u0008",
+        "source_unit_last": "berkshire-letter-1977:u0010"
+      },
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Textile Operations",
+          "source_unit_ids": [
+            "berkshire-letter-1977:u0008"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 73,
+            "html_line_end": 73,
+            "source_unit_first": "berkshire-letter-1977:u0008",
+            "source_unit_last": "berkshire-letter-1977:u0008"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "The textile business again had a very poor year in 1977. We have mistakenly predicted better results in each of the last two years. This may say something about our forecasting abilities, the nature of the textile industry, or both. Despite strenuous efforts, problems in marketing and manufacturing have persisted. Many difficulties experienced in the marketing area are due primarily to industry conditions, but some of the problems have been of our own making.",
+          "source_unit_ids": [
+            "berkshire-letter-1977:u0009"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 75,
+            "html_line_end": 82,
+            "source_unit_first": "berkshire-letter-1977:u0009",
+            "source_unit_last": "berkshire-letter-1977:u0009"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "A few shareholders have questioned the wisdom of remaining in the textile business which, over the longer term, is unlikely to produce returns on capital comparable to those available in many other businesses. Our reasons are several: (1) Our mills in both New Bedford and Manchester are among the largest employers in each town, utilizing a labor force of high average age possessing relatively non-transferable skills. Our workers and unions have exhibited unusual understanding and effort in cooperating with management to achieve a cost structure and product mix which might allow us to maintain a viable operation. (2) Management also has been energetic and straightforward in its approach to our textile problems. In particular, Ken Chace’s efforts after the change in corporate control took place in 1965 generated capital from the textile division needed to finance the acquisition and expansion of our profitable insurance operation. (3) With hard work and some imagination regarding manufacturing and marketing configurations, it seems reasonable that at least modest profits in the textile division can be achieved in the future.",
+          "source_unit_ids": [
+            "berkshire-letter-1977:u0010"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 84,
+            "html_line_end": 102,
+            "source_unit_first": "berkshire-letter-1977:u0010",
+            "source_unit_last": "berkshire-letter-1977:u0010"
+          }
+        }
+      ],
+      "secondary_blocks": []
+    },
+    {
+      "id": "berkshire-letter-1977:read003",
+      "title": "Insurance Underwriting",
+      "source_unit_ids": [
+        "berkshire-letter-1977:u0011",
+        "berkshire-letter-1977:u0012",
+        "berkshire-letter-1977:u0013",
+        "berkshire-letter-1977:u0014",
+        "berkshire-letter-1977:u0015",
+        "berkshire-letter-1977:u0016",
+        "berkshire-letter-1977:u0017",
+        "berkshire-letter-1977:u0018",
+        "berkshire-letter-1977:u0019",
+        "berkshire-letter-1977:u0020",
+        "berkshire-letter-1977:u0021",
+        "berkshire-letter-1977:u0022"
+      ],
+      "locator": {
+        "type": "html_source_lines",
+        "html_line_start": 104,
+        "html_line_end": 237,
+        "source_unit_first": "berkshire-letter-1977:u0011",
+        "source_unit_last": "berkshire-letter-1977:u0022"
+      },
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Insurance Underwriting",
+          "source_unit_ids": [
+            "berkshire-letter-1977:u0011"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 104,
+            "html_line_end": 104,
+            "source_unit_first": "berkshire-letter-1977:u0011",
+            "source_unit_last": "berkshire-letter-1977:u0011"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Our insurance operation continued to grow significantly in 1977. It was early in 1967 that we made our entry into this industry through the purchase of National Indemnity Company and National Fire and Marine Insurance Company (sister companies) for approximately $8.6 million. In that year their premium volume amounted to $22 million. In 1977 our aggregate insurance premium volume was $151 million. No additional shares of Berkshire Hathaway stock have been issued to achieve any of this growth.",
+          "source_unit_ids": [
+            "berkshire-letter-1977:u0012"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 106,
+            "html_line_end": 113,
+            "source_unit_first": "berkshire-letter-1977:u0012",
+            "source_unit_last": "berkshire-letter-1977:u0012"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Rather, this almost 600% increase has been achieved through large gains in National Indemnity’s traditional liability areas plus the starting of new companies (Cornhusker Casualty Company in 1970, Lakeland Fire and Casualty Company in 1971, Texas United Insurance Company in 1972, The Insurance Company of Iowa in 1973, and Kansas Fire and Casualty Company in late 1977), the purchase for cash of other insurance companies (Home and Automobile Insurance Company in 1971, Kerkling Reinsurance Corporation, now named Central Fire and Casualty Company, in 1976, and Cypress Insurance Company at yearend 1977), and finally through the marketing of additional products, most significantly reinsurance, within the National Indemnity Company corporate structure.",
+          "source_unit_ids": [
+            "berkshire-letter-1977:u0013"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 115,
+            "html_line_end": 126,
+            "source_unit_first": "berkshire-letter-1977:u0013",
+            "source_unit_last": "berkshire-letter-1977:u0013"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "In aggregate, the insurance business has worked out very well. But it hasn’t been a one-way street. Some major mistakes have been made during the decade, both in products and personnel. We experienced significant problems from (1) a surety operation initiated in 1969, (2) the 1973 expansion of Home and Automobile’s urban auto marketing into the Miami, Florida area, (3) a still unresolved aviation “fronting” arrangement, and (4) our Worker’s Compensation operation in California, which we believe retains an interesting potential upon completion of a reorganization now in progress. It is comforting to be in a business where some mistakes can be made and yet a quite satisfactory overall performance can be achieved. In a sense, this is the opposite case from our textile business where even very good management probably can average only modest results. One of the lessons your management has learned - and, unfortunately, sometimes re-learned - is the importance of being in businesses where tailwinds prevail rather than headwinds.",
+          "source_unit_ids": [
+            "berkshire-letter-1977:u0014"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 128,
+            "html_line_end": 144,
+            "source_unit_first": "berkshire-letter-1977:u0014",
+            "source_unit_last": "berkshire-letter-1977:u0014"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "In 1977 the winds in insurance underwriting were squarely behind us. Very large rate increases were effected throughout the industry in 1976 to offset the disastrous underwriting results of 1974 and 1975. But, because insurance policies typically are written for one-year periods, with pricing mistakes capable of correction only upon renewal, it was 1977 before the full impact was felt upon earnings of those earlier rate increases.",
+          "source_unit_ids": [
+            "berkshire-letter-1977:u0015"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 146,
+            "html_line_end": 153,
+            "source_unit_first": "berkshire-letter-1977:u0015",
+            "source_unit_last": "berkshire-letter-1977:u0015"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "The pendulum now is beginning to swing the other way. We estimate that costs involved in the insurance areas in which we operate rise at close to 1% per month. This is due to continuous monetary inflation affecting the cost of repairing humans and property, as well as “social inflation”, a broadening definition by society and juries of what is covered by insurance policies. Unless rates rise at a comparable 1% per month, underwriting profits must shrink. Recently the pace of rate increases has slowed dramatically, and it is our expectation that underwriting margins generally will be declining by the second half of the year.",
+          "source_unit_ids": [
+            "berkshire-letter-1977:u0016"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 155,
+            "html_line_end": 165,
+            "source_unit_first": "berkshire-letter-1977:u0016",
+            "source_unit_last": "berkshire-letter-1977:u0016"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "We must again give credit to Phil Liesche, greatly assisted by Roland Miller in Underwriting and Bill Lyons in Claims, for an extraordinary underwriting achievement in National Indemnity’s traditional auto and general liability business during 1977. Large volume gains have been accompanied by excellent underwriting margins following contraction or withdrawal by many competitors in the wake of the 1974-75 crisis period. These conditions will reverse before long. In the meantime, National Indemnity’s underwriting profitability has increased dramatically and, in addition, large sums have been made available for investment. As markets loosen and rates become inadequate, we again will face the challenge of philosophically accepting reduced volume. Unusual managerial discipline will be required, as it runs counter to normal institutional behavior to let the other fellow take away business - even at foolish prices.",
+          "source_unit_ids": [
+            "berkshire-letter-1977:u0017"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 167,
+            "html_line_end": 181,
+            "source_unit_first": "berkshire-letter-1977:u0017",
+            "source_unit_last": "berkshire-letter-1977:u0017"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Our reinsurance department, managed by George Young, improved its underwriting performance during 1977. Although the combined ratio (see definition on page 12) of 107.1 was unsatisfactory, its trend was downward throughout the year. In addition, reinsurance generates unusually high funds for investment as a percentage of premium volume.",
+          "source_unit_ids": [
+            "berkshire-letter-1977:u0018"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 183,
+            "html_line_end": 188,
+            "source_unit_first": "berkshire-letter-1977:u0018",
+            "source_unit_last": "berkshire-letter-1977:u0018"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "At Home and Auto, John Seward continued to make progress on all fronts. John was a battlefield promotion several years ago when Home and Auto’s underwriting was awash in red ink and the company faced possible extinction. Under his management it currently is sound, profitable, and growing.",
+          "source_unit_ids": [
+            "berkshire-letter-1977:u0019"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 190,
+            "html_line_end": 194,
+            "source_unit_first": "berkshire-letter-1977:u0019",
+            "source_unit_last": "berkshire-letter-1977:u0019"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "John Ringwalt’s homestate operation now consists of five companies, with Kansas Fire and Casualty Company becoming operational late in 1977 under the direction of Floyd Taylor. The homestate companies had net premium volume of $23 million, up from $5.5 million just three years ago. All four companies that operated throughout the year achieved combined ratios below 100, with Cornhusker Casualty Company, at 93.8, the leader. In addition to actively supervising the other four homestate operations, John Ringwalt manages the operations of Cornhusker which has recorded combined ratios below 100 in six of its seven full years of existence and, from a standing start in 1970, has grown to be one of the leading insurance companies operating in Nebraska utilizing the conventional independent agency system. Lakeland Fire and Casualty Company, managed by Jim Stodolka, was the winner of the Chairman’s Cup in 1977 for achieving the lowest loss ratio among the homestate companies. All in all, the homestate operation continues to make excellent progress.",
+          "source_unit_ids": [
+            "berkshire-letter-1977:u0020"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 196,
+            "html_line_end": 212,
+            "source_unit_first": "berkshire-letter-1977:u0020",
+            "source_unit_last": "berkshire-letter-1977:u0020"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "The newest addition to our insurance group is Cypress Insurance Company of South Pasadena, California. This Worker’s Compensation insurer was purchased for cash in the final days of 1977 and, therefore, its approximate $12.5 million of volume for that year was not included in our results. Cypress and National Indemnity’s present California Worker’s Compensation operation will not be combined, but will operate independently utilizing somewhat different marketing strategies. Milt Thornton, President of Cypress since 1968, runs a first-class operation for policyholders, agents, employees and owners alike. We look forward to working with him.",
+          "source_unit_ids": [
+            "berkshire-letter-1977:u0021"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 214,
+            "html_line_end": 224,
+            "source_unit_first": "berkshire-letter-1977:u0021",
+            "source_unit_last": "berkshire-letter-1977:u0021"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Insurance companies offer standardized policies which can be copied by anyone. Their only products are promises. It is not difficult to be licensed, and rates are an open book. There are no important advantages from trademarks, patents, location, corporate longevity, raw material sources, etc., and very little consumer differentiation to produce insulation from competition. It is commonplace, in corporate annual reports, to stress the difference that people make. Sometimes this is true and sometimes it isn’t. But there is no question that the nature of the insurance business magnifies the effect which individual managers have on company performance. We are very fortunate to have the group of managers that are associated with us.",
+          "source_unit_ids": [
+            "berkshire-letter-1977:u0022"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 226,
+            "html_line_end": 237,
+            "source_unit_first": "berkshire-letter-1977:u0022",
+            "source_unit_last": "berkshire-letter-1977:u0022"
+          }
+        }
+      ],
+      "secondary_blocks": []
+    },
+    {
+      "id": "berkshire-letter-1977:read004",
+      "title": "Insurance Investments",
+      "source_unit_ids": [
+        "berkshire-letter-1977:u0023",
+        "berkshire-letter-1977:u0024",
+        "berkshire-letter-1977:u0025",
+        "berkshire-letter-1977:u0026",
+        "berkshire-letter-1977:u0027",
+        "berkshire-letter-1977:u0028",
+        "berkshire-letter-1977:u0029",
+        "berkshire-letter-1977:u0030",
+        "berkshire-letter-1977:u0031",
+        "berkshire-letter-1977:u0032",
+        "berkshire-letter-1977:u0033",
+        "berkshire-letter-1977:u0034",
+        "berkshire-letter-1977:u0035",
+        "berkshire-letter-1977:u0036",
+        "berkshire-letter-1977:u0037",
+        "berkshire-letter-1977:u0038",
+        "berkshire-letter-1977:u0039",
+        "berkshire-letter-1977:u0040",
+        "berkshire-letter-1977:u0041"
+      ],
+      "locator": {
+        "type": "html_source_lines",
+        "html_line_start": 239,
+        "html_line_end": 399,
+        "source_unit_first": "berkshire-letter-1977:u0023",
+        "source_unit_last": "berkshire-letter-1977:u0041"
+      },
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Insurance Investments",
+          "source_unit_ids": [
+            "berkshire-letter-1977:u0023"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 239,
+            "html_line_end": 239,
+            "source_unit_first": "berkshire-letter-1977:u0023",
+            "source_unit_last": "berkshire-letter-1977:u0023"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "During the past two years insurance investments at cost (excluding the investment in our affiliate, Blue Chip Stamps) have grown from $134.6 million to $252.8 million. Growth in insurance reserves, produced by our large gain in premium volume, plus retained earnings, have accounted for this increase in marketable securities. In turn, net investment income of the Insurance Group has improved from $8.4 million pre-tax in 1975 to $12.3 million pre-tax in 1977.",
+          "source_unit_ids": [
+            "berkshire-letter-1977:u0024"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 241,
+            "html_line_end": 248,
+            "source_unit_first": "berkshire-letter-1977:u0024",
+            "source_unit_last": "berkshire-letter-1977:u0024"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "In addition to this income from dividends and interest, we realized capital gains of $6.9 million before tax, about one-quarter from bonds and the balance from stocks. Our unrealized gain in stocks at yearend 1977 was approximately $74 million but this figure, like any other figure of a single date (we had an unrealized loss of $17 million at the end of 1974), should not be taken too seriously. Most of our large stock positions are going to be held for many years and the scorecard on our investment decisions will be provided by business results over that period, and not by prices on any given day. Just as it would be foolish to focus unduly on short-term prospects when acquiring an entire company, we think it equally unsound to become mesmerized by prospective near term earnings or recent trends in earnings when purchasing small pieces of a company; i.e., marketable common stocks.",
+          "source_unit_ids": [
+            "berkshire-letter-1977:u0025"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 250,
+            "html_line_end": 264,
+            "source_unit_first": "berkshire-letter-1977:u0025",
+            "source_unit_last": "berkshire-letter-1977:u0025"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "A little digression illustrating this point may be interesting. Berkshire Fine Spinning Associates and Hathaway Manufacturing were merged in 1955 to form Berkshire Hathaway Inc. In 1948, on a pro forma combined basis, they had earnings after tax of almost $18 million and employed 10,000 people at a dozen large mills throughout New England. In the business world of that period they were an economic powerhouse. For example, in that same year earnings of IBM were $28 million (now $2.7 billion), Safeway Stores, $10 million, Minnesota Mining, $13 million, and Time, Inc., $9 million. But, in the decade following the 1955 merger aggregate sales of $595 million produced an aggregate loss for Berkshire Hathaway of $10 million. By 1964 the operation had been reduced to two mills and net worth had shrunk to $22 million, from $53 million at the time of the merger. So much for single year snapshots as adequate portrayals of a business.",
+          "source_unit_ids": [
+            "berkshire-letter-1977:u0026"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 266,
+            "html_line_end": 281,
+            "source_unit_first": "berkshire-letter-1977:u0026",
+            "source_unit_last": "berkshire-letter-1977:u0026"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Equity holdings of our insurance companies with a market value of over $5 million on December 31, 1977 were as follows:",
+          "source_unit_ids": [
+            "berkshire-letter-1977:u0027"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 283,
+            "html_line_end": 284,
+            "source_unit_first": "berkshire-letter-1977:u0027",
+            "source_unit_last": "berkshire-letter-1977:u0027"
+          }
+        },
+        {
+          "type": "preformatted",
+          "text": "No. of Shares  Company                                     Cost      Market\n-------------  -------                                   --------   --------\n                                                           (000’s omitted)\n    220,000    Capital Cities Communications, Inc. ..... $ 10,909   $ 13,228  \n  1,986,953    Government Employees Insurance \n                  Company Convertible Preferred ........   19,417     33,033  \n  1,294,308    Government Employees Insurance \n                  Company Common Stock .................    4,116     10,516\n    592,650    The Interpublic Group of Companies, Inc.     4,531     17,187  \n    324,580    Kaiser Aluminum& Chemical Corporation ...   11,218      9,981\n  1,305,800    Kaiser Industries, Inc. .................      778      6,039\n    226,900    Knight-Ridder Newspapers, Inc. ..........    7,534      8,736\n    170,800    Ogilvy & Mather International, Inc. .....    2,762      6,960\n    934,300    The Washington Post Company Class B .....   10,628     33,401\n                                                         --------   --------\n               Total ................................... $ 71,893   $139,081\n               All Other Holdings ......................   34,996     41,992\n                                                         --------   --------\n               Total Equities .......................... $106,889   $181,073\n                                                         ========   ========",
+          "source_unit_ids": [
+            "berkshire-letter-1977:u0028"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 286,
+            "html_line_end": 305,
+            "source_unit_first": "berkshire-letter-1977:u0028",
+            "source_unit_last": "berkshire-letter-1977:u0028"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "We select our marketable equity securities in much the same way we would evaluate a business for acquisition in its entirety. We want the business to be (1) one that we can understand, (2) with favorable long-term prospects, (3) operated by honest and competent people, and (4) available at a very attractive price. We ordinarily make no attempt to buy equities for anticipated favorable stock price behavior in the short term. In fact, if their business experience continues to satisfy us, we welcome lower market prices of stocks we own as an opportunity to acquire even more of a good thing at a better price.",
+          "source_unit_ids": [
+            "berkshire-letter-1977:u0029"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 307,
+            "html_line_end": 316,
+            "source_unit_first": "berkshire-letter-1977:u0029",
+            "source_unit_last": "berkshire-letter-1977:u0029"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Our experience has been that pro-rata portions of truly outstanding businesses sometimes sell in the securities markets at very large discounts from the prices they would command in negotiated transactions involving entire companies. Consequently, bargains in business ownership, which simply are not available directly through corporate acquisition, can be obtained indirectly through stock ownership. When prices are appropriate, we are willing to take very large positions in selected companies, not with any intention of taking control and not foreseeing sell-out or merger, but with the expectation that excellent business results by corporations will translate over the long term into correspondingly excellent market value and dividend results for owners, minority as well as majority.",
+          "source_unit_ids": [
+            "berkshire-letter-1977:u0030"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 318,
+            "html_line_end": 330,
+            "source_unit_first": "berkshire-letter-1977:u0030",
+            "source_unit_last": "berkshire-letter-1977:u0030"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Such investments initially may have negligible impact on our operating earnings. For example, we invested $10.9 million in Capital Cities Communications during 1977. Earnings attributable to the shares we purchased totaled about $1.3 million last year. But only the cash dividend, which currently provides $40,000 annually, is reflected in our operating earnings figure.",
+          "source_unit_ids": [
+            "berkshire-letter-1977:u0031"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 332,
+            "html_line_end": 337,
+            "source_unit_first": "berkshire-letter-1977:u0031",
+            "source_unit_last": "berkshire-letter-1977:u0031"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Capital Cities possesses both extraordinary properties and extraordinary management. And these management skills extend equally to operations and employment of corporate capital. To purchase, directly, properties such as Capital Cities owns would cost in the area of twice our cost of purchase via the stock market, and direct ownership would offer no important advantages to us. While control would give us the opportunity - and the responsibility - to manage operations and corporate resources, we would not be able to provide management in either of those respects equal to that now in place. In effect, we can obtain a better management result through non-control than control. This is an unorthodox view, but one we believe to be sound.",
+          "source_unit_ids": [
+            "berkshire-letter-1977:u0032"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 339,
+            "html_line_end": 350,
+            "source_unit_first": "berkshire-letter-1977:u0032",
+            "source_unit_last": "berkshire-letter-1977:u0032"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Banking",
+          "source_unit_ids": [
+            "berkshire-letter-1977:u0033"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 352,
+            "html_line_end": 352,
+            "source_unit_first": "berkshire-letter-1977:u0033",
+            "source_unit_last": "berkshire-letter-1977:u0033"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "In 1977 the Illinois National Bank continued to achieve a rate of earnings on assets about three times that of most large banks. As usual, this record was achieved while the bank paid maximum rates to savers and maintained an asset position combining low risk and exceptional liquidity. Gene Abegg formed the bank in 1931 with $250,000. In its first full year of operation, earnings amounted to $8,782. Since that time, no new capital has been contributed to the bank; on the contrary, since our purchase in 1969, dividends of $20 million have been paid. Earnings in 1977 amounted to $3.6 million, more than achieved by many banks two or three times its size.",
+          "source_unit_ids": [
+            "berkshire-letter-1977:u0034"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 354,
+            "html_line_end": 364,
+            "source_unit_first": "berkshire-letter-1977:u0034",
+            "source_unit_last": "berkshire-letter-1977:u0034"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Late last year Gene, now 80 and still running a banking operation without peer, asked that a successor be brought in. Accordingly, Peter Jeffrey, formerly President and Chief Executive Officer of American National Bank of Omaha, has joined the Illinois National Bank effective March 1st as President and Chief Executive Officer.",
+          "source_unit_ids": [
+            "berkshire-letter-1977:u0035"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 366,
+            "html_line_end": 371,
+            "source_unit_first": "berkshire-letter-1977:u0035",
+            "source_unit_last": "berkshire-letter-1977:u0035"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Gene continues in good health as Chairman. We expect a continued successful operation at Rockford’s leading bank.",
+          "source_unit_ids": [
+            "berkshire-letter-1977:u0036"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 373,
+            "html_line_end": 374,
+            "source_unit_first": "berkshire-letter-1977:u0036",
+            "source_unit_last": "berkshire-letter-1977:u0036"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Blue Chip Stamps",
+          "source_unit_ids": [
+            "berkshire-letter-1977:u0037"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 376,
+            "html_line_end": 376,
+            "source_unit_first": "berkshire-letter-1977:u0037",
+            "source_unit_last": "berkshire-letter-1977:u0037"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "We again increased our equity interest in Blue Chip Stamps, and owned approximately 36 1/2% at the end of 1977. Blue Chip had a fine year, earning approximately $12.9 million from operations and, in addition, had realized securities gains of $4.1 million.",
+          "source_unit_ids": [
+            "berkshire-letter-1977:u0038"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 378,
+            "html_line_end": 382,
+            "source_unit_first": "berkshire-letter-1977:u0038",
+            "source_unit_last": "berkshire-letter-1977:u0038"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Both Wesco Financial Corp., an 80% owned subsidiary of Blue Chip Stamps, managed by Louis Vincenti, and See’s Candies, a 99% owned subsidiary, managed by Chuck Huggins, made good progress in 1977. Since See’s was purchased by Blue Chip Stamps at the beginning of 1972, pre-tax operating earnings have grown from $4.2 million to $12.6 million with little additional capital investment. See’s achieved this record while operating in an industry experiencing practically no unit growth. Shareholders of Berkshire Hathaway Inc. may obtain the annual report of Blue Chip Stamps by requesting it from Mr. Robert H. Bird, Blue Chip Stamps, 5801 South Eastern Avenue, Los Angeles, California 90040.",
+          "source_unit_ids": [
+            "berkshire-letter-1977:u0039"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 384,
+            "html_line_end": 394,
+            "source_unit_first": "berkshire-letter-1977:u0039",
+            "source_unit_last": "berkshire-letter-1977:u0039"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Warren E. Buffett, Chairman",
+          "source_unit_ids": [
+            "berkshire-letter-1977:u0040"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 397,
+            "html_line_end": 397,
+            "source_unit_first": "berkshire-letter-1977:u0040",
+            "source_unit_last": "berkshire-letter-1977:u0040"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "March 14,1978",
+          "source_unit_ids": [
+            "berkshire-letter-1977:u0041"
+          ],
+          "locator": {
+            "type": "html_source_lines",
+            "html_line_start": 399,
+            "html_line_end": 399,
+            "source_unit_first": "berkshire-letter-1977:u0041",
+            "source_unit_last": "berkshire-letter-1977:u0041"
+          }
+        }
+      ],
+      "secondary_blocks": []
+    }
+  ],
+  "checks": {
+    "raw_hash_matches_manifest": true,
+    "original_text_units_hash_matches_manifest": true,
+    "all_source_unit_offsets_match_original_body": true,
+    "original_unit_count": 41,
+    "mapped_unit_count": 41,
+    "all_source_units_mapped_once_in_source_order": true,
+    "non_whitespace_character_sequence_preserved": true,
+    "digit_sequence_preserved": true,
+    "word_and_punctuation_character_sequence_preserved": true,
+    "whitespace_token_sequence_preserved_after_hyphen_wrap_normalization": true,
+    "original_html_table_count": 0,
+    "reconstructed_html_table_count": 0,
+    "all_html_table_cell_text_preserved": true,
+    "block_type_counts": {
+      "heading": 5,
+      "paragraph": 35,
+      "preformatted": 1
+    },
+    "secondary_block_count": 1,
+    "source_replacement_character_count": 0
+  },
+  "issues": [
+    "PRE tables retain the publisher’s fixed-width spacing; semantic row/column inference has not been attempted.",
+    "Only whitespace is reflowed. Original punctuation, spelling, numbers, footnotes, quotations and historical logistics are retained.",
+    "Source-format headings are detected conservatively; some unmarked headings may remain paragraphs.",
+    "This is a layout reading layer, not full semantic or financial-table interpretation review."
+  ]
+}

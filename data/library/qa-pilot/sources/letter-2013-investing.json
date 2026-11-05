@@ -1,0 +1,1682 @@
+{
+  "id": "letter-2013-investing",
+  "source_id": "berkshire-letter-2013",
+  "title": "Some Thoughts About Investing",
+  "title_kind": "Original section heading",
+  "report_year": 2013,
+  "event_date": null,
+  "signed_date": "2014-02-28",
+  "publication_date": null,
+  "date_basis": {
+    "kind": "Visually checked signature date in original PDF",
+    "physical_pdf_page": 23,
+    "printed_page": 24,
+    "signature_anchor": "February 28, 2014"
+  },
+  "source_url": "https://www.berkshirehathaway.com/letters/2013ltr.pdf",
+  "source_raw_path": "letters/raw/berkshire-letter-2013.pdf",
+  "source_raw_absolute_path": "/Users/nina/Documents/Codex/2026-10-31/buffett-knowledge/outputs/巴菲特知识库/letters/raw/berkshire-letter-2013.pdf",
+  "source_raw_sha256": "ad24565997a09a1f7ef752da875161a24e025329510f3489afd912ff1e2673f5",
+  "source_units_path": "letters/text_units/berkshire-letter-2013.json",
+  "source_units_sha256": "61b5452f3226f176e9c61a4ee60be1ff1a63cd99e18bb33dfcf4bd2dd157eabc",
+  "boundary": "Complete named section, from Some Thoughts About Investing on physical page 16 through the paragraph immediately preceding The Annual Meeting on physical page 20. Printed pages 17–21. Includes the farm/property examples, competence and indexing discussion, wife instructions, Graham/book reflections and pension-policy closing paragraphs.",
+  "locator": {
+    "physical_pdf_pages": [
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "printed_pages": [
+      17,
+      18,
+      19,
+      20,
+      21
+    ]
+  },
+  "paragraph_boundaries_source": {
+    "path": "readability/pdf_letters/berkshire-letter-2013.json",
+    "sha256": "3d21789104fe09ccd5d7f3d6f2724ba5c4c7ca6c2188aecb2138a85e3a76e8fc",
+    "use": "Geometry-derived paragraph boundaries only; text is recovered from canonical exact spans."
+  },
+  "original_units": [
+    {
+      "id": "berkshire-letter-2013:u0016",
+      "source_id": "berkshire-letter-2013",
+      "text": "Berkshire has one major equity position that is not included in the table: We can buy 700 million shares of\nBank of America at any time prior to September 2021 for $5 billion. At yearend these shares were worth $10.9\nbillion. We are likely to purchase the shares just before expiration of our option. In the meantime, it is important for\nyou to realize that Bank of America is, in effect, our fifth largest equity investment and one we value highly.\nIn addition to our equity holdings, we also invest substantial sums in bonds. Usually, we’ve done well in\nthese. But not always.\nMost of you have never heard of Energy Future Holdings. Consider yourselves lucky; I certainly wish I\nhadn’t. The company was formed in 2007 to effect a giant leveraged buyout of electric utility assets in Texas. The\nequity owners put up $8 billion and borrowed a massive amount in addition. About $2 billion of the debt was\npurchased by Berkshire, pursuant to a decision I made without consulting with Charlie. That was a big mistake.\nUnless natural gas prices soar, EFH will almost certainly file for bankruptcy in 2014. Last year, we sold\nour holdings for $259 million. While owning the bonds, we received $837 million in cash interest. Overall,\ntherefore, we suffered a pre-tax loss of $873 million. Next time I’ll call Charlie.\nA few of our subsidiaries – primarily electric and gas utilities – use derivatives in their operations.\nOtherwise, we have not entered into any derivative contracts for some years, and our existing positions continue to\nrun off. The contracts that have expired have delivered large profits as well as several billion dollars of medium-\nterm float. Though there are no guarantees, we expect a similar result from those remaining on our books.\nSome Thoughts About Investing\nInvestment is most intelligent when it is most businesslike.\n— The Intelligent Investor by Benjamin Graham\nIt is fitting to have a Ben Graham quote open this discussion because I owe so much of what I know about\ninvesting to him. I will talk more about Ben a bit later, and I will even sooner talk about common stocks. But let me\nfirst tell you about two small non-stock investments that I made long ago. Though neither changed my net worth by\nmuch, they are instructive.\nThis tale begins in Nebraska. From 1973 to 1981, the Midwest experienced an explosion in farm prices,\ncaused by a widespread belief that runaway inflation was coming and fueled by the lending policies of small rural\nbanks. Then the bubble burst, bringing price declines of 50% or more that devastated both leveraged farmers and\ntheir lenders. Five times as many Iowa and Nebraska banks failed in that bubble’s aftermath than in our recent\nGreat Recession.\nIn 1986, I purchased a 400-acre farm, located 50 miles north of Omaha, from the FDIC. It cost me\n$280,000, considerably less than what a failed bank had lent against the farm a few years earlier. I knew nothing\nabout operating a farm. But I have a son who loves farming and I learned from him both how many bushels of corn\nand soybeans the farm would produce and what the operating expenses would be. From these estimates, I\ncalculated the normalized return from the farm to then be about 10%. I also thought it was likely that productivity\nwould improve over time and that crop prices would move higher as well. Both expectations proved out.\nI needed no unusual knowledge or intelligence to conclude that the investment had no downside and\npotentially had substantial upside. There would, of course, be the occasional bad crop and prices would sometimes\ndisappoint. But so what? There would be some unusually good years as well, and I would never be under any\npressure to sell the property. Now, 28 years later, the farm has tripled its earnings and is worth five times or more\nwhat I paid. I still know nothing about farming and recently made just my second visit to the farm.\n17",
+      "text_sha256": "f1f27e1e8e7cc38e30cba775eb4c0e983a2e17c163bc1353034926543c5c0a15",
+      "character_count": 3893,
+      "locator": {
+        "type": "pdf_page",
+        "page": 16,
+        "page_number_kind": "physical_pdf_page"
+      },
+      "unit_kind": "pdf_page",
+      "author_attribution": null,
+      "non_whitespace_control_character_count": 0,
+      "non_whitespace_control_codepoints": [],
+      "semantic_review_status": "not_reviewed",
+      "layout_review_status": "not_reviewed",
+      "table_reading_order_verified": false,
+      "numeric_text_exactness_verified_against_page_image": false,
+      "extraction_alerts": [],
+      "ordinal": 16,
+      "title": "",
+      "reading_text": "Berkshire has one major equity position that is not included in the table: We can buy 700 million shares of\nBank of America at any time prior to September 2021 for $5 billion. At yearend these shares were worth $10.9\nbillion. We are likely to purchase the shares just before expiration of our option. In the meantime, it is important for\nyou to realize that Bank of America is, in effect, our fifth largest equity investment and one we value highly.\nIn addition to our equity holdings, we also invest substantial sums in bonds. Usually, we’ve done well in\nthese. But not always.\nMost of you have never heard of Energy Future Holdings. Consider yourselves lucky; I certainly wish I\nhadn’t. The company was formed in 2007 to effect a giant leveraged buyout of electric utility assets in Texas. The\nequity owners put up $8 billion and borrowed a massive amount in addition. About $2 billion of the debt was\npurchased by Berkshire, pursuant to a decision I made without consulting with Charlie. That was a big mistake.\nUnless natural gas prices soar, EFH will almost certainly file for bankruptcy in 2014. Last year, we sold\nour holdings for $259 million. While owning the bonds, we received $837 million in cash interest. Overall,\ntherefore, we suffered a pre-tax loss of $873 million. Next time I’ll call Charlie.\nA few of our subsidiaries – primarily electric and gas utilities – use derivatives in their operations.\nOtherwise, we have not entered into any derivative contracts for some years, and our existing positions continue to\nrun off. The contracts that have expired have delivered large profits as well as several billion dollars of medium-\nterm float. Though there are no guarantees, we expect a similar result from those remaining on our books.\nSome Thoughts About Investing\nInvestment is most intelligent when it is most businesslike.\n— The Intelligent Investor by Benjamin Graham\nIt is fitting to have a Ben Graham quote open this discussion because I owe so much of what I know about\ninvesting to him. I will talk more about Ben a bit later, and I will even sooner talk about common stocks. But let me\nfirst tell you about two small non-stock investments that I made long ago. Though neither changed my net worth by\nmuch, they are instructive.\nThis tale begins in Nebraska. From 1973 to 1981, the Midwest experienced an explosion in farm prices,\ncaused by a widespread belief that runaway inflation was coming and fueled by the lending policies of small rural\nbanks. Then the bubble burst, bringing price declines of 50% or more that devastated both leveraged farmers and\ntheir lenders. Five times as many Iowa and Nebraska banks failed in that bubble’s aftermath than in our recent\nGreat Recession.\nIn 1986, I purchased a 400-acre farm, located 50 miles north of Omaha, from the FDIC. It cost me\n$280,000, considerably less than what a failed bank had lent against the farm a few years earlier. I knew nothing\nabout operating a farm. But I have a son who loves farming and I learned from him both how many bushels of corn\nand soybeans the farm would produce and what the operating expenses would be. From these estimates, I\ncalculated the normalized return from the farm to then be about 10%. I also thought it was likely that productivity\nwould improve over time and that crop prices would move higher as well. Both expectations proved out.\nI needed no unusual knowledge or intelligence to conclude that the investment had no downside and\npotentially had substantial upside. There would, of course, be the occasional bad crop and prices would sometimes\ndisappoint. But so what? There would be some unusually good years as well, and I would never be under any\npressure to sell the property. Now, 28 years later, the farm has tripled its earnings and is worth five times or more\nwhat I paid. I still know nothing about farming and recently made just my second visit to the farm.\n17",
+      "source_raw_sha256": "ad24565997a09a1f7ef752da875161a24e025329510f3489afd912ff1e2673f5",
+      "source_url": "https://www.berkshirehathaway.com/letters/2013ltr.pdf",
+      "source_units_file": "letters/text_units/berkshire-letter-2013.json",
+      "eligible_for_qa_release": false,
+      "eligible_for_translation_release": false
+    },
+    {
+      "id": "berkshire-letter-2013:u0017",
+      "source_id": "berkshire-letter-2013",
+      "text": "In 1993, I made another small investment. Larry Silverstein, Salomon’s landlord when I was the\ncompany’s CEO, told me about a New York retail property adjacent to NYU that the Resolution Trust Corp. was\nselling. Again, a bubble had popped – this one involving commercial real estate – and the RTC had been created to\ndispose of the assets of failed savings institutions whose optimistic lending practices had fueled the folly.\nHere, too, the analysis was simple. As had been the case with the farm, the unleveraged current yield from\nthe property was about 10%. But the property had been undermanaged by the RTC, and its income would increase\nwhen several vacant stores were leased. Even more important, the largest tenant – who occupied around 20% of the\nproject’s space – was paying rent of about $5 per foot, whereas other tenants averaged $70. The expiration of this\nbargain lease in nine years was certain to provide a major boost to earnings. The property’s location was also\nsuperb: NYU wasn’t going anywhere.\nI joined a small group, including Larry and my friend Fred Rose, that purchased the parcel. Fred was an\nexperienced, high-grade real estate investor who, with his family, would manage the property. And manage it they\ndid. As old leases expired, earnings tripled. Annual distributions now exceed 35% of our original equity\ninvestment. Moreover, our original mortgage was refinanced in 1996 and again in 1999, moves that allowed several\nspecial distributions totaling more than 150% of what we had invested. I’ve yet to view the property.\nIncome from both the farm and the NYU real estate will probably increase in the decades to come. Though\nthe gains won’t be dramatic, the two investments will be solid and satisfactory holdings for my lifetime and,\nsubsequently, for my children and grandchildren.\nI tell these tales to illustrate certain fundamentals of investing:\nŠ You don’t need to be an expert in order to achieve satisfactory investment returns. But if you aren’t, you\nmust recognize your limitations and follow a course certain to work reasonably well. Keep things simple\nand don’t swing for the fences. When promised quick profits, respond with a quick “no.”\nŠ Focus on the future productivity of the asset you are considering. If you don’t feel comfortable making a rough\nestimate of the asset’s future earnings, just forget it and move on. No one has the ability to evaluate every\ninvestment possibility. But omniscience isn’t necessary; you only need to understand the actions you undertake.\nŠ If you instead focus on the prospective price change of a contemplated purchase, you are speculating.\nThere is nothing improper about that. I know, however, that I am unable to speculate successfully, and I\nam skeptical of those who claim sustained success at doing so. Half of all coin-flippers will win their first\ntoss; none of those winners has an expectation of profit if he continues to play the game. And the fact that\na given asset has appreciated in the recent past is never a reason to buy it.\nŠ With my two small investments, I thought only of what the properties would produce and cared not at all\nabout their daily valuations. Games are won by players who focus on the playing field – not by those\nwhose eyes are glued to the scoreboard. If you can enjoy Saturdays and Sundays without looking at stock\nprices, give it a try on weekdays.\nŠ Forming macro opinions or listening to the macro or market predictions of others is a waste of time.\nIndeed, it is dangerous because it may blur your vision of the facts that are truly important. (When I hear\nTV commentators glibly opine on what the market will do next, I am reminded of Mickey Mantle’s\nscathing comment: “You don’t know how easy this game is until you get into that broadcasting booth.”)\n18",
+      "text_sha256": "5e812a9a191d2f8a51cfe754cf2c6a7cf5a8949513b7d886e4554a4e0b258277",
+      "character_count": 3784,
+      "locator": {
+        "type": "pdf_page",
+        "page": 17,
+        "page_number_kind": "physical_pdf_page"
+      },
+      "unit_kind": "pdf_page",
+      "author_attribution": null,
+      "non_whitespace_control_character_count": 0,
+      "non_whitespace_control_codepoints": [],
+      "semantic_review_status": "not_reviewed",
+      "layout_review_status": "not_reviewed",
+      "table_reading_order_verified": false,
+      "numeric_text_exactness_verified_against_page_image": false,
+      "extraction_alerts": [],
+      "ordinal": 17,
+      "title": "",
+      "reading_text": "In 1993, I made another small investment. Larry Silverstein, Salomon’s landlord when I was the\ncompany’s CEO, told me about a New York retail property adjacent to NYU that the Resolution Trust Corp. was\nselling. Again, a bubble had popped – this one involving commercial real estate – and the RTC had been created to\ndispose of the assets of failed savings institutions whose optimistic lending practices had fueled the folly.\nHere, too, the analysis was simple. As had been the case with the farm, the unleveraged current yield from\nthe property was about 10%. But the property had been undermanaged by the RTC, and its income would increase\nwhen several vacant stores were leased. Even more important, the largest tenant – who occupied around 20% of the\nproject’s space – was paying rent of about $5 per foot, whereas other tenants averaged $70. The expiration of this\nbargain lease in nine years was certain to provide a major boost to earnings. The property’s location was also\nsuperb: NYU wasn’t going anywhere.\nI joined a small group, including Larry and my friend Fred Rose, that purchased the parcel. Fred was an\nexperienced, high-grade real estate investor who, with his family, would manage the property. And manage it they\ndid. As old leases expired, earnings tripled. Annual distributions now exceed 35% of our original equity\ninvestment. Moreover, our original mortgage was refinanced in 1996 and again in 1999, moves that allowed several\nspecial distributions totaling more than 150% of what we had invested. I’ve yet to view the property.\nIncome from both the farm and the NYU real estate will probably increase in the decades to come. Though\nthe gains won’t be dramatic, the two investments will be solid and satisfactory holdings for my lifetime and,\nsubsequently, for my children and grandchildren.\nI tell these tales to illustrate certain fundamentals of investing:\nŠ You don’t need to be an expert in order to achieve satisfactory investment returns. But if you aren’t, you\nmust recognize your limitations and follow a course certain to work reasonably well. Keep things simple\nand don’t swing for the fences. When promised quick profits, respond with a quick “no.”\nŠ Focus on the future productivity of the asset you are considering. If you don’t feel comfortable making a rough\nestimate of the asset’s future earnings, just forget it and move on. No one has the ability to evaluate every\ninvestment possibility. But omniscience isn’t necessary; you only need to understand the actions you undertake.\nŠ If you instead focus on the prospective price change of a contemplated purchase, you are speculating.\nThere is nothing improper about that. I know, however, that I am unable to speculate successfully, and I\nam skeptical of those who claim sustained success at doing so. Half of all coin-flippers will win their first\ntoss; none of those winners has an expectation of profit if he continues to play the game. And the fact that\na given asset has appreciated in the recent past is never a reason to buy it.\nŠ With my two small investments, I thought only of what the properties would produce and cared not at all\nabout their daily valuations. Games are won by players who focus on the playing field – not by those\nwhose eyes are glued to the scoreboard. If you can enjoy Saturdays and Sundays without looking at stock\nprices, give it a try on weekdays.\nŠ Forming macro opinions or listening to the macro or market predictions of others is a waste of time.\nIndeed, it is dangerous because it may blur your vision of the facts that are truly important. (When I hear\nTV commentators glibly opine on what the market will do next, I am reminded of Mickey Mantle’s\nscathing comment: “You don’t know how easy this game is until you get into that broadcasting booth.”)\n18",
+      "source_raw_sha256": "ad24565997a09a1f7ef752da875161a24e025329510f3489afd912ff1e2673f5",
+      "source_url": "https://www.berkshirehathaway.com/letters/2013ltr.pdf",
+      "source_units_file": "letters/text_units/berkshire-letter-2013.json",
+      "eligible_for_qa_release": false,
+      "eligible_for_translation_release": false
+    },
+    {
+      "id": "berkshire-letter-2013:u0018",
+      "source_id": "berkshire-letter-2013",
+      "text": "Š My two purchases were made in 1986 and 1993. What the economy, interest rates, or the stock market\nmight do in the years immediately following – 1987 and 1994 – was of no importance to me in making\nthose investments. I can’t remember what the headlines or pundits were saying at the time. Whatever the\nchatter, corn would keep growing in Nebraska and students would flock to NYU.\nThere is one major difference between my two small investments and an investment in stocks. Stocks\nprovide you minute-to-minute valuations for your holdings whereas I have yet to see a quotation for either my farm\nor the New York real estate.\nIt should be an enormous advantage for investors in stocks to have those wildly fluctuating valuations\nplaced on their holdings – and for some investors, it is. After all, if a moody fellow with a farm bordering my\nproperty yelled out a price every day to me at which he would either buy my farm or sell me his – and those prices\nvaried widely over short periods of time depending on his mental state – how in the world could I be other than\nbenefited by his erratic behavior? If his daily shout-out was ridiculously low, and I had some spare cash, I would\nbuy his farm. If the number he yelled was absurdly high, I could either sell to him or just go on farming.\nOwners of stocks, however, too often let the capricious and often irrational behavior of their fellow owners\ncause them to behave irrationally as well. Because there is so much chatter about markets, the economy, interest\nrates, price behavior of stocks, etc., some investors believe it is important to listen to pundits – and, worse yet,\nimportant to consider acting upon their comments.\nThose people who can sit quietly for decades when they own a farm or apartment house too often become\nfrenetic when they are exposed to a stream of stock quotations and accompanying commentators delivering an\nimplied message of “Don’t just sit there, do something.” For these investors, liquidity is transformed from the\nunqualified benefit it should be to a curse.\nA “flash crash” or some other extreme market fluctuation can’t hurt an investor any more than an erratic\nand mouthy neighbor can hurt my farm investment. Indeed, tumbling markets can be helpful to the true investor if\nhe has cash available when prices get far out of line with values. A climate of fear is your friend when investing; a\neuphoric world is your enemy.\nDuring the extraordinary financial panic that occurred late in 2008, I never gave a thought to selling my\nfarm or New York real estate, even though a severe recession was clearly brewing. And, if I had owned 100% of a\nsolid business with good long-term prospects, it would have been foolish for me to even consider dumping it. So\nwhy would I have sold my stocks that were small participations in wonderful businesses? True, any one of them\nmight eventually disappoint, but as a group they were certain to do well. Could anyone really believe the earth was\ngoing to swallow up the incredible productive assets and unlimited human ingenuity existing in America?\n************\nWhen Charlie and I buy stocks – which we think of as small portions of businesses – our analysis is very\nsimilar to that which we use in buying entire businesses. We first have to decide whether we can sensibly estimate\nan earnings range for five years out, or more. If the answer is yes, we will buy the stock (or business) if it sells at a\nreasonable price in relation to the bottom boundary of our estimate. If, however, we lack the ability to estimate\nfuture earnings – which is usually the case – we simply move on to other prospects. In the 54 years we have worked\ntogether, we have never foregone an attractive purchase because of the macro or political environment, or the views\nof other people. In fact, these subjects never come up when we make decisions.\nIt’s vital, however, that we recognize the perimeter of our “circle of competence” and stay well inside of\nit. Even then, we will make some mistakes, both with stocks and businesses. But they will not be the disasters that\noccur, for example, when a long-rising market induces purchases that are based on anticipated price behavior and a\ndesire to be where the action is.\n19",
+      "text_sha256": "0b6a51159408b853f562275824232ca28e1f48b506706f6035a82cea3a963d69",
+      "character_count": 4223,
+      "locator": {
+        "type": "pdf_page",
+        "page": 18,
+        "page_number_kind": "physical_pdf_page"
+      },
+      "unit_kind": "pdf_page",
+      "author_attribution": null,
+      "non_whitespace_control_character_count": 0,
+      "non_whitespace_control_codepoints": [],
+      "semantic_review_status": "not_reviewed",
+      "layout_review_status": "not_reviewed",
+      "table_reading_order_verified": false,
+      "numeric_text_exactness_verified_against_page_image": false,
+      "extraction_alerts": [],
+      "ordinal": 18,
+      "title": "",
+      "reading_text": "Š My two purchases were made in 1986 and 1993. What the economy, interest rates, or the stock market\nmight do in the years immediately following – 1987 and 1994 – was of no importance to me in making\nthose investments. I can’t remember what the headlines or pundits were saying at the time. Whatever the\nchatter, corn would keep growing in Nebraska and students would flock to NYU.\nThere is one major difference between my two small investments and an investment in stocks. Stocks\nprovide you minute-to-minute valuations for your holdings whereas I have yet to see a quotation for either my farm\nor the New York real estate.\nIt should be an enormous advantage for investors in stocks to have those wildly fluctuating valuations\nplaced on their holdings – and for some investors, it is. After all, if a moody fellow with a farm bordering my\nproperty yelled out a price every day to me at which he would either buy my farm or sell me his – and those prices\nvaried widely over short periods of time depending on his mental state – how in the world could I be other than\nbenefited by his erratic behavior? If his daily shout-out was ridiculously low, and I had some spare cash, I would\nbuy his farm. If the number he yelled was absurdly high, I could either sell to him or just go on farming.\nOwners of stocks, however, too often let the capricious and often irrational behavior of their fellow owners\ncause them to behave irrationally as well. Because there is so much chatter about markets, the economy, interest\nrates, price behavior of stocks, etc., some investors believe it is important to listen to pundits – and, worse yet,\nimportant to consider acting upon their comments.\nThose people who can sit quietly for decades when they own a farm or apartment house too often become\nfrenetic when they are exposed to a stream of stock quotations and accompanying commentators delivering an\nimplied message of “Don’t just sit there, do something.” For these investors, liquidity is transformed from the\nunqualified benefit it should be to a curse.\nA “flash crash” or some other extreme market fluctuation can’t hurt an investor any more than an erratic\nand mouthy neighbor can hurt my farm investment. Indeed, tumbling markets can be helpful to the true investor if\nhe has cash available when prices get far out of line with values. A climate of fear is your friend when investing; a\neuphoric world is your enemy.\nDuring the extraordinary financial panic that occurred late in 2008, I never gave a thought to selling my\nfarm or New York real estate, even though a severe recession was clearly brewing. And, if I had owned 100% of a\nsolid business with good long-term prospects, it would have been foolish for me to even consider dumping it. So\nwhy would I have sold my stocks that were small participations in wonderful businesses? True, any one of them\nmight eventually disappoint, but as a group they were certain to do well. Could anyone really believe the earth was\ngoing to swallow up the incredible productive assets and unlimited human ingenuity existing in America?\n************\nWhen Charlie and I buy stocks – which we think of as small portions of businesses – our analysis is very\nsimilar to that which we use in buying entire businesses. We first have to decide whether we can sensibly estimate\nan earnings range for five years out, or more. If the answer is yes, we will buy the stock (or business) if it sells at a\nreasonable price in relation to the bottom boundary of our estimate. If, however, we lack the ability to estimate\nfuture earnings – which is usually the case – we simply move on to other prospects. In the 54 years we have worked\ntogether, we have never foregone an attractive purchase because of the macro or political environment, or the views\nof other people. In fact, these subjects never come up when we make decisions.\nIt’s vital, however, that we recognize the perimeter of our “circle of competence” and stay well inside of\nit. Even then, we will make some mistakes, both with stocks and businesses. But they will not be the disasters that\noccur, for example, when a long-rising market induces purchases that are based on anticipated price behavior and a\ndesire to be where the action is.\n19",
+      "source_raw_sha256": "ad24565997a09a1f7ef752da875161a24e025329510f3489afd912ff1e2673f5",
+      "source_url": "https://www.berkshirehathaway.com/letters/2013ltr.pdf",
+      "source_units_file": "letters/text_units/berkshire-letter-2013.json",
+      "eligible_for_qa_release": false,
+      "eligible_for_translation_release": false
+    },
+    {
+      "id": "berkshire-letter-2013:u0019",
+      "source_id": "berkshire-letter-2013",
+      "text": "Most investors, of course, have not made the study of business prospects a priority in their lives. If wise,\nthey will conclude that they do not know enough about specific businesses to predict their future earning power.\nI have good news for these non-professionals: The typical investor doesn’t need this skill. In aggregate,\nAmerican business has done wonderfully over time and will continue to do so (though, most assuredly, in\nunpredictable fits and starts). In the 20\nth Century, the Dow Jones Industrials index advanced from 66 to 11,497,\npaying a rising stream of dividends to boot. The 21 st Century will witness further gains, almost certain to be\nsubstantial. The goal of the non-professional should not be to pick winners – neither he nor his “helpers” can do\nthat – but should rather be to own a cross-section of businesses that in aggregate are bound to do well. A low-cost\nS&P 500 index fund will achieve this goal.\nThat’s the “what” of investing for the non-professional. The “when” is also important. The main danger is\nthat the timid or beginning investor will enter the market at a time of extreme exuberance and then become\ndisillusioned when paper losses occur. (Remember the late Barton Biggs’ observation: “A bull market is like sex. It\nfeels best just before it ends.”) The antidote to that kind of mistiming is for an investor to accumulate shares over a\nlong period and never to sell when the news is bad and stocks are well off their highs. Following those rules, the\n“know-nothing” investor who both diversifies and keeps his costs minimal is virtually certain to get satisfactory\nresults. Indeed, the unsophisticated investor who is realistic about his shortcomings is likely to obtain better long-\nterm results than the knowledgeable professional who is blind to even a single weakness.\nIf “investors” frenetically bought and sold farmland to each other, neither the yields nor prices of their\ncrops would be increased. The only consequence of such behavior would be decreases in the overall earnings\nrealized by the farm-owning population because of the substantial costs it would incur as it sought advice and\nswitched properties.\nNevertheless, both individuals and institutions will constantly be urged to be active by those who profit\nfrom giving advice or effecting transactions. The resulting frictional costs can be huge and, for investors in\naggregate, devoid of benefit. So ignore the chatter, keep your costs minimal, and invest in stocks as you would in a\nfarm.\nMy money, I should add, is where my mouth is: What I advise here is essentially identical to certain\ninstructions I’ve laid out in my will. One bequest provides that cash will be delivered to a trustee for my wife’s\nbenefit. (I have to use cash for individual bequests, because all of my Berkshire shares will be fully distributed to\ncertain philanthropic organizations over the ten years following the closing of my estate.) My advice to the trustee\ncould not be more simple: Put 10% of the cash in short-term government bonds and 90% in a very low-cost S&P\n500 index fund. (I suggest Vanguard’s.) I believe the trust’s long-term results from this policy will be superior to\nthose attained by most investors – whether pension funds, institutions or individuals – who employ high-fee\nmanagers.\n************\nAnd now back to Ben Graham. I learned most of the thoughts in this investment discussion from Ben’s\nbook The Intelligent Investor , which I bought in 1949. My financial life changed with that purchase.\nBefore reading Ben’s book, I had wandered around the investing landscape, devouring everything written\non the subject. Much of what I read fascinated me: I tried my hand at charting and at using market indicia to predict\nstock movements. I sat in brokerage offices watching the tape roll by, and I listened to commentators. All of this\nwas fun, but I couldn’t shake the feeling that I wasn’t getting anywhere.\nIn contrast, Ben’s ideas were explained logically in elegant, easy-to-understand prose (without Greek\nletters or complicated formulas). For me, the key points were laid out in what later editions labeled Chapters 8 and\n20. (The original 1949 edition numbered its chapters differently.) These points guide my investing decisions today.\n20",
+      "text_sha256": "4e9e65db0e9a12c5ab10042c90eef39901118ddd4a93433d7b58d91ab596b61b",
+      "character_count": 4259,
+      "locator": {
+        "type": "pdf_page",
+        "page": 19,
+        "page_number_kind": "physical_pdf_page"
+      },
+      "unit_kind": "pdf_page",
+      "author_attribution": null,
+      "non_whitespace_control_character_count": 0,
+      "non_whitespace_control_codepoints": [],
+      "semantic_review_status": "not_reviewed",
+      "layout_review_status": "not_reviewed",
+      "table_reading_order_verified": false,
+      "numeric_text_exactness_verified_against_page_image": false,
+      "extraction_alerts": [],
+      "ordinal": 19,
+      "title": "",
+      "reading_text": "Most investors, of course, have not made the study of business prospects a priority in their lives. If wise,\nthey will conclude that they do not know enough about specific businesses to predict their future earning power.\nI have good news for these non-professionals: The typical investor doesn’t need this skill. In aggregate,\nAmerican business has done wonderfully over time and will continue to do so (though, most assuredly, in\nunpredictable fits and starts). In the 20\nth Century, the Dow Jones Industrials index advanced from 66 to 11,497,\npaying a rising stream of dividends to boot. The 21 st Century will witness further gains, almost certain to be\nsubstantial. The goal of the non-professional should not be to pick winners – neither he nor his “helpers” can do\nthat – but should rather be to own a cross-section of businesses that in aggregate are bound to do well. A low-cost\nS&P 500 index fund will achieve this goal.\nThat’s the “what” of investing for the non-professional. The “when” is also important. The main danger is\nthat the timid or beginning investor will enter the market at a time of extreme exuberance and then become\ndisillusioned when paper losses occur. (Remember the late Barton Biggs’ observation: “A bull market is like sex. It\nfeels best just before it ends.”) The antidote to that kind of mistiming is for an investor to accumulate shares over a\nlong period and never to sell when the news is bad and stocks are well off their highs. Following those rules, the\n“know-nothing” investor who both diversifies and keeps his costs minimal is virtually certain to get satisfactory\nresults. Indeed, the unsophisticated investor who is realistic about his shortcomings is likely to obtain better long-\nterm results than the knowledgeable professional who is blind to even a single weakness.\nIf “investors” frenetically bought and sold farmland to each other, neither the yields nor prices of their\ncrops would be increased. The only consequence of such behavior would be decreases in the overall earnings\nrealized by the farm-owning population because of the substantial costs it would incur as it sought advice and\nswitched properties.\nNevertheless, both individuals and institutions will constantly be urged to be active by those who profit\nfrom giving advice or effecting transactions. The resulting frictional costs can be huge and, for investors in\naggregate, devoid of benefit. So ignore the chatter, keep your costs minimal, and invest in stocks as you would in a\nfarm.\nMy money, I should add, is where my mouth is: What I advise here is essentially identical to certain\ninstructions I’ve laid out in my will. One bequest provides that cash will be delivered to a trustee for my wife’s\nbenefit. (I have to use cash for individual bequests, because all of my Berkshire shares will be fully distributed to\ncertain philanthropic organizations over the ten years following the closing of my estate.) My advice to the trustee\ncould not be more simple: Put 10% of the cash in short-term government bonds and 90% in a very low-cost S&P\n500 index fund. (I suggest Vanguard’s.) I believe the trust’s long-term results from this policy will be superior to\nthose attained by most investors – whether pension funds, institutions or individuals – who employ high-fee\nmanagers.\n************\nAnd now back to Ben Graham. I learned most of the thoughts in this investment discussion from Ben’s\nbook The Intelligent Investor , which I bought in 1949. My financial life changed with that purchase.\nBefore reading Ben’s book, I had wandered around the investing landscape, devouring everything written\non the subject. Much of what I read fascinated me: I tried my hand at charting and at using market indicia to predict\nstock movements. I sat in brokerage offices watching the tape roll by, and I listened to commentators. All of this\nwas fun, but I couldn’t shake the feeling that I wasn’t getting anywhere.\nIn contrast, Ben’s ideas were explained logically in elegant, easy-to-understand prose (without Greek\nletters or complicated formulas). For me, the key points were laid out in what later editions labeled Chapters 8 and\n20. (The original 1949 edition numbered its chapters differently.) These points guide my investing decisions today.\n20",
+      "source_raw_sha256": "ad24565997a09a1f7ef752da875161a24e025329510f3489afd912ff1e2673f5",
+      "source_url": "https://www.berkshirehathaway.com/letters/2013ltr.pdf",
+      "source_units_file": "letters/text_units/berkshire-letter-2013.json",
+      "eligible_for_qa_release": false,
+      "eligible_for_translation_release": false
+    },
+    {
+      "id": "berkshire-letter-2013:u0020",
+      "source_id": "berkshire-letter-2013",
+      "text": "A couple of interesting sidelights about the book: Later editions included a postscript describing an\nunnamed investment that was a bonanza for Ben. Ben made the purchase in 1948 when he was writing the first\nedition and – brace yourself – the mystery company was GEICO. If Ben had not recognized the special qualities of\nGEICO when it was still in its infancy, my future and Berkshire’s would have been far different.\nThe 1949 edition of the book also recommended a railroad stock that was then selling for $17 and earning\nabout $10 per share. (One of the reasons I admired Ben was that he had the guts to use current examples, leaving\nhimself open to sneers if he stumbled.) In part, that low valuation resulted from an accounting rule of the time that\nrequired the railroad to exclude from its reported earnings the substantial retained earnings of affiliates.\nThe recommended stock was Northern Pacific, and its most important affiliate was Chicago, Burlington\nand Quincy. These railroads are now important parts of BNSF (Burlington Northern Santa Fe), which is today fully\nowned by Berkshire. When I read the book, Northern Pacific had a market value of about $40 million. Now its\nsuccessor (having added a great many properties, to be sure) earns that amount every four days.\nI can’t remember what I paid for that first copy of The Intelligent Investor . Whatever the cost, it would\nunderscore the truth of Ben’s adage: Price is what you pay, value is what you get. Of all the investments I ever\nmade, buying Ben’s book was the best (except for my purchase of two marriage licenses).\n************\nLocal and state financial problems are accelerating, in large part because public entities promised pensions\nthey couldn’t afford. Citizens and public officials typically under-appreciated the gigantic financial tapeworm that\nwas born when promises were made that conflicted with a willingness to fund them. Unfortunately, pension\nmathematics today remain a mystery to most Americans.\nInvestment policies, as well, play an important role in these problems. In 1975, I wrote a memo to\nKatharine Graham, then chairman of The Washington Post Company, about the pitfalls of pension promises and the\nimportance of investment policy. That memo is reproduced on pages 118 - 136.\nDuring the next decade, you will read a lot of news – bad news – about public pension plans. I hope my\nmemo is helpful to you in understanding the necessity for prompt remedial action where problems exist.\nThe Annual Meeting\nThe annual meeting will be held on Saturday, May 3\nrd at the CenturyLink Center. Carrie Sova, our talented\nringmaster, will be in charge, and all of our headquarters group will pitch in to help her. Our gang both does a\nbetter job than professional event planners would and – yes – saves us money.\nCenturyLink’s doors will open at 7 a.m., and at 7:30 we will have our third International Newspaper\nTossing Challenge. Our target will be a Clayton Home porch, precisely 35 feet from the throwing line. I tossed\nabout 500,000 papers when I was a teenager, so I think I’m pretty good. Challenge me: I’ll buy a Dilly Bar for\nanyone who lands his or her throw closer to the doorstep than I do. The papers will be 36 to 42 pages, and you must\nfold them yourself (no rubber bands allowed).\nAt 8:30, a new Berkshire movie will be shown. An hour later, we will start the question-and-answer\nperiod, which (with a break for lunch at CenturyLink’s stands) will last until 3:30. After a short recess, Charlie and\nI will convene the annual meeting at 3:45. If you decide to leave during the day’s question periods, please do so\nwhile Charlie is talking.\n21",
+      "text_sha256": "0a6377070076a795364d45edc3874c80e5e2b165d8744d7e272e51b125492914",
+      "character_count": 3642,
+      "locator": {
+        "type": "pdf_page",
+        "page": 20,
+        "page_number_kind": "physical_pdf_page"
+      },
+      "unit_kind": "pdf_page",
+      "author_attribution": null,
+      "non_whitespace_control_character_count": 0,
+      "non_whitespace_control_codepoints": [],
+      "semantic_review_status": "not_reviewed",
+      "layout_review_status": "not_reviewed",
+      "table_reading_order_verified": false,
+      "numeric_text_exactness_verified_against_page_image": false,
+      "extraction_alerts": [],
+      "ordinal": 20,
+      "title": "",
+      "reading_text": "A couple of interesting sidelights about the book: Later editions included a postscript describing an\nunnamed investment that was a bonanza for Ben. Ben made the purchase in 1948 when he was writing the first\nedition and – brace yourself – the mystery company was GEICO. If Ben had not recognized the special qualities of\nGEICO when it was still in its infancy, my future and Berkshire’s would have been far different.\nThe 1949 edition of the book also recommended a railroad stock that was then selling for $17 and earning\nabout $10 per share. (One of the reasons I admired Ben was that he had the guts to use current examples, leaving\nhimself open to sneers if he stumbled.) In part, that low valuation resulted from an accounting rule of the time that\nrequired the railroad to exclude from its reported earnings the substantial retained earnings of affiliates.\nThe recommended stock was Northern Pacific, and its most important affiliate was Chicago, Burlington\nand Quincy. These railroads are now important parts of BNSF (Burlington Northern Santa Fe), which is today fully\nowned by Berkshire. When I read the book, Northern Pacific had a market value of about $40 million. Now its\nsuccessor (having added a great many properties, to be sure) earns that amount every four days.\nI can’t remember what I paid for that first copy of The Intelligent Investor . Whatever the cost, it would\nunderscore the truth of Ben’s adage: Price is what you pay, value is what you get. Of all the investments I ever\nmade, buying Ben’s book was the best (except for my purchase of two marriage licenses).\n************\nLocal and state financial problems are accelerating, in large part because public entities promised pensions\nthey couldn’t afford. Citizens and public officials typically under-appreciated the gigantic financial tapeworm that\nwas born when promises were made that conflicted with a willingness to fund them. Unfortunately, pension\nmathematics today remain a mystery to most Americans.\nInvestment policies, as well, play an important role in these problems. In 1975, I wrote a memo to\nKatharine Graham, then chairman of The Washington Post Company, about the pitfalls of pension promises and the\nimportance of investment policy. That memo is reproduced on pages 118 - 136.\nDuring the next decade, you will read a lot of news – bad news – about public pension plans. I hope my\nmemo is helpful to you in understanding the necessity for prompt remedial action where problems exist.\nThe Annual Meeting\nThe annual meeting will be held on Saturday, May 3\nrd at the CenturyLink Center. Carrie Sova, our talented\nringmaster, will be in charge, and all of our headquarters group will pitch in to help her. Our gang both does a\nbetter job than professional event planners would and – yes – saves us money.\nCenturyLink’s doors will open at 7 a.m., and at 7:30 we will have our third International Newspaper\nTossing Challenge. Our target will be a Clayton Home porch, precisely 35 feet from the throwing line. I tossed\nabout 500,000 papers when I was a teenager, so I think I’m pretty good. Challenge me: I’ll buy a Dilly Bar for\nanyone who lands his or her throw closer to the doorstep than I do. The papers will be 36 to 42 pages, and you must\nfold them yourself (no rubber bands allowed).\nAt 8:30, a new Berkshire movie will be shown. An hour later, we will start the question-and-answer\nperiod, which (with a break for lunch at CenturyLink’s stands) will last until 3:30. After a short recess, Charlie and\nI will convene the annual meeting at 3:45. If you decide to leave during the day’s question periods, please do so\nwhile Charlie is talking.\n21",
+      "source_raw_sha256": "ad24565997a09a1f7ef752da875161a24e025329510f3489afd912ff1e2673f5",
+      "source_url": "https://www.berkshirehathaway.com/letters/2013ltr.pdf",
+      "source_units_file": "letters/text_units/berkshire-letter-2013.json",
+      "eligible_for_qa_release": false,
+      "eligible_for_translation_release": false
+    }
+  ],
+  "paragraphs": [
+    {
+      "id": "letter-2013-investing-p001",
+      "kind": "heading",
+      "source_unit_id": "berkshire-letter-2013:u0016",
+      "text_as_received": "Some Thoughts About Investing",
+      "reading_text": "Some Thoughts About Investing",
+      "text_sha256": "cead5d71de066a4edcb606f61288b43e9022d30a177ca3fa8eb1d501de562b78",
+      "reading_text_sha256": "cead5d71de066a4edcb606f61288b43e9022d30a177ca3fa8eb1d501de562b78",
+      "canonical_speaker": null,
+      "attribution_basis": "Letter byline; embedded quotations inside paragraphs retain their published introductions",
+      "whitespace_operation": "Whitespace collapsed for reading; all non-whitespace characters recovered unchanged from canonical extraction",
+      "reversible_encoding_repairs": [],
+      "locator": {
+        "physical_pdf_page": 16,
+        "printed_page": 17,
+        "canonical_unit_id": "berkshire-letter-2013:u0016",
+        "canonical_text_character_start": 1754,
+        "canonical_text_character_end_exclusive": 1783,
+        "geometry_block_index": 5,
+        "bbox": [
+          73.5,
+          316.12,
+          211.0,
+          326.12
+        ],
+        "source_line_ids": [
+          "p016:l018"
+        ]
+      }
+    },
+    {
+      "id": "letter-2013-investing-p002",
+      "kind": "paragraph",
+      "source_unit_id": "berkshire-letter-2013:u0016",
+      "text_as_received": "Investment is most intelligent when it is most businesslike.\n— The Intelligent Investor by Benjamin Graham",
+      "reading_text": "Investment is most intelligent when it is most businesslike. — The Intelligent Investor by Benjamin Graham",
+      "text_sha256": "7475142357f040766a9318757475ee7a45b82cdf88c655d0f102afc0a8209ea6",
+      "reading_text_sha256": "5eef3350ffc68c46045b88f42e272c24ebca109115b887bb52d25908b630e7f0",
+      "canonical_speaker": "Benjamin Graham (quoted by Warren Buffett)",
+      "attribution_basis": "Named embedded quotation",
+      "whitespace_operation": "Whitespace collapsed for reading; all non-whitespace characters recovered unchanged from canonical extraction",
+      "reversible_encoding_repairs": [],
+      "locator": {
+        "physical_pdf_page": 16,
+        "printed_page": 17,
+        "canonical_unit_id": "berkshire-letter-2013:u0016",
+        "canonical_text_character_start": 1784,
+        "canonical_text_character_end_exclusive": 1890,
+        "geometry_block_index": 6,
+        "bbox": [
+          109.5,
+          340.12,
+          342.33,
+          362.12
+        ],
+        "source_line_ids": [
+          "p016:l019",
+          "p016:l020"
+        ]
+      }
+    },
+    {
+      "id": "letter-2013-investing-p003",
+      "kind": "paragraph",
+      "source_unit_id": "berkshire-letter-2013:u0016",
+      "text_as_received": "It is fitting to have a Ben Graham quote open this discussion because I owe so much of what I know about\ninvesting to him. I will talk more about Ben a bit later, and I will even sooner talk about common stocks. But let me\nfirst tell you about two small non-stock investments that I made long ago. Though neither changed my net worth by\nmuch, they are instructive.",
+      "reading_text": "It is fitting to have a Ben Graham quote open this discussion because I owe so much of what I know about investing to him. I will talk more about Ben a bit later, and I will even sooner talk about common stocks. But let me first tell you about two small non-stock investments that I made long ago. Though neither changed my net worth by much, they are instructive.",
+      "text_sha256": "ce134ed543e0c119c02b15925f5cb2a729795d9d748f93d0d1fe186b96e78642",
+      "reading_text_sha256": "848221593054e73bc41eaf3390b2f1ad81f0b8a43b904bbbbbf71b6440deddce",
+      "canonical_speaker": "Warren Buffett",
+      "attribution_basis": "Letter byline; embedded quotations inside paragraphs retain their published introductions",
+      "whitespace_operation": "Whitespace collapsed for reading; all non-whitespace characters recovered unchanged from canonical extraction",
+      "reversible_encoding_repairs": [],
+      "locator": {
+        "physical_pdf_page": 16,
+        "printed_page": 17,
+        "canonical_unit_id": "berkshire-letter-2013:u0016",
+        "canonical_text_character_start": 1891,
+        "canonical_text_character_end_exclusive": 2255,
+        "geometry_block_index": 7,
+        "bbox": [
+          73.5,
+          376.12,
+          538.5,
+          422.12
+        ],
+        "source_line_ids": [
+          "p016:l021",
+          "p016:l022",
+          "p016:l023",
+          "p016:l024"
+        ]
+      }
+    },
+    {
+      "id": "letter-2013-investing-p004",
+      "kind": "paragraph",
+      "source_unit_id": "berkshire-letter-2013:u0016",
+      "text_as_received": "This tale begins in Nebraska. From 1973 to 1981, the Midwest experienced an explosion in farm prices,\ncaused by a widespread belief that runaway inflation was coming and fueled by the lending policies of small rural\nbanks. Then the bubble burst, bringing price declines of 50% or more that devastated both leveraged farmers and\ntheir lenders. Five times as many Iowa and Nebraska banks failed in that bubble’s aftermath than in our recent\nGreat Recession.",
+      "reading_text": "This tale begins in Nebraska. From 1973 to 1981, the Midwest experienced an explosion in farm prices, caused by a widespread belief that runaway inflation was coming and fueled by the lending policies of small rural banks. Then the bubble burst, bringing price declines of 50% or more that devastated both leveraged farmers and their lenders. Five times as many Iowa and Nebraska banks failed in that bubble’s aftermath than in our recent Great Recession.",
+      "text_sha256": "2d940f2e7066ca40e7cdad47b4a62f44863e7052c1384311a66a536ec3cb895d",
+      "reading_text_sha256": "4222aa91b8f8ec3853a24ac9e9a21dc67d5df223a2ec54944c2e4f2ab3332b3e",
+      "canonical_speaker": "Warren Buffett",
+      "attribution_basis": "Letter byline; embedded quotations inside paragraphs retain their published introductions",
+      "whitespace_operation": "Whitespace collapsed for reading; all non-whitespace characters recovered unchanged from canonical extraction",
+      "reversible_encoding_repairs": [],
+      "locator": {
+        "physical_pdf_page": 16,
+        "printed_page": 17,
+        "canonical_unit_id": "berkshire-letter-2013:u0016",
+        "canonical_text_character_start": 2256,
+        "canonical_text_character_end_exclusive": 2711,
+        "geometry_block_index": 8,
+        "bbox": [
+          73.5,
+          436.12,
+          538.49,
+          494.12
+        ],
+        "source_line_ids": [
+          "p016:l025",
+          "p016:l026",
+          "p016:l027",
+          "p016:l028",
+          "p016:l029"
+        ]
+      }
+    },
+    {
+      "id": "letter-2013-investing-p005",
+      "kind": "paragraph",
+      "source_unit_id": "berkshire-letter-2013:u0016",
+      "text_as_received": "In 1986, I purchased a 400-acre farm, located 50 miles north of Omaha, from the FDIC. It cost me\n$280,000, considerably less than what a failed bank had lent against the farm a few years earlier. I knew nothing\nabout operating a farm. But I have a son who loves farming and I learned from him both how many bushels of corn\nand soybeans the farm would produce and what the operating expenses would be. From these estimates, I\ncalculated the normalized return from the farm to then be about 10%. I also thought it was likely that productivity\nwould improve over time and that crop prices would move higher as well. Both expectations proved out.",
+      "reading_text": "In 1986, I purchased a 400-acre farm, located 50 miles north of Omaha, from the FDIC. It cost me $280,000, considerably less than what a failed bank had lent against the farm a few years earlier. I knew nothing about operating a farm. But I have a son who loves farming and I learned from him both how many bushels of corn and soybeans the farm would produce and what the operating expenses would be. From these estimates, I calculated the normalized return from the farm to then be about 10%. I also thought it was likely that productivity would improve over time and that crop prices would move higher as well. Both expectations proved out.",
+      "text_sha256": "7a2d33fa125095d069beabf11ddb800f1ae478df375c7a9b5243882b6b777aef",
+      "reading_text_sha256": "796956c54c880dc6230c96713dd74525eeb51fc5d465378e84c17a81d2e3147c",
+      "canonical_speaker": "Warren Buffett",
+      "attribution_basis": "Letter byline; embedded quotations inside paragraphs retain their published introductions",
+      "whitespace_operation": "Whitespace collapsed for reading; all non-whitespace characters recovered unchanged from canonical extraction",
+      "reversible_encoding_repairs": [],
+      "locator": {
+        "physical_pdf_page": 16,
+        "printed_page": 17,
+        "canonical_unit_id": "berkshire-letter-2013:u0016",
+        "canonical_text_character_start": 2712,
+        "canonical_text_character_end_exclusive": 3354,
+        "geometry_block_index": 9,
+        "bbox": [
+          73.5,
+          508.12,
+          538.48,
+          578.12
+        ],
+        "source_line_ids": [
+          "p016:l030",
+          "p016:l031",
+          "p016:l032",
+          "p016:l033",
+          "p016:l034",
+          "p016:l035"
+        ]
+      }
+    },
+    {
+      "id": "letter-2013-investing-p006",
+      "kind": "paragraph",
+      "source_unit_id": "berkshire-letter-2013:u0016",
+      "text_as_received": "I needed no unusual knowledge or intelligence to conclude that the investment had no downside and\npotentially had substantial upside. There would, of course, be the occasional bad crop and prices would sometimes\ndisappoint. But so what? There would be some unusually good years as well, and I would never be under any\npressure to sell the property. Now, 28 years later, the farm has tripled its earnings and is worth five times or more\nwhat I paid. I still know nothing about farming and recently made just my second visit to the farm.",
+      "reading_text": "I needed no unusual knowledge or intelligence to conclude that the investment had no downside and potentially had substantial upside. There would, of course, be the occasional bad crop and prices would sometimes disappoint. But so what? There would be some unusually good years as well, and I would never be under any pressure to sell the property. Now, 28 years later, the farm has tripled its earnings and is worth five times or more what I paid. I still know nothing about farming and recently made just my second visit to the farm.",
+      "text_sha256": "48419825eb2c8b4bdf4f6a1a902490594d48c071d9c1ac9ae47a8aa2ee437d36",
+      "reading_text_sha256": "dbf7d6a862fe1a86c84d206648733e03ad10fc9b9d7fbd33adc65f2f13313f86",
+      "canonical_speaker": "Warren Buffett",
+      "attribution_basis": "Letter byline; embedded quotations inside paragraphs retain their published introductions",
+      "whitespace_operation": "Whitespace collapsed for reading; all non-whitespace characters recovered unchanged from canonical extraction",
+      "reversible_encoding_repairs": [],
+      "locator": {
+        "physical_pdf_page": 16,
+        "printed_page": 17,
+        "canonical_unit_id": "berkshire-letter-2013:u0016",
+        "canonical_text_character_start": 3355,
+        "canonical_text_character_end_exclusive": 3890,
+        "geometry_block_index": 10,
+        "bbox": [
+          73.5,
+          592.12,
+          538.49,
+          650.12
+        ],
+        "source_line_ids": [
+          "p016:l036",
+          "p016:l037",
+          "p016:l038",
+          "p016:l039",
+          "p016:l040"
+        ]
+      }
+    },
+    {
+      "id": "letter-2013-investing-p007",
+      "kind": "paragraph",
+      "source_unit_id": "berkshire-letter-2013:u0017",
+      "text_as_received": "In 1993, I made another small investment. Larry Silverstein, Salomon’s landlord when I was the\ncompany’s CEO, told me about a New York retail property adjacent to NYU that the Resolution Trust Corp. was\nselling. Again, a bubble had popped – this one involving commercial real estate – and the RTC had been created to\ndispose of the assets of failed savings institutions whose optimistic lending practices had fueled the folly.",
+      "reading_text": "In 1993, I made another small investment. Larry Silverstein, Salomon’s landlord when I was the company’s CEO, told me about a New York retail property adjacent to NYU that the Resolution Trust Corp. was selling. Again, a bubble had popped – this one involving commercial real estate – and the RTC had been created to dispose of the assets of failed savings institutions whose optimistic lending practices had fueled the folly.",
+      "text_sha256": "4f5a73fac578bdc7cf26cc396f641d530ccc7132acc42ccbeb907a7c1bbb85a0",
+      "reading_text_sha256": "6a3063eaecbb62345048b0c0e99e260ba514b18545d5841037f4f77fcc67b3c4",
+      "canonical_speaker": "Warren Buffett",
+      "attribution_basis": "Letter byline; embedded quotations inside paragraphs retain their published introductions",
+      "whitespace_operation": "Whitespace collapsed for reading; all non-whitespace characters recovered unchanged from canonical extraction",
+      "reversible_encoding_repairs": [],
+      "locator": {
+        "physical_pdf_page": 17,
+        "printed_page": 18,
+        "canonical_unit_id": "berkshire-letter-2013:u0017",
+        "canonical_text_character_start": 0,
+        "canonical_text_character_end_exclusive": 426,
+        "geometry_block_index": 0,
+        "bbox": [
+          73.5,
+          46.12,
+          538.5,
+          92.12
+        ],
+        "source_line_ids": [
+          "p017:l001",
+          "p017:l002",
+          "p017:l003",
+          "p017:l004"
+        ]
+      }
+    },
+    {
+      "id": "letter-2013-investing-p008",
+      "kind": "paragraph",
+      "source_unit_id": "berkshire-letter-2013:u0017",
+      "text_as_received": "Here, too, the analysis was simple. As had been the case with the farm, the unleveraged current yield from\nthe property was about 10%. But the property had been undermanaged by the RTC, and its income would increase\nwhen several vacant stores were leased. Even more important, the largest tenant – who occupied around 20% of the\nproject’s space – was paying rent of about $5 per foot, whereas other tenants averaged $70. The expiration of this\nbargain lease in nine years was certain to provide a major boost to earnings. The property’s location was also\nsuperb: NYU wasn’t going anywhere.",
+      "reading_text": "Here, too, the analysis was simple. As had been the case with the farm, the unleveraged current yield from the property was about 10%. But the property had been undermanaged by the RTC, and its income would increase when several vacant stores were leased. Even more important, the largest tenant – who occupied around 20% of the project’s space – was paying rent of about $5 per foot, whereas other tenants averaged $70. The expiration of this bargain lease in nine years was certain to provide a major boost to earnings. The property’s location was also superb: NYU wasn’t going anywhere.",
+      "text_sha256": "eddc2d2c6a1fbfdba33c58d8aca8d6a01d2988874209d57bf532738bbef13947",
+      "reading_text_sha256": "6745574e035305490700183f60b7077e89916a2592bb197f48273c75fdf6af5a",
+      "canonical_speaker": "Warren Buffett",
+      "attribution_basis": "Letter byline; embedded quotations inside paragraphs retain their published introductions",
+      "whitespace_operation": "Whitespace collapsed for reading; all non-whitespace characters recovered unchanged from canonical extraction",
+      "reversible_encoding_repairs": [],
+      "locator": {
+        "physical_pdf_page": 17,
+        "printed_page": 18,
+        "canonical_unit_id": "berkshire-letter-2013:u0017",
+        "canonical_text_character_start": 427,
+        "canonical_text_character_end_exclusive": 1016,
+        "geometry_block_index": 1,
+        "bbox": [
+          73.5,
+          106.12,
+          538.47,
+          176.12
+        ],
+        "source_line_ids": [
+          "p017:l005",
+          "p017:l006",
+          "p017:l007",
+          "p017:l008",
+          "p017:l009",
+          "p017:l010"
+        ]
+      }
+    },
+    {
+      "id": "letter-2013-investing-p009",
+      "kind": "paragraph",
+      "source_unit_id": "berkshire-letter-2013:u0017",
+      "text_as_received": "I joined a small group, including Larry and my friend Fred Rose, that purchased the parcel. Fred was an\nexperienced, high-grade real estate investor who, with his family, would manage the property. And manage it they\ndid. As old leases expired, earnings tripled. Annual distributions now exceed 35% of our original equity\ninvestment. Moreover, our original mortgage was refinanced in 1996 and again in 1999, moves that allowed several\nspecial distributions totaling more than 150% of what we had invested. I’ve yet to view the property.",
+      "reading_text": "I joined a small group, including Larry and my friend Fred Rose, that purchased the parcel. Fred was an experienced, high-grade real estate investor who, with his family, would manage the property. And manage it they did. As old leases expired, earnings tripled. Annual distributions now exceed 35% of our original equity investment. Moreover, our original mortgage was refinanced in 1996 and again in 1999, moves that allowed several special distributions totaling more than 150% of what we had invested. I’ve yet to view the property.",
+      "text_sha256": "3e0b9393e983c231d4f32bcc26a56741ffd220001672156bcad4ceafbee3637d",
+      "reading_text_sha256": "ef3f49f4f742d8b3d4e15808a03254335c0c2fd05c4be1966bc0c0d4b0ecc05a",
+      "canonical_speaker": "Warren Buffett",
+      "attribution_basis": "Letter byline; embedded quotations inside paragraphs retain their published introductions",
+      "whitespace_operation": "Whitespace collapsed for reading; all non-whitespace characters recovered unchanged from canonical extraction",
+      "reversible_encoding_repairs": [],
+      "locator": {
+        "physical_pdf_page": 17,
+        "printed_page": 18,
+        "canonical_unit_id": "berkshire-letter-2013:u0017",
+        "canonical_text_character_start": 1017,
+        "canonical_text_character_end_exclusive": 1553,
+        "geometry_block_index": 2,
+        "bbox": [
+          73.5,
+          190.12,
+          538.49,
+          248.12
+        ],
+        "source_line_ids": [
+          "p017:l011",
+          "p017:l012",
+          "p017:l013",
+          "p017:l014",
+          "p017:l015"
+        ]
+      }
+    },
+    {
+      "id": "letter-2013-investing-p010",
+      "kind": "paragraph",
+      "source_unit_id": "berkshire-letter-2013:u0017",
+      "text_as_received": "Income from both the farm and the NYU real estate will probably increase in the decades to come. Though\nthe gains won’t be dramatic, the two investments will be solid and satisfactory holdings for my lifetime and,\nsubsequently, for my children and grandchildren.",
+      "reading_text": "Income from both the farm and the NYU real estate will probably increase in the decades to come. Though the gains won’t be dramatic, the two investments will be solid and satisfactory holdings for my lifetime and, subsequently, for my children and grandchildren.",
+      "text_sha256": "7c7d24cf75d072484fa122b4d7e95a9acd4c8729effef3dd6631e8c1c271e226",
+      "reading_text_sha256": "c6ed09d0b61796c6fc4d252f51fac70a9df8d4c6371911f7ab412278633f84a7",
+      "canonical_speaker": "Warren Buffett",
+      "attribution_basis": "Letter byline; embedded quotations inside paragraphs retain their published introductions",
+      "whitespace_operation": "Whitespace collapsed for reading; all non-whitespace characters recovered unchanged from canonical extraction",
+      "reversible_encoding_repairs": [],
+      "locator": {
+        "physical_pdf_page": 17,
+        "printed_page": 18,
+        "canonical_unit_id": "berkshire-letter-2013:u0017",
+        "canonical_text_character_start": 1554,
+        "canonical_text_character_end_exclusive": 1816,
+        "geometry_block_index": 3,
+        "bbox": [
+          73.5,
+          262.12,
+          538.51,
+          296.12
+        ],
+        "source_line_ids": [
+          "p017:l016",
+          "p017:l017",
+          "p017:l018"
+        ]
+      }
+    },
+    {
+      "id": "letter-2013-investing-p011",
+      "kind": "paragraph",
+      "source_unit_id": "berkshire-letter-2013:u0017",
+      "text_as_received": "I tell these tales to illustrate certain fundamentals of investing:",
+      "reading_text": "I tell these tales to illustrate certain fundamentals of investing:",
+      "text_sha256": "3b45e8d7b6d66ad41866f256213e707a789dfae45aafc22680180a012a1c3f73",
+      "reading_text_sha256": "3b45e8d7b6d66ad41866f256213e707a789dfae45aafc22680180a012a1c3f73",
+      "canonical_speaker": "Warren Buffett",
+      "attribution_basis": "Letter byline; embedded quotations inside paragraphs retain their published introductions",
+      "whitespace_operation": "Whitespace collapsed for reading; all non-whitespace characters recovered unchanged from canonical extraction",
+      "reversible_encoding_repairs": [],
+      "locator": {
+        "physical_pdf_page": 17,
+        "printed_page": 18,
+        "canonical_unit_id": "berkshire-letter-2013:u0017",
+        "canonical_text_character_start": 1817,
+        "canonical_text_character_end_exclusive": 1884,
+        "geometry_block_index": 4,
+        "bbox": [
+          109.5,
+          310.12,
+          359.25,
+          320.12
+        ],
+        "source_line_ids": [
+          "p017:l019"
+        ]
+      }
+    },
+    {
+      "id": "letter-2013-investing-p012",
+      "kind": "paragraph",
+      "source_unit_id": "berkshire-letter-2013:u0017",
+      "text_as_received": "Š You don’t need to be an expert in order to achieve satisfactory investment returns. But if you aren’t, you\nmust recognize your limitations and follow a course certain to work reasonably well. Keep things simple\nand don’t swing for the fences. When promised quick profits, respond with a quick “no.”",
+      "reading_text": "Š You don’t need to be an expert in order to achieve satisfactory investment returns. But if you aren’t, you must recognize your limitations and follow a course certain to work reasonably well. Keep things simple and don’t swing for the fences. When promised quick profits, respond with a quick “no.”",
+      "text_sha256": "d512fde74a8f6e6edeb38c12f4bf2dd2a2dac965fda93ecac19eaae5104471ca",
+      "reading_text_sha256": "f3a3d2c51c5e0744f6c57b053937d92ed78db76efa628a8061893a7e8ccd9333",
+      "canonical_speaker": "Warren Buffett",
+      "attribution_basis": "Letter byline; embedded quotations inside paragraphs retain their published introductions",
+      "whitespace_operation": "Whitespace collapsed for reading; all non-whitespace characters recovered unchanged from canonical extraction",
+      "reversible_encoding_repairs": [],
+      "locator": {
+        "physical_pdf_page": 17,
+        "printed_page": 18,
+        "canonical_unit_id": "berkshire-letter-2013:u0017",
+        "canonical_text_character_start": 1885,
+        "canonical_text_character_end_exclusive": 2185,
+        "geometry_block_index": 5,
+        "bbox": [
+          91.5,
+          334.12,
+          538.5,
+          368.12
+        ],
+        "source_line_ids": [
+          "p017:l020",
+          "p017:l021",
+          "p017:l022"
+        ]
+      }
+    },
+    {
+      "id": "letter-2013-investing-p013",
+      "kind": "paragraph",
+      "source_unit_id": "berkshire-letter-2013:u0017",
+      "text_as_received": "Š Focus on the future productivity of the asset you are considering. If you don’t feel comfortable making a rough\nestimate of the asset’s future earnings, just forget it and move on. No one has the ability to evaluate every\ninvestment possibility. But omniscience isn’t necessary; you only need to understand the actions you undertake.",
+      "reading_text": "Š Focus on the future productivity of the asset you are considering. If you don’t feel comfortable making a rough estimate of the asset’s future earnings, just forget it and move on. No one has the ability to evaluate every investment possibility. But omniscience isn’t necessary; you only need to understand the actions you undertake.",
+      "text_sha256": "63f044e4a1379526a6158859b3334a535f0434bdf3f13e6b547fd1829c39e328",
+      "reading_text_sha256": "4d7f68bafafbc930d41adddca8a9d27b4f2c9616dfd24ea1d3bf87765653f224",
+      "canonical_speaker": "Warren Buffett",
+      "attribution_basis": "Letter byline; embedded quotations inside paragraphs retain their published introductions",
+      "whitespace_operation": "Whitespace collapsed for reading; all non-whitespace characters recovered unchanged from canonical extraction",
+      "reversible_encoding_repairs": [],
+      "locator": {
+        "physical_pdf_page": 17,
+        "printed_page": 18,
+        "canonical_unit_id": "berkshire-letter-2013:u0017",
+        "canonical_text_character_start": 2186,
+        "canonical_text_character_end_exclusive": 2521,
+        "geometry_block_index": 6,
+        "bbox": [
+          91.5,
+          382.12,
+          538.48,
+          416.12
+        ],
+        "source_line_ids": [
+          "p017:l023",
+          "p017:l024",
+          "p017:l025"
+        ]
+      }
+    },
+    {
+      "id": "letter-2013-investing-p014",
+      "kind": "paragraph",
+      "source_unit_id": "berkshire-letter-2013:u0017",
+      "text_as_received": "Š If you instead focus on the prospective price change of a contemplated purchase, you are speculating.\nThere is nothing improper about that. I know, however, that I am unable to speculate successfully, and I\nam skeptical of those who claim sustained success at doing so. Half of all coin-flippers will win their first\ntoss; none of those winners has an expectation of profit if he continues to play the game. And the fact that\na given asset has appreciated in the recent past is never a reason to buy it.",
+      "reading_text": "Š If you instead focus on the prospective price change of a contemplated purchase, you are speculating. There is nothing improper about that. I know, however, that I am unable to speculate successfully, and I am skeptical of those who claim sustained success at doing so. Half of all coin-flippers will win their first toss; none of those winners has an expectation of profit if he continues to play the game. And the fact that a given asset has appreciated in the recent past is never a reason to buy it.",
+      "text_sha256": "852712f10c77a920768e893913bac3af6869f61d594a36bcfa3d8dc8b2a82e7a",
+      "reading_text_sha256": "f301b0969bff2264391158464bee4a46c67dab18fd3cbb140707415ebb7b1a95",
+      "canonical_speaker": "Warren Buffett",
+      "attribution_basis": "Letter byline; embedded quotations inside paragraphs retain their published introductions",
+      "whitespace_operation": "Whitespace collapsed for reading; all non-whitespace characters recovered unchanged from canonical extraction",
+      "reversible_encoding_repairs": [],
+      "locator": {
+        "physical_pdf_page": 17,
+        "printed_page": 18,
+        "canonical_unit_id": "berkshire-letter-2013:u0017",
+        "canonical_text_character_start": 2522,
+        "canonical_text_character_end_exclusive": 3027,
+        "geometry_block_index": 7,
+        "bbox": [
+          91.5,
+          430.12,
+          538.48,
+          488.12
+        ],
+        "source_line_ids": [
+          "p017:l026",
+          "p017:l027",
+          "p017:l028",
+          "p017:l029",
+          "p017:l030"
+        ]
+      }
+    },
+    {
+      "id": "letter-2013-investing-p015",
+      "kind": "paragraph",
+      "source_unit_id": "berkshire-letter-2013:u0017",
+      "text_as_received": "Š With my two small investments, I thought only of what the properties would produce and cared not at all\nabout their daily valuations. Games are won by players who focus on the playing field – not by those\nwhose eyes are glued to the scoreboard. If you can enjoy Saturdays and Sundays without looking at stock\nprices, give it a try on weekdays.",
+      "reading_text": "Š With my two small investments, I thought only of what the properties would produce and cared not at all about their daily valuations. Games are won by players who focus on the playing field – not by those whose eyes are glued to the scoreboard. If you can enjoy Saturdays and Sundays without looking at stock prices, give it a try on weekdays.",
+      "text_sha256": "83a53d56476f4ebea0b41b9924ca84dc8393c1e0f6a57863f06c0a957f8f3883",
+      "reading_text_sha256": "5b1b556cc8051e8dc67de3652837dbc932a2486741f4d71b2b464e6a8f1d8fb6",
+      "canonical_speaker": "Warren Buffett",
+      "attribution_basis": "Letter byline; embedded quotations inside paragraphs retain their published introductions",
+      "whitespace_operation": "Whitespace collapsed for reading; all non-whitespace characters recovered unchanged from canonical extraction",
+      "reversible_encoding_repairs": [],
+      "locator": {
+        "physical_pdf_page": 17,
+        "printed_page": 18,
+        "canonical_unit_id": "berkshire-letter-2013:u0017",
+        "canonical_text_character_start": 3028,
+        "canonical_text_character_end_exclusive": 3373,
+        "geometry_block_index": 8,
+        "bbox": [
+          91.5,
+          502.12,
+          538.46,
+          548.12
+        ],
+        "source_line_ids": [
+          "p017:l031",
+          "p017:l032",
+          "p017:l033",
+          "p017:l034"
+        ]
+      }
+    },
+    {
+      "id": "letter-2013-investing-p016",
+      "kind": "paragraph",
+      "source_unit_id": "berkshire-letter-2013:u0017",
+      "text_as_received": "Š Forming macro opinions or listening to the macro or market predictions of others is a waste of time.\nIndeed, it is dangerous because it may blur your vision of the facts that are truly important. (When I hear\nTV commentators glibly opine on what the market will do next, I am reminded of Mickey Mantle’s\nscathing comment: “You don’t know how easy this game is until you get into that broadcasting booth.”)",
+      "reading_text": "Š Forming macro opinions or listening to the macro or market predictions of others is a waste of time. Indeed, it is dangerous because it may blur your vision of the facts that are truly important. (When I hear TV commentators glibly opine on what the market will do next, I am reminded of Mickey Mantle’s scathing comment: “You don’t know how easy this game is until you get into that broadcasting booth.”)",
+      "text_sha256": "8a2c050685f820c728fd128dbeb5a0b4fce1a6592010a480edd55b1c280dc422",
+      "reading_text_sha256": "b86ece85c60b00cbaa9108641a80c2f1e30a25ae6d2cd67e139438fba3dfc64c",
+      "canonical_speaker": "Warren Buffett",
+      "attribution_basis": "Letter byline; embedded quotations inside paragraphs retain their published introductions",
+      "whitespace_operation": "Whitespace collapsed for reading; all non-whitespace characters recovered unchanged from canonical extraction",
+      "reversible_encoding_repairs": [],
+      "locator": {
+        "physical_pdf_page": 17,
+        "printed_page": 18,
+        "canonical_unit_id": "berkshire-letter-2013:u0017",
+        "canonical_text_character_start": 3374,
+        "canonical_text_character_end_exclusive": 3781,
+        "geometry_block_index": 9,
+        "bbox": [
+          91.5,
+          562.12,
+          538.46,
+          608.12
+        ],
+        "source_line_ids": [
+          "p017:l035",
+          "p017:l036",
+          "p017:l037",
+          "p017:l038"
+        ]
+      }
+    },
+    {
+      "id": "letter-2013-investing-p017",
+      "kind": "paragraph",
+      "source_unit_id": "berkshire-letter-2013:u0018",
+      "text_as_received": "Š My two purchases were made in 1986 and 1993. What the economy, interest rates, or the stock market\nmight do in the years immediately following – 1987 and 1994 – was of no importance to me in making\nthose investments. I can’t remember what the headlines or pundits were saying at the time. Whatever the\nchatter, corn would keep growing in Nebraska and students would flock to NYU.",
+      "reading_text": "Š My two purchases were made in 1986 and 1993. What the economy, interest rates, or the stock market might do in the years immediately following – 1987 and 1994 – was of no importance to me in making those investments. I can’t remember what the headlines or pundits were saying at the time. Whatever the chatter, corn would keep growing in Nebraska and students would flock to NYU.",
+      "text_sha256": "2d2a04ce62b4a8f1e844c06119a772baa5e9f1d25dcf57c2607b8eb9ff0cb037",
+      "reading_text_sha256": "bee4f840545d1423710e96146d973db9739306d47ea75b207532d00bfd6a3c66",
+      "canonical_speaker": "Warren Buffett",
+      "attribution_basis": "Letter byline; embedded quotations inside paragraphs retain their published introductions",
+      "whitespace_operation": "Whitespace collapsed for reading; all non-whitespace characters recovered unchanged from canonical extraction",
+      "reversible_encoding_repairs": [],
+      "locator": {
+        "physical_pdf_page": 18,
+        "printed_page": 19,
+        "canonical_unit_id": "berkshire-letter-2013:u0018",
+        "canonical_text_character_start": 0,
+        "canonical_text_character_end_exclusive": 381,
+        "geometry_block_index": 0,
+        "bbox": [
+          91.5,
+          46.12,
+          538.47,
+          92.12
+        ],
+        "source_line_ids": [
+          "p018:l001",
+          "p018:l002",
+          "p018:l003",
+          "p018:l004"
+        ]
+      }
+    },
+    {
+      "id": "letter-2013-investing-p018",
+      "kind": "paragraph",
+      "source_unit_id": "berkshire-letter-2013:u0018",
+      "text_as_received": "There is one major difference between my two small investments and an investment in stocks. Stocks\nprovide you minute-to-minute valuations for your holdings whereas I have yet to see a quotation for either my farm\nor the New York real estate.",
+      "reading_text": "There is one major difference between my two small investments and an investment in stocks. Stocks provide you minute-to-minute valuations for your holdings whereas I have yet to see a quotation for either my farm or the New York real estate.",
+      "text_sha256": "d16e33f0e81219d1c67fbace57eafb3902d52ca799f7e4a03d83e560d1c55e0e",
+      "reading_text_sha256": "c86fc185f3091f66a1776fc2c2702b65e1e3ae4903b339076ca4ddb81ed5b172",
+      "canonical_speaker": "Warren Buffett",
+      "attribution_basis": "Letter byline; embedded quotations inside paragraphs retain their published introductions",
+      "whitespace_operation": "Whitespace collapsed for reading; all non-whitespace characters recovered unchanged from canonical extraction",
+      "reversible_encoding_repairs": [],
+      "locator": {
+        "physical_pdf_page": 18,
+        "printed_page": 19,
+        "canonical_unit_id": "berkshire-letter-2013:u0018",
+        "canonical_text_character_start": 382,
+        "canonical_text_character_end_exclusive": 624,
+        "geometry_block_index": 1,
+        "bbox": [
+          73.5,
+          106.12,
+          538.47,
+          140.12
+        ],
+        "source_line_ids": [
+          "p018:l005",
+          "p018:l006",
+          "p018:l007"
+        ]
+      }
+    },
+    {
+      "id": "letter-2013-investing-p019",
+      "kind": "paragraph",
+      "source_unit_id": "berkshire-letter-2013:u0018",
+      "text_as_received": "It should be an enormous advantage for investors in stocks to have those wildly fluctuating valuations\nplaced on their holdings – and for some investors, it is. After all, if a moody fellow with a farm bordering my\nproperty yelled out a price every day to me at which he would either buy my farm or sell me his – and those prices\nvaried widely over short periods of time depending on his mental state – how in the world could I be other than\nbenefited by his erratic behavior? If his daily shout-out was ridiculously low, and I had some spare cash, I would\nbuy his farm. If the number he yelled was absurdly high, I could either sell to him or just go on farming.",
+      "reading_text": "It should be an enormous advantage for investors in stocks to have those wildly fluctuating valuations placed on their holdings – and for some investors, it is. After all, if a moody fellow with a farm bordering my property yelled out a price every day to me at which he would either buy my farm or sell me his – and those prices varied widely over short periods of time depending on his mental state – how in the world could I be other than benefited by his erratic behavior? If his daily shout-out was ridiculously low, and I had some spare cash, I would buy his farm. If the number he yelled was absurdly high, I could either sell to him or just go on farming.",
+      "text_sha256": "3413dacb9e9f489797cbdbd6a7f195ed8f1a46ae313cc1e3f821171cac4ded22",
+      "reading_text_sha256": "9c0dbb4e0d48586cb70d8f554f3d110716eff7ed0aa97ca7d5adabb4049d99ce",
+      "canonical_speaker": "Warren Buffett",
+      "attribution_basis": "Letter byline; embedded quotations inside paragraphs retain their published introductions",
+      "whitespace_operation": "Whitespace collapsed for reading; all non-whitespace characters recovered unchanged from canonical extraction",
+      "reversible_encoding_repairs": [],
+      "locator": {
+        "physical_pdf_page": 18,
+        "printed_page": 19,
+        "canonical_unit_id": "berkshire-letter-2013:u0018",
+        "canonical_text_character_start": 625,
+        "canonical_text_character_end_exclusive": 1288,
+        "geometry_block_index": 2,
+        "bbox": [
+          73.5,
+          154.12,
+          538.5,
+          224.12
+        ],
+        "source_line_ids": [
+          "p018:l008",
+          "p018:l009",
+          "p018:l010",
+          "p018:l011",
+          "p018:l012",
+          "p018:l013"
+        ]
+      }
+    },
+    {
+      "id": "letter-2013-investing-p020",
+      "kind": "paragraph",
+      "source_unit_id": "berkshire-letter-2013:u0018",
+      "text_as_received": "Owners of stocks, however, too often let the capricious and often irrational behavior of their fellow owners\ncause them to behave irrationally as well. Because there is so much chatter about markets, the economy, interest\nrates, price behavior of stocks, etc., some investors believe it is important to listen to pundits – and, worse yet,\nimportant to consider acting upon their comments.",
+      "reading_text": "Owners of stocks, however, too often let the capricious and often irrational behavior of their fellow owners cause them to behave irrationally as well. Because there is so much chatter about markets, the economy, interest rates, price behavior of stocks, etc., some investors believe it is important to listen to pundits – and, worse yet, important to consider acting upon their comments.",
+      "text_sha256": "9aa6d2b48f082a41acad1e42832189d105c6b6767a52cb7237a454666b8d67a4",
+      "reading_text_sha256": "8156968d65abdf8afd6af76f3d7edbc8f18f441c48cc0f03e822757d28f9cd73",
+      "canonical_speaker": "Warren Buffett",
+      "attribution_basis": "Letter byline; embedded quotations inside paragraphs retain their published introductions",
+      "whitespace_operation": "Whitespace collapsed for reading; all non-whitespace characters recovered unchanged from canonical extraction",
+      "reversible_encoding_repairs": [],
+      "locator": {
+        "physical_pdf_page": 18,
+        "printed_page": 19,
+        "canonical_unit_id": "berkshire-letter-2013:u0018",
+        "canonical_text_character_start": 1289,
+        "canonical_text_character_end_exclusive": 1677,
+        "geometry_block_index": 3,
+        "bbox": [
+          73.5,
+          238.12,
+          538.48,
+          284.12
+        ],
+        "source_line_ids": [
+          "p018:l014",
+          "p018:l015",
+          "p018:l016",
+          "p018:l017"
+        ]
+      }
+    },
+    {
+      "id": "letter-2013-investing-p021",
+      "kind": "paragraph",
+      "source_unit_id": "berkshire-letter-2013:u0018",
+      "text_as_received": "Those people who can sit quietly for decades when they own a farm or apartment house too often become\nfrenetic when they are exposed to a stream of stock quotations and accompanying commentators delivering an\nimplied message of “Don’t just sit there, do something.” For these investors, liquidity is transformed from the\nunqualified benefit it should be to a curse.",
+      "reading_text": "Those people who can sit quietly for decades when they own a farm or apartment house too often become frenetic when they are exposed to a stream of stock quotations and accompanying commentators delivering an implied message of “Don’t just sit there, do something.” For these investors, liquidity is transformed from the unqualified benefit it should be to a curse.",
+      "text_sha256": "63d05487275fa775c8d46351d207ee21b9cd5566c11fb98346e1b2eecbd344b3",
+      "reading_text_sha256": "249a540cdcbfaee2a8c16dc5055f8ff95e60bc793f477704b4331fc027dfc209",
+      "canonical_speaker": "Warren Buffett",
+      "attribution_basis": "Letter byline; embedded quotations inside paragraphs retain their published introductions",
+      "whitespace_operation": "Whitespace collapsed for reading; all non-whitespace characters recovered unchanged from canonical extraction",
+      "reversible_encoding_repairs": [],
+      "locator": {
+        "physical_pdf_page": 18,
+        "printed_page": 19,
+        "canonical_unit_id": "berkshire-letter-2013:u0018",
+        "canonical_text_character_start": 1678,
+        "canonical_text_character_end_exclusive": 2043,
+        "geometry_block_index": 4,
+        "bbox": [
+          73.5,
+          298.12,
+          538.49,
+          344.12
+        ],
+        "source_line_ids": [
+          "p018:l018",
+          "p018:l019",
+          "p018:l020",
+          "p018:l021"
+        ]
+      }
+    },
+    {
+      "id": "letter-2013-investing-p022",
+      "kind": "paragraph",
+      "source_unit_id": "berkshire-letter-2013:u0018",
+      "text_as_received": "A “flash crash” or some other extreme market fluctuation can’t hurt an investor any more than an erratic\nand mouthy neighbor can hurt my farm investment. Indeed, tumbling markets can be helpful to the true investor if\nhe has cash available when prices get far out of line with values. A climate of fear is your friend when investing; a\neuphoric world is your enemy.",
+      "reading_text": "A “flash crash” or some other extreme market fluctuation can’t hurt an investor any more than an erratic and mouthy neighbor can hurt my farm investment. Indeed, tumbling markets can be helpful to the true investor if he has cash available when prices get far out of line with values. A climate of fear is your friend when investing; a euphoric world is your enemy.",
+      "text_sha256": "6d28719f637e2433d3f4aa55e8d846f3e8a659940b8b74e0f92ca8e0ca4f9ec1",
+      "reading_text_sha256": "a8d8194387736a591459641457b727f480e3737831a27a6d27b4f89387621a7b",
+      "canonical_speaker": "Warren Buffett",
+      "attribution_basis": "Letter byline; embedded quotations inside paragraphs retain their published introductions",
+      "whitespace_operation": "Whitespace collapsed for reading; all non-whitespace characters recovered unchanged from canonical extraction",
+      "reversible_encoding_repairs": [],
+      "locator": {
+        "physical_pdf_page": 18,
+        "printed_page": 19,
+        "canonical_unit_id": "berkshire-letter-2013:u0018",
+        "canonical_text_character_start": 2044,
+        "canonical_text_character_end_exclusive": 2409,
+        "geometry_block_index": 5,
+        "bbox": [
+          73.5,
+          358.12,
+          538.49,
+          404.12
+        ],
+        "source_line_ids": [
+          "p018:l022",
+          "p018:l023",
+          "p018:l024",
+          "p018:l025"
+        ]
+      }
+    },
+    {
+      "id": "letter-2013-investing-p023",
+      "kind": "paragraph",
+      "source_unit_id": "berkshire-letter-2013:u0018",
+      "text_as_received": "During the extraordinary financial panic that occurred late in 2008, I never gave a thought to selling my\nfarm or New York real estate, even though a severe recession was clearly brewing. And, if I had owned 100% of a\nsolid business with good long-term prospects, it would have been foolish for me to even consider dumping it. So\nwhy would I have sold my stocks that were small participations in wonderful businesses? True, any one of them\nmight eventually disappoint, but as a group they were certain to do well. Could anyone really believe the earth was\ngoing to swallow up the incredible productive assets and unlimited human ingenuity existing in America?",
+      "reading_text": "During the extraordinary financial panic that occurred late in 2008, I never gave a thought to selling my farm or New York real estate, even though a severe recession was clearly brewing. And, if I had owned 100% of a solid business with good long-term prospects, it would have been foolish for me to even consider dumping it. So why would I have sold my stocks that were small participations in wonderful businesses? True, any one of them might eventually disappoint, but as a group they were certain to do well. Could anyone really believe the earth was going to swallow up the incredible productive assets and unlimited human ingenuity existing in America?",
+      "text_sha256": "8327be2509d0ce580df40530ab00e2d266292018a03cb8f4843b577f13a9edb4",
+      "reading_text_sha256": "2903deed4ece7b7c4301f1d1196a1a15dcfa9e46c825cfd93fb70abc2c66b2b0",
+      "canonical_speaker": "Warren Buffett",
+      "attribution_basis": "Letter byline; embedded quotations inside paragraphs retain their published introductions",
+      "whitespace_operation": "Whitespace collapsed for reading; all non-whitespace characters recovered unchanged from canonical extraction",
+      "reversible_encoding_repairs": [],
+      "locator": {
+        "physical_pdf_page": 18,
+        "printed_page": 19,
+        "canonical_unit_id": "berkshire-letter-2013:u0018",
+        "canonical_text_character_start": 2410,
+        "canonical_text_character_end_exclusive": 3069,
+        "geometry_block_index": 6,
+        "bbox": [
+          73.5,
+          418.12,
+          538.51,
+          488.12
+        ],
+        "source_line_ids": [
+          "p018:l026",
+          "p018:l027",
+          "p018:l028",
+          "p018:l029",
+          "p018:l030",
+          "p018:l031"
+        ]
+      }
+    },
+    {
+      "id": "letter-2013-investing-p024",
+      "kind": "preformatted",
+      "source_unit_id": "berkshire-letter-2013:u0018",
+      "text_as_received": "************",
+      "reading_text": "************",
+      "text_sha256": "8123442122593bc041ae97e1e974cc26a9f9fbf6732a5b44b48373989140baae",
+      "reading_text_sha256": "8123442122593bc041ae97e1e974cc26a9f9fbf6732a5b44b48373989140baae",
+      "canonical_speaker": null,
+      "attribution_basis": "Letter byline; embedded quotations inside paragraphs retain their published introductions",
+      "whitespace_operation": "Whitespace collapsed for reading; all non-whitespace characters recovered unchanged from canonical extraction",
+      "reversible_encoding_repairs": [],
+      "locator": {
+        "physical_pdf_page": 18,
+        "printed_page": 19,
+        "canonical_unit_id": "berkshire-letter-2013:u0018",
+        "canonical_text_character_start": 3070,
+        "canonical_text_character_end_exclusive": 3082,
+        "geometry_block_index": 7,
+        "bbox": [
+          280.25,
+          502.12,
+          367.75,
+          512.12
+        ],
+        "source_line_ids": [
+          "p018:l032"
+        ]
+      }
+    },
+    {
+      "id": "letter-2013-investing-p025",
+      "kind": "paragraph",
+      "source_unit_id": "berkshire-letter-2013:u0018",
+      "text_as_received": "When Charlie and I buy stocks – which we think of as small portions of businesses – our analysis is very\nsimilar to that which we use in buying entire businesses. We first have to decide whether we can sensibly estimate\nan earnings range for five years out, or more. If the answer is yes, we will buy the stock (or business) if it sells at a\nreasonable price in relation to the bottom boundary of our estimate. If, however, we lack the ability to estimate\nfuture earnings – which is usually the case – we simply move on to other prospects. In the 54 years we have worked\ntogether, we have never foregone an attractive purchase because of the macro or political environment, or the views\nof other people. In fact, these subjects never come up when we make decisions.",
+      "reading_text": "When Charlie and I buy stocks – which we think of as small portions of businesses – our analysis is very similar to that which we use in buying entire businesses. We first have to decide whether we can sensibly estimate an earnings range for five years out, or more. If the answer is yes, we will buy the stock (or business) if it sells at a reasonable price in relation to the bottom boundary of our estimate. If, however, we lack the ability to estimate future earnings – which is usually the case – we simply move on to other prospects. In the 54 years we have worked together, we have never foregone an attractive purchase because of the macro or political environment, or the views of other people. In fact, these subjects never come up when we make decisions.",
+      "text_sha256": "ce8c36f3949a387609e31c3a6bdb580904b927407154b6f95035cfd9005fb34a",
+      "reading_text_sha256": "b431a3530380d0ca64f02a1e363cedc792fac9c141643c8d60a7dca63b8c5905",
+      "canonical_speaker": "Warren Buffett",
+      "attribution_basis": "Letter byline; embedded quotations inside paragraphs retain their published introductions",
+      "whitespace_operation": "Whitespace collapsed for reading; all non-whitespace characters recovered unchanged from canonical extraction",
+      "reversible_encoding_repairs": [],
+      "locator": {
+        "physical_pdf_page": 18,
+        "printed_page": 19,
+        "canonical_unit_id": "berkshire-letter-2013:u0018",
+        "canonical_text_character_start": 3083,
+        "canonical_text_character_end_exclusive": 3848,
+        "geometry_block_index": 8,
+        "bbox": [
+          73.5,
+          526.12,
+          538.49,
+          608.12
+        ],
+        "source_line_ids": [
+          "p018:l033",
+          "p018:l034",
+          "p018:l035",
+          "p018:l036",
+          "p018:l037",
+          "p018:l038",
+          "p018:l039"
+        ]
+      }
+    },
+    {
+      "id": "letter-2013-investing-p026",
+      "kind": "paragraph",
+      "source_unit_id": "berkshire-letter-2013:u0018",
+      "text_as_received": "It’s vital, however, that we recognize the perimeter of our “circle of competence” and stay well inside of\nit. Even then, we will make some mistakes, both with stocks and businesses. But they will not be the disasters that\noccur, for example, when a long-rising market induces purchases that are based on anticipated price behavior and a\ndesire to be where the action is.",
+      "reading_text": "It’s vital, however, that we recognize the perimeter of our “circle of competence” and stay well inside of it. Even then, we will make some mistakes, both with stocks and businesses. But they will not be the disasters that occur, for example, when a long-rising market induces purchases that are based on anticipated price behavior and a desire to be where the action is.",
+      "text_sha256": "71f89254310d53c5c66f6b70544a74a208abdf50d10e85c229846c0285b8cdd4",
+      "reading_text_sha256": "072d466284ac83c8bc13d1a6e6da5d6b55d428a9a0e80784d849e213bf1e43a4",
+      "canonical_speaker": "Warren Buffett",
+      "attribution_basis": "Letter byline; embedded quotations inside paragraphs retain their published introductions",
+      "whitespace_operation": "Whitespace collapsed for reading; all non-whitespace characters recovered unchanged from canonical extraction",
+      "reversible_encoding_repairs": [],
+      "locator": {
+        "physical_pdf_page": 18,
+        "printed_page": 19,
+        "canonical_unit_id": "berkshire-letter-2013:u0018",
+        "canonical_text_character_start": 3849,
+        "canonical_text_character_end_exclusive": 4220,
+        "geometry_block_index": 9,
+        "bbox": [
+          73.5,
+          622.12,
+          538.49,
+          668.12
+        ],
+        "source_line_ids": [
+          "p018:l040",
+          "p018:l041",
+          "p018:l042",
+          "p018:l043"
+        ]
+      }
+    },
+    {
+      "id": "letter-2013-investing-p027",
+      "kind": "paragraph",
+      "source_unit_id": "berkshire-letter-2013:u0019",
+      "text_as_received": "Most investors, of course, have not made the study of business prospects a priority in their lives. If wise,\nthey will conclude that they do not know enough about specific businesses to predict their future earning power.",
+      "reading_text": "Most investors, of course, have not made the study of business prospects a priority in their lives. If wise, they will conclude that they do not know enough about specific businesses to predict their future earning power.",
+      "text_sha256": "b1358796b4d32a8b8a030c47a85f39f7e12578a2e50ad4ed306ac73020a51908",
+      "reading_text_sha256": "7d841a7524fa687d2c3781792adc1f4144e15726126d005075e717268c148270",
+      "canonical_speaker": "Warren Buffett",
+      "attribution_basis": "Letter byline; embedded quotations inside paragraphs retain their published introductions",
+      "whitespace_operation": "Whitespace collapsed for reading; all non-whitespace characters recovered unchanged from canonical extraction",
+      "reversible_encoding_repairs": [],
+      "locator": {
+        "physical_pdf_page": 19,
+        "printed_page": 20,
+        "canonical_unit_id": "berkshire-letter-2013:u0019",
+        "canonical_text_character_start": 0,
+        "canonical_text_character_end_exclusive": 221,
+        "geometry_block_index": 0,
+        "bbox": [
+          73.5,
+          46.12,
+          538.48,
+          68.12
+        ],
+        "source_line_ids": [
+          "p019:l001",
+          "p019:l002"
+        ]
+      }
+    },
+    {
+      "id": "letter-2013-investing-p028",
+      "kind": "paragraph",
+      "source_unit_id": "berkshire-letter-2013:u0019",
+      "text_as_received": "I have good news for these non-professionals: The typical investor doesn’t need this skill. In aggregate,\nAmerican business has done wonderfully over time and will continue to do so (though, most assuredly, in\nunpredictable fits and starts). In the 20\nth Century, the Dow Jones Industrials index advanced from 66 to 11,497,\npaying a rising stream of dividends to boot. The 21 st Century will witness further gains, almost certain to be\nsubstantial. The goal of the non-professional should not be to pick winners – neither he nor his “helpers” can do\nthat – but should rather be to own a cross-section of businesses that in aggregate are bound to do well. A low-cost\nS&P 500 index fund will achieve this goal.",
+      "reading_text": "I have good news for these non-professionals: The typical investor doesn’t need this skill. In aggregate, American business has done wonderfully over time and will continue to do so (though, most assuredly, in unpredictable fits and starts). In the 20 th Century, the Dow Jones Industrials index advanced from 66 to 11,497, paying a rising stream of dividends to boot. The 21 st Century will witness further gains, almost certain to be substantial. The goal of the non-professional should not be to pick winners – neither he nor his “helpers” can do that – but should rather be to own a cross-section of businesses that in aggregate are bound to do well. A low-cost S&P 500 index fund will achieve this goal.",
+      "text_sha256": "27bb1bc41b4763ecb0164d82924a48f720ece9e183cb933e95b820fb7cce5f11",
+      "reading_text_sha256": "3eb9071ed3cadc1879833b2b14c136317a762a37a3011cc4089d5b299babf81a",
+      "canonical_speaker": "Warren Buffett",
+      "attribution_basis": "Letter byline; embedded quotations inside paragraphs retain their published introductions",
+      "whitespace_operation": "Whitespace collapsed for reading; all non-whitespace characters recovered unchanged from canonical extraction",
+      "reversible_encoding_repairs": [],
+      "locator": {
+        "physical_pdf_page": 19,
+        "printed_page": 20,
+        "canonical_unit_id": "berkshire-letter-2013:u0019",
+        "canonical_text_character_start": 222,
+        "canonical_text_character_end_exclusive": 930,
+        "geometry_block_index": 1,
+        "bbox": [
+          73.5,
+          82.12,
+          538.5,
+          164.12
+        ],
+        "source_line_ids": [
+          "p019:l003",
+          "p019:l004",
+          "p019:l005",
+          "p019:l006",
+          "p019:l007",
+          "p019:l008",
+          "p019:l009"
+        ]
+      }
+    },
+    {
+      "id": "letter-2013-investing-p029",
+      "kind": "paragraph",
+      "source_unit_id": "berkshire-letter-2013:u0019",
+      "text_as_received": "That’s the “what” of investing for the non-professional. The “when” is also important. The main danger is\nthat the timid or beginning investor will enter the market at a time of extreme exuberance and then become\ndisillusioned when paper losses occur. (Remember the late Barton Biggs’ observation: “A bull market is like sex. It\nfeels best just before it ends.”) The antidote to that kind of mistiming is for an investor to accumulate shares over a\nlong period and never to sell when the news is bad and stocks are well off their highs. Following those rules, the\n“know-nothing” investor who both diversifies and keeps his costs minimal is virtually certain to get satisfactory\nresults. Indeed, the unsophisticated investor who is realistic about his shortcomings is likely to obtain better long-\nterm results than the knowledgeable professional who is blind to even a single weakness.",
+      "reading_text": "That’s the “what” of investing for the non-professional. The “when” is also important. The main danger is that the timid or beginning investor will enter the market at a time of extreme exuberance and then become disillusioned when paper losses occur. (Remember the late Barton Biggs’ observation: “A bull market is like sex. It feels best just before it ends.”) The antidote to that kind of mistiming is for an investor to accumulate shares over a long period and never to sell when the news is bad and stocks are well off their highs. Following those rules, the “know-nothing” investor who both diversifies and keeps his costs minimal is virtually certain to get satisfactory results. Indeed, the unsophisticated investor who is realistic about his shortcomings is likely to obtain better long- term results than the knowledgeable professional who is blind to even a single weakness.",
+      "text_sha256": "f92a2d2f75f00cc1a677c2f0a43f46ad1a74da66c0e3761c94e9de29d0afd2d9",
+      "reading_text_sha256": "536dd501bbe56547f765cbd34ebc3cd69412412f4f216da6c179418e9f930853",
+      "canonical_speaker": "Warren Buffett",
+      "attribution_basis": "Letter byline; embedded quotations inside paragraphs retain their published introductions",
+      "whitespace_operation": "Whitespace collapsed for reading; all non-whitespace characters recovered unchanged from canonical extraction",
+      "reversible_encoding_repairs": [],
+      "locator": {
+        "physical_pdf_page": 19,
+        "printed_page": 20,
+        "canonical_unit_id": "berkshire-letter-2013:u0019",
+        "canonical_text_character_start": 931,
+        "canonical_text_character_end_exclusive": 1816,
+        "geometry_block_index": 2,
+        "bbox": [
+          73.5,
+          178.12,
+          538.49,
+          272.12
+        ],
+        "source_line_ids": [
+          "p019:l010",
+          "p019:l011",
+          "p019:l012",
+          "p019:l013",
+          "p019:l014",
+          "p019:l015",
+          "p019:l016",
+          "p019:l017"
+        ]
+      }
+    },
+    {
+      "id": "letter-2013-investing-p030",
+      "kind": "paragraph",
+      "source_unit_id": "berkshire-letter-2013:u0019",
+      "text_as_received": "If “investors” frenetically bought and sold farmland to each other, neither the yields nor prices of their\ncrops would be increased. The only consequence of such behavior would be decreases in the overall earnings\nrealized by the farm-owning population because of the substantial costs it would incur as it sought advice and\nswitched properties.",
+      "reading_text": "If “investors” frenetically bought and sold farmland to each other, neither the yields nor prices of their crops would be increased. The only consequence of such behavior would be decreases in the overall earnings realized by the farm-owning population because of the substantial costs it would incur as it sought advice and switched properties.",
+      "text_sha256": "40dc8a335c17e65c4b65bd18f74f21416119733720861543268bf1f1c783a1b0",
+      "reading_text_sha256": "f8c70206c883ec5c0cfd809897ed5fe6c36b899538c9ca2fad7932db574053b2",
+      "canonical_speaker": "Warren Buffett",
+      "attribution_basis": "Letter byline; embedded quotations inside paragraphs retain their published introductions",
+      "whitespace_operation": "Whitespace collapsed for reading; all non-whitespace characters recovered unchanged from canonical extraction",
+      "reversible_encoding_repairs": [],
+      "locator": {
+        "physical_pdf_page": 19,
+        "printed_page": 20,
+        "canonical_unit_id": "berkshire-letter-2013:u0019",
+        "canonical_text_character_start": 1817,
+        "canonical_text_character_end_exclusive": 2162,
+        "geometry_block_index": 3,
+        "bbox": [
+          73.5,
+          286.12,
+          538.49,
+          332.12
+        ],
+        "source_line_ids": [
+          "p019:l018",
+          "p019:l019",
+          "p019:l020",
+          "p019:l021"
+        ]
+      }
+    },
+    {
+      "id": "letter-2013-investing-p031",
+      "kind": "paragraph",
+      "source_unit_id": "berkshire-letter-2013:u0019",
+      "text_as_received": "Nevertheless, both individuals and institutions will constantly be urged to be active by those who profit\nfrom giving advice or effecting transactions. The resulting frictional costs can be huge and, for investors in\naggregate, devoid of benefit. So ignore the chatter, keep your costs minimal, and invest in stocks as you would in a\nfarm.",
+      "reading_text": "Nevertheless, both individuals and institutions will constantly be urged to be active by those who profit from giving advice or effecting transactions. The resulting frictional costs can be huge and, for investors in aggregate, devoid of benefit. So ignore the chatter, keep your costs minimal, and invest in stocks as you would in a farm.",
+      "text_sha256": "705a5abdb5c4cc5112fc66db2096bdd0ded18edb162c186f8f6a6916756437fa",
+      "reading_text_sha256": "8190549afee35ae6c1d7de8b4ed2b6e00c2a5e0af643aa068afc98ecaac81f42",
+      "canonical_speaker": "Warren Buffett",
+      "attribution_basis": "Letter byline; embedded quotations inside paragraphs retain their published introductions",
+      "whitespace_operation": "Whitespace collapsed for reading; all non-whitespace characters recovered unchanged from canonical extraction",
+      "reversible_encoding_repairs": [],
+      "locator": {
+        "physical_pdf_page": 19,
+        "printed_page": 20,
+        "canonical_unit_id": "berkshire-letter-2013:u0019",
+        "canonical_text_character_start": 2163,
+        "canonical_text_character_end_exclusive": 2502,
+        "geometry_block_index": 4,
+        "bbox": [
+          73.5,
+          346.12,
+          538.49,
+          392.12
+        ],
+        "source_line_ids": [
+          "p019:l022",
+          "p019:l023",
+          "p019:l024",
+          "p019:l025"
+        ]
+      }
+    },
+    {
+      "id": "letter-2013-investing-p032",
+      "kind": "paragraph",
+      "source_unit_id": "berkshire-letter-2013:u0019",
+      "text_as_received": "My money, I should add, is where my mouth is: What I advise here is essentially identical to certain\ninstructions I’ve laid out in my will. One bequest provides that cash will be delivered to a trustee for my wife’s\nbenefit. (I have to use cash for individual bequests, because all of my Berkshire shares will be fully distributed to\ncertain philanthropic organizations over the ten years following the closing of my estate.) My advice to the trustee\ncould not be more simple: Put 10% of the cash in short-term government bonds and 90% in a very low-cost S&P\n500 index fund. (I suggest Vanguard’s.) I believe the trust’s long-term results from this policy will be superior to\nthose attained by most investors – whether pension funds, institutions or individuals – who employ high-fee\nmanagers.",
+      "reading_text": "My money, I should add, is where my mouth is: What I advise here is essentially identical to certain instructions I’ve laid out in my will. One bequest provides that cash will be delivered to a trustee for my wife’s benefit. (I have to use cash for individual bequests, because all of my Berkshire shares will be fully distributed to certain philanthropic organizations over the ten years following the closing of my estate.) My advice to the trustee could not be more simple: Put 10% of the cash in short-term government bonds and 90% in a very low-cost S&P 500 index fund. (I suggest Vanguard’s.) I believe the trust’s long-term results from this policy will be superior to those attained by most investors – whether pension funds, institutions or individuals – who employ high-fee managers.",
+      "text_sha256": "e2b4835b53322b71da63f25b2964a0d168fba25641a9c7602bffa952c8a26f79",
+      "reading_text_sha256": "1bdfe5b9c4142fd5385308d5b3063527dcf9c78bf69d19be1fb914c81147145d",
+      "canonical_speaker": "Warren Buffett",
+      "attribution_basis": "Letter byline; embedded quotations inside paragraphs retain their published introductions",
+      "whitespace_operation": "Whitespace collapsed for reading; all non-whitespace characters recovered unchanged from canonical extraction",
+      "reversible_encoding_repairs": [],
+      "locator": {
+        "physical_pdf_page": 19,
+        "printed_page": 20,
+        "canonical_unit_id": "berkshire-letter-2013:u0019",
+        "canonical_text_character_start": 2503,
+        "canonical_text_character_end_exclusive": 3296,
+        "geometry_block_index": 5,
+        "bbox": [
+          73.5,
+          406.12,
+          538.5,
+          500.12
+        ],
+        "source_line_ids": [
+          "p019:l026",
+          "p019:l027",
+          "p019:l028",
+          "p019:l029",
+          "p019:l030",
+          "p019:l031",
+          "p019:l032",
+          "p019:l033"
+        ]
+      }
+    },
+    {
+      "id": "letter-2013-investing-p033",
+      "kind": "preformatted",
+      "source_unit_id": "berkshire-letter-2013:u0019",
+      "text_as_received": "************",
+      "reading_text": "************",
+      "text_sha256": "8123442122593bc041ae97e1e974cc26a9f9fbf6732a5b44b48373989140baae",
+      "reading_text_sha256": "8123442122593bc041ae97e1e974cc26a9f9fbf6732a5b44b48373989140baae",
+      "canonical_speaker": null,
+      "attribution_basis": "Letter byline; embedded quotations inside paragraphs retain their published introductions",
+      "whitespace_operation": "Whitespace collapsed for reading; all non-whitespace characters recovered unchanged from canonical extraction",
+      "reversible_encoding_repairs": [],
+      "locator": {
+        "physical_pdf_page": 19,
+        "printed_page": 20,
+        "canonical_unit_id": "berkshire-letter-2013:u0019",
+        "canonical_text_character_start": 3297,
+        "canonical_text_character_end_exclusive": 3309,
+        "geometry_block_index": 6,
+        "bbox": [
+          280.25,
+          514.12,
+          367.75,
+          524.12
+        ],
+        "source_line_ids": [
+          "p019:l034"
+        ]
+      }
+    },
+    {
+      "id": "letter-2013-investing-p034",
+      "kind": "paragraph",
+      "source_unit_id": "berkshire-letter-2013:u0019",
+      "text_as_received": "And now back to Ben Graham. I learned most of the thoughts in this investment discussion from Ben’s\nbook The Intelligent Investor , which I bought in 1949. My financial life changed with that purchase.",
+      "reading_text": "And now back to Ben Graham. I learned most of the thoughts in this investment discussion from Ben’s book The Intelligent Investor , which I bought in 1949. My financial life changed with that purchase.",
+      "text_sha256": "eceeaa84effd201d9b9bcf2f2ba318570d24437ad432b648147f0ad5c54caa01",
+      "reading_text_sha256": "eab9ee9166a81feb0033ad8f90def2b31e4b14d86092f18ed189e837de2de598",
+      "canonical_speaker": "Warren Buffett",
+      "attribution_basis": "Letter byline; embedded quotations inside paragraphs retain their published introductions",
+      "whitespace_operation": "Whitespace collapsed for reading; all non-whitespace characters recovered unchanged from canonical extraction",
+      "reversible_encoding_repairs": [],
+      "locator": {
+        "physical_pdf_page": 19,
+        "printed_page": 20,
+        "canonical_unit_id": "berkshire-letter-2013:u0019",
+        "canonical_text_character_start": 3310,
+        "canonical_text_character_end_exclusive": 3511,
+        "geometry_block_index": 7,
+        "bbox": [
+          73.5,
+          538.12,
+          538.48,
+          560.12
+        ],
+        "source_line_ids": [
+          "p019:l035",
+          "p019:l036"
+        ]
+      }
+    },
+    {
+      "id": "letter-2013-investing-p035",
+      "kind": "paragraph",
+      "source_unit_id": "berkshire-letter-2013:u0019",
+      "text_as_received": "Before reading Ben’s book, I had wandered around the investing landscape, devouring everything written\non the subject. Much of what I read fascinated me: I tried my hand at charting and at using market indicia to predict\nstock movements. I sat in brokerage offices watching the tape roll by, and I listened to commentators. All of this\nwas fun, but I couldn’t shake the feeling that I wasn’t getting anywhere.",
+      "reading_text": "Before reading Ben’s book, I had wandered around the investing landscape, devouring everything written on the subject. Much of what I read fascinated me: I tried my hand at charting and at using market indicia to predict stock movements. I sat in brokerage offices watching the tape roll by, and I listened to commentators. All of this was fun, but I couldn’t shake the feeling that I wasn’t getting anywhere.",
+      "text_sha256": "a0de453d5670a558f40762642c33bf74e80d1a3999b477524ccf5eeb33e367fd",
+      "reading_text_sha256": "439fcee521e081d05d8169c55291401918f2bc9fe4b19e4deac0c596e2d943ec",
+      "canonical_speaker": "Warren Buffett",
+      "attribution_basis": "Letter byline; embedded quotations inside paragraphs retain their published introductions",
+      "whitespace_operation": "Whitespace collapsed for reading; all non-whitespace characters recovered unchanged from canonical extraction",
+      "reversible_encoding_repairs": [],
+      "locator": {
+        "physical_pdf_page": 19,
+        "printed_page": 20,
+        "canonical_unit_id": "berkshire-letter-2013:u0019",
+        "canonical_text_character_start": 3512,
+        "canonical_text_character_end_exclusive": 3921,
+        "geometry_block_index": 8,
+        "bbox": [
+          73.5,
+          574.12,
+          538.45,
+          620.12
+        ],
+        "source_line_ids": [
+          "p019:l037",
+          "p019:l038",
+          "p019:l039",
+          "p019:l040"
+        ]
+      }
+    },
+    {
+      "id": "letter-2013-investing-p036",
+      "kind": "paragraph",
+      "source_unit_id": "berkshire-letter-2013:u0019",
+      "text_as_received": "In contrast, Ben’s ideas were explained logically in elegant, easy-to-understand prose (without Greek\nletters or complicated formulas). For me, the key points were laid out in what later editions labeled Chapters 8 and\n20. (The original 1949 edition numbered its chapters differently.) These points guide my investing decisions today.",
+      "reading_text": "In contrast, Ben’s ideas were explained logically in elegant, easy-to-understand prose (without Greek letters or complicated formulas). For me, the key points were laid out in what later editions labeled Chapters 8 and 20. (The original 1949 edition numbered its chapters differently.) These points guide my investing decisions today.",
+      "text_sha256": "90c1dde9d43cf60402ac7805b6b96efa8851ce206ac2f7d890d10a3f04d0253b",
+      "reading_text_sha256": "a938180dc83a48097a162fb244758cb29b5c935417f04da02e6a81c1127ed10b",
+      "canonical_speaker": "Warren Buffett",
+      "attribution_basis": "Letter byline; embedded quotations inside paragraphs retain their published introductions",
+      "whitespace_operation": "Whitespace collapsed for reading; all non-whitespace characters recovered unchanged from canonical extraction",
+      "reversible_encoding_repairs": [],
+      "locator": {
+        "physical_pdf_page": 19,
+        "printed_page": 20,
+        "canonical_unit_id": "berkshire-letter-2013:u0019",
+        "canonical_text_character_start": 3922,
+        "canonical_text_character_end_exclusive": 4256,
+        "geometry_block_index": 9,
+        "bbox": [
+          73.5,
+          634.12,
+          538.49,
+          668.12
+        ],
+        "source_line_ids": [
+          "p019:l041",
+          "p019:l042",
+          "p019:l043"
+        ]
+      }
+    },
+    {
+      "id": "letter-2013-investing-p037",
+      "kind": "paragraph",
+      "source_unit_id": "berkshire-letter-2013:u0020",
+      "text_as_received": "A couple of interesting sidelights about the book: Later editions included a postscript describing an\nunnamed investment that was a bonanza for Ben. Ben made the purchase in 1948 when he was writing the first\nedition and – brace yourself – the mystery company was GEICO. If Ben had not recognized the special qualities of\nGEICO when it was still in its infancy, my future and Berkshire’s would have been far different.",
+      "reading_text": "A couple of interesting sidelights about the book: Later editions included a postscript describing an unnamed investment that was a bonanza for Ben. Ben made the purchase in 1948 when he was writing the first edition and – brace yourself – the mystery company was GEICO. If Ben had not recognized the special qualities of GEICO when it was still in its infancy, my future and Berkshire’s would have been far different.",
+      "text_sha256": "572ef3f4bde893a03eca903ffba1ed2f13d74a53fbde73d0db6876cf89431b01",
+      "reading_text_sha256": "75a56e6a0c85c19153fc1b90dc56e943d558d8abb8ba91438ee9516feaa37a8e",
+      "canonical_speaker": "Warren Buffett",
+      "attribution_basis": "Letter byline; embedded quotations inside paragraphs retain their published introductions",
+      "whitespace_operation": "Whitespace collapsed for reading; all non-whitespace characters recovered unchanged from canonical extraction",
+      "reversible_encoding_repairs": [],
+      "locator": {
+        "physical_pdf_page": 20,
+        "printed_page": 21,
+        "canonical_unit_id": "berkshire-letter-2013:u0020",
+        "canonical_text_character_start": 0,
+        "canonical_text_character_end_exclusive": 418,
+        "geometry_block_index": 0,
+        "bbox": [
+          73.5,
+          46.12,
+          538.49,
+          92.12
+        ],
+        "source_line_ids": [
+          "p020:l001",
+          "p020:l002",
+          "p020:l003",
+          "p020:l004"
+        ]
+      }
+    },
+    {
+      "id": "letter-2013-investing-p038",
+      "kind": "paragraph",
+      "source_unit_id": "berkshire-letter-2013:u0020",
+      "text_as_received": "The 1949 edition of the book also recommended a railroad stock that was then selling for $17 and earning\nabout $10 per share. (One of the reasons I admired Ben was that he had the guts to use current examples, leaving\nhimself open to sneers if he stumbled.) In part, that low valuation resulted from an accounting rule of the time that\nrequired the railroad to exclude from its reported earnings the substantial retained earnings of affiliates.",
+      "reading_text": "The 1949 edition of the book also recommended a railroad stock that was then selling for $17 and earning about $10 per share. (One of the reasons I admired Ben was that he had the guts to use current examples, leaving himself open to sneers if he stumbled.) In part, that low valuation resulted from an accounting rule of the time that required the railroad to exclude from its reported earnings the substantial retained earnings of affiliates.",
+      "text_sha256": "bcde84685a456000e2b1bb14dcbbb76d7da7db81649fcfc8a0bfe820be314ea3",
+      "reading_text_sha256": "e61593447504e4a8b6ae7ab08850cfc37ecc1e9c8af44e5e344c72ed48a81cf2",
+      "canonical_speaker": "Warren Buffett",
+      "attribution_basis": "Letter byline; embedded quotations inside paragraphs retain their published introductions",
+      "whitespace_operation": "Whitespace collapsed for reading; all non-whitespace characters recovered unchanged from canonical extraction",
+      "reversible_encoding_repairs": [],
+      "locator": {
+        "physical_pdf_page": 20,
+        "printed_page": 21,
+        "canonical_unit_id": "berkshire-letter-2013:u0020",
+        "canonical_text_character_start": 419,
+        "canonical_text_character_end_exclusive": 863,
+        "geometry_block_index": 1,
+        "bbox": [
+          73.5,
+          106.12,
+          538.45,
+          152.12
+        ],
+        "source_line_ids": [
+          "p020:l005",
+          "p020:l006",
+          "p020:l007",
+          "p020:l008"
+        ]
+      }
+    },
+    {
+      "id": "letter-2013-investing-p039",
+      "kind": "paragraph",
+      "source_unit_id": "berkshire-letter-2013:u0020",
+      "text_as_received": "The recommended stock was Northern Pacific, and its most important affiliate was Chicago, Burlington\nand Quincy. These railroads are now important parts of BNSF (Burlington Northern Santa Fe), which is today fully\nowned by Berkshire. When I read the book, Northern Pacific had a market value of about $40 million. Now its\nsuccessor (having added a great many properties, to be sure) earns that amount every four days.",
+      "reading_text": "The recommended stock was Northern Pacific, and its most important affiliate was Chicago, Burlington and Quincy. These railroads are now important parts of BNSF (Burlington Northern Santa Fe), which is today fully owned by Berkshire. When I read the book, Northern Pacific had a market value of about $40 million. Now its successor (having added a great many properties, to be sure) earns that amount every four days.",
+      "text_sha256": "a4d57bad50da5a77199dbb19939a87f5240535c627e33a828ef715fd06378c79",
+      "reading_text_sha256": "7b4dfd3aa7828c79abd19dede097881bbc5b668c4ad366a7351a33c5483c267c",
+      "canonical_speaker": "Warren Buffett",
+      "attribution_basis": "Letter byline; embedded quotations inside paragraphs retain their published introductions",
+      "whitespace_operation": "Whitespace collapsed for reading; all non-whitespace characters recovered unchanged from canonical extraction",
+      "reversible_encoding_repairs": [],
+      "locator": {
+        "physical_pdf_page": 20,
+        "printed_page": 21,
+        "canonical_unit_id": "berkshire-letter-2013:u0020",
+        "canonical_text_character_start": 864,
+        "canonical_text_character_end_exclusive": 1281,
+        "geometry_block_index": 2,
+        "bbox": [
+          73.5,
+          166.12,
+          538.45,
+          212.12
+        ],
+        "source_line_ids": [
+          "p020:l009",
+          "p020:l010",
+          "p020:l011",
+          "p020:l012"
+        ]
+      }
+    },
+    {
+      "id": "letter-2013-investing-p040",
+      "kind": "paragraph",
+      "source_unit_id": "berkshire-letter-2013:u0020",
+      "text_as_received": "I can’t remember what I paid for that first copy of The Intelligent Investor . Whatever the cost, it would\nunderscore the truth of Ben’s adage: Price is what you pay, value is what you get. Of all the investments I ever\nmade, buying Ben’s book was the best (except for my purchase of two marriage licenses).",
+      "reading_text": "I can’t remember what I paid for that first copy of The Intelligent Investor . Whatever the cost, it would underscore the truth of Ben’s adage: Price is what you pay, value is what you get. Of all the investments I ever made, buying Ben’s book was the best (except for my purchase of two marriage licenses).",
+      "text_sha256": "76113bf96c2928300331901899b717f0eef495c529d82b477d7a6438ac9aa88f",
+      "reading_text_sha256": "8f77e2f825d56d884b4be406fe5f05f40fa6927d9bda0fe571a43c4f0237256b",
+      "canonical_speaker": "Warren Buffett",
+      "attribution_basis": "Letter byline; embedded quotations inside paragraphs retain their published introductions",
+      "whitespace_operation": "Whitespace collapsed for reading; all non-whitespace characters recovered unchanged from canonical extraction",
+      "reversible_encoding_repairs": [],
+      "locator": {
+        "physical_pdf_page": 20,
+        "printed_page": 21,
+        "canonical_unit_id": "berkshire-letter-2013:u0020",
+        "canonical_text_character_start": 1282,
+        "canonical_text_character_end_exclusive": 1589,
+        "geometry_block_index": 3,
+        "bbox": [
+          73.5,
+          226.12,
+          538.5,
+          260.12
+        ],
+        "source_line_ids": [
+          "p020:l013",
+          "p020:l014",
+          "p020:l015"
+        ]
+      }
+    },
+    {
+      "id": "letter-2013-investing-p041",
+      "kind": "preformatted",
+      "source_unit_id": "berkshire-letter-2013:u0020",
+      "text_as_received": "************",
+      "reading_text": "************",
+      "text_sha256": "8123442122593bc041ae97e1e974cc26a9f9fbf6732a5b44b48373989140baae",
+      "reading_text_sha256": "8123442122593bc041ae97e1e974cc26a9f9fbf6732a5b44b48373989140baae",
+      "canonical_speaker": null,
+      "attribution_basis": "Letter byline; embedded quotations inside paragraphs retain their published introductions",
+      "whitespace_operation": "Whitespace collapsed for reading; all non-whitespace characters recovered unchanged from canonical extraction",
+      "reversible_encoding_repairs": [],
+      "locator": {
+        "physical_pdf_page": 20,
+        "printed_page": 21,
+        "canonical_unit_id": "berkshire-letter-2013:u0020",
+        "canonical_text_character_start": 1590,
+        "canonical_text_character_end_exclusive": 1602,
+        "geometry_block_index": 4,
+        "bbox": [
+          280.25,
+          274.12,
+          367.75,
+          284.12
+        ],
+        "source_line_ids": [
+          "p020:l016"
+        ]
+      }
+    },
+    {
+      "id": "letter-2013-investing-p042",
+      "kind": "paragraph",
+      "source_unit_id": "berkshire-letter-2013:u0020",
+      "text_as_received": "Local and state financial problems are accelerating, in large part because public entities promised pensions\nthey couldn’t afford. Citizens and public officials typically under-appreciated the gigantic financial tapeworm that\nwas born when promises were made that conflicted with a willingness to fund them. Unfortunately, pension\nmathematics today remain a mystery to most Americans.",
+      "reading_text": "Local and state financial problems are accelerating, in large part because public entities promised pensions they couldn’t afford. Citizens and public officials typically under-appreciated the gigantic financial tapeworm that was born when promises were made that conflicted with a willingness to fund them. Unfortunately, pension mathematics today remain a mystery to most Americans.",
+      "text_sha256": "6dabcd35128e1d9a50bfe25c6979f4483a128fbd45e0c7baf7cfa199d0185290",
+      "reading_text_sha256": "68bbb37bfc721d450243178ad6ec32a0172feddcee1fb3bfe5357b8306c24a36",
+      "canonical_speaker": "Warren Buffett",
+      "attribution_basis": "Letter byline; embedded quotations inside paragraphs retain their published introductions",
+      "whitespace_operation": "Whitespace collapsed for reading; all non-whitespace characters recovered unchanged from canonical extraction",
+      "reversible_encoding_repairs": [],
+      "locator": {
+        "physical_pdf_page": 20,
+        "printed_page": 21,
+        "canonical_unit_id": "berkshire-letter-2013:u0020",
+        "canonical_text_character_start": 1603,
+        "canonical_text_character_end_exclusive": 1987,
+        "geometry_block_index": 5,
+        "bbox": [
+          73.5,
+          298.12,
+          538.46,
+          344.12
+        ],
+        "source_line_ids": [
+          "p020:l017",
+          "p020:l018",
+          "p020:l019",
+          "p020:l020"
+        ]
+      }
+    },
+    {
+      "id": "letter-2013-investing-p043",
+      "kind": "paragraph",
+      "source_unit_id": "berkshire-letter-2013:u0020",
+      "text_as_received": "Investment policies, as well, play an important role in these problems. In 1975, I wrote a memo to\nKatharine Graham, then chairman of The Washington Post Company, about the pitfalls of pension promises and the\nimportance of investment policy. That memo is reproduced on pages 118 - 136.",
+      "reading_text": "Investment policies, as well, play an important role in these problems. In 1975, I wrote a memo to Katharine Graham, then chairman of The Washington Post Company, about the pitfalls of pension promises and the importance of investment policy. That memo is reproduced on pages 118 - 136.",
+      "text_sha256": "0f018eeb414f47fb8fc21c331463013d60c660e6846ab31250a92a065ed6b306",
+      "reading_text_sha256": "6f409e78432d5d38e6b22b4e1d5a245d45342ae4f4b066a880b0d9016cd02167",
+      "canonical_speaker": "Warren Buffett",
+      "attribution_basis": "Letter byline; embedded quotations inside paragraphs retain their published introductions",
+      "whitespace_operation": "Whitespace collapsed for reading; all non-whitespace characters recovered unchanged from canonical extraction",
+      "reversible_encoding_repairs": [],
+      "locator": {
+        "physical_pdf_page": 20,
+        "printed_page": 21,
+        "canonical_unit_id": "berkshire-letter-2013:u0020",
+        "canonical_text_character_start": 1988,
+        "canonical_text_character_end_exclusive": 2274,
+        "geometry_block_index": 6,
+        "bbox": [
+          73.5,
+          358.12,
+          538.48,
+          392.12
+        ],
+        "source_line_ids": [
+          "p020:l021",
+          "p020:l022",
+          "p020:l023"
+        ]
+      }
+    },
+    {
+      "id": "letter-2013-investing-p044",
+      "kind": "paragraph",
+      "source_unit_id": "berkshire-letter-2013:u0020",
+      "text_as_received": "During the next decade, you will read a lot of news – bad news – about public pension plans. I hope my\nmemo is helpful to you in understanding the necessity for prompt remedial action where problems exist.",
+      "reading_text": "During the next decade, you will read a lot of news – bad news – about public pension plans. I hope my memo is helpful to you in understanding the necessity for prompt remedial action where problems exist.",
+      "text_sha256": "865d29c315ec356cf828147b6d81f5c3176d107976d7418ce99a178c8e75e537",
+      "reading_text_sha256": "4abd9108264bda232e125f54f5bc179af3ae81a97cfb9d062876971eec91927d",
+      "canonical_speaker": "Warren Buffett",
+      "attribution_basis": "Letter byline; embedded quotations inside paragraphs retain their published introductions",
+      "whitespace_operation": "Whitespace collapsed for reading; all non-whitespace characters recovered unchanged from canonical extraction",
+      "reversible_encoding_repairs": [],
+      "locator": {
+        "physical_pdf_page": 20,
+        "printed_page": 21,
+        "canonical_unit_id": "berkshire-letter-2013:u0020",
+        "canonical_text_character_start": 2275,
+        "canonical_text_character_end_exclusive": 2480,
+        "geometry_block_index": 7,
+        "bbox": [
+          73.5,
+          406.12,
+          538.48,
+          428.12
+        ],
+        "source_line_ids": [
+          "p020:l024",
+          "p020:l025"
+        ]
+      }
+    }
+  ],
+  "source_worker_checks": {
+    "raw_sha256_matches": true,
+    "all_paragraph_nonwhitespace_matches_canonical": true,
+    "visual_pdf_pages_checked": [
+      17,
+      18,
+      19,
+      23
+    ],
+    "full_named_section_text_read": true,
+    "publisher_pdf_reopened_online": true,
+    "presentation_mapping_recommendations": [
+      {
+        "paragraph_ids": [
+          "letter-2013-investing-p012",
+          "letter-2013-investing-p013",
+          "letter-2013-investing-p014",
+          "letter-2013-investing-p015",
+          "letter-2013-investing-p016",
+          "letter-2013-investing-p017"
+        ],
+        "observed_original": "Five printed round bullet marks on physical page 17 and one on physical page 18.",
+        "extracted_prefix": "Š ",
+        "recommended_display_only_operation": "Render these six paragraphs as HTML list items, omitting the leading extraction glyph and its following space from displayed item text only.",
+        "verification": "All six marks visually checked against original PDF page images; no inference from surrounding wording.",
+        "preservation": "Keep text_as_received and reading_text unchanged in JSON; log this exact display mapping separately."
+      },
+      {
+        "paragraph_ids": [
+          "letter-2013-investing-p029"
+        ],
+        "original_extraction_sequence": "long-\nterm",
+        "reading_text_sequence": "long- term",
+        "recommended_display_only_operation": "For this identified line-wrap occurrence, display long-term by removing only the inserted line-wrap whitespace; retain the hyphen.",
+        "verification": "Physical page 19 shows long- at the right line ending followed by term on the next line.",
+        "preservation": "Keep stored text and numbers unchanged; log any display normalization separately."
+      }
+    ]
+  },
+  "review_status": "draft_source_worker_checked_pending_independent_review",
+  "eligible_as_answer_evidence": false
+}

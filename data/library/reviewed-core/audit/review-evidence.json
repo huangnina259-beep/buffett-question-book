@@ -1,0 +1,290 @@
+{
+  "schema_version": "independent-evidence-review-1.0",
+  "completed_at_utc": "2026-10-31T08:58:02.803370+00:00",
+  "reviewer": "next_milestone_check",
+  "implementation_owner": "root",
+  "independence": "Reviewer did not author this evidence set. This review excludes the reviewer-authored correction patches.",
+  "result": "pass_scoped_evidence_review",
+  "recommendation": "Twelve selected claims passed source-based semantic review for their stated historical scope. Root may record the scoped review; this report does not change eligibility automatically.",
+  "checked_inputs": {
+    "evidence_json": {
+      "path": "work/core_release/evidence/evidence.json",
+      "sha256": "f5d0431d5aadc91fee2a4512069d5f0583be59a2af91acc49d14faeb003826c0"
+    },
+    "producer_mechanical_check": {
+      "path": "work/core_release/evidence/mechanical-check.json",
+      "sha256": "3db23157eb4a68ac03c7a267c3b829967796b97a9ae784b0c2c53a7fda630056"
+    },
+    "generator": {
+      "path": "work/core_release/build_evidence.py",
+      "sha256": "801f5b237fe25160fbbcbe98dc1e28342025158cdaf5a60680664c6720c9b9da"
+    },
+    "contexts": [
+      {
+        "path": "work/core_release/evidence/contexts/letter-1989-mistakes.json",
+        "sha256": "9b60ecdae42870e45168412c8b4d1b259a82e1409f7562753ee47cd7a2de5ab1"
+      },
+      {
+        "path": "work/core_release/evidence/contexts/letter-1996-common-stocks.json",
+        "sha256": "7f4f2a7baca1f481624604c532a0deba91da2a255f6b75a390ca230e4670ba8f"
+      },
+      {
+        "path": "work/core_release/evidence/contexts/meeting-2002-index.json",
+        "sha256": "c3cc4157758986e45310a263634bbe7bb97ff54438fba52a5b2ccbf35bc7295a"
+      },
+      {
+        "path": "work/core_release/evidence/contexts/meeting-2010-integrity.json",
+        "sha256": "c87440c7d23d4172bf8862ec3b75eeb91d0b21bac43035033f84c3ebc1600d4a"
+      }
+    ]
+  },
+  "checked_scope": {
+    "claims": [
+      "E01",
+      "E02",
+      "E03",
+      "E04",
+      "E05",
+      "E06",
+      "E07",
+      "E08",
+      "E09",
+      "E10",
+      "E11",
+      "E12"
+    ],
+    "source_contexts": 4,
+    "context_paragraphs_preserved_and_read": 120,
+    "semantic_approval_applies_to_selected_claims_only": true,
+    "raw_sources_read": [
+      {
+        "source_id": "berkshire-letter-1989",
+        "raw_html_lines": [
+          1395,
+          1565
+        ],
+        "signature_line": 1749,
+        "signature_literal": "March 2, 1990"
+      },
+      {
+        "source_id": "berkshire-letter-1996",
+        "raw_html_lines": [
+          806,
+          1014
+        ],
+        "signature_line": 1322,
+        "signature_literal": "February 28, 1997"
+      },
+      {
+        "source_id": "cnbc-meeting-2002-morning",
+        "complete_chapter": 17,
+        "paragraph_count": 39,
+        "adjacent_chapters_openings_checked": [
+          16,
+          18
+        ],
+        "event_date": "2002-05-04",
+        "date_evidence": "Archived cnbc-event-2002.html description"
+      },
+      {
+        "source_id": "cnbc-meeting-2010-afternoon",
+        "complete_chapter": 17,
+        "paragraph_count": 36,
+        "adjacent_chapters_openings_checked": [
+          16,
+          18
+        ],
+        "event_date": "2010-05-01",
+        "date_evidence": "Archived cnbc-event-2010.html description"
+      }
+    ]
+  },
+  "method": "Read the archived raw letter HTML with line numbers and both complete raw CNBC chapters through an independent lxml DOM parse. Compared context hashes, paragraph source text, anchors, explicit speaker changes, and reversible encoding repairs. Read the generator without running it. Did not rely only on producer summaries or mechanical assertions.",
+  "claim_checks": [
+    {
+      "claim_id": "E01",
+      "result": "pass",
+      "finding": "Pass. Raw 1989 HTML lines 1404–1433 distinguish a quick sale/liquidation profit from disappointing continued ownership of a low-return business. The paraphrase and liquidation qualifier preserve that distinction.",
+      "required_fix": null,
+      "anchor_exact_match": true,
+      "attribution_supported_in_stated_textual_scope": true,
+      "qualifiers_preserved": true
+    },
+    {
+      "claim_id": "E02",
+      "result": "pass",
+      "finding": "Pass. Lines 1435–1468 combine the fair-price principle with first-class business/management preferences and the limitation of management in a poor business. The explicit price condition defeats an any-price interpretation.",
+      "required_fix": null,
+      "anchor_exact_match": true,
+      "attribution_supported_in_stated_textual_scope": true,
+      "qualifiers_preserved": true
+    },
+    {
+      "claim_id": "E03",
+      "result": "pass",
+      "finding": "Pass. Raw 1996 HTML lines 945–950 explicitly describe overpayment for outstanding businesses and an extended period for value to catch up. The 1996 report year, February 28, 1997 signature, and lack of a current valuation conclusion are preserved.",
+      "required_fix": null,
+      "anchor_exact_match": true,
+      "attribution_supported_in_stated_textual_scope": true,
+      "qualifiers_preserved": true
+    },
+    {
+      "claim_id": "E04",
+      "result": "pass",
+      "finding": "Pass. Lines 967–1000 separate the index-fund path for most investors from the conditional choice to select businesses within a circle of competence. The paraphrase does not turn the latter into a recommendation for everyone.",
+      "required_fix": null,
+      "anchor_exact_match": true,
+      "attribution_supported_in_stated_textual_scope": true,
+      "qualifiers_preserved": true
+    },
+    {
+      "claim_id": "E05",
+      "result": "pass",
+      "finding": "Pass. Raw 2002 chapter 17 paragraphs 6–14 and 21–23 support a broad low-cost index and purchases over a long period, with continuing saving and avoidance of a large one-time commitment explicit. No universal lump-sum rule or present recommendation is asserted.",
+      "required_fix": null,
+      "anchor_exact_match": true,
+      "attribution_supported_in_stated_textual_scope": true,
+      "qualifiers_preserved": true
+    },
+    {
+      "claim_id": "E06",
+      "result": "pass",
+      "finding": "Pass. Paragraphs 15–20 reject a single valuation metric or mechanical PE buy/sell threshold. This does not say price is irrelevant; the adjacent Munger exchange is retained.",
+      "required_fix": null,
+      "anchor_exact_match": true,
+      "attribution_supported_in_stated_textual_scope": true,
+      "qualifiers_preserved": true
+    },
+    {
+      "claim_id": "E07",
+      "result": "pass",
+      "finding": "Pass. Munger is explicitly labelled in paragraphs 25, 28 and 31; paragraphs 26 and 32 continue those turns. The high-price risk and Japan example remain his qualification and are not reassigned to Buffett or independently certified as historical fact.",
+      "required_fix": null,
+      "anchor_exact_match": true,
+      "attribution_supported_in_stated_textual_scope": true,
+      "qualifiers_preserved": true
+    },
+    {
+      "claim_id": "E08",
+      "result": "pass",
+      "finding": "Pass. Buffett is explicitly labelled in paragraphs 27, 29 and 33; paragraphs 30 and 34 continue those turns. His alternative-asset response is accurately paraphrased without making the hypothetical percentages a promise or cancelling Munger’s warning.",
+      "required_fix": null,
+      "anchor_exact_match": true,
+      "attribution_supported_in_stated_textual_scope": true,
+      "qualifiers_preserved": true
+    },
+    {
+      "claim_id": "E09",
+      "result": "pass",
+      "finding": "Pass. Raw 1989 lines 1457–1468 and 1519–1530 support both admired/trusted partners and the need for adequate business economics. The claim does not invent a test for honesty.",
+      "required_fix": null,
+      "anchor_exact_match": true,
+      "attribution_supported_in_stated_textual_scope": true,
+      "qualifiers_preserved": true
+    },
+    {
+      "claim_id": "E10",
+      "result": "pass",
+      "finding": "Pass. Raw 2010 chapter 17 paragraphs 5–10 are Munger’s explicitly introduced response; professed integrity versus possession is stated in paragraph 10. Embedded historical anecdote is not converted into a reviewed factual assertion.",
+      "required_fix": null,
+      "anchor_exact_match": true,
+      "attribution_supported_in_stated_textual_scope": true,
+      "qualifiers_preserved": true
+    },
+    {
+      "claim_id": "E11",
+      "result": "pass",
+      "finding": "Pass. Paragraphs 18–27 belong to Buffett’s turn explicitly begun at paragraph 13. Paragraph 24 directly allows operating budgets in subsidiaries while explaining why they are not submitted to him. The organizational-pressure paraphrase and limitation are accurate.",
+      "required_fix": null,
+      "anchor_exact_match": true,
+      "attribution_supported_in_stated_textual_scope": true,
+      "qualifiers_preserved": true
+    },
+    {
+      "claim_id": "E12",
+      "result": "pass",
+      "finding": "Pass. Paragraphs 29–36 explicitly begin Munger’s response. Decision makers bearing consequences and the mortgage-distribution counterexample are preserved as his interpretation, not an externally verified universal governance law.",
+      "required_fix": null,
+      "anchor_exact_match": true,
+      "attribution_supported_in_stated_textual_scope": true,
+      "qualifiers_preserved": true
+    }
+  ],
+  "relationship_checks": [
+    {
+      "relationship": "E03 qualifies E02",
+      "result": "pass",
+      "finding": "Explicit editorial thematic comparison; fair price and overpayment support the connection. No unsupported formal revision claim."
+    },
+    {
+      "relationship": "E07 qualifies E05",
+      "result": "pass",
+      "finding": "Same exchange supplies Munger’s qualification and Buffett’s response, with distinct speakers."
+    },
+    {
+      "relationship": "E11 qualifies E09",
+      "result": "pass",
+      "finding": "Editorial comparison across sources of personal qualities and organizational pressures; no causation or universal honesty test asserted."
+    }
+  ],
+  "misleading_inference_tests": [
+    {
+      "wrong_inference": "Quality justifies any price.",
+      "result": "rejected_by_evidence",
+      "evidence_ids": [
+        "E02",
+        "E03"
+      ],
+      "source_locations": [
+        "1989 HTML lines 1449–1455",
+        "1996 HTML lines 945–950"
+      ],
+      "reason": "The first passage specifies a fair price; the second explicitly warns of overpayment even for outstanding businesses."
+    },
+    {
+      "wrong_inference": "High valuation cannot cause poor index returns.",
+      "result": "rejected_by_evidence",
+      "evidence_ids": [
+        "E05",
+        "E07",
+        "E08"
+      ],
+      "source_locations": [
+        "2002 morning chapter 17 paragraphs 25–34"
+      ],
+      "reason": "Munger explicitly raises disappointing results at very high prices and a prolonged negative-return possibility. Buffett’s alternative-asset response does not remove that warning."
+    },
+    {
+      "wrong_inference": "Buffett said to abolish all subsidiary budgets.",
+      "result": "rejected_by_evidence",
+      "evidence_ids": [
+        "E11"
+      ],
+      "source_locations": [
+        "2010 afternoon chapter 17 paragraph 24"
+      ],
+      "reason": "Buffett says operating companies can use budgets and that many do; his example concerns managers submitting budgets to him."
+    }
+  ],
+  "links_and_integrity": {
+    "local_context_links_resolve": true,
+    "source_urls_match_raw_source_metadata": true,
+    "external_http_opening_tested_in_this_review": false,
+    "raw_hashes_match": true,
+    "all_twelve_exact_anchors_match": true,
+    "independent_mechanical_details": "work/core_release/review-evidence-mechanical.json",
+    "source_files_mutated": false,
+    "evidence_or_eligibility_mutated": false
+  },
+  "findings": [],
+  "required_fixes": [],
+  "remaining_limits": [
+    "Only the twelve selected claims have semantic review approval; reading the 120 retained context paragraphs does not certify every claim or numerical example in them.",
+    "The full letters, sessions, audio and precise timestamp synchronization were not audited.",
+    "Speaker attribution is to explicit labelled turns and their textual continuations, not audio authentication.",
+    "No current valuation, product fee, user suitability or present-day investment action was assessed.",
+    "No proof that these sources exhaust Buffett’s or Munger’s views on these themes.",
+    "Publication dates of the letters remain unknown; report years and actual signature dates are separate.",
+    "Translation remains paused and no Q&A answers were generated or reviewed."
+  ]
+}

@@ -1,0 +1,838 @@
+{
+  "schema_version": "qa-pilot-evidence-1",
+  "claims": [
+    {
+      "id": "E01",
+      "kind": "direct_paraphrase",
+      "statement_en": "A cheap purchase can disappoint over a long holding period when the business earns poor returns.",
+      "speaker": "Warren Buffett",
+      "context_id": "letter-1989-mistakes",
+      "source_id": "berkshire-letter-1989",
+      "paragraph_ids": [
+        "berkshire-letter-1989:u0158",
+        "berkshire-letter-1989:u0159",
+        "berkshire-letter-1989:u0160"
+      ],
+      "anchor": "Unless you are a liquidator",
+      "anchor_text_layer": "reading_text; reversible encoding repairs only for meetings",
+      "conditions_en": [
+        "The discussion contrasts liquidation or quick resale with continued ownership."
+      ],
+      "does_not_support_en": "Does not establish that every low-priced security is unattractive.",
+      "topics": [
+        "quality-price"
+      ],
+      "source_url": "https://www.berkshirehathaway.com/letters/1989.html",
+      "context_path": "../reviewed-core/contexts/letter-1989-mistakes.json",
+      "review_status": "independently_reviewed_historical_claim",
+      "eligible_as_answer_evidence": true,
+      "eligible_for_translation": false,
+      "attribution_note": "Letter author, subject to explicit embedded quotations.",
+      "review_record": "audit/review-evidence.json"
+    },
+    {
+      "id": "E02",
+      "kind": "direct_paraphrase",
+      "statement_en": "Buffett favors strong businesses and management at a fair price.",
+      "speaker": "Warren Buffett",
+      "context_id": "letter-1989-mistakes",
+      "source_id": "berkshire-letter-1989",
+      "paragraph_ids": [
+        "berkshire-letter-1989:u0161",
+        "berkshire-letter-1989:u0162",
+        "berkshire-letter-1989:u0163",
+        "berkshire-letter-1989:u0164"
+      ],
+      "anchor": "wonderful company at a fair",
+      "anchor_text_layer": "reading_text; reversible encoding repairs only for meetings",
+      "conditions_en": [
+        "His examples distinguish management ability from underlying business economics."
+      ],
+      "does_not_support_en": "Does not justify paying any price for quality.",
+      "topics": [
+        "quality-price"
+      ],
+      "source_url": "https://www.berkshirehathaway.com/letters/1989.html",
+      "context_path": "../reviewed-core/contexts/letter-1989-mistakes.json",
+      "review_status": "independently_reviewed_historical_claim",
+      "eligible_as_answer_evidence": true,
+      "eligible_for_translation": false,
+      "attribution_note": "Letter author, subject to explicit embedded quotations.",
+      "review_record": "audit/review-evidence.json"
+    },
+    {
+      "id": "E03",
+      "kind": "direct_paraphrase",
+      "statement_en": "Even an outstanding business can be bought too dearly, leaving its value a long time to catch up with the purchase price.",
+      "speaker": "Warren Buffett",
+      "context_id": "letter-1996-common-stocks",
+      "source_id": "berkshire-letter-1996",
+      "paragraph_ids": [
+        "berkshire-letter-1996:u0109",
+        "berkshire-letter-1996:u0110",
+        "berkshire-letter-1996:u0111"
+      ],
+      "anchor": "pay too much",
+      "anchor_text_layer": "reading_text; reversible encoding repairs only for meetings",
+      "conditions_en": [
+        "The market assessment belongs to the 1996 letter signed in 1997."
+      ],
+      "does_not_support_en": "Does not assess today’s valuations or supply a purchase threshold.",
+      "topics": [
+        "quality-price"
+      ],
+      "source_url": "https://www.berkshirehathaway.com/letters/1996.html",
+      "context_path": "../reviewed-core/contexts/letter-1996-common-stocks.json",
+      "review_status": "independently_reviewed_historical_claim",
+      "eligible_as_answer_evidence": true,
+      "eligible_for_translation": false,
+      "attribution_note": "Letter author, subject to explicit embedded quotations.",
+      "review_record": "audit/review-evidence.json"
+    },
+    {
+      "id": "E04",
+      "kind": "direct_paraphrase",
+      "statement_en": "For investors choosing individual stocks, Buffett emphasizes evaluating selected businesses and knowing the limits of their competence.",
+      "speaker": "Warren Buffett",
+      "context_id": "letter-1996-common-stocks",
+      "source_id": "berkshire-letter-1996",
+      "paragraph_ids": [
+        "berkshire-letter-1996:u0113",
+        "berkshire-letter-1996:u0114",
+        "berkshire-letter-1996:u0115",
+        "berkshire-letter-1996:u0116"
+      ],
+      "anchor": "knowing its boundaries",
+      "anchor_text_layer": "reading_text; reversible encoding repairs only for meetings",
+      "conditions_en": [
+        "This follows a separate low-cost index-fund recommendation for most investors."
+      ],
+      "does_not_support_en": "Does not imply everyone should construct a concentrated stock portfolio.",
+      "topics": [
+        "quality-price",
+        "index-valuation"
+      ],
+      "source_url": "https://www.berkshirehathaway.com/letters/1996.html",
+      "context_path": "../reviewed-core/contexts/letter-1996-common-stocks.json",
+      "review_status": "independently_reviewed_historical_claim",
+      "eligible_as_answer_evidence": true,
+      "eligible_for_translation": false,
+      "attribution_note": "Letter author, subject to explicit embedded quotations.",
+      "review_record": "audit/review-evidence.json"
+    },
+    {
+      "id": "E05",
+      "kind": "direct_paraphrase",
+      "statement_en": "Buffett describes broad, low-cost indexing through purchases spread over a long period for investors who cannot reliably select stocks or market timing.",
+      "speaker": "Warren Buffett",
+      "context_id": "meeting-2002-index",
+      "source_id": "cnbc-meeting-2002-morning",
+      "paragraph_ids": [
+        "cnbc-meeting-2002-morning-ch17-p006",
+        "cnbc-meeting-2002-morning-ch17-p007",
+        "cnbc-meeting-2002-morning-ch17-p008",
+        "cnbc-meeting-2002-morning-ch17-p009",
+        "cnbc-meeting-2002-morning-ch17-p010",
+        "cnbc-meeting-2002-morning-ch17-p011",
+        "cnbc-meeting-2002-morning-ch17-p012",
+        "cnbc-meeting-2002-morning-ch17-p013",
+        "cnbc-meeting-2002-morning-ch17-p014",
+        "cnbc-meeting-2002-morning-ch17-p021",
+        "cnbc-meeting-2002-morning-ch17-p022",
+        "cnbc-meeting-2002-morning-ch17-p023"
+      ],
+      "anchor": "over a 20 or 30-year period",
+      "anchor_text_layer": "reading_text; reversible encoding repairs only for meetings",
+      "conditions_en": [
+        "He discusses continuing saving and avoids committing a large amount at one moment."
+      ],
+      "does_not_support_en": "Does not resolve every lump-sum, short-horizon or present-market decision.",
+      "topics": [
+        "index-valuation"
+      ],
+      "source_url": "https://buffett.cnbc.com/video/2002/05/04/morning-session---2002-berkshire-hathaway-annual-meeting.html",
+      "context_path": "../reviewed-core/contexts/meeting-2002-index.json",
+      "review_status": "independently_reviewed_historical_claim",
+      "eligible_as_answer_evidence": true,
+      "eligible_for_translation": false,
+      "attribution_note": "Speaker attribution checked within explicit publisher-labelled turns in the complete chapter; continuation paragraphs remain derived attribution, not audio authentication.",
+      "review_record": "audit/review-evidence.json"
+    },
+    {
+      "id": "E06",
+      "kind": "direct_paraphrase",
+      "statement_en": "Buffett rejects a single valuation ratio as a sufficient rule for deciding when to buy or sell stocks.",
+      "speaker": "Warren Buffett",
+      "context_id": "meeting-2002-index",
+      "source_id": "cnbc-meeting-2002-morning",
+      "paragraph_ids": [
+        "cnbc-meeting-2002-morning-ch17-p015",
+        "cnbc-meeting-2002-morning-ch17-p016",
+        "cnbc-meeting-2002-morning-ch17-p017",
+        "cnbc-meeting-2002-morning-ch17-p018",
+        "cnbc-meeting-2002-morning-ch17-p019",
+        "cnbc-meeting-2002-morning-ch17-p020"
+      ],
+      "anchor": "there’s no single metric",
+      "anchor_text_layer": "reading_text; reversible encoding repairs only for meetings",
+      "conditions_en": [
+        "He connects this uncertainty to diversified investing over time."
+      ],
+      "does_not_support_en": "Does not say that price is irrelevant.",
+      "topics": [
+        "index-valuation"
+      ],
+      "source_url": "https://buffett.cnbc.com/video/2002/05/04/morning-session---2002-berkshire-hathaway-annual-meeting.html",
+      "context_path": "../reviewed-core/contexts/meeting-2002-index.json",
+      "review_status": "independently_reviewed_historical_claim",
+      "eligible_as_answer_evidence": true,
+      "eligible_for_translation": false,
+      "attribution_note": "Speaker attribution checked within explicit publisher-labelled turns in the complete chapter; continuation paragraphs remain derived attribution, not audio authentication.",
+      "review_record": "audit/review-evidence.json"
+    },
+    {
+      "id": "E07",
+      "kind": "direct_paraphrase",
+      "statement_en": "Munger warns that very high prices can mean poor index returns for a long time, citing Japan as a possibility to consider.",
+      "speaker": "Charlie Munger",
+      "context_id": "meeting-2002-index",
+      "source_id": "cnbc-meeting-2002-morning",
+      "paragraph_ids": [
+        "cnbc-meeting-2002-morning-ch17-p025",
+        "cnbc-meeting-2002-morning-ch17-p026",
+        "cnbc-meeting-2002-morning-ch17-p028",
+        "cnbc-meeting-2002-morning-ch17-p031",
+        "cnbc-meeting-2002-morning-ch17-p032"
+      ],
+      "anchor": "stay there for a long time",
+      "anchor_text_layer": "reading_text; reversible encoding repairs only for meetings",
+      "conditions_en": [
+        "This is Munger’s qualification within the joint exchange."
+      ],
+      "does_not_support_en": "Does not establish a current forecast or a Buffett buy/sell threshold.",
+      "topics": [
+        "index-valuation"
+      ],
+      "source_url": "https://buffett.cnbc.com/video/2002/05/04/morning-session---2002-berkshire-hathaway-annual-meeting.html",
+      "context_path": "../reviewed-core/contexts/meeting-2002-index.json",
+      "review_status": "independently_reviewed_historical_claim",
+      "eligible_as_answer_evidence": true,
+      "eligible_for_translation": false,
+      "attribution_note": "Speaker attribution checked within explicit publisher-labelled turns in the complete chapter; continuation paragraphs remain derived attribution, not audio authentication.",
+      "review_record": "audit/review-evidence.json"
+    },
+    {
+      "id": "E08",
+      "kind": "direct_paraphrase",
+      "statement_en": "Buffett responds by asking what alternatives are available when returns across assets are low.",
+      "speaker": "Warren Buffett",
+      "context_id": "meeting-2002-index",
+      "source_id": "cnbc-meeting-2002-morning",
+      "paragraph_ids": [
+        "cnbc-meeting-2002-morning-ch17-p027",
+        "cnbc-meeting-2002-morning-ch17-p029",
+        "cnbc-meeting-2002-morning-ch17-p030",
+        "cnbc-meeting-2002-morning-ch17-p033",
+        "cnbc-meeting-2002-morning-ch17-p034"
+      ],
+      "anchor": "if rates on everything get very low",
+      "anchor_text_layer": "reading_text; reversible encoding repairs only for meetings",
+      "conditions_en": [
+        "Preserve Munger’s warning alongside this response."
+      ],
+      "does_not_support_en": "The hypothetical percentages are not a promised return or today’s asset allocation.",
+      "topics": [
+        "index-valuation"
+      ],
+      "source_url": "https://buffett.cnbc.com/video/2002/05/04/morning-session---2002-berkshire-hathaway-annual-meeting.html",
+      "context_path": "../reviewed-core/contexts/meeting-2002-index.json",
+      "review_status": "independently_reviewed_historical_claim",
+      "eligible_as_answer_evidence": true,
+      "eligible_for_translation": false,
+      "attribution_note": "Speaker attribution checked within explicit publisher-labelled turns in the complete chapter; continuation paragraphs remain derived attribution, not audio authentication.",
+      "review_record": "audit/review-evidence.json"
+    },
+    {
+      "id": "E09",
+      "kind": "direct_paraphrase",
+      "statement_en": "Buffett prefers partners he likes, trusts and admires, while warning that good people alone cannot rescue poor business economics.",
+      "speaker": "Warren Buffett",
+      "context_id": "letter-1989-mistakes",
+      "source_id": "berkshire-letter-1989",
+      "paragraph_ids": [
+        "berkshire-letter-1989:u0163",
+        "berkshire-letter-1989:u0164",
+        "berkshire-letter-1989:u0167",
+        "berkshire-letter-1989:u0168",
+        "berkshire-letter-1989:u0169",
+        "berkshire-letter-1989:u0170"
+      ],
+      "anchor": "will not ensure success",
+      "anchor_text_layer": "reading_text; reversible encoding repairs only for meetings",
+      "conditions_en": [
+        "Both partner qualities and business characteristics matter in this discussion."
+      ],
+      "does_not_support_en": "Does not provide a foolproof test of a person’s honesty.",
+      "topics": [
+        "integrity"
+      ],
+      "source_url": "https://www.berkshirehathaway.com/letters/1989.html",
+      "context_path": "../reviewed-core/contexts/letter-1989-mistakes.json",
+      "review_status": "independently_reviewed_historical_claim",
+      "eligible_as_answer_evidence": true,
+      "eligible_for_translation": false,
+      "attribution_note": "Letter author, subject to explicit embedded quotations.",
+      "review_record": "audit/review-evidence.json"
+    },
+    {
+      "id": "E10",
+      "kind": "direct_paraphrase",
+      "statement_en": "Munger distinguishes declarations of integrity from actually possessing it.",
+      "speaker": "Charlie Munger",
+      "context_id": "meeting-2010-integrity",
+      "source_id": "cnbc-meeting-2010-afternoon",
+      "paragraph_ids": [
+        "cnbc-meeting-2010-afternoon-ch17-p005",
+        "cnbc-meeting-2010-afternoon-ch17-p006",
+        "cnbc-meeting-2010-afternoon-ch17-p007",
+        "cnbc-meeting-2010-afternoon-ch17-p008",
+        "cnbc-meeting-2010-afternoon-ch17-p009",
+        "cnbc-meeting-2010-afternoon-ch17-p010"
+      ],
+      "anchor": "professing integrity",
+      "anchor_text_layer": "reading_text; reversible encoding repairs only for meetings",
+      "conditions_en": [
+        "His answer concerns management behavior around the financial crisis."
+      ],
+      "does_not_support_en": "Does not authorize attributing this wording to Buffett.",
+      "topics": [
+        "integrity"
+      ],
+      "source_url": "https://buffett.cnbc.com/video/2010/05/01/afternoon-session---2010-berkshire-hathaway-annual-meeting.html",
+      "context_path": "../reviewed-core/contexts/meeting-2010-integrity.json",
+      "review_status": "independently_reviewed_historical_claim",
+      "eligible_as_answer_evidence": true,
+      "eligible_for_translation": false,
+      "attribution_note": "Speaker attribution checked within explicit publisher-labelled turns in the complete chapter; continuation paragraphs remain derived attribution, not audio authentication.",
+      "review_record": "audit/review-evidence.json"
+    },
+    {
+      "id": "E11",
+      "kind": "direct_paraphrase",
+      "statement_en": "Buffett describes reducing organizational pressures that can tempt managers to manipulate reported results.",
+      "speaker": "Warren Buffett",
+      "context_id": "meeting-2010-integrity",
+      "source_id": "cnbc-meeting-2010-afternoon",
+      "paragraph_ids": [
+        "cnbc-meeting-2010-afternoon-ch17-p018",
+        "cnbc-meeting-2010-afternoon-ch17-p019",
+        "cnbc-meeting-2010-afternoon-ch17-p020",
+        "cnbc-meeting-2010-afternoon-ch17-p021",
+        "cnbc-meeting-2010-afternoon-ch17-p022",
+        "cnbc-meeting-2010-afternoon-ch17-p023",
+        "cnbc-meeting-2010-afternoon-ch17-p024",
+        "cnbc-meeting-2010-afternoon-ch17-p025",
+        "cnbc-meeting-2010-afternoon-ch17-p026",
+        "cnbc-meeting-2010-afternoon-ch17-p027"
+      ],
+      "anchor": "minimizes the weaknesses",
+      "anchor_text_layer": "reading_text; reversible encoding repairs only for meetings",
+      "conditions_en": [
+        "Subsidiaries may use budgets; his example concerns budgets submitted to Berkshire headquarters."
+      ],
+      "does_not_support_en": "Does not recommend abolishing budgets everywhere.",
+      "topics": [
+        "integrity"
+      ],
+      "source_url": "https://buffett.cnbc.com/video/2010/05/01/afternoon-session---2010-berkshire-hathaway-annual-meeting.html",
+      "context_path": "../reviewed-core/contexts/meeting-2010-integrity.json",
+      "review_status": "independently_reviewed_historical_claim",
+      "eligible_as_answer_evidence": true,
+      "eligible_for_translation": false,
+      "attribution_note": "Speaker attribution checked within explicit publisher-labelled turns in the complete chapter; continuation paragraphs remain derived attribution, not audio authentication.",
+      "review_record": "audit/review-evidence.json"
+    },
+    {
+      "id": "E12",
+      "kind": "direct_paraphrase",
+      "statement_en": "Munger argues that decision makers should bear consequences, using mortgage distribution as a counterexample.",
+      "speaker": "Charlie Munger",
+      "context_id": "meeting-2010-integrity",
+      "source_id": "cnbc-meeting-2010-afternoon",
+      "paragraph_ids": [
+        "cnbc-meeting-2010-afternoon-ch17-p029",
+        "cnbc-meeting-2010-afternoon-ch17-p030",
+        "cnbc-meeting-2010-afternoon-ch17-p031",
+        "cnbc-meeting-2010-afternoon-ch17-p032",
+        "cnbc-meeting-2010-afternoon-ch17-p033",
+        "cnbc-meeting-2010-afternoon-ch17-p034",
+        "cnbc-meeting-2010-afternoon-ch17-p035",
+        "cnbc-meeting-2010-afternoon-ch17-p036"
+      ],
+      "anchor": "bear the consequences",
+      "anchor_text_layer": "reading_text; reversible encoding repairs only for meetings",
+      "conditions_en": [
+        "This is Munger’s interpretation of incentives and responsibility."
+      ],
+      "does_not_support_en": "Does not prove every historical claim or offer a universal governance formula.",
+      "topics": [
+        "integrity"
+      ],
+      "source_url": "https://buffett.cnbc.com/video/2010/05/01/afternoon-session---2010-berkshire-hathaway-annual-meeting.html",
+      "context_path": "../reviewed-core/contexts/meeting-2010-integrity.json",
+      "review_status": "independently_reviewed_historical_claim",
+      "eligible_as_answer_evidence": true,
+      "eligible_for_translation": false,
+      "attribution_note": "Speaker attribution checked within explicit publisher-labelled turns in the complete chapter; continuation paragraphs remain derived attribution, not audio authentication.",
+      "review_record": "audit/review-evidence.json"
+    },
+    {
+      "id": "IX01",
+      "kind": "direct_paraphrase",
+      "statement_en": "For their individual stock purchases, Buffett and Munger first assess whether they can sensibly estimate an earnings range at least five years ahead, require a reasonable price relative to its lower bound, and pass when they cannot estimate earnings.",
+      "speaker": "Warren Buffett",
+      "context_id": "letter-2013-investing",
+      "source_id": "berkshire-letter-2013",
+      "source_url": "https://www.berkshirehathaway.com/letters/2013ltr.pdf",
+      "source_raw_path": "letters/raw/berkshire-letter-2013.pdf",
+      "source_raw_sha256": "ad24565997a09a1f7ef752da875161a24e025329510f3489afd912ff1e2673f5",
+      "context_path": "sources/letter-2013-investing.json",
+      "context_sha256": "2b827efb7035f62864c479d6788546dc2cb70454a3c815e63d91c57ca125bcee",
+      "paragraph_ids": [
+        "letter-2013-investing-p025",
+        "letter-2013-investing-p026"
+      ],
+      "locators": [
+        {
+          "physical_pdf_page": 18,
+          "printed_page": 19,
+          "canonical_unit_id": "berkshire-letter-2013:u0018",
+          "canonical_text_character_start": 3083,
+          "canonical_text_character_end_exclusive": 3848,
+          "geometry_block_index": 8,
+          "bbox": [
+            73.5,
+            526.12,
+            538.49,
+            608.12
+          ],
+          "source_line_ids": [
+            "p018:l033",
+            "p018:l034",
+            "p018:l035",
+            "p018:l036",
+            "p018:l037",
+            "p018:l038",
+            "p018:l039"
+          ]
+        },
+        {
+          "physical_pdf_page": 18,
+          "printed_page": 19,
+          "canonical_unit_id": "berkshire-letter-2013:u0018",
+          "canonical_text_character_start": 3849,
+          "canonical_text_character_end_exclusive": 4220,
+          "geometry_block_index": 9,
+          "bbox": [
+            73.5,
+            622.12,
+            538.49,
+            668.12
+          ],
+          "source_line_ids": [
+            "p018:l040",
+            "p018:l041",
+            "p018:l042",
+            "p018:l043"
+          ]
+        }
+      ],
+      "anchor": "we simply move on",
+      "anchor_text_layer": "reading_text; whitespace-only derivation for letter, existing reversible encoding repairs for meeting",
+      "dates": {
+        "report_year": 2013,
+        "signed_date": "2014-02-28",
+        "event_date": null
+      },
+      "conditions_en": [
+        "Describes Buffett and Munger’s process for selected businesses, not a claim that ordinary investors can forecast every business.",
+        "Knowing the limits of competence remains necessary; Buffett explicitly acknowledges mistakes even within them."
+      ],
+      "does_not_support_en": "Does not provide a mechanical valuation formula, guarantee forecast accuracy or authorize buying a stock on the basis of a checklist alone.",
+      "topics": [
+        "individual-stock-competence",
+        "quality-price"
+      ],
+      "review_status": "independently_reviewed_for_pilot",
+      "eligible_as_answer_evidence": true,
+      "eligible_for_translation": false,
+      "mechanical_checks": {
+        "source_raw_sha256_checked": true,
+        "anchor_present": true,
+        "paragraph_ids_resolve": true
+      }
+    },
+    {
+      "id": "IX02",
+      "kind": "direct_paraphrase",
+      "statement_en": "For non-professionals, Buffett advocates a low-cost S&P 500 fund and addresses exuberance-driven entry followed by disillusionment: his stated remedy is accumulation over a long period, low costs and avoiding sales driven by bad news after price declines.",
+      "speaker": "Warren Buffett",
+      "context_id": "letter-2013-investing",
+      "source_id": "berkshire-letter-2013",
+      "source_url": "https://www.berkshirehathaway.com/letters/2013ltr.pdf",
+      "source_raw_path": "letters/raw/berkshire-letter-2013.pdf",
+      "source_raw_sha256": "ad24565997a09a1f7ef752da875161a24e025329510f3489afd912ff1e2673f5",
+      "context_path": "sources/letter-2013-investing.json",
+      "context_sha256": "2b827efb7035f62864c479d6788546dc2cb70454a3c815e63d91c57ca125bcee",
+      "paragraph_ids": [
+        "letter-2013-investing-p027",
+        "letter-2013-investing-p028",
+        "letter-2013-investing-p029"
+      ],
+      "locators": [
+        {
+          "physical_pdf_page": 19,
+          "printed_page": 20,
+          "canonical_unit_id": "berkshire-letter-2013:u0019",
+          "canonical_text_character_start": 0,
+          "canonical_text_character_end_exclusive": 221,
+          "geometry_block_index": 0,
+          "bbox": [
+            73.5,
+            46.12,
+            538.48,
+            68.12
+          ],
+          "source_line_ids": [
+            "p019:l001",
+            "p019:l002"
+          ]
+        },
+        {
+          "physical_pdf_page": 19,
+          "printed_page": 20,
+          "canonical_unit_id": "berkshire-letter-2013:u0019",
+          "canonical_text_character_start": 222,
+          "canonical_text_character_end_exclusive": 930,
+          "geometry_block_index": 1,
+          "bbox": [
+            73.5,
+            82.12,
+            538.5,
+            164.12
+          ],
+          "source_line_ids": [
+            "p019:l003",
+            "p019:l004",
+            "p019:l005",
+            "p019:l006",
+            "p019:l007",
+            "p019:l008",
+            "p019:l009"
+          ]
+        },
+        {
+          "physical_pdf_page": 19,
+          "printed_page": 20,
+          "canonical_unit_id": "berkshire-letter-2013:u0019",
+          "canonical_text_character_start": 931,
+          "canonical_text_character_end_exclusive": 1816,
+          "geometry_block_index": 2,
+          "bbox": [
+            73.5,
+            178.12,
+            538.49,
+            272.12
+          ],
+          "source_line_ids": [
+            "p019:l010",
+            "p019:l011",
+            "p019:l012",
+            "p019:l013",
+            "p019:l014",
+            "p019:l015",
+            "p019:l016",
+            "p019:l017"
+          ]
+        }
+      ],
+      "anchor": "extreme exuberance",
+      "anchor_text_layer": "reading_text; whitespace-only derivation for letter, existing reversible encoding repairs for meeting",
+      "dates": {
+        "report_year": 2013,
+        "signed_date": "2014-02-28",
+        "event_date": null
+      },
+      "conditions_en": [
+        "The audience is non-professional investors who do not reliably predict individual business earnings.",
+        "The original passage expresses strong confidence about long-term American business; it also describes progress as uneven.",
+        "It is historical guidance about long-term accumulation and behavior, not a present valuation assessment."
+      ],
+      "does_not_support_en": "Does not establish a current buying threshold, a short-horizon return guarantee, or that every immediate lump-sum purchase is suitable.",
+      "topics": [
+        "index-valuation"
+      ],
+      "review_status": "independently_reviewed_for_pilot",
+      "eligible_as_answer_evidence": true,
+      "eligible_for_translation": false,
+      "mechanical_checks": {
+        "source_raw_sha256_checked": true,
+        "anchor_present": true,
+        "paragraph_ids_resolve": true
+      }
+    },
+    {
+      "id": "IX03",
+      "kind": "direct_paraphrase",
+      "statement_en": "Buffett’s stated will instructions allocate the cash bequest held by a trustee for his wife to 10% short-term government bonds and 90% in a very low-cost S&P 500 index fund.",
+      "speaker": "Warren Buffett",
+      "context_id": "letter-2013-investing",
+      "source_id": "berkshire-letter-2013",
+      "source_url": "https://www.berkshirehathaway.com/letters/2013ltr.pdf",
+      "source_raw_path": "letters/raw/berkshire-letter-2013.pdf",
+      "source_raw_sha256": "ad24565997a09a1f7ef752da875161a24e025329510f3489afd912ff1e2673f5",
+      "context_path": "sources/letter-2013-investing.json",
+      "context_sha256": "2b827efb7035f62864c479d6788546dc2cb70454a3c815e63d91c57ca125bcee",
+      "paragraph_ids": [
+        "letter-2013-investing-p032"
+      ],
+      "locators": [
+        {
+          "physical_pdf_page": 19,
+          "printed_page": 20,
+          "canonical_unit_id": "berkshire-letter-2013:u0019",
+          "canonical_text_character_start": 2503,
+          "canonical_text_character_end_exclusive": 3296,
+          "geometry_block_index": 5,
+          "bbox": [
+            73.5,
+            406.12,
+            538.5,
+            500.12
+          ],
+          "source_line_ids": [
+            "p019:l026",
+            "p019:l027",
+            "p019:l028",
+            "p019:l029",
+            "p019:l030",
+            "p019:l031",
+            "p019:l032",
+            "p019:l033"
+          ]
+        }
+      ],
+      "anchor": "for my wife’s benefit",
+      "anchor_text_layer": "reading_text; whitespace-only derivation for letter, existing reversible encoding repairs for meeting",
+      "dates": {
+        "report_year": 2013,
+        "signed_date": "2014-02-28",
+        "event_date": null
+      },
+      "conditions_en": [
+        "These percentages apply to the specified cash bequest for his wife, while Berkshire shares are discussed separately as philanthropic assets.",
+        "His performance comparison concerns his expectation for long-term results against investors using high-fee managers."
+      ],
+      "does_not_support_en": "Does not prescribe an appropriate stock/bond allocation for every household or specify the needs and constraints of the current reader.",
+      "topics": [
+        "90-10-allocation"
+      ],
+      "review_status": "independently_reviewed_for_pilot",
+      "eligible_as_answer_evidence": true,
+      "eligible_for_translation": false,
+      "mechanical_checks": {
+        "source_raw_sha256_checked": true,
+        "anchor_present": true,
+        "paragraph_ids_resolve": true
+      }
+    },
+    {
+      "id": "IX04",
+      "kind": "direct_paraphrase",
+      "statement_en": "In the 2021 follow-up, Buffett explains that the wife’s bequest is far below 1% of his estate yet more than sufficient for her livelihood, and distinguishes it from the much larger philanthropic disposition that he is comfortable keeping in Berkshire.",
+      "speaker": "Warren Buffett",
+      "context_id": "meeting-2021-index-estate",
+      "source_id": "cnbc-meeting-2021-part-1",
+      "source_url": "https://buffett.cnbc.com/video/2021/05/03/part-1---2019-berkshire-hathaway-annual-meeting.html",
+      "source_raw_path": "meetings/raw/cnbc-meeting-2021-part-1.html",
+      "source_raw_sha256": "a795e9b13faee23362223d3e98cdc5cdba8735c523e26e101959ef43990a9d27",
+      "context_path": "sources/meeting-2021-index-estate.json",
+      "context_sha256": "3a527ad264cb35626f387d17b01da554d68c484dc0cdbf8006926179778a9a20",
+      "paragraph_ids": [
+        "cnbc-meeting-2021-part-1-ch12-p013",
+        "cnbc-meeting-2021-part-1-ch12-p014",
+        "cnbc-meeting-2021-part-1-ch13-p001",
+        "cnbc-meeting-2021-part-1-ch13-p002",
+        "cnbc-meeting-2021-part-1-ch13-p005",
+        "cnbc-meeting-2021-part-1-ch13-p006",
+        "cnbc-meeting-2021-part-1-ch13-p010",
+        "cnbc-meeting-2021-part-1-ch13-p011"
+      ],
+      "locators": [
+        {
+          "chapter_number": 12,
+          "paragraph_index": 13,
+          "selector": "div.Chapter-chapter p[data-speaker]"
+        },
+        {
+          "chapter_number": 12,
+          "paragraph_index": 14,
+          "selector": "div.Chapter-chapter p[data-speaker]"
+        },
+        {
+          "chapter_number": 13,
+          "paragraph_index": 1,
+          "selector": "div.Chapter-chapter p[data-speaker]"
+        },
+        {
+          "chapter_number": 13,
+          "paragraph_index": 2,
+          "selector": "div.Chapter-chapter p[data-speaker]"
+        },
+        {
+          "chapter_number": 13,
+          "paragraph_index": 5,
+          "selector": "div.Chapter-chapter p[data-speaker]"
+        },
+        {
+          "chapter_number": 13,
+          "paragraph_index": 6,
+          "selector": "div.Chapter-chapter p[data-speaker]"
+        },
+        {
+          "chapter_number": 13,
+          "paragraph_index": 10,
+          "selector": "div.Chapter-chapter p[data-speaker]"
+        },
+        {
+          "chapter_number": 13,
+          "paragraph_index": 11,
+          "selector": "div.Chapter-chapter p[data-speaker]"
+        }
+      ],
+      "anchor": "way less than one percent",
+      "anchor_text_layer": "reading_text; whitespace-only derivation for letter, existing reversible encoding repairs for meeting",
+      "dates": {
+        "report_year": null,
+        "signed_date": null,
+        "event_date": "2021-05-01"
+      },
+      "conditions_en": [
+        "This is Buffett’s explanation of his own estate plan and his wife’s circumstances at the 2021 meeting.",
+        "The discussion contains conditional legal and future-disposition language; it does not independently establish the eventual executed estate."
+      ],
+      "does_not_support_en": "Does not support copying 90/10 as a universal retirement allocation or treating the wife’s portfolio as representative of his entire estate.",
+      "topics": [
+        "90-10-allocation"
+      ],
+      "review_status": "independently_reviewed_for_pilot",
+      "eligible_as_answer_evidence": true,
+      "eligible_for_translation": false,
+      "mechanical_checks": {
+        "source_raw_sha256_checked": true,
+        "anchor_present": true,
+        "paragraph_ids_resolve": true
+      }
+    },
+    {
+      "id": "IX05",
+      "kind": "direct_paraphrase",
+      "statement_en": "Buffett distinguishes his own preference for Berkshire from his S&P 500 recommendation for a person lacking stock knowledge and a special attachment to Berkshire.",
+      "speaker": "Warren Buffett",
+      "context_id": "meeting-2021-index-estate",
+      "source_id": "cnbc-meeting-2021-part-1",
+      "source_url": "https://buffett.cnbc.com/video/2021/05/03/part-1---2019-berkshire-hathaway-annual-meeting.html",
+      "source_raw_path": "meetings/raw/cnbc-meeting-2021-part-1.html",
+      "source_raw_sha256": "a795e9b13faee23362223d3e98cdc5cdba8735c523e26e101959ef43990a9d27",
+      "context_path": "sources/meeting-2021-index-estate.json",
+      "context_sha256": "3a527ad264cb35626f387d17b01da554d68c484dc0cdbf8006926179778a9a20",
+      "paragraph_ids": [
+        "cnbc-meeting-2021-part-1-ch12-p011",
+        "cnbc-meeting-2021-part-1-ch12-p012",
+        "cnbc-meeting-2021-part-1-ch12-p016",
+        "cnbc-meeting-2021-part-1-ch12-p017",
+        "cnbc-meeting-2021-part-1-ch12-p018",
+        "cnbc-meeting-2021-part-1-ch12-p019"
+      ],
+      "locators": [
+        {
+          "chapter_number": 12,
+          "paragraph_index": 11,
+          "selector": "div.Chapter-chapter p[data-speaker]"
+        },
+        {
+          "chapter_number": 12,
+          "paragraph_index": 12,
+          "selector": "div.Chapter-chapter p[data-speaker]"
+        },
+        {
+          "chapter_number": 12,
+          "paragraph_index": 16,
+          "selector": "div.Chapter-chapter p[data-speaker]"
+        },
+        {
+          "chapter_number": 12,
+          "paragraph_index": 17,
+          "selector": "div.Chapter-chapter p[data-speaker]"
+        },
+        {
+          "chapter_number": 12,
+          "paragraph_index": 18,
+          "selector": "div.Chapter-chapter p[data-speaker]"
+        },
+        {
+          "chapter_number": 12,
+          "paragraph_index": 19,
+          "selector": "div.Chapter-chapter p[data-speaker]"
+        }
+      ],
+      "anchor": "doesn't know anything",
+      "anchor_text_layer": "reading_text; whitespace-only derivation for letter, existing reversible encoding repairs for meeting",
+      "dates": {
+        "report_year": null,
+        "signed_date": null,
+        "event_date": "2021-05-01"
+      },
+      "conditions_en": [
+        "Munger separately states a personal preference for Berkshire in the same complete chapter. That is not Buffett’s claim or a joint recommendation."
+      ],
+      "does_not_support_en": "Does not predict which investment will outperform from today or establish that individual-stock competence follows from trusting a famous manager.",
+      "topics": [
+        "individual-stock-competence",
+        "index-valuation"
+      ],
+      "review_status": "independently_reviewed_for_pilot",
+      "eligible_as_answer_evidence": true,
+      "eligible_for_translation": false,
+      "mechanical_checks": {
+        "source_raw_sha256_checked": true,
+        "anchor_present": true,
+        "paragraph_ids_resolve": true
+      }
+    },
+    {
+      "id": "QC01",
+      "kind": "questioner_premise",
+      "statement_en": "The audience member asks what purchasing benchmark to use while stating that the S&P 500 price-to-earnings ratio is above its historical average.",
+      "speaker": "Audience member",
+      "context_id": "meeting-2002-index",
+      "source_id": "cnbc-meeting-2002-morning",
+      "source_url": "https://buffett.cnbc.com/video/2002/05/04/morning-session---2002-berkshire-hathaway-annual-meeting.html",
+      "source_raw_path": "meetings/raw/cnbc-meeting-2002-morning.html",
+      "source_raw_sha256": "387f34918b716dbe5dc2fe72b6abe22d94063f1012b93b6ae93f7f4566cfdcc7",
+      "context_path": "../reviewed-core/contexts/meeting-2002-index.json",
+      "paragraph_ids": [
+        "cnbc-meeting-2002-morning-ch17-p005"
+      ],
+      "anchor": "What benchmark should an investor use",
+      "conditions_en": [
+        "The valuation statement is the audience member’s premise in 2002; this record establishes the question asked, not the accuracy or current applicability of its premise."
+      ],
+      "does_not_support_en": "Does not attribute the high-valuation premise to Buffett, establish a current market fact or supply a buy/sell threshold.",
+      "review_status": "independently_reviewed_for_pilot",
+      "eligible_as_answer_evidence": true,
+      "eligible_for_translation": false
+    }
+  ],
+  "scope": "Twelve inherited claims, five additional claims and one historical questioner-premise record. Review applies to selected uses; full contexts are not blanket-approved."
+}

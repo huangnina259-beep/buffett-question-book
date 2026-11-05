@@ -1,0 +1,15 @@
+{
+  "review": "../audit/review-corrections.json",
+  "status": "independently_reviewed_extraction_repairs",
+  "patch_ids": [
+    "berkshire-letter-2013-p001-v1",
+    "berkshire-letter-2013-p015-v1",
+    "berkshire-letter-2001-p002-v1",
+    "berkshire-letter-2022-p008-v1",
+    "berkshire-letter-2022-p009-v1",
+    "nbc-brokaw-interview-date-unresolved-p021-v1"
+  ],
+  "answer_eligibility_granted": false,
+  "producer_manifest_sha256": "8d5511f535fbf796217109769822a8bc59cfeedb6bdb3aed4632c828bb79f0a9",
+  "producer_status_is_historical": true
+}

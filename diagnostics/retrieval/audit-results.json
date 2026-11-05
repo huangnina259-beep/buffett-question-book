@@ -1,0 +1,4039 @@
+{
+  "version": "independent-router-audit-v6-1",
+  "created_at": "2026-11-05T08:49:16.538Z",
+  "network_calls": 0,
+  "model_calls": 0,
+  "application_edits": 0,
+  "execution": "Actual bundled TypeScript retrieveContextIds; diagnostic trace reimplements ranking only for explanation. No model or server used.",
+  "fixtures_sha256": "7b21f98a7bd30245c930d1748a78e3cea63008792d2a65c4c6c392602fad554a",
+  "input_hashes": {
+    "lib/retrieved-evidence.ts": "42a1ae3d0bca77bc43aeb2fa825d783da3dcf837220c5b10ecd0aa7645e8674d",
+    "lib/content/live-retrieval-index.json": "94af8008648561f19f13f1ddfac774c2d16fd7f94eff8f4412f5530eba9fa108",
+    "lib/content/live-evidence-packets.json": "c23730df1c75c2f77bdcce3e67b9e43dd49e180a6d2fb46b4deab4fcd69e437e"
+  },
+  "index_version": "english-live-retrieval-v3.1.1",
+  "packet_context_count": 19,
+  "packet_paragraph_count": 514,
+  "packet_unique_sources": 13,
+  "scope": "Hand-selected source-anchored diagnostic fixtures, constructed after reading router and originals. Not a blind benchmark or estimate of real traffic failure rates. English primary; Chinese separately scoped.",
+  "category_totals": {
+    "in_scope_english": {
+      "cases": 58,
+      "pass": 13,
+      "no_context_false_negative": 44,
+      "nonempty_but_missing_required_support": 1,
+      "irrelevant_routing": 0
+    },
+    "out_of_scope_english": {
+      "cases": 14,
+      "pass": 3,
+      "no_context_false_negative": 0,
+      "nonempty_but_missing_required_support": 0,
+      "irrelevant_routing": 11
+    },
+    "continuation": {
+      "cases": 4,
+      "pass": 4,
+      "no_context_false_negative": 0,
+      "nonempty_but_missing_required_support": 0,
+      "irrelevant_routing": 0
+    },
+    "topic_change_outside": {
+      "cases": 2,
+      "pass": 0,
+      "no_context_false_negative": 0,
+      "nonempty_but_missing_required_support": 0,
+      "irrelevant_routing": 2
+    },
+    "topic_change_inside": {
+      "cases": 4,
+      "pass": 1,
+      "no_context_false_negative": 0,
+      "nonempty_but_missing_required_support": 3,
+      "irrelevant_routing": 0
+    },
+    "language_probe_chinese": {
+      "cases": 4,
+      "pass": 0,
+      "no_context_false_negative": 4,
+      "nonempty_but_missing_required_support": 0,
+      "irrelevant_routing": 0
+    },
+    "multi_topic": {
+      "cases": 3,
+      "pass": 2,
+      "no_context_false_negative": 0,
+      "nonempty_but_missing_required_support": 1,
+      "irrelevant_routing": 0
+    }
+  },
+  "results": [
+    {
+      "id": "USER01",
+      "category": "in_scope_english",
+      "question": "how to be a great investor",
+      "previous_question": null,
+      "expected_support": [
+        "investor_habits"
+      ],
+      "expected_empty": false,
+      "basis": "Exact failed user question supplied by root from the native live answers table after the independent fixture set was drafted. At least one relevant source family should be discoverable; no claim that these sources give a guaranteed recipe.",
+      "actual_context_ids": [],
+      "source_characters": 0,
+      "expected_results": [
+        {
+          "goal": "investor_habits",
+          "acceptable_contexts": [
+            "letter-1996-0098-0118",
+            "letter-2013-investing-p001-p040",
+            "meeting-2019-learning"
+          ],
+          "found": false
+        }
+      ],
+      "missing_support": [
+        "investor_habits"
+      ],
+      "passed": false,
+      "outcome": "no_context_false_negative",
+      "trace": {
+        "normalized_question": "how to be a great investor",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [],
+        "group_selection": []
+      }
+    },
+    {
+      "id": "B01",
+      "category": "in_scope_english",
+      "question": "How should I appraise a listed business before investing?",
+      "previous_question": null,
+      "expected_support": [
+        "value"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching.",
+      "actual_context_ids": [],
+      "source_characters": 0,
+      "expected_results": [
+        {
+          "goal": "value",
+          "acceptable_contexts": [
+            "letter-1992-0074-0085",
+            "letter-1994-0013-0026"
+          ],
+          "found": false
+        }
+      ],
+      "missing_support": [
+        "value"
+      ],
+      "passed": false,
+      "outcome": "no_context_false_negative",
+      "trace": {
+        "normalized_question": "how should i appraise a listed business before investing",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [],
+        "group_selection": []
+      }
+    },
+    {
+      "id": "B02",
+      "category": "in_scope_english",
+      "question": "What should I look at before buying shares in a firm?",
+      "previous_question": null,
+      "expected_support": [
+        "value"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching.",
+      "actual_context_ids": [],
+      "source_characters": 0,
+      "expected_results": [
+        {
+          "goal": "value",
+          "acceptable_contexts": [
+            "letter-1992-0074-0085",
+            "letter-1994-0013-0026"
+          ],
+          "found": false
+        }
+      ],
+      "missing_support": [
+        "value"
+      ],
+      "passed": false,
+      "outcome": "no_context_false_negative",
+      "trace": {
+        "normalized_question": "what should i look at before buying shares in a firm",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [],
+        "group_selection": []
+      }
+    },
+    {
+      "id": "B03",
+      "category": "in_scope_english",
+      "question": "How would Buffett decide whether an equity is worth owning?",
+      "previous_question": null,
+      "expected_support": [
+        "value"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching.",
+      "actual_context_ids": [],
+      "source_characters": 0,
+      "expected_results": [
+        {
+          "goal": "value",
+          "acceptable_contexts": [
+            "letter-1992-0074-0085",
+            "letter-1994-0013-0026"
+          ],
+          "found": false
+        }
+      ],
+      "missing_support": [
+        "value"
+      ],
+      "passed": false,
+      "outcome": "no_context_false_negative",
+      "trace": {
+        "normalized_question": "how would buffett decide whether an equity is worth owning",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [],
+        "group_selection": []
+      }
+    },
+    {
+      "id": "B04",
+      "category": "in_scope_english",
+      "question": "How do I evaluate stocks?",
+      "previous_question": null,
+      "expected_support": [
+        "value"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching.",
+      "actual_context_ids": [
+        "letter-1992-0074-0085",
+        "letter-1991-0045-0055",
+        "letter-1986-0285-0297",
+        "letter-1986-0209-0210",
+        "letter-1991-0031-0037"
+      ],
+      "source_characters": 20734,
+      "expected_results": [
+        {
+          "goal": "value",
+          "acceptable_contexts": [
+            "letter-1992-0074-0085",
+            "letter-1994-0013-0026"
+          ],
+          "found": true
+        }
+      ],
+      "missing_support": [],
+      "passed": true,
+      "outcome": "pass",
+      "trace": {
+        "normalized_question": "how do i evaluate stocks",
+        "broad_direct_terms": [
+          "evaluate stocks"
+        ],
+        "broad_prior_terms": [],
+        "topic_hits": [],
+        "group_selection": [
+          {
+            "name": "broad_evaluation",
+            "additional_contexts": [
+              "letter-1992-0074-0085",
+              "letter-1986-0209-0210",
+              "letter-1986-0285-0297",
+              "letter-1991-0031-0037",
+              "letter-1991-0045-0055"
+            ],
+            "additional_characters": 20734,
+            "selected": true,
+            "reason": "fits"
+          }
+        ]
+      }
+    },
+    {
+      "id": "B05",
+      "category": "in_scope_english",
+      "question": "What is the right process for analysing a company?",
+      "previous_question": null,
+      "expected_support": [
+        "value"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching.",
+      "actual_context_ids": [],
+      "source_characters": 0,
+      "expected_results": [
+        {
+          "goal": "value",
+          "acceptable_contexts": [
+            "letter-1992-0074-0085",
+            "letter-1994-0013-0026"
+          ],
+          "found": false
+        }
+      ],
+      "missing_support": [
+        "value"
+      ],
+      "passed": false,
+      "outcome": "no_context_false_negative",
+      "trace": {
+        "normalized_question": "what is the right process for analysing a company",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [],
+        "group_selection": []
+      }
+    },
+    {
+      "id": "V01",
+      "category": "in_scope_english",
+      "question": "How much is a business really worth?",
+      "previous_question": null,
+      "expected_support": [
+        "value"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching.",
+      "actual_context_ids": [],
+      "source_characters": 0,
+      "expected_results": [
+        {
+          "goal": "value",
+          "acceptable_contexts": [
+            "letter-1992-0074-0085",
+            "letter-1994-0013-0026"
+          ],
+          "found": false
+        }
+      ],
+      "missing_support": [
+        "value"
+      ],
+      "passed": false,
+      "outcome": "no_context_false_negative",
+      "trace": {
+        "normalized_question": "how much is a business really worth",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [],
+        "group_selection": []
+      }
+    },
+    {
+      "id": "V02",
+      "category": "in_scope_english",
+      "question": "What determines a share’s underlying worth?",
+      "previous_question": null,
+      "expected_support": [
+        "value"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching.",
+      "actual_context_ids": [],
+      "source_characters": 0,
+      "expected_results": [
+        {
+          "goal": "value",
+          "acceptable_contexts": [
+            "letter-1992-0074-0085",
+            "letter-1994-0013-0026"
+          ],
+          "found": false
+        }
+      ],
+      "missing_support": [
+        "value"
+      ],
+      "passed": false,
+      "outcome": "no_context_false_negative",
+      "trace": {
+        "normalized_question": "what determines a share s underlying worth",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [],
+        "group_selection": []
+      }
+    },
+    {
+      "id": "V03",
+      "category": "in_scope_english",
+      "question": "Explain intrinsic value.",
+      "previous_question": null,
+      "expected_support": [
+        "value"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching.",
+      "actual_context_ids": [
+        "letter-1992-0074-0085",
+        "letter-1994-0013-0026",
+        "letter-1986-0285-0297",
+        "letter-1986-0209-0210"
+      ],
+      "source_characters": 19357,
+      "expected_results": [
+        {
+          "goal": "value",
+          "acceptable_contexts": [
+            "letter-1992-0074-0085",
+            "letter-1994-0013-0026"
+          ],
+          "found": true
+        }
+      ],
+      "missing_support": [],
+      "passed": true,
+      "outcome": "pass",
+      "trace": {
+        "normalized_question": "explain intrinsic value",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [
+          {
+            "id": "intrinsic_value",
+            "score": 2,
+            "current_terms": [
+              "intrinsic value"
+            ],
+            "prior_terms": []
+          }
+        ],
+        "group_selection": [
+          {
+            "name": "intrinsic_value",
+            "additional_contexts": [
+              "letter-1986-0285-0297",
+              "letter-1986-0209-0210",
+              "letter-1992-0074-0085",
+              "letter-1994-0013-0026"
+            ],
+            "additional_characters": 19357,
+            "selected": true,
+            "reason": "fits"
+          }
+        ]
+      }
+    },
+    {
+      "id": "V04",
+      "category": "in_scope_english",
+      "question": "Why can the balance sheet understate what a company is worth?",
+      "previous_question": null,
+      "expected_support": [
+        "book"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching.",
+      "actual_context_ids": [],
+      "source_characters": 0,
+      "expected_results": [
+        {
+          "goal": "book",
+          "acceptable_contexts": [
+            "letter-1994-0013-0026"
+          ],
+          "found": false
+        }
+      ],
+      "missing_support": [
+        "book"
+      ],
+      "passed": false,
+      "outcome": "no_context_false_negative",
+      "trace": {
+        "normalized_question": "why can the balance sheet understate what a company is worth",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [],
+        "group_selection": []
+      }
+    },
+    {
+      "id": "V05",
+      "category": "in_scope_english",
+      "question": "Why were Berkshire’s textile assets worth less than their carrying amount?",
+      "previous_question": null,
+      "expected_support": [
+        "book"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching.",
+      "actual_context_ids": [
+        "letter-1992-0074-0085",
+        "letter-1994-0013-0026"
+      ],
+      "source_characters": 11899,
+      "expected_results": [
+        {
+          "goal": "book",
+          "acceptable_contexts": [
+            "letter-1994-0013-0026"
+          ],
+          "found": true
+        }
+      ],
+      "missing_support": [],
+      "passed": true,
+      "outcome": "pass",
+      "trace": {
+        "normalized_question": "why were berkshire s textile assets worth less than their carrying amount",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [
+          {
+            "id": "book_and_market_value",
+            "score": 2,
+            "current_terms": [
+              "textile assets"
+            ],
+            "prior_terms": []
+          }
+        ],
+        "group_selection": [
+          {
+            "name": "book_and_market_value",
+            "additional_contexts": [
+              "letter-1994-0013-0026",
+              "letter-1992-0074-0085"
+            ],
+            "additional_characters": 11899,
+            "selected": true,
+            "reason": "fits"
+          }
+        ]
+      }
+    },
+    {
+      "id": "V06",
+      "category": "in_scope_english",
+      "question": "Why is the cost of a college education different from its economic worth?",
+      "previous_question": null,
+      "expected_support": [
+        "book"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching.",
+      "actual_context_ids": [],
+      "source_characters": 0,
+      "expected_results": [
+        {
+          "goal": "book",
+          "acceptable_contexts": [
+            "letter-1994-0013-0026"
+          ],
+          "found": false
+        }
+      ],
+      "missing_support": [
+        "book"
+      ],
+      "passed": false,
+      "outcome": "no_context_false_negative",
+      "trace": {
+        "normalized_question": "why is the cost of a college education different from its economic worth",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [],
+        "group_selection": []
+      }
+    },
+    {
+      "id": "O01",
+      "category": "in_scope_english",
+      "question": "What are owner earnings?",
+      "previous_question": null,
+      "expected_support": [
+        "owner"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching.",
+      "actual_context_ids": [
+        "cnbc-meeting-1998-afternoon-ch08",
+        "letter-1986-0285-0297",
+        "letter-1986-0209-0210"
+      ],
+      "source_characters": 12173,
+      "expected_results": [
+        {
+          "goal": "owner",
+          "acceptable_contexts": [
+            "letter-1986-0285-0297",
+            "letter-1986-0154-0297"
+          ],
+          "found": true
+        }
+      ],
+      "missing_support": [],
+      "passed": true,
+      "outcome": "pass",
+      "trace": {
+        "normalized_question": "what are owner earnings",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [
+          {
+            "id": "owner_earnings",
+            "score": 2,
+            "current_terms": [
+              "owner earnings"
+            ],
+            "prior_terms": []
+          }
+        ],
+        "group_selection": [
+          {
+            "name": "owner_earnings",
+            "additional_contexts": [
+              "letter-1986-0285-0297",
+              "letter-1986-0209-0210",
+              "cnbc-meeting-1998-afternoon-ch08"
+            ],
+            "additional_characters": 12173,
+            "selected": true,
+            "reason": "fits"
+          }
+        ]
+      }
+    },
+    {
+      "id": "O02",
+      "category": "in_scope_english",
+      "question": "What are owner's earnings?",
+      "previous_question": null,
+      "expected_support": [
+        "owner"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching.",
+      "actual_context_ids": [],
+      "source_characters": 0,
+      "expected_results": [
+        {
+          "goal": "owner",
+          "acceptable_contexts": [
+            "letter-1986-0285-0297",
+            "letter-1986-0154-0297"
+          ],
+          "found": false
+        }
+      ],
+      "missing_support": [
+        "owner"
+      ],
+      "passed": false,
+      "outcome": "no_context_false_negative",
+      "trace": {
+        "normalized_question": "what are owner s earnings",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [],
+        "group_selection": []
+      }
+    },
+    {
+      "id": "O03",
+      "category": "in_scope_english",
+      "question": "What are owners’ earnings?",
+      "previous_question": null,
+      "expected_support": [
+        "owner"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching.",
+      "actual_context_ids": [],
+      "source_characters": 0,
+      "expected_results": [
+        {
+          "goal": "owner",
+          "acceptable_contexts": [
+            "letter-1986-0285-0297",
+            "letter-1986-0154-0297"
+          ],
+          "found": false
+        }
+      ],
+      "missing_support": [
+        "owner"
+      ],
+      "passed": false,
+      "outcome": "no_context_false_negative",
+      "trace": {
+        "normalized_question": "what are owners earnings",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [],
+        "group_selection": []
+      }
+    },
+    {
+      "id": "O04",
+      "category": "in_scope_english",
+      "question": "How much money can shareholders actually take out of a firm?",
+      "previous_question": null,
+      "expected_support": [
+        "owner"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching.",
+      "actual_context_ids": [],
+      "source_characters": 0,
+      "expected_results": [
+        {
+          "goal": "owner",
+          "acceptable_contexts": [
+            "letter-1986-0285-0297",
+            "letter-1986-0154-0297"
+          ],
+          "found": false
+        }
+      ],
+      "missing_support": [
+        "owner"
+      ],
+      "passed": false,
+      "outcome": "no_context_false_negative",
+      "trace": {
+        "normalized_question": "how much money can shareholders actually take out of a firm",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [],
+        "group_selection": []
+      }
+    },
+    {
+      "id": "O05",
+      "category": "in_scope_english",
+      "question": "Why are reported profits different from distributable cash?",
+      "previous_question": null,
+      "expected_support": [
+        "owner"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching.",
+      "actual_context_ids": [],
+      "source_characters": 0,
+      "expected_results": [
+        {
+          "goal": "owner",
+          "acceptable_contexts": [
+            "letter-1986-0285-0297",
+            "letter-1986-0154-0297"
+          ],
+          "found": false
+        }
+      ],
+      "missing_support": [
+        "owner"
+      ],
+      "passed": false,
+      "outcome": "no_context_false_negative",
+      "trace": {
+        "normalized_question": "why are reported profits different from distributable cash",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [],
+        "group_selection": []
+      }
+    },
+    {
+      "id": "O06",
+      "category": "in_scope_english",
+      "question": "How should replacement spending affect the amount left for shareholders?",
+      "previous_question": null,
+      "expected_support": [
+        "owner"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching.",
+      "actual_context_ids": [],
+      "source_characters": 0,
+      "expected_results": [
+        {
+          "goal": "owner",
+          "acceptable_contexts": [
+            "letter-1986-0285-0297",
+            "letter-1986-0154-0297"
+          ],
+          "found": false
+        }
+      ],
+      "missing_support": [
+        "owner"
+      ],
+      "passed": false,
+      "outcome": "no_context_false_negative",
+      "trace": {
+        "normalized_question": "how should replacement spending affect the amount left for shareholders",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [],
+        "group_selection": []
+      }
+    },
+    {
+      "id": "O07",
+      "category": "in_scope_english",
+      "question": "How do capital expenditures affect what owners can withdraw?",
+      "previous_question": null,
+      "expected_support": [
+        "owner"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching.",
+      "actual_context_ids": [],
+      "source_characters": 0,
+      "expected_results": [
+        {
+          "goal": "owner",
+          "acceptable_contexts": [
+            "letter-1986-0285-0297",
+            "letter-1986-0154-0297"
+          ],
+          "found": false
+        }
+      ],
+      "missing_support": [
+        "owner"
+      ],
+      "passed": false,
+      "outcome": "no_context_false_negative",
+      "trace": {
+        "normalized_question": "how do capital expenditures affect what owners can withdraw",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [],
+        "group_selection": []
+      }
+    },
+    {
+      "id": "O08",
+      "category": "in_scope_english",
+      "question": "Do receivables and inventories need an adjustment when estimating owner cash?",
+      "previous_question": null,
+      "expected_support": [
+        "owner"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching.",
+      "actual_context_ids": [],
+      "source_characters": 0,
+      "expected_results": [
+        {
+          "goal": "owner",
+          "acceptable_contexts": [
+            "letter-1986-0285-0297",
+            "letter-1986-0154-0297"
+          ],
+          "found": false
+        }
+      ],
+      "missing_support": [
+        "owner"
+      ],
+      "passed": false,
+      "outcome": "no_context_false_negative",
+      "trace": {
+        "normalized_question": "do receivables and inventories need an adjustment when estimating owner cash",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [],
+        "group_selection": []
+      }
+    },
+    {
+      "id": "O09",
+      "category": "in_scope_english",
+      "question": "What does the LIFO exception mean?",
+      "previous_question": null,
+      "expected_support": [
+        "owner"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching.",
+      "actual_context_ids": [],
+      "source_characters": 0,
+      "expected_results": [
+        {
+          "goal": "owner",
+          "acceptable_contexts": [
+            "letter-1986-0285-0297",
+            "letter-1986-0154-0297"
+          ],
+          "found": false
+        }
+      ],
+      "missing_support": [
+        "owner"
+      ],
+      "passed": false,
+      "outcome": "no_context_false_negative",
+      "trace": {
+        "normalized_question": "what does the lifo exception mean",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [],
+        "group_selection": []
+      }
+    },
+    {
+      "id": "O10",
+      "category": "in_scope_english",
+      "question": "How does working capital affect owner earnings?",
+      "previous_question": null,
+      "expected_support": [
+        "owner"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching.",
+      "actual_context_ids": [
+        "cnbc-meeting-1998-afternoon-ch08",
+        "letter-1986-0285-0297",
+        "letter-1986-0209-0210"
+      ],
+      "source_characters": 12173,
+      "expected_results": [
+        {
+          "goal": "owner",
+          "acceptable_contexts": [
+            "letter-1986-0285-0297",
+            "letter-1986-0154-0297"
+          ],
+          "found": true
+        }
+      ],
+      "missing_support": [],
+      "passed": true,
+      "outcome": "pass",
+      "trace": {
+        "normalized_question": "how does working capital affect owner earnings",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [
+          {
+            "id": "owner_earnings",
+            "score": 4,
+            "current_terms": [
+              "owner earnings",
+              "working capital"
+            ],
+            "prior_terms": []
+          }
+        ],
+        "group_selection": [
+          {
+            "name": "owner_earnings",
+            "additional_contexts": [
+              "letter-1986-0285-0297",
+              "letter-1986-0209-0210",
+              "cnbc-meeting-1998-afternoon-ch08"
+            ],
+            "additional_characters": 12173,
+            "selected": true,
+            "reason": "fits"
+          }
+        ]
+      }
+    },
+    {
+      "id": "O11",
+      "category": "in_scope_english",
+      "question": "Why did buying Scott Fetzer change its reported profit without changing its economics?",
+      "previous_question": null,
+      "expected_support": [
+        "accounting"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching.",
+      "actual_context_ids": [
+        "letter-1996-0098-0118",
+        "letter-1986-0154-0297",
+        "letter-1991-0045-0055",
+        "letter-1991-0031-0037"
+      ],
+      "source_characters": 32495,
+      "expected_results": [
+        {
+          "goal": "accounting",
+          "acceptable_contexts": [
+            "letter-1986-0154-0297"
+          ],
+          "found": true
+        }
+      ],
+      "missing_support": [],
+      "passed": true,
+      "outcome": "pass",
+      "trace": {
+        "normalized_question": "why did buying scott fetzer change its reported profit without changing its economics",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [
+          {
+            "id": "owner_accounting_detail",
+            "score": 2,
+            "current_terms": [
+              "scott fetzer"
+            ],
+            "prior_terms": []
+          },
+          {
+            "id": "business_economics",
+            "score": 2,
+            "current_terms": [
+              "economics"
+            ],
+            "prior_terms": []
+          }
+        ],
+        "group_selection": [
+          {
+            "name": "owner_accounting_detail",
+            "additional_contexts": [
+              "letter-1986-0154-0297"
+            ],
+            "additional_characters": 14814,
+            "selected": true,
+            "reason": "fits"
+          },
+          {
+            "name": "business_economics",
+            "additional_contexts": [
+              "letter-1991-0031-0037",
+              "letter-1991-0045-0055",
+              "letter-1996-0098-0118"
+            ],
+            "additional_characters": 17681,
+            "selected": true,
+            "reason": "fits"
+          }
+        ]
+      }
+    },
+    {
+      "id": "D01",
+      "category": "in_scope_english",
+      "question": "Which interest rates did Buffett use in 1994 and 1998?",
+      "previous_question": null,
+      "expected_support": [
+        "rates"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching.",
+      "actual_context_ids": [],
+      "source_characters": 0,
+      "expected_results": [
+        {
+          "goal": "rates",
+          "acceptable_contexts": [
+            "cnbc-meeting-1994-morning-ch13",
+            "cnbc-meeting-1998-afternoon-ch08",
+            "cnbc-meeting-1998-afternoon-ch44"
+          ],
+          "found": false
+        }
+      ],
+      "missing_support": [
+        "rates"
+      ],
+      "passed": false,
+      "outcome": "no_context_false_negative",
+      "trace": {
+        "normalized_question": "which interest rates did buffett use in 1994 and 1998",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [],
+        "group_selection": []
+      }
+    },
+    {
+      "id": "D02",
+      "category": "in_scope_english",
+      "question": "Can I compensate for a business I cannot forecast by using a higher discount rate?",
+      "previous_question": null,
+      "expected_support": [
+        "risk_rate"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching.",
+      "actual_context_ids": [
+        "letter-1992-0074-0085",
+        "letter-2000-pdf-p12-p3-through-p13-p9",
+        "cnbc-meeting-1994-morning-ch13",
+        "cnbc-meeting-1998-afternoon-ch08",
+        "cnbc-meeting-1998-afternoon-ch44"
+      ],
+      "source_characters": 26621,
+      "expected_results": [
+        {
+          "goal": "risk_rate",
+          "acceptable_contexts": [
+            "cnbc-meeting-1998-afternoon-ch44"
+          ],
+          "found": true
+        }
+      ],
+      "missing_support": [],
+      "passed": true,
+      "outcome": "pass",
+      "trace": {
+        "normalized_question": "can i compensate for a business i cannot forecast by using a higher discount rate",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [
+          {
+            "id": "discount_rate",
+            "score": 2,
+            "current_terms": [
+              "discount rate"
+            ],
+            "prior_terms": []
+          },
+          {
+            "id": "knowability_and_uncertainty",
+            "score": 2,
+            "current_terms": [
+              "forecast"
+            ],
+            "prior_terms": []
+          }
+        ],
+        "group_selection": [
+          {
+            "name": "discount_rate",
+            "additional_contexts": [
+              "cnbc-meeting-1994-morning-ch13",
+              "cnbc-meeting-1998-afternoon-ch08",
+              "cnbc-meeting-1998-afternoon-ch44"
+            ],
+            "additional_characters": 11964,
+            "selected": true,
+            "reason": "fits"
+          },
+          {
+            "name": "knowability_and_uncertainty",
+            "additional_contexts": [
+              "letter-2000-pdf-p12-p3-through-p13-p9",
+              "letter-1992-0074-0085"
+            ],
+            "additional_characters": 14657,
+            "selected": true,
+            "reason": "fits"
+          }
+        ]
+      }
+    },
+    {
+      "id": "D03",
+      "category": "in_scope_english",
+      "question": "How should future dollars be translated into today’s dollars?",
+      "previous_question": null,
+      "expected_support": [
+        "value"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching.",
+      "actual_context_ids": [],
+      "source_characters": 0,
+      "expected_results": [
+        {
+          "goal": "value",
+          "acceptable_contexts": [
+            "letter-1992-0074-0085",
+            "letter-1994-0013-0026"
+          ],
+          "found": false
+        }
+      ],
+      "missing_support": [
+        "value"
+      ],
+      "passed": false,
+      "outcome": "no_context_false_negative",
+      "trace": {
+        "normalized_question": "how should future dollars be translated into today s dollars",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [],
+        "group_selection": []
+      }
+    },
+    {
+      "id": "G01",
+      "category": "in_scope_english",
+      "question": "Is a faster-growing company always a better investment?",
+      "previous_question": null,
+      "expected_support": [
+        "growth"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching.",
+      "actual_context_ids": [],
+      "source_characters": 0,
+      "expected_results": [
+        {
+          "goal": "growth",
+          "acceptable_contexts": [
+            "letter-1992-0074-0085",
+            "cnbc-meeting-1998-afternoon-ch08",
+            "letter-2000-pdf-p12-p3-through-p13-p9"
+          ],
+          "found": false
+        }
+      ],
+      "missing_support": [
+        "growth"
+      ],
+      "passed": false,
+      "outcome": "no_context_false_negative",
+      "trace": {
+        "normalized_question": "is a faster growing company always a better investment",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [],
+        "group_selection": []
+      }
+    },
+    {
+      "id": "G02",
+      "category": "in_scope_english",
+      "question": "Does growth always create value?",
+      "previous_question": null,
+      "expected_support": [
+        "growth"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching.",
+      "actual_context_ids": [
+        "cnbc-meeting-1998-afternoon-ch08",
+        "letter-1991-0031-0044",
+        "letter-1991-0045-0055"
+      ],
+      "source_characters": 16111,
+      "expected_results": [
+        {
+          "goal": "growth",
+          "acceptable_contexts": [
+            "letter-1992-0074-0085",
+            "cnbc-meeting-1998-afternoon-ch08",
+            "letter-2000-pdf-p12-p3-through-p13-p9"
+          ],
+          "found": true
+        }
+      ],
+      "missing_support": [],
+      "passed": true,
+      "outcome": "pass",
+      "trace": {
+        "normalized_question": "does growth always create value",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [
+          {
+            "id": "capital_reinvestment",
+            "score": 2,
+            "current_terms": [
+              "growth"
+            ],
+            "prior_terms": []
+          }
+        ],
+        "group_selection": [
+          {
+            "name": "capital_reinvestment",
+            "additional_contexts": [
+              "cnbc-meeting-1998-afternoon-ch08",
+              "letter-1991-0045-0055",
+              "letter-1991-0031-0044"
+            ],
+            "additional_characters": 16111,
+            "selected": true,
+            "reason": "fits"
+          }
+        ]
+      }
+    },
+    {
+      "id": "G03",
+      "category": "in_scope_english",
+      "question": "Why can opening more stores make shareholders poorer?",
+      "previous_question": null,
+      "expected_support": [
+        "growth"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching.",
+      "actual_context_ids": [],
+      "source_characters": 0,
+      "expected_results": [
+        {
+          "goal": "growth",
+          "acceptable_contexts": [
+            "letter-1992-0074-0085",
+            "cnbc-meeting-1998-afternoon-ch08",
+            "letter-2000-pdf-p12-p3-through-p13-p9"
+          ],
+          "found": false
+        }
+      ],
+      "missing_support": [
+        "growth"
+      ],
+      "passed": false,
+      "outcome": "no_context_false_negative",
+      "trace": {
+        "normalized_question": "why can opening more stores make shareholders poorer",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [],
+        "group_selection": []
+      }
+    },
+    {
+      "id": "C01",
+      "category": "in_scope_english",
+      "question": "How can I tell whether I really know enough about a business to invest?",
+      "previous_question": null,
+      "expected_support": [
+        "competence"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching.",
+      "actual_context_ids": [],
+      "source_characters": 0,
+      "expected_results": [
+        {
+          "goal": "competence",
+          "acceptable_contexts": [
+            "letter-1996-0098-0118",
+            "meeting-2002-boundary"
+          ],
+          "found": false
+        }
+      ],
+      "missing_support": [
+        "competence"
+      ],
+      "passed": false,
+      "outcome": "no_context_false_negative",
+      "trace": {
+        "normalized_question": "how can i tell whether i really know enough about a business to invest",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [],
+        "group_selection": []
+      }
+    },
+    {
+      "id": "C02",
+      "category": "in_scope_english",
+      "question": "Is liking and using a company’s products enough to invest in it?",
+      "previous_question": null,
+      "expected_support": [
+        "competence"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching.",
+      "actual_context_ids": [],
+      "source_characters": 0,
+      "expected_results": [
+        {
+          "goal": "competence",
+          "acceptable_contexts": [
+            "letter-1996-0098-0118",
+            "meeting-2002-boundary"
+          ],
+          "found": false
+        }
+      ],
+      "missing_support": [
+        "competence"
+      ],
+      "passed": false,
+      "outcome": "no_context_false_negative",
+      "trace": {
+        "normalized_question": "is liking and using a company s products enough to invest in it",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [],
+        "group_selection": []
+      }
+    },
+    {
+      "id": "C03",
+      "category": "in_scope_english",
+      "question": "How do I identify my circle of competence?",
+      "previous_question": null,
+      "expected_support": [
+        "competence"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching.",
+      "actual_context_ids": [
+        "letter-1992-0074-0085",
+        "letter-1996-0098-0118",
+        "meeting-2002-boundary"
+      ],
+      "source_characters": 29877,
+      "expected_results": [
+        {
+          "goal": "competence",
+          "acceptable_contexts": [
+            "letter-1996-0098-0118",
+            "meeting-2002-boundary"
+          ],
+          "found": true
+        }
+      ],
+      "missing_support": [],
+      "passed": true,
+      "outcome": "pass",
+      "trace": {
+        "normalized_question": "how do i identify my circle of competence",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [
+          {
+            "id": "understand_business",
+            "score": 6,
+            "current_terms": [
+              "circle of competence",
+              "competence",
+              "circle"
+            ],
+            "prior_terms": []
+          }
+        ],
+        "group_selection": [
+          {
+            "name": "understand_business",
+            "additional_contexts": [
+              "letter-1996-0098-0118",
+              "meeting-2002-boundary",
+              "letter-1992-0074-0085"
+            ],
+            "additional_characters": 29877,
+            "selected": true,
+            "reason": "fits"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C04",
+      "category": "in_scope_english",
+      "question": "If I can evaluate each loan, does that mean I can evaluate the lender?",
+      "previous_question": null,
+      "expected_support": [
+        "finance"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching.",
+      "actual_context_ids": [],
+      "source_characters": 0,
+      "expected_results": [
+        {
+          "goal": "finance",
+          "acceptable_contexts": [
+            "meeting-2002-boundary"
+          ],
+          "found": false
+        }
+      ],
+      "missing_support": [
+        "finance"
+      ],
+      "passed": false,
+      "outcome": "no_context_false_negative",
+      "trace": {
+        "normalized_question": "if i can evaluate each loan does that mean i can evaluate the lender",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [],
+        "group_selection": []
+      }
+    },
+    {
+      "id": "C05",
+      "category": "in_scope_english",
+      "question": "Why did Berkshire’s credit matter when Buffett examined that lender?",
+      "previous_question": null,
+      "expected_support": [
+        "finance"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching.",
+      "actual_context_ids": [
+        "meeting-2002-boundary"
+      ],
+      "source_characters": 12776,
+      "expected_results": [
+        {
+          "goal": "finance",
+          "acceptable_contexts": [
+            "meeting-2002-boundary"
+          ],
+          "found": true
+        }
+      ],
+      "missing_support": [],
+      "passed": true,
+      "outcome": "pass",
+      "trace": {
+        "normalized_question": "why did berkshire s credit matter when buffett examined that lender",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [
+          {
+            "id": "finance_dependencies",
+            "score": 4,
+            "current_terms": [
+              "berkshire's credit",
+              "berkshire’s credit"
+            ],
+            "prior_terms": []
+          }
+        ],
+        "group_selection": [
+          {
+            "name": "finance_dependencies",
+            "additional_contexts": [
+              "meeting-2002-boundary"
+            ],
+            "additional_characters": 12776,
+            "selected": true,
+            "reason": "fits"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C06",
+      "category": "in_scope_english",
+      "question": "How can someone discover blind spots in their investing judgment?",
+      "previous_question": null,
+      "expected_support": [
+        "confidence"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching.",
+      "actual_context_ids": [],
+      "source_characters": 0,
+      "expected_results": [
+        {
+          "goal": "confidence",
+          "acceptable_contexts": [
+            "meeting-2014-self-assessment"
+          ],
+          "found": false
+        }
+      ],
+      "missing_support": [
+        "confidence"
+      ],
+      "passed": false,
+      "outcome": "no_context_false_negative",
+      "trace": {
+        "normalized_question": "how can someone discover blind spots in their investing judgment",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [],
+        "group_selection": []
+      }
+    },
+    {
+      "id": "C07",
+      "category": "in_scope_english",
+      "question": "What did Buffett get wrong about the Baltimore department store?",
+      "previous_question": null,
+      "expected_support": [
+        "confidence"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching.",
+      "actual_context_ids": [],
+      "source_characters": 0,
+      "expected_results": [
+        {
+          "goal": "confidence",
+          "acceptable_contexts": [
+            "meeting-2014-self-assessment"
+          ],
+          "found": false
+        }
+      ],
+      "missing_support": [
+        "confidence"
+      ],
+      "passed": false,
+      "outcome": "no_context_false_negative",
+      "trace": {
+        "normalized_question": "what did buffett get wrong about the baltimore department store",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [],
+        "group_selection": []
+      }
+    },
+    {
+      "id": "L01",
+      "category": "in_scope_english",
+      "question": "Should an ordinary investor be a specialist or a generalist?",
+      "previous_question": null,
+      "expected_support": [
+        "learning"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching.",
+      "actual_context_ids": [],
+      "source_characters": 0,
+      "expected_results": [
+        {
+          "goal": "learning",
+          "acceptable_contexts": [
+            "meeting-2019-learning"
+          ],
+          "found": false
+        }
+      ],
+      "missing_support": [
+        "learning"
+      ],
+      "passed": false,
+      "outcome": "no_context_false_negative",
+      "trace": {
+        "normalized_question": "should an ordinary investor be a specialist or a generalist",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [],
+        "group_selection": []
+      }
+    },
+    {
+      "id": "L02",
+      "category": "in_scope_english",
+      "question": "What kind of reading did Buffett recommend for developing investment expertise?",
+      "previous_question": null,
+      "expected_support": [
+        "learning"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching.",
+      "actual_context_ids": [],
+      "source_characters": 0,
+      "expected_results": [
+        {
+          "goal": "learning",
+          "acceptable_contexts": [
+            "meeting-2019-learning"
+          ],
+          "found": false
+        }
+      ],
+      "missing_support": [
+        "learning"
+      ],
+      "passed": false,
+      "outcome": "no_context_false_negative",
+      "trace": {
+        "normalized_question": "what kind of reading did buffett recommend for developing investment expertise",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [],
+        "group_selection": []
+      }
+    },
+    {
+      "id": "L03",
+      "category": "in_scope_english",
+      "question": "How do I expand my circle of competence?",
+      "previous_question": null,
+      "expected_support": [
+        "expansion"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching.",
+      "actual_context_ids": [
+        "letter-1992-0074-0085",
+        "letter-1996-0098-0118",
+        "meeting-2002-boundary",
+        "meeting-2019-learning",
+        "meeting-2019-expansion"
+      ],
+      "source_characters": 37089,
+      "expected_results": [
+        {
+          "goal": "expansion",
+          "acceptable_contexts": [
+            "meeting-2019-expansion"
+          ],
+          "found": true
+        }
+      ],
+      "missing_support": [],
+      "passed": true,
+      "outcome": "pass",
+      "trace": {
+        "normalized_question": "how do i expand my circle of competence",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [
+          {
+            "id": "understand_business",
+            "score": 6,
+            "current_terms": [
+              "circle of competence",
+              "competence",
+              "circle"
+            ],
+            "prior_terms": []
+          },
+          {
+            "id": "learning_and_expansion",
+            "score": 2,
+            "current_terms": [
+              "expand"
+            ],
+            "prior_terms": []
+          }
+        ],
+        "group_selection": [
+          {
+            "name": "understand_business",
+            "additional_contexts": [
+              "letter-1996-0098-0118",
+              "meeting-2002-boundary",
+              "letter-1992-0074-0085"
+            ],
+            "additional_characters": 29877,
+            "selected": true,
+            "reason": "fits"
+          },
+          {
+            "name": "learning_and_expansion",
+            "additional_contexts": [
+              "meeting-2019-learning",
+              "meeting-2019-expansion"
+            ],
+            "additional_characters": 7212,
+            "selected": true,
+            "reason": "fits"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L04",
+      "category": "in_scope_english",
+      "question": "Can I force myself to become an expert in another field?",
+      "previous_question": null,
+      "expected_support": [
+        "expansion"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching.",
+      "actual_context_ids": [],
+      "source_characters": 0,
+      "expected_results": [
+        {
+          "goal": "expansion",
+          "acceptable_contexts": [
+            "meeting-2019-expansion"
+          ],
+          "found": false
+        }
+      ],
+      "missing_support": [
+        "expansion"
+      ],
+      "passed": false,
+      "outcome": "no_context_false_negative",
+      "trace": {
+        "normalized_question": "can i force myself to become an expert in another field",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [],
+        "group_selection": []
+      }
+    },
+    {
+      "id": "L05",
+      "category": "in_scope_english",
+      "question": "What did Buffett gain from working with Walter Scott and Greg Abel?",
+      "previous_question": null,
+      "expected_support": [
+        "expansion"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching.",
+      "actual_context_ids": [],
+      "source_characters": 0,
+      "expected_results": [
+        {
+          "goal": "expansion",
+          "acceptable_contexts": [
+            "meeting-2019-expansion"
+          ],
+          "found": false
+        }
+      ],
+      "missing_support": [
+        "expansion"
+      ],
+      "passed": false,
+      "outcome": "no_context_false_negative",
+      "trace": {
+        "normalized_question": "what did buffett gain from working with walter scott and greg abel",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [],
+        "group_selection": []
+      }
+    },
+    {
+      "id": "M01",
+      "category": "in_scope_english",
+      "question": "What makes customers keep paying more for the same thing?",
+      "previous_question": null,
+      "expected_support": [
+        "franchise"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching.",
+      "actual_context_ids": [],
+      "source_characters": 0,
+      "expected_results": [
+        {
+          "goal": "franchise",
+          "acceptable_contexts": [
+            "letter-1991-0031-0037",
+            "letter-1991-0031-0044"
+          ],
+          "found": false
+        }
+      ],
+      "missing_support": [
+        "franchise"
+      ],
+      "passed": false,
+      "outcome": "no_context_false_negative",
+      "trace": {
+        "normalized_question": "what makes customers keep paying more for the same thing",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [],
+        "group_selection": []
+      }
+    },
+    {
+      "id": "M02",
+      "category": "in_scope_english",
+      "question": "What separates an economic franchise from an ordinary business?",
+      "previous_question": null,
+      "expected_support": [
+        "franchise"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching.",
+      "actual_context_ids": [
+        "letter-1996-0098-0118",
+        "letter-1991-0045-0055",
+        "letter-1991-0031-0037"
+      ],
+      "source_characters": 17681,
+      "expected_results": [
+        {
+          "goal": "franchise",
+          "acceptable_contexts": [
+            "letter-1991-0031-0037",
+            "letter-1991-0031-0044"
+          ],
+          "found": true
+        }
+      ],
+      "missing_support": [],
+      "passed": true,
+      "outcome": "pass",
+      "trace": {
+        "normalized_question": "what separates an economic franchise from an ordinary business",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [
+          {
+            "id": "business_economics",
+            "score": 2,
+            "current_terms": [
+              "franchise"
+            ],
+            "prior_terms": []
+          }
+        ],
+        "group_selection": [
+          {
+            "name": "business_economics",
+            "additional_contexts": [
+              "letter-1991-0031-0037",
+              "letter-1991-0045-0055",
+              "letter-1996-0098-0118"
+            ],
+            "additional_characters": 17681,
+            "selected": true,
+            "reason": "fits"
+          }
+        ]
+      }
+    },
+    {
+      "id": "M03",
+      "category": "in_scope_english",
+      "question": "Why do executives imitate what other executives do?",
+      "previous_question": null,
+      "expected_support": [
+        "management"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching.",
+      "actual_context_ids": [],
+      "source_characters": 0,
+      "expected_results": [
+        {
+          "goal": "management",
+          "acceptable_contexts": [
+            "letter-1989-0156-0175"
+          ],
+          "found": false
+        }
+      ],
+      "missing_support": [
+        "management"
+      ],
+      "passed": false,
+      "outcome": "no_context_false_negative",
+      "trace": {
+        "normalized_question": "why do executives imitate what other executives do",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [],
+        "group_selection": []
+      }
+    },
+    {
+      "id": "M04",
+      "category": "in_scope_english",
+      "question": "Can a brilliant chief executive rescue a terrible business?",
+      "previous_question": null,
+      "expected_support": [
+        "management"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching.",
+      "actual_context_ids": [],
+      "source_characters": 0,
+      "expected_results": [
+        {
+          "goal": "management",
+          "acceptable_contexts": [
+            "letter-1989-0156-0175"
+          ],
+          "found": false
+        }
+      ],
+      "missing_support": [
+        "management"
+      ],
+      "passed": false,
+      "outcome": "no_context_false_negative",
+      "trace": {
+        "normalized_question": "can a brilliant chief executive rescue a terrible business",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [],
+        "group_selection": []
+      }
+    },
+    {
+      "id": "S01",
+      "category": "in_scope_english",
+      "question": "Why was See’s able to send so much money back to Berkshire?",
+      "previous_question": null,
+      "expected_support": [
+        "sees"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching.",
+      "actual_context_ids": [],
+      "source_characters": 0,
+      "expected_results": [
+        {
+          "goal": "sees",
+          "acceptable_contexts": [
+            "letter-1991-0045-0055"
+          ],
+          "found": false
+        }
+      ],
+      "missing_support": [
+        "sees"
+      ],
+      "passed": false,
+      "outcome": "no_context_false_negative",
+      "trace": {
+        "normalized_question": "why was see s able to send so much money back to berkshire",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [],
+        "group_selection": []
+      }
+    },
+    {
+      "id": "S02",
+      "category": "in_scope_english",
+      "question": "What made the chocolate company such an attractive investment?",
+      "previous_question": null,
+      "expected_support": [
+        "sees"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching.",
+      "actual_context_ids": [],
+      "source_characters": 0,
+      "expected_results": [
+        {
+          "goal": "sees",
+          "acceptable_contexts": [
+            "letter-1991-0045-0055"
+          ],
+          "found": false
+        }
+      ],
+      "missing_support": [
+        "sees"
+      ],
+      "passed": false,
+      "outcome": "no_context_false_negative",
+      "trace": {
+        "normalized_question": "what made the chocolate company such an attractive investment",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [],
+        "group_selection": []
+      }
+    },
+    {
+      "id": "I01",
+      "category": "in_scope_english",
+      "question": "What did Buffett recommend for ordinary people who cannot select individual shares?",
+      "previous_question": null,
+      "expected_support": [
+        "index"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching.",
+      "actual_context_ids": [],
+      "source_characters": 0,
+      "expected_results": [
+        {
+          "goal": "index",
+          "acceptable_contexts": [
+            "letter-2013-investing-p001-p040",
+            "letter-1996-0098-0118"
+          ],
+          "found": false
+        }
+      ],
+      "missing_support": [
+        "index"
+      ],
+      "passed": false,
+      "outcome": "no_context_false_negative",
+      "trace": {
+        "normalized_question": "what did buffett recommend for ordinary people who cannot select individual shares",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [],
+        "group_selection": []
+      }
+    },
+    {
+      "id": "I02",
+      "category": "in_scope_english",
+      "question": "What did Buffett say about index funds?",
+      "previous_question": null,
+      "expected_support": [
+        "index"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching.",
+      "actual_context_ids": [],
+      "source_characters": 0,
+      "expected_results": [
+        {
+          "goal": "index",
+          "acceptable_contexts": [
+            "letter-2013-investing-p001-p040",
+            "letter-1996-0098-0118"
+          ],
+          "found": false
+        }
+      ],
+      "missing_support": [
+        "index"
+      ],
+      "passed": false,
+      "outcome": "no_context_false_negative",
+      "trace": {
+        "normalized_question": "what did buffett say about index funds",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [],
+        "group_selection": []
+      }
+    },
+    {
+      "id": "I03",
+      "category": "in_scope_english",
+      "question": "What were the investment instructions for his wife’s trustee?",
+      "previous_question": null,
+      "expected_support": [
+        "will"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching.",
+      "actual_context_ids": [],
+      "source_characters": 0,
+      "expected_results": [
+        {
+          "goal": "will",
+          "acceptable_contexts": [
+            "letter-2013-investing-p001-p040"
+          ],
+          "found": false
+        }
+      ],
+      "missing_support": [
+        "will"
+      ],
+      "passed": false,
+      "outcome": "no_context_false_negative",
+      "trace": {
+        "normalized_question": "what were the investment instructions for his wife s trustee",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [],
+        "group_selection": []
+      }
+    },
+    {
+      "id": "I04",
+      "category": "in_scope_english",
+      "question": "Why did he suggest Vanguard and a 90/10 split?",
+      "previous_question": null,
+      "expected_support": [
+        "will"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching.",
+      "actual_context_ids": [
+        "cnbc-meeting-1994-morning-ch13",
+        "cnbc-meeting-1998-afternoon-ch08",
+        "cnbc-meeting-1998-afternoon-ch44"
+      ],
+      "source_characters": 11964,
+      "expected_results": [
+        {
+          "goal": "will",
+          "acceptable_contexts": [
+            "letter-2013-investing-p001-p040"
+          ],
+          "found": false
+        }
+      ],
+      "missing_support": [
+        "will"
+      ],
+      "passed": false,
+      "outcome": "nonempty_but_missing_required_support",
+      "trace": {
+        "normalized_question": "why did he suggest vanguard and a 90 10 split",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [
+          {
+            "id": "discount_rate",
+            "score": 2,
+            "current_terms": [
+              "10%"
+            ],
+            "prior_terms": []
+          }
+        ],
+        "group_selection": [
+          {
+            "name": "discount_rate",
+            "additional_contexts": [
+              "cnbc-meeting-1994-morning-ch13",
+              "cnbc-meeting-1998-afternoon-ch08",
+              "cnbc-meeting-1998-afternoon-ch44"
+            ],
+            "additional_characters": 11964,
+            "selected": true,
+            "reason": "fits"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01",
+      "category": "in_scope_english",
+      "question": "How should I react when quotations jump around every day?",
+      "previous_question": null,
+      "expected_support": [
+        "prices"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching.",
+      "actual_context_ids": [],
+      "source_characters": 0,
+      "expected_results": [
+        {
+          "goal": "prices",
+          "acceptable_contexts": [
+            "letter-2013-investing-p001-p040"
+          ],
+          "found": false
+        }
+      ],
+      "missing_support": [
+        "prices"
+      ],
+      "passed": false,
+      "outcome": "no_context_false_negative",
+      "trace": {
+        "normalized_question": "how should i react when quotations jump around every day",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [],
+        "group_selection": []
+      }
+    },
+    {
+      "id": "P02",
+      "category": "in_scope_english",
+      "question": "Why did Buffett buy farmland without knowing how to cultivate it?",
+      "previous_question": null,
+      "expected_support": [
+        "farm"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching.",
+      "actual_context_ids": [
+        "meeting-2019-learning",
+        "letter-2013-investing-p001-p040"
+      ],
+      "source_characters": 20281,
+      "expected_results": [
+        {
+          "goal": "farm",
+          "acceptable_contexts": [
+            "letter-2013-investing-p001-p040"
+          ],
+          "found": true
+        }
+      ],
+      "missing_support": [],
+      "passed": true,
+      "outcome": "pass",
+      "trace": {
+        "normalized_question": "why did buffett buy farmland without knowing how to cultivate it",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [
+          {
+            "id": "operating_and_investing",
+            "score": 2,
+            "current_terms": [
+              "farmland"
+            ],
+            "prior_terms": []
+          }
+        ],
+        "group_selection": [
+          {
+            "name": "operating_and_investing",
+            "additional_contexts": [
+              "letter-2013-investing-p001-p040",
+              "meeting-2019-learning"
+            ],
+            "additional_characters": 20281,
+            "selected": true,
+            "reason": "fits"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03",
+      "category": "in_scope_english",
+      "question": "What can the NYU property investment teach shareholders?",
+      "previous_question": null,
+      "expected_support": [
+        "farm"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching.",
+      "actual_context_ids": [],
+      "source_characters": 0,
+      "expected_results": [
+        {
+          "goal": "farm",
+          "acceptable_contexts": [
+            "letter-2013-investing-p001-p040"
+          ],
+          "found": false
+        }
+      ],
+      "missing_support": [
+        "farm"
+      ],
+      "passed": false,
+      "outcome": "no_context_false_negative",
+      "trace": {
+        "normalized_question": "what can the nyu property investment teach shareholders",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [],
+        "group_selection": []
+      }
+    },
+    {
+      "id": "U01",
+      "category": "in_scope_english",
+      "question": "Can an investment estimate be an interval instead of one precise number?",
+      "previous_question": null,
+      "expected_support": [
+        "uncertainty"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching.",
+      "actual_context_ids": [],
+      "source_characters": 0,
+      "expected_results": [
+        {
+          "goal": "uncertainty",
+          "acceptable_contexts": [
+            "letter-2000-pdf-p12-p3-through-p13-p9"
+          ],
+          "found": false
+        }
+      ],
+      "missing_support": [
+        "uncertainty"
+      ],
+      "passed": false,
+      "outcome": "no_context_false_negative",
+      "trace": {
+        "normalized_question": "can an investment estimate be an interval instead of one precise number",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [],
+        "group_selection": []
+      }
+    },
+    {
+      "id": "U02",
+      "category": "in_scope_english",
+      "question": "What separates investing from speculation?",
+      "previous_question": null,
+      "expected_support": [
+        "uncertainty"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching.",
+      "actual_context_ids": [],
+      "source_characters": 0,
+      "expected_results": [
+        {
+          "goal": "uncertainty",
+          "acceptable_contexts": [
+            "letter-2000-pdf-p12-p3-through-p13-p9"
+          ],
+          "found": false
+        }
+      ],
+      "missing_support": [
+        "uncertainty"
+      ],
+      "passed": false,
+      "outcome": "no_context_false_negative",
+      "trace": {
+        "normalized_question": "what separates investing from speculation",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [],
+        "group_selection": []
+      }
+    },
+    {
+      "id": "U03",
+      "category": "in_scope_english",
+      "question": "Would Buffett ever buy a company that makes a loss today?",
+      "previous_question": null,
+      "expected_support": [
+        "loss"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching.",
+      "actual_context_ids": [],
+      "source_characters": 0,
+      "expected_results": [
+        {
+          "goal": "loss",
+          "acceptable_contexts": [
+            "cnbc-meeting-1994-morning-ch13"
+          ],
+          "found": false
+        }
+      ],
+      "missing_support": [
+        "loss"
+      ],
+      "passed": false,
+      "outcome": "no_context_false_negative",
+      "trace": {
+        "normalized_question": "would buffett ever buy a company that makes a loss today",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [],
+        "group_selection": []
+      }
+    },
+    {
+      "id": "U04",
+      "category": "in_scope_english",
+      "question": "Could Berkshire invest in a business that is not yet profitable?",
+      "previous_question": null,
+      "expected_support": [
+        "loss"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching.",
+      "actual_context_ids": [],
+      "source_characters": 0,
+      "expected_results": [
+        {
+          "goal": "loss",
+          "acceptable_contexts": [
+            "cnbc-meeting-1994-morning-ch13"
+          ],
+          "found": false
+        }
+      ],
+      "missing_support": [
+        "loss"
+      ],
+      "passed": false,
+      "outcome": "no_context_false_negative",
+      "trace": {
+        "normalized_question": "could berkshire invest in a business that is not yet profitable",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [],
+        "group_selection": []
+      }
+    },
+    {
+      "id": "N01",
+      "category": "out_of_scope_english",
+      "question": "Will it rain tomorrow?",
+      "previous_question": null,
+      "expected_support": [],
+      "expected_empty": true,
+      "basis": "No passage in the selected investing corpus provides the requested subject matter.",
+      "actual_context_ids": [],
+      "source_characters": 0,
+      "expected_results": [],
+      "missing_support": [],
+      "passed": true,
+      "outcome": "pass",
+      "trace": {
+        "normalized_question": "will it rain tomorrow",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [],
+        "group_selection": []
+      }
+    },
+    {
+      "id": "N02",
+      "category": "out_of_scope_english",
+      "question": "How do I learn Spanish?",
+      "previous_question": null,
+      "expected_support": [],
+      "expected_empty": true,
+      "basis": "No passage in the selected investing corpus provides the requested subject matter.",
+      "actual_context_ids": [
+        "meeting-2019-learning",
+        "meeting-2019-expansion"
+      ],
+      "source_characters": 7212,
+      "expected_results": [],
+      "missing_support": [],
+      "passed": false,
+      "outcome": "irrelevant_routing",
+      "trace": {
+        "normalized_question": "how do i learn spanish",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [
+          {
+            "id": "learning_and_expansion",
+            "score": 2,
+            "current_terms": [
+              "learn"
+            ],
+            "prior_terms": []
+          }
+        ],
+        "group_selection": [
+          {
+            "name": "learning_and_expansion",
+            "additional_contexts": [
+              "meeting-2019-learning",
+              "meeting-2019-expansion"
+            ],
+            "additional_characters": 7212,
+            "selected": true,
+            "reason": "fits"
+          }
+        ]
+      }
+    },
+    {
+      "id": "N03",
+      "category": "out_of_scope_english",
+      "question": "How do I price my wedding photography package?",
+      "previous_question": null,
+      "expected_support": [],
+      "expected_empty": true,
+      "basis": "No passage in the selected investing corpus provides the requested subject matter.",
+      "actual_context_ids": [
+        "letter-1992-0074-0085",
+        "letter-1989-0156-0175",
+        "letter-1991-0031-0044"
+      ],
+      "source_characters": 22368,
+      "expected_results": [],
+      "missing_support": [],
+      "passed": false,
+      "outcome": "irrelevant_routing",
+      "trace": {
+        "normalized_question": "how do i price my wedding photography package",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [
+          {
+            "id": "price_and_safety",
+            "score": 2,
+            "current_terms": [
+              "price"
+            ],
+            "prior_terms": []
+          }
+        ],
+        "group_selection": [
+          {
+            "name": "price_and_safety",
+            "additional_contexts": [
+              "letter-1992-0074-0085",
+              "letter-1989-0156-0175",
+              "letter-1991-0031-0044"
+            ],
+            "additional_characters": 22368,
+            "selected": true,
+            "reason": "fits"
+          }
+        ]
+      }
+    },
+    {
+      "id": "N04",
+      "category": "out_of_scope_english",
+      "question": "What is the best product for dry skin?",
+      "previous_question": null,
+      "expected_support": [],
+      "expected_empty": true,
+      "basis": "No passage in the selected investing corpus provides the requested subject matter.",
+      "actual_context_ids": [
+        "letter-1992-0074-0085",
+        "letter-1996-0098-0118",
+        "meeting-2002-boundary"
+      ],
+      "source_characters": 29877,
+      "expected_results": [],
+      "missing_support": [],
+      "passed": false,
+      "outcome": "irrelevant_routing",
+      "trace": {
+        "normalized_question": "what is the best product for dry skin",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [
+          {
+            "id": "understand_business",
+            "score": 2,
+            "current_terms": [
+              "product"
+            ],
+            "prior_terms": []
+          }
+        ],
+        "group_selection": [
+          {
+            "name": "understand_business",
+            "additional_contexts": [
+              "letter-1996-0098-0118",
+              "meeting-2002-boundary",
+              "letter-1992-0074-0085"
+            ],
+            "additional_characters": 29877,
+            "selected": true,
+            "reason": "fits"
+          }
+        ]
+      }
+    },
+    {
+      "id": "N05",
+      "category": "out_of_scope_english",
+      "question": "How do I reduce the risk of catching flu?",
+      "previous_question": null,
+      "expected_support": [],
+      "expected_empty": true,
+      "basis": "No passage in the selected investing corpus provides the requested subject matter.",
+      "actual_context_ids": [
+        "letter-1992-0074-0085",
+        "letter-2000-pdf-p12-p3-through-p13-p9",
+        "cnbc-meeting-1998-afternoon-ch44"
+      ],
+      "source_characters": 19411,
+      "expected_results": [],
+      "missing_support": [],
+      "passed": false,
+      "outcome": "irrelevant_routing",
+      "trace": {
+        "normalized_question": "how do i reduce the risk of catching flu",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [
+          {
+            "id": "knowability_and_uncertainty",
+            "score": 2,
+            "current_terms": [
+              "risk"
+            ],
+            "prior_terms": []
+          }
+        ],
+        "group_selection": [
+          {
+            "name": "knowability_and_uncertainty",
+            "additional_contexts": [
+              "letter-2000-pdf-p12-p3-through-p13-p9",
+              "cnbc-meeting-1998-afternoon-ch44",
+              "letter-1992-0074-0085"
+            ],
+            "additional_characters": 19411,
+            "selected": true,
+            "reason": "fits"
+          }
+        ]
+      }
+    },
+    {
+      "id": "N06",
+      "category": "out_of_scope_english",
+      "question": "Draw a circle with radius five centimetres.",
+      "previous_question": null,
+      "expected_support": [],
+      "expected_empty": true,
+      "basis": "No passage in the selected investing corpus provides the requested subject matter.",
+      "actual_context_ids": [
+        "letter-1992-0074-0085",
+        "letter-1996-0098-0118",
+        "meeting-2002-boundary"
+      ],
+      "source_characters": 29877,
+      "expected_results": [],
+      "missing_support": [],
+      "passed": false,
+      "outcome": "irrelevant_routing",
+      "trace": {
+        "normalized_question": "draw a circle with radius five centimetres",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [
+          {
+            "id": "understand_business",
+            "score": 2,
+            "current_terms": [
+              "circle"
+            ],
+            "prior_terms": []
+          }
+        ],
+        "group_selection": [
+          {
+            "name": "understand_business",
+            "additional_contexts": [
+              "letter-1996-0098-0118",
+              "meeting-2002-boundary",
+              "letter-1992-0074-0085"
+            ],
+            "additional_characters": 29877,
+            "selected": true,
+            "reason": "fits"
+          }
+        ]
+      }
+    },
+    {
+      "id": "N07",
+      "category": "out_of_scope_english",
+      "question": "How do I build confidence for my driving test?",
+      "previous_question": null,
+      "expected_support": [],
+      "expected_empty": true,
+      "basis": "No passage in the selected investing corpus provides the requested subject matter.",
+      "actual_context_ids": [
+        "meeting-2002-boundary",
+        "meeting-2014-self-assessment"
+      ],
+      "source_characters": 16454,
+      "expected_results": [],
+      "missing_support": [],
+      "passed": false,
+      "outcome": "irrelevant_routing",
+      "trace": {
+        "normalized_question": "how do i build confidence for my driving test",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [
+          {
+            "id": "confidence_and_limits",
+            "score": 2,
+            "current_terms": [
+              "confidence"
+            ],
+            "prior_terms": []
+          }
+        ],
+        "group_selection": [
+          {
+            "name": "confidence_and_limits",
+            "additional_contexts": [
+              "meeting-2014-self-assessment",
+              "meeting-2002-boundary"
+            ],
+            "additional_characters": 16454,
+            "selected": true,
+            "reason": "fits"
+          }
+        ]
+      }
+    },
+    {
+      "id": "N08",
+      "category": "out_of_scope_english",
+      "question": "Can you explain the capital of France?",
+      "previous_question": null,
+      "expected_support": [],
+      "expected_empty": true,
+      "basis": "No passage in the selected investing corpus provides the requested subject matter.",
+      "actual_context_ids": [],
+      "source_characters": 0,
+      "expected_results": [],
+      "missing_support": [],
+      "passed": true,
+      "outcome": "pass",
+      "trace": {
+        "normalized_question": "can you explain the capital of france",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [],
+        "group_selection": []
+      }
+    },
+    {
+      "id": "N09",
+      "category": "out_of_scope_english",
+      "question": "How does plant growth respond to sunlight?",
+      "previous_question": null,
+      "expected_support": [],
+      "expected_empty": true,
+      "basis": "No passage in the selected investing corpus provides the requested subject matter.",
+      "actual_context_ids": [
+        "cnbc-meeting-1998-afternoon-ch08",
+        "letter-1991-0031-0044",
+        "letter-1991-0045-0055"
+      ],
+      "source_characters": 16111,
+      "expected_results": [],
+      "missing_support": [],
+      "passed": false,
+      "outcome": "irrelevant_routing",
+      "trace": {
+        "normalized_question": "how does plant growth respond to sunlight",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [
+          {
+            "id": "capital_reinvestment",
+            "score": 2,
+            "current_terms": [
+              "growth"
+            ],
+            "prior_terms": []
+          }
+        ],
+        "group_selection": [
+          {
+            "name": "capital_reinvestment",
+            "additional_contexts": [
+              "cnbc-meeting-1998-afternoon-ch08",
+              "letter-1991-0045-0055",
+              "letter-1991-0031-0044"
+            ],
+            "additional_characters": 16111,
+            "selected": true,
+            "reason": "fits"
+          }
+        ]
+      }
+    },
+    {
+      "id": "N10",
+      "category": "out_of_scope_english",
+      "question": "What is the discount rate for students at this museum?",
+      "previous_question": null,
+      "expected_support": [],
+      "expected_empty": true,
+      "basis": "No passage in the selected investing corpus provides the requested subject matter.",
+      "actual_context_ids": [
+        "cnbc-meeting-1994-morning-ch13",
+        "cnbc-meeting-1998-afternoon-ch08",
+        "cnbc-meeting-1998-afternoon-ch44"
+      ],
+      "source_characters": 11964,
+      "expected_results": [],
+      "missing_support": [],
+      "passed": false,
+      "outcome": "irrelevant_routing",
+      "trace": {
+        "normalized_question": "what is the discount rate for students at this museum",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [
+          {
+            "id": "discount_rate",
+            "score": 2,
+            "current_terms": [
+              "discount rate"
+            ],
+            "prior_terms": []
+          }
+        ],
+        "group_selection": [
+          {
+            "name": "discount_rate",
+            "additional_contexts": [
+              "cnbc-meeting-1994-morning-ch13",
+              "cnbc-meeting-1998-afternoon-ch08",
+              "cnbc-meeting-1998-afternoon-ch44"
+            ],
+            "additional_characters": 11964,
+            "selected": true,
+            "reason": "fits"
+          }
+        ]
+      }
+    },
+    {
+      "id": "N11",
+      "category": "out_of_scope_english",
+      "question": "How do I improve my manager in Football Manager?",
+      "previous_question": null,
+      "expected_support": [],
+      "expected_empty": true,
+      "basis": "No passage in the selected investing corpus provides the requested subject matter.",
+      "actual_context_ids": [
+        "letter-1992-0074-0085",
+        "letter-1989-0156-0175"
+      ],
+      "source_characters": 15176,
+      "expected_results": [],
+      "missing_support": [],
+      "passed": false,
+      "outcome": "irrelevant_routing",
+      "trace": {
+        "normalized_question": "how do i improve my manager in football manager",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [
+          {
+            "id": "management",
+            "score": 2,
+            "current_terms": [
+              "manager"
+            ],
+            "prior_terms": []
+          }
+        ],
+        "group_selection": [
+          {
+            "name": "management",
+            "additional_contexts": [
+              "letter-1989-0156-0175",
+              "letter-1992-0074-0085"
+            ],
+            "additional_characters": 15176,
+            "selected": true,
+            "reason": "fits"
+          }
+        ]
+      }
+    },
+    {
+      "id": "N12",
+      "category": "out_of_scope_english",
+      "question": "Find me a cheap flight to Tokyo.",
+      "previous_question": null,
+      "expected_support": [],
+      "expected_empty": true,
+      "basis": "No passage in the selected investing corpus provides the requested subject matter.",
+      "actual_context_ids": [
+        "letter-1992-0074-0085",
+        "letter-1989-0156-0175",
+        "letter-1991-0031-0044"
+      ],
+      "source_characters": 22368,
+      "expected_results": [],
+      "missing_support": [],
+      "passed": false,
+      "outcome": "irrelevant_routing",
+      "trace": {
+        "normalized_question": "find me a cheap flight to tokyo",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [
+          {
+            "id": "price_and_safety",
+            "score": 2,
+            "current_terms": [
+              "cheap"
+            ],
+            "prior_terms": []
+          }
+        ],
+        "group_selection": [
+          {
+            "name": "price_and_safety",
+            "additional_contexts": [
+              "letter-1992-0074-0085",
+              "letter-1989-0156-0175",
+              "letter-1991-0031-0044"
+            ],
+            "additional_characters": 22368,
+            "selected": true,
+            "reason": "fits"
+          }
+        ]
+      }
+    },
+    {
+      "id": "N13",
+      "category": "out_of_scope_english",
+      "question": "Give me 10 tips for baking bread.",
+      "previous_question": null,
+      "expected_support": [],
+      "expected_empty": true,
+      "basis": "No passage in the selected investing corpus provides the requested subject matter.",
+      "actual_context_ids": [
+        "cnbc-meeting-1994-morning-ch13",
+        "cnbc-meeting-1998-afternoon-ch08",
+        "cnbc-meeting-1998-afternoon-ch44"
+      ],
+      "source_characters": 11964,
+      "expected_results": [],
+      "missing_support": [],
+      "passed": false,
+      "outcome": "irrelevant_routing",
+      "trace": {
+        "normalized_question": "give me 10 tips for baking bread",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [
+          {
+            "id": "discount_rate",
+            "score": 2,
+            "current_terms": [
+              "10%"
+            ],
+            "prior_terms": []
+          }
+        ],
+        "group_selection": [
+          {
+            "name": "discount_rate",
+            "additional_contexts": [
+              "cnbc-meeting-1994-morning-ch13",
+              "cnbc-meeting-1998-afternoon-ch08",
+              "cnbc-meeting-1998-afternoon-ch44"
+            ],
+            "additional_characters": 11964,
+            "selected": true,
+            "reason": "fits"
+          }
+        ]
+      }
+    },
+    {
+      "id": "N14",
+      "category": "out_of_scope_english",
+      "question": "Translate good morning into French.",
+      "previous_question": null,
+      "expected_support": [],
+      "expected_empty": true,
+      "basis": "No passage in the selected investing corpus provides the requested subject matter.",
+      "actual_context_ids": [],
+      "source_characters": 0,
+      "expected_results": [],
+      "missing_support": [],
+      "passed": true,
+      "outcome": "pass",
+      "trace": {
+        "normalized_question": "translate good morning into french",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [],
+        "group_selection": []
+      }
+    },
+    {
+      "id": "F01",
+      "category": "continuation",
+      "question": "Why is that deduction necessary?",
+      "previous_question": "How does working capital affect owner earnings?",
+      "expected_support": [
+        "owner"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching.",
+      "actual_context_ids": [
+        "cnbc-meeting-1998-afternoon-ch08",
+        "letter-1986-0285-0297",
+        "letter-1986-0209-0210"
+      ],
+      "source_characters": 12173,
+      "expected_results": [
+        {
+          "goal": "owner",
+          "acceptable_contexts": [
+            "letter-1986-0285-0297",
+            "letter-1986-0154-0297"
+          ],
+          "found": true
+        }
+      ],
+      "missing_support": [],
+      "passed": true,
+      "outcome": "pass",
+      "trace": {
+        "normalized_question": "why is that deduction necessary",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [
+          {
+            "id": "owner_earnings",
+            "score": 2,
+            "current_terms": [],
+            "prior_terms": [
+              "owner earnings",
+              "working capital"
+            ]
+          }
+        ],
+        "group_selection": [
+          {
+            "name": "owner_earnings",
+            "additional_contexts": [
+              "letter-1986-0285-0297",
+              "letter-1986-0209-0210",
+              "cnbc-meeting-1998-afternoon-ch08"
+            ],
+            "additional_characters": 12173,
+            "selected": true,
+            "reason": "fits"
+          }
+        ]
+      }
+    },
+    {
+      "id": "F02",
+      "category": "continuation",
+      "question": "Does that still apply if unit volume stays the same?",
+      "previous_question": "How does working capital affect owner earnings?",
+      "expected_support": [
+        "owner"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching.",
+      "actual_context_ids": [
+        "cnbc-meeting-1998-afternoon-ch08",
+        "letter-1986-0285-0297",
+        "letter-1986-0209-0210"
+      ],
+      "source_characters": 12173,
+      "expected_results": [
+        {
+          "goal": "owner",
+          "acceptable_contexts": [
+            "letter-1986-0285-0297",
+            "letter-1986-0154-0297"
+          ],
+          "found": true
+        }
+      ],
+      "missing_support": [],
+      "passed": true,
+      "outcome": "pass",
+      "trace": {
+        "normalized_question": "does that still apply if unit volume stays the same",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [
+          {
+            "id": "owner_earnings",
+            "score": 2,
+            "current_terms": [],
+            "prior_terms": [
+              "owner earnings",
+              "working capital"
+            ]
+          }
+        ],
+        "group_selection": [
+          {
+            "name": "owner_earnings",
+            "additional_contexts": [
+              "letter-1986-0285-0297",
+              "letter-1986-0209-0210",
+              "cnbc-meeting-1998-afternoon-ch08"
+            ],
+            "additional_characters": 12173,
+            "selected": true,
+            "reason": "fits"
+          }
+        ]
+      }
+    },
+    {
+      "id": "F03",
+      "category": "continuation",
+      "question": "Can you give an example?",
+      "previous_question": "How do I evaluate a stock?",
+      "expected_support": [
+        "value"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching.",
+      "actual_context_ids": [
+        "letter-1992-0074-0085",
+        "letter-1991-0045-0055",
+        "letter-1986-0285-0297",
+        "letter-1986-0209-0210",
+        "letter-1991-0031-0037"
+      ],
+      "source_characters": 20734,
+      "expected_results": [
+        {
+          "goal": "value",
+          "acceptable_contexts": [
+            "letter-1992-0074-0085",
+            "letter-1994-0013-0026"
+          ],
+          "found": true
+        }
+      ],
+      "missing_support": [],
+      "passed": true,
+      "outcome": "pass",
+      "trace": {
+        "normalized_question": "can you give an example",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [
+          "evaluate a stock"
+        ],
+        "topic_hits": [],
+        "group_selection": [
+          {
+            "name": "broad_evaluation",
+            "additional_contexts": [
+              "letter-1992-0074-0085",
+              "letter-1986-0209-0210",
+              "letter-1986-0285-0297",
+              "letter-1991-0031-0037",
+              "letter-1991-0045-0055"
+            ],
+            "additional_characters": 20734,
+            "selected": true,
+            "reason": "fits"
+          }
+        ]
+      }
+    },
+    {
+      "id": "F04",
+      "category": "continuation",
+      "question": "How about receivables?",
+      "previous_question": "What are owner earnings?",
+      "expected_support": [
+        "owner"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching.",
+      "actual_context_ids": [
+        "cnbc-meeting-1998-afternoon-ch08",
+        "letter-1986-0285-0297",
+        "letter-1986-0209-0210"
+      ],
+      "source_characters": 12173,
+      "expected_results": [
+        {
+          "goal": "owner",
+          "acceptable_contexts": [
+            "letter-1986-0285-0297",
+            "letter-1986-0154-0297"
+          ],
+          "found": true
+        }
+      ],
+      "missing_support": [],
+      "passed": true,
+      "outcome": "pass",
+      "trace": {
+        "normalized_question": "how about receivables",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [
+          {
+            "id": "owner_earnings",
+            "score": 1,
+            "current_terms": [],
+            "prior_terms": [
+              "owner earnings"
+            ]
+          }
+        ],
+        "group_selection": [
+          {
+            "name": "owner_earnings",
+            "additional_contexts": [
+              "letter-1986-0285-0297",
+              "letter-1986-0209-0210",
+              "cnbc-meeting-1998-afternoon-ch08"
+            ],
+            "additional_characters": 12173,
+            "selected": true,
+            "reason": "fits"
+          }
+        ]
+      }
+    },
+    {
+      "id": "F05",
+      "category": "topic_change_outside",
+      "question": "Now change the subject: how do I bake sourdough?",
+      "previous_question": "How do I evaluate a stock?",
+      "expected_support": [],
+      "expected_empty": true,
+      "basis": "No passage in the selected investing corpus provides the requested subject matter.",
+      "actual_context_ids": [
+        "letter-1992-0074-0085",
+        "letter-1991-0045-0055",
+        "letter-1986-0285-0297",
+        "letter-1986-0209-0210",
+        "letter-1991-0031-0037"
+      ],
+      "source_characters": 20734,
+      "expected_results": [],
+      "missing_support": [],
+      "passed": false,
+      "outcome": "irrelevant_routing",
+      "trace": {
+        "normalized_question": "now change the subject how do i bake sourdough",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [
+          "evaluate a stock"
+        ],
+        "topic_hits": [],
+        "group_selection": [
+          {
+            "name": "broad_evaluation",
+            "additional_contexts": [
+              "letter-1992-0074-0085",
+              "letter-1986-0209-0210",
+              "letter-1986-0285-0297",
+              "letter-1991-0031-0037",
+              "letter-1991-0045-0055"
+            ],
+            "additional_characters": 20734,
+            "selected": true,
+            "reason": "fits"
+          }
+        ]
+      }
+    },
+    {
+      "id": "F06",
+      "category": "topic_change_outside",
+      "question": "Forget investing. What will the weather be tomorrow?",
+      "previous_question": "What are owner earnings?",
+      "expected_support": [],
+      "expected_empty": true,
+      "basis": "No passage in the selected investing corpus provides the requested subject matter.",
+      "actual_context_ids": [
+        "cnbc-meeting-1998-afternoon-ch08",
+        "letter-1986-0285-0297",
+        "letter-1986-0209-0210"
+      ],
+      "source_characters": 12173,
+      "expected_results": [],
+      "missing_support": [],
+      "passed": false,
+      "outcome": "irrelevant_routing",
+      "trace": {
+        "normalized_question": "forget investing what will the weather be tomorrow",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [
+          {
+            "id": "owner_earnings",
+            "score": 1,
+            "current_terms": [],
+            "prior_terms": [
+              "owner earnings"
+            ]
+          }
+        ],
+        "group_selection": [
+          {
+            "name": "owner_earnings",
+            "additional_contexts": [
+              "letter-1986-0285-0297",
+              "letter-1986-0209-0210",
+              "cnbc-meeting-1998-afternoon-ch08"
+            ],
+            "additional_characters": 12173,
+            "selected": true,
+            "reason": "fits"
+          }
+        ]
+      }
+    },
+    {
+      "id": "F07",
+      "category": "topic_change_inside",
+      "question": "New topic: what did Buffett instruct his wife’s trustee to do?",
+      "previous_question": "How does working capital affect owner earnings?",
+      "expected_support": [
+        "will"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching.",
+      "actual_context_ids": [
+        "cnbc-meeting-1998-afternoon-ch08",
+        "letter-1986-0285-0297",
+        "letter-1986-0209-0210"
+      ],
+      "source_characters": 12173,
+      "expected_results": [
+        {
+          "goal": "will",
+          "acceptable_contexts": [
+            "letter-2013-investing-p001-p040"
+          ],
+          "found": false
+        }
+      ],
+      "missing_support": [
+        "will"
+      ],
+      "passed": false,
+      "outcome": "nonempty_but_missing_required_support",
+      "trace": {
+        "normalized_question": "new topic what did buffett instruct his wife s trustee to do",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [
+          {
+            "id": "owner_earnings",
+            "score": 2,
+            "current_terms": [],
+            "prior_terms": [
+              "owner earnings",
+              "working capital"
+            ]
+          }
+        ],
+        "group_selection": [
+          {
+            "name": "owner_earnings",
+            "additional_contexts": [
+              "letter-1986-0285-0297",
+              "letter-1986-0209-0210",
+              "cnbc-meeting-1998-afternoon-ch08"
+            ],
+            "additional_characters": 12173,
+            "selected": true,
+            "reason": "fits"
+          }
+        ]
+      }
+    },
+    {
+      "id": "F08",
+      "category": "topic_change_inside",
+      "question": "Instead, why were the textile assets below their carrying amount?",
+      "previous_question": "Explain the circle of competence.",
+      "expected_support": [
+        "book"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching.",
+      "actual_context_ids": [
+        "letter-1992-0074-0085",
+        "letter-1996-0098-0118",
+        "meeting-2002-boundary",
+        "letter-1994-0013-0026"
+      ],
+      "source_characters": 35428,
+      "expected_results": [
+        {
+          "goal": "book",
+          "acceptable_contexts": [
+            "letter-1994-0013-0026"
+          ],
+          "found": true
+        }
+      ],
+      "missing_support": [],
+      "passed": true,
+      "outcome": "pass",
+      "trace": {
+        "normalized_question": "instead why were the textile assets below their carrying amount",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [
+          {
+            "id": "understand_business",
+            "score": 3,
+            "current_terms": [],
+            "prior_terms": [
+              "circle of competence",
+              "competence",
+              "circle"
+            ]
+          },
+          {
+            "id": "book_and_market_value",
+            "score": 2,
+            "current_terms": [
+              "textile assets"
+            ],
+            "prior_terms": []
+          }
+        ],
+        "group_selection": [
+          {
+            "name": "understand_business",
+            "additional_contexts": [
+              "letter-1996-0098-0118",
+              "meeting-2002-boundary",
+              "letter-1992-0074-0085"
+            ],
+            "additional_characters": 29877,
+            "selected": true,
+            "reason": "fits"
+          },
+          {
+            "name": "book_and_market_value",
+            "additional_contexts": [
+              "letter-1994-0013-0026"
+            ],
+            "additional_characters": 5551,
+            "selected": true,
+            "reason": "fits"
+          }
+        ]
+      }
+    },
+    {
+      "id": "F09",
+      "category": "topic_change_inside",
+      "question": "Why do executives copy their peers?",
+      "previous_question": "How do I evaluate a stock?",
+      "expected_support": [
+        "management"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching.",
+      "actual_context_ids": [
+        "letter-1992-0074-0085",
+        "letter-1991-0045-0055",
+        "letter-1986-0285-0297",
+        "letter-1986-0209-0210",
+        "letter-1991-0031-0037"
+      ],
+      "source_characters": 20734,
+      "expected_results": [
+        {
+          "goal": "management",
+          "acceptable_contexts": [
+            "letter-1989-0156-0175"
+          ],
+          "found": false
+        }
+      ],
+      "missing_support": [
+        "management"
+      ],
+      "passed": false,
+      "outcome": "nonempty_but_missing_required_support",
+      "trace": {
+        "normalized_question": "why do executives copy their peers",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [
+          "evaluate a stock"
+        ],
+        "topic_hits": [],
+        "group_selection": [
+          {
+            "name": "broad_evaluation",
+            "additional_contexts": [
+              "letter-1992-0074-0085",
+              "letter-1986-0209-0210",
+              "letter-1986-0285-0297",
+              "letter-1991-0031-0037",
+              "letter-1991-0045-0055"
+            ],
+            "additional_characters": 20734,
+            "selected": true,
+            "reason": "fits"
+          }
+        ]
+      }
+    },
+    {
+      "id": "F10",
+      "category": "topic_change_inside",
+      "question": "Now tell me the difference between a specialist and a generalist.",
+      "previous_question": "How do I evaluate a stock?",
+      "expected_support": [
+        "learning"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching.",
+      "actual_context_ids": [
+        "letter-1992-0074-0085",
+        "letter-1991-0045-0055",
+        "letter-1986-0285-0297",
+        "letter-1986-0209-0210",
+        "letter-1991-0031-0037"
+      ],
+      "source_characters": 20734,
+      "expected_results": [
+        {
+          "goal": "learning",
+          "acceptable_contexts": [
+            "meeting-2019-learning"
+          ],
+          "found": false
+        }
+      ],
+      "missing_support": [
+        "learning"
+      ],
+      "passed": false,
+      "outcome": "nonempty_but_missing_required_support",
+      "trace": {
+        "normalized_question": "now tell me the difference between a specialist and a generalist",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [
+          "evaluate a stock"
+        ],
+        "topic_hits": [],
+        "group_selection": [
+          {
+            "name": "broad_evaluation",
+            "additional_contexts": [
+              "letter-1992-0074-0085",
+              "letter-1986-0209-0210",
+              "letter-1986-0285-0297",
+              "letter-1991-0031-0037",
+              "letter-1991-0045-0055"
+            ],
+            "additional_characters": 20734,
+            "selected": true,
+            "reason": "fits"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Z01",
+      "category": "language_probe_chinese",
+      "question": "如何评估一家公司的内在价值？",
+      "previous_question": null,
+      "expected_support": [
+        "value"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching.",
+      "actual_context_ids": [],
+      "source_characters": 0,
+      "expected_results": [
+        {
+          "goal": "value",
+          "acceptable_contexts": [
+            "letter-1992-0074-0085",
+            "letter-1994-0013-0026"
+          ],
+          "found": false
+        }
+      ],
+      "missing_support": [
+        "value"
+      ],
+      "passed": false,
+      "outcome": "no_context_false_negative",
+      "trace": {
+        "normalized_question": "",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [],
+        "group_selection": []
+      }
+    },
+    {
+      "id": "Z02",
+      "category": "language_probe_chinese",
+      "question": "巴菲特如何定义能力圈？",
+      "previous_question": null,
+      "expected_support": [
+        "competence"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching.",
+      "actual_context_ids": [],
+      "source_characters": 0,
+      "expected_results": [
+        {
+          "goal": "competence",
+          "acceptable_contexts": [
+            "letter-1996-0098-0118",
+            "meeting-2002-boundary"
+          ],
+          "found": false
+        }
+      ],
+      "missing_support": [
+        "competence"
+      ],
+      "passed": false,
+      "outcome": "no_context_false_negative",
+      "trace": {
+        "normalized_question": "",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [],
+        "group_selection": []
+      }
+    },
+    {
+      "id": "Z03",
+      "category": "language_probe_chinese",
+      "question": "营运资本如何影响股东盈余？",
+      "previous_question": null,
+      "expected_support": [
+        "owner"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching.",
+      "actual_context_ids": [],
+      "source_characters": 0,
+      "expected_results": [
+        {
+          "goal": "owner",
+          "acceptable_contexts": [
+            "letter-1986-0285-0297",
+            "letter-1986-0154-0297"
+          ],
+          "found": false
+        }
+      ],
+      "missing_support": [
+        "owner"
+      ],
+      "passed": false,
+      "outcome": "no_context_false_negative",
+      "trace": {
+        "normalized_question": "",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [],
+        "group_selection": []
+      }
+    },
+    {
+      "id": "Z04",
+      "category": "language_probe_chinese",
+      "question": "我应该专精一个行业还是广泛研究？",
+      "previous_question": null,
+      "expected_support": [
+        "learning"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching.",
+      "actual_context_ids": [],
+      "source_characters": 0,
+      "expected_results": [
+        {
+          "goal": "learning",
+          "acceptable_contexts": [
+            "meeting-2019-learning"
+          ],
+          "found": false
+        }
+      ],
+      "missing_support": [
+        "learning"
+      ],
+      "passed": false,
+      "outcome": "no_context_false_negative",
+      "trace": {
+        "normalized_question": "",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [],
+        "group_selection": []
+      }
+    },
+    {
+      "id": "X01",
+      "category": "multi_topic",
+      "question": "How do I evaluate a stock, choose a discount rate, and assess whether a finance company can fund itself without Berkshire credit?",
+      "previous_question": null,
+      "expected_support": [
+        "value",
+        "rates",
+        "finance"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching.",
+      "actual_context_ids": [
+        "letter-1992-0074-0085",
+        "meeting-2002-boundary",
+        "letter-1991-0045-0055",
+        "letter-1986-0285-0297",
+        "letter-1986-0209-0210",
+        "letter-1991-0031-0037"
+      ],
+      "source_characters": 33510,
+      "expected_results": [
+        {
+          "goal": "value",
+          "acceptable_contexts": [
+            "letter-1992-0074-0085",
+            "letter-1994-0013-0026"
+          ],
+          "found": true
+        },
+        {
+          "goal": "rates",
+          "acceptable_contexts": [
+            "cnbc-meeting-1994-morning-ch13",
+            "cnbc-meeting-1998-afternoon-ch08",
+            "cnbc-meeting-1998-afternoon-ch44"
+          ],
+          "found": false
+        },
+        {
+          "goal": "finance",
+          "acceptable_contexts": [
+            "meeting-2002-boundary"
+          ],
+          "found": true
+        }
+      ],
+      "missing_support": [
+        "rates"
+      ],
+      "passed": false,
+      "outcome": "nonempty_but_missing_required_support",
+      "trace": {
+        "normalized_question": "how do i evaluate a stock choose a discount rate and assess whether a finance company can fund itself without berkshire credit",
+        "broad_direct_terms": [
+          "evaluate a stock"
+        ],
+        "broad_prior_terms": [],
+        "topic_hits": [
+          {
+            "id": "finance_dependencies",
+            "score": 4,
+            "current_terms": [
+              "finance company",
+              "berkshire credit"
+            ],
+            "prior_terms": []
+          },
+          {
+            "id": "discount_rate",
+            "score": 2,
+            "current_terms": [
+              "discount rate"
+            ],
+            "prior_terms": []
+          }
+        ],
+        "group_selection": [
+          {
+            "name": "broad_evaluation",
+            "additional_contexts": [
+              "letter-1992-0074-0085",
+              "letter-1986-0209-0210",
+              "letter-1986-0285-0297",
+              "letter-1991-0031-0037",
+              "letter-1991-0045-0055"
+            ],
+            "additional_characters": 20734,
+            "selected": true,
+            "reason": "fits"
+          },
+          {
+            "name": "finance_dependencies",
+            "additional_contexts": [
+              "meeting-2002-boundary"
+            ],
+            "additional_characters": 12776,
+            "selected": true,
+            "reason": "fits"
+          },
+          {
+            "name": "discount_rate",
+            "additional_contexts": [
+              "cnbc-meeting-1994-morning-ch13",
+              "cnbc-meeting-1998-afternoon-ch08",
+              "cnbc-meeting-1998-afternoon-ch44"
+            ],
+            "additional_characters": 11964,
+            "selected": false,
+            "reason": "entire_group_skipped_by_count_or_character_limit"
+          }
+        ]
+      }
+    },
+    {
+      "id": "X02",
+      "category": "multi_topic",
+      "question": "Explain Scott Fetzer purchase accounting, owner earnings, and discount rates.",
+      "previous_question": null,
+      "expected_support": [
+        "accounting",
+        "owner",
+        "rates"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching.",
+      "actual_context_ids": [
+        "letter-1986-0154-0297",
+        "cnbc-meeting-1998-afternoon-ch08",
+        "letter-1986-0285-0297",
+        "letter-1986-0209-0210"
+      ],
+      "source_characters": 26987,
+      "expected_results": [
+        {
+          "goal": "accounting",
+          "acceptable_contexts": [
+            "letter-1986-0154-0297"
+          ],
+          "found": true
+        },
+        {
+          "goal": "owner",
+          "acceptable_contexts": [
+            "letter-1986-0285-0297",
+            "letter-1986-0154-0297"
+          ],
+          "found": true
+        },
+        {
+          "goal": "rates",
+          "acceptable_contexts": [
+            "cnbc-meeting-1994-morning-ch13",
+            "cnbc-meeting-1998-afternoon-ch08",
+            "cnbc-meeting-1998-afternoon-ch44"
+          ],
+          "found": true
+        }
+      ],
+      "missing_support": [],
+      "passed": true,
+      "outcome": "pass",
+      "trace": {
+        "normalized_question": "explain scott fetzer purchase accounting owner earnings and discount rates",
+        "broad_direct_terms": [],
+        "broad_prior_terms": [],
+        "topic_hits": [
+          {
+            "id": "owner_accounting_detail",
+            "score": 4,
+            "current_terms": [
+              "scott fetzer",
+              "purchase accounting"
+            ],
+            "prior_terms": []
+          },
+          {
+            "id": "owner_earnings",
+            "score": 2,
+            "current_terms": [
+              "owner earnings"
+            ],
+            "prior_terms": []
+          }
+        ],
+        "group_selection": [
+          {
+            "name": "owner_accounting_detail",
+            "additional_contexts": [
+              "letter-1986-0154-0297"
+            ],
+            "additional_characters": 14814,
+            "selected": true,
+            "reason": "fits"
+          },
+          {
+            "name": "owner_earnings",
+            "additional_contexts": [
+              "letter-1986-0285-0297",
+              "letter-1986-0209-0210",
+              "cnbc-meeting-1998-afternoon-ch08"
+            ],
+            "additional_characters": 12173,
+            "selected": true,
+            "reason": "fits"
+          }
+        ]
+      }
+    },
+    {
+      "id": "X03",
+      "category": "multi_topic",
+      "question": "How do I evaluate a stock and know whether my confidence was misplaced in retail?",
+      "previous_question": null,
+      "expected_support": [
+        "value",
+        "confidence"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching.",
+      "actual_context_ids": [
+        "letter-1992-0074-0085",
+        "meeting-2002-boundary",
+        "meeting-2014-self-assessment",
+        "letter-1991-0045-0055",
+        "letter-1986-0285-0297",
+        "letter-1986-0209-0210",
+        "letter-1991-0031-0037"
+      ],
+      "source_characters": 37188,
+      "expected_results": [
+        {
+          "goal": "value",
+          "acceptable_contexts": [
+            "letter-1992-0074-0085",
+            "letter-1994-0013-0026"
+          ],
+          "found": true
+        },
+        {
+          "goal": "confidence",
+          "acceptable_contexts": [
+            "meeting-2014-self-assessment"
+          ],
+          "found": true
+        }
+      ],
+      "missing_support": [],
+      "passed": true,
+      "outcome": "pass",
+      "trace": {
+        "normalized_question": "how do i evaluate a stock and know whether my confidence was misplaced in retail",
+        "broad_direct_terms": [
+          "evaluate a stock"
+        ],
+        "broad_prior_terms": [],
+        "topic_hits": [
+          {
+            "id": "confidence_and_limits",
+            "score": 2,
+            "current_terms": [
+              "confidence"
+            ],
+            "prior_terms": []
+          }
+        ],
+        "group_selection": [
+          {
+            "name": "broad_evaluation",
+            "additional_contexts": [
+              "letter-1992-0074-0085",
+              "letter-1986-0209-0210",
+              "letter-1986-0285-0297",
+              "letter-1991-0031-0037",
+              "letter-1991-0045-0055"
+            ],
+            "additional_characters": 20734,
+            "selected": true,
+            "reason": "fits"
+          },
+          {
+            "name": "confidence_and_limits",
+            "additional_contexts": [
+              "meeting-2014-self-assessment",
+              "meeting-2002-boundary"
+            ],
+            "additional_characters": 16454,
+            "selected": true,
+            "reason": "fits"
+          }
+        ]
+      }
+    }
+  ]
+}

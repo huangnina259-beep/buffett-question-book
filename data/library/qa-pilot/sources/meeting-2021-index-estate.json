@@ -1,0 +1,1973 @@
+{
+  "id": "meeting-2021-index-estate",
+  "source_id": "cnbc-meeting-2021-part-1",
+  "source_unit_ids": [
+    "cnbc-meeting-2021-part-1-ch12",
+    "cnbc-meeting-2021-part-1-ch13"
+  ],
+  "title": "S&P 500, Berkshire and the bequest for Buffett’s wife",
+  "title_kind": "Editorial grouping of two complete consecutive publisher chapters",
+  "event_date": "2021-05-01",
+  "date_basis": {
+    "kind": "publisher_event_landing_description",
+    "anchor": "(May 1, 2021)",
+    "source_url": "https://buffett.cnbc.com/2021-berkshire-hathaway-annual-meeting/",
+    "source_raw_sha256": "4b008e4c655cb8f2888ffe1bf943afc4758f291fbf51507d7919ed792c7aa6f3"
+  },
+  "source_url": "https://buffett.cnbc.com/video/2021/05/03/part-1---2019-berkshire-hathaway-annual-meeting.html",
+  "source_url_note": "The archived publisher URL contains a 2019 slug and a May 3 upload path. Event date follows the verified publisher event-landing evidence, not the URL slug.",
+  "source_raw_path": "meetings/raw/cnbc-meeting-2021-part-1.html",
+  "source_raw_absolute_path": "/Users/nina/Documents/Codex/2026-10-31/buffett-knowledge/outputs/巴菲特知识库/meetings/raw/cnbc-meeting-2021-part-1.html",
+  "source_raw_sha256": "a795e9b13faee23362223d3e98cdc5cdba8735c523e26e101959ef43990a9d27",
+  "source_units_path": "meetings/text_units/cnbc-meeting-2021-part-1.json",
+  "source_units_sha256": "fbffa12ea764c995292bcb05bc74526821b083c25889ac05123ceef8426c7059",
+  "boundary": "Complete publisher chapters 12 and 13. Chapter 13 explicitly introduces a follow-up to chapter 12. Includes the shareholder questions, Munger’s separate preference, Buffett’s general investor qualification and estate-specific explanation.",
+  "locator": {
+    "session": "part-1",
+    "chapter_numbers": [
+      12,
+      13
+    ],
+    "start_seconds": 2629,
+    "end_seconds": 2945,
+    "timestamp_status": "publisher_metadata_not_audio_verified"
+  },
+  "original_units": [
+    {
+      "id": "cnbc-meeting-2021-part-1-ch12",
+      "source_id": "cnbc-meeting-2021-part-1",
+      "unit_type": "publisher_chapter",
+      "title": "12. Why Buffett doesnât recommend buying Berkshire stock",
+      "title_kind": "publisher_editorial",
+      "source_url": "https://buffett.cnbc.com/video/2021/05/03/part-1---2019-berkshire-hathaway-annual-meeting.html",
+      "event_year": 2021,
+      "event_date": "2021-05-01",
+      "text": "BECKY QUICK: This question comes from a long-term shareholder who's been here for more than 25 years. His name's Ben Knoll. He's from Minneapolis, Minnesota.\n\nAnd he says, \"Mr. Munger and Mr. Buffett, after a 15-year period of market underperformance, you're cautious about predicting Berkshire being able to outperform the market in the future.\n\n\"Given this, what do you see as the arguments for long-time shareholders to continue holding their stock versus diversifying their risk across an index?\"\n\nWARREN BUFFETT: Charlie, you want to answer that?\n\nCHARLIE MUNGER: Well, sure. Well, I personally prefer holding Berkshire to holding the market, so â\n\nBECKY QUICK: Because?\n\nCHARLIE MUNGER: I'm quite comfortable holding Berkshire. I like â I think our businesses are better than the average in the market.\n\nBECKY QUICK: Is it because you don't think the market values it fairly?\n\nCHARLIE MUNGER: Well, these are just accidents of history and things are fluctuating at all times.\n\nBut on a composite basis, I'd bet on Berkshire over the market. And that's assuming we're all dead.\n\nWARREN BUFFETT: B, I recommend â I recommend the S&P 500 index fund â and I have for a long, long time â to people.\n\nAnd I've never recommended Berkshire to anybody. Because I don't want people to buy it because they think (laughs) I'm tipping them into some â never. I mean, no matter what it was selling for.\n\nAnd, you know â I've made it public, you know â on my death, there's a fund for my then-widow, and 90% will go into an S&P 500 index fund and 10% in Treasury bills.\n\nOn the other hand, I'm very happy having my future contributions to a group of charities, thatâll be spread over 12 years or so after my death, to stay in Berkshire.\n\nI think the odds are â Berkshire is â you know, I like it, but I'm not â\n\nI do not think the average person can pick stocks. We happen to have a large group of people that didn't pick stocks, but they picked Charlie and me to manage money for them 50 or 60 years ago.\n\nAnd so we have a very unusual group of shareholders, I think, who look at Berkshire as a lifetime savings vehicle, and one they don't have to think about, and one that, you know, if they don't look at it again for 10 or 20 years, that will have taken care of their money reasonably well.\n\nBut that â I wouldn't argue that the S&P 500, over time â I would â I prefer â I like Berkshire.\n\nBut I think that the â a person who doesn't know anything about stocks at all and doesn't have any special feelings about Berkshire, I think they ought to buy the S&P 500 index.",
+      "reading_text": "BECKY QUICK: This question comes from a long-term shareholder who's been here for more than 25 years. His name's Ben Knoll. He's from Minneapolis, Minnesota.\n\nAnd he says, \"Mr. Munger and Mr. Buffett, after a 15-year period of market underperformance, you're cautious about predicting Berkshire being able to outperform the market in the future.\n\n\"Given this, what do you see as the arguments for long-time shareholders to continue holding their stock versus diversifying their risk across an index?\"\n\nWARREN BUFFETT: Charlie, you want to answer that?\n\nCHARLIE MUNGER: Well, sure. Well, I personally prefer holding Berkshire to holding the market, so —\n\nBECKY QUICK: Because?\n\nCHARLIE MUNGER: I'm quite comfortable holding Berkshire. I like — I think our businesses are better than the average in the market.\n\nBECKY QUICK: Is it because you don't think the market values it fairly?\n\nCHARLIE MUNGER: Well, these are just accidents of history and things are fluctuating at all times.\n\nBut on a composite basis, I'd bet on Berkshire over the market. And that's assuming we're all dead.\n\nWARREN BUFFETT: B, I recommend — I recommend the S&P 500 index fund — and I have for a long, long time — to people.\n\nAnd I've never recommended Berkshire to anybody. Because I don't want people to buy it because they think (laughs) I'm tipping them into some — never. I mean, no matter what it was selling for.\n\nAnd, you know — I've made it public, you know — on my death, there's a fund for my then-widow, and 90% will go into an S&P 500 index fund and 10% in Treasury bills.\n\nOn the other hand, I'm very happy having my future contributions to a group of charities, that’ll be spread over 12 years or so after my death, to stay in Berkshire.\n\nI think the odds are — Berkshire is — you know, I like it, but I'm not —\n\nI do not think the average person can pick stocks. We happen to have a large group of people that didn't pick stocks, but they picked Charlie and me to manage money for them 50 or 60 years ago.\n\nAnd so we have a very unusual group of shareholders, I think, who look at Berkshire as a lifetime savings vehicle, and one they don't have to think about, and one that, you know, if they don't look at it again for 10 or 20 years, that will have taken care of their money reasonably well.\n\nBut that — I wouldn't argue that the S&P 500, over time — I would — I prefer — I like Berkshire.\n\nBut I think that the — a person who doesn't know anything about stocks at all and doesn't have any special feelings about Berkshire, I think they ought to buy the S&P 500 index.",
+      "paragraphs": [
+        {
+          "text_as_received": "BECKY QUICK: This question comes from a long-term shareholder who's been here for more than 25 years. His name's Ben Knoll. He's from Minneapolis, Minnesota.",
+          "publisher_attributes": {
+            "data-speaker": "",
+            "class": "ChapterParagraph-chapterParagraphSpeaker"
+          },
+          "id": "cnbc-meeting-2021-part-1-ch12-p001",
+          "paragraph_index": 1,
+          "reading_text": "BECKY QUICK: This question comes from a long-term shareholder who's been here for more than 25 years. His name's Ben Knoll. He's from Minneapolis, Minnesota.",
+          "reversible_encoding_repairs": [],
+          "text_sha256": "69573425fae74f5d082f29a7b74972398a3bc68e8101adbfdfa830495ca21e22",
+          "speaker_label": "BECKY QUICK",
+          "speaker_name_label": "BECKY QUICK",
+          "speaker_label_kind": "speaker_or_role_label",
+          "contextual_speaker_label": "BECKY QUICK",
+          "canonical_speaker": "Becky Quick",
+          "candidate_speaker": "Becky Quick",
+          "attribution_basis": "explicit_text_label",
+          "locator": {
+            "chapter_number": 12,
+            "paragraph_index": 1,
+            "selector": "div.Chapter-chapter p[data-speaker]"
+          },
+          "semantic_review": "not_performed",
+          "audio_checked": false
+        },
+        {
+          "text_as_received": "And he says, \"Mr. Munger and Mr. Buffett, after a 15-year period of market underperformance, you're cautious about predicting Berkshire being able to outperform the market in the future.",
+          "publisher_attributes": {
+            "data-speaker": "",
+            "class": ""
+          },
+          "id": "cnbc-meeting-2021-part-1-ch12-p002",
+          "paragraph_index": 2,
+          "reading_text": "And he says, \"Mr. Munger and Mr. Buffett, after a 15-year period of market underperformance, you're cautious about predicting Berkshire being able to outperform the market in the future.",
+          "reversible_encoding_repairs": [],
+          "text_sha256": "9a485f3b89982f5da4858c48278d9e09284c8f859b090a6e01aec9f0f00a1181",
+          "speaker_label": null,
+          "speaker_name_label": null,
+          "speaker_label_kind": null,
+          "contextual_speaker_label": "BECKY QUICK",
+          "canonical_speaker": null,
+          "candidate_speaker": "Becky Quick",
+          "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+          "locator": {
+            "chapter_number": 12,
+            "paragraph_index": 2,
+            "selector": "div.Chapter-chapter p[data-speaker]"
+          },
+          "semantic_review": "not_performed",
+          "audio_checked": false
+        },
+        {
+          "text_as_received": "\"Given this, what do you see as the arguments for long-time shareholders to continue holding their stock versus diversifying their risk across an index?\"",
+          "publisher_attributes": {
+            "data-speaker": "",
+            "class": ""
+          },
+          "id": "cnbc-meeting-2021-part-1-ch12-p003",
+          "paragraph_index": 3,
+          "reading_text": "\"Given this, what do you see as the arguments for long-time shareholders to continue holding their stock versus diversifying their risk across an index?\"",
+          "reversible_encoding_repairs": [],
+          "text_sha256": "0b25fddb421b51de1757e185760e127a7ed58935992453262618e2b6ec96d783",
+          "speaker_label": null,
+          "speaker_name_label": null,
+          "speaker_label_kind": null,
+          "contextual_speaker_label": "BECKY QUICK",
+          "canonical_speaker": null,
+          "candidate_speaker": "Becky Quick",
+          "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+          "locator": {
+            "chapter_number": 12,
+            "paragraph_index": 3,
+            "selector": "div.Chapter-chapter p[data-speaker]"
+          },
+          "semantic_review": "not_performed",
+          "audio_checked": false
+        },
+        {
+          "text_as_received": "WARREN BUFFETT: Charlie, you want to answer that?",
+          "publisher_attributes": {
+            "data-speaker": "",
+            "class": ""
+          },
+          "id": "cnbc-meeting-2021-part-1-ch12-p004",
+          "paragraph_index": 4,
+          "reading_text": "WARREN BUFFETT: Charlie, you want to answer that?",
+          "reversible_encoding_repairs": [],
+          "text_sha256": "740c3c9a7aab38bf9aa98413951500c42d22f8ea00dfc1a2b80a142bfe72393c",
+          "speaker_label": "WARREN BUFFETT",
+          "speaker_name_label": "WARREN BUFFETT",
+          "speaker_label_kind": "speaker_or_role_label",
+          "contextual_speaker_label": "WARREN BUFFETT",
+          "canonical_speaker": "Warren Buffett",
+          "candidate_speaker": "Warren Buffett",
+          "attribution_basis": "explicit_text_label",
+          "locator": {
+            "chapter_number": 12,
+            "paragraph_index": 4,
+            "selector": "div.Chapter-chapter p[data-speaker]"
+          },
+          "semantic_review": "not_performed",
+          "audio_checked": false
+        },
+        {
+          "text_as_received": "CHARLIE MUNGER: Well, sure. Well, I personally prefer holding Berkshire to holding the market, so â",
+          "publisher_attributes": {
+            "data-speaker": "",
+            "class": ""
+          },
+          "id": "cnbc-meeting-2021-part-1-ch12-p005",
+          "paragraph_index": 5,
+          "reading_text": "CHARLIE MUNGER: Well, sure. Well, I personally prefer holding Berkshire to holding the market, so —",
+          "reversible_encoding_repairs": [
+            {
+              "before": "â",
+              "after": "—",
+              "roundtrip_codec": "latin-1"
+            }
+          ],
+          "text_sha256": "e9e3152b58d52362e1d5bc007bcd4d44e0b473a1d3af8577e590677036377269",
+          "speaker_label": "CHARLIE MUNGER",
+          "speaker_name_label": "CHARLIE MUNGER",
+          "speaker_label_kind": "speaker_or_role_label",
+          "contextual_speaker_label": "CHARLIE MUNGER",
+          "canonical_speaker": "Charlie Munger",
+          "candidate_speaker": "Charlie Munger",
+          "attribution_basis": "explicit_text_label",
+          "locator": {
+            "chapter_number": 12,
+            "paragraph_index": 5,
+            "selector": "div.Chapter-chapter p[data-speaker]"
+          },
+          "semantic_review": "not_performed",
+          "audio_checked": false
+        },
+        {
+          "text_as_received": "BECKY QUICK: Because?",
+          "publisher_attributes": {
+            "data-speaker": "",
+            "class": ""
+          },
+          "id": "cnbc-meeting-2021-part-1-ch12-p006",
+          "paragraph_index": 6,
+          "reading_text": "BECKY QUICK: Because?",
+          "reversible_encoding_repairs": [],
+          "text_sha256": "417b4f2a434ab06c1f33cae421cfd9bd64ccc2b3ca9e13f344ad21e1dd1cee9f",
+          "speaker_label": "BECKY QUICK",
+          "speaker_name_label": "BECKY QUICK",
+          "speaker_label_kind": "speaker_or_role_label",
+          "contextual_speaker_label": "BECKY QUICK",
+          "canonical_speaker": "Becky Quick",
+          "candidate_speaker": "Becky Quick",
+          "attribution_basis": "explicit_text_label",
+          "locator": {
+            "chapter_number": 12,
+            "paragraph_index": 6,
+            "selector": "div.Chapter-chapter p[data-speaker]"
+          },
+          "semantic_review": "not_performed",
+          "audio_checked": false
+        },
+        {
+          "text_as_received": "CHARLIE MUNGER: I'm quite comfortable holding Berkshire. I like â I think our businesses are better than the average in the market.",
+          "publisher_attributes": {
+            "data-speaker": "",
+            "class": ""
+          },
+          "id": "cnbc-meeting-2021-part-1-ch12-p007",
+          "paragraph_index": 7,
+          "reading_text": "CHARLIE MUNGER: I'm quite comfortable holding Berkshire. I like — I think our businesses are better than the average in the market.",
+          "reversible_encoding_repairs": [
+            {
+              "before": "â",
+              "after": "—",
+              "roundtrip_codec": "latin-1"
+            }
+          ],
+          "text_sha256": "c3028507ded87ad2f8c4ef9140e1fd690989afe092705d41f80358f6984e3f98",
+          "speaker_label": "CHARLIE MUNGER",
+          "speaker_name_label": "CHARLIE MUNGER",
+          "speaker_label_kind": "speaker_or_role_label",
+          "contextual_speaker_label": "CHARLIE MUNGER",
+          "canonical_speaker": "Charlie Munger",
+          "candidate_speaker": "Charlie Munger",
+          "attribution_basis": "explicit_text_label",
+          "locator": {
+            "chapter_number": 12,
+            "paragraph_index": 7,
+            "selector": "div.Chapter-chapter p[data-speaker]"
+          },
+          "semantic_review": "not_performed",
+          "audio_checked": false
+        },
+        {
+          "text_as_received": "BECKY QUICK: Is it because you don't think the market values it fairly?",
+          "publisher_attributes": {
+            "data-speaker": "",
+            "class": ""
+          },
+          "id": "cnbc-meeting-2021-part-1-ch12-p008",
+          "paragraph_index": 8,
+          "reading_text": "BECKY QUICK: Is it because you don't think the market values it fairly?",
+          "reversible_encoding_repairs": [],
+          "text_sha256": "b917a8384fc8709f73bdaf6ad64e5b76c993a1ce3b574191ba1ef7c7fa909c04",
+          "speaker_label": "BECKY QUICK",
+          "speaker_name_label": "BECKY QUICK",
+          "speaker_label_kind": "speaker_or_role_label",
+          "contextual_speaker_label": "BECKY QUICK",
+          "canonical_speaker": "Becky Quick",
+          "candidate_speaker": "Becky Quick",
+          "attribution_basis": "explicit_text_label",
+          "locator": {
+            "chapter_number": 12,
+            "paragraph_index": 8,
+            "selector": "div.Chapter-chapter p[data-speaker]"
+          },
+          "semantic_review": "not_performed",
+          "audio_checked": false
+        },
+        {
+          "text_as_received": "CHARLIE MUNGER: Well, these are just accidents of history and things are fluctuating at all times.",
+          "publisher_attributes": {
+            "data-speaker": "",
+            "class": ""
+          },
+          "id": "cnbc-meeting-2021-part-1-ch12-p009",
+          "paragraph_index": 9,
+          "reading_text": "CHARLIE MUNGER: Well, these are just accidents of history and things are fluctuating at all times.",
+          "reversible_encoding_repairs": [],
+          "text_sha256": "df960f5c95c918c3ff118b59a13a81591733a21a3d7cecdfa7c1e440a9beeb4d",
+          "speaker_label": "CHARLIE MUNGER",
+          "speaker_name_label": "CHARLIE MUNGER",
+          "speaker_label_kind": "speaker_or_role_label",
+          "contextual_speaker_label": "CHARLIE MUNGER",
+          "canonical_speaker": "Charlie Munger",
+          "candidate_speaker": "Charlie Munger",
+          "attribution_basis": "explicit_text_label",
+          "locator": {
+            "chapter_number": 12,
+            "paragraph_index": 9,
+            "selector": "div.Chapter-chapter p[data-speaker]"
+          },
+          "semantic_review": "not_performed",
+          "audio_checked": false
+        },
+        {
+          "text_as_received": "But on a composite basis, I'd bet on Berkshire over the market. And that's assuming we're all dead.",
+          "publisher_attributes": {
+            "data-speaker": "",
+            "class": ""
+          },
+          "id": "cnbc-meeting-2021-part-1-ch12-p010",
+          "paragraph_index": 10,
+          "reading_text": "But on a composite basis, I'd bet on Berkshire over the market. And that's assuming we're all dead.",
+          "reversible_encoding_repairs": [],
+          "text_sha256": "624e8f8bf890e8e9e352d415becdd70f11c545717486488a4741c5fc61cc80a4",
+          "speaker_label": null,
+          "speaker_name_label": null,
+          "speaker_label_kind": null,
+          "contextual_speaker_label": "CHARLIE MUNGER",
+          "canonical_speaker": null,
+          "candidate_speaker": "Charlie Munger",
+          "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+          "locator": {
+            "chapter_number": 12,
+            "paragraph_index": 10,
+            "selector": "div.Chapter-chapter p[data-speaker]"
+          },
+          "semantic_review": "not_performed",
+          "audio_checked": false
+        },
+        {
+          "text_as_received": "WARREN BUFFETT: B, I recommend â I recommend the S&P 500 index fund â and I have for a long, long time â to people.",
+          "publisher_attributes": {
+            "data-speaker": "",
+            "class": ""
+          },
+          "id": "cnbc-meeting-2021-part-1-ch12-p011",
+          "paragraph_index": 11,
+          "reading_text": "WARREN BUFFETT: B, I recommend — I recommend the S&P 500 index fund — and I have for a long, long time — to people.",
+          "reversible_encoding_repairs": [
+            {
+              "before": "â",
+              "after": "—",
+              "roundtrip_codec": "latin-1"
+            },
+            {
+              "before": "â",
+              "after": "—",
+              "roundtrip_codec": "latin-1"
+            },
+            {
+              "before": "â",
+              "after": "—",
+              "roundtrip_codec": "latin-1"
+            }
+          ],
+          "text_sha256": "acf1121c26a4a83597c73164b8d4ef75639dbe35207d29fa06dbbc9797ca5cdc",
+          "speaker_label": "WARREN BUFFETT",
+          "speaker_name_label": "WARREN BUFFETT",
+          "speaker_label_kind": "speaker_or_role_label",
+          "contextual_speaker_label": "WARREN BUFFETT",
+          "canonical_speaker": "Warren Buffett",
+          "candidate_speaker": "Warren Buffett",
+          "attribution_basis": "explicit_text_label",
+          "locator": {
+            "chapter_number": 12,
+            "paragraph_index": 11,
+            "selector": "div.Chapter-chapter p[data-speaker]"
+          },
+          "semantic_review": "not_performed",
+          "audio_checked": false
+        },
+        {
+          "text_as_received": "And I've never recommended Berkshire to anybody. Because I don't want people to buy it because they think (laughs) I'm tipping them into some â never. I mean, no matter what it was selling for.",
+          "publisher_attributes": {
+            "data-speaker": "",
+            "class": ""
+          },
+          "id": "cnbc-meeting-2021-part-1-ch12-p012",
+          "paragraph_index": 12,
+          "reading_text": "And I've never recommended Berkshire to anybody. Because I don't want people to buy it because they think (laughs) I'm tipping them into some — never. I mean, no matter what it was selling for.",
+          "reversible_encoding_repairs": [
+            {
+              "before": "â",
+              "after": "—",
+              "roundtrip_codec": "latin-1"
+            }
+          ],
+          "text_sha256": "607bb54a34bae0d76b9fe891234a21f9195376567eec8c75ac72bcf216db59a2",
+          "speaker_label": null,
+          "speaker_name_label": null,
+          "speaker_label_kind": null,
+          "contextual_speaker_label": "WARREN BUFFETT",
+          "canonical_speaker": null,
+          "candidate_speaker": "Warren Buffett",
+          "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+          "locator": {
+            "chapter_number": 12,
+            "paragraph_index": 12,
+            "selector": "div.Chapter-chapter p[data-speaker]"
+          },
+          "semantic_review": "not_performed",
+          "audio_checked": false
+        },
+        {
+          "text_as_received": "And, you know â I've made it public, you know â on my death, there's a fund for my then-widow, and 90% will go into an S&P 500 index fund and 10% in Treasury bills.",
+          "publisher_attributes": {
+            "data-speaker": "",
+            "class": ""
+          },
+          "id": "cnbc-meeting-2021-part-1-ch12-p013",
+          "paragraph_index": 13,
+          "reading_text": "And, you know — I've made it public, you know — on my death, there's a fund for my then-widow, and 90% will go into an S&P 500 index fund and 10% in Treasury bills.",
+          "reversible_encoding_repairs": [
+            {
+              "before": "â",
+              "after": "—",
+              "roundtrip_codec": "latin-1"
+            },
+            {
+              "before": "â",
+              "after": "—",
+              "roundtrip_codec": "latin-1"
+            }
+          ],
+          "text_sha256": "b0a32d81d658e408be04af518ed0e428279c06209c818559bdfb5d7169db38c5",
+          "speaker_label": null,
+          "speaker_name_label": null,
+          "speaker_label_kind": null,
+          "contextual_speaker_label": "WARREN BUFFETT",
+          "canonical_speaker": null,
+          "candidate_speaker": "Warren Buffett",
+          "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+          "locator": {
+            "chapter_number": 12,
+            "paragraph_index": 13,
+            "selector": "div.Chapter-chapter p[data-speaker]"
+          },
+          "semantic_review": "not_performed",
+          "audio_checked": false
+        },
+        {
+          "text_as_received": "On the other hand, I'm very happy having my future contributions to a group of charities, thatâll be spread over 12 years or so after my death, to stay in Berkshire.",
+          "publisher_attributes": {
+            "data-speaker": "",
+            "class": ""
+          },
+          "id": "cnbc-meeting-2021-part-1-ch12-p014",
+          "paragraph_index": 14,
+          "reading_text": "On the other hand, I'm very happy having my future contributions to a group of charities, that’ll be spread over 12 years or so after my death, to stay in Berkshire.",
+          "reversible_encoding_repairs": [
+            {
+              "before": "â",
+              "after": "’",
+              "roundtrip_codec": "latin-1"
+            }
+          ],
+          "text_sha256": "982f7255760b0b7e591b6fa9099a6548abaf3744cbf7b553239cbe398e46033e",
+          "speaker_label": null,
+          "speaker_name_label": null,
+          "speaker_label_kind": null,
+          "contextual_speaker_label": "WARREN BUFFETT",
+          "canonical_speaker": null,
+          "candidate_speaker": "Warren Buffett",
+          "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+          "locator": {
+            "chapter_number": 12,
+            "paragraph_index": 14,
+            "selector": "div.Chapter-chapter p[data-speaker]"
+          },
+          "semantic_review": "not_performed",
+          "audio_checked": false
+        },
+        {
+          "text_as_received": "I think the odds are â Berkshire is â you know, I like it, but I'm not â",
+          "publisher_attributes": {
+            "data-speaker": "",
+            "class": ""
+          },
+          "id": "cnbc-meeting-2021-part-1-ch12-p015",
+          "paragraph_index": 15,
+          "reading_text": "I think the odds are — Berkshire is — you know, I like it, but I'm not —",
+          "reversible_encoding_repairs": [
+            {
+              "before": "â",
+              "after": "—",
+              "roundtrip_codec": "latin-1"
+            },
+            {
+              "before": "â",
+              "after": "—",
+              "roundtrip_codec": "latin-1"
+            },
+            {
+              "before": "â",
+              "after": "—",
+              "roundtrip_codec": "latin-1"
+            }
+          ],
+          "text_sha256": "32e2a6e114d7659818e83f0dc618707b99b4ebbfab591108e7014fd0f8610611",
+          "speaker_label": null,
+          "speaker_name_label": null,
+          "speaker_label_kind": null,
+          "contextual_speaker_label": "WARREN BUFFETT",
+          "canonical_speaker": null,
+          "candidate_speaker": "Warren Buffett",
+          "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+          "locator": {
+            "chapter_number": 12,
+            "paragraph_index": 15,
+            "selector": "div.Chapter-chapter p[data-speaker]"
+          },
+          "semantic_review": "not_performed",
+          "audio_checked": false
+        },
+        {
+          "text_as_received": "I do not think the average person can pick stocks. We happen to have a large group of people that didn't pick stocks, but they picked Charlie and me to manage money for them 50 or 60 years ago.",
+          "publisher_attributes": {
+            "data-speaker": "",
+            "class": ""
+          },
+          "id": "cnbc-meeting-2021-part-1-ch12-p016",
+          "paragraph_index": 16,
+          "reading_text": "I do not think the average person can pick stocks. We happen to have a large group of people that didn't pick stocks, but they picked Charlie and me to manage money for them 50 or 60 years ago.",
+          "reversible_encoding_repairs": [],
+          "text_sha256": "7bb493d339f5d6ef8cdf0c1cf5d5d01a47b9b1974b77e0c4940bd20b71fae8e0",
+          "speaker_label": null,
+          "speaker_name_label": null,
+          "speaker_label_kind": null,
+          "contextual_speaker_label": "WARREN BUFFETT",
+          "canonical_speaker": null,
+          "candidate_speaker": "Warren Buffett",
+          "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+          "locator": {
+            "chapter_number": 12,
+            "paragraph_index": 16,
+            "selector": "div.Chapter-chapter p[data-speaker]"
+          },
+          "semantic_review": "not_performed",
+          "audio_checked": false
+        },
+        {
+          "text_as_received": "And so we have a very unusual group of shareholders, I think, who look at Berkshire as a lifetime savings vehicle, and one they don't have to think about, and one that, you know, if they don't look at it again for 10 or 20 years, that will have taken care of their money reasonably well.",
+          "publisher_attributes": {
+            "data-speaker": "",
+            "class": ""
+          },
+          "id": "cnbc-meeting-2021-part-1-ch12-p017",
+          "paragraph_index": 17,
+          "reading_text": "And so we have a very unusual group of shareholders, I think, who look at Berkshire as a lifetime savings vehicle, and one they don't have to think about, and one that, you know, if they don't look at it again for 10 or 20 years, that will have taken care of their money reasonably well.",
+          "reversible_encoding_repairs": [],
+          "text_sha256": "112e6fe058fe7ffc096ba0eb48a3778fc904a3255e2c10204ed95e886363c3cd",
+          "speaker_label": null,
+          "speaker_name_label": null,
+          "speaker_label_kind": null,
+          "contextual_speaker_label": "WARREN BUFFETT",
+          "canonical_speaker": null,
+          "candidate_speaker": "Warren Buffett",
+          "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+          "locator": {
+            "chapter_number": 12,
+            "paragraph_index": 17,
+            "selector": "div.Chapter-chapter p[data-speaker]"
+          },
+          "semantic_review": "not_performed",
+          "audio_checked": false
+        },
+        {
+          "text_as_received": "But that â I wouldn't argue that the S&P 500, over time â I would â I prefer â I like Berkshire.",
+          "publisher_attributes": {
+            "data-speaker": "",
+            "class": ""
+          },
+          "id": "cnbc-meeting-2021-part-1-ch12-p018",
+          "paragraph_index": 18,
+          "reading_text": "But that — I wouldn't argue that the S&P 500, over time — I would — I prefer — I like Berkshire.",
+          "reversible_encoding_repairs": [
+            {
+              "before": "â",
+              "after": "—",
+              "roundtrip_codec": "latin-1"
+            },
+            {
+              "before": "â",
+              "after": "—",
+              "roundtrip_codec": "latin-1"
+            },
+            {
+              "before": "â",
+              "after": "—",
+              "roundtrip_codec": "latin-1"
+            },
+            {
+              "before": "â",
+              "after": "—",
+              "roundtrip_codec": "latin-1"
+            }
+          ],
+          "text_sha256": "ca84c2534711805ada6e82a3e6da87f481d51d20dc053db532cd484c86207cdc",
+          "speaker_label": null,
+          "speaker_name_label": null,
+          "speaker_label_kind": null,
+          "contextual_speaker_label": "WARREN BUFFETT",
+          "canonical_speaker": null,
+          "candidate_speaker": "Warren Buffett",
+          "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+          "locator": {
+            "chapter_number": 12,
+            "paragraph_index": 18,
+            "selector": "div.Chapter-chapter p[data-speaker]"
+          },
+          "semantic_review": "not_performed",
+          "audio_checked": false
+        },
+        {
+          "text_as_received": "But I think that the â a person who doesn't know anything about stocks at all and doesn't have any special feelings about Berkshire, I think they ought to buy the S&P 500 index.",
+          "publisher_attributes": {
+            "data-speaker": "",
+            "class": ""
+          },
+          "id": "cnbc-meeting-2021-part-1-ch12-p019",
+          "paragraph_index": 19,
+          "reading_text": "But I think that the — a person who doesn't know anything about stocks at all and doesn't have any special feelings about Berkshire, I think they ought to buy the S&P 500 index.",
+          "reversible_encoding_repairs": [
+            {
+              "before": "â",
+              "after": "—",
+              "roundtrip_codec": "latin-1"
+            }
+          ],
+          "text_sha256": "503dd40c6928244b4016b9ade86fea5039359bcbad98d79be347018979638aff",
+          "speaker_label": null,
+          "speaker_name_label": null,
+          "speaker_label_kind": null,
+          "contextual_speaker_label": "WARREN BUFFETT",
+          "canonical_speaker": null,
+          "candidate_speaker": "Warren Buffett",
+          "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+          "locator": {
+            "chapter_number": 12,
+            "paragraph_index": 19,
+            "selector": "div.Chapter-chapter p[data-speaker]"
+          },
+          "semantic_review": "not_performed",
+          "audio_checked": false
+        }
+      ],
+      "locator": {
+        "session": "part-1",
+        "chapter_number": 12,
+        "start_seconds": 2629,
+        "end_seconds": 2812,
+        "timestamp_status": "publisher_metadata_not_audio_verified"
+      },
+      "completeness": "complete_publisher_chapter_not_semantically_certified_qa",
+      "review_status": "mechanically_checked_only",
+      "eligible_for_qa_release": false,
+      "known_source_issues": [],
+      "ordinal": 12,
+      "author_attribution": null,
+      "text_sha256": "341a5a45ca0af4f16d5bfb202ed74958458de4256937ca6af7070a605392da1b",
+      "source_raw_sha256": "a795e9b13faee23362223d3e98cdc5cdba8735c523e26e101959ef43990a9d27",
+      "source_units_file": "meetings/text_units/cnbc-meeting-2021-part-1.json",
+      "semantic_review_status": "mechanically_checked_only",
+      "eligible_for_translation_release": false
+    },
+    {
+      "id": "cnbc-meeting-2021-part-1-ch13",
+      "source_id": "cnbc-meeting-2021-part-1",
+      "unit_type": "publisher_chapter",
+      "title": "13. Why Buffettâs will calls for his wifeâs inheritance to be invested in an index fund",
+      "title_kind": "publisher_editorial",
+      "source_url": "https://buffett.cnbc.com/video/2021/05/03/part-1---2019-berkshire-hathaway-annual-meeting.html",
+      "event_year": 2021,
+      "event_date": "2021-05-01",
+      "text": "BECKY QUICK: As a follow-up to that, Gerald Silver writes in. He says, \"The trustees of your estate â I believe you've directed the trustees of your estate to invest substantial assets into the index fund. Isn't that a vote of no confidence to your managers?\"\n\nWARREN BUFFETT: Well, no, because we're talking about way less than one percent of my estate. (Laughs)\n\nAnd one thing I'm going to do, incidentally â I mean all rich people get advised by their lawyers to set up trusts so that nobody can see your will and all that sort of thing.\n\nMy will's going to be public record. And you can â you'll be able to check at some point whether I've been telling you the truth (laughs) about what is going to get done.\n\nBut 99.7%, roughly, of my estate will either go to philanthropies or to the federal government.\n\nAnd before it does it, I think Berkshire is a very good thing to hold. But for a given individual, particularly my wife, I just think that having a tiny fraction â which is all it takes for her to do very well for the rest of her life â I just think that the best thing to do is buy 90% in an S&P 500 index fund.\n\nNow, the index fund people, naturally, have started â over time â they market more and more products that go to other indices and everything. So, they're really starting to say to the American public, they're saying, well, you can pick what continent to invest in, or you can pick what industry (laughs) and we'll sell you something for that.\n\nAnd when they just have gotten through telling them, you know, you really don't know anything about stocks, just buy the whole index. (Laughs)\n\nSo, I name the 500 index as one.\n\nBut it's a tiny portion, but it will be her livelihood, and she'll have all the money she needs, and way beyond it, and that's that.\n\nBut I don't mind having the 99.7% â a large portion of it â assuming the laws are the same as now â that go to philanthropy, to be kept in Berkshire until they finally are disposed of.",
+      "reading_text": "BECKY QUICK: As a follow-up to that, Gerald Silver writes in. He says, \"The trustees of your estate — I believe you've directed the trustees of your estate to invest substantial assets into the index fund. Isn't that a vote of no confidence to your managers?\"\n\nWARREN BUFFETT: Well, no, because we're talking about way less than one percent of my estate. (Laughs)\n\nAnd one thing I'm going to do, incidentally — I mean all rich people get advised by their lawyers to set up trusts so that nobody can see your will and all that sort of thing.\n\nMy will's going to be public record. And you can — you'll be able to check at some point whether I've been telling you the truth (laughs) about what is going to get done.\n\nBut 99.7%, roughly, of my estate will either go to philanthropies or to the federal government.\n\nAnd before it does it, I think Berkshire is a very good thing to hold. But for a given individual, particularly my wife, I just think that having a tiny fraction — which is all it takes for her to do very well for the rest of her life — I just think that the best thing to do is buy 90% in an S&P 500 index fund.\n\nNow, the index fund people, naturally, have started — over time — they market more and more products that go to other indices and everything. So, they're really starting to say to the American public, they're saying, well, you can pick what continent to invest in, or you can pick what industry (laughs) and we'll sell you something for that.\n\nAnd when they just have gotten through telling them, you know, you really don't know anything about stocks, just buy the whole index. (Laughs)\n\nSo, I name the 500 index as one.\n\nBut it's a tiny portion, but it will be her livelihood, and she'll have all the money she needs, and way beyond it, and that's that.\n\nBut I don't mind having the 99.7% — a large portion of it — assuming the laws are the same as now — that go to philanthropy, to be kept in Berkshire until they finally are disposed of.",
+      "paragraphs": [
+        {
+          "text_as_received": "BECKY QUICK: As a follow-up to that, Gerald Silver writes in. He says, \"The trustees of your estate â I believe you've directed the trustees of your estate to invest substantial assets into the index fund. Isn't that a vote of no confidence to your managers?\"",
+          "publisher_attributes": {
+            "data-speaker": "",
+            "class": "ChapterParagraph-chapterParagraphSpeaker"
+          },
+          "id": "cnbc-meeting-2021-part-1-ch13-p001",
+          "paragraph_index": 1,
+          "reading_text": "BECKY QUICK: As a follow-up to that, Gerald Silver writes in. He says, \"The trustees of your estate — I believe you've directed the trustees of your estate to invest substantial assets into the index fund. Isn't that a vote of no confidence to your managers?\"",
+          "reversible_encoding_repairs": [
+            {
+              "before": "â",
+              "after": "—",
+              "roundtrip_codec": "latin-1"
+            }
+          ],
+          "text_sha256": "969e8cc83f0a8965dd7512adf6bff3e752b02374351c2f5b4f5d7c7b48bb32b1",
+          "speaker_label": "BECKY QUICK",
+          "speaker_name_label": "BECKY QUICK",
+          "speaker_label_kind": "speaker_or_role_label",
+          "contextual_speaker_label": "BECKY QUICK",
+          "canonical_speaker": "Becky Quick",
+          "candidate_speaker": "Becky Quick",
+          "attribution_basis": "explicit_text_label",
+          "locator": {
+            "chapter_number": 13,
+            "paragraph_index": 1,
+            "selector": "div.Chapter-chapter p[data-speaker]"
+          },
+          "semantic_review": "not_performed",
+          "audio_checked": false
+        },
+        {
+          "text_as_received": "WARREN BUFFETT: Well, no, because we're talking about way less than one percent of my estate. (Laughs)",
+          "publisher_attributes": {
+            "data-speaker": "",
+            "class": ""
+          },
+          "id": "cnbc-meeting-2021-part-1-ch13-p002",
+          "paragraph_index": 2,
+          "reading_text": "WARREN BUFFETT: Well, no, because we're talking about way less than one percent of my estate. (Laughs)",
+          "reversible_encoding_repairs": [],
+          "text_sha256": "2ce787a8c9e63d2c8d9ae5a416976abba42d3e1cf7081018315cb7d247f8cd48",
+          "speaker_label": "WARREN BUFFETT",
+          "speaker_name_label": "WARREN BUFFETT",
+          "speaker_label_kind": "speaker_or_role_label",
+          "contextual_speaker_label": "WARREN BUFFETT",
+          "canonical_speaker": "Warren Buffett",
+          "candidate_speaker": "Warren Buffett",
+          "attribution_basis": "explicit_text_label",
+          "locator": {
+            "chapter_number": 13,
+            "paragraph_index": 2,
+            "selector": "div.Chapter-chapter p[data-speaker]"
+          },
+          "semantic_review": "not_performed",
+          "audio_checked": false
+        },
+        {
+          "text_as_received": "And one thing I'm going to do, incidentally â I mean all rich people get advised by their lawyers to set up trusts so that nobody can see your will and all that sort of thing.",
+          "publisher_attributes": {
+            "data-speaker": "",
+            "class": ""
+          },
+          "id": "cnbc-meeting-2021-part-1-ch13-p003",
+          "paragraph_index": 3,
+          "reading_text": "And one thing I'm going to do, incidentally — I mean all rich people get advised by their lawyers to set up trusts so that nobody can see your will and all that sort of thing.",
+          "reversible_encoding_repairs": [
+            {
+              "before": "â",
+              "after": "—",
+              "roundtrip_codec": "latin-1"
+            }
+          ],
+          "text_sha256": "3ab426741a9d339e19d433a6ff390b520c0cf1b3b77b0652aaadf94fa58b2ce5",
+          "speaker_label": null,
+          "speaker_name_label": null,
+          "speaker_label_kind": null,
+          "contextual_speaker_label": "WARREN BUFFETT",
+          "canonical_speaker": null,
+          "candidate_speaker": "Warren Buffett",
+          "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+          "locator": {
+            "chapter_number": 13,
+            "paragraph_index": 3,
+            "selector": "div.Chapter-chapter p[data-speaker]"
+          },
+          "semantic_review": "not_performed",
+          "audio_checked": false
+        },
+        {
+          "text_as_received": "My will's going to be public record. And you can â you'll be able to check at some point whether I've been telling you the truth (laughs) about what is going to get done.",
+          "publisher_attributes": {
+            "data-speaker": "",
+            "class": ""
+          },
+          "id": "cnbc-meeting-2021-part-1-ch13-p004",
+          "paragraph_index": 4,
+          "reading_text": "My will's going to be public record. And you can — you'll be able to check at some point whether I've been telling you the truth (laughs) about what is going to get done.",
+          "reversible_encoding_repairs": [
+            {
+              "before": "â",
+              "after": "—",
+              "roundtrip_codec": "latin-1"
+            }
+          ],
+          "text_sha256": "dc0598fba95834f81c93c46b0e161d8e5beea1ac78d3ebc0c8ed3ab7fbc49fde",
+          "speaker_label": null,
+          "speaker_name_label": null,
+          "speaker_label_kind": null,
+          "contextual_speaker_label": "WARREN BUFFETT",
+          "canonical_speaker": null,
+          "candidate_speaker": "Warren Buffett",
+          "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+          "locator": {
+            "chapter_number": 13,
+            "paragraph_index": 4,
+            "selector": "div.Chapter-chapter p[data-speaker]"
+          },
+          "semantic_review": "not_performed",
+          "audio_checked": false
+        },
+        {
+          "text_as_received": "But 99.7%, roughly, of my estate will either go to philanthropies or to the federal government.",
+          "publisher_attributes": {
+            "data-speaker": "",
+            "class": ""
+          },
+          "id": "cnbc-meeting-2021-part-1-ch13-p005",
+          "paragraph_index": 5,
+          "reading_text": "But 99.7%, roughly, of my estate will either go to philanthropies or to the federal government.",
+          "reversible_encoding_repairs": [],
+          "text_sha256": "c985efc3c0ae91d26d749337530d7b389cfb4fba5b2266a668b942492151b89f",
+          "speaker_label": null,
+          "speaker_name_label": null,
+          "speaker_label_kind": null,
+          "contextual_speaker_label": "WARREN BUFFETT",
+          "canonical_speaker": null,
+          "candidate_speaker": "Warren Buffett",
+          "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+          "locator": {
+            "chapter_number": 13,
+            "paragraph_index": 5,
+            "selector": "div.Chapter-chapter p[data-speaker]"
+          },
+          "semantic_review": "not_performed",
+          "audio_checked": false
+        },
+        {
+          "text_as_received": "And before it does it, I think Berkshire is a very good thing to hold. But for a given individual, particularly my wife, I just think that having a tiny fraction â which is all it takes for her to do very well for the rest of her life â I just think that the best thing to do is buy 90% in an S&P 500 index fund.",
+          "publisher_attributes": {
+            "data-speaker": "",
+            "class": ""
+          },
+          "id": "cnbc-meeting-2021-part-1-ch13-p006",
+          "paragraph_index": 6,
+          "reading_text": "And before it does it, I think Berkshire is a very good thing to hold. But for a given individual, particularly my wife, I just think that having a tiny fraction — which is all it takes for her to do very well for the rest of her life — I just think that the best thing to do is buy 90% in an S&P 500 index fund.",
+          "reversible_encoding_repairs": [
+            {
+              "before": "â",
+              "after": "—",
+              "roundtrip_codec": "latin-1"
+            },
+            {
+              "before": "â",
+              "after": "—",
+              "roundtrip_codec": "latin-1"
+            }
+          ],
+          "text_sha256": "c4dc3e349802caeabf3d8011311982d1c6349b04b61790ea954dd45a45f6dbc8",
+          "speaker_label": null,
+          "speaker_name_label": null,
+          "speaker_label_kind": null,
+          "contextual_speaker_label": "WARREN BUFFETT",
+          "canonical_speaker": null,
+          "candidate_speaker": "Warren Buffett",
+          "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+          "locator": {
+            "chapter_number": 13,
+            "paragraph_index": 6,
+            "selector": "div.Chapter-chapter p[data-speaker]"
+          },
+          "semantic_review": "not_performed",
+          "audio_checked": false
+        },
+        {
+          "text_as_received": "Now, the index fund people, naturally, have started â over time â they market more and more products that go to other indices and everything. So, they're really starting to say to the American public, they're saying, well, you can pick what continent to invest in, or you can pick what industry (laughs) and we'll sell you something for that.",
+          "publisher_attributes": {
+            "data-speaker": "",
+            "class": ""
+          },
+          "id": "cnbc-meeting-2021-part-1-ch13-p007",
+          "paragraph_index": 7,
+          "reading_text": "Now, the index fund people, naturally, have started — over time — they market more and more products that go to other indices and everything. So, they're really starting to say to the American public, they're saying, well, you can pick what continent to invest in, or you can pick what industry (laughs) and we'll sell you something for that.",
+          "reversible_encoding_repairs": [
+            {
+              "before": "â",
+              "after": "—",
+              "roundtrip_codec": "latin-1"
+            },
+            {
+              "before": "â",
+              "after": "—",
+              "roundtrip_codec": "latin-1"
+            }
+          ],
+          "text_sha256": "44d9ed6bf471598cbc72372fa0b8334727d5bd7672e9c790f05d25c3553cacf5",
+          "speaker_label": null,
+          "speaker_name_label": null,
+          "speaker_label_kind": null,
+          "contextual_speaker_label": "WARREN BUFFETT",
+          "canonical_speaker": null,
+          "candidate_speaker": "Warren Buffett",
+          "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+          "locator": {
+            "chapter_number": 13,
+            "paragraph_index": 7,
+            "selector": "div.Chapter-chapter p[data-speaker]"
+          },
+          "semantic_review": "not_performed",
+          "audio_checked": false
+        },
+        {
+          "text_as_received": "And when they just have gotten through telling them, you know, you really don't know anything about stocks, just buy the whole index. (Laughs)",
+          "publisher_attributes": {
+            "data-speaker": "",
+            "class": ""
+          },
+          "id": "cnbc-meeting-2021-part-1-ch13-p008",
+          "paragraph_index": 8,
+          "reading_text": "And when they just have gotten through telling them, you know, you really don't know anything about stocks, just buy the whole index. (Laughs)",
+          "reversible_encoding_repairs": [],
+          "text_sha256": "2855bfcf3ddc0b071293d88fd661d26bbfb73fde51d363c6764d99c536b8a073",
+          "speaker_label": null,
+          "speaker_name_label": null,
+          "speaker_label_kind": null,
+          "contextual_speaker_label": "WARREN BUFFETT",
+          "canonical_speaker": null,
+          "candidate_speaker": "Warren Buffett",
+          "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+          "locator": {
+            "chapter_number": 13,
+            "paragraph_index": 8,
+            "selector": "div.Chapter-chapter p[data-speaker]"
+          },
+          "semantic_review": "not_performed",
+          "audio_checked": false
+        },
+        {
+          "text_as_received": "So, I name the 500 index as one.",
+          "publisher_attributes": {
+            "data-speaker": "",
+            "class": ""
+          },
+          "id": "cnbc-meeting-2021-part-1-ch13-p009",
+          "paragraph_index": 9,
+          "reading_text": "So, I name the 500 index as one.",
+          "reversible_encoding_repairs": [],
+          "text_sha256": "7c7d08c6099b83767fa6dcf15bfa9256e23ec85a62bfcffe84a15374063906dd",
+          "speaker_label": null,
+          "speaker_name_label": null,
+          "speaker_label_kind": null,
+          "contextual_speaker_label": "WARREN BUFFETT",
+          "canonical_speaker": null,
+          "candidate_speaker": "Warren Buffett",
+          "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+          "locator": {
+            "chapter_number": 13,
+            "paragraph_index": 9,
+            "selector": "div.Chapter-chapter p[data-speaker]"
+          },
+          "semantic_review": "not_performed",
+          "audio_checked": false
+        },
+        {
+          "text_as_received": "But it's a tiny portion, but it will be her livelihood, and she'll have all the money she needs, and way beyond it, and that's that.",
+          "publisher_attributes": {
+            "data-speaker": "",
+            "class": ""
+          },
+          "id": "cnbc-meeting-2021-part-1-ch13-p010",
+          "paragraph_index": 10,
+          "reading_text": "But it's a tiny portion, but it will be her livelihood, and she'll have all the money she needs, and way beyond it, and that's that.",
+          "reversible_encoding_repairs": [],
+          "text_sha256": "8576f3ccd1369a9b2a0b75b800beb476867e5d05f445591d8827c9b10955dcf0",
+          "speaker_label": null,
+          "speaker_name_label": null,
+          "speaker_label_kind": null,
+          "contextual_speaker_label": "WARREN BUFFETT",
+          "canonical_speaker": null,
+          "candidate_speaker": "Warren Buffett",
+          "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+          "locator": {
+            "chapter_number": 13,
+            "paragraph_index": 10,
+            "selector": "div.Chapter-chapter p[data-speaker]"
+          },
+          "semantic_review": "not_performed",
+          "audio_checked": false
+        },
+        {
+          "text_as_received": "But I don't mind having the 99.7% â a large portion of it â assuming the laws are the same as now â that go to philanthropy, to be kept in Berkshire until they finally are disposed of.",
+          "publisher_attributes": {
+            "data-speaker": "",
+            "class": ""
+          },
+          "id": "cnbc-meeting-2021-part-1-ch13-p011",
+          "paragraph_index": 11,
+          "reading_text": "But I don't mind having the 99.7% — a large portion of it — assuming the laws are the same as now — that go to philanthropy, to be kept in Berkshire until they finally are disposed of.",
+          "reversible_encoding_repairs": [
+            {
+              "before": "â",
+              "after": "—",
+              "roundtrip_codec": "latin-1"
+            },
+            {
+              "before": "â",
+              "after": "—",
+              "roundtrip_codec": "latin-1"
+            },
+            {
+              "before": "â",
+              "after": "—",
+              "roundtrip_codec": "latin-1"
+            }
+          ],
+          "text_sha256": "9ec6796b5153cdc02ad9845530cc050487841895790a55d0bc2550c5bf0ab09f",
+          "speaker_label": null,
+          "speaker_name_label": null,
+          "speaker_label_kind": null,
+          "contextual_speaker_label": "WARREN BUFFETT",
+          "canonical_speaker": null,
+          "candidate_speaker": "Warren Buffett",
+          "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+          "locator": {
+            "chapter_number": 13,
+            "paragraph_index": 11,
+            "selector": "div.Chapter-chapter p[data-speaker]"
+          },
+          "semantic_review": "not_performed",
+          "audio_checked": false
+        }
+      ],
+      "locator": {
+        "session": "part-1",
+        "chapter_number": 13,
+        "start_seconds": 2812,
+        "end_seconds": 2945,
+        "timestamp_status": "publisher_metadata_not_audio_verified"
+      },
+      "completeness": "complete_publisher_chapter_not_semantically_certified_qa",
+      "review_status": "mechanically_checked_only",
+      "eligible_for_qa_release": false,
+      "known_source_issues": [],
+      "ordinal": 13,
+      "author_attribution": null,
+      "text_sha256": "9c7d5ff2aa8dfd0b09c52289dc6a73896eac16191dfb7c32fcff85b590cd85e1",
+      "source_raw_sha256": "a795e9b13faee23362223d3e98cdc5cdba8735c523e26e101959ef43990a9d27",
+      "source_units_file": "meetings/text_units/cnbc-meeting-2021-part-1.json",
+      "semantic_review_status": "mechanically_checked_only",
+      "eligible_for_translation_release": false
+    }
+  ],
+  "paragraphs": [
+    {
+      "text_as_received": "BECKY QUICK: This question comes from a long-term shareholder who's been here for more than 25 years. His name's Ben Knoll. He's from Minneapolis, Minnesota.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": "ChapterParagraph-chapterParagraphSpeaker"
+      },
+      "id": "cnbc-meeting-2021-part-1-ch12-p001",
+      "paragraph_index": 1,
+      "reading_text": "BECKY QUICK: This question comes from a long-term shareholder who's been here for more than 25 years. His name's Ben Knoll. He's from Minneapolis, Minnesota.",
+      "reversible_encoding_repairs": [],
+      "text_sha256": "69573425fae74f5d082f29a7b74972398a3bc68e8101adbfdfa830495ca21e22",
+      "speaker_label": "BECKY QUICK",
+      "speaker_name_label": "BECKY QUICK",
+      "speaker_label_kind": "speaker_or_role_label",
+      "contextual_speaker_label": "BECKY QUICK",
+      "canonical_speaker": "Becky Quick",
+      "candidate_speaker": "Becky Quick",
+      "attribution_basis": "explicit_text_label",
+      "locator": {
+        "chapter_number": 12,
+        "paragraph_index": 1,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "And he says, \"Mr. Munger and Mr. Buffett, after a 15-year period of market underperformance, you're cautious about predicting Berkshire being able to outperform the market in the future.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2021-part-1-ch12-p002",
+      "paragraph_index": 2,
+      "reading_text": "And he says, \"Mr. Munger and Mr. Buffett, after a 15-year period of market underperformance, you're cautious about predicting Berkshire being able to outperform the market in the future.",
+      "reversible_encoding_repairs": [],
+      "text_sha256": "9a485f3b89982f5da4858c48278d9e09284c8f859b090a6e01aec9f0f00a1181",
+      "speaker_label": null,
+      "speaker_name_label": null,
+      "speaker_label_kind": null,
+      "contextual_speaker_label": "BECKY QUICK",
+      "canonical_speaker": null,
+      "candidate_speaker": "Becky Quick",
+      "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+      "locator": {
+        "chapter_number": 12,
+        "paragraph_index": 2,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "\"Given this, what do you see as the arguments for long-time shareholders to continue holding their stock versus diversifying their risk across an index?\"",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2021-part-1-ch12-p003",
+      "paragraph_index": 3,
+      "reading_text": "\"Given this, what do you see as the arguments for long-time shareholders to continue holding their stock versus diversifying their risk across an index?\"",
+      "reversible_encoding_repairs": [],
+      "text_sha256": "0b25fddb421b51de1757e185760e127a7ed58935992453262618e2b6ec96d783",
+      "speaker_label": null,
+      "speaker_name_label": null,
+      "speaker_label_kind": null,
+      "contextual_speaker_label": "BECKY QUICK",
+      "canonical_speaker": null,
+      "candidate_speaker": "Becky Quick",
+      "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+      "locator": {
+        "chapter_number": 12,
+        "paragraph_index": 3,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "WARREN BUFFETT: Charlie, you want to answer that?",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2021-part-1-ch12-p004",
+      "paragraph_index": 4,
+      "reading_text": "WARREN BUFFETT: Charlie, you want to answer that?",
+      "reversible_encoding_repairs": [],
+      "text_sha256": "740c3c9a7aab38bf9aa98413951500c42d22f8ea00dfc1a2b80a142bfe72393c",
+      "speaker_label": "WARREN BUFFETT",
+      "speaker_name_label": "WARREN BUFFETT",
+      "speaker_label_kind": "speaker_or_role_label",
+      "contextual_speaker_label": "WARREN BUFFETT",
+      "canonical_speaker": "Warren Buffett",
+      "candidate_speaker": "Warren Buffett",
+      "attribution_basis": "explicit_text_label",
+      "locator": {
+        "chapter_number": 12,
+        "paragraph_index": 4,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "CHARLIE MUNGER: Well, sure. Well, I personally prefer holding Berkshire to holding the market, so â",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2021-part-1-ch12-p005",
+      "paragraph_index": 5,
+      "reading_text": "CHARLIE MUNGER: Well, sure. Well, I personally prefer holding Berkshire to holding the market, so —",
+      "reversible_encoding_repairs": [
+        {
+          "before": "â",
+          "after": "—",
+          "roundtrip_codec": "latin-1"
+        }
+      ],
+      "text_sha256": "e9e3152b58d52362e1d5bc007bcd4d44e0b473a1d3af8577e590677036377269",
+      "speaker_label": "CHARLIE MUNGER",
+      "speaker_name_label": "CHARLIE MUNGER",
+      "speaker_label_kind": "speaker_or_role_label",
+      "contextual_speaker_label": "CHARLIE MUNGER",
+      "canonical_speaker": "Charlie Munger",
+      "candidate_speaker": "Charlie Munger",
+      "attribution_basis": "explicit_text_label",
+      "locator": {
+        "chapter_number": 12,
+        "paragraph_index": 5,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "BECKY QUICK: Because?",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2021-part-1-ch12-p006",
+      "paragraph_index": 6,
+      "reading_text": "BECKY QUICK: Because?",
+      "reversible_encoding_repairs": [],
+      "text_sha256": "417b4f2a434ab06c1f33cae421cfd9bd64ccc2b3ca9e13f344ad21e1dd1cee9f",
+      "speaker_label": "BECKY QUICK",
+      "speaker_name_label": "BECKY QUICK",
+      "speaker_label_kind": "speaker_or_role_label",
+      "contextual_speaker_label": "BECKY QUICK",
+      "canonical_speaker": "Becky Quick",
+      "candidate_speaker": "Becky Quick",
+      "attribution_basis": "explicit_text_label",
+      "locator": {
+        "chapter_number": 12,
+        "paragraph_index": 6,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "CHARLIE MUNGER: I'm quite comfortable holding Berkshire. I like â I think our businesses are better than the average in the market.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2021-part-1-ch12-p007",
+      "paragraph_index": 7,
+      "reading_text": "CHARLIE MUNGER: I'm quite comfortable holding Berkshire. I like — I think our businesses are better than the average in the market.",
+      "reversible_encoding_repairs": [
+        {
+          "before": "â",
+          "after": "—",
+          "roundtrip_codec": "latin-1"
+        }
+      ],
+      "text_sha256": "c3028507ded87ad2f8c4ef9140e1fd690989afe092705d41f80358f6984e3f98",
+      "speaker_label": "CHARLIE MUNGER",
+      "speaker_name_label": "CHARLIE MUNGER",
+      "speaker_label_kind": "speaker_or_role_label",
+      "contextual_speaker_label": "CHARLIE MUNGER",
+      "canonical_speaker": "Charlie Munger",
+      "candidate_speaker": "Charlie Munger",
+      "attribution_basis": "explicit_text_label",
+      "locator": {
+        "chapter_number": 12,
+        "paragraph_index": 7,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "BECKY QUICK: Is it because you don't think the market values it fairly?",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2021-part-1-ch12-p008",
+      "paragraph_index": 8,
+      "reading_text": "BECKY QUICK: Is it because you don't think the market values it fairly?",
+      "reversible_encoding_repairs": [],
+      "text_sha256": "b917a8384fc8709f73bdaf6ad64e5b76c993a1ce3b574191ba1ef7c7fa909c04",
+      "speaker_label": "BECKY QUICK",
+      "speaker_name_label": "BECKY QUICK",
+      "speaker_label_kind": "speaker_or_role_label",
+      "contextual_speaker_label": "BECKY QUICK",
+      "canonical_speaker": "Becky Quick",
+      "candidate_speaker": "Becky Quick",
+      "attribution_basis": "explicit_text_label",
+      "locator": {
+        "chapter_number": 12,
+        "paragraph_index": 8,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "CHARLIE MUNGER: Well, these are just accidents of history and things are fluctuating at all times.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2021-part-1-ch12-p009",
+      "paragraph_index": 9,
+      "reading_text": "CHARLIE MUNGER: Well, these are just accidents of history and things are fluctuating at all times.",
+      "reversible_encoding_repairs": [],
+      "text_sha256": "df960f5c95c918c3ff118b59a13a81591733a21a3d7cecdfa7c1e440a9beeb4d",
+      "speaker_label": "CHARLIE MUNGER",
+      "speaker_name_label": "CHARLIE MUNGER",
+      "speaker_label_kind": "speaker_or_role_label",
+      "contextual_speaker_label": "CHARLIE MUNGER",
+      "canonical_speaker": "Charlie Munger",
+      "candidate_speaker": "Charlie Munger",
+      "attribution_basis": "explicit_text_label",
+      "locator": {
+        "chapter_number": 12,
+        "paragraph_index": 9,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "But on a composite basis, I'd bet on Berkshire over the market. And that's assuming we're all dead.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2021-part-1-ch12-p010",
+      "paragraph_index": 10,
+      "reading_text": "But on a composite basis, I'd bet on Berkshire over the market. And that's assuming we're all dead.",
+      "reversible_encoding_repairs": [],
+      "text_sha256": "624e8f8bf890e8e9e352d415becdd70f11c545717486488a4741c5fc61cc80a4",
+      "speaker_label": null,
+      "speaker_name_label": null,
+      "speaker_label_kind": null,
+      "contextual_speaker_label": "CHARLIE MUNGER",
+      "canonical_speaker": null,
+      "candidate_speaker": "Charlie Munger",
+      "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+      "locator": {
+        "chapter_number": 12,
+        "paragraph_index": 10,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "WARREN BUFFETT: B, I recommend â I recommend the S&P 500 index fund â and I have for a long, long time â to people.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2021-part-1-ch12-p011",
+      "paragraph_index": 11,
+      "reading_text": "WARREN BUFFETT: B, I recommend — I recommend the S&P 500 index fund — and I have for a long, long time — to people.",
+      "reversible_encoding_repairs": [
+        {
+          "before": "â",
+          "after": "—",
+          "roundtrip_codec": "latin-1"
+        },
+        {
+          "before": "â",
+          "after": "—",
+          "roundtrip_codec": "latin-1"
+        },
+        {
+          "before": "â",
+          "after": "—",
+          "roundtrip_codec": "latin-1"
+        }
+      ],
+      "text_sha256": "acf1121c26a4a83597c73164b8d4ef75639dbe35207d29fa06dbbc9797ca5cdc",
+      "speaker_label": "WARREN BUFFETT",
+      "speaker_name_label": "WARREN BUFFETT",
+      "speaker_label_kind": "speaker_or_role_label",
+      "contextual_speaker_label": "WARREN BUFFETT",
+      "canonical_speaker": "Warren Buffett",
+      "candidate_speaker": "Warren Buffett",
+      "attribution_basis": "explicit_text_label",
+      "locator": {
+        "chapter_number": 12,
+        "paragraph_index": 11,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "And I've never recommended Berkshire to anybody. Because I don't want people to buy it because they think (laughs) I'm tipping them into some â never. I mean, no matter what it was selling for.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2021-part-1-ch12-p012",
+      "paragraph_index": 12,
+      "reading_text": "And I've never recommended Berkshire to anybody. Because I don't want people to buy it because they think (laughs) I'm tipping them into some — never. I mean, no matter what it was selling for.",
+      "reversible_encoding_repairs": [
+        {
+          "before": "â",
+          "after": "—",
+          "roundtrip_codec": "latin-1"
+        }
+      ],
+      "text_sha256": "607bb54a34bae0d76b9fe891234a21f9195376567eec8c75ac72bcf216db59a2",
+      "speaker_label": null,
+      "speaker_name_label": null,
+      "speaker_label_kind": null,
+      "contextual_speaker_label": "WARREN BUFFETT",
+      "canonical_speaker": null,
+      "candidate_speaker": "Warren Buffett",
+      "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+      "locator": {
+        "chapter_number": 12,
+        "paragraph_index": 12,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "And, you know â I've made it public, you know â on my death, there's a fund for my then-widow, and 90% will go into an S&P 500 index fund and 10% in Treasury bills.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2021-part-1-ch12-p013",
+      "paragraph_index": 13,
+      "reading_text": "And, you know — I've made it public, you know — on my death, there's a fund for my then-widow, and 90% will go into an S&P 500 index fund and 10% in Treasury bills.",
+      "reversible_encoding_repairs": [
+        {
+          "before": "â",
+          "after": "—",
+          "roundtrip_codec": "latin-1"
+        },
+        {
+          "before": "â",
+          "after": "—",
+          "roundtrip_codec": "latin-1"
+        }
+      ],
+      "text_sha256": "b0a32d81d658e408be04af518ed0e428279c06209c818559bdfb5d7169db38c5",
+      "speaker_label": null,
+      "speaker_name_label": null,
+      "speaker_label_kind": null,
+      "contextual_speaker_label": "WARREN BUFFETT",
+      "canonical_speaker": null,
+      "candidate_speaker": "Warren Buffett",
+      "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+      "locator": {
+        "chapter_number": 12,
+        "paragraph_index": 13,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "On the other hand, I'm very happy having my future contributions to a group of charities, thatâll be spread over 12 years or so after my death, to stay in Berkshire.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2021-part-1-ch12-p014",
+      "paragraph_index": 14,
+      "reading_text": "On the other hand, I'm very happy having my future contributions to a group of charities, that’ll be spread over 12 years or so after my death, to stay in Berkshire.",
+      "reversible_encoding_repairs": [
+        {
+          "before": "â",
+          "after": "’",
+          "roundtrip_codec": "latin-1"
+        }
+      ],
+      "text_sha256": "982f7255760b0b7e591b6fa9099a6548abaf3744cbf7b553239cbe398e46033e",
+      "speaker_label": null,
+      "speaker_name_label": null,
+      "speaker_label_kind": null,
+      "contextual_speaker_label": "WARREN BUFFETT",
+      "canonical_speaker": null,
+      "candidate_speaker": "Warren Buffett",
+      "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+      "locator": {
+        "chapter_number": 12,
+        "paragraph_index": 14,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "I think the odds are â Berkshire is â you know, I like it, but I'm not â",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2021-part-1-ch12-p015",
+      "paragraph_index": 15,
+      "reading_text": "I think the odds are — Berkshire is — you know, I like it, but I'm not —",
+      "reversible_encoding_repairs": [
+        {
+          "before": "â",
+          "after": "—",
+          "roundtrip_codec": "latin-1"
+        },
+        {
+          "before": "â",
+          "after": "—",
+          "roundtrip_codec": "latin-1"
+        },
+        {
+          "before": "â",
+          "after": "—",
+          "roundtrip_codec": "latin-1"
+        }
+      ],
+      "text_sha256": "32e2a6e114d7659818e83f0dc618707b99b4ebbfab591108e7014fd0f8610611",
+      "speaker_label": null,
+      "speaker_name_label": null,
+      "speaker_label_kind": null,
+      "contextual_speaker_label": "WARREN BUFFETT",
+      "canonical_speaker": null,
+      "candidate_speaker": "Warren Buffett",
+      "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+      "locator": {
+        "chapter_number": 12,
+        "paragraph_index": 15,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "I do not think the average person can pick stocks. We happen to have a large group of people that didn't pick stocks, but they picked Charlie and me to manage money for them 50 or 60 years ago.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2021-part-1-ch12-p016",
+      "paragraph_index": 16,
+      "reading_text": "I do not think the average person can pick stocks. We happen to have a large group of people that didn't pick stocks, but they picked Charlie and me to manage money for them 50 or 60 years ago.",
+      "reversible_encoding_repairs": [],
+      "text_sha256": "7bb493d339f5d6ef8cdf0c1cf5d5d01a47b9b1974b77e0c4940bd20b71fae8e0",
+      "speaker_label": null,
+      "speaker_name_label": null,
+      "speaker_label_kind": null,
+      "contextual_speaker_label": "WARREN BUFFETT",
+      "canonical_speaker": null,
+      "candidate_speaker": "Warren Buffett",
+      "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+      "locator": {
+        "chapter_number": 12,
+        "paragraph_index": 16,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "And so we have a very unusual group of shareholders, I think, who look at Berkshire as a lifetime savings vehicle, and one they don't have to think about, and one that, you know, if they don't look at it again for 10 or 20 years, that will have taken care of their money reasonably well.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2021-part-1-ch12-p017",
+      "paragraph_index": 17,
+      "reading_text": "And so we have a very unusual group of shareholders, I think, who look at Berkshire as a lifetime savings vehicle, and one they don't have to think about, and one that, you know, if they don't look at it again for 10 or 20 years, that will have taken care of their money reasonably well.",
+      "reversible_encoding_repairs": [],
+      "text_sha256": "112e6fe058fe7ffc096ba0eb48a3778fc904a3255e2c10204ed95e886363c3cd",
+      "speaker_label": null,
+      "speaker_name_label": null,
+      "speaker_label_kind": null,
+      "contextual_speaker_label": "WARREN BUFFETT",
+      "canonical_speaker": null,
+      "candidate_speaker": "Warren Buffett",
+      "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+      "locator": {
+        "chapter_number": 12,
+        "paragraph_index": 17,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "But that â I wouldn't argue that the S&P 500, over time â I would â I prefer â I like Berkshire.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2021-part-1-ch12-p018",
+      "paragraph_index": 18,
+      "reading_text": "But that — I wouldn't argue that the S&P 500, over time — I would — I prefer — I like Berkshire.",
+      "reversible_encoding_repairs": [
+        {
+          "before": "â",
+          "after": "—",
+          "roundtrip_codec": "latin-1"
+        },
+        {
+          "before": "â",
+          "after": "—",
+          "roundtrip_codec": "latin-1"
+        },
+        {
+          "before": "â",
+          "after": "—",
+          "roundtrip_codec": "latin-1"
+        },
+        {
+          "before": "â",
+          "after": "—",
+          "roundtrip_codec": "latin-1"
+        }
+      ],
+      "text_sha256": "ca84c2534711805ada6e82a3e6da87f481d51d20dc053db532cd484c86207cdc",
+      "speaker_label": null,
+      "speaker_name_label": null,
+      "speaker_label_kind": null,
+      "contextual_speaker_label": "WARREN BUFFETT",
+      "canonical_speaker": null,
+      "candidate_speaker": "Warren Buffett",
+      "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+      "locator": {
+        "chapter_number": 12,
+        "paragraph_index": 18,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "But I think that the â a person who doesn't know anything about stocks at all and doesn't have any special feelings about Berkshire, I think they ought to buy the S&P 500 index.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2021-part-1-ch12-p019",
+      "paragraph_index": 19,
+      "reading_text": "But I think that the — a person who doesn't know anything about stocks at all and doesn't have any special feelings about Berkshire, I think they ought to buy the S&P 500 index.",
+      "reversible_encoding_repairs": [
+        {
+          "before": "â",
+          "after": "—",
+          "roundtrip_codec": "latin-1"
+        }
+      ],
+      "text_sha256": "503dd40c6928244b4016b9ade86fea5039359bcbad98d79be347018979638aff",
+      "speaker_label": null,
+      "speaker_name_label": null,
+      "speaker_label_kind": null,
+      "contextual_speaker_label": "WARREN BUFFETT",
+      "canonical_speaker": null,
+      "candidate_speaker": "Warren Buffett",
+      "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+      "locator": {
+        "chapter_number": 12,
+        "paragraph_index": 19,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "BECKY QUICK: As a follow-up to that, Gerald Silver writes in. He says, \"The trustees of your estate â I believe you've directed the trustees of your estate to invest substantial assets into the index fund. Isn't that a vote of no confidence to your managers?\"",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": "ChapterParagraph-chapterParagraphSpeaker"
+      },
+      "id": "cnbc-meeting-2021-part-1-ch13-p001",
+      "paragraph_index": 1,
+      "reading_text": "BECKY QUICK: As a follow-up to that, Gerald Silver writes in. He says, \"The trustees of your estate — I believe you've directed the trustees of your estate to invest substantial assets into the index fund. Isn't that a vote of no confidence to your managers?\"",
+      "reversible_encoding_repairs": [
+        {
+          "before": "â",
+          "after": "—",
+          "roundtrip_codec": "latin-1"
+        }
+      ],
+      "text_sha256": "969e8cc83f0a8965dd7512adf6bff3e752b02374351c2f5b4f5d7c7b48bb32b1",
+      "speaker_label": "BECKY QUICK",
+      "speaker_name_label": "BECKY QUICK",
+      "speaker_label_kind": "speaker_or_role_label",
+      "contextual_speaker_label": "BECKY QUICK",
+      "canonical_speaker": "Becky Quick",
+      "candidate_speaker": "Becky Quick",
+      "attribution_basis": "explicit_text_label",
+      "locator": {
+        "chapter_number": 13,
+        "paragraph_index": 1,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "WARREN BUFFETT: Well, no, because we're talking about way less than one percent of my estate. (Laughs)",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2021-part-1-ch13-p002",
+      "paragraph_index": 2,
+      "reading_text": "WARREN BUFFETT: Well, no, because we're talking about way less than one percent of my estate. (Laughs)",
+      "reversible_encoding_repairs": [],
+      "text_sha256": "2ce787a8c9e63d2c8d9ae5a416976abba42d3e1cf7081018315cb7d247f8cd48",
+      "speaker_label": "WARREN BUFFETT",
+      "speaker_name_label": "WARREN BUFFETT",
+      "speaker_label_kind": "speaker_or_role_label",
+      "contextual_speaker_label": "WARREN BUFFETT",
+      "canonical_speaker": "Warren Buffett",
+      "candidate_speaker": "Warren Buffett",
+      "attribution_basis": "explicit_text_label",
+      "locator": {
+        "chapter_number": 13,
+        "paragraph_index": 2,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "And one thing I'm going to do, incidentally â I mean all rich people get advised by their lawyers to set up trusts so that nobody can see your will and all that sort of thing.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2021-part-1-ch13-p003",
+      "paragraph_index": 3,
+      "reading_text": "And one thing I'm going to do, incidentally — I mean all rich people get advised by their lawyers to set up trusts so that nobody can see your will and all that sort of thing.",
+      "reversible_encoding_repairs": [
+        {
+          "before": "â",
+          "after": "—",
+          "roundtrip_codec": "latin-1"
+        }
+      ],
+      "text_sha256": "3ab426741a9d339e19d433a6ff390b520c0cf1b3b77b0652aaadf94fa58b2ce5",
+      "speaker_label": null,
+      "speaker_name_label": null,
+      "speaker_label_kind": null,
+      "contextual_speaker_label": "WARREN BUFFETT",
+      "canonical_speaker": null,
+      "candidate_speaker": "Warren Buffett",
+      "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+      "locator": {
+        "chapter_number": 13,
+        "paragraph_index": 3,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "My will's going to be public record. And you can â you'll be able to check at some point whether I've been telling you the truth (laughs) about what is going to get done.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2021-part-1-ch13-p004",
+      "paragraph_index": 4,
+      "reading_text": "My will's going to be public record. And you can — you'll be able to check at some point whether I've been telling you the truth (laughs) about what is going to get done.",
+      "reversible_encoding_repairs": [
+        {
+          "before": "â",
+          "after": "—",
+          "roundtrip_codec": "latin-1"
+        }
+      ],
+      "text_sha256": "dc0598fba95834f81c93c46b0e161d8e5beea1ac78d3ebc0c8ed3ab7fbc49fde",
+      "speaker_label": null,
+      "speaker_name_label": null,
+      "speaker_label_kind": null,
+      "contextual_speaker_label": "WARREN BUFFETT",
+      "canonical_speaker": null,
+      "candidate_speaker": "Warren Buffett",
+      "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+      "locator": {
+        "chapter_number": 13,
+        "paragraph_index": 4,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "But 99.7%, roughly, of my estate will either go to philanthropies or to the federal government.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2021-part-1-ch13-p005",
+      "paragraph_index": 5,
+      "reading_text": "But 99.7%, roughly, of my estate will either go to philanthropies or to the federal government.",
+      "reversible_encoding_repairs": [],
+      "text_sha256": "c985efc3c0ae91d26d749337530d7b389cfb4fba5b2266a668b942492151b89f",
+      "speaker_label": null,
+      "speaker_name_label": null,
+      "speaker_label_kind": null,
+      "contextual_speaker_label": "WARREN BUFFETT",
+      "canonical_speaker": null,
+      "candidate_speaker": "Warren Buffett",
+      "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+      "locator": {
+        "chapter_number": 13,
+        "paragraph_index": 5,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "And before it does it, I think Berkshire is a very good thing to hold. But for a given individual, particularly my wife, I just think that having a tiny fraction â which is all it takes for her to do very well for the rest of her life â I just think that the best thing to do is buy 90% in an S&P 500 index fund.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2021-part-1-ch13-p006",
+      "paragraph_index": 6,
+      "reading_text": "And before it does it, I think Berkshire is a very good thing to hold. But for a given individual, particularly my wife, I just think that having a tiny fraction — which is all it takes for her to do very well for the rest of her life — I just think that the best thing to do is buy 90% in an S&P 500 index fund.",
+      "reversible_encoding_repairs": [
+        {
+          "before": "â",
+          "after": "—",
+          "roundtrip_codec": "latin-1"
+        },
+        {
+          "before": "â",
+          "after": "—",
+          "roundtrip_codec": "latin-1"
+        }
+      ],
+      "text_sha256": "c4dc3e349802caeabf3d8011311982d1c6349b04b61790ea954dd45a45f6dbc8",
+      "speaker_label": null,
+      "speaker_name_label": null,
+      "speaker_label_kind": null,
+      "contextual_speaker_label": "WARREN BUFFETT",
+      "canonical_speaker": null,
+      "candidate_speaker": "Warren Buffett",
+      "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+      "locator": {
+        "chapter_number": 13,
+        "paragraph_index": 6,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "Now, the index fund people, naturally, have started â over time â they market more and more products that go to other indices and everything. So, they're really starting to say to the American public, they're saying, well, you can pick what continent to invest in, or you can pick what industry (laughs) and we'll sell you something for that.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2021-part-1-ch13-p007",
+      "paragraph_index": 7,
+      "reading_text": "Now, the index fund people, naturally, have started — over time — they market more and more products that go to other indices and everything. So, they're really starting to say to the American public, they're saying, well, you can pick what continent to invest in, or you can pick what industry (laughs) and we'll sell you something for that.",
+      "reversible_encoding_repairs": [
+        {
+          "before": "â",
+          "after": "—",
+          "roundtrip_codec": "latin-1"
+        },
+        {
+          "before": "â",
+          "after": "—",
+          "roundtrip_codec": "latin-1"
+        }
+      ],
+      "text_sha256": "44d9ed6bf471598cbc72372fa0b8334727d5bd7672e9c790f05d25c3553cacf5",
+      "speaker_label": null,
+      "speaker_name_label": null,
+      "speaker_label_kind": null,
+      "contextual_speaker_label": "WARREN BUFFETT",
+      "canonical_speaker": null,
+      "candidate_speaker": "Warren Buffett",
+      "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+      "locator": {
+        "chapter_number": 13,
+        "paragraph_index": 7,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "And when they just have gotten through telling them, you know, you really don't know anything about stocks, just buy the whole index. (Laughs)",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2021-part-1-ch13-p008",
+      "paragraph_index": 8,
+      "reading_text": "And when they just have gotten through telling them, you know, you really don't know anything about stocks, just buy the whole index. (Laughs)",
+      "reversible_encoding_repairs": [],
+      "text_sha256": "2855bfcf3ddc0b071293d88fd661d26bbfb73fde51d363c6764d99c536b8a073",
+      "speaker_label": null,
+      "speaker_name_label": null,
+      "speaker_label_kind": null,
+      "contextual_speaker_label": "WARREN BUFFETT",
+      "canonical_speaker": null,
+      "candidate_speaker": "Warren Buffett",
+      "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+      "locator": {
+        "chapter_number": 13,
+        "paragraph_index": 8,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "So, I name the 500 index as one.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2021-part-1-ch13-p009",
+      "paragraph_index": 9,
+      "reading_text": "So, I name the 500 index as one.",
+      "reversible_encoding_repairs": [],
+      "text_sha256": "7c7d08c6099b83767fa6dcf15bfa9256e23ec85a62bfcffe84a15374063906dd",
+      "speaker_label": null,
+      "speaker_name_label": null,
+      "speaker_label_kind": null,
+      "contextual_speaker_label": "WARREN BUFFETT",
+      "canonical_speaker": null,
+      "candidate_speaker": "Warren Buffett",
+      "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+      "locator": {
+        "chapter_number": 13,
+        "paragraph_index": 9,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "But it's a tiny portion, but it will be her livelihood, and she'll have all the money she needs, and way beyond it, and that's that.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2021-part-1-ch13-p010",
+      "paragraph_index": 10,
+      "reading_text": "But it's a tiny portion, but it will be her livelihood, and she'll have all the money she needs, and way beyond it, and that's that.",
+      "reversible_encoding_repairs": [],
+      "text_sha256": "8576f3ccd1369a9b2a0b75b800beb476867e5d05f445591d8827c9b10955dcf0",
+      "speaker_label": null,
+      "speaker_name_label": null,
+      "speaker_label_kind": null,
+      "contextual_speaker_label": "WARREN BUFFETT",
+      "canonical_speaker": null,
+      "candidate_speaker": "Warren Buffett",
+      "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+      "locator": {
+        "chapter_number": 13,
+        "paragraph_index": 10,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    },
+    {
+      "text_as_received": "But I don't mind having the 99.7% â a large portion of it â assuming the laws are the same as now â that go to philanthropy, to be kept in Berkshire until they finally are disposed of.",
+      "publisher_attributes": {
+        "data-speaker": "",
+        "class": ""
+      },
+      "id": "cnbc-meeting-2021-part-1-ch13-p011",
+      "paragraph_index": 11,
+      "reading_text": "But I don't mind having the 99.7% — a large portion of it — assuming the laws are the same as now — that go to philanthropy, to be kept in Berkshire until they finally are disposed of.",
+      "reversible_encoding_repairs": [
+        {
+          "before": "â",
+          "after": "—",
+          "roundtrip_codec": "latin-1"
+        },
+        {
+          "before": "â",
+          "after": "—",
+          "roundtrip_codec": "latin-1"
+        },
+        {
+          "before": "â",
+          "after": "—",
+          "roundtrip_codec": "latin-1"
+        }
+      ],
+      "text_sha256": "9ec6796b5153cdc02ad9845530cc050487841895790a55d0bc2550c5bf0ab09f",
+      "speaker_label": null,
+      "speaker_name_label": null,
+      "speaker_label_kind": null,
+      "contextual_speaker_label": "WARREN BUFFETT",
+      "canonical_speaker": null,
+      "candidate_speaker": "Warren Buffett",
+      "attribution_basis": "preceding_label_in_same_chapter_pending_review",
+      "locator": {
+        "chapter_number": 13,
+        "paragraph_index": 11,
+        "selector": "div.Chapter-chapter p[data-speaker]"
+      },
+      "semantic_review": "not_performed",
+      "audio_checked": false
+    }
+  ],
+  "source_worker_checks": {
+    "raw_sha256_matches": true,
+    "all_30_paragraphs_equal_original_html_dom": true,
+    "existing_reversible_repairs_retained": true,
+    "full_chapters_text_read": true,
+    "audio_checked": false,
+    "current_publisher_web_access": "The archived exact URL returned HTTP 403 during this check; local original was inspected directly."
+  },
+  "review_status": "draft_source_worker_checked_pending_independent_review",
+  "eligible_as_answer_evidence": false
+}

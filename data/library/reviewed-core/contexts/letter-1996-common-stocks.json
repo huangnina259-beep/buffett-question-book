@@ -1,0 +1,392 @@
+{
+  "id": "letter-1996-common-stocks",
+  "source_id": "berkshire-letter-1996",
+  "title": "Common Stock Investments",
+  "report_year": 1996,
+  "signature_date": "1997-02-28",
+  "publication_date": null,
+  "date_note": "Report year and date of signature are distinct; first publication date is not established.",
+  "source_url": "https://www.berkshirehathaway.com/letters/1996.html",
+  "source_raw_path": "letters/raw/berkshire-letter-1996.html",
+  "source_raw_sha256": "8518b0b6a2c2586cb46fe2507cf2bbf22ce3b557e9989e0ffe93d43e05980ced",
+  "boundary": "Complete named section; includes original examples, qualifications and surrounding discussion.",
+  "paragraphs": [
+    {
+      "id": "berkshire-letter-1996:u0094",
+      "text": "Common Stock Investments",
+      "reading_text": "Common Stock Investments",
+      "locator": {
+        "type": "html_text_block",
+        "paragraph": 94,
+        "html_line_start": 806,
+        "html_line_end": 806,
+        "extracted_text_character_start": 46269,
+        "extracted_text_character_end": 46293
+      },
+      "text_sha256": "00680df9ca18e4ba3f00480f5e8c3d1a4e8c537977ef549c25a0f6ccdc07e534",
+      "attribution": "Warren Buffett, letter author; embedded quotations remain explicitly quoted"
+    },
+    {
+      "id": "berkshire-letter-1996:u0095",
+      "text": "Below we present our common stock investments.  Those with a market \nvalue of more than $500 million are itemized.",
+      "reading_text": "Below we present our common stock investments.  Those with a market \nvalue of more than $500 million are itemized.",
+      "locator": {
+        "type": "html_text_block",
+        "paragraph": 95,
+        "html_line_start": 808,
+        "html_line_end": 809,
+        "extracted_text_character_start": 46300,
+        "extracted_text_character_end": 46414
+      },
+      "text_sha256": "6427ef47e5e94e53acab5bdda8139e0a78dba694d3a7f2e1fa3edd105193d442",
+      "attribution": "Warren Buffett, letter author; embedded quotations remain explicitly quoted"
+    },
+    {
+      "id": "berkshire-letter-1996:u0096",
+      "text": "12/31/96\n      Shares\tCompany\t                         Cost*     Market\n ----------- ---------------------------------  --------  ---------\n                                               (dollars in millions)\n  49,456,900 American Express Company...........$1,392.7  $ 2,794.3\n 200,000,000 The Coca-Cola Company.............. 1,298.9   10,525.0\n  24,614,214 The Walt Disney Company............   577.0    1,716.8\n  64,246,000 Federal Home Loan Mortgage Corp....   333.4    1,772.8\n  48,000,000 The Gillette Company...............   600.0    3,732.0\n  30,156,600 McDonald's Corporation............. 1,265.3    1,368.4\n   1,727,765 The Washington Post Company........    10.6      579.0\n   7,291,418 Wells Fargo & Company..............   497.8    1,966.9\n \t     Others............................. 1,934.5    3,295.4\n                                                --------  ---------\n \t     Total Common Stocks................$7,910.2  $27,750.6\n                                                ========  =========",
+      "reading_text": "12/31/96\n      Shares\tCompany\t                         Cost*     Market\n ----------- ---------------------------------  --------  ---------\n                                               (dollars in millions)\n  49,456,900 American Express Company...........$1,392.7  $ 2,794.3\n 200,000,000 The Coca-Cola Company.............. 1,298.9   10,525.0\n  24,614,214 The Walt Disney Company............   577.0    1,716.8\n  64,246,000 Federal Home Loan Mortgage Corp....   333.4    1,772.8\n  48,000,000 The Gillette Company...............   600.0    3,732.0\n  30,156,600 McDonald's Corporation............. 1,265.3    1,368.4\n   1,727,765 The Washington Post Company........    10.6      579.0\n   7,291,418 Wells Fargo & Company..............   497.8    1,966.9\n \t     Others............................. 1,934.5    3,295.4\n                                                --------  ---------\n \t     Total Common Stocks................$7,910.2  $27,750.6\n                                                ========  =========",
+      "locator": {
+        "type": "html_text_block",
+        "paragraph": 96,
+        "html_line_start": 811,
+        "html_line_end": 826,
+        "extracted_text_character_start": 46478,
+        "extracted_text_character_end": 47490
+      },
+      "text_sha256": "cefff2a25df77a7c88a9a05656646b1f1a3355b4e1787bbcce4381cedd8c1ddf",
+      "attribution": "Warren Buffett, letter author; embedded quotations remain explicitly quoted"
+    },
+    {
+      "id": "berkshire-letter-1996:u0097",
+      "text": "* Represents tax-basis cost which, in aggregate, is $1.2 billion \n          less than GAAP cost.",
+      "reading_text": "* Represents tax-basis cost which, in aggregate, is $1.2 billion \n          less than GAAP cost.",
+      "locator": {
+        "type": "html_text_block",
+        "paragraph": 97,
+        "html_line_start": 828,
+        "html_line_end": 829,
+        "extracted_text_character_start": 47497,
+        "extracted_text_character_end": 47593
+      },
+      "text_sha256": "b66ffc0cbf18dbf90e5d9d90af5415d04d19ecc60fbd3999b6775d5bb99ebb53",
+      "attribution": "Warren Buffett, letter author; embedded quotations remain explicitly quoted"
+    },
+    {
+      "id": "berkshire-letter-1996:u0098",
+      "text": "Our portfolio shows little change:  We continue to make more money \nwhen snoring than when active.",
+      "reading_text": "Our portfolio shows little change:  We continue to make more money \nwhen snoring than when active.",
+      "locator": {
+        "type": "html_text_block",
+        "paragraph": 98,
+        "html_line_start": 831,
+        "html_line_end": 832,
+        "extracted_text_character_start": 47600,
+        "extracted_text_character_end": 47698
+      },
+      "text_sha256": "02af70241d6ad7c2fb8d9ae59e1b645c649e98bf321c74a26bcd73ddeea8d14a",
+      "attribution": "Warren Buffett, letter author; embedded quotations remain explicitly quoted"
+    },
+    {
+      "id": "berkshire-letter-1996:u0099",
+      "text": "Inactivity strikes us as intelligent behavior.  Neither we nor most \nbusiness managers would dream of feverishly trading highly-profitable \nsubsidiaries because a small move in the Federal Reserve's discount rate \nwas predicted or because some Wall Street pundit had reversed his views \non the market.  Why, then, should we behave differently with our minority \npositions in wonderful businesses?  The art of investing in public \ncompanies successfully is little different from the art of successfully \nacquiring subsidiaries.  In each case you simply want to acquire, at a \nsensible price, a business with excellent economics and able, honest \nmanagement.  Thereafter, you need only monitor whether these qualities \nare being preserved.",
+      "reading_text": "Inactivity strikes us as intelligent behavior.  Neither we nor most \nbusiness managers would dream of feverishly trading highly-profitable \nsubsidiaries because a small move in the Federal Reserve's discount rate \nwas predicted or because some Wall Street pundit had reversed his views \non the market.  Why, then, should we behave differently with our minority \npositions in wonderful businesses?  The art of investing in public \ncompanies successfully is little different from the art of successfully \nacquiring subsidiaries.  In each case you simply want to acquire, at a \nsensible price, a business with excellent economics and able, honest \nmanagement.  Thereafter, you need only monitor whether these qualities \nare being preserved.",
+      "locator": {
+        "type": "html_text_block",
+        "paragraph": 99,
+        "html_line_start": 834,
+        "html_line_end": 844,
+        "extracted_text_character_start": 47705,
+        "extracted_text_character_end": 48442
+      },
+      "text_sha256": "02eba7177a1d9259a1364a09a6d85fe2c97217afc01b4ebe5fe23a2556fdcee3",
+      "attribution": "Warren Buffett, letter author; embedded quotations remain explicitly quoted"
+    },
+    {
+      "id": "berkshire-letter-1996:u0100",
+      "text": "When carried out capably, an investment strategy of that type will \noften result in its practitioner owning a few securities that will come \nto represent a very large portion of his portfolio.  This investor would \nget a similar result if he followed a policy of purchasing an interest \nin, say, 20% of the future earnings of a number of outstanding college \nbasketball stars.  A handful of these would go on to achieve NBA stardom, \nand the investor's take from them would soon dominate his royalty stream. \nTo suggest that this investor should sell off portions of his most \nsuccessful investments simply because they have come to dominate his \nportfolio is akin to suggesting that the Bulls trade Michael Jordan \nbecause he has become so important to the team.",
+      "reading_text": "When carried out capably, an investment strategy of that type will \noften result in its practitioner owning a few securities that will come \nto represent a very large portion of his portfolio.  This investor would \nget a similar result if he followed a policy of purchasing an interest \nin, say, 20% of the future earnings of a number of outstanding college \nbasketball stars.  A handful of these would go on to achieve NBA stardom, \nand the investor's take from them would soon dominate his royalty stream. \nTo suggest that this investor should sell off portions of his most \nsuccessful investments simply because they have come to dominate his \nportfolio is akin to suggesting that the Bulls trade Michael Jordan \nbecause he has become so important to the team.",
+      "locator": {
+        "type": "html_text_block",
+        "paragraph": 100,
+        "html_line_start": 846,
+        "html_line_end": 856,
+        "extracted_text_character_start": 48449,
+        "extracted_text_character_end": 49212
+      },
+      "text_sha256": "fa7ee66c9fd50c3139f757f0492f4070994ff4d5f9170e190354ed84407864c7",
+      "attribution": "Warren Buffett, letter author; embedded quotations remain explicitly quoted"
+    },
+    {
+      "id": "berkshire-letter-1996:u0101",
+      "text": "In studying the investments we have made in both subsidiary \ncompanies and common stocks, you will see that we favor businesses and \nindustries unlikely to experience major change.  The reason for that is \nsimple:  Making either type of purchase, we are searching for operations \nthat we believe are virtually certain to possess enormous competitive \nstrength ten or twenty years from now.  A fast-changing industry \nenvironment may offer the chance for huge wins, but it precludes the \ncertainty we seek.",
+      "reading_text": "In studying the investments we have made in both subsidiary \ncompanies and common stocks, you will see that we favor businesses and \nindustries unlikely to experience major change.  The reason for that is \nsimple:  Making either type of purchase, we are searching for operations \nthat we believe are virtually certain to possess enormous competitive \nstrength ten or twenty years from now.  A fast-changing industry \nenvironment may offer the chance for huge wins, but it precludes the \ncertainty we seek.",
+      "locator": {
+        "type": "html_text_block",
+        "paragraph": 101,
+        "html_line_start": 858,
+        "html_line_end": 865,
+        "extracted_text_character_start": 49219,
+        "extracted_text_character_end": 49724
+      },
+      "text_sha256": "6d445cdcc15e051f739f0492e438d72eec0c43d24d26dc4f18af760ecdb14e3a",
+      "attribution": "Warren Buffett, letter author; embedded quotations remain explicitly quoted"
+    },
+    {
+      "id": "berkshire-letter-1996:u0102",
+      "text": "I should emphasize that, as citizens, Charlie and I welcome change: \nFresh ideas, new products, innovative processes and the like cause our \ncountry's standard of living to rise, and that's clearly good.  As \ninvestors, however, our reaction to a fermenting industry is much like \nour attitude toward space exploration:  We applaud the endeavor but \nprefer to skip the ride.",
+      "reading_text": "I should emphasize that, as citizens, Charlie and I welcome change: \nFresh ideas, new products, innovative processes and the like cause our \ncountry's standard of living to rise, and that's clearly good.  As \ninvestors, however, our reaction to a fermenting industry is much like \nour attitude toward space exploration:  We applaud the endeavor but \nprefer to skip the ride.",
+      "locator": {
+        "type": "html_text_block",
+        "paragraph": 102,
+        "html_line_start": 867,
+        "html_line_end": 872,
+        "extracted_text_character_start": 49731,
+        "extracted_text_character_end": 50105
+      },
+      "text_sha256": "ea07f1ff0d8d3b633b10cea05b758268e58e76874d72823ff2054b58be16ceac",
+      "attribution": "Warren Buffett, letter author; embedded quotations remain explicitly quoted"
+    },
+    {
+      "id": "berkshire-letter-1996:u0103",
+      "text": "Obviously all businesses change to some extent.  Today, See's is \ndifferent in many ways from what it was in 1972 when we bought it:  It \noffers a different assortment of candy, employs different machinery and \nsells through different distribution channels.  But the reasons why \npeople today buy boxed chocolates, and why they buy them from us rather \nthan from someone else, are virtually unchanged from what they were in \nthe 1920s when the See family was building the business.  Moreover, these \nmotivations are not likely to change over the next 20 years, or even 50.",
+      "reading_text": "Obviously all businesses change to some extent.  Today, See's is \ndifferent in many ways from what it was in 1972 when we bought it:  It \noffers a different assortment of candy, employs different machinery and \nsells through different distribution channels.  But the reasons why \npeople today buy boxed chocolates, and why they buy them from us rather \nthan from someone else, are virtually unchanged from what they were in \nthe 1920s when the See family was building the business.  Moreover, these \nmotivations are not likely to change over the next 20 years, or even 50.",
+      "locator": {
+        "type": "html_text_block",
+        "paragraph": 103,
+        "html_line_start": 874,
+        "html_line_end": 881,
+        "extracted_text_character_start": 50112,
+        "extracted_text_character_end": 50684
+      },
+      "text_sha256": "1b4f1964b3c8b1625300c80ce11e99e8ae298bf080d5f6ffca57012590eeeedd",
+      "attribution": "Warren Buffett, letter author; embedded quotations remain explicitly quoted"
+    },
+    {
+      "id": "berkshire-letter-1996:u0104",
+      "text": "We look for similar predictability in marketable securities.  Take \nCoca-Cola:  The zeal and imagination with which Coke products are sold \nhas burgeoned under Roberto Goizueta, who has done an absolutely \nincredible job in creating value for his shareholders.  Aided by Don \nKeough and Doug Ivester, Roberto has rethought and improved every aspect \nof the company.  But the fundamentals of the business - the qualities \nthat underlie Coke's competitive dominance and stunning economics - have \nremained constant through the years.",
+      "reading_text": "We look for similar predictability in marketable securities.  Take \nCoca-Cola:  The zeal and imagination with which Coke products are sold \nhas burgeoned under Roberto Goizueta, who has done an absolutely \nincredible job in creating value for his shareholders.  Aided by Don \nKeough and Doug Ivester, Roberto has rethought and improved every aspect \nof the company.  But the fundamentals of the business - the qualities \nthat underlie Coke's competitive dominance and stunning economics - have \nremained constant through the years.",
+      "locator": {
+        "type": "html_text_block",
+        "paragraph": 104,
+        "html_line_start": 883,
+        "html_line_end": 890,
+        "extracted_text_character_start": 50691,
+        "extracted_text_character_end": 51222
+      },
+      "text_sha256": "49b0bc27f58a8e9f8d57757b33867218fcb8eac1ac4ff841117185e1c8642107",
+      "attribution": "Warren Buffett, letter author; embedded quotations remain explicitly quoted"
+    },
+    {
+      "id": "berkshire-letter-1996:u0105",
+      "text": "I was recently studying the 1896 report of Coke (and you think that \nyou are behind in your reading!).  At that time Coke, though it was \nalready the leading soft drink, had been around for only a decade.  But \nits blueprint for the next 100 years was already drawn.  Reporting sales \nof $148,000 that year, Asa Candler, the company's president, said:  \"We \nhave not lagged in our efforts to go into all the world teaching that \nCoca-Cola is the article, par excellence, for the health and good feeling \nof all people.\"  Though \"health\" may have been a reach, I love the fact \nthat Coke still relies on Candler's basic theme today - a century later. \nCandler went on to say, just as Roberto could now, \"No article of like \ncharacter has ever so firmly entrenched itself in public favor.\"  Sales \nof syrup that year, incidentally, were 116,492 gallons versus about 3.2 \nbillion in 1996.",
+      "reading_text": "I was recently studying the 1896 report of Coke (and you think that \nyou are behind in your reading!).  At that time Coke, though it was \nalready the leading soft drink, had been around for only a decade.  But \nits blueprint for the next 100 years was already drawn.  Reporting sales \nof $148,000 that year, Asa Candler, the company's president, said:  \"We \nhave not lagged in our efforts to go into all the world teaching that \nCoca-Cola is the article, par excellence, for the health and good feeling \nof all people.\"  Though \"health\" may have been a reach, I love the fact \nthat Coke still relies on Candler's basic theme today - a century later. \nCandler went on to say, just as Roberto could now, \"No article of like \ncharacter has ever so firmly entrenched itself in public favor.\"  Sales \nof syrup that year, incidentally, were 116,492 gallons versus about 3.2 \nbillion in 1996.",
+      "locator": {
+        "type": "html_text_block",
+        "paragraph": 105,
+        "html_line_start": 892,
+        "html_line_end": 904,
+        "extracted_text_character_start": 51229,
+        "extracted_text_character_end": 52114
+      },
+      "text_sha256": "651aac0d6039c4721b322c39b9a609b9d8e4c3a6f549b9fc4d8c1ff8afda5cad",
+      "attribution": "Warren Buffett, letter author; embedded quotations remain explicitly quoted"
+    },
+    {
+      "id": "berkshire-letter-1996:u0106",
+      "text": "I can't resist one more Candler quote:  \"Beginning this year about \nMarch 1st . . . we employed ten traveling salesmen by means of which, \nwith systematic correspondence from the office, we covered almost the \nterritory of the Union.\"  That's my kind of sales force.",
+      "reading_text": "I can't resist one more Candler quote:  \"Beginning this year about \nMarch 1st . . . we employed ten traveling salesmen by means of which, \nwith systematic correspondence from the office, we covered almost the \nterritory of the Union.\"  That's my kind of sales force.",
+      "locator": {
+        "type": "html_text_block",
+        "paragraph": 106,
+        "html_line_start": 906,
+        "html_line_end": 909,
+        "extracted_text_character_start": 52121,
+        "extracted_text_character_end": 52387
+      },
+      "text_sha256": "912ade629ac1ce65733e04df1c56c8ba1db3e4065f5af0c3974c04ba2adc217f",
+      "attribution": "Warren Buffett, letter author; embedded quotations remain explicitly quoted"
+    },
+    {
+      "id": "berkshire-letter-1996:u0107",
+      "text": "Companies such as Coca-Cola and Gillette might well be labeled \"The \nInevitables.\"  Forecasters may differ a bit in their predictions of \nexactly how much soft drink or shaving-equipment business these companies \nwill be doing in ten or twenty years.  Nor is our talk of inevitability \nmeant to play down the vital work that these companies must continue to \ncarry out, in such areas as manufacturing, distribution, packaging and \nproduct innovation.  In the end, however, no sensible observer - not even \nthese companies' most vigorous competitors, assuming they are assessing \nthe matter honestly - questions that Coke and Gillette will dominate \ntheir fields worldwide for an investment lifetime.  Indeed, their \ndominance will probably strengthen.  Both companies have significantly \nexpanded their already huge shares of market during the past ten years, \nand all signs point to their repeating that performance in the next \ndecade.",
+      "reading_text": "Companies such as Coca-Cola and Gillette might well be labeled \"The \nInevitables.\"  Forecasters may differ a bit in their predictions of \nexactly how much soft drink or shaving-equipment business these companies \nwill be doing in ten or twenty years.  Nor is our talk of inevitability \nmeant to play down the vital work that these companies must continue to \ncarry out, in such areas as manufacturing, distribution, packaging and \nproduct innovation.  In the end, however, no sensible observer - not even \nthese companies' most vigorous competitors, assuming they are assessing \nthe matter honestly - questions that Coke and Gillette will dominate \ntheir fields worldwide for an investment lifetime.  Indeed, their \ndominance will probably strengthen.  Both companies have significantly \nexpanded their already huge shares of market during the past ten years, \nand all signs point to their repeating that performance in the next \ndecade.",
+      "locator": {
+        "type": "html_text_block",
+        "paragraph": 107,
+        "html_line_start": 911,
+        "html_line_end": 924,
+        "extracted_text_character_start": 52394,
+        "extracted_text_character_end": 53331
+      },
+      "text_sha256": "af7839bb8e587421b21f2b1c2ea1eab3cac684875cd06064f8716b760f8fcf26",
+      "attribution": "Warren Buffett, letter author; embedded quotations remain explicitly quoted"
+    },
+    {
+      "id": "berkshire-letter-1996:u0108",
+      "text": "Obviously many companies in high-tech businesses or embryonic \nindustries will grow much faster in percentage terms than will The \nInevitables.  But I would rather be certain of a good result than hopeful \nof a great one.",
+      "reading_text": "Obviously many companies in high-tech businesses or embryonic \nindustries will grow much faster in percentage terms than will The \nInevitables.  But I would rather be certain of a good result than hopeful \nof a great one.",
+      "locator": {
+        "type": "html_text_block",
+        "paragraph": 108,
+        "html_line_start": 926,
+        "html_line_end": 929,
+        "extracted_text_character_start": 53338,
+        "extracted_text_character_end": 53559
+      },
+      "text_sha256": "fc69925d7b130ab26f2a66622c5460ea59eaafc5f6e1ff165261ad9883055664",
+      "attribution": "Warren Buffett, letter author; embedded quotations remain explicitly quoted"
+    },
+    {
+      "id": "berkshire-letter-1996:u0109",
+      "text": "Of course, Charlie and I can identify only a few Inevitables, even \nafter a lifetime of looking for them.  Leadership alone provides no \ncertainties:  Witness the shocks some years back at General Motors, IBM \nand Sears, all of which had enjoyed long periods of seeming \ninvincibility.  Though some industries or lines of business exhibit \ncharacteristics that endow leaders with virtually insurmountable \nadvantages, and that tend to establish Survival of the Fattest as almost \na natural law, most do not.  Thus, for every Inevitable, there are dozens \nof Impostors, companies now riding high but vulnerable to competitive \nattacks.  Considering what it takes to be an Inevitable, Charlie and I \nrecognize that we will never be able to come up with a Nifty Fifty or \neven a Twinkling Twenty.  To the Inevitables in our portfolio, therefore, \nwe add a few \"Highly Probables.\"",
+      "reading_text": "Of course, Charlie and I can identify only a few Inevitables, even \nafter a lifetime of looking for them.  Leadership alone provides no \ncertainties:  Witness the shocks some years back at General Motors, IBM \nand Sears, all of which had enjoyed long periods of seeming \ninvincibility.  Though some industries or lines of business exhibit \ncharacteristics that endow leaders with virtually insurmountable \nadvantages, and that tend to establish Survival of the Fattest as almost \na natural law, most do not.  Thus, for every Inevitable, there are dozens \nof Impostors, companies now riding high but vulnerable to competitive \nattacks.  Considering what it takes to be an Inevitable, Charlie and I \nrecognize that we will never be able to come up with a Nifty Fifty or \neven a Twinkling Twenty.  To the Inevitables in our portfolio, therefore, \nwe add a few \"Highly Probables.\"",
+      "locator": {
+        "type": "html_text_block",
+        "paragraph": 109,
+        "html_line_start": 931,
+        "html_line_end": 943,
+        "extracted_text_character_start": 53566,
+        "extracted_text_character_end": 54442
+      },
+      "text_sha256": "bd1ae19bf5e417dda5f2d4ed25904305cf4e9ee951dfd8f06823519e390b3b3a",
+      "attribution": "Warren Buffett, letter author; embedded quotations remain explicitly quoted"
+    },
+    {
+      "id": "berkshire-letter-1996:u0110",
+      "text": "You can, of course, pay too much for even the best of businesses.  \nThe overpayment risk surfaces periodically and, in our opinion, may now \nbe quite high for the purchasers of virtually all stocks, The Inevitables \nincluded.  Investors making purchases in an overheated market need to \nrecognize that it may often take an extended period for the value of even \nan outstanding company to catch up with the price they paid.",
+      "reading_text": "You can, of course, pay too much for even the best of businesses.  \nThe overpayment risk surfaces periodically and, in our opinion, may now \nbe quite high for the purchasers of virtually all stocks, The Inevitables \nincluded.  Investors making purchases in an overheated market need to \nrecognize that it may often take an extended period for the value of even \nan outstanding company to catch up with the price they paid.",
+      "locator": {
+        "type": "html_text_block",
+        "paragraph": 110,
+        "html_line_start": 945,
+        "html_line_end": 950,
+        "extracted_text_character_start": 54449,
+        "extracted_text_character_end": 54871
+      },
+      "text_sha256": "a4c0fe04a2e7ccf7246588dd16c94282b36291adf3a9f5c137d61440442b6dae",
+      "attribution": "Warren Buffett, letter author; embedded quotations remain explicitly quoted"
+    },
+    {
+      "id": "berkshire-letter-1996:u0111",
+      "text": "A far more serious problem occurs when the management of a great \ncompany gets sidetracked and neglects its wonderful base business while \npurchasing other businesses that are so-so or worse.  When that happens, \nthe suffering of investors is often prolonged.  Unfortunately, that is \nprecisely what transpired years ago at both Coke and Gillette.  (Would \nyou believe that a few decades back they were growing shrimp at Coke and \nexploring for oil at Gillette?)  Loss of focus is what most worries \nCharlie and me when we contemplate investing in businesses that in \ngeneral look outstanding.  All too often, we've seen value stagnate in \nthe presence of hubris or of boredom that caused the attention of \nmanagers to wander.  That's not going to happen again at Coke and \nGillette, however - not given their current and prospective managements.",
+      "reading_text": "A far more serious problem occurs when the management of a great \ncompany gets sidetracked and neglects its wonderful base business while \npurchasing other businesses that are so-so or worse.  When that happens, \nthe suffering of investors is often prolonged.  Unfortunately, that is \nprecisely what transpired years ago at both Coke and Gillette.  (Would \nyou believe that a few decades back they were growing shrimp at Coke and \nexploring for oil at Gillette?)  Loss of focus is what most worries \nCharlie and me when we contemplate investing in businesses that in \ngeneral look outstanding.  All too often, we've seen value stagnate in \nthe presence of hubris or of boredom that caused the attention of \nmanagers to wander.  That's not going to happen again at Coke and \nGillette, however - not given their current and prospective managements.",
+      "locator": {
+        "type": "html_text_block",
+        "paragraph": 111,
+        "html_line_start": 952,
+        "html_line_end": 963,
+        "extracted_text_character_start": 54878,
+        "extracted_text_character_end": 55724
+      },
+      "text_sha256": "23566456f4fe4242c585495b894f17e066b3baa18a0023b44fdc667c1d7084f0",
+      "attribution": "Warren Buffett, letter author; embedded quotations remain explicitly quoted"
+    },
+    {
+      "id": "berkshire-letter-1996:u0112",
+      "text": "* * * * * * * * * * * *",
+      "reading_text": "* * * * * * * * * * * *",
+      "locator": {
+        "type": "html_text_block",
+        "paragraph": 112,
+        "html_line_start": 965,
+        "html_line_end": 965,
+        "extracted_text_character_start": 55747,
+        "extracted_text_character_end": 55770
+      },
+      "text_sha256": "df0fc941402083a5a320f002cca6787d2a86c74f1180a63be5d25ef8e67dfbb4",
+      "attribution": "Warren Buffett, letter author; embedded quotations remain explicitly quoted"
+    },
+    {
+      "id": "berkshire-letter-1996:u0113",
+      "text": "Let me add a few thoughts about your own investments.  Most \ninvestors, both institutional and individual, will find that the best way \nto own common stocks is through an index fund that charges minimal fees. \nThose following this path are sure to beat the net results (after fees \nand expenses) delivered by the great majority of investment \nprofessionals.",
+      "reading_text": "Let me add a few thoughts about your own investments.  Most \ninvestors, both institutional and individual, will find that the best way \nto own common stocks is through an index fund that charges minimal fees. \nThose following this path are sure to beat the net results (after fees \nand expenses) delivered by the great majority of investment \nprofessionals.",
+      "locator": {
+        "type": "html_text_block",
+        "paragraph": 113,
+        "html_line_start": 967,
+        "html_line_end": 972,
+        "extracted_text_character_start": 55777,
+        "extracted_text_character_end": 56134
+      },
+      "text_sha256": "df14d210d0c3f91aabd0950ad53e98eb559c847333404b60c2b7b6b019d0aa0a",
+      "attribution": "Warren Buffett, letter author; embedded quotations remain explicitly quoted"
+    },
+    {
+      "id": "berkshire-letter-1996:u0114",
+      "text": "Should you choose, however, to construct your own portfolio, there \nare a few thoughts worth remembering.  Intelligent investing is not \ncomplex, though that is far from saying that it is easy.  What an \ninvestor needs is the ability to correctly evaluate selected businesses. \nNote that word \"selected\":  You don't have to be an expert on every \ncompany, or even many.  You only have to be able to evaluate companies \nwithin your circle of competence.  The size of that circle is not very \nimportant; knowing its boundaries, however, is vital.",
+      "reading_text": "Should you choose, however, to construct your own portfolio, there \nare a few thoughts worth remembering.  Intelligent investing is not \ncomplex, though that is far from saying that it is easy.  What an \ninvestor needs is the ability to correctly evaluate selected businesses. \nNote that word \"selected\":  You don't have to be an expert on every \ncompany, or even many.  You only have to be able to evaluate companies \nwithin your circle of competence.  The size of that circle is not very \nimportant; knowing its boundaries, however, is vital.",
+      "locator": {
+        "type": "html_text_block",
+        "paragraph": 114,
+        "html_line_start": 974,
+        "html_line_end": 981,
+        "extracted_text_character_start": 56141,
+        "extracted_text_character_end": 56685
+      },
+      "text_sha256": "916c283ba9867fc564643afbd9192aa8f259e8b7a1ce79d7c1d9cd7bfea1db77",
+      "attribution": "Warren Buffett, letter author; embedded quotations remain explicitly quoted"
+    },
+    {
+      "id": "berkshire-letter-1996:u0115",
+      "text": "To invest successfully, you need not understand beta, efficient \nmarkets, modern portfolio theory, option pricing or emerging markets.  \nYou may, in fact, be better off knowing nothing of these.  That, of \ncourse, is not the prevailing view at most business schools, whose \nfinance curriculum tends to be dominated by such subjects.  In our view, \nthough, investment students need only two well-taught courses - How to \nValue a Business, and How to Think About Market Prices.",
+      "reading_text": "To invest successfully, you need not understand beta, efficient \nmarkets, modern portfolio theory, option pricing or emerging markets.  \nYou may, in fact, be better off knowing nothing of these.  That, of \ncourse, is not the prevailing view at most business schools, whose \nfinance curriculum tends to be dominated by such subjects.  In our view, \nthough, investment students need only two well-taught courses - How to \nValue a Business, and How to Think About Market Prices.",
+      "locator": {
+        "type": "html_text_block",
+        "paragraph": 115,
+        "html_line_start": 983,
+        "html_line_end": 989,
+        "extracted_text_character_start": 56692,
+        "extracted_text_character_end": 57167
+      },
+      "text_sha256": "d8ec1c5d34b96fa047b06548e85c64241e3a22d27b6221b2945fa684dcc4cafd",
+      "attribution": "Warren Buffett, letter author; embedded quotations remain explicitly quoted"
+    },
+    {
+      "id": "berkshire-letter-1996:u0116",
+      "text": "Your goal as an investor should simply be to purchase, at a rational \nprice, a part interest in an easily-understandable business whose \nearnings are virtually certain to be materially higher five, ten and \ntwenty years from now.  Over time, you will find only a few companies \nthat meet these standards - so when you see one that qualifies, you \nshould buy a meaningful amount of stock.  You must also resist the \ntemptation to stray from your guidelines:  If you aren't willing to own a \nstock for ten years, don't even think about owning it for ten minutes.  \nPut together a portfolio of companies whose aggregate earnings march \nupward over the years, and so also will the portfolio's market value.",
+      "reading_text": "Your goal as an investor should simply be to purchase, at a rational \nprice, a part interest in an easily-understandable business whose \nearnings are virtually certain to be materially higher five, ten and \ntwenty years from now.  Over time, you will find only a few companies \nthat meet these standards - so when you see one that qualifies, you \nshould buy a meaningful amount of stock.  You must also resist the \ntemptation to stray from your guidelines:  If you aren't willing to own a \nstock for ten years, don't even think about owning it for ten minutes.  \nPut together a portfolio of companies whose aggregate earnings march \nupward over the years, and so also will the portfolio's market value.",
+      "locator": {
+        "type": "html_text_block",
+        "paragraph": 116,
+        "html_line_start": 991,
+        "html_line_end": 1000,
+        "extracted_text_character_start": 57174,
+        "extracted_text_character_end": 57876
+      },
+      "text_sha256": "e149e1c06ad83bd5771481346ce683cfcbb86e340df1e562190395c9a3b6bbc3",
+      "attribution": "Warren Buffett, letter author; embedded quotations remain explicitly quoted"
+    },
+    {
+      "id": "berkshire-letter-1996:u0117",
+      "text": "Though it's seldom recognized, this is the exact approach that has \nproduced gains for Berkshire shareholders:  Our look-through earnings \nhave grown at a good clip over the years, and our stock price has risen \ncorrespondingly.  Had those gains in earnings not materialized, there \nwould have been little increase in Berkshire's value.",
+      "reading_text": "Though it's seldom recognized, this is the exact approach that has \nproduced gains for Berkshire shareholders:  Our look-through earnings \nhave grown at a good clip over the years, and our stock price has risen \ncorrespondingly.  Had those gains in earnings not materialized, there \nwould have been little increase in Berkshire's value.",
+      "locator": {
+        "type": "html_text_block",
+        "paragraph": 117,
+        "html_line_start": 1002,
+        "html_line_end": 1006,
+        "extracted_text_character_start": 57883,
+        "extracted_text_character_end": 58219
+      },
+      "text_sha256": "3a2b95203d95e5ede6a76d2a260bb2e0c033be14928d138ed3d422a73a974d0c",
+      "attribution": "Warren Buffett, letter author; embedded quotations remain explicitly quoted"
+    },
+    {
+      "id": "berkshire-letter-1996:u0118",
+      "text": "The greatly enlarged earnings base we now enjoy will inevitably \ncause our future gains to lag those of the past.  We will continue, \nhowever, to push in the directions we always have.  We will try to build \nearnings by running our present businesses well - a job made easy because \nof the extraordinary talents of our operating managers - and by \npurchasing other businesses, in whole or in part, that are not likely to \nbe roiled by change and that possess important competitive advantages.",
+      "reading_text": "The greatly enlarged earnings base we now enjoy will inevitably \ncause our future gains to lag those of the past.  We will continue, \nhowever, to push in the directions we always have.  We will try to build \nearnings by running our present businesses well - a job made easy because \nof the extraordinary talents of our operating managers - and by \npurchasing other businesses, in whole or in part, that are not likely to \nbe roiled by change and that possess important competitive advantages.",
+      "locator": {
+        "type": "html_text_block",
+        "paragraph": 118,
+        "html_line_start": 1008,
+        "html_line_end": 1014,
+        "extracted_text_character_start": 58226,
+        "extracted_text_character_end": 58718
+      },
+      "text_sha256": "3d389aac17299dd4cd7f569211478951bb194d27561560bc1499e097d92825d1",
+      "attribution": "Warren Buffett, letter author; embedded quotations remain explicitly quoted"
+    }
+  ],
+  "review_scope": "Selected evidence claims and their context; numerical tables are retained for context and are not independently audited financial data.",
+  "audio_checked": false
+}

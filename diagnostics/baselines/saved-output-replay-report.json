@@ -1,0 +1,29 @@
+{
+  "scope": "Offline parser replay of three immutable historical outputs; no inference or semantic review.",
+  "promptVersion": "source-grounded-writer-3.6",
+  "networkCalls": 0,
+  "cases": [
+    {
+      "id": "stock-evaluation-qwen",
+      "historicalValidationCode": "json",
+      "currentResult": "rejected",
+      "currentValidationCode": "json",
+      "semanticApproval": false
+    },
+    {
+      "id": "stock-evaluation-qwen-compact",
+      "historicalValidationCode": "structure",
+      "currentResult": "rejected",
+      "currentValidationCode": "structure",
+      "semanticApproval": false
+    },
+    {
+      "id": "stock-evaluation-low-reasoning",
+      "historicalValidationCode": "structure",
+      "currentResult": "accepted",
+      "unavailable": false,
+      "normalizationCount": 1,
+      "semanticApproval": false
+    }
+  ]
+}

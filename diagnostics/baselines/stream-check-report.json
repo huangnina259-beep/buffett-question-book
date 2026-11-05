@@ -1,0 +1,120 @@
+{
+  "version": "sse-adapter-offline-1",
+  "adapterSha256": "6e276d4d2b2a01e3e4547b5ea5f4e2301981a7acd059b9d1aa6a1ae3767055b3",
+  "checkedAt": "2026-11-05T09:21:08.201Z",
+  "networkCalls": 0,
+  "providerCalls": 0,
+  "tests": [
+    {
+      "name": "cross-origin 302 is cancelled without reading its body or forwarding credentials",
+      "passed": true
+    },
+    {
+      "name": "proper stop + DONE returns exact content and usage-only final event",
+      "passed": true
+    },
+    {
+      "name": "one-byte chunks preserve split UTF-8 and every event boundary",
+      "passed": true
+    },
+    {
+      "name": "CRLF event boundaries survive arbitrary transport splits",
+      "passed": true
+    },
+    {
+      "name": "SSE comments/empty events and multiline JSON data are accepted",
+      "passed": true
+    },
+    {
+      "name": "no usage remains unknown rather than zero",
+      "passed": true
+    },
+    {
+      "name": "inconsistent reported usage is not marked trustworthy",
+      "passed": true
+    },
+    {
+      "name": "missing DONE is rejected after otherwise proper stop",
+      "passed": true
+    },
+    {
+      "name": "DONE without stop is rejected",
+      "passed": true
+    },
+    {
+      "name": "empty content with stop and DONE is rejected",
+      "passed": true
+    },
+    {
+      "name": "explicit output truncation is rejected",
+      "passed": true
+    },
+    {
+      "name": "tool_calls delta is rejected",
+      "passed": true
+    },
+    {
+      "name": "legacy function_call delta is rejected",
+      "passed": true
+    },
+    {
+      "name": "multiple choices in one event are rejected",
+      "passed": true
+    },
+    {
+      "name": "nonzero choice index is rejected",
+      "passed": true
+    },
+    {
+      "name": "provider content-filter refusal is rejected",
+      "passed": true
+    },
+    {
+      "name": "content emitted after stop is rejected",
+      "passed": true
+    },
+    {
+      "name": "extra data event after DONE in same transport chunk is rejected",
+      "passed": true
+    },
+    {
+      "name": "malformed JSON event is rejected",
+      "passed": true
+    },
+    {
+      "name": "invalid UTF-8 is an invalid response rather than a network failure",
+      "passed": true
+    },
+    {
+      "name": "output character bound rejects oversized generated text",
+      "passed": true
+    },
+    {
+      "name": "total transport byte bound rejects oversized SSE metadata/comments",
+      "passed": true
+    },
+    {
+      "name": "caller cancellation stops stalled stream reader",
+      "passed": true
+    },
+    {
+      "name": "transport timeout stops stalled reader",
+      "passed": true
+    },
+    {
+      "name": "cancellation retains usage already reported by stream",
+      "passed": true
+    },
+    {
+      "name": "normal JSON fallback works even when request opted into stream",
+      "passed": true
+    },
+    {
+      "name": "normal nonstream JSON request preserves compatibility",
+      "passed": true
+    }
+  ],
+  "scope": "Actual TypeScript transport bundled with esbuild; mocked fetch and ReadableStream only. No model quality, latency or provider-compatibility claim.",
+  "passed": 27,
+  "failed": 0
+}

@@ -1,0 +1,45 @@
+{
+  "source_checks": [
+    {
+      "id": "letter-1989-mistakes",
+      "raw_sha256_matches": true,
+      "context_sha256_matches": true,
+      "paragraphs_checked": 20,
+      "raw_html_line_start": 1395,
+      "raw_html_line_end": 1565,
+      "signature_date_verified_in_raw": "1990-03-02"
+    },
+    {
+      "id": "letter-1996-common-stocks",
+      "raw_sha256_matches": true,
+      "context_sha256_matches": true,
+      "paragraphs_checked": 25,
+      "raw_html_line_start": 806,
+      "raw_html_line_end": 1014,
+      "signature_date_verified_in_raw": "1997-02-28"
+    },
+    {
+      "id": "meeting-2002-index",
+      "raw_sha256_matches": true,
+      "context_sha256_matches": true,
+      "paragraphs_checked": 39,
+      "event_date_verified_in_archived_event_landing": "2002-05-04",
+      "reversible_encoding_repair_records_checked": 64,
+      "raw_dom_paragraph_equality": true,
+      "adjacent_chapter_starts_inspected": true
+    },
+    {
+      "id": "meeting-2010-integrity",
+      "raw_sha256_matches": true,
+      "context_sha256_matches": true,
+      "paragraphs_checked": 36,
+      "event_date_verified_in_archived_event_landing": "2010-05-01",
+      "reversible_encoding_repair_records_checked": 7,
+      "raw_dom_paragraph_equality": true,
+      "adjacent_chapter_starts_inspected": true
+    }
+  ],
+  "all_12_anchors_and_local_context_paths_match": true,
+  "all_cited_meeting_paragraph_speakers_match_explicit_turn_context": true,
+  "no_eligibility_changes": true
+}

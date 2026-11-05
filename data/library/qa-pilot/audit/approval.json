@@ -1,0 +1,40 @@
+{
+  "status": "approved_scoped_pilot",
+  "recorded_at_utc": "2026-10-31T09:22:27.763052+00:00",
+  "approval_type": "Root release decision after independent agent source, delivery and integration review; not human certification.",
+  "scope": "Five prepared English answers and selected cited uses of 18 evidence records, including one questioner-premise record. Six complete context groups are available; review does not approve every assertion in those contexts.",
+  "content_sha256": "d77c264c57635f5a03f743c6c490bbe2a1e8afa903eb19a185b218c585e22f5c",
+  "input_hashes": {
+    "content.py": "d77c264c57635f5a03f743c6c490bbe2a1e8afa903eb19a185b218c585e22f5c",
+    "build.py": "daf2e28c6a34e664ebac7186a6bfbb37c53daefe6a38a540ffd2d47dd4ddfe74",
+    "scope.json": "a89fcc5fa299aecbdc347a660fede77e231d51da287d1fcc540efcfdadee2d43",
+    "question-context.json": "0a16034cb127ec9a7ef709ea825fcb3897944d25917925c656cef5f72a65d8a4",
+    "sources/index-additional-claims.json": "881be4fc8947c0e0b5cf12f8af7f03c8a006374277fa6b476b1cee14fbf23859",
+    "sources/letter-2013-investing.json": "2b827efb7035f62864c479d6788546dc2cb70454a3c815e63d91c57ca125bcee",
+    "sources/meeting-2021-index-estate.json": "3a527ad264cb35626f387d17b01da554d68c484dc0cdbf8006926179778a9a20",
+    "omission-index.json": "e74ef00cd0db60d63073373f51b2f156acad0e43e6370a9e33d35be400f5425d",
+    "acceptance-cases.json": "f685030c94406717f135c4b69f14946c762ed379ce9c305185c761a832bbc0cd",
+    "acceptance-results.json": "84b9a1c746eb7248aefcad97b0bb26add4704304d8181a2695aeae6410b22567",
+    "integration-files.json": "0d2a5496c571263053bcfa31bb48f20396aecd4c3b82b3be8da42a6ef49c63cd",
+    "review-answers.json": "e72e3d19b90e4ee6128fe8c4d2c581a6c116247622e47ba66688608a59938dcb",
+    "review-delivery.json": "f80dd92618ac1470a3051938791b8ab5cc0c1c38bd8e2e376fa1fc135d19de9d",
+    "review-integration.json": "cad9a2f1460e386853dde5c7723254a6f4adf0dee32b87a55ae1ceea48a42201"
+  },
+  "gates_passed": [
+    "review-answers.json",
+    "review-delivery.json",
+    "review-integration.json"
+  ],
+  "not_approved": [
+    "Live generative answers",
+    "Present-market assessment or personalized allocation",
+    "Translation",
+    "Public deployment",
+    "Whole-corpus completeness or audio authentication"
+  ],
+  "post_build_checks": [
+    "Mechanical validation of final generated files",
+    "Final reviewed badge and representative local file browser check",
+    "Archive checksum and payload verification"
+  ]
+}

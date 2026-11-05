@@ -1,0 +1,3 @@
+# Keep portable source line endings and preserve canonical archive bytes exactly.
+* text=auto eol=lf
+data/library/** -text

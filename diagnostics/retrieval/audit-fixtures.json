@@ -1,0 +1,1104 @@
+{
+  "version": "independent-natural-paraphrases-1",
+  "created_before_results": true,
+  "scope": "Selected 19-context packet only, not full archive. English cases are primary; Chinese cases are separately reported probes because the site is presently English. No generative answer expected.",
+  "source_basis": {
+    "value": {
+      "any_context": [
+        "letter-1992-0074-0085",
+        "letter-1994-0013-0026"
+      ],
+      "source_basis": "1992 u81–85 explains discounted future cash and margin of safety; 1994 u23 defines intrinsic value and interest/cash-flow sensitivity."
+    },
+    "book": {
+      "any_context": [
+        "letter-1994-0013-0026"
+      ],
+      "source_basis": "1994 u20–26 distinguishes book and intrinsic value, including the textile-asset and college-education examples."
+    },
+    "owner": {
+      "any_context": [
+        "letter-1986-0285-0297",
+        "letter-1986-0154-0297"
+      ],
+      "source_basis": "1986 u286–293 defines complete owner earnings, working-capital/LIFO qualification and maintenance-spending uncertainty."
+    },
+    "accounting": {
+      "any_context": [
+        "letter-1986-0154-0297"
+      ],
+      "source_basis": "1986 complete appendix u154–297 explains purchase-accounting changes in the same Scott Fetzer enterprise."
+    },
+    "rates": {
+      "any_context": [
+        "cnbc-meeting-1994-morning-ch13",
+        "cnbc-meeting-1998-afternoon-ch08",
+        "cnbc-meeting-1998-afternoon-ch44"
+      ],
+      "source_basis": "1994 minimum-yield question and conditional discount-rate answer; 1998 ch8/44 common yardstick and knowability threshold. Historical conditions are not current recommendations."
+    },
+    "risk_rate": {
+      "any_context": [
+        "cnbc-meeting-1998-afternoon-ch44"
+      ],
+      "source_basis": "Full 1998 chapter44 explicitly refuses to compensate for an unknowable business merely with a higher discount rate."
+    },
+    "growth": {
+      "any_context": [
+        "letter-1992-0074-0085",
+        "cnbc-meeting-1998-afternoon-ch08",
+        "letter-2000-pdf-p12-p3-through-p13-p9"
+      ],
+      "source_basis": "1992 u80/83 and 1998 ch8 distinguish productive reinvestment from forced low-return growth; 2000 cash-input/output discussion."
+    },
+    "competence": {
+      "any_context": [
+        "letter-1996-0098-0118",
+        "meeting-2002-boundary"
+      ],
+      "source_basis": "1996 selected-business competence/boundary discussion; full 2002 questions/answers distinguish knowing transactions from knowing an enterprise."
+    },
+    "finance": {
+      "any_context": [
+        "meeting-2002-boundary"
+      ],
+      "source_basis": "2002 ch18 paragraphs60–61 preserve uncertainty about continued finance-company funding independently of Berkshire credit."
+    },
+    "confidence": {
+      "any_context": [
+        "meeting-2014-self-assessment"
+      ],
+      "source_basis": "2014 full chapter7 includes mistaken retail confidence, Baltimore department store and candid friends as feedback."
+    },
+    "learning": {
+      "any_context": [
+        "meeting-2019-learning"
+      ],
+      "source_basis": "2019 afternoon ch8: complete broad-generalist/narrow-specialist question, Buffett reading/research reply and Munger specialization reply."
+    },
+    "expansion": {
+      "any_context": [
+        "meeting-2019-expansion"
+      ],
+      "source_basis": "2019 afternoon ch31: expand if you can, do not force it; energy learning from Walter Scott/Greg Abel remains below their expertise."
+    },
+    "franchise": {
+      "any_context": [
+        "letter-1991-0031-0037",
+        "letter-1991-0031-0044"
+      ],
+      "source_basis": "1991 u31–37 defines desired/no-close-substitute/unregulated economic franchise and distinguishes ordinary business economics."
+    },
+    "sees": {
+      "any_context": [
+        "letter-1991-0045-0055"
+      ],
+      "source_basis": "1991 u45–55 See’s historical pretax profits, reinvested equity, owner distributions and pricing power."
+    },
+    "management": {
+      "any_context": [
+        "letter-1989-0156-0175"
+      ],
+      "source_basis": "1989 u156–175 mistakes discussion includes management/business economics and institutional imperative."
+    },
+    "prices": {
+      "any_context": [
+        "letter-2013-investing-p001-p040"
+      ],
+      "source_basis": "2013 p18–23 contrasts asset output with daily quotations, restless trading and helpful volatility; farm/NYU context preserved."
+    },
+    "index": {
+      "any_context": [
+        "letter-2013-investing-p001-p040",
+        "letter-1996-0098-0118"
+      ],
+      "source_basis": "2013 p27–30 and 1996 index-fund paragraphs distinguish nonprofessional investors and low-cost diversified funds."
+    },
+    "will": {
+      "any_context": [
+        "letter-2013-investing-p001-p040"
+      ],
+      "source_basis": "2013 p32 specific trustee instructions for wife: 90% low-cost S&P500/10% short-term government bonds. Not universal suitability."
+    },
+    "farm": {
+      "any_context": [
+        "letter-2013-investing-p001-p040"
+      ],
+      "source_basis": "2013 original farm/NYU-property narrative bases return estimates on productive output, not price predictions."
+    },
+    "loss": {
+      "any_context": [
+        "cnbc-meeting-1994-morning-ch13"
+      ],
+      "source_basis": "1994 ch13 allows conceivably no current after-tax cash, discusses GEICO losses, future earning power and degree of certainty."
+    },
+    "uncertainty": {
+      "any_context": [
+        "letter-2000-pdf-p12-p3-through-p13-p9"
+      ],
+      "source_basis": "2000 discussion says precise forecasts are foolish, ranges often too wide, and speculation differs from investing."
+    },
+    "investor_habits": {
+      "any_context": [
+        "letter-1996-0098-0118",
+        "letter-2013-investing-p001-p040",
+        "meeting-2019-learning"
+      ],
+      "source_basis": "1996 original Common Stock Investments section gives inactivity, business quality, sensible price and competence limits; 2013 investing discussion contrasts asset output and speculation/quotation reaction; 2019 ch8 discusses research, knowledge advantages, specialization and patience. These sources supply relevant historical principles, not a guarantee of greatness."
+    }
+  },
+  "cases": [
+    {
+      "id": "USER01",
+      "category": "in_scope_english",
+      "question": "how to be a great investor",
+      "previous_question": null,
+      "expected_support": [
+        "investor_habits"
+      ],
+      "expected_empty": false,
+      "basis": "Exact failed user question supplied by root from the native live answers table after the independent fixture set was drafted. At least one relevant source family should be discoverable; no claim that these sources give a guaranteed recipe."
+    },
+    {
+      "id": "B01",
+      "category": "in_scope_english",
+      "question": "How should I appraise a listed business before investing?",
+      "previous_question": null,
+      "expected_support": [
+        "value"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching."
+    },
+    {
+      "id": "B02",
+      "category": "in_scope_english",
+      "question": "What should I look at before buying shares in a firm?",
+      "previous_question": null,
+      "expected_support": [
+        "value"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching."
+    },
+    {
+      "id": "B03",
+      "category": "in_scope_english",
+      "question": "How would Buffett decide whether an equity is worth owning?",
+      "previous_question": null,
+      "expected_support": [
+        "value"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching."
+    },
+    {
+      "id": "B04",
+      "category": "in_scope_english",
+      "question": "How do I evaluate stocks?",
+      "previous_question": null,
+      "expected_support": [
+        "value"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching."
+    },
+    {
+      "id": "B05",
+      "category": "in_scope_english",
+      "question": "What is the right process for analysing a company?",
+      "previous_question": null,
+      "expected_support": [
+        "value"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching."
+    },
+    {
+      "id": "V01",
+      "category": "in_scope_english",
+      "question": "How much is a business really worth?",
+      "previous_question": null,
+      "expected_support": [
+        "value"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching."
+    },
+    {
+      "id": "V02",
+      "category": "in_scope_english",
+      "question": "What determines a share’s underlying worth?",
+      "previous_question": null,
+      "expected_support": [
+        "value"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching."
+    },
+    {
+      "id": "V03",
+      "category": "in_scope_english",
+      "question": "Explain intrinsic value.",
+      "previous_question": null,
+      "expected_support": [
+        "value"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching."
+    },
+    {
+      "id": "V04",
+      "category": "in_scope_english",
+      "question": "Why can the balance sheet understate what a company is worth?",
+      "previous_question": null,
+      "expected_support": [
+        "book"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching."
+    },
+    {
+      "id": "V05",
+      "category": "in_scope_english",
+      "question": "Why were Berkshire’s textile assets worth less than their carrying amount?",
+      "previous_question": null,
+      "expected_support": [
+        "book"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching."
+    },
+    {
+      "id": "V06",
+      "category": "in_scope_english",
+      "question": "Why is the cost of a college education different from its economic worth?",
+      "previous_question": null,
+      "expected_support": [
+        "book"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching."
+    },
+    {
+      "id": "O01",
+      "category": "in_scope_english",
+      "question": "What are owner earnings?",
+      "previous_question": null,
+      "expected_support": [
+        "owner"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching."
+    },
+    {
+      "id": "O02",
+      "category": "in_scope_english",
+      "question": "What are owner's earnings?",
+      "previous_question": null,
+      "expected_support": [
+        "owner"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching."
+    },
+    {
+      "id": "O03",
+      "category": "in_scope_english",
+      "question": "What are owners’ earnings?",
+      "previous_question": null,
+      "expected_support": [
+        "owner"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching."
+    },
+    {
+      "id": "O04",
+      "category": "in_scope_english",
+      "question": "How much money can shareholders actually take out of a firm?",
+      "previous_question": null,
+      "expected_support": [
+        "owner"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching."
+    },
+    {
+      "id": "O05",
+      "category": "in_scope_english",
+      "question": "Why are reported profits different from distributable cash?",
+      "previous_question": null,
+      "expected_support": [
+        "owner"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching."
+    },
+    {
+      "id": "O06",
+      "category": "in_scope_english",
+      "question": "How should replacement spending affect the amount left for shareholders?",
+      "previous_question": null,
+      "expected_support": [
+        "owner"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching."
+    },
+    {
+      "id": "O07",
+      "category": "in_scope_english",
+      "question": "How do capital expenditures affect what owners can withdraw?",
+      "previous_question": null,
+      "expected_support": [
+        "owner"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching."
+    },
+    {
+      "id": "O08",
+      "category": "in_scope_english",
+      "question": "Do receivables and inventories need an adjustment when estimating owner cash?",
+      "previous_question": null,
+      "expected_support": [
+        "owner"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching."
+    },
+    {
+      "id": "O09",
+      "category": "in_scope_english",
+      "question": "What does the LIFO exception mean?",
+      "previous_question": null,
+      "expected_support": [
+        "owner"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching."
+    },
+    {
+      "id": "O10",
+      "category": "in_scope_english",
+      "question": "How does working capital affect owner earnings?",
+      "previous_question": null,
+      "expected_support": [
+        "owner"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching."
+    },
+    {
+      "id": "O11",
+      "category": "in_scope_english",
+      "question": "Why did buying Scott Fetzer change its reported profit without changing its economics?",
+      "previous_question": null,
+      "expected_support": [
+        "accounting"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching."
+    },
+    {
+      "id": "D01",
+      "category": "in_scope_english",
+      "question": "Which interest rates did Buffett use in 1994 and 1998?",
+      "previous_question": null,
+      "expected_support": [
+        "rates"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching."
+    },
+    {
+      "id": "D02",
+      "category": "in_scope_english",
+      "question": "Can I compensate for a business I cannot forecast by using a higher discount rate?",
+      "previous_question": null,
+      "expected_support": [
+        "risk_rate"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching."
+    },
+    {
+      "id": "D03",
+      "category": "in_scope_english",
+      "question": "How should future dollars be translated into today’s dollars?",
+      "previous_question": null,
+      "expected_support": [
+        "value"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching."
+    },
+    {
+      "id": "G01",
+      "category": "in_scope_english",
+      "question": "Is a faster-growing company always a better investment?",
+      "previous_question": null,
+      "expected_support": [
+        "growth"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching."
+    },
+    {
+      "id": "G02",
+      "category": "in_scope_english",
+      "question": "Does growth always create value?",
+      "previous_question": null,
+      "expected_support": [
+        "growth"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching."
+    },
+    {
+      "id": "G03",
+      "category": "in_scope_english",
+      "question": "Why can opening more stores make shareholders poorer?",
+      "previous_question": null,
+      "expected_support": [
+        "growth"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching."
+    },
+    {
+      "id": "C01",
+      "category": "in_scope_english",
+      "question": "How can I tell whether I really know enough about a business to invest?",
+      "previous_question": null,
+      "expected_support": [
+        "competence"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching."
+    },
+    {
+      "id": "C02",
+      "category": "in_scope_english",
+      "question": "Is liking and using a company’s products enough to invest in it?",
+      "previous_question": null,
+      "expected_support": [
+        "competence"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching."
+    },
+    {
+      "id": "C03",
+      "category": "in_scope_english",
+      "question": "How do I identify my circle of competence?",
+      "previous_question": null,
+      "expected_support": [
+        "competence"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching."
+    },
+    {
+      "id": "C04",
+      "category": "in_scope_english",
+      "question": "If I can evaluate each loan, does that mean I can evaluate the lender?",
+      "previous_question": null,
+      "expected_support": [
+        "finance"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching."
+    },
+    {
+      "id": "C05",
+      "category": "in_scope_english",
+      "question": "Why did Berkshire’s credit matter when Buffett examined that lender?",
+      "previous_question": null,
+      "expected_support": [
+        "finance"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching."
+    },
+    {
+      "id": "C06",
+      "category": "in_scope_english",
+      "question": "How can someone discover blind spots in their investing judgment?",
+      "previous_question": null,
+      "expected_support": [
+        "confidence"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching."
+    },
+    {
+      "id": "C07",
+      "category": "in_scope_english",
+      "question": "What did Buffett get wrong about the Baltimore department store?",
+      "previous_question": null,
+      "expected_support": [
+        "confidence"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching."
+    },
+    {
+      "id": "L01",
+      "category": "in_scope_english",
+      "question": "Should an ordinary investor be a specialist or a generalist?",
+      "previous_question": null,
+      "expected_support": [
+        "learning"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching."
+    },
+    {
+      "id": "L02",
+      "category": "in_scope_english",
+      "question": "What kind of reading did Buffett recommend for developing investment expertise?",
+      "previous_question": null,
+      "expected_support": [
+        "learning"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching."
+    },
+    {
+      "id": "L03",
+      "category": "in_scope_english",
+      "question": "How do I expand my circle of competence?",
+      "previous_question": null,
+      "expected_support": [
+        "expansion"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching."
+    },
+    {
+      "id": "L04",
+      "category": "in_scope_english",
+      "question": "Can I force myself to become an expert in another field?",
+      "previous_question": null,
+      "expected_support": [
+        "expansion"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching."
+    },
+    {
+      "id": "L05",
+      "category": "in_scope_english",
+      "question": "What did Buffett gain from working with Walter Scott and Greg Abel?",
+      "previous_question": null,
+      "expected_support": [
+        "expansion"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching."
+    },
+    {
+      "id": "M01",
+      "category": "in_scope_english",
+      "question": "What makes customers keep paying more for the same thing?",
+      "previous_question": null,
+      "expected_support": [
+        "franchise"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching."
+    },
+    {
+      "id": "M02",
+      "category": "in_scope_english",
+      "question": "What separates an economic franchise from an ordinary business?",
+      "previous_question": null,
+      "expected_support": [
+        "franchise"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching."
+    },
+    {
+      "id": "M03",
+      "category": "in_scope_english",
+      "question": "Why do executives imitate what other executives do?",
+      "previous_question": null,
+      "expected_support": [
+        "management"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching."
+    },
+    {
+      "id": "M04",
+      "category": "in_scope_english",
+      "question": "Can a brilliant chief executive rescue a terrible business?",
+      "previous_question": null,
+      "expected_support": [
+        "management"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching."
+    },
+    {
+      "id": "S01",
+      "category": "in_scope_english",
+      "question": "Why was See’s able to send so much money back to Berkshire?",
+      "previous_question": null,
+      "expected_support": [
+        "sees"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching."
+    },
+    {
+      "id": "S02",
+      "category": "in_scope_english",
+      "question": "What made the chocolate company such an attractive investment?",
+      "previous_question": null,
+      "expected_support": [
+        "sees"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching."
+    },
+    {
+      "id": "I01",
+      "category": "in_scope_english",
+      "question": "What did Buffett recommend for ordinary people who cannot select individual shares?",
+      "previous_question": null,
+      "expected_support": [
+        "index"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching."
+    },
+    {
+      "id": "I02",
+      "category": "in_scope_english",
+      "question": "What did Buffett say about index funds?",
+      "previous_question": null,
+      "expected_support": [
+        "index"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching."
+    },
+    {
+      "id": "I03",
+      "category": "in_scope_english",
+      "question": "What were the investment instructions for his wife’s trustee?",
+      "previous_question": null,
+      "expected_support": [
+        "will"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching."
+    },
+    {
+      "id": "I04",
+      "category": "in_scope_english",
+      "question": "Why did he suggest Vanguard and a 90/10 split?",
+      "previous_question": null,
+      "expected_support": [
+        "will"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching."
+    },
+    {
+      "id": "P01",
+      "category": "in_scope_english",
+      "question": "How should I react when quotations jump around every day?",
+      "previous_question": null,
+      "expected_support": [
+        "prices"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching."
+    },
+    {
+      "id": "P02",
+      "category": "in_scope_english",
+      "question": "Why did Buffett buy farmland without knowing how to cultivate it?",
+      "previous_question": null,
+      "expected_support": [
+        "farm"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching."
+    },
+    {
+      "id": "P03",
+      "category": "in_scope_english",
+      "question": "What can the NYU property investment teach shareholders?",
+      "previous_question": null,
+      "expected_support": [
+        "farm"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching."
+    },
+    {
+      "id": "U01",
+      "category": "in_scope_english",
+      "question": "Can an investment estimate be an interval instead of one precise number?",
+      "previous_question": null,
+      "expected_support": [
+        "uncertainty"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching."
+    },
+    {
+      "id": "U02",
+      "category": "in_scope_english",
+      "question": "What separates investing from speculation?",
+      "previous_question": null,
+      "expected_support": [
+        "uncertainty"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching."
+    },
+    {
+      "id": "U03",
+      "category": "in_scope_english",
+      "question": "Would Buffett ever buy a company that makes a loss today?",
+      "previous_question": null,
+      "expected_support": [
+        "loss"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching."
+    },
+    {
+      "id": "U04",
+      "category": "in_scope_english",
+      "question": "Could Berkshire invest in a business that is not yet profitable?",
+      "previous_question": null,
+      "expected_support": [
+        "loss"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching."
+    },
+    {
+      "id": "N01",
+      "category": "out_of_scope_english",
+      "question": "Will it rain tomorrow?",
+      "previous_question": null,
+      "expected_support": [],
+      "expected_empty": true,
+      "basis": "No passage in the selected investing corpus provides the requested subject matter."
+    },
+    {
+      "id": "N02",
+      "category": "out_of_scope_english",
+      "question": "How do I learn Spanish?",
+      "previous_question": null,
+      "expected_support": [],
+      "expected_empty": true,
+      "basis": "No passage in the selected investing corpus provides the requested subject matter."
+    },
+    {
+      "id": "N03",
+      "category": "out_of_scope_english",
+      "question": "How do I price my wedding photography package?",
+      "previous_question": null,
+      "expected_support": [],
+      "expected_empty": true,
+      "basis": "No passage in the selected investing corpus provides the requested subject matter."
+    },
+    {
+      "id": "N04",
+      "category": "out_of_scope_english",
+      "question": "What is the best product for dry skin?",
+      "previous_question": null,
+      "expected_support": [],
+      "expected_empty": true,
+      "basis": "No passage in the selected investing corpus provides the requested subject matter."
+    },
+    {
+      "id": "N05",
+      "category": "out_of_scope_english",
+      "question": "How do I reduce the risk of catching flu?",
+      "previous_question": null,
+      "expected_support": [],
+      "expected_empty": true,
+      "basis": "No passage in the selected investing corpus provides the requested subject matter."
+    },
+    {
+      "id": "N06",
+      "category": "out_of_scope_english",
+      "question": "Draw a circle with radius five centimetres.",
+      "previous_question": null,
+      "expected_support": [],
+      "expected_empty": true,
+      "basis": "No passage in the selected investing corpus provides the requested subject matter."
+    },
+    {
+      "id": "N07",
+      "category": "out_of_scope_english",
+      "question": "How do I build confidence for my driving test?",
+      "previous_question": null,
+      "expected_support": [],
+      "expected_empty": true,
+      "basis": "No passage in the selected investing corpus provides the requested subject matter."
+    },
+    {
+      "id": "N08",
+      "category": "out_of_scope_english",
+      "question": "Can you explain the capital of France?",
+      "previous_question": null,
+      "expected_support": [],
+      "expected_empty": true,
+      "basis": "No passage in the selected investing corpus provides the requested subject matter."
+    },
+    {
+      "id": "N09",
+      "category": "out_of_scope_english",
+      "question": "How does plant growth respond to sunlight?",
+      "previous_question": null,
+      "expected_support": [],
+      "expected_empty": true,
+      "basis": "No passage in the selected investing corpus provides the requested subject matter."
+    },
+    {
+      "id": "N10",
+      "category": "out_of_scope_english",
+      "question": "What is the discount rate for students at this museum?",
+      "previous_question": null,
+      "expected_support": [],
+      "expected_empty": true,
+      "basis": "No passage in the selected investing corpus provides the requested subject matter."
+    },
+    {
+      "id": "N11",
+      "category": "out_of_scope_english",
+      "question": "How do I improve my manager in Football Manager?",
+      "previous_question": null,
+      "expected_support": [],
+      "expected_empty": true,
+      "basis": "No passage in the selected investing corpus provides the requested subject matter."
+    },
+    {
+      "id": "N12",
+      "category": "out_of_scope_english",
+      "question": "Find me a cheap flight to Tokyo.",
+      "previous_question": null,
+      "expected_support": [],
+      "expected_empty": true,
+      "basis": "No passage in the selected investing corpus provides the requested subject matter."
+    },
+    {
+      "id": "N13",
+      "category": "out_of_scope_english",
+      "question": "Give me 10 tips for baking bread.",
+      "previous_question": null,
+      "expected_support": [],
+      "expected_empty": true,
+      "basis": "No passage in the selected investing corpus provides the requested subject matter."
+    },
+    {
+      "id": "N14",
+      "category": "out_of_scope_english",
+      "question": "Translate good morning into French.",
+      "previous_question": null,
+      "expected_support": [],
+      "expected_empty": true,
+      "basis": "No passage in the selected investing corpus provides the requested subject matter."
+    },
+    {
+      "id": "F01",
+      "category": "continuation",
+      "question": "Why is that deduction necessary?",
+      "previous_question": "How does working capital affect owner earnings?",
+      "expected_support": [
+        "owner"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching."
+    },
+    {
+      "id": "F02",
+      "category": "continuation",
+      "question": "Does that still apply if unit volume stays the same?",
+      "previous_question": "How does working capital affect owner earnings?",
+      "expected_support": [
+        "owner"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching."
+    },
+    {
+      "id": "F03",
+      "category": "continuation",
+      "question": "Can you give an example?",
+      "previous_question": "How do I evaluate a stock?",
+      "expected_support": [
+        "value"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching."
+    },
+    {
+      "id": "F04",
+      "category": "continuation",
+      "question": "How about receivables?",
+      "previous_question": "What are owner earnings?",
+      "expected_support": [
+        "owner"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching."
+    },
+    {
+      "id": "F05",
+      "category": "topic_change_outside",
+      "question": "Now change the subject: how do I bake sourdough?",
+      "previous_question": "How do I evaluate a stock?",
+      "expected_support": [],
+      "expected_empty": true,
+      "basis": "No passage in the selected investing corpus provides the requested subject matter."
+    },
+    {
+      "id": "F06",
+      "category": "topic_change_outside",
+      "question": "Forget investing. What will the weather be tomorrow?",
+      "previous_question": "What are owner earnings?",
+      "expected_support": [],
+      "expected_empty": true,
+      "basis": "No passage in the selected investing corpus provides the requested subject matter."
+    },
+    {
+      "id": "F07",
+      "category": "topic_change_inside",
+      "question": "New topic: what did Buffett instruct his wife’s trustee to do?",
+      "previous_question": "How does working capital affect owner earnings?",
+      "expected_support": [
+        "will"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching."
+    },
+    {
+      "id": "F08",
+      "category": "topic_change_inside",
+      "question": "Instead, why were the textile assets below their carrying amount?",
+      "previous_question": "Explain the circle of competence.",
+      "expected_support": [
+        "book"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching."
+    },
+    {
+      "id": "F09",
+      "category": "topic_change_inside",
+      "question": "Why do executives copy their peers?",
+      "previous_question": "How do I evaluate a stock?",
+      "expected_support": [
+        "management"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching."
+    },
+    {
+      "id": "F10",
+      "category": "topic_change_inside",
+      "question": "Now tell me the difference between a specialist and a generalist.",
+      "previous_question": "How do I evaluate a stock?",
+      "expected_support": [
+        "learning"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching."
+    },
+    {
+      "id": "Z01",
+      "category": "language_probe_chinese",
+      "question": "如何评估一家公司的内在价值？",
+      "previous_question": null,
+      "expected_support": [
+        "value"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching."
+    },
+    {
+      "id": "Z02",
+      "category": "language_probe_chinese",
+      "question": "巴菲特如何定义能力圈？",
+      "previous_question": null,
+      "expected_support": [
+        "competence"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching."
+    },
+    {
+      "id": "Z03",
+      "category": "language_probe_chinese",
+      "question": "营运资本如何影响股东盈余？",
+      "previous_question": null,
+      "expected_support": [
+        "owner"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching."
+    },
+    {
+      "id": "Z04",
+      "category": "language_probe_chinese",
+      "question": "我应该专精一个行业还是广泛研究？",
+      "previous_question": null,
+      "expected_support": [
+        "learning"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching."
+    },
+    {
+      "id": "X01",
+      "category": "multi_topic",
+      "question": "How do I evaluate a stock, choose a discount rate, and assess whether a finance company can fund itself without Berkshire credit?",
+      "previous_question": null,
+      "expected_support": [
+        "value",
+        "rates",
+        "finance"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching."
+    },
+    {
+      "id": "X02",
+      "category": "multi_topic",
+      "question": "Explain Scott Fetzer purchase accounting, owner earnings, and discount rates.",
+      "previous_question": null,
+      "expected_support": [
+        "accounting",
+        "owner",
+        "rates"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching."
+    },
+    {
+      "id": "X03",
+      "category": "multi_topic",
+      "question": "How do I evaluate a stock and know whether my confidence was misplaced in retail?",
+      "previous_question": null,
+      "expected_support": [
+        "value",
+        "confidence"
+      ],
+      "expected_empty": false,
+      "basis": "Specific source-grounded expectation, not term-list matching."
+    }
+  ]
+}

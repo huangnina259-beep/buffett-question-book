@@ -1,0 +1,97 @@
+{
+  "version": "flat-writer-3.2-offline-1",
+  "promptVersion": "source-grounded-writer-3.6",
+  "networkCalls": 0,
+  "validationScope": "Format, source-key and exact-quotation checks only; this is not semantic validation.",
+  "passed": true,
+  "checks": [
+    {
+      "name": "two-string response preserves every prose word and explicit citation when splitting headings",
+      "passed": true
+    },
+    {
+      "name": "standard JSON fence is accepted without content repair",
+      "passed": true
+    },
+    {
+      "name": "32 known paragraph keys are accepted; 33 are rejected",
+      "passed": true
+    },
+    {
+      "name": "an uncited opening is rejected even when the next section is cited",
+      "passed": true
+    },
+    {
+      "name": "one cited opening cannot authorize a second uncited opening paragraph",
+      "passed": true
+    },
+    {
+      "name": "an unknown source key is rejected rather than repaired",
+      "passed": true
+    },
+    {
+      "name": "a fabricated quotation is rejected despite a valid source key",
+      "passed": true
+    },
+    {
+      "name": "a heading-first answer is accepted with an empty lead and cited nonempty section",
+      "passed": true
+    },
+    {
+      "name": "all-empty or all-blank answer is rejected; empty section never substitutes for prose",
+      "passed": true
+    },
+    {
+      "name": "a heading with no body is rejected",
+      "passed": true
+    },
+    {
+      "name": "citations in headings are rejected",
+      "passed": true
+    },
+    {
+      "name": "duplicate headings are rejected",
+      "passed": true
+    },
+    {
+      "name": "third-level Markdown heading cannot masquerade as cited prose",
+      "passed": true
+    },
+    {
+      "name": "heading with attached prose cannot masquerade as a normal paragraph",
+      "passed": true
+    },
+    {
+      "name": "optional-heading prose-only response matches the written prompt contract",
+      "passed": true
+    },
+    {
+      "name": "extra JSON fields are rejected",
+      "passed": true
+    },
+    {
+      "name": "HTML and external links remain prohibited",
+      "passed": true
+    },
+    {
+      "name": "only a nonmatching final period or comma moves outside every supported quote delimiter",
+      "passed": true
+    },
+    {
+      "name": "an exact quote keeps its punctuation and needs no normalization",
+      "passed": true
+    },
+    {
+      "name": "a full exact match in any cited source wins over punctuation normalization",
+      "passed": true
+    },
+    {
+      "name": "punctuation normalization cannot authorize invented words, other punctuation or uncited sources",
+      "passed": true
+    },
+    {
+      "name": "multiple quotation moves preserve paragraphs, apostrophes, words and citation positions",
+      "passed": true
+    }
+  ]
+}

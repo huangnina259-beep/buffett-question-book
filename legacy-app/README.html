@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>Start here · The Buffett Question Book</title>
+<style>
+:root{--paper:#f7f5ed;--white:#fffef8;--ink:#283e33;--dim:#647060;--green:#315a46;--line:#d9decf;--sage:#e9eee2;--sand:#f0e7d0;color-scheme:light}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.8 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}main{max-width:1020px;margin:auto;padding:30px 34px 55px}a{color:var(--green);text-underline-offset:4px}a:hover{text-decoration-thickness:2px}a:focus-visible{outline:3px solid #a28245;outline-offset:5px}nav{border-bottom:1px solid var(--line);padding-bottom:21px;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;font-size:11px;color:var(--dim)}.brand{font-size:10px;font-weight:650;text-transform:uppercase;letter-spacing:.15em;color:var(--ink)}header{padding:43px 0 29px;max-width:770px}.eyebrow{font-size:10px;text-transform:uppercase;letter-spacing:.14em;color:var(--dim);font-weight:600;margin:0 0 13px}h1,h2,h3{font-family:Georgia,"Times New Roman",serif;font-weight:400;line-height:1.25}h1{font-size:clamp(35px,5.5vw,52px);letter-spacing:-.03em;margin:0 0 20px}h2{font-size:27px;letter-spacing:-.015em;margin:0 0 14px}h3{font-size:22px;margin:0 0 12px}p{margin:12px 0}.lead{font-size:17px;line-height:1.8;color:#546451;margin:0}.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;counter-reset:steps;list-style:none;margin:0 0 24px;padding:0}.steps li{padding:23px 22px;background:var(--white);border:1px solid var(--line);border-radius:6px;font-size:13px}.steps li:before{counter-increment:steps;content:"0" counter(steps);display:block;font:17px Georgia,serif;color:#8b9a7d;margin-bottom:17px}.steps strong{font-weight:600;color:var(--ink)}.steps p{margin:10px 0 0;color:var(--dim)}.actions{display:flex;align-items:center;gap:20px;flex-wrap:wrap;margin-bottom:31px}.button{display:inline-block;background:var(--green);color:var(--white);padding:10px 17px;border-radius:5px;font-size:12px;text-decoration:none}.button:hover{background:#244735}.small{font-size:11px;color:var(--dim)}.account-note{background:var(--sage);border-left:3px solid #91a67c;padding:18px 23px;margin:24px 0 33px;font-size:13px}.account-note p{margin:0}.columns{display:grid;grid-template-columns:1fr 1fr;gap:36px}.columns section{min-width:0;margin-bottom:30px}.columns p,.columns li{font-size:13px;color:#566550}.columns ul{padding-left:18px;margin:0}.columns li{padding:4px 0}.privacy{border-top:1px solid var(--line);padding-top:27px;margin-top:3px}.privacy p{font-size:13px;color:#566550;max-width:890px}.quality{margin-top:29px;background:var(--sand);padding:20px 23px;border-radius:5px}.quality h2{font-size:23px}.quality p{font-size:13px;margin:9px 0}.quality a{font-weight:600}.troubleshooting{margin-top:27px;border-top:1px solid var(--line);padding-top:24px}.troubleshooting h2{font-size:23px}.troubleshooting p{font-size:13px;color:#566550}code{font:12px/1.7 ui-monospace,SFMono-Regular,monospace;overflow-wrap:anywhere}kbd{font:11px ui-monospace,SFMono-Regular,monospace;background:var(--white);border:1px solid var(--line);border-radius:3px;padding:2px 5px}footer{border-top:1px solid var(--line);margin-top:30px;padding-top:19px;color:var(--dim);font-size:10px;display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}@media(max-width:700px){main{padding:23px 21px 38px}header{padding:32px 0 25px}.steps,.columns{grid-template-columns:1fr;gap:14px}.steps li{padding:19px 21px}.steps li:before{margin-bottom:10px}.columns section{margin-bottom:18px}.lead{font-size:16px}.account-note{padding:17px 19px}.actions{gap:10px;margin-bottom:24px}.privacy{padding-top:23px}.quality{padding:19px}h2{font-size:25px}}@media print{body{background:white}main{max-width:none;padding:0}.steps li,.account-note,.quality{break-inside:avoid}.actions{display:none}a{color:inherit}}
+</style>
+</head>
+<body>
+<main>
+  <nav aria-label="Guide navigation"><span class="brand">The Buffett Question Book</span><span>Start here · Local experiment · English edition</span></nav>
+  <header>
+    <p class="eyebrow">A question, an explanation, the original passages</p>
+    <h1>Your own questions.<br>The source always in reach.</h1>
+    <p class="lead">This app generates new answers from retrieved library material and supports follow-up questions. You can ask in English or Chinese. Answers are in English, with original English source excerpts and explicit limits.</p>
+  </header>
+
+  <ol class="steps" aria-label="Start the local application">
+    <li><strong>Keep the folders together.</strong><p>Keep this app beside the complete <code>巴菲特知识库</code> folder. Its source links and search depend on that library.</p></li>
+    <li><strong>Double-click the launcher.</strong><p>On macOS, open <code>Start Buffett Questions.command</code>. It requires Python 3.9 or later and uses Codex’s bundled Python when available. Keep the Terminal window running while you use the app.</p></li>
+    <li><strong>Open the local address.</strong><p>Use the address printed in Terminal, normally <code>http://127.0.0.1:8795</code>. Press <kbd>Ctrl</kbd> + <kbd>C</kbd> in Terminal to stop the server.</p></li>
+  </ol>
+  <div class="actions"><a class="button" href="http://127.0.0.1:8795/">Open the default local address ↗</a><span class="small">Start the launcher first. Opening <code>web/index.html</code> directly cannot generate answers.</span></div>
+
+  <aside class="account-note"><p><strong>Uses your existing Codex account and allowance.</strong> Installed, signed-in Codex and network access to its model service are required. Generation consumes that account’s usage allowance; this is not a free standalone assistant. The website runs locally on <code>127.0.0.1</code> and has not been publicly deployed.</p></aside>
+
+  <div class="columns">
+    <section aria-labelledby="using-title">
+      <h2 id="using-title">Ask, read, follow up.</h2>
+      <ul>
+        <li>Enter a question of 3–2,000 characters. The visible stages reflect planning, retrieval, writing and checking.</li>
+        <li>Open the numbered citations beside a paragraph to inspect the excerpt, retrieved text, source status and original-source links.</li>
+        <li>Ask a follow-up to the selected answer. Up to four recent answers are included as context; long answers may be shortened.</li>
+        <li>Use <strong>New question</strong> for a fresh topic. Earlier answers remain selectable during the visit.</li>
+      </ul>
+    </section>
+    <section aria-labelledby="scope-title">
+      <h2 id="scope-title">A bounded source collection.</h2>
+      <p>The current base library has <strong>118 sources with imported text</strong>. Retrieval uses eligible passages and source boundaries within that collection. This count is not approval of every sentence or proof that an entire source is reliable.</p>
+      <p>The collection includes Berkshire Hathaway shareholder letters and CNBC Buffett Archive meeting and interview material. Inspect the <a href="../巴菲特知识库/reader/index.html">source library</a> for publisher links, archived originals and extraction notes. Generated answers and editorial labels are separate from those originals.</p>
+      <p>Reference-only pages, unverified third-party speech transcripts and disallowed extraction units are excluded. Coverage gaps remain. Check the app’s available-source scope and each answer’s retrieval details for what was actually used.</p>
+    </section>
+    <section aria-labelledby="limits-title">
+      <h2 id="limits-title">Evidence can run out.</h2>
+      <p>Each question uses a finite selection of retrieved contexts. Relevant qualifications, contrary passages or later comments can be missed. A search miss does not establish that Buffett never discussed a subject.</p>
+      <p>There is no live web or current-market feed. Historical statements retain their dates, audiences and conditions; they do not establish today’s valuations or your personal suitability.</p>
+    </section>
+    <section aria-labelledby="checks-title">
+      <h2 id="checks-title">Read the review limits.</h2>
+      <p>Exact citation checks and a separate model review assess the proposed answer against its retrieved passages. This is not human verification, audio authentication or a complete review of Buffett’s views.</p>
+      <p>An answer may be partial, insufficient, outside the library’s scope or withheld after failed checks. The generator is instructed to ground practical implications in the selected evidence. These checks can still miss errors or conditions; inspect the original passages before applying an answer.</p>
+    </section>
+  </div>
+
+  <section class="privacy" aria-labelledby="privacy-title">
+    <h2 id="privacy-title">What is sent, and what stays in this page.</h2>
+    <p>Model requests include your question, limited conversation history and selected public source excerpts. They are sent through the installed Codex account to its model service. Local browsing does not make generation an offline operation.</p>
+    <p>The browser’s question list exists only in page memory; reloading clears it. The local server holds jobs in memory. Codex may create operational records in the app’s <code>runtime/</code> folder, and its runtime and model service have their own data handling. Browser-memory behavior is not a promise about their retention.</p>
+  </section>
+
+  <aside class="quality" aria-labelledby="quality-title">
+    <h2 id="quality-title">Experimental quality report</h2>
+    <p>The diagnostic report is available. The proposed quality gate has not been established; this remains an experiment. Read the case-level omissions, test-setup limitations and provider failures before relying on an answer.</p>
+    <a href="quality-report.html">Read the quality report and its stated scope →</a>
+  </aside>
+
+  <section class="troubleshooting" aria-labelledby="help-title">
+    <h2 id="help-title">If an answer does not arrive</h2>
+    <p>Keep Terminal running and check the app’s connection message. If Codex needs sign-in, sign in and restart the app. If the usage allowance is exhausted, wait for availability; a new question still consumes model usage. For a timeout, try a narrower question. After a connection interruption, use <strong>Reconnect to this question</strong> when offered, so the existing job is checked without submitting it again.</p>
+  </section>
+  <footer><span>Original library preserved · English source text · No translation release</span><span>Local experimental application</span></footer>
+</main>
+</body>
+</html>

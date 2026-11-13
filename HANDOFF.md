@@ -1,3 +1,45 @@
+# Repair status — 2026-11-13
+
+**Not ready for release: no free-form answer in the new local experiment passed independent source review.** This branch contains concrete retrieval/parser fixes and private diagnostics. The hosted owner-private Site remains version 6 (`a9267cfed1468743983ac05c5b9500532613b65b`); these later changes have not been deployed. Source publication was blocked by automatic approval of the official Sites helper credential input. GitHub delivery is separate from Site deployment.
+
+## What was reproduced and fixed
+
+- The imported source index contains 3,219 complete contexts from 117 sources. This is the eligible imported collection, not all Buffett material or a complete semantic audit.
+- Actual provider response to `how to pick up stocks` returned **five valid search variants**. The four-query parser rejected the whole question before retrieval. The parser now validates every variant, deduplicates, and keeps a bounded four-query/600-character prefix. Unknown keys, invalid types, URLs and malformed plans are still rejected. The captured response is a permanent offline regression.
+- Fused lexical ranking could drop a separate planned facet. Selection now first represents each normalized planned query with an eligible complete context, then fills from fused ranking. Six-context/42,000-character bounds, overlap handling, source limits and mandatory companion qualifications remain. Retrieval has its own cache version. All 22 raw/unplanned fixture results remain unchanged; this is not a new held-out semantic success rate.
+- A real rejected draft added a financial rule absent from its sources. The writer prompt no longer supplies financial-rule examples as apparent answer content; it now emphasizes exact sentence citations, original decision/object, uncertainty, historical conditions and unresolved attribution. This is a mitigation, not verified general reliability.
+- Private `generation_jobs.diagnostics_json` retains bounded parsed plans, selected source IDs, draft, review verdict and stage usage. It is never returned by POST, polling or history. Apply the additive migration `0002_private_generation_diagnostics.sql` before serving the updated schema; historical failures cannot be reconstructed.
+
+## Evidence that still blocks acceptance
+
+The complete concise run record is [core-reproduction-2026-11-13.json](diagnostics/fixtures/core-reproduction-2026-11-13.json). Provider thinking/headers/credentials are not included.
+
+1. Baseline: 32.9 seconds, three real calls, rejected for an unsupported growth/capital-return rule.
+2. First candidate: 25.2 seconds, three real calls, automated `supported:true`, **independent review rejected** the manager-selection-to-stock-selection transfer and missing exact citations. This must not be advertised as a successful answer.
+3. Stricter review: the provider returned 33 issue entries, including supported statements and self-discussion, despite a 12-entry bound. Parser rejected the result. This is evidence of model/output-contract instability, not a useful validated verdict.
+4. Later writer replay timed out at 60 seconds. An explicit no-thinking experiment completed writing in 16.683 seconds but failed exact quotation checks; the no-thinking setting was **not** adopted.
+
+Do not infer all these failures are retrieval misses, turn off grounding, publish a withheld draft, or accept the model's `supported:true` as sufficient evidence. Per-query coverage also does not prove that the top lexical hit answers the facet: the saved valuation query still prefers a Berkshire-securities component discussion over a general cash-flow calculation.
+
+## Validation and deployment
+
+TypeScript, production build, 40 offline backend checks, 24 response-format checks, query-plan regression and planned-coverage checks pass. These verify code behavior, not answer quality. The fresh build includes migration 0002. The old `candidate-v2.tar.gz` predates that migration and must not be deployed.
+
+No new service, larger audience or budget was authorized. To bound the local reproduction, the original shared trial was split without resetting either ledger: hosted cap 9 attempts/CNY2.5, local cap 11 attempts/CNY2.5. Hosted historical usage remains 9 attempts; local reproduction used 11. **Combined 20/20 attempts are now used**, with CNY2.753181 conservatively reserved in total (not a verified bill; some usage is unknown). Runtime environment revision5 contains the hosted allocation. Do not silently restore the hosted cap to20: that would reuse the locally consumed allowance. Further paid experiments require a renewed bounded allocation.
+
+Useful offline commands:
+
+```sh
+node diagnostics/check-query-plan.mjs
+node diagnostics/check-planned-coverage.mjs
+node diagnostics/offline-backend-checks.mjs
+node diagnostics/flat-writer-32-checks.mjs
+```
+
+The original version-5 handoff below is historical context. Its corpus sizes, limits and pipeline do not describe this branch.
+
+---
+
 # Buffett Question Book: engineering handoff
 
 The main problem is **unreliable free-form, source-grounded answers**. A concrete failure occurs before any model call: **“how to be a great investor” retrieves zero source contexts** in the current website, even though the wider archive contains relevant material. The live site uses a small lexical index, not the full knowledge archive. Start with the [retrieval diagnosis](diagnostics/retrieval/README.md). Do not treat the seven reviewed answers, a working input box, a passing build, or a model response with citations as proof that this problem is solved.

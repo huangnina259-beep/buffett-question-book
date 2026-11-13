@@ -1,0 +1,66 @@
+{
+  "scope": "Current-parser replay of three immutable historical outputs bound to their original request evidence; no current retrieval, inference or semantic review.",
+  "promptVersion": "source-grounded-writer-3.7",
+  "legacyPacketSha256": "c23730df1c75c2f77bdcce3e67b9e43dd49e180a6d2fb46b4deab4fcd69e437e",
+  "networkCalls": 0,
+  "cases": [
+    {
+      "id": "stock-evaluation-qwen",
+      "originalEvidence": {
+        "bundleHash": "aee68d4f089139d7efeff634c3f3d1b24e53766bd9b894cfaf2f166a1f7225c5",
+        "contextIds": [
+          "letter-1992-0074-0085",
+          "letter-1986-0154-0297",
+          "letter-1989-0156-0175",
+          "letter-1991-0031-0044",
+          "letter-1991-0045-0055"
+        ],
+        "referenceCount": 201,
+        "referenceTextSha256": "414b628169b6724182e61ec451959676efd04081574595654cb6dd1b8946df8b"
+      },
+      "historicalValidationCode": "json",
+      "currentResult": "rejected",
+      "currentValidationCode": "json",
+      "semanticApproval": false
+    },
+    {
+      "id": "stock-evaluation-qwen-compact",
+      "originalEvidence": {
+        "bundleHash": "1736557437379611ff04e6bb0c927d9c0271e282923db91d792d48e2f4854fe1",
+        "contextIds": [
+          "letter-1992-0074-0085",
+          "letter-1991-0045-0055",
+          "letter-1986-0285-0297",
+          "letter-1986-0209-0210",
+          "letter-1991-0031-0037"
+        ],
+        "referenceCount": 45,
+        "referenceTextSha256": "a6314a77222a5e69eae3e7ebe0f94eb569c2984dc99babfc840ed54a9731a3f6"
+      },
+      "historicalValidationCode": "structure",
+      "currentResult": "rejected",
+      "currentValidationCode": "structure",
+      "semanticApproval": false
+    },
+    {
+      "id": "stock-evaluation-low-reasoning",
+      "originalEvidence": {
+        "bundleHash": "1736557437379611ff04e6bb0c927d9c0271e282923db91d792d48e2f4854fe1",
+        "contextIds": [
+          "letter-1992-0074-0085",
+          "letter-1991-0045-0055",
+          "letter-1986-0285-0297",
+          "letter-1986-0209-0210",
+          "letter-1991-0031-0037"
+        ],
+        "referenceCount": 45,
+        "referenceTextSha256": "a6314a77222a5e69eae3e7ebe0f94eb569c2984dc99babfc840ed54a9731a3f6"
+      },
+      "historicalValidationCode": "structure",
+      "currentResult": "accepted",
+      "unavailable": false,
+      "normalizationCount": 1,
+      "semanticApproval": false
+    }
+  ]
+}

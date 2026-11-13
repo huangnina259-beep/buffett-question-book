@@ -1,0 +1,516 @@
+{
+  "version": "archive-essential-passages-regression-2",
+  "networkCalls": 0,
+  "scope": "Known original-passage retrieval regressions and immutable legacy snapshot identity. Not a held-out quality test, full-source audit, or generated-answer evaluation.",
+  "packetSha256": "c23730df1c75c2f77bdcce3e67b9e43dd49e180a6d2fb46b4deab4fcd69e437e",
+  "indexSha256": "94af8008648561f19f13f1ddfac774c2d16fd7f94eff8f4412f5530eba9fa108",
+  "archiveIndexSha256": "81a5ddf98a1a69a4a4fb11a5a60fd142f57ee286822403250bb4581bee0e4935",
+  "packetMatchesSnapshot": true,
+  "indexMatchesSnapshot": true,
+  "cases": [
+    {
+      "question": "Is all outside credit a problem for a finance company?",
+      "contextIds": [
+        "window:berkshire-letter-2002:berkshire-letter-2002:u0011:berkshire-letter-2002:u0013",
+        "section:berkshire-letter-1988:read002",
+        "chapter:cnbc-meeting-2009-morning-ch07",
+        "window:berkshire-letter-2006:berkshire-letter-2006:u0013:berkshire-letter-2006:u0015",
+        "chapter:cnbc-meeting-2010-afternoon-ch01"
+      ],
+      "sourceCharacters": 41909,
+      "alternatives": [
+        [
+          {
+            "paragraphId": "cnbc-meeting-2002-afternoon-ch18-p002",
+            "matchingContextIds": []
+          },
+          {
+            "paragraphId": "cnbc-meeting-2002-afternoon-ch18-p003",
+            "matchingContextIds": []
+          },
+          {
+            "paragraphId": "cnbc-meeting-2002-afternoon-ch18-p011",
+            "matchingContextIds": []
+          },
+          {
+            "paragraphId": "cnbc-meeting-2002-afternoon-ch18-p012",
+            "matchingContextIds": []
+          }
+        ]
+      ],
+      "essentialPassagesPresent": false,
+      "companionPreserved": true,
+      "withinLimits": true,
+      "passed": false
+    },
+    {
+      "question": "Does Buffett require a finance company to avoid external credit?",
+      "contextIds": [
+        "section:berkshire-letter-1989:read007",
+        "window:berkshire-letter-2012:berkshire-letter-2012:u0013:berkshire-letter-2012:u0015",
+        "window:berkshire-letter-2003:berkshire-letter-2003:u0014:berkshire-letter-2003:u0016",
+        "chapter:cnbc-meeting-2013-afternoon-ch15"
+      ],
+      "sourceCharacters": 41521,
+      "alternatives": [
+        [
+          {
+            "paragraphId": "cnbc-meeting-2002-afternoon-ch18-p002",
+            "matchingContextIds": []
+          },
+          {
+            "paragraphId": "cnbc-meeting-2002-afternoon-ch18-p003",
+            "matchingContextIds": []
+          },
+          {
+            "paragraphId": "cnbc-meeting-2002-afternoon-ch18-p011",
+            "matchingContextIds": []
+          },
+          {
+            "paragraphId": "cnbc-meeting-2002-afternoon-ch18-p012",
+            "matchingContextIds": []
+          }
+        ]
+      ],
+      "essentialPassagesPresent": false,
+      "companionPreserved": true,
+      "withinLimits": true,
+      "passed": false
+    },
+    {
+      "question": "Why did using Berkshire credit matter in the unnamed finance company example?",
+      "contextIds": [
+        "window:berkshire-letter-2008:berkshire-letter-2008:u0017:berkshire-letter-2008:u0019",
+        "window:berkshire-letter-2003:berkshire-letter-2003:u0014:berkshire-letter-2003:u0016",
+        "chapter:cnbc-meeting-2012-afternoon-ch17",
+        "window:berkshire-letter-2008:berkshire-letter-2008:u0009:berkshire-letter-2008:u0011"
+      ],
+      "sourceCharacters": 41767,
+      "alternatives": [
+        [
+          {
+            "paragraphId": "cnbc-meeting-2002-afternoon-ch18-p002",
+            "matchingContextIds": []
+          },
+          {
+            "paragraphId": "cnbc-meeting-2002-afternoon-ch18-p003",
+            "matchingContextIds": []
+          },
+          {
+            "paragraphId": "cnbc-meeting-2002-afternoon-ch18-p011",
+            "matchingContextIds": []
+          },
+          {
+            "paragraphId": "cnbc-meeting-2002-afternoon-ch18-p012",
+            "matchingContextIds": []
+          }
+        ]
+      ],
+      "essentialPassagesPresent": false,
+      "companionPreserved": true,
+      "withinLimits": true,
+      "passed": false
+    },
+    {
+      "question": "What did Buffett say about continuing funding?",
+      "contextIds": [
+        "window:berkshire-letter-2018:berkshire-letter-2018:u0006:berkshire-letter-2018:u0008",
+        "window:berkshire-letter-2012:berkshire-letter-2012:u0002:berkshire-letter-2012:u0004",
+        "window:berkshire-letter-2007:berkshire-letter-2007:u0017:berkshire-letter-2007:u0019"
+      ],
+      "sourceCharacters": 32987,
+      "alternatives": [
+        [
+          {
+            "paragraphId": "cnbc-meeting-2002-afternoon-ch18-p002",
+            "matchingContextIds": []
+          },
+          {
+            "paragraphId": "cnbc-meeting-2002-afternoon-ch18-p003",
+            "matchingContextIds": []
+          },
+          {
+            "paragraphId": "cnbc-meeting-2002-afternoon-ch18-p011",
+            "matchingContextIds": []
+          },
+          {
+            "paragraphId": "cnbc-meeting-2002-afternoon-ch18-p012",
+            "matchingContextIds": []
+          }
+        ]
+      ],
+      "essentialPassagesPresent": false,
+      "companionPreserved": true,
+      "withinLimits": true,
+      "passed": false
+    },
+    {
+      "question": "how to evaluate a stock",
+      "contextIds": [
+        "chapter:cnbc-meeting-1995-afternoon-ch43",
+        "chapter:cnbc-meeting-2000-morning-ch12",
+        "chapter:cnbc-meeting-1998-afternoon-ch09",
+        "chapter:cnbc-meeting-1994-morning-ch27",
+        "chapter:cnbc-meeting-2008-morning-ch05",
+        "chapter:cnbc-meeting-2005-afternoon-ch03"
+      ],
+      "sourceCharacters": 23441,
+      "alternatives": [
+        [
+          {
+            "paragraphId": "berkshire-letter-1992:u0074",
+            "matchingContextIds": []
+          },
+          {
+            "paragraphId": "berkshire-letter-1992:u0080",
+            "matchingContextIds": []
+          },
+          {
+            "paragraphId": "berkshire-letter-1992:u0081",
+            "matchingContextIds": []
+          },
+          {
+            "paragraphId": "berkshire-letter-1992:u0084",
+            "matchingContextIds": []
+          },
+          {
+            "paragraphId": "berkshire-letter-1992:u0085",
+            "matchingContextIds": []
+          },
+          {
+            "paragraphId": "berkshire-letter-1986:u0285",
+            "matchingContextIds": []
+          },
+          {
+            "paragraphId": "berkshire-letter-1986:u0286",
+            "matchingContextIds": []
+          },
+          {
+            "paragraphId": "berkshire-letter-1986:u0287",
+            "matchingContextIds": []
+          },
+          {
+            "paragraphId": "berkshire-letter-1986:u0288",
+            "matchingContextIds": []
+          },
+          {
+            "paragraphId": "berkshire-letter-1986:u0209",
+            "matchingContextIds": []
+          },
+          {
+            "paragraphId": "berkshire-letter-1986:u0210",
+            "matchingContextIds": []
+          },
+          {
+            "paragraphId": "berkshire-letter-1991:u0033",
+            "matchingContextIds": []
+          },
+          {
+            "paragraphId": "berkshire-letter-1991:u0034",
+            "matchingContextIds": []
+          },
+          {
+            "paragraphId": "berkshire-letter-1991:u0035",
+            "matchingContextIds": []
+          }
+        ]
+      ],
+      "essentialPassagesPresent": false,
+      "companionPreserved": true,
+      "withinLimits": true,
+      "passed": false
+    },
+    {
+      "question": "Explain Scott Fetzer purchase accounting and Company O versus Company N.",
+      "contextIds": [
+        "section:berkshire-letter-1986:read010",
+        "section:berkshire-letter-1985:read009",
+        "section:berkshire-letter-1994:read002",
+        "section:berkshire-letter-1988:read003",
+        "chapter:cnbc-meeting-2002-morning-ch08"
+      ],
+      "sourceCharacters": 41137,
+      "alternatives": [
+        [
+          {
+            "paragraphId": "berkshire-letter-1986:u0285",
+            "matchingContextIds": [
+              "section:berkshire-letter-1986:read010"
+            ]
+          },
+          {
+            "paragraphId": "berkshire-letter-1986:u0286",
+            "matchingContextIds": [
+              "section:berkshire-letter-1986:read010"
+            ]
+          },
+          {
+            "paragraphId": "berkshire-letter-1986:u0287",
+            "matchingContextIds": [
+              "section:berkshire-letter-1986:read010"
+            ]
+          },
+          {
+            "paragraphId": "berkshire-letter-1986:u0288",
+            "matchingContextIds": [
+              "section:berkshire-letter-1986:read010"
+            ]
+          },
+          {
+            "paragraphId": "berkshire-letter-1986:u0209",
+            "matchingContextIds": [
+              "section:berkshire-letter-1986:read010"
+            ]
+          },
+          {
+            "paragraphId": "berkshire-letter-1986:u0210",
+            "matchingContextIds": [
+              "section:berkshire-letter-1986:read010"
+            ]
+          }
+        ]
+      ],
+      "essentialPassagesPresent": true,
+      "companionPreserved": true,
+      "withinLimits": true,
+      "passed": true
+    },
+    {
+      "question": "How do I calculate owner earnings?",
+      "contextIds": [
+        "letter-1991-0031-0044",
+        "window:berkshire-owner-manual:berkshire-owner-manual:u0005:berkshire-owner-manual:u0006",
+        "section:berkshire-letter-1989:read003",
+        "window:berkshire-letter-2023:berkshire-letter-2023:u0009:berkshire-letter-2023:u0011",
+        "section:berkshire-letter-1988:read002",
+        "chapter:cnbc-meeting-1998-morning-ch52"
+      ],
+      "sourceCharacters": 40958,
+      "alternatives": [
+        [
+          {
+            "paragraphId": "berkshire-letter-1986:u0285",
+            "matchingContextIds": []
+          },
+          {
+            "paragraphId": "berkshire-letter-1986:u0286",
+            "matchingContextIds": []
+          },
+          {
+            "paragraphId": "berkshire-letter-1986:u0287",
+            "matchingContextIds": []
+          },
+          {
+            "paragraphId": "berkshire-letter-1986:u0288",
+            "matchingContextIds": []
+          },
+          {
+            "paragraphId": "berkshire-letter-1986:u0209",
+            "matchingContextIds": []
+          },
+          {
+            "paragraphId": "berkshire-letter-1986:u0210",
+            "matchingContextIds": []
+          }
+        ]
+      ],
+      "essentialPassagesPresent": false,
+      "companionPreserved": true,
+      "withinLimits": true,
+      "passed": false
+    },
+    {
+      "question": "Will it rain tomorrow?",
+      "contextIds": [
+        "window:berkshire-letter-2012:berkshire-letter-2012:u0003:berkshire-letter-2012:u0005"
+      ],
+      "sourceCharacters": 11333,
+      "alternatives": [],
+      "essentialPassagesPresent": false,
+      "companionPreserved": true,
+      "withinLimits": true,
+      "passed": false
+    },
+    {
+      "question": "how to be a great investor",
+      "contextIds": [
+        "chapter:cnbc-meeting-2002-morning-ch26",
+        "chapter:cnbc-meeting-2008-morning-ch03",
+        "chapter:cnbc-meeting-2002-afternoon-ch32",
+        "chapter:cnbc-meeting-2013-afternoon-ch18",
+        "chapter:cnbc-meeting-2015-morning-ch37",
+        "chapter:cnbc-meeting-2022-afternoon-ch05"
+      ],
+      "sourceCharacters": 27100,
+      "alternatives": [
+        [
+          {
+            "paragraphId": "cnbc-meeting-2002-morning-ch26-p012",
+            "matchingContextIds": [
+              "chapter:cnbc-meeting-2002-morning-ch26"
+            ]
+          },
+          {
+            "paragraphId": "cnbc-meeting-2002-morning-ch26-p013",
+            "matchingContextIds": [
+              "chapter:cnbc-meeting-2002-morning-ch26"
+            ]
+          },
+          {
+            "paragraphId": "cnbc-meeting-2002-morning-ch26-p014",
+            "matchingContextIds": [
+              "chapter:cnbc-meeting-2002-morning-ch26"
+            ]
+          },
+          {
+            "paragraphId": "cnbc-meeting-2002-morning-ch26-p015",
+            "matchingContextIds": [
+              "chapter:cnbc-meeting-2002-morning-ch26"
+            ]
+          },
+          {
+            "paragraphId": "cnbc-meeting-2002-morning-ch26-p016",
+            "matchingContextIds": [
+              "chapter:cnbc-meeting-2002-morning-ch26"
+            ]
+          },
+          {
+            "paragraphId": "cnbc-meeting-2002-morning-ch26-p017",
+            "matchingContextIds": [
+              "chapter:cnbc-meeting-2002-morning-ch26"
+            ]
+          },
+          {
+            "paragraphId": "cnbc-meeting-2002-morning-ch26-p020",
+            "matchingContextIds": [
+              "chapter:cnbc-meeting-2002-morning-ch26"
+            ]
+          },
+          {
+            "paragraphId": "cnbc-meeting-2002-morning-ch26-p024",
+            "matchingContextIds": [
+              "chapter:cnbc-meeting-2002-morning-ch26"
+            ]
+          },
+          {
+            "paragraphId": "cnbc-meeting-2002-morning-ch26-p025",
+            "matchingContextIds": [
+              "chapter:cnbc-meeting-2002-morning-ch26"
+            ]
+          },
+          {
+            "paragraphId": "cnbc-meeting-2002-morning-ch26-p026",
+            "matchingContextIds": [
+              "chapter:cnbc-meeting-2002-morning-ch26"
+            ]
+          },
+          {
+            "paragraphId": "cnbc-meeting-2002-morning-ch26-p028",
+            "matchingContextIds": [
+              "chapter:cnbc-meeting-2002-morning-ch26"
+            ]
+          },
+          {
+            "paragraphId": "cnbc-meeting-2002-morning-ch26-p029",
+            "matchingContextIds": [
+              "chapter:cnbc-meeting-2002-morning-ch26"
+            ]
+          },
+          {
+            "paragraphId": "cnbc-meeting-2002-morning-ch26-p030",
+            "matchingContextIds": [
+              "chapter:cnbc-meeting-2002-morning-ch26"
+            ]
+          },
+          {
+            "paragraphId": "cnbc-meeting-2002-morning-ch26-p034",
+            "matchingContextIds": [
+              "chapter:cnbc-meeting-2002-morning-ch26"
+            ]
+          },
+          {
+            "paragraphId": "cnbc-meeting-2002-morning-ch26-p035",
+            "matchingContextIds": [
+              "chapter:cnbc-meeting-2002-morning-ch26"
+            ]
+          },
+          {
+            "paragraphId": "cnbc-meeting-2002-morning-ch26-p036",
+            "matchingContextIds": [
+              "chapter:cnbc-meeting-2002-morning-ch26"
+            ]
+          },
+          {
+            "paragraphId": "cnbc-meeting-2002-morning-ch26-p038",
+            "matchingContextIds": [
+              "chapter:cnbc-meeting-2002-morning-ch26"
+            ]
+          },
+          {
+            "paragraphId": "cnbc-meeting-2002-morning-ch26-p039",
+            "matchingContextIds": [
+              "chapter:cnbc-meeting-2002-morning-ch26"
+            ]
+          },
+          {
+            "paragraphId": "cnbc-meeting-2002-morning-ch26-p040",
+            "matchingContextIds": [
+              "chapter:cnbc-meeting-2002-morning-ch26"
+            ]
+          }
+        ],
+        [
+          {
+            "paragraphId": "berkshire-letter-1996:u0099",
+            "matchingContextIds": []
+          },
+          {
+            "paragraphId": "berkshire-letter-1996:u0114",
+            "matchingContextIds": []
+          },
+          {
+            "paragraphId": "berkshire-letter-1996:u0116",
+            "matchingContextIds": []
+          }
+        ],
+        [
+          {
+            "paragraphId": "letter-2013-investing-p013",
+            "matchingContextIds": []
+          },
+          {
+            "paragraphId": "letter-2013-investing-p014",
+            "matchingContextIds": []
+          },
+          {
+            "paragraphId": "letter-2013-investing-p025",
+            "matchingContextIds": []
+          }
+        ],
+        [
+          {
+            "paragraphId": "cnbc-meeting-2019-afternoon-ch08-p006",
+            "matchingContextIds": []
+          },
+          {
+            "paragraphId": "cnbc-meeting-2019-afternoon-ch08-p007",
+            "matchingContextIds": []
+          },
+          {
+            "paragraphId": "cnbc-meeting-2019-afternoon-ch08-p011",
+            "matchingContextIds": []
+          },
+          {
+            "paragraphId": "cnbc-meeting-2019-afternoon-ch08-p013",
+            "matchingContextIds": []
+          }
+        ]
+      ],
+      "essentialPassagesPresent": true,
+      "companionPreserved": true,
+      "withinLimits": true,
+      "passed": true
+    }
+  ],
+  "passed": false
+}

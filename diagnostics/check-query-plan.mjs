@@ -1,0 +1,28 @@
+import assert from 'node:assert/strict';
+import {build} from 'esbuild';
+import {mkdir,writeFile} from 'node:fs/promises';
+import {pathToFileURL} from 'node:url';
+import {resolve} from 'node:path';
+const out=resolve('test-results/archive');await mkdir(out,{recursive:true});
+globalThis.fetch=()=>{throw Error('No network allowed.');};
+await build({stdin:{contents:"export * from './lib/query-plan.ts'; export * from './lib/retrieved-evidence.ts'; export {buildGenerationPrompt} from './lib/generation-prompt.ts';",resolveDir:process.cwd(),loader:'ts'},outfile:resolve(out,'planned-search.mjs'),bundle:true,platform:'node',format:'esm'});
+const api=await import(pathToFileURL(resolve(out,'planned-search.mjs')).href);
+const plan={inScope:true,queries:['business future cash intrinsic value','owner earnings capital expenditures'],usePreviousQuestion:false};
+assert.deepEqual(api.parseQueryPlanResponse(JSON.stringify(plan)),plan);
+for(const bad of [{...plan,advice:'buy'},{...plan,inScope:'true'},{...plan,queries:[]},{...plan,queries:Array(17).fill('cash flow')},{...plan,queries:['https://example.com']},{...plan,queries:['x'.repeat(161)]},{inScope:false,queries:['stock'],usePreviousQuestion:false}])assert.throws(()=>api.parseQueryPlanResponse(JSON.stringify(bad)));
+// Captured real-provider failure: five valid variants previously stopped the
+// entire request before retrieval. Keeping four cannot fabricate evidence.
+const captured={inScope:true,queries:['how to pick stocks','stock selection criteria','identifying good investments','buying a wonderful company','quality of business characteristics'],usePreviousQuestion:false};
+assert.deepEqual(api.parseQueryPlanResponse(JSON.stringify(captured)).queries,captured.queries.slice(0,4));
+assert.deepEqual(api.parseQueryPlanResponse(JSON.stringify({...captured,queries:Array(5).fill('cash flow')})).queries,['cash flow']);
+assert.throws(()=>api.parseQueryPlanResponse(JSON.stringify({...captured,queries:[...captured.queries,'https://example.com']})));
+assert.throws(()=>api.parseQueryPlanResponse('```json\n{}\n```'));
+assert.deepEqual(api.parseQueryPlanResponse('{"inScope":false,"queries":[],"usePreviousQuestion":false}').queries,[]);
+const messages=api.buildQueryPlanPrompt('How do I evaluate a stock?');assert.ok(Buffer.byteLength(JSON.stringify(messages))<12000);
+const selected=api.searchArchive('How do I evaluate a stock?','How does insurance float work?',plan);
+assert.equal(selected.usedPreviousQuestion,false);assert.ok(selected.contexts.length>0&&selected.contexts.length<=6);assert.ok(selected.sourceCharacters<=42000);
+const prompt=api.buildGenerationPrompt('How do I evaluate a stock?','How does insurance float work?','prior answer is not evidence',plan);
+const data=JSON.parse(prompt.messages[1].content);assert.equal(data.previous_question_for_context_only,undefined);assert.equal(data.previous_answer_context_not_evidence,undefined);assert.equal(data.queries,undefined);
+const companionIds=new Set(selected.contexts.map(c=>c.context_id));for(const c of selected.contexts)for(const id of c.required_companion_context_ids??[])assert.ok(companionIds.has(id));
+const follow=api.searchArchive('Could you give an example?','How does insurance float work?',{queries:['insurance float cost underwriting'],usePreviousQuestion:true});assert.equal(follow.usedPreviousQuestion,true);
+const report={scope:'Offline parser, bounded search and conversation separation checks with fixed synthetic plans; not real planner or answer-quality evaluation.',modelCalls:0,passed:true,contexts:selected.contexts.map(c=>({id:c.context_id,title:c.title})),sourceCharacters:selected.sourceCharacters};await writeFile(resolve(out,'query-plan-checks.json'),JSON.stringify(report,null,2)+'\n');console.log(JSON.stringify(report));

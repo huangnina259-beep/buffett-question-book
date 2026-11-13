@@ -1,0 +1,225 @@
+{
+  "date": "2026-11-13",
+  "question": "how to pick up stocks",
+  "scope": "Local real-provider reproduction; no new hosted deployment and no accepted free-form answer",
+  "runs": [
+    {
+      "name": "baseline",
+      "scope": "Local real-provider run of application routes using SQLite adapter; not hosted/browser acceptance",
+      "state": "completed",
+      "kind": "unavailable",
+      "failureCode": "grounding_rejected",
+      "errorType": null,
+      "elapsedMs": 32910,
+      "networkCalls": 3,
+      "stages": {
+        "version": 1,
+        "scope": "original_preparation",
+        "planning": {
+          "status": "completed",
+          "durationMs": 1020
+        },
+        "retrieval": {
+          "status": "completed",
+          "durationMs": 26
+        },
+        "writer": {
+          "status": "completed",
+          "durationMs": 25783
+        },
+        "reviewer": {
+          "status": "completed",
+          "durationMs": 6036
+        },
+        "totalMs": 32877
+      },
+      "independentAcceptance": false
+    },
+    {
+      "name": "after-fix",
+      "scope": "Local real-provider run of application routes using SQLite adapter; not hosted/browser acceptance",
+      "state": "completed",
+      "kind": "generated",
+      "failureCode": null,
+      "errorType": null,
+      "elapsedMs": 25213,
+      "networkCalls": 3,
+      "stages": {
+        "version": 1,
+        "scope": "original_preparation",
+        "planning": {
+          "status": "completed",
+          "durationMs": 1204
+        },
+        "retrieval": {
+          "status": "completed",
+          "durationMs": 24
+        },
+        "writer": {
+          "status": "completed",
+          "durationMs": 20926
+        },
+        "reviewer": {
+          "status": "completed",
+          "durationMs": 3011
+        },
+        "totalMs": 25179
+      },
+      "independentAcceptance": false
+    },
+    {
+      "name": "review-regression",
+      "scope": null,
+      "state": "interrupted",
+      "kind": null,
+      "failureCode": null,
+      "errorType": "Error",
+      "elapsedMs": null,
+      "networkCalls": 1,
+      "stages": null,
+      "independentAcceptance": false
+    },
+    {
+      "name": "verified-candidate",
+      "scope": "Local real-provider run of application routes using SQLite adapter; not hosted/browser acceptance",
+      "state": "completed",
+      "kind": "unavailable",
+      "failureCode": "planning_validation",
+      "errorType": null,
+      "elapsedMs": 3251,
+      "networkCalls": 1,
+      "stages": {
+        "version": 1,
+        "scope": "original_preparation",
+        "planning": {
+          "status": "completed",
+          "durationMs": 3234
+        },
+        "retrieval": {
+          "status": "not_started",
+          "durationMs": null
+        },
+        "writer": {
+          "status": "not_started",
+          "durationMs": null
+        },
+        "reviewer": {
+          "status": "not_started",
+          "durationMs": null
+        },
+        "totalMs": 3236
+      },
+      "independentAcceptance": false
+    },
+    {
+      "name": "verified-replay",
+      "scope": null,
+      "state": "interrupted",
+      "kind": null,
+      "failureCode": null,
+      "errorType": "ProviderError",
+      "elapsedMs": 60024,
+      "networkCalls": 1,
+      "stages": {
+        "writer": {
+          "elapsedMs": 60021,
+          "usage": null,
+          "errorType": "ProviderError"
+        }
+      },
+      "independentAcceptance": false
+    },
+    {
+      "name": "fast-writer-replay",
+      "scope": null,
+      "state": "interrupted",
+      "kind": null,
+      "failureCode": null,
+      "errorType": "GenerationValidationError",
+      "elapsedMs": 16686,
+      "networkCalls": 1,
+      "stages": {
+        "writer": {
+          "elapsedMs": 16683,
+          "usage": {
+            "inputTokens": 13731,
+            "outputTokens": 951,
+            "totalTokens": 14682,
+            "reported": true
+          }
+        }
+      },
+      "independentAcceptance": false
+    },
+    {
+      "name": "review-regression-2",
+      "scope": null,
+      "state": "interrupted",
+      "kind": null,
+      "failureCode": null,
+      "errorType": "Error",
+      "elapsedMs": null,
+      "networkCalls": 1,
+      "stages": null,
+      "independentAcceptance": false
+    }
+  ],
+  "capturedPlannerResponse": {
+    "inScope": true,
+    "queries": [
+      "how to pick stocks",
+      "stock selection criteria",
+      "identifying good investments",
+      "buying a wonderful company",
+      "quality of business characteristics"
+    ],
+    "usePreviousQuestion": false
+  },
+  "mechanicallyFixed": [
+    "A fifth valid search variant no longer aborts the request: validate all variants, deduplicate, retain at most four/600 characters.",
+    "Per-query eligible context coverage before fused ranking; complete source bounds/companions preserved.",
+    "Retrieval algorithm participates independently in generation cache identity."
+  ],
+  "sourceAuditFindings": [
+    {
+      "run": "baseline",
+      "finding": "Draft adds a growth/incremental-capital rule absent from all selected originals; cites a durability paragraph."
+    },
+    {
+      "run": "after-fix",
+      "finding": "Automated pass missed transfer of a manager-selection discussion to stock selection, strengthened uncertainty and several missing exact paragraph citations."
+    }
+  ],
+  "remainingFailures": [
+    {
+      "run": "review-regression-2",
+      "supported": false,
+      "issueCount": 33,
+      "finding": "Provider returned more than the allowed 12 issues and mixed supported statements/self-discussion into the defect list. Rejected by parser; not accepted."
+    },
+    {
+      "run": "verified-replay",
+      "finding": "Writer hit the 60-second timeout; no completed answer."
+    },
+    {
+      "run": "fast-writer-replay",
+      "finding": "Writer completed in 16.683 seconds but failed exact quotation validation. Experimental no-thinking setting was not adopted."
+    }
+  ],
+  "cost": {
+    "newProviderCalls": 11,
+    "priorHostedCalls": 9,
+    "combinedAttempts": 20,
+    "maxCombinedAttempts": 20,
+    "localReservedMicroCny": 1634700,
+    "priorHostedReservedMicroCny": 1118481,
+    "combinedReservedMicroCny": 2753181,
+    "maxCombinedReservedMicroCny": 5000000,
+    "reservationIsNotBill": true,
+    "hostedConfiguredAttemptsCap": 9,
+    "localAttemptsCap": 11,
+    "hostedConfiguredCnyCap": 2.5,
+    "localCnyCap": 2.5
+  },
+  "nextAcceptanceRequirement": "A fresh free-form answer must pass independent exact-source review; a boolean model verdict alone is not acceptance. Further paid tests require a renewed bounded trial allocation."
+}

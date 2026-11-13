@@ -30,6 +30,20 @@ try {
     catch(error) { checks.push({name,passed:false,failure:error.message}); }
   };
   const rejected = (value, expectedCode) => assert.throws(() => parse(value), error => error.name === 'GenerationValidationError' && (!expectedCode || error.code === expectedCode));
+  check('current paragraph-object response permits a cited nonempty lead without padding sections', () => {
+    const paragraph={text:'Mechanical narrow answer.',citations:[keys[0]]};
+    const out=parse({title:'Narrow fixture',lead:paragraph,sections:[]});
+    assert.equal(out.answer.lead,paragraph.text+' '+cite(keys[0]));assert.deepEqual(out.answer.sections,[]);
+    assert.equal(out.checks.semanticGroundingChecked,false);
+  });
+  check('lead-only object still rejects empty prose, missing citations and invented quotation', () => {
+    const paragraph={text:'Mechanical narrow answer.',citations:[keys[0]]};
+    rejected({title:'Fixture',lead:{...paragraph,text:' '},sections:[]},'structure');
+    rejected({title:'Fixture',lead:{...paragraph,citations:[]},sections:[]},'references');
+    rejected({title:'Fixture',lead:{...paragraph,citations:['P99-999']},sections:[]},'references');
+    rejected({title:'Fixture',lead:{...paragraph,text:'“A fabricated unsupported quotation.”'},sections:[]},'quotation');
+    rejected({title:'Fixture',lead:paragraph,sections:[{heading:'Padding',paragraphs:[]}]},'structure');
+  });
   check('two-string response preserves every prose word and explicit citation when splitting headings', () => {
     const out = parse(valid);
     assert.equal(out.answer.lead,opening);

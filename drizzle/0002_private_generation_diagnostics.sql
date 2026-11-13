@@ -1,0 +1,1 @@
+ALTER TABLE `generation_jobs` ADD `diagnostics_json` text;

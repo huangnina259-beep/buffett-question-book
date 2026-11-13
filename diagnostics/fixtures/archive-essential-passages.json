@@ -1,0 +1,103 @@
+{
+  "scope": "Known regression alternative added after reading the full original 2002 morning chapter26 returned by this candidate. It directly answers how to become a great investor; not a held-out test or generated-answer evaluation.",
+  "contextId": "chapter:cnbc-meeting-2002-morning-ch26",
+  "sourceUrl": "https://buffett.cnbc.com/video/2002/05/04/morning-session---2002-berkshire-hathaway-annual-meeting.html",
+  "chapterTextSha256": "776c56521234baef1600d1a24022ce688f5a297f185796c0ceb5728c1037336e",
+  "greatInvestorAlternative": [
+    {
+      "sourceId": "cnbc-meeting-2002-morning",
+      "id": "cnbc-meeting-2002-morning-ch26-p012",
+      "text": "And if you do agree, what things would you recommend that someone do if they wanted to become a great investor?"
+    },
+    {
+      "sourceId": "cnbc-meeting-2002-morning",
+      "id": "cnbc-meeting-2002-morning-ch26-p013",
+      "text": "Also, what mental attributes do you think a person should have if they want to try to become a great investor? Thank you very much."
+    },
+    {
+      "sourceId": "cnbc-meeting-2002-morning",
+      "id": "cnbc-meeting-2002-morning-ch26-p014",
+      "text": "WARREN BUFFETT: Yeah, I’d largely agree with what you said."
+    },
+    {
+      "sourceId": "cnbc-meeting-2002-morning",
+      "id": "cnbc-meeting-2002-morning-ch26-p015",
+      "text": "I would say that there —  I don't know to what extent — an ability to detach yourself from the crowd, for example — I don't know to what extent that's innate or to what extent that's learned — but that's a quality you need."
+    },
+    {
+      "sourceId": "cnbc-meeting-2002-morning",
+      "id": "cnbc-meeting-2002-morning-ch26-p016",
+      "text": "I would agree totally with you that a great IQ is not needed. I mean, you do not have to be terrifically smart to do well as an investor, at all."
+    },
+    {
+      "sourceId": "cnbc-meeting-2002-morning",
+      "id": "cnbc-meeting-2002-morning-ch26-p017",
+      "text": "I would say you're 100 percent right that I learned from Graham first in a very, very big way, and I learned something additionally from Bill Fisher, and I learned a lot from Charlie."
+    },
+    {
+      "sourceId": "cnbc-meeting-2002-morning",
+      "id": "cnbc-meeting-2002-morning-ch26-p020",
+      "text": "And I read Ben's book in 1949 when I was at University of Nebraska, and that actually just changed my whole view of investing. And it really did, basically, told me to think about a stock as a part of a business."
+    },
+    {
+      "sourceId": "cnbc-meeting-2002-morning",
+      "id": "cnbc-meeting-2002-morning-ch26-p024",
+      "text": "I do think there's certain matters of temperament that may be innate, they may be learned, they may be intensified by experience as you go on, partially innate, but then reinforced in various ways by your experience as you go through life, but that's enormously important."
+    },
+    {
+      "sourceId": "cnbc-meeting-2002-morning",
+      "id": "cnbc-meeting-2002-morning-ch26-p025",
+      "text": "I mean, you have to be realistic. You have to just define your circle of competence accurately. You have to know what you don't know and not get enticed by it."
+    },
+    {
+      "sourceId": "cnbc-meeting-2002-morning",
+      "id": "cnbc-meeting-2002-morning-ch26-p026",
+      "text": "You can’t be — you’ve got to have an interest in money, I think, or you won't be good in investing. But I think if you're very greedy, it'll be a disaster, because that will overcome rationality."
+    },
+    {
+      "sourceId": "cnbc-meeting-2002-morning",
+      "id": "cnbc-meeting-2002-morning-ch26-p028",
+      "text": "I mean, I haven't seen anything in the last 25 years, and I read — I glance through — most of the books. I've seen nothing to improve on Graham and Fisher in terms of the basic approach of going about investing, which is to think about stocks as businesses, and then think about what makes a good business."
+    },
+    {
+      "sourceId": "cnbc-meeting-2002-morning",
+      "id": "cnbc-meeting-2002-morning-ch26-p029",
+      "text": "And really, that's all there is to investing, and having a margin of safety, which Ben talks about, and so on."
+    },
+    {
+      "sourceId": "cnbc-meeting-2002-morning",
+      "id": "cnbc-meeting-2002-morning-ch26-p030",
+      "text": "It’s not a complicated process, but it definitely requires a discipline."
+    },
+    {
+      "sourceId": "cnbc-meeting-2002-morning",
+      "id": "cnbc-meeting-2002-morning-ch26-p034",
+      "text": "You just have to think, but you have to think about them in terms of their business characteristics and what they can earn on capital employed, and that sort of thing."
+    },
+    {
+      "sourceId": "cnbc-meeting-2002-morning",
+      "id": "cnbc-meeting-2002-morning-ch26-p035",
+      "text": "I would just read the, you know, I would read the Graham and the Phil Fisher books. And then read lots of annual reports, think about businesses, and try and think about which businesses you understand and which you don't understand."
+    },
+    {
+      "sourceId": "cnbc-meeting-2002-morning",
+      "id": "cnbc-meeting-2002-morning-ch26-p036",
+      "text": "And you don't have to understand them all. Just forget about the ones that you don't understand."
+    },
+    {
+      "sourceId": "cnbc-meeting-2002-morning",
+      "id": "cnbc-meeting-2002-morning-ch26-p038",
+      "text": "CHARLIE MUNGER: Yeah, I have a deeper level of generality."
+    },
+    {
+      "sourceId": "cnbc-meeting-2002-morning",
+      "id": "cnbc-meeting-2002-morning-ch26-p039",
+      "text": "If you have a passionate interest in knowing why things are happening, you always are trying to figure out the world in terms of why is this happening or why is this not happening, that cast of mind, kept over long periods, gradually improves your ability to cope with reality."
+    },
+    {
+      "sourceId": "cnbc-meeting-2002-morning",
+      "id": "cnbc-meeting-2002-morning-ch26-p040",
+      "text": "And if you don't have that cast of mind, I think you're destined, probably, for failure, even if you've got a pretty high IQ."
+    }
+  ]
+}

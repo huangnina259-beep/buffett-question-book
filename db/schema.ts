@@ -54,6 +54,8 @@ export const generationJobs = sqliteTable("generation_jobs", {
   sessionId: text("session_id").notNull().references(() => sessions.id, { onDelete: "cascade" }),
   state: text("state").notNull(),
   responseJson: text("response_json"),
+  // Private, bounded parsed diagnostics. Never included in response/history JSON.
+  diagnosticsJson: text("diagnostics_json"),
   reservedMicroCny: integer("reserved_micro_cny").notNull().default(0),
   inputTokens: integer("input_tokens"),
   outputTokens: integer("output_tokens"),

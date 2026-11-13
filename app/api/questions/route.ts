@@ -1,9 +1,9 @@
 import { and, desc, eq, inArray, or, sql } from "drizzle-orm";
 import { getDb } from "../../../db";
 import { answers, feedback } from "../../../db/schema";
-import { MAX_QUOTE_PUNCTUATION_NORMALIZATIONS, MAX_QUOTE_PUNCTUATION_TEXT_LENGTH, type PilotResult, type PilotSource, type QuotePunctuationNormalization } from "../../../lib/pilot-types";
+import { MAX_QUOTE_PUNCTUATION_NORMALIZATIONS, MAX_QUOTE_PUNCTUATION_TEXT_LENGTH, type PilotResult, type PilotSource, type QuotePunctuationNormalization, type GenerationTimings } from "../../../lib/pilot-types";
 import { contentVersion, curatedAnswer, findCuratedQuestion } from "../../../lib/server/content";
-import { resolveGeneration, pollGeneration, storedGeneration, GENERATION_LEASE_MS } from "../../../lib/server/generation";
+import { resolveGeneration, pollGeneration, storedGeneration, unknownGenerationTimings, GENERATION_LEASE_MS } from "../../../lib/server/generation";
 import { LIVE_EVIDENCE_VERSION } from "../../../lib/retrieved-evidence";
 import { allowKeys, json, readJson, rejectCrossSiteRead, RequestError, requiredText, requireSameOrigin, routeError } from "../../../lib/server/http";
 import { useRequestAllowance } from "../../../lib/server/rate-limit";
@@ -32,6 +32,26 @@ function publicSource(value: unknown): PilotSource {
   return selected as PilotSource;
 }
 
+function publicTimings(value: unknown): GenerationTimings {
+  const timing = object(value);
+  if (timing.version !== 1 || timing.scope !== "original_preparation") throw new Error("Invalid stored timing.");
+  const duration = (value: unknown): number | null => {
+    if (value === null) return null;
+    if (typeof value !== "number" || !Number.isSafeInteger(value) || value < 0) throw new Error("Invalid stored duration.");
+    return value;
+  };
+  const stage = (value: unknown): GenerationTimings["writer"] => {
+    const item = object(value);
+    if (!["not_started", "completed", "failed", "unknown"].includes(String(item.status))) throw new Error("Invalid stored stage.");
+    const durationMs = duration(item.durationMs);
+    const measured = item.status === "completed" || item.status === "failed";
+    if (measured === (durationMs === null)) throw new Error("Invalid stored stage duration.");
+    return { status: item.status as GenerationTimings["writer"]["status"], durationMs };
+  };
+  return { version: 1, scope: "original_preparation", ...(timing.planning === undefined ? {} : { planning: stage(timing.planning) }), retrieval: stage(timing.retrieval),
+    writer: stage(timing.writer), reviewer: stage(timing.reviewer), totalMs: duration(timing.totalMs) };
+}
+
 // Version 1 stored public results directly. Version 2 wraps them with a private
 // request fingerprint. Select public fields in either format; never expose
 // session identifiers, idempotency data, or original evidence text.
@@ -45,6 +65,7 @@ function storedResult(row: StoredRow): { result: PilotResult; fingerprint: strin
   }
   const result: PilotResult = { id: row.id, question: row.question,
     kind: row.kind as PilotResult["kind"], elapsedMs: value.elapsedMs };
+  if (value.timings !== undefined) result.timings = publicTimings(value.timings);
   if (value.recorded === true) result.recorded = true;
   if (typeof value.message === "string") result.message = value.message;
   if (typeof value.retryAfterMs === "number") result.retryAfterMs = value.retryAfterMs;
@@ -109,9 +130,9 @@ export async function GET(request: Request) {
         const envelope = object(JSON.parse(row.responseJson));
         const recovered = typeof envelope.generationJobId === "string" ? await storedGeneration(session.id, envelope.generationJobId) : null;
         const payload = recovered?.payload ?? (row.createdAt + GENERATION_LEASE_MS < Date.now()
-          ? { kind: "unavailable" as const, message: "This answer did not finish. Please rephrase your question to start a new attempt." } : null);
+          ? { kind: "unavailable" as const, message: "This answer did not finish. Please rephrase your question to start a new attempt.", timings: unknownGenerationTimings() } : null);
         if (payload && payload.kind !== "processing") {
-          result = { id: row.id, question: row.question, ...payload, elapsedMs: Math.max(0, (recovered?.finishedAt ?? Date.now()) - row.createdAt) };
+          result = { id: row.id, question: row.question, ...payload, elapsedMs: payload.timings?.totalMs ?? Math.max(0, (recovered?.finishedAt ?? Date.now()) - row.createdAt) };
           const [saved] = await db.update(answers).set({ kind: result.kind, responseJson: JSON.stringify({ ...envelope, result }), elapsedMs: result.elapsedMs })
             .where(and(eq(answers.id, row.id), eq(answers.sessionId, session.id), eq(answers.kind, "processing"))).returning({ id: answers.id });
           if (!saved) {
@@ -130,6 +151,12 @@ export async function GET(request: Request) {
 
 export async function POST(request: Request) {
   const started = performance.now();
+  const respond = (data: unknown, status = 200, extraHeaders?: HeadersInit) => {
+    const headers = new Headers(extraHeaders);
+    // Current HTTP serving time is separate from immutable original-run timings.
+    headers.set("Server-Timing", `request;dur=${Math.max(0, Math.round(performance.now() - started))}`);
+    return json(data, status, headers);
+  };
   try {
     requireSameOrigin(request);
     const payload = await readJson(request);
@@ -158,7 +185,7 @@ export async function POST(request: Request) {
       const prior = await findOwned();
       if (prior) {
         const result = checkReplay(prior, fingerprint);
-        if (result.kind !== "processing") return json(result);
+        if (result.kind !== "processing") return respond(result);
         existingPending = result;
         pendingCreatedAt = prior.createdAt;
         const envelope = object(JSON.parse(prior.responseJson));
@@ -201,10 +228,10 @@ export async function POST(request: Request) {
         const winner = await findOwned();
         if (!winner || !fingerprint) throw new RequestError(409, "This submission could not be recorded. Start a new submission.");
         const saved = checkReplay(winner, fingerprint);
-        if (saved.kind !== "processing") return json(saved);
+        if (saved.kind !== "processing") return respond(saved);
       }
     }
-    if (curated) return json(initial);
+    if (curated) return respond(initial);
     let generationJobId: string | undefined = pinnedGenerationJobId;
     const generated = pinnedGenerationJobId ? await pollGeneration(session.id, pinnedGenerationJobId, pendingCreatedAt) : await resolveGeneration({ sessionId: session.id, question, previousQuestion, previousAnswerText, previousIdentity, signal: request.signal,
       onJob: async (jobId) => {
@@ -216,15 +243,18 @@ export async function POST(request: Request) {
         return Boolean(linked);
       },
     });
-    if (generated.kind === "processing") return json({ ...initial, ...generated }, 202, { "Retry-After": "2" });
-    const result: PilotResult = { id, question, ...generated, elapsedMs: Math.round(performance.now() - started) };
+    if (generated.references) generated.references = Object.fromEntries(Object.entries(generated.references).map(([key, source]) => [key, publicSource(source)]));
+    if (generated.kind === "processing") return respond({ ...initial, ...generated }, 202, { "Retry-After": "2" });
+    const result: PilotResult = { id, question, ...generated,
+      elapsedMs: generated.timings?.totalMs ?? (pinnedGenerationJobId
+        ? Math.max(0, Date.now() - pendingCreatedAt) : Math.round(performance.now() - started)) };
     const saved = await db.update(answers).set({ kind: result.kind, responseJson: JSON.stringify({ storageVersion: 2, requestFingerprint: fingerprint, generationJobId, result }), elapsedMs: result.elapsedMs })
       .where(and(eq(answers.id, id), eq(answers.sessionId, session.id), eq(answers.kind, "processing"))).returning({ id: answers.id });
     if (!saved.length) {
       const winner = await findOwned();
-      if (winner) return json(storedResult(winner).result);
+      if (winner) return respond(storedResult(winner).result);
       throw new RequestError(503, "The answer could not be saved.");
     }
-    return json(result);
+    return respond(result);
   } catch (error) { return routeError(error); }
 }

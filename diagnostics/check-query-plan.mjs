@@ -9,6 +9,9 @@ await build({stdin:{contents:"export * from './lib/query-plan.ts'; export * from
 const api=await import(pathToFileURL(resolve(out,'planned-search.mjs')).href);
 const plan={inScope:true,queries:['business future cash intrinsic value','owner earnings capital expenditures'],usePreviousQuestion:false};
 assert.deepEqual(api.parseQueryPlanResponse(JSON.stringify(plan)),plan);
+for (const language of ['json','JSON','']) assert.deepEqual(api.parseQueryPlanResponse('```'+language+'\n'+JSON.stringify(plan)+'\n```'),plan);
+for (const bad of ['Here is the plan:\n'+JSON.stringify(plan),'```json\n'+JSON.stringify(plan)+'\n```\nExtra text','```javascript\n'+JSON.stringify(plan)+'\n```',JSON.stringify(plan)+'\n'+JSON.stringify(plan)]) assert.throws(()=>api.parseQueryPlanResponse(bad));
+assert.throws(()=>api.parseQueryPlanResponse('```json\n'+JSON.stringify({...plan,queries:['https://example.com']})+'\n```'));
 for(const bad of [{...plan,advice:'buy'},{...plan,inScope:'true'},{...plan,queries:[]},{...plan,queries:Array(17).fill('cash flow')},{...plan,queries:['https://example.com']},{...plan,queries:['x'.repeat(161)]},{inScope:false,queries:['stock'],usePreviousQuestion:false}])assert.throws(()=>api.parseQueryPlanResponse(JSON.stringify(bad)));
 // Captured real-provider failure: five valid variants previously stopped the
 // entire request before retrieval. Keeping four cannot fabricate evidence.

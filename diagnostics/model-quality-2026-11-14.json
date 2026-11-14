@@ -1,0 +1,772 @@
+{
+  "date": "2026-11-14",
+  "scope": "Bounded local API and actual-application retrieval/writer/parser experiments. No hosted browser, database, secret configuration or end-to-end release acceptance.",
+  "user_direction": "Use the existing domestic-model MarsAPI account; prioritize source fidelity, usefulness and readability over API cost.",
+  "model_interpretation": "Provider IDs are reported identifiers, not independent verification of weights. These samples do not establish a model-family ranking or general accuracy rate.",
+  "deployment_changed": false,
+  "accepted_model": null,
+  "retrieval": {
+    "confirmed_cause": "Unordered term scores promoted an unrelated 2003 opening over the complete 1986 owner-earnings definition, which was already inside the top80 lexical candidates.",
+    "candidate_change": "Generic original-body phrase ranking, distinct query terms and complete context/companion preservation; broad method planning; strict acceptance of an enclosing JSON fence.",
+    "actual_plan_result": "Full 1986 definition, working-capital/LIFO qualifications and mandatory O/N companion retrieved in six contexts totaling33,467 characters.",
+    "raw_fixture_suite": "2/9 to5/9; no pass-to-fail raw cases. This is a specific offline raw-query suite, not a website accuracy measure.",
+    "remaining": "Two synthetic component plans lose the growth/incremental-return condition; the formula paraphrase still misses the full definition. More context slots alone did not restore the missing condition. Cloudflare CPU/memory safety is not established by local Node timings."
+  },
+  "reviewer_result": "The actual production reviewer exhausted8192 output tokens without an answer. A shorter generic reviewer completed in16.995s but approved the competence draft despite independently documented meaning errors. Neither is accepted as an automatic quality gate.",
+  "latency_scope": "Planning+local retrieval+writer sums exclude semantic review, browser/network polling, hosting and any preceding failed attempt. First content is provider content arrival, not reader-visible answer time.",
+  "release_status": "The hosted website is unchanged. Existing production timeouts, per-model flags and historical trial budget still need explicit integration and end-to-end verification; the historical ledger has not been reset.",
+  "known_usage_totals": {
+    "inputTokens": 215326,
+    "outputTokens": 74255,
+    "totalTokens": 289581
+  },
+  "unknown_usage_attempts": [
+    14,
+    18,
+    24
+  ],
+  "billed_cost": "Unknown. Token usage and provider price ratios are not a settled bill.",
+  "runs": [
+    {
+      "attempt": 1,
+      "tag": "qwen235-q01-selected",
+      "requestedModel": "Qwen3-VL-235B-A22B-Instruct-W8A8",
+      "reportedModel": "Qwen3-VL-235B-A22B-Instruct-W8A8",
+      "status": "completed",
+      "failureCode": null,
+      "latencyMs": 21412,
+      "timeToFirstContentMs": 2187,
+      "usage": {
+        "inputTokens": 8638,
+        "outputTokens": 1951,
+        "totalTokens": 10589,
+        "reported": true
+      },
+      "billedCny": null,
+      "sourcePacketHash": "f84234c8f7b132d4d6cb66b35a17c21eb8d4b398e67064ae4c4e463d84fcf00f",
+      "promptHash": "adbb490f1c203082989cc4283395ce30df3e7f4d8f26c55ecb5964fb31855b63",
+      "format": null,
+      "maxTokens": 8192,
+      "scope": "isolated_answer_quality_experiment_not_production_acceptance"
+    },
+    {
+      "attempt": 2,
+      "tag": "minimax-q01-selected",
+      "requestedModel": "MiniMax-M3-W8A8",
+      "reportedModel": "MiniMax-M3-W8A8",
+      "status": "completed",
+      "failureCode": null,
+      "latencyMs": 58643,
+      "timeToFirstContentMs": 23223,
+      "usage": {
+        "inputTokens": 8638,
+        "outputTokens": 2380,
+        "totalTokens": 11018,
+        "reported": true
+      },
+      "billedCny": null,
+      "sourcePacketHash": "f84234c8f7b132d4d6cb66b35a17c21eb8d4b398e67064ae4c4e463d84fcf00f",
+      "promptHash": "adbb490f1c203082989cc4283395ce30df3e7f4d8f26c55ecb5964fb31855b63",
+      "format": null,
+      "maxTokens": 8192,
+      "scope": "isolated_answer_quality_experiment_not_production_acceptance"
+    },
+    {
+      "attempt": 3,
+      "tag": "glm-q01-selected",
+      "requestedModel": "GLM-5.3-Flash-W8A8",
+      "reportedModel": "GLM-5.3-Flash-W8A8",
+      "status": "completed",
+      "failureCode": null,
+      "latencyMs": 38884,
+      "timeToFirstContentMs": 20251,
+      "usage": {
+        "inputTokens": 8638,
+        "outputTokens": 3318,
+        "totalTokens": 11956,
+        "reported": true
+      },
+      "billedCny": null,
+      "sourcePacketHash": "f84234c8f7b132d4d6cb66b35a17c21eb8d4b398e67064ae4c4e463d84fcf00f",
+      "promptHash": "adbb490f1c203082989cc4283395ce30df3e7f4d8f26c55ecb5964fb31855b63",
+      "format": null,
+      "maxTokens": 8192,
+      "scope": "isolated_answer_quality_experiment_not_production_acceptance"
+    },
+    {
+      "attempt": 4,
+      "tag": "deepseek-q01-selected",
+      "requestedModel": "DeepSeek-V4-Flash-0731",
+      "reportedModel": "DeepSeek-V4-Flash-0731",
+      "status": "completed",
+      "failureCode": null,
+      "latencyMs": 17506,
+      "timeToFirstContentMs": 2551,
+      "usage": {
+        "inputTokens": 8638,
+        "outputTokens": 1677,
+        "totalTokens": 10315,
+        "reported": true
+      },
+      "billedCny": null,
+      "sourcePacketHash": "f84234c8f7b132d4d6cb66b35a17c21eb8d4b398e67064ae4c4e463d84fcf00f",
+      "promptHash": "adbb490f1c203082989cc4283395ce30df3e7f4d8f26c55ecb5964fb31855b63",
+      "format": null,
+      "maxTokens": 8192,
+      "scope": "isolated_answer_quality_experiment_not_production_acceptance"
+    },
+    {
+      "attempt": 5,
+      "tag": "plan-q01",
+      "requestedModel": "DeepSeek-V4-Flash-0731",
+      "reportedModel": "DeepSeek-V4-Flash-0731",
+      "status": "completed",
+      "failureCode": null,
+      "latencyMs": 910,
+      "timeToFirstContentMs": 489,
+      "usage": {
+        "inputTokens": 434,
+        "outputTokens": 36,
+        "totalTokens": 470,
+        "reported": true
+      },
+      "billedCny": null,
+      "sourcePacketHash": "d8a76fde59f7c2d607e2892c862f968f9e017e06292318e1d777d8eb3c428e1b",
+      "promptHash": "c00eaeb909bb9e3d0deff00a8e71e6f1529a700c0324c42902a05fcf02fee7fe",
+      "format": null,
+      "maxTokens": 512,
+      "scope": "isolated_answer_quality_experiment_not_production_acceptance"
+    },
+    {
+      "attempt": 6,
+      "tag": "qwen38-q01-selected",
+      "requestedModel": "Qwen3.8-Flash-Next-W8A8",
+      "reportedModel": "Qwen3.8-Flash-Next-W8A8",
+      "status": "truncated",
+      "failureCode": null,
+      "latencyMs": 113588,
+      "timeToFirstContentMs": null,
+      "usage": {
+        "inputTokens": 8171,
+        "outputTokens": 8192,
+        "totalTokens": 16363,
+        "reported": true
+      },
+      "billedCny": null,
+      "sourcePacketHash": "f84234c8f7b132d4d6cb66b35a17c21eb8d4b398e67064ae4c4e463d84fcf00f",
+      "promptHash": "adbb490f1c203082989cc4283395ce30df3e7f4d8f26c55ecb5964fb31855b63",
+      "format": null,
+      "maxTokens": 8192,
+      "scope": "isolated_answer_quality_experiment_not_production_acceptance"
+    },
+    {
+      "attempt": 7,
+      "tag": "minimax-q02-selected",
+      "requestedModel": "MiniMax-M3-W8A8",
+      "reportedModel": "MiniMax-M3-W8A8",
+      "status": "completed",
+      "failureCode": null,
+      "latencyMs": 65880,
+      "timeToFirstContentMs": 32276,
+      "usage": {
+        "inputTokens": 10822,
+        "outputTokens": 2747,
+        "totalTokens": 13569,
+        "reported": true
+      },
+      "billedCny": null,
+      "sourcePacketHash": "16f893b1b4b2ed9b9f971cf8ea714b7412598f9782f4fbf1650a9bac7ed2f3ad",
+      "promptHash": "adbb490f1c203082989cc4283395ce30df3e7f4d8f26c55ecb5964fb31855b63",
+      "format": null,
+      "maxTokens": 8192,
+      "scope": "isolated_answer_quality_experiment_not_production_acceptance"
+    },
+    {
+      "attempt": 8,
+      "tag": "review-minimax-q01",
+      "requestedModel": "DeepSeek-V4-Flash-0731",
+      "reportedModel": "DeepSeek-V4-Flash-0731",
+      "status": "completed",
+      "failureCode": null,
+      "latencyMs": 2958,
+      "timeToFirstContentMs": 2524,
+      "usage": {
+        "inputTokens": 10004,
+        "outputTokens": 36,
+        "totalTokens": 10040,
+        "reported": true
+      },
+      "billedCny": null,
+      "sourcePacketHash": "a2bb3a2c4c8fc10ab0eb368018eebe584fda29483801830515ff9dd1a28318a4",
+      "promptHash": "250bfb7f9ee3eefef47ec0c09039a1b9ead5e4497400d7cb8579a8479efb8296",
+      "format": null,
+      "maxTokens": 8192,
+      "scope": "isolated_answer_quality_experiment_not_production_acceptance"
+    },
+    {
+      "attempt": 9,
+      "tag": "minimax-q01-auto",
+      "requestedModel": "MiniMax-M3-W8A8",
+      "reportedModel": "MiniMax-M3-W8A8",
+      "status": "completed",
+      "failureCode": null,
+      "latencyMs": 64263,
+      "timeToFirstContentMs": 28541,
+      "usage": {
+        "inputTokens": 16215,
+        "outputTokens": 2459,
+        "totalTokens": 18674,
+        "reported": true
+      },
+      "billedCny": null,
+      "sourcePacketHash": "65094c384c325566075e4bcdcdb0b6a725cb3f120be11dda7fb02a46256fef1f",
+      "promptHash": "adbb490f1c203082989cc4283395ce30df3e7f4d8f26c55ecb5964fb31855b63",
+      "format": null,
+      "maxTokens": 8192,
+      "scope": "isolated_answer_quality_experiment_not_production_acceptance"
+    },
+    {
+      "attempt": 10,
+      "tag": "qwen27-q01-selected",
+      "requestedModel": "Qwen3.8-27b",
+      "reportedModel": "Qwen3.8-27b",
+      "status": "truncated",
+      "failureCode": null,
+      "latencyMs": 85673,
+      "timeToFirstContentMs": null,
+      "usage": {
+        "inputTokens": 8171,
+        "outputTokens": 8192,
+        "totalTokens": 16363,
+        "reported": true
+      },
+      "billedCny": null,
+      "sourcePacketHash": "f84234c8f7b132d4d6cb66b35a17c21eb8d4b398e67064ae4c4e463d84fcf00f",
+      "promptHash": "adbb490f1c203082989cc4283395ce30df3e7f4d8f26c55ecb5964fb31855b63",
+      "format": null,
+      "maxTokens": 8192,
+      "scope": "isolated_answer_quality_experiment_not_production_acceptance"
+    },
+    {
+      "attempt": 11,
+      "tag": "qwen35think-q01-selected",
+      "requestedModel": "Qwen3.6-35B-A3B-Think",
+      "reportedModel": "Qwen3.6-35B-A3B-Think",
+      "status": "completed",
+      "failureCode": null,
+      "latencyMs": 44845,
+      "timeToFirstContentMs": 37558,
+      "usage": {
+        "inputTokens": 8133,
+        "outputTokens": 5330,
+        "totalTokens": 13463,
+        "reported": true
+      },
+      "billedCny": null,
+      "sourcePacketHash": "f84234c8f7b132d4d6cb66b35a17c21eb8d4b398e67064ae4c4e463d84fcf00f",
+      "promptHash": "adbb490f1c203082989cc4283395ce30df3e7f4d8f26c55ecb5964fb31855b63",
+      "format": null,
+      "maxTokens": 8192,
+      "scope": "isolated_answer_quality_experiment_not_production_acceptance"
+    },
+    {
+      "attempt": 12,
+      "tag": "review-think-minimax-q01",
+      "requestedModel": "Qwen3.6-35B-A3B-Think",
+      "reportedModel": "Qwen3.6-35B-A3B-Think",
+      "status": "completed",
+      "failureCode": null,
+      "latencyMs": 44232,
+      "timeToFirstContentMs": 43159,
+      "usage": {
+        "inputTokens": 9496,
+        "outputTokens": 5616,
+        "totalTokens": 15112,
+        "reported": true
+      },
+      "billedCny": null,
+      "sourcePacketHash": "a2bb3a2c4c8fc10ab0eb368018eebe584fda29483801830515ff9dd1a28318a4",
+      "promptHash": "250bfb7f9ee3eefef47ec0c09039a1b9ead5e4497400d7cb8579a8479efb8296",
+      "format": null,
+      "maxTokens": 8192,
+      "scope": "isolated_answer_quality_experiment_not_production_acceptance"
+    },
+    {
+      "attempt": 13,
+      "tag": "binding-review-q02",
+      "requestedModel": "GLM-5.3-Flash-W8A8",
+      "reportedModel": "GLM-5.3-Flash-W8A8",
+      "status": "truncated",
+      "failureCode": null,
+      "latencyMs": 109225,
+      "timeToFirstContentMs": null,
+      "usage": {
+        "inputTokens": 12244,
+        "outputTokens": 10007,
+        "totalTokens": 22251,
+        "reported": true
+      },
+      "billedCny": null,
+      "sourcePacketHash": "8572568a044554b91de7d09b4e3446e86a4d94fff31758d1f0c08d19cc80d849",
+      "promptHash": "b92f7354cf7d56ab7f96b3eae75fb1a7b22737494ab9e0eaf670ad9eacc28768",
+      "format": null,
+      "maxTokens": 8192,
+      "scope": "isolated_answer_quality_experiment_not_production_acceptance"
+    },
+    {
+      "attempt": 14,
+      "tag": "binding-review-q01",
+      "requestedModel": "MiniMax-M3-W8A8",
+      "reportedModel": "MiniMax-M3-W8A8",
+      "status": "failed",
+      "failureCode": "timeout",
+      "latencyMs": 120008,
+      "timeToFirstContentMs": null,
+      "usage": {
+        "inputTokens": null,
+        "outputTokens": null,
+        "totalTokens": null,
+        "reported": false
+      },
+      "billedCny": null,
+      "sourcePacketHash": "a2bb3a2c4c8fc10ab0eb368018eebe584fda29483801830515ff9dd1a28318a4",
+      "promptHash": "b92f7354cf7d56ab7f96b3eae75fb1a7b22737494ab9e0eaf670ad9eacc28768",
+      "format": null,
+      "maxTokens": 8192,
+      "scope": "isolated_answer_quality_experiment_not_production_acceptance"
+    },
+    {
+      "attempt": 15,
+      "tag": "plan-q01-components",
+      "requestedModel": "DeepSeek-V4-Flash-0731",
+      "reportedModel": "DeepSeek-V4-Flash-0731",
+      "status": "completed",
+      "failureCode": null,
+      "latencyMs": 1007,
+      "timeToFirstContentMs": 539,
+      "usage": {
+        "inputTokens": 575,
+        "outputTokens": 39,
+        "totalTokens": 614,
+        "reported": true
+      },
+      "billedCny": null,
+      "sourcePacketHash": "d8a76fde59f7c2d607e2892c862f968f9e017e06292318e1d777d8eb3c428e1b",
+      "promptHash": "eb9287307488d3ec04edc4f9cfb9895e0c420adb4ddf74d0f8d8a077d6d39f06",
+      "format": null,
+      "maxTokens": 512,
+      "scope": "isolated_answer_quality_experiment_not_production_acceptance"
+    },
+    {
+      "attempt": 16,
+      "tag": "plan-q01-minimax-components",
+      "requestedModel": "MiniMax-M3-W8A8",
+      "reportedModel": "MiniMax-M3-W8A8",
+      "status": "completed",
+      "failureCode": null,
+      "latencyMs": 7681,
+      "timeToFirstContentMs": 6050,
+      "usage": {
+        "inputTokens": 575,
+        "outputTokens": 312,
+        "totalTokens": 887,
+        "reported": true
+      },
+      "billedCny": null,
+      "sourcePacketHash": "d8a76fde59f7c2d607e2892c862f968f9e017e06292318e1d777d8eb3c428e1b",
+      "promptHash": "eb9287307488d3ec04edc4f9cfb9895e0c420adb4ddf74d0f8d8a077d6d39f06",
+      "format": null,
+      "maxTokens": 4096,
+      "scope": "isolated_answer_quality_experiment_not_production_acceptance"
+    },
+    {
+      "attempt": 17,
+      "tag": "rv02-planner",
+      "requestedModel": "MiniMax-M3-W8A8",
+      "reportedModel": "MiniMax-M3-W8A8",
+      "status": "completed",
+      "failureCode": null,
+      "latencyMs": 21278,
+      "timeToFirstContentMs": 18768,
+      "usage": {
+        "inputTokens": 585,
+        "outputTokens": 520,
+        "totalTokens": 1105,
+        "reported": true
+      },
+      "billedCny": null,
+      "sourcePacketHash": "253724a5c30bc65ab05c1ed70af33a5b4d7ddb0a5c8d5715ad8167938c9df6b6",
+      "promptHash": "eb9287307488d3ec04edc4f9cfb9895e0c420adb4ddf74d0f8d8a077d6d39f06",
+      "format": "json",
+      "maxTokens": 4096,
+      "scope": "isolated_answer_quality_experiment_not_production_acceptance"
+    },
+    {
+      "attempt": 18,
+      "tag": "rv01-writer",
+      "requestedModel": "MiniMax-M3-W8A8",
+      "reportedModel": "MiniMax-M3-W8A8",
+      "status": "failed",
+      "failureCode": "timeout",
+      "latencyMs": 120009,
+      "timeToFirstContentMs": null,
+      "usage": {
+        "inputTokens": null,
+        "outputTokens": null,
+        "totalTokens": null,
+        "reported": false
+      },
+      "billedCny": null,
+      "sourcePacketHash": "3bedc1b88108416b4407ed05a46c5c5f45ee6b91da9de36907f4cd604146f1ca",
+      "promptHash": "fa9b892181225e1be25e8a4dfda72ffce572762d853924940e9fe69632894bef",
+      "format": "json",
+      "maxTokens": 8192,
+      "scope": "isolated_answer_quality_experiment_not_production_acceptance"
+    },
+    {
+      "attempt": 19,
+      "tag": "rv02-writer",
+      "requestedModel": "MiniMax-M3-W8A8",
+      "reportedModel": "MiniMax-M3-W8A8",
+      "status": "completed",
+      "failureCode": null,
+      "latencyMs": 59939,
+      "timeToFirstContentMs": 36609,
+      "usage": {
+        "inputTokens": 15209,
+        "outputTokens": 2428,
+        "totalTokens": 17637,
+        "reported": true
+      },
+      "billedCny": null,
+      "sourcePacketHash": "4e7f09337883e2e207c2c8f12dba5965faca2ae18a020530b8088dac451e53db",
+      "promptHash": "fa9b892181225e1be25e8a4dfda72ffce572762d853924940e9fe69632894bef",
+      "format": "json",
+      "maxTokens": 8192,
+      "scope": "isolated_answer_quality_experiment_not_production_acceptance"
+    },
+    {
+      "attempt": 20,
+      "tag": "rv01-writer-jsonoff",
+      "requestedModel": "MiniMax-M3-W8A8",
+      "reportedModel": "MiniMax-M3-W8A8",
+      "status": "completed",
+      "failureCode": null,
+      "latencyMs": 52483,
+      "timeToFirstContentMs": 32025,
+      "usage": {
+        "inputTokens": 14179,
+        "outputTokens": 2336,
+        "totalTokens": 16515,
+        "reported": true
+      },
+      "billedCny": null,
+      "sourcePacketHash": "3bedc1b88108416b4407ed05a46c5c5f45ee6b91da9de36907f4cd604146f1ca",
+      "promptHash": "fa9b892181225e1be25e8a4dfda72ffce572762d853924940e9fe69632894bef",
+      "format": "text",
+      "maxTokens": 8192,
+      "scope": "isolated_answer_quality_experiment_not_production_acceptance"
+    },
+    {
+      "attempt": 21,
+      "tag": "rv03-planner",
+      "requestedModel": "MiniMax-M3-W8A8",
+      "reportedModel": "MiniMax-M3-W8A8",
+      "status": "completed",
+      "failureCode": null,
+      "latencyMs": 9995,
+      "timeToFirstContentMs": 8230,
+      "usage": {
+        "inputTokens": 578,
+        "outputTokens": 371,
+        "totalTokens": 949,
+        "reported": true
+      },
+      "billedCny": null,
+      "sourcePacketHash": "18a0c0a15abce845f4f516a21ab4012aefc262dfc10c90062f53b6cdd00a0fe1",
+      "promptHash": "eb9287307488d3ec04edc4f9cfb9895e0c420adb4ddf74d0f8d8a077d6d39f06",
+      "format": "text",
+      "maxTokens": 4096,
+      "scope": "isolated_answer_quality_experiment_not_production_acceptance"
+    },
+    {
+      "attempt": 22,
+      "tag": "rv04-planner",
+      "requestedModel": "MiniMax-M3-W8A8",
+      "reportedModel": "MiniMax-M3-W8A8",
+      "status": "completed",
+      "failureCode": null,
+      "latencyMs": 14912,
+      "timeToFirstContentMs": 13056,
+      "usage": {
+        "inputTokens": 582,
+        "outputTokens": 615,
+        "totalTokens": 1197,
+        "reported": true
+      },
+      "billedCny": null,
+      "sourcePacketHash": "71acc79426aa076da2fa46d1313b71589ddb4cd02f179e863e2c5699d2ea9523",
+      "promptHash": "eb9287307488d3ec04edc4f9cfb9895e0c420adb4ddf74d0f8d8a077d6d39f06",
+      "format": "text",
+      "maxTokens": 4096,
+      "scope": "isolated_answer_quality_experiment_not_production_acceptance"
+    },
+    {
+      "attempt": 23,
+      "tag": "rv03-writer",
+      "requestedModel": "MiniMax-M3-W8A8",
+      "reportedModel": "MiniMax-M3-W8A8",
+      "status": "completed",
+      "failureCode": null,
+      "latencyMs": 56177,
+      "timeToFirstContentMs": 31760,
+      "usage": {
+        "inputTokens": 14570,
+        "outputTokens": 1804,
+        "totalTokens": 16374,
+        "reported": true
+      },
+      "billedCny": null,
+      "sourcePacketHash": "0dbe3863e075693652abb4ba7679626654217f2beb0c120a99298c3228699136",
+      "promptHash": "fa9b892181225e1be25e8a4dfda72ffce572762d853924940e9fe69632894bef",
+      "format": "text",
+      "maxTokens": 8192,
+      "scope": "isolated_answer_quality_experiment_not_production_acceptance"
+    },
+    {
+      "attempt": 24,
+      "tag": "rv04-writer",
+      "requestedModel": "MiniMax-M3-W8A8",
+      "reportedModel": "MiniMax-M3-W8A8",
+      "status": "failed",
+      "failureCode": "timeout",
+      "latencyMs": 120005,
+      "timeToFirstContentMs": null,
+      "usage": {
+        "inputTokens": null,
+        "outputTokens": null,
+        "totalTokens": null,
+        "reported": false
+      },
+      "billedCny": null,
+      "sourcePacketHash": "d1f679f26c0337311d18cc50a1954c8947e55a93b930ad89b11ee424a041e8a8",
+      "promptHash": "fa9b892181225e1be25e8a4dfda72ffce572762d853924940e9fe69632894bef",
+      "format": "text",
+      "maxTokens": 8192,
+      "scope": "isolated_answer_quality_experiment_not_production_acceptance"
+    },
+    {
+      "attempt": 25,
+      "tag": "rv02-review-deepseek",
+      "requestedModel": "DeepSeek-V4-Flash",
+      "reportedModel": "DeepSeek-V4-Flash-W8A8",
+      "status": "truncated",
+      "failureCode": null,
+      "latencyMs": 93465,
+      "timeToFirstContentMs": null,
+      "usage": {
+        "inputTokens": 13376,
+        "outputTokens": 8192,
+        "totalTokens": 21568,
+        "reported": true
+      },
+      "billedCny": null,
+      "sourcePacketHash": "f2a7b5f5a373e8f48d68470e16d4352bd91a26be09df986282605877e655650a",
+      "promptHash": "edabbf13406db18a6e5b6df775a18a022bed75cc8145787405e36356e45ac6cd",
+      "format": "text",
+      "maxTokens": 8192,
+      "scope": "isolated_answer_quality_experiment_not_production_acceptance"
+    },
+    {
+      "attempt": 26,
+      "tag": "rv04-writer-deepseek",
+      "requestedModel": "DeepSeek-V4-Flash",
+      "reportedModel": "DeepSeek-V4-Flash-W8A8",
+      "status": "completed",
+      "failureCode": null,
+      "latencyMs": 34981,
+      "timeToFirstContentMs": 29610,
+      "usage": {
+        "inputTokens": 12272,
+        "outputTokens": 2621,
+        "totalTokens": 14893,
+        "reported": true
+      },
+      "billedCny": null,
+      "sourcePacketHash": "d1f679f26c0337311d18cc50a1954c8947e55a93b930ad89b11ee424a041e8a8",
+      "promptHash": "fa9b892181225e1be25e8a4dfda72ffce572762d853924940e9fe69632894bef",
+      "format": "text",
+      "maxTokens": 8192,
+      "scope": "isolated_answer_quality_experiment_not_production_acceptance"
+    },
+    {
+      "attempt": 27,
+      "tag": "rv01-writer-deepseek",
+      "requestedModel": "DeepSeek-V4-Flash",
+      "reportedModel": "DeepSeek-V4-Flash-W8A8",
+      "status": "completed",
+      "failureCode": null,
+      "latencyMs": 21878,
+      "timeToFirstContentMs": 8722,
+      "usage": {
+        "inputTokens": 11683,
+        "outputTokens": 1688,
+        "totalTokens": 13371,
+        "reported": true
+      },
+      "billedCny": null,
+      "sourcePacketHash": "3bedc1b88108416b4407ed05a46c5c5f45ee6b91da9de36907f4cd604146f1ca",
+      "promptHash": "fa9b892181225e1be25e8a4dfda72ffce572762d853924940e9fe69632894bef",
+      "format": "text",
+      "maxTokens": 8192,
+      "scope": "isolated_answer_quality_experiment_not_production_acceptance"
+    },
+    {
+      "attempt": 28,
+      "tag": "rv02-review-concise",
+      "requestedModel": "DeepSeek-V4-Flash",
+      "reportedModel": "DeepSeek-V4-Flash-W8A8",
+      "status": "completed",
+      "failureCode": null,
+      "latencyMs": 16995,
+      "timeToFirstContentMs": 16934,
+      "usage": {
+        "inputTokens": 12900,
+        "outputTokens": 1388,
+        "totalTokens": 14288,
+        "reported": true
+      },
+      "billedCny": null,
+      "sourcePacketHash": "f2a7b5f5a373e8f48d68470e16d4352bd91a26be09df986282605877e655650a",
+      "promptHash": "0f36b99a049fea0830f0dee35851f0d243f3d2e2866753a40958389b1f977ca6",
+      "format": "text",
+      "maxTokens": 8192,
+      "scope": "isolated_answer_quality_experiment_not_production_acceptance"
+    }
+  ],
+  "cases": [
+    {
+      "case": "rv01",
+      "question": "How do I evaluate a stock's intrinsic value?",
+      "writer": "MiniMax-M3-W8A8",
+      "planning_retrieval_writer_ms": 60295,
+      "scores": {
+        "source_fidelity": 4,
+        "completeness_usefulness": 4,
+        "readability": 4
+      },
+      "finding": "Usable starting answer; exact citation/quotation and two qualification repairs remain.",
+      "accepted_as_written": false
+    },
+    {
+      "case": "rv02",
+      "question": "How can I distinguish understanding a business from just feeling confident about it?",
+      "writer": "MiniMax-M3-W8A8",
+      "planning_retrieval_writer_ms": 81365,
+      "scores": {
+        "source_fidelity": 3,
+        "completeness_usefulness": 3,
+        "readability": 4
+      },
+      "finding": "Overstates boundary awareness and invents a risk-description test.",
+      "accepted_as_written": false
+    },
+    {
+      "case": "rv03",
+      "question": "Can growing profits make a company less valuable?",
+      "writer": "MiniMax-M3-W8A8",
+      "planning_retrieval_writer_ms": 66337,
+      "scores": {
+        "source_fidelity": 3,
+        "completeness_usefulness": 4,
+        "readability": 4,
+        "scale": "1\u20135; 5 is strongest. Fidelity 3 means the core explanation is supported but a material, localized interpretation needs correction."
+      },
+      "finding": "Confuses value lost versus paying out cash with an actual fall in per-share value.",
+      "accepted_as_written": false
+    },
+    {
+      "case": "rv04",
+      "question": "Is the S&P 500 cheap enough to buy today?",
+      "writer": "DeepSeek-V4-Flash",
+      "planning_retrieval_writer_ms": 50053,
+      "scores": {
+        "source_fidelity": 3,
+        "usefulness": 4,
+        "readability": 4,
+        "completeness_usefulness": 4
+      },
+      "finding": "Correctly withholds a current verdict, but conflates macro uncertainty with forecasting business earnings.",
+      "accepted_as_written": false
+    }
+  ],
+  "local_full_records": "The project work/answer-quality-2026-11-14 directory retains immutable input packets, model outputs and source audits. It is not included in this Git snapshot.",
+  "format_fix_replay": {
+    "scope": "Offline replay of the immutable actual RV04 DeepSeek answer against its exact saved evidence. Presentation/structure/source-key/quote validation only; no semantic approval.",
+    "modelCalls": 0,
+    "originalResult": "rv04-writer-deepseek.result.json",
+    "originalResultSha256": "dcae2e74a2d07a8e3b1c9d57d48bbbd33c01752fd5276dbc888977393e6dcff2",
+    "preparedSha256": "8deab2630c72bae2ad74a65af131d573405d5898aedd4aa168fb36ae3c0552b0",
+    "savedPromptVersion": "source-grounded-writer-3.9",
+    "currentParserVersion": "source-grounded-writer-3.10",
+    "promptProseUnchanged": true,
+    "passed": true,
+    "referenceArraysPreserved": true,
+    "checks": {
+      "kind": "structure_citations_and_exact_quotes_only",
+      "referenceKeys": [
+        "P03-014",
+        "P03-015",
+        "P02-013",
+        "P02-014",
+        "P05-010",
+        "P05-013",
+        "P05-025",
+        "P02-022",
+        "P03-011",
+        "P03-013",
+        "P05-011"
+      ],
+      "exactQuotes": [],
+      "normalizations": [],
+      "semanticGroundingChecked": false,
+      "duplicateCitationMarkers": [
+        {
+          "kind": "duplicate_citation_parenthetical_removed",
+          "paragraph": "sections.0.paragraphs.0",
+          "offset": 206,
+          "before": " (P02-013, P02-014, P02-022)",
+          "referenceKeys": [
+            "P02-013",
+            "P02-014",
+            "P02-022"
+          ]
+        },
+        {
+          "kind": "duplicate_citation_parenthetical_removed",
+          "paragraph": "sections.0.paragraphs.0",
+          "offset": 646,
+          "before": " (P03-011, P03-013, P03-014, P03-015)",
+          "referenceKeys": [
+            "P03-011",
+            "P03-013",
+            "P03-014",
+            "P03-015"
+          ]
+        },
+        {
+          "kind": "duplicate_citation_parenthetical_removed",
+          "paragraph": "sections.0.paragraphs.0",
+          "offset": 926,
+          "before": " (P05-010, P05-011, P05-013, P05-025)",
+          "referenceKeys": [
+            "P05-010",
+            "P05-011",
+            "P05-013",
+            "P05-025"
+          ]
+        }
+      ]
+    }
+  }
+}

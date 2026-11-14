@@ -26,6 +26,14 @@ export type GenerationValidationResult = {
       after: string;
       referenceKey: string;
     }[];
+    /** Presentation-only removal of already-authorized, paragraph-local keys. */
+    duplicateCitationMarkers?: {
+      kind: "duplicate_citation_parenthetical_removed";
+      paragraph: string;
+      offset: number;
+      before: string;
+      referenceKeys: string[];
+    }[];
     semanticGroundingChecked: false;
   };
 };

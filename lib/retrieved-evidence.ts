@@ -8,7 +8,7 @@ type Context = { context_id: string; source_id: string; title: string; source_ur
 type Document = { id: string; sourceId: string; title: string; length: number; textCharacters: number; unitIds: string[]; complete: boolean; kind: string; shard: string };
 type ArchiveIndex = { version: string; bundle_hash: string; scope: string; summary: Record<string, unknown>; documents: Document[]; postings: Record<string, number[]> };
 const index = indexData as unknown as ArchiveIndex;
-export const RETRIEVAL_VERSION = 'archive-query-coverage-2';
+export const RETRIEVAL_VERSION = 'archive-phrase-coverage-3';
 export const LIVE_EVIDENCE_VERSION = `${index.bundle_hash}:${RETRIEVAL_VERSION}`;
 const MAX_CONTEXTS = 6, MAX_SOURCE_CHARACTERS = 42_000;
 const STOP = new Set('a an the and or for of to in on with from by as at is are was were be been being it its this that these those i you your we our he his they their them do does did can could would should may might will what which how why when where who than then about into over have has had not no if but so all any some more most much many very also just really tell say said says think thoughts please explain according warren buffett charlie munger'.split(' '));
@@ -19,6 +19,10 @@ export function searchTokens(text: string): string[] {
     if (w.length > 4 && w.endsWith('s') && !w.endsWith('ss')) return w.slice(0, -1);
     return w;
   });
+}
+function searchPhrases(text:string):string[] {
+  const terms=searchTokens(text).slice(0,24);
+  return [...new Set(terms.slice(0,-1).map((term,i)=>`${term} ${terms[i+1]}`))];
 }
 // Search-language variants only: never supplied to the writer as evidence.
 const CONCEPTS = [
@@ -74,14 +78,20 @@ export function searchArchive(question: string, previousQuestion?: string, optio
   const direct = [...new Set(searchTokens(question))].slice(0,24);
   const history = usedPreviousQuestion ? [...new Set(searchTokens(previousQuestion!))].filter(w => !direct.includes(w)).slice(0,16) : [];
   const originalGroups = [...direct.map(term => ({term,weight:1})), ...history.map(term => ({term,weight:.45}))];
-  const normalizedQueries=[...new Map((options?.queries ?? []).map(q=>{
+  const queriesByTerms=new Map<string,{terms:string[];phrases:string[]}>();
+  for(const q of options?.queries??[]){
     const terms=[...new Set(searchTokens(q))].slice(0,16).sort();
-    return [terms.join(' '),terms] as const;
-  })).entries()].sort(([a],[b])=>a.localeCompare(b)).map(([,terms])=>terms).filter(terms=>terms.length);
+    const key=terms.join(' '),existing=queriesByTerms.get(key);
+    // Retain phrase order without allowing reordered duplicate term sets to
+    // vote twice in reciprocal-rank fusion or reserve two source contexts.
+    queriesByTerms.set(key,{terms,phrases:[...new Set([...(existing?.phrases??[]),...searchPhrases(q)])].sort()});
+  }
+  const normalizedQueries=[...queriesByTerms.entries()].sort(([a],[b])=>a.localeCompare(b)).map(([,query])=>query).filter(query=>query.terms.length);
   if (options?.queries.length && !normalizedQueries.length) throw new Error('Search plan contains no searchable terms.');
-  const variants = [{groups:originalGroups,weight: normalizedQueries.length ? 0.5 : 1,planned:false}, ...normalizedQueries.map(terms=>({groups:terms.map(term=>({term,weight:1})),weight:1,planned:true}))];
+  const variants = [{groups:originalGroups,phrases:[...searchPhrases(question),...(usedPreviousQuestion?searchPhrases(previousQuestion!):[])],weight: normalizedQueries.length ? 0.5 : 1,planned:false}, ...normalizedQueries.map(({terms,phrases})=>({groups:terms.map(term=>({term,weight:1})),phrases,weight:1,planned:true}))];
   const fused=new Map<number,number>();
   const plannedRankings: Document[][]=[];
+  const variantRankings:{variant:typeof variants[number];candidates:{at:number;score:number}[]}[]=[];
   for (const variant of variants) {
     const {groups}=variant;
     if (!groups.length) continue;
@@ -103,7 +113,40 @@ export function searchArchive(question: string, previousQuestion?: string, optio
       if (!document.complete || !scores[at] || matches[at]<Math.min(2,groups.length)) return [];
       return [{at,score:scores[at]*(.35+.65*matches[at]/groups.length)*(document.kind==='reviewed_context'?1.06:1)}];
     }).sort((a,b)=>b.score-a.score || index.documents[a.at].id.localeCompare(index.documents[b.at].id));
-    const eligible=rankedVariant.slice(0,80).filter(item=>item.score>=(rankedVariant[0]?.score ?? 0)*.3);
+    variantRankings.push({variant,candidates:rankedVariant.slice(0,80)});
+  }
+  // Bag-of-words matches may scatter a concept's words across unrelated parts
+  // of a long document. Rerank only the bounded lexical candidates using
+  // ordered, normalized bigrams in original paragraphs, never titles/aliases.
+  // Group reads by shard so a query does not repeatedly decompress each shard.
+  const wantedPhrases=new Set(variants.flatMap(v=>v.phrases));
+  const currentPhrases=new Set(searchPhrases(question));
+  const phraseCounts=new Map<number,Map<string,number>>();
+  const candidateIds=[...new Set(variantRankings.flatMap(r=>r.candidates.map(c=>c.at)))];
+  candidateIds.sort((a,b)=>index.documents[a].shard.localeCompare(index.documents[b].shard)||a-b);
+  if(wantedPhrases.size)for(const at of candidateIds){
+    const counts=new Map<string,number>();
+    for(const paragraph of contextFor(index.documents[at]).paragraphs){
+      const terms=searchTokens(paragraph.reading_text??paragraph.text);
+      for(let i=0;i<terms.length-1;i++){
+        const phrase=`${terms[i]} ${terms[i+1]}`;
+        if(wantedPhrases.has(phrase))counts.set(phrase,(counts.get(phrase)??0)+1);
+      }
+    }
+    phraseCounts.set(at,counts);
+  }
+  for(const {variant,candidates} of variantRankings){
+    const sources=new Set(candidates.map(c=>index.documents[c.at].sourceId));
+    const phraseSources=new Map(variant.phrases.map(phrase=>[phrase,new Set(candidates.filter(c=>(phraseCounts.get(c.at)?.get(phrase)??0)>0).map(c=>index.documents[c.at].sourceId))]));
+    for(const item of candidates)for(const [phrase,matchingSources] of phraseSources){
+      const tf=phraseCounts.get(item.at)?.get(phrase)??0,df=matchingSources.size;
+      // Repeated windows from one source are not independent phrase evidence.
+      // Single-source coincidences get no bonus; the base score still applies.
+      const weight=variant.planned||currentPhrases.has(phrase)?1:.45;
+      if(tf&&df>=2)item.score+=2*Math.log(1+(sources.size-df+.5)/(df+.5))*tf/(tf+1)*weight;
+    }
+    candidates.sort((a,b)=>b.score-a.score||index.documents[a.at].id.localeCompare(index.documents[b.at].id));
+    const eligible=candidates.filter(item=>item.score>=(candidates[0]?.score ?? 0)*.3);
     if (variant.planned) plannedRankings.push(eligible.map(item=>index.documents[item.at]));
     for (const [rank,item] of eligible.entries()) {
       const score=options?.queries.length ? variant.weight/(20+rank) : item.score;

@@ -4,6 +4,8 @@
 
 Start with [the engineering handoff](HANDOFF.md) and [the review request](docs/REVIEW-REQUEST.md). Application source comes from Site commit `58bca6e0857e898c453261e01956be51e2a17c5f` (live version 5 when exported, 2026-11-05). The original seven-commit application history is retained.
 
+The [14 November local candidate assessment](diagnostics/model-quality-2026-11-14.json) records a reproduced phrase-ranking fix, four actual model-planned questions and remaining source-fidelity failures using the available domestic MarsAPI models. Candidate code also handles strictly redundant paragraph citation markers. These changes have not been deployed or accepted as a complete answering pipeline. The dated export description below remains historical; use the candidate assessment for the latest local test scope.
+
 ## The failure to reproduce
 
 `how to be a great investor` returns no source contexts in the hosted application's router. The included local archive retriever finds relevant originals for the same question. The website currently uses fixed phrases over **19 selected contexts**; it does not search the full archive. Its seven prepared answers use a separate exact-match path and therefore do not prove that free-form answering works.

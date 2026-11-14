@@ -1,0 +1,299 @@
+{
+  "scope": "Saved actual-provider query plan and pre-change offline selections; no generated answer or live success assertion.",
+  "bundleHash": "6550e386a5a5ab587f052f92592b25523fdad4950154ff019c0a34aad7550fd4",
+  "baseline": {
+    "question": "how to pick up stocks",
+    "queries": [
+      "how to pick stocks",
+      "circle of competence",
+      "intrinsic value calculation",
+      "quality business durable competitive advantage"
+    ],
+    "usePreviousQuestion": false,
+    "selectedIds": [
+      "chapter:cnbc-meeting-1998-afternoon-ch06",
+      "chapter:cnbc-meeting-2011-morning-ch09",
+      "letter-1996-0098-0118",
+      "chapter:cnbc-meeting-1999-afternoon-ch27",
+      "meeting-2021-index-estate",
+      "chapter:cnbc-meeting-2009-morning-ch15"
+    ],
+    "perQueryBest": [
+      {
+        "query": "how to pick stocks",
+        "id": "meeting-2002-index"
+      },
+      {
+        "query": "circle of competence",
+        "id": "chapter:cnbc-meeting-2002-afternoon-ch18"
+      },
+      {
+        "query": "intrinsic value calculation",
+        "id": "chapter:cnbc-meeting-1999-afternoon-ch33"
+      },
+      {
+        "query": "quality business durable competitive advantage",
+        "id": "letter-1996-0098-0118"
+      }
+    ]
+  },
+  "unplanned": [
+    {
+      "id": "H01-1",
+      "question": "I want to become a really good investor. What habits and way of thinking did Buffett say I should develop?",
+      "ids": [
+        "chapter:cnbc-meeting-1995-afternoon-ch25",
+        "chapter:cnbc-meeting-2002-afternoon-ch22",
+        "chapter:cnbc-meeting-2007-morning-ch14",
+        "chapter:cnbc-meeting-2002-morning-ch28",
+        "chapter:cnbc-meeting-2005-morning-ch21",
+        "chapter:cnbc-meeting-2013-afternoon-ch18"
+      ]
+    },
+    {
+      "id": "H01-2",
+      "question": "Is exceptional brainpower what makes someone successful at picking stocks, or did Warren put more weight on things I can learn?",
+      "ids": [
+        "window:cnbc-ask-warren-2012-02-27:cnbc-ask-warren-2012-02-27:p048:cnbc-ask-warren-2012-02-27:p050",
+        "chapter:cnbc-meeting-2008-afternoon-ch27",
+        "chapter:cnbc-meeting-2016-morning-ch08",
+        "chapter:cnbc-meeting-2005-morning-ch12",
+        "chapter:cnbc-meeting-2011-morning-ch08",
+        "chapter:cnbc-meeting-2002-afternoon-ch34"
+      ]
+    },
+    {
+      "id": "H02-1",
+      "question": "How did Buffett work out what a company is really worth underneath its quoted share price?",
+      "ids": [
+        "chapter:cnbc-meeting-2019-morning-ch11",
+        "chapter:cnbc-meeting-2002-afternoon-ch12",
+        "chapter:cnbc-meeting-2009-morning-ch24",
+        "window:berkshire-letter-2017:berkshire-letter-2017:u0007:berkshire-letter-2017:u0009",
+        "chapter:cnbc-meeting-1996-morning-ch41",
+        "window:berkshire-letter-2024:berkshire-letter-2024:u0005:berkshire-letter-2024:u0007"
+      ]
+    },
+    {
+      "id": "H02-2",
+      "question": "What does intrinsic value mean in his letters, and why can two sensible people come up with different numbers?",
+      "ids": [
+        "window:berkshire-letter-2014:berkshire-letter-2014:u0005:berkshire-letter-2014:u0007",
+        "window:berkshire-letter-2010:berkshire-letter-2010:u0005:berkshire-letter-2010:u0007",
+        "window:berkshire-letter-2012:berkshire-letter-2012:u0018:berkshire-letter-2012:u0020",
+        "chapter:cnbc-meeting-1994-morning-ch49",
+        "chapter:cnbc-meeting-2012-morning-ch09"
+      ]
+    },
+    {
+      "id": "H03-1",
+      "question": "Do I need to understand every industry before I buy individual companies, or is a narrow area of expertise enough?",
+      "ids": [
+        "chapter:cnbc-meeting-2004-morning-ch12",
+        "meeting-2002-boundary",
+        "chapter:cnbc-meeting-2006-morning-ch05",
+        "chapter:cnbc-meeting-1999-afternoon-ch16",
+        "chapter:cnbc-meeting-1999-morning-ch29",
+        "chapter:cnbc-meeting-1999-morning-ch26"
+      ]
+    },
+    {
+      "id": "H03-2",
+      "question": "If I can explain what a company sells, does Buffett think that is enough to know I can invest in it intelligently?",
+      "ids": [
+        "chapter:cnbc-meeting-1997-afternoon-ch15",
+        "chapter:cnbc-meeting-2014-afternoon-ch31",
+        "chapter:cnbc-meeting-2013-afternoon-ch24",
+        "chapter:cnbc-meeting-2014-morning-ch23",
+        "chapter:cnbc-meeting-2002-afternoon-ch27",
+        "chapter:cnbc-meeting-2007-morning-ch06"
+      ]
+    },
+    {
+      "id": "H04-1",
+      "question": "For somebody who cannot choose winning companies, what did Buffett say is a sensible way to own shares?",
+      "ids": [
+        "section:berkshire-letter-1985:read001",
+        "chapter:cnbc-meeting-2010-morning-ch30",
+        "window:cnbc-ask-warren-2013-03-04:cnbc-ask-warren-2013-03-04:p051:cnbc-ask-warren-2013-03-04:p053",
+        "window:berkshire-letter-2014:berkshire-letter-2014:u0004:berkshire-letter-2014:u0006",
+        "chapter:cnbc-meeting-2004-afternoon-ch08",
+        "chapter:cnbc-meeting-2007-afternoon-ch06"
+      ]
+    },
+    {
+      "id": "H04-2",
+      "question": "Why would Warren tell ordinary savers to buy an index tracker instead of paying experts to select their stocks?",
+      "ids": [
+        "chapter:cnbc-meeting-2023-morning-ch24",
+        "window:berkshire-letter-2022:berkshire-letter-2022:u0001:berkshire-letter-2022:u0002",
+        "window:berkshire-letter-2022:berkshire-letter-2022:u0002:berkshire-letter-2022:u0004",
+        "window:berkshire-letter-2013:berkshire-letter-2013:u0017:berkshire-letter-2013:u0019",
+        "meeting-2002-index",
+        "chapter:cnbc-meeting-2013-afternoon-ch15"
+      ]
+    },
+    {
+      "id": "H05-1",
+      "question": "How does taking insurance premiums before paying claims give Berkshire money it can use, and is that money actually free?",
+      "ids": [
+        "window:berkshire-letter-2013:berkshire-letter-2013:u0007:berkshire-letter-2013:u0009",
+        "window:berkshire-letter-2010:berkshire-letter-2010:u0008:berkshire-letter-2010:u0010",
+        "chapter:cnbc-meeting-2002-morning-ch12",
+        "window:berkshire-letter-2018:berkshire-letter-2018:u0007:berkshire-letter-2018:u0009",
+        "chapter:cnbc-meeting-2012-morning-ch22"
+      ]
+    },
+    {
+      "id": "H05-2",
+      "question": "When Warren talks about float, why can the same pool of policyholders’ money be either valuable or a burden to an insurer?",
+      "ids": [
+        "window:berkshire-letter-1999:berkshire-letter-1999:u0004:berkshire-letter-1999:u0006",
+        "section:berkshire-letter-1991:read008",
+        "section:berkshire-letter-1986:read004",
+        "chapter:cnbc-meeting-1995-morning-ch23"
+      ]
+    },
+    {
+      "id": "H06-1",
+      "question": "Why did Buffett think a strong candy brand could cope with rising prices better than a company that constantly has to replace expensive equipment?",
+      "ids": [
+        "window:berkshire-letter-2014:berkshire-letter-2014:u0026:berkshire-letter-2014:u0028",
+        "window:berkshire-letter-2010:berkshire-letter-2010:u0012:berkshire-letter-2010:u0014",
+        "chapter:cnbc-meeting-2018-morning-ch23",
+        "window:berkshire-letter-2015:berkshire-letter-2015:u0016:berkshire-letter-2015:u0018",
+        "chapter:cnbc-meeting-2015-afternoon-ch02",
+        "chapter:cnbc-meeting-2013-afternoon-ch05"
+      ]
+    },
+    {
+      "id": "H06-2",
+      "question": "When inflation pushes up replacement costs, which business characteristics did Warren say are helpful and which become a problem?",
+      "ids": [
+        "chapter:cnbc-meeting-2015-afternoon-ch02",
+        "window:berkshire-letter-2023:berkshire-letter-2023:u0011:berkshire-letter-2023:u0013",
+        "window:berkshire-letter-2016:berkshire-letter-2016:u0013:berkshire-letter-2016:u0015",
+        "chapter:cnbc-meeting-2011-afternoon-ch11",
+        "window:berkshire-letter-2011:berkshire-letter-2011:u0015:berkshire-letter-2011:u0017",
+        "chapter:cnbc-meeting-2021-part-1-ch27"
+      ]
+    },
+    {
+      "id": "H07-1",
+      "question": "Are companies always doing shareholders a favor when they buy back their own shares?",
+      "ids": [
+        "chapter:cnbc-meeting-1995-morning-ch03",
+        "letter-1996-common-stocks",
+        "chapter:cnbc-meeting-2014-morning-ch11"
+      ]
+    },
+    {
+      "id": "H07-2",
+      "question": "Why could Warren praise a stock repurchase in one period and criticize the same action in another?",
+      "ids": [
+        "chapter:cnbc-meeting-2001-morning-ch24",
+        "chapter:cnbc-meeting-2014-morning-ch34",
+        "window:berkshire-letter-2024:berkshire-letter-2024:u0001:berkshire-letter-2024:u0002",
+        "window:berkshire-letter-2016:berkshire-letter-2016:u0004:berkshire-letter-2016:u0006",
+        "section:berkshire-letter-1997:read003",
+        "window:berkshire-letter-2012:berkshire-letter-2012:u0019:berkshire-letter-2012:u0021"
+      ]
+    },
+    {
+      "id": "H08-1",
+      "question": "What did Buffett look for in a founder who would keep running a business after selling it to Berkshire?",
+      "ids": [
+        "chapter:cnbc-meeting-2014-afternoon-ch06",
+        "chapter:cnbc-meeting-2009-afternoon-ch04",
+        "chapter:cnbc-meeting-2023-morning-ch32",
+        "window:berkshire-letter-2020:berkshire-letter-2020:u0010:berkshire-letter-2020:u0012",
+        "window:berkshire-letter-2006:berkshire-letter-2006:u0003:berkshire-letter-2006:u0005",
+        "chapter:cnbc-meeting-2012-morning-ch23"
+      ]
+    },
+    {
+      "id": "H08-2",
+      "question": "Would a very clever, hard-working executive be enough for Warren, or was there another quality he would refuse to do without?",
+      "ids": [
+        "chapter:cnbc-meeting-2015-morning-ch31",
+        "section:berkshire-letter-1992:read009",
+        "chapter:cnbc-meeting-2001-morning-ch11",
+        "section:berkshire-letter-1995:read011",
+        "chapter:cnbc-meeting-2018-morning-ch07",
+        "chapter:cnbc-meeting-2016-afternoon-ch02"
+      ]
+    },
+    {
+      "id": "N01",
+      "question": "How much water should I add to 500 grams of flour for a sourdough loaf?",
+      "ids": [
+        "chapter:cnbc-meeting-2008-morning-ch22",
+        "window:berkshire-letter-2023:berkshire-letter-2023:u0015:berkshire-letter-2023:u0016",
+        "chapter:cnbc-meeting-2002-morning-ch27",
+        "chapter:cnbc-meeting-2024-morning-ch10",
+        "chapter:cnbc-meeting-2016-morning-ch13",
+        "chapter:cnbc-meeting-2012-afternoon-ch04"
+      ]
+    },
+    {
+      "id": "N02",
+      "question": "My laptop battery will not charge. Walk me through repairing the charging circuit.",
+      "ids": [
+        "chapter:cnbc-meeting-2016-morning-ch29",
+        "chapter:cnbc-meeting-2000-morning-ch10",
+        "chapter:cnbc-meeting-2021-part-2-ch30",
+        "chapter:cnbc-meeting-2002-afternoon-ch33",
+        "chapter:cnbc-meeting-2000-afternoon-ch05",
+        "section:berkshire-letter-1991:read007"
+      ]
+    },
+    {
+      "id": "N03",
+      "question": "What exact price will Apple shares close at next Friday, according to Buffett?",
+      "ids": [
+        "chapter:cnbc-meeting-2017-morning-ch12",
+        "chapter:cnbc-meeting-2003-morning-ch35",
+        "chapter:cnbc-meeting-2024-afternoon-ch05",
+        "chapter:cnbc-meeting-2001-afternoon-ch32",
+        "chapter:cnbc-meeting-2023-morning-ch25",
+        "window:cnbc-ask-warren-2012-02-27:cnbc-ask-warren-2012-02-27:p057:cnbc-ask-warren-2012-02-27:p059"
+      ]
+    },
+    {
+      "id": "N04",
+      "question": "Summarize the stock recommendations Buffett made in his 2028 shareholder letter.",
+      "ids": [
+        "window:berkshire-letter-2010:berkshire-letter-2010:u0026:berkshire-letter-2010:u0027",
+        "window:berkshire-letter-2006:berkshire-letter-2006:u0019:berkshire-letter-2006:u0021",
+        "window:berkshire-letter-2006:berkshire-letter-2006:u0021:berkshire-letter-2006:u0023",
+        "chapter:cnbc-meeting-2009-morning-ch34",
+        "chapter:cnbc-meeting-2017-morning-ch33",
+        "chapter:cnbc-meeting-1998-morning-ch31"
+      ]
+    },
+    {
+      "id": "C01",
+      "question": "What should I read and practise to get better at that?",
+      "previousQuestion": "I want to learn to invest well. What did Buffett consider more useful than a huge IQ?",
+      "ids": [
+        "chapter:cnbc-meeting-2004-morning-ch17",
+        "chapter:cnbc-meeting-2004-afternoon-ch27",
+        "chapter:cnbc-meeting-2003-afternoon-ch02",
+        "chapter:cnbc-meeting-2018-afternoon-ch23",
+        "chapter:cnbc-meeting-2001-afternoon-ch03",
+        "chapter:cnbc-meeting-2008-afternoon-ch14"
+      ]
+    },
+    {
+      "id": "C02",
+      "question": "Separate question: why can an insurer earn money from premiums it has not paid out in claims yet?",
+      "previousQuestion": "What does Buffett mean by staying within what I understand?",
+      "ids": [
+        "window:berkshire-letter-2014:berkshire-letter-2014:u0007:berkshire-letter-2014:u0009",
+        "window:berkshire-letter-2013:berkshire-letter-2013:u0006:berkshire-letter-2013:u0008",
+        "window:berkshire-letter-2011:berkshire-letter-2011:u0006:berkshire-letter-2011:u0008",
+        "chapter:cnbc-meeting-2005-afternoon-ch28"
+      ]
+    }
+  ]
+}

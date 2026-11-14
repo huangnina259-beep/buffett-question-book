@@ -15,6 +15,13 @@
       "when": 1793861190089,
       "tag": "0001_wandering_cloak",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1794471324579,
+      "tag": "0002_private_generation_diagnostics",
+      "breakpoints": true
     }
   ]
 }

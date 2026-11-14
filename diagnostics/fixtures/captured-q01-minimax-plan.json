@@ -1,0 +1,35 @@
+{
+  "scope": "One actual MiniMax planner response, diagnostically normalized, and local archive retrieval; not end-to-end answer or hosted acceptance",
+  "capturedResultSha256": "a84bb1a78ab9e5556277e7632f66844bcc883ca452407e548ae62f78c70ec502",
+  "question": "How do I evaluate a stock's intrinsic value?",
+  "version": "query-plan-3",
+  "plan": {
+    "inScope": true,
+    "queries": [
+      "intrinsic value definition discounted cash flows",
+      "owner earnings calculation Berkshire Hathaway",
+      "discount rate growth rate assumptions intrinsic value",
+      "margin of safety limitations intrinsic value estimate"
+    ],
+    "usePreviousQuestion": false
+  },
+  "retrievalMs": 21,
+  "contextIds": [
+    "chapter:cnbc-meeting-1998-afternoon-ch08",
+    "window:berkshire-letter-2003:berkshire-letter-2003:u0001:berkshire-letter-2003:u0003",
+    "window:berkshire-owner-manual:berkshire-owner-manual:u0005:berkshire-owner-manual:u0006",
+    "chapter:cnbc-meeting-2004-morning-ch29",
+    "chapter:cnbc-meeting-2007-morning-ch20",
+    "letter-1992-0074-0085"
+  ],
+  "sourceCharacters": 40994,
+  "hasOwnerDefinition": false,
+  "productionParserAccepted": false,
+  "diagnosticNormalization": "Removed one exact enclosing json code fence to inspect the plan; not a production success.",
+  "ownerQueryBaseline": {
+    "definitionRank": 21,
+    "definitionScore": 7.410507614791225,
+    "leadingId": "window:berkshire-letter-2003:berkshire-letter-2003:u0001:berkshire-letter-2003:u0003",
+    "leadingScore": 10.81686626876622
+  }
+}

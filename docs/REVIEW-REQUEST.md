@@ -1,3 +1,5 @@
+> Repair-branch update (2026-11-12): read the current section of `HANDOFF.md` first. Version 6 now searches the eligible full archive via a short query planner and lexical rank fusion, but the real `how to pick up stocks` question still failed its source-support review. Investigate the concrete rejection with retained diagnostics; do not assume that connecting the archive solved answer reliability. The original review request below documents the version-5 baseline.
+
 # Independent review request
 
 Please reproduce the failure before proposing changes. This repository is an engineering review snapshot, not a working general-purpose Q&A release.

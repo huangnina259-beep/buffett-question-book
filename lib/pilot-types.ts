@@ -24,6 +24,22 @@ export type PilotAnswer = {
   reference_keys: string[];
   next?: string | null;
 };
+export type GenerationStageTiming = {
+  // A completed provider call may still fail the later source/format check.
+  status: "not_started" | "completed" | "failed" | "unknown";
+  durationMs: number | null;
+};
+export type GenerationTimings = {
+  version: 1;
+  // Starts before retrieval and ends before the final result is persisted.
+  // Excludes HTTP delivery, later polling/cache lookup, and final persistence.
+  scope: "original_preparation";
+  planning?: GenerationStageTiming;
+  retrieval: GenerationStageTiming;
+  writer: GenerationStageTiming;
+  reviewer: GenerationStageTiming;
+  totalMs: number | null;
+};
 export type PilotResult = {
   id: string;
   kind: "curated" | "generated" | "suggestions" | "unavailable" | "question_received" | "processing";
@@ -35,6 +51,7 @@ export type PilotResult = {
   suggestions?: { slug: string; title: string; short: string }[];
   elapsedMs: number;
   retryAfterMs?: number;
+  timings?: GenerationTimings;
   generation?: {
     label: string;
     checks: "structure_citations_and_exact_quotes_only";

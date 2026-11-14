@@ -1,0 +1,40 @@
+{
+  "scope": "Immutable captured planner-output regression. This predates generic method-decomposition prompt guidance and is not a new model response.",
+  "question": "How do I evaluate a stock's intrinsic value?",
+  "capturedResultSha256": "6f2c765fbb10a0bc72e1956f43cfada88f6419be1027d31ccf6efbd3fe4f7fc4",
+  "requestedModel": "DeepSeek-V4-Flash-0731",
+  "promptHash": "c00eaeb909bb9e3d0deff00a8e71e6f1529a700c0324c42902a05fcf02fee7fe",
+  "plan": {
+    "inScope": true,
+    "queries": [
+      "estimating intrinsic value",
+      "discounted cash flow evaluation business",
+      "Buffett intrinsic value definition"
+    ],
+    "usePreviousQuestion": false
+  },
+  "originalSelection": {
+    "question": "How do I evaluate a stock's intrinsic value?",
+    "plan": {
+      "inScope": true,
+      "queries": [
+        "estimating intrinsic value",
+        "discounted cash flow evaluation business",
+        "Buffett intrinsic value definition"
+      ],
+      "usePreviousQuestion": false
+    },
+    "retrievalMs": 16,
+    "contextIds": [
+      "letter-1992-0074-0085",
+      "chapter:cnbc-meeting-2017-morning-ch15",
+      "chapter:cnbc-meeting-1995-afternoon-ch22",
+      "window:berkshire-owner-manual:berkshire-owner-manual:u0005:berkshire-owner-manual:u0006",
+      "letter-1994-0013-0026",
+      "chapter:cnbc-meeting-2003-afternoon-ch05"
+    ],
+    "sourceCharacters": 35533,
+    "contexts": 6,
+    "maximumCharacters": 42000
+  }
+}
